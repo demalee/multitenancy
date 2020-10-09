@@ -4,10 +4,7 @@
     <list default="true" id="2b2d6082-966a-4fa0-a7e9-9b2f40d03de2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/apps.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/apps.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/header.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/themes.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/themes.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,7 +164,7 @@
       <updated>1601970903834</updated>
       <workItem from="1601970905764" duration="2685000" />
       <workItem from="1601997206106" duration="4029000" />
-      <workItem from="1602174507948" duration="12326000" />
+      <workItem from="1602174507948" duration="14722000" />
     </task>
     <servers />
   </component>
