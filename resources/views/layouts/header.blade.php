@@ -8,22 +8,22 @@
                         <div class="mobile-back text-right"><span>Back</span><i class="fa fa-angle-right pl-2" aria-hidden="true"></i></div>
                     </li>
                     <li class="dropdown">
-                        <a class="nav-link menu-title active" href="#"><i data-feather="home"></i><span>Dashboard</span>
-                            <div class="according-menu"><i class="fa fa-angle-double-down"></i></div>
-                        </a>
-                        <ul class="nav-submenu menu-content" style="display: block;">
-                            <li><a href="index.html" class="">Business</a></li>
-                            <li><a href="{{url('dashboard/dashboard')}}" class="">Enterprise</a></li>
+                        <a class="nav-link menu-title active" href="{{url('/')}}"><i data-feather="home"></i><span>Dashboard</span>
 
-                        </ul>
+                        </a>
+
                     </li>
                     <li class="dropdown">
-                        <a class="nav-link menu-title " href="#"><i data-feather="airplay"></i><span>Widgets</span>
-                            <div class="according-menu"><i class="fa fa-angle-right"></i></div>
+                        <a class="nav-link menu-title " href="#"><i data-feather="airplay"></i><span>Apearance</span>
+                            <div class="according-menu"><i data-feather="chevrons-right"></i></div>
                         </a>
                         <ul class="nav-submenu menu-content" style="display: none">
-                            <li><a href="" class="">General</a></li>
-                            <li><a href="" class="">Chart</a></li>
+                            <li><a href="{{url('/themes')}}" class="">Themes</a></li>
+                            <li><a href="{{url('/menus')}}" class="">Menus</a></li>
+                            <li><a href="#" class="">Widgets</a></li>
+                            <li><a href="#" class="">Themes Options</a></li>
+                            <li><a href="{{url('custom-css')}}" class="">Custom-css</a></li>
+
                         </ul>
                     </li>
 
