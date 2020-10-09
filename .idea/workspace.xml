@@ -3,7 +3,319 @@
   <component name="ChangeListManager">
     <list default="true" id="2b2d6082-966a-4fa0-a7e9-9b2f40d03de2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/ThemeServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/ThemeServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/Agri_theme/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/Agri_theme/.env.example" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/Agri_theme/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/Agri_theme/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/Agri_theme/.styleci.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/Agri_theme/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/Agri_theme/app/Console/Kernel.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/Agri_theme/app/Exceptions/Handler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/Agri_theme/app/Http/Controllers/Auth/ConfirmPasswordController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/Agri_theme/app/Http/Controllers/Auth/ForgotPasswordController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/Agri_theme/app/Http/Controllers/Auth/LoginController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/Agri_theme/app/Http/Controllers/Auth/RegisterController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/Agri_theme/app/Http/Controllers/Auth/ResetPasswordController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/Agri_theme/app/Http/Controllers/Auth/VerificationController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/Agri_theme/app/Http/Controllers/Controller.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/Agri_theme/app/Http/Controllers/HomeController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/Agri_theme/app/Http/Kernel.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/Agri_theme/app/Http/Middleware/Authenticate.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/Agri_theme/app/Http/Middleware/EncryptCookies.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/Agri_theme/app/Http/Middleware/PreventRequestsDuringMaintenance.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/Agri_theme/app/Http/Middleware/RedirectIfAuthenticated.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/Agri_theme/app/Http/Middleware/TrimStrings.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/Agri_theme/app/Http/Middleware/TrustHosts.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/Agri_theme/app/Http/Middleware/TrustProxies.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/Agri_theme/app/Http/Middleware/VerifyCsrfToken.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/Agri_theme/app/Models/User.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/Agri_theme/app/Providers/AppServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/Agri_theme/app/Providers/AuthServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/Agri_theme/app/Providers/BroadcastServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/Agri_theme/app/Providers/EventServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/Agri_theme/app/Providers/RouteServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/Agri_theme/artisan" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/Agri_theme/bootstrap/app.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/Agri_theme/bootstrap/cache/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/Agri_theme/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/Agri_theme/composer.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/Agri_theme/config/app.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/Agri_theme/config/auth.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/Agri_theme/config/broadcasting.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/Agri_theme/config/cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/Agri_theme/config/cors.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/Agri_theme/config/database.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/Agri_theme/config/filesystems.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/Agri_theme/config/hashing.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/Agri_theme/config/logging.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/Agri_theme/config/mail.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/Agri_theme/config/queue.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/Agri_theme/config/services.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/Agri_theme/config/session.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/Agri_theme/config/view.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/Agri_theme/database/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/Agri_theme/database/factories/UserFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/Agri_theme/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/Agri_theme/database/migrations/2014_10_12_100000_create_password_resets_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/Agri_theme/database/migrations/2019_08_19_000000_create_failed_jobs_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/Agri_theme/database/seeders/DatabaseSeeder.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/Agri_theme/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/Agri_theme/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/Agri_theme/phpunit.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/Agri_theme/routes/api.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/Agri_theme/routes/channels.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/Agri_theme/routes/console.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/Agri_theme/routes/web.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/Agri_theme/server.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/Agri_theme/storage/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/Agri_theme/storage/app/public/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/Agri_theme/storage/framework/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/Agri_theme/storage/framework/cache/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/Agri_theme/storage/framework/cache/data/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/Agri_theme/storage/framework/sessions/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/Agri_theme/storage/framework/testing/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/Agri_theme/storage/framework/views/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/Agri_theme/storage/logs/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/Agri_theme/tests/CreatesApplication.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/Agri_theme/tests/Feature/ExampleTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/Agri_theme/tests/TestCase.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/Agri_theme/tests/Unit/ExampleTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/Agri_theme/webpack.mix.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/corporate_theme/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/corporate_theme/.env.example" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/corporate_theme/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/corporate_theme/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/corporate_theme/.styleci.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/corporate_theme/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/corporate_theme/app/Console/Kernel.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/corporate_theme/app/Exceptions/Handler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/corporate_theme/app/Http/Controllers/Auth/ConfirmPasswordController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/corporate_theme/app/Http/Controllers/Auth/ForgotPasswordController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/corporate_theme/app/Http/Controllers/Auth/LoginController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/corporate_theme/app/Http/Controllers/Auth/RegisterController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/corporate_theme/app/Http/Controllers/Auth/ResetPasswordController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/corporate_theme/app/Http/Controllers/Auth/VerificationController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/corporate_theme/app/Http/Controllers/Controller.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/corporate_theme/app/Http/Controllers/HomeController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/corporate_theme/app/Http/Kernel.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/corporate_theme/app/Http/Middleware/Authenticate.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/corporate_theme/app/Http/Middleware/EncryptCookies.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/corporate_theme/app/Http/Middleware/PreventRequestsDuringMaintenance.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/corporate_theme/app/Http/Middleware/RedirectIfAuthenticated.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/corporate_theme/app/Http/Middleware/TrimStrings.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/corporate_theme/app/Http/Middleware/TrustHosts.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/corporate_theme/app/Http/Middleware/TrustProxies.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/corporate_theme/app/Http/Middleware/VerifyCsrfToken.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/corporate_theme/app/Models/User.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/corporate_theme/app/Providers/AppServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/corporate_theme/app/Providers/AuthServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/corporate_theme/app/Providers/BroadcastServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/corporate_theme/app/Providers/EventServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/corporate_theme/app/Providers/RouteServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/corporate_theme/artisan" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/corporate_theme/bootstrap/app.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/corporate_theme/bootstrap/cache/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/corporate_theme/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/corporate_theme/composer.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/corporate_theme/config/app.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/corporate_theme/config/auth.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/corporate_theme/config/broadcasting.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/corporate_theme/config/cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/corporate_theme/config/cors.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/corporate_theme/config/database.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/corporate_theme/config/filesystems.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/corporate_theme/config/hashing.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/corporate_theme/config/logging.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/corporate_theme/config/mail.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/corporate_theme/config/queue.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/corporate_theme/config/services.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/corporate_theme/config/session.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/corporate_theme/config/view.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/corporate_theme/database/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/corporate_theme/database/factories/UserFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/corporate_theme/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/corporate_theme/database/migrations/2014_10_12_100000_create_password_resets_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/corporate_theme/database/migrations/2019_08_19_000000_create_failed_jobs_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/corporate_theme/database/seeders/DatabaseSeeder.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/corporate_theme/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/corporate_theme/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/corporate_theme/phpunit.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/corporate_theme/routes/api.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/corporate_theme/routes/channels.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/corporate_theme/routes/console.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/corporate_theme/routes/web.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/corporate_theme/server.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/corporate_theme/storage/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/corporate_theme/storage/app/public/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/corporate_theme/storage/framework/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/corporate_theme/storage/framework/cache/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/corporate_theme/storage/framework/cache/data/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/corporate_theme/storage/framework/sessions/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/corporate_theme/storage/framework/testing/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/corporate_theme/storage/framework/views/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/corporate_theme/storage/logs/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/corporate_theme/tests/CreatesApplication.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/corporate_theme/tests/Feature/ExampleTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/corporate_theme/tests/TestCase.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/corporate_theme/tests/Unit/ExampleTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/corporate_theme/webpack.mix.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme1/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme1/.env.example" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme1/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme1/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme1/.styleci.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme1/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme1/app/Console/Kernel.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme1/app/Exceptions/Handler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme1/app/Http/Controllers/Auth/ConfirmPasswordController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme1/app/Http/Controllers/Auth/ForgotPasswordController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme1/app/Http/Controllers/Auth/LoginController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme1/app/Http/Controllers/Auth/RegisterController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme1/app/Http/Controllers/Auth/ResetPasswordController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme1/app/Http/Controllers/Auth/VerificationController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme1/app/Http/Controllers/Controller.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme1/app/Http/Controllers/HomeController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme1/app/Http/Kernel.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme1/app/Http/Middleware/Authenticate.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme1/app/Http/Middleware/EncryptCookies.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme1/app/Http/Middleware/PreventRequestsDuringMaintenance.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme1/app/Http/Middleware/RedirectIfAuthenticated.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme1/app/Http/Middleware/TrimStrings.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme1/app/Http/Middleware/TrustHosts.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme1/app/Http/Middleware/TrustProxies.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme1/app/Http/Middleware/VerifyCsrfToken.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme1/app/Models/User.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme1/app/Providers/AppServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme1/app/Providers/AuthServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme1/app/Providers/BroadcastServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme1/app/Providers/EventServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme1/app/Providers/RouteServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme1/artisan" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme1/bootstrap/app.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme1/bootstrap/cache/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme1/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme1/composer.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme1/config/app.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme1/config/auth.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme1/config/broadcasting.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme1/config/cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme1/config/cors.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme1/config/database.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme1/config/filesystems.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme1/config/hashing.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme1/config/logging.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme1/config/mail.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme1/config/queue.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme1/config/services.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme1/config/session.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme1/config/view.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme1/database/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme1/database/factories/UserFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme1/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme1/database/migrations/2014_10_12_100000_create_password_resets_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme1/database/migrations/2019_08_19_000000_create_failed_jobs_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme1/database/seeders/DatabaseSeeder.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme1/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme1/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme1/phpunit.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme1/routes/api.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme1/routes/channels.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme1/routes/console.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme1/routes/web.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme1/server.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme1/storage/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme1/storage/app/public/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme1/storage/framework/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme1/storage/framework/cache/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme1/storage/framework/cache/data/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme1/storage/framework/sessions/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme1/storage/framework/testing/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme1/storage/framework/views/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme1/storage/logs/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme1/tests/CreatesApplication.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme1/tests/Feature/ExampleTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme1/tests/TestCase.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme1/tests/Unit/ExampleTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme1/webpack.mix.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme4/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme4/.env.example" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme4/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme4/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme4/.styleci.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme4/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme4/app/Console/Kernel.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme4/app/Exceptions/Handler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme4/app/Http/Controllers/Auth/ConfirmPasswordController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme4/app/Http/Controllers/Auth/ForgotPasswordController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme4/app/Http/Controllers/Auth/LoginController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme4/app/Http/Controllers/Auth/RegisterController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme4/app/Http/Controllers/Auth/ResetPasswordController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme4/app/Http/Controllers/Auth/VerificationController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme4/app/Http/Controllers/Controller.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme4/app/Http/Controllers/HomeController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme4/app/Http/Kernel.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme4/app/Http/Middleware/Authenticate.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme4/app/Http/Middleware/EncryptCookies.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme4/app/Http/Middleware/PreventRequestsDuringMaintenance.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme4/app/Http/Middleware/RedirectIfAuthenticated.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme4/app/Http/Middleware/TrimStrings.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme4/app/Http/Middleware/TrustHosts.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme4/app/Http/Middleware/TrustProxies.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme4/app/Http/Middleware/VerifyCsrfToken.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme4/app/Models/User.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme4/app/Providers/AppServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme4/app/Providers/AuthServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme4/app/Providers/BroadcastServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme4/app/Providers/EventServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme4/app/Providers/RouteServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme4/artisan" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme4/bootstrap/app.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme4/bootstrap/cache/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme4/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme4/composer.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme4/config/app.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme4/config/auth.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme4/config/broadcasting.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme4/config/cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme4/config/cors.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme4/config/database.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme4/config/filesystems.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme4/config/hashing.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme4/config/logging.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme4/config/mail.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme4/config/queue.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme4/config/services.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme4/config/session.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme4/config/view.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme4/database/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme4/database/factories/UserFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme4/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme4/database/migrations/2014_10_12_100000_create_password_resets_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme4/database/migrations/2019_08_19_000000_create_failed_jobs_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme4/database/seeders/DatabaseSeeder.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme4/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme4/phpunit.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme4/routes/api.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme4/routes/channels.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme4/routes/console.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme4/routes/web.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme4/server.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme4/storage/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme4/storage/app/public/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme4/storage/framework/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme4/storage/framework/cache/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme4/storage/framework/cache/data/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme4/storage/framework/sessions/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme4/storage/framework/testing/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme4/storage/framework/views/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme4/storage/logs/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme4/tests/CreatesApplication.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme4/tests/Feature/ExampleTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme4/tests/TestCase.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme4/tests/Unit/ExampleTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/theme/theme4/webpack.mix.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/themes.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/themes.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,7 +452,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../theme4" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -148,11 +460,6 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/public" />
-    </key>
   </component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -185,13 +492,12 @@
       <updated>1601970903834</updated>
       <workItem from="1601970905764" duration="2685000" />
       <workItem from="1601997206106" duration="4029000" />
-      <workItem from="1602174507948" duration="12326000" />
-      <workItem from="1602207424283" duration="7044000" />
+      <workItem from="1602174507948" duration="14722000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
     <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1602003094471">
@@ -202,10 +508,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="517" y="287" key="NewPhpFileDialog/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1602199103478" />
-    <state x="346" y="77" width="672" height="691" key="search.everywhere.popup" timestamp="1602202938286">
-      <screen x="0" y="27" width="1366" height="741" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1602200204729">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1602200204729" />
-    <state x="346" y="77" width="672" height="691" key="search.everywhere.popup/0.27.1366.741@0.27.1366.741" timestamp="1602202938286" />
   </component>
 </project>

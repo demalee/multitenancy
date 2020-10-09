@@ -31,7 +31,7 @@
         <div class="col-sm-12 col-lg-3 col-xl-3 xl-50 col-md-12 box-col-3">
             <div class="card height-equal">
                 <div class="calender-widget">
-                    <div class="cal-farm"></div>
+                    <div  class="cal-farm" ></div>
                     <div class="cal-date">
                         <h5>Added on :4<br>Match</h5>
                     </div>
