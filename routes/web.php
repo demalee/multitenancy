@@ -1,5 +1,6 @@
 <?php
 
+use App\Models\Theme;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,10 +15,12 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
+//    dd(Theme::all());
     return view('welcome');
 });
 
 Route::get('/dashboard/dashboard_themed', function () {
+
     return view('/dashboard/dashboard_themed');
 });
 Route::get('/themes', function () {
