@@ -10,5 +10,6 @@ class Theme extends Model
 //    use HasFactory;
     protected  $connection = "mysql";
     protected $table = "themes";
+    protected $fillable = ['status_active'];
 
 }

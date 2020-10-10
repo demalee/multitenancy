@@ -1,5 +1,4 @@
-
-@extends('layouts.apps')
+@extends('')
 @section('content')
 <!-- Header -->
 

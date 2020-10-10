@@ -2,112 +2,46 @@
 @section('content')
 <div class="container">
     <div class="row">
-        <div class=" xl-50 col-md-3">
-            <div class="card height-equal">
-                <div class="calender-widget">
-                    <div class="cal-farm"></div>
-                    <div class="cal-date">
-                        <h5>Added on :25<br>APRIL</h5>
-                    </div>
-                    <div class="cal-desc text-center card-body">
 
 
-
-
-
-                        <h6 class="f-w-600">Author: Botble Technologies</h6>
-                        <p class="text-muted mt-3 mb-0">
-                            Version: 5.7</p>
-                        <p class="text-muted mt-3 mb-0">Description: A magazine theme</p>
-
-                        <button class="btn btn-pill btn-primary btn-air-secondary btn-sm" type="button">Active</button>
-                        <button class="btn btn-pill btn-danger btn-air-success btn-sm" type="button">Remove</button>
-
-
-                    </div>
-                </div>
-            </div>
-        </div>
+        @foreach($themes as $theme)
         <div class="col-sm-12 col-lg-3 col-xl-3 xl-50 col-md-12 box-col-3">
             <div class="card height-equal">
                 <div class="calender-widget">
-                    <div  class="cal-farm" ></div>
-                    <div class="cal-date">
-                        <h5>Added on :4<br>Match</h5>
-                    </div>
+                    <img src="{{asset('images/'.$theme->theme_image)}}" style="width: 100%;height:200px" />
+
                     <div class="cal-desc text-center card-body">
-
-
-
-
-
-                        <h6 class="f-w-600">Author: Agriculture Technologies</h6>
-                        <p class="text-muted mt-3 mb-0">
-                            Version: 5.7</p>
-                        <p class="text-muted mt-3 mb-0">Description: A Farming  theme</p>
-
-                        <button class="btn btn-pill btn-primary btn-air-secondary btn-sm" type="button">Deactivate</button>
-                        <button class="btn btn-pill btn-danger btn-air-success btn-sm" type="button">Remove</button>
-
-
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-sm-12 col-lg-3 col-xl-3 xl-50 col-md-12 box-col-3">
-            <div class="card height-equal">
-                <div class="calender-widget">
-                    <div class="cal-school"></div>
-                    <div class="cal-date">
-                        <h5>Added on :25<br>APRIL</h5>
-                    </div>
-                    <div class="cal-desc text-center card-body">
-
-
-
-
-
-                        <h6 class="f-w-600">Author: School Technologies</h6>
-                        <p class="text-muted mt-3 mb-0">
-                            Version: 5.7</p>
-                        <p class="text-muted mt-3 mb-0">Description: A School theme</p>
-
-                        <button class="btn btn-pill btn-primary btn-air-secondary btn-sm" type="button">Active</button>
-                        <button class="btn btn-pill btn-danger btn-air-success btn-sm" type="button">Remove</button>
-
-
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-sm-12 col-lg-3 col-xl-3 xl-50 col-md-12 box-col-3">
-            <div class="card height-equal">
-                <div class="calender-widget">
-                    <div class="cal-corporate"></div>
-                    <div class="cal-date">
-                        <h5>Added on :25<br>APRIL</h5>
-                    </div>
-                    <div class="cal-desc text-center card-body">
-
-
-
-
 
                         <h6 class="f-w-600">Author: Corporate Technologies</h6>
                         <p class="text-muted mt-3 mb-0">
                             Version: 5.7</p>
-                        <p class="text-muted mt-3 mb-0">Description: A Corporate theme</p>
+                        <p class="text-muted mt-3 mb-0">Description: A {{@$theme->name}} theme</p>
 
-                        <button class="btn btn-pill btn-primary btn-air-secondary btn-sm" type="button">Active</button>
-                        <button class="btn btn-pill btn-danger btn-air-success btn-sm" type="button">Remove</button>
+                        @if($theme->id == 1)
+                            <button class="btn btn-pill btn-primary btn-air-secondary btn-medium">Default</button>
+                            <button class="btn btn-pill btn-danger btn-air-success btn-medium" type="button">Preview</button>
+                            @else
+                            @if($theme->status_active == 0)
+                                <form action="{{url('dashboard/theme/change/'.$theme->id)}}" method="post">
+                                    @csrf
+                                    <button class="btn btn-pill btn-primary btn-air-secondary btn-group-sm" name="submit" value="activate">Activate</button>
+                                </form>
 
+                                <button class="btn btn-pill btn-danger btn-air-success btn-group-sm" type="button">Preview</button>
+                            @elseif($theme->status_active == 1)
+                                <form action="{{url('dashboard/theme/change/'.$theme->id)}}" method="post">
+                                    @csrf
+                                    <button class="btn btn-pill btn-primary btn-air-secondary btn-group-sm "  name="submit" value="deactivate">Deactivate</button>
+                                </form>
 
+                            <button class="btn btn-pill btn-danger btn-air-success btn-group-sm" type="button">Preview</button>
+                            @endif
+                            @endif
                     </div>
                 </div>
             </div>
         </div>
+            @endforeach
 
     </div>
 </div>
