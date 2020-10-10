@@ -39261,33 +39261,11 @@ form.form-inline.support-res .nav-link {
 	height: 300px
 }
 
-.calender-widget .cal-img {
-    background: url(../images/other-images/farm.png);
+.calender-widget .cal-date {
 	background-size: cover;
 	border-top-left-radius: 4px;
 	border-top-right-radius: 4px;
 	height: 300px
-}
-.calender-widget .cal-farm {
-    background: url(../images/other-images/farm.png);
-    background-size: cover;
-    border-top-left-radius: 4px;
-    border-top-right-radius: 4px;
-    height: 300px
-}
-.calender-widget .cal-school {
-    background: url(../images/other-images/school.png);
-    background-size: cover;
-    border-top-left-radius: 4px;
-    border-top-right-radius: 4px;
-    height: 300px
-}
-.calender-widget .cal-corporate {
-    background: url(../images/other-images/corporate.png);
-    background-size: cover;
-    border-top-left-radius: 4px;
-    border-top-right-radius: 4px;
-    height: 300px
 }
 .calender-widget .cal-date {
 	font-family: Montserrat, sans-serif;

@@ -14,7 +14,7 @@
 
                     </li>
                     <li class="dropdown">
-                        <a class="nav-link menu-title " href="#"><i data-feather="airplay"></i><span>Apearance</span>
+                        <a class="nav-link menu-title " href="#"><i data-feather="airplay"></i><span>Appearance</span>
                             <div class="according-menu"><i data-feather="chevrons-right"></i></div>
                         </a>
                         <ul class="nav-submenu menu-content" style="display: none">
@@ -25,6 +25,13 @@
                             <li><a href="{{url('custom-css')}}" class="">Custom-css</a></li>
 
                         </ul>
+                    </li>
+
+                    <li class="dropdown">
+                        <a class="nav-link menu-title" href="{{url('/homepage')}}"><i data-feather="eye"></i><span>Preview</span>
+
+                        </a>
+
                     </li>
 
                 </ul>

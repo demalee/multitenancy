@@ -43,7 +43,7 @@
     <!-- ==============================================
     Custom Stylesheet
     =============================================== -->
-    <link rel="stylesheet" href="assets/css/default.css">
+    <link rel="stylesheet" href="{{ url($THEME_CSS.'main.css') }}">
 
     <!-- ==============================================
     Theme Color
