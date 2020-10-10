@@ -17,7 +17,8 @@ class CreateThemesTable extends Migration
             $table->id();
             $table->string('name');
             $table->string('slug');
-            $table->integer('status')->default(0);
+            $table->string('theme_image')->default(0);
+            $table->integer('status_active')->default(0);
             $table->timestamps();
         });
     }

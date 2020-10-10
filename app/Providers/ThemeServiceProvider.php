@@ -39,7 +39,7 @@ class ThemeServiceProvider extends ServiceProvider
             }
         }
         View::share("THEME_NAME",$theme_name);
-        $theme_directories = array("layouts","pages");
+        $theme_directories = array("layouts","pages","about");
         $theme_assets_directories = array("css","font","images","js","videos","img");
 
         //views directory
