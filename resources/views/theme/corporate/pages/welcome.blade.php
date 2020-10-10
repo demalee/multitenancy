@@ -1,4 +1,4 @@
-@extends('')
+@extends('theme.corporate.layouts.apps')
 @section('content')
 <!-- Header -->
 
@@ -12,7 +12,7 @@
             <div class="swiper-slide slide-center">
 
                 <!-- Media -->
-                <img src="assets/images/bg-1.jpg" alt="Full Image" class="full-image" data-mask="40">
+                <img src="{{$THEME_IMAGES.'bg-1.jpg'}}" alt="Full Image" class="full-image" data-mask="40">
 
                 <div class="slide-content row">
                     <div class="col-12 d-flex justify-content-start inner">

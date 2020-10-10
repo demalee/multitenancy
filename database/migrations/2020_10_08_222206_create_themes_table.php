@@ -17,8 +17,7 @@ class CreateThemesTable extends Migration
             $table->id();
             $table->string('name');
             $table->string('slug');
-            $table->string('route')->nullable();
-            $table->string('url')->nullable();
+            $table->integer('status')->default(0);
             $table->timestamps();
         });
     }
