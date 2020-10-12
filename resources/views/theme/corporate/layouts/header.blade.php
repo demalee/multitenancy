@@ -4,14 +4,7 @@
     <nav class="navbar navbar-expand top">
         <div class="container header">
 
-            <!-- Navbar Items [left] -->
 
-
-            <!-- Nav holder -->
-
-            <!-- Navbar Items [right] -->
-
-            <!-- Navbar Icons -->
 
 
 
@@ -51,31 +44,12 @@
                 </li>
                 <li class="nav-item"> <a class="nav-link" href="{{url('about')}}">About </a></li>
 
-                <li class="nav-item dropdown">
-                    <a href="#" class="nav-link">BLOG <i class="icon-arrow-down"></i></a>
-                    <ul class="dropdown-menu">
-                        <li class="nav-item dropdown">
-                            <a class="nav-link" href="#">Blog Posts <i class="icon-arrow-right"></i></a>
-                            <ul class="dropdown-menu">
-                                <li class="nav-item"><a href="page-blog-1.html" class="nav-link">Blog Posts <span>1</span></a></li>
-                                <li class="nav-item"><a href="page-blog-2.html" class="nav-link">Blog Posts <span>2</span></a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item"><a href="page-single-post-1.html" class="nav-link">Single Post</a></li>
-                    </ul>
-                </li>
+
                 <li class="nav-item dropdown">
                     <a href="#" class="nav-link">PARTS <i class="icon-arrow-down"></i></a>
                     <ul class="dropdown-menu">
-                        <li class="nav-item"><a href="part-section.html" class="nav-link">Section</a></li>
-                        <li class="nav-item"><a href="part-text-block.html" class="nav-link">Text Block</a></li>
-                        <li class="nav-item"><a href="part-card.html" class="nav-link">Card</a></li>
-                        <li class="nav-item"><a href="part-image-gallery.html" class="nav-link">Image Gallery</a></li>
-                        <li class="nav-item"><a href="part-image-block.html" class="nav-link">Image Block</a></li>
-                        <li class="nav-item"><a href="part-video-gallery.html" class="nav-link">Video Gallery</a></li>
-                        <li class="nav-item"><a href="part-person.html" class="nav-link">Person</a></li>
-                        <li class="nav-item"><a href="part-carousel.html" class="nav-link">Carousel</a></li>
-                        <li class="nav-item"><a href="part-counter.html" class="nav-link">Counter</a></li>
+                        <li class="nav-item"><a href="{{url('services')}}" class="nav-link">Section</a></li>
+
                     </ul>
                 </li>
             </ul>

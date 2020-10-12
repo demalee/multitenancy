@@ -48,7 +48,8 @@
                 <div class="col-lg-6 col-md-9">
 
                     <div class="about-img ">
-                        <img src="assets/img/gallery/about1.png" alt="">
+
+                        <img src="{{url($THEME_IMG.'gallery/about1.png')}}" alt="">
                     </div>
                 </div>
                 <div class="col-lg-5 col-md-9">
@@ -86,7 +87,7 @@
                         <div class="row no-gutters">
                             <div class="col-xl-6 col-lg-6 col-md-6">
                                 <div class="features-img">
-                                    <img src="assets/img/gallery/services1.png" alt="">
+                                    <img src="{{url($THEME_IMG.'gallery/services1.png')}}" alt="">
                                 </div>
                             </div>
                             <div class="col-xl-6 col-lg-6 col-md-6">
@@ -107,7 +108,7 @@
                         <div class="row no-gutters">
                             <div class="col-xl-6 col-lg-6 col-md-6">
                                 <div class="features-img">
-                                    <img src="assets/img/gallery/services2.png" alt="">
+                                    <img src="{{url($THEME_IMG.'gallery/services2.png')}}" alt="">
                                 </div>
                             </div>
                             <div class="col-xl-6 col-lg-6 col-md-6">
@@ -194,7 +195,7 @@
                         </div>
                         <div class="single-features">
                             <div class="features-icon">
-                                <img src="assets/img/icon/right-icon.svg" alt="">
+                                <img src="{{url($THEME_IMG.'right-icon.svg')}}" alt="">
                             </div>
                             <div class="features-caption">
                                 <p>Technological information and others, in addition to information about companies.</p>
@@ -202,7 +203,7 @@
                         </div>
                         <div class="single-features">
                             <div class="features-icon">
-                                <img src="assets/img/icon/right-icon.svg" alt="">
+                                <img src="{{url($THEME_IMG.'icon/right-icon.svg')}}" alt="">
                             </div>
                             <div class="features-caption">
                                 <p>Technological information and others, in addition to information about companies.</p>
@@ -210,7 +211,7 @@
                         </div>
                         <div class="single-features mb-40">
                             <div class="features-icon">
-                                <img src="assets/img/icon/right-icon.svg" alt="">
+                                <img src="{{url($THEME_IMG.'icon/right-icon.svg')}}" alt="">
                             </div>
                             <div class="features-caption">
                                 <p>Technological information and others, in addition to information about companies.</p>
@@ -222,18 +223,18 @@
                 <div class="col-lg-6 col-md-12">
 
                     <div class="about-img about-img2  ">
-                        <img src="assets/img/gallery/about2.png" alt="">
+                        <img src="{{url($THEME_IMG.'/gallery/about2.png')}}" alt="">
 
                         <div class="info-man text-center">
                             <div class="head-cap">
-                                <img src="assets/img/icon/agronomy.svg" alt="">
+                                <img src="{{url($THEME_IMG.'icon/agronomy.svg')}}" alt="">
                                 <p>Best Plants</p>
                             </div>
                         </div>
 
                         <div class="info-man info-man2 text-center">
                             <div class="head-cap">
-                                <img src="assets/img/icon/fields.svg" alt="">
+                                <img src="{{url($THEME_IMG.'icon/fields.svg')}}" alt="">
                                 <p>Award Wining</p>
                             </div>
                         </div>
@@ -244,7 +245,7 @@
     </section>
 
 
-    <div class="video-area section-bg2 d-flex align-items-center" data-background="assets/img/gallery/video-bg.png">
+    <div class="video-area section-bg2 d-flex align-items-center" data-background="{{url($THEME_IMG.'gallery/video-bg.png')}}">
         <div class="container">
             <div class="video-wrap position-relative">
 
@@ -272,7 +273,7 @@
                         <div class="row no-gutters">
                             <div class="col-xl-4 col-lg-6 col-md-5">
                                 <div class="features-img features-img2">
-                                    <img src="assets/img/gallery/services3.png" alt="">
+                                    <img src="{{url($THEME_IMG.'gallery/services3.png')}}" alt="">
                                 </div>
                             </div>
                             <div class="col-xl-8 col-lg-6 col-md-7">
@@ -294,7 +295,7 @@
                         <div class="row no-gutters">
                             <div class="col-xl-4 col-lg-6 col-md-5">
                                 <div class="features-img features-img2">
-                                    <img src="assets/img/gallery/services4.png" alt="">
+                                    <img src="{{url($THEME_IMG.'gallery/services4.png')}}" alt="">
                                 </div>
                             </div>
                             <div class="col-xl-8 col-lg-6 col-md-7">

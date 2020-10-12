@@ -38,7 +38,7 @@
             <div class="swiper-slide slide-center">
 
                 <!-- Media -->
-                <img src="assets/images/bg-2.jpg" alt="Full Image" class="full-image" data-mask="40">
+                <img src="{{$THEME_IMAGES.'bg-2.jpg'}}'" alt="Full Image" class="full-image" data-mask="40">
 
                 <div class="slide-content row">
                     <div class="col-12 d-flex justify-content-start justify-content-md-center inner">
@@ -64,7 +64,7 @@
             <div class="swiper-slide slide-center">
 
                 <!-- Media -->
-                <img src="assets/images/bg-3.jpg" alt="Full Image" class="full-image" data-mask="40">
+                <img src="{{$THEME_IMAGES.'bg-3.jpg'}}" alt="Full Image" class="full-image" data-mask="40">
 
                 <div class="slide-content row">
                     <div class="col-12 d-flex justify-content-start justify-content-md-end inner">
@@ -106,7 +106,7 @@
                 <a href="https://vimeo.com/222990241" class="square-image d-flex justify-content-center align-items-center">
                     <i class="icon bigger fas fa-play clone"></i>
                     <i class="icon bigger fas fa-play"></i>
-                    <img src="assets/images/video-1.jpg" class="fit-image" alt="Introduction Video">
+                    <img src="{{$THEME_IMAGES.'video-1.jpg'}}" class="fit-image" alt="Introduction Video">
                 </a>
             </div>
         </div>
@@ -115,7 +115,7 @@
 
 <!-- Fun Facts -->
 <section id="funfacts" class="section-2 odd counter funfacts">
-    <video class="full-image to-bottom grayscale" data-mask="70" src="assets/videos/city.mp4" autoplay muted loop></video>
+    <video class="full-image to-bottom grayscale" data-mask="70" src="{{$THEME_IMAGES.'assets/videos/city.mp4'}}" autoplay muted loop></video>
     <div class="container">
         <div class="row mb-md-5 text-center">
             <div class="col-12">
@@ -234,7 +234,7 @@
                     <div class="col-12 col-md-6 p-0">
                         <div class="row item">
                             <div class="col-4 p-0 pr-3 align-self-center">
-                                <img src="assets/images/team-1.jpg" alt="Person" class="person">
+                                <img src="{{$THEME_IMAGES.'team-1.jpg'}}" alt="Person" class="person">
                             </div>
                             <div class="col-8 align-self-center text-left">
                                 <h4>David Cooper</h4>
@@ -254,7 +254,7 @@
                         </div>
                         <div class="row item">
                             <div class="col-4 p-0 pr-3 align-self-center">
-                                <img src="assets/images/team-2.jpg" alt="Person" class="person">
+                                <img src="{{$THEME_IMAGES.'team-2.jpg'}}" alt="Person" class="person">
                             </div>
                             <div class="col-8 align-self-center text-left">
                                 <h4>Emma Lopez</h4>
@@ -276,7 +276,7 @@
                     <div class="col-12 col-md-6 p-0">
                         <div class="row item">
                             <div class="col-4 p-0 pr-3 align-self-center">
-                                <img src="assets/images/team-3.jpg" alt="Person" class="person">
+                                <img src="{{$THEME_IMAGES.'team-3.jpg'}}" alt="Person" class="person">
                             </div>
                             <div class="col-8 align-self-center text-left">
                                 <h4>Oliver Jones</h4>
@@ -296,7 +296,7 @@
                         </div>
                         <div class="row item">
                             <div class="col-4 p-0 pr-3 align-self-center">
-                                <img src="assets/images/team-4.jpg" alt="Person" class="person">
+                                <img src="{{$THEME_IMAGES.'team-4.jpg'}}" alt="Person" class="person">
                             </div>
                             <div class="col-8 align-self-center text-left">
                                 <h4>T. Johnson</h4>
@@ -352,7 +352,7 @@
                     <div class="swiper-slide slide-center item">
                         <div class="row card p-0 text-center">
                             <div class="image-over">
-                                <img src="assets/images/news-1.jpg" alt="Lorem ipsum">
+                                <img src="{{$THEME_IMAGES.'news-1.jpg'}}" alt="Lorem ipsum">
                             </div>
                             <div class="card-footer d-lg-flex align-items-center justify-content-center">
                                 <a href="#" class="d-lg-flex align-items-center"><i class="icon-user"></i>Andrea Miller</a>
@@ -371,7 +371,7 @@
                     <div class="swiper-slide slide-center item">
                         <div class="row card p-0 text-center">
                             <div class="image-over">
-                                <img src="assets/images/news-2.jpg" alt="Lorem ipsum">
+                                <img src="{{$THEME_IMAGES.'news-2.jpg'}}" alt="Lorem ipsum">
                             </div>
                             <div class="card-footer d-lg-flex align-items-center justify-content-center">
                                 <a href="#" class="d-lg-flex align-items-center"><i class="icon-user"></i>John Smith</a>
@@ -390,7 +390,7 @@
                     <div class="swiper-slide slide-center item">
                         <div class="row card p-0 text-center">
                             <div class="image-over">
-                                <img src="assets/images/news-3.jpg" alt="Lorem ipsum">
+                                <img src="{{$THEME_IMAGES.'news-3.jpg'}}" alt="Lorem ipsum">
                             </div>
                             <div class="card-footer d-lg-flex align-items-center justify-content-center">
                                 <a href="#" class="d-lg-flex align-items-center"><i class="icon-user"></i>Andrea Miller</a>
@@ -409,7 +409,7 @@
                     <div class="swiper-slide slide-center item">
                         <div class="row card p-0 text-center">
                             <div class="image-over">
-                                <img src="assets/images/news-4.jpg" alt="Lorem ipsum">
+                                <img src="{{$THEME_IMAGES.'news-4.jpg'}}" alt="Lorem ipsum">
                             </div>
                             <div class="card-footer d-lg-flex align-items-center justify-content-center">
                                 <a href="#" class="d-lg-flex align-items-center"><i class="icon-user"></i>John Smith</a>
@@ -428,7 +428,7 @@
                     <div class="swiper-slide slide-center item">
                         <div class="row card p-0 text-center">
                             <div class="image-over">
-                                <img src="assets/images/news-5.jpg" alt="Lorem ipsum">
+                                <img src="{{$THEME_IMAGES.'news-5.jpg'}}" alt="Lorem ipsum">
                             </div>
                             <div class="card-footer d-lg-flex align-items-center justify-content-center">
                                 <a href="#" class="d-lg-flex align-items-center"><i class="icon-user"></i>David Cooper</a>
@@ -447,7 +447,7 @@
                     <div class="swiper-slide slide-center item">
                         <div class="row card p-0 text-center">
                             <div class="image-over">
-                                <img src="assets/images/news-1.jpg" alt="Lorem ipsum">
+                                <img src="{{$THEME_IMAGES.'news-1.jpg'}}" alt="Lorem ipsum">
                             </div>
                             <div class="card-footer d-lg-flex align-items-center justify-content-center">
                                 <a href="#" class="d-lg-flex align-items-center"><i class="icon-user"></i>Andrea Miller</a>
@@ -466,7 +466,7 @@
                     <div class="swiper-slide slide-center item">
                         <div class="row card p-0 text-center">
                             <div class="image-over">
-                                <img src="assets/images/news-2.jpg" alt="Lorem ipsum">
+                                <img src="{{$THEME_IMAGES.'news-2.jpg'}}" alt="Lorem ipsum">
                             </div>
                             <div class="card-footer d-lg-flex align-items-center justify-content-center">
                                 <a href="#" class="d-lg-flex align-items-center"><i class="icon-user"></i>John Smith</a>
@@ -485,7 +485,7 @@
                     <div class="swiper-slide slide-center item">
                         <div class="row card p-0 text-center">
                             <div class="image-over">
-                                <img src="assets/images/news-3.jpg" alt="Lorem ipsum">
+                                <img src="{{$THEME_IMAGES.'news-3.jpg'}}" alt="Lorem ipsum">
                             </div>
                             <div class="card-footer d-lg-flex align-items-center justify-content-center">
                                 <a href="#" class="d-lg-flex align-items-center"><i class="icon-user"></i>Andrea Miller</a>
@@ -504,7 +504,7 @@
                     <div class="swiper-slide slide-center item">
                         <div class="row card p-0 text-center">
                             <div class="image-over">
-                                <img src="assets/images/news-4.jpg" alt="Lorem ipsum">
+                                <img src="{{$THEME_IMAGES.'news-4.jpg'}}" alt="Lorem ipsum">
                             </div>
                             <div class="card-footer d-lg-flex align-items-center justify-content-center">
                                 <a href="#" class="d-lg-flex align-items-center"><i class="icon-user"></i>John Smith</a>
@@ -523,7 +523,7 @@
                     <div class="swiper-slide slide-center item">
                         <div class="row card p-0 text-center">
                             <div class="image-over">
-                                <img src="assets/images/news-5.jpg" alt="Lorem ipsum">
+                                <img src="{{$THEME_IMAGES.'news-5.jpg'}}" alt="Lorem ipsum">
                             </div>
                             <div class="card-footer d-lg-flex align-items-center justify-content-center">
                                 <a href="#" class="d-lg-flex align-items-center"><i class="icon-user"></i>David Cooper</a>

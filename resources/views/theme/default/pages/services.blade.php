@@ -32,7 +32,7 @@
                         <div class="row no-gutters">
                             <div class="col-xl-6 col-lg-6 col-md-6">
                                 <div class="features-img">
-                                    <img src="assets/img/gallery/services1.png" alt="">
+                                    <img src="{{url($THEME_IMG.'gallery/services1.png')}}" alt="">
                                 </div>
                             </div>
                             <div class="col-xl-6 col-lg-6 col-md-6">
@@ -54,7 +54,7 @@
                         <div class="row no-gutters">
                             <div class="col-xl-6 col-lg-6 col-md-6">
                                 <div class="features-img">
-                                    <img src="assets/img/gallery/services1.png" alt="">
+                                    <img src="{{url($THEME_IMG.'gallery/services1.png')}}" alt="">
                                 </div>
                             </div>
                             <div class="col-xl-6 col-lg-6 col-md-6">
@@ -76,7 +76,7 @@
                         <div class="row no-gutters">
                             <div class="col-xl-6 col-lg-6 col-md-6">
                                 <div class="features-img">
-                                    <img src="assets/img/gallery/services3.png" alt="">
+                                    <img src="{{url($THEME_IMG.'gallery/services3.png')}}" alt="">
                                 </div>
                             </div>
                             <div class="col-xl-6 col-lg-6 col-md-6">
@@ -98,7 +98,7 @@
                         <div class="row no-gutters">
                             <div class="col-xl-6 col-lg-6 col-md-6">
                                 <div class="features-img">
-                                    <img src="assets/img/gallery/services5.png" alt="">
+                                    <img src="{{url($THEME_IMG.'gallery/services5.png')}}" alt="">
                                 </div>
                             </div>
                             <div class="col-xl-6 col-lg-6 col-md-6">

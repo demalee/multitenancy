@@ -11,26 +11,7 @@
                 <h5 class="social-title">Welcome back, Elana!</h5>
 
             </div>
-            <div class="col-lg-6">
-                <!-- Bookmark Start-->
-                <div class="bookmark pull-right">
-                    <ul>
-                        <li><a href="#" data-container="body" data-toggle="popover" data-placement="top" title="" data-original-title="Tables"><i data-feather="inbox"></i></a></li>
-                        <li><a href="#" data-container="body" data-toggle="popover" data-placement="top" title="" data-original-title="Chat"><i data-feather="message-square"></i></a></li>
-                        <li><a href="#" data-container="body" data-toggle="popover" data-placement="top" title="" data-original-title="Icons"><i data-feather="command"></i></a></li>
-                        <li><a href="#" data-container="body" data-toggle="popover" data-placement="top" title="" data-original-title="Learning"><i data-feather="layers"></i></a></li>
-                        <li>
-                            <a href="#"><i class="bookmark-search" data-feather="star"></i></a>
-                            <form class="form-inline search-form">
-                                <div class="form-group form-control-search">
-                                    <input type="text" placeholder="Search..">
-                                </div>
-                            </form>
-                        </li>
-                    </ul>
-                </div>
-                <!-- Bookmark Ends-->
-            </div>
+
         </div>
     </div>
 </div>
@@ -63,7 +44,7 @@
                                 <p class="mb-0">Open Requests</p>
                             </div>
                             <div class="col-xl-2 col-sm-4 col-6">
-                                <h2 class="f-w-600 counter font-danger">312</h2>
+                                <h2 class="f-w-60 counter font-danger">312</h2>
                                 <p class="mb-0">Hours Spent</p>
                             </div>
                         </div>

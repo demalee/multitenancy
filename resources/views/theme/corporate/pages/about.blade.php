@@ -9,7 +9,7 @@
                     <div class="swiper-slide slide-center">
 
                         <!-- Media -->
-                        <img src="assets/images/bg-wide.jpg" alt="Full Image" class="full-image" data-mask="80">
+                        <img src="{{$THEME_IMAGES.'bg-wide.jpg'}}" alt="Full Image" class="full-image" data-mask="80">
 
                         <div class="slide-content row text-center">
                             <div class="col-12 mx-auto inner">
@@ -169,7 +169,7 @@
                     </div>
                 </div>
                 <div class="col-12 col-md-6 p-0 image">
-                    <img src="assets/images/about-3.jpg" class="fit-image" alt="Fit Image">
+                    <img src="{{$THEME_IMAGES.'about-3.jpg'}}" class="fit-image" alt="Fit Image">
                 </div>
             </div>
             </div>
@@ -191,7 +191,7 @@
                             <div class="swiper-slide slide-center item">
                                 <div class="row card">
                                     <div class="col-12">
-                                        <img src="assets/images/logo-1.png" alt="Logo" class="logo">
+                                        <img src="{{$THEME_IMAGES.'images/logo-1.png'}}" alt="Logo" class="logo">
                                         <p>Praesent volutpat justo sit amet elementum malesuada. Praesent sagittis augue justo, in accumsan orci rhoncus at pellentesque.</p>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                                         <i class="quote-right fas fa-quote-right"></i>
@@ -201,7 +201,7 @@
                             <div class="swiper-slide slide-center item">
                                 <div class="row card">
                                     <div class="col-12">
-                                        <img src="assets/images/logo-2.png" alt="Logo" class="logo">
+                                        <img src="{{$THEME_IMAGES.'images/logo-2.png'}}" alt="Logo" class="logo">
                                         <p>Praesent volutpat justo sit amet elementum malesuada. Praesent sagittis augue justo, in accumsan orci rhoncus at pellentesque.</p>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                                         <i class="quote-right fas fa-quote-right"></i>
@@ -211,7 +211,7 @@
                             <div class="swiper-slide slide-center item">
                                 <div class="row card">
                                     <div class="col-12">
-                                        <img src="assets/images/logo-3.png" alt="Logo" class="logo">
+                                        <img src="{{$THEME_IMAGES.'logo-3.png'}}" alt="Logo" class="logo">
                                         <p>Praesent volutpat justo sit amet elementum malesuada. Praesent sagittis augue justo, in accumsan orci rhoncus at pellentesque.</p>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                                         <i class="quote-right fas fa-quote-right"></i>
@@ -221,7 +221,7 @@
                             <div class="swiper-slide slide-center item">
                                 <div class="row card">
                                     <div class="col-12">
-                                        <img src="assets/images/logo-4.png" alt="Logo" class="logo">
+                                        <img src="{{$THEME_IMAGES.'logo-4.png'}}" alt="Logo" class="logo">
                                         <p>Praesent volutpat justo sit amet elementum malesuada. Praesent sagittis augue justo, in accumsan orci rhoncus at pellentesque.</p>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                                         <i class="quote-right fas fa-quote-right"></i>
@@ -231,7 +231,7 @@
                             <div class="swiper-slide slide-center item">
                                 <div class="row card">
                                     <div class="col-12">
-                                        <img src="assets/images/logo-5.png" alt="Logo" class="logo">
+                                        <img src="{{$THEME_IMAGES.'logo-5.png'}}" alt="Logo" class="logo">
                                         <p>Praesent volutpat justo sit amet elementum malesuada. Praesent sagittis augue justo, in accumsan orci rhoncus at pellentesque.</p>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                                         <i class="quote-right fas fa-quote-right"></i>
@@ -241,7 +241,7 @@
                             <div class="swiper-slide slide-center item">
                                 <div class="row card">
                                     <div class="col-12">
-                                        <img src="assets/images/logo-1.png" alt="Logo" class="logo">
+                                        <img src="{{$THEME_IMAGES.'logo-1.png'}}" alt="Logo" class="logo">
                                         <p>Praesent volutpat justo sit amet elementum malesuada. Praesent sagittis augue justo, in accumsan orci rhoncus at pellentesque.</p>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                                         <i class="quote-right fas fa-quote-right"></i>
@@ -251,7 +251,7 @@
                             <div class="swiper-slide slide-center item">
                                 <div class="row card">
                                     <div class="col-12">
-                                        <img src="assets/images/logo-2.png" alt="Logo" class="logo">
+                                        <img src="{{$THEME_IMAGES.'logo-2.png'}}" alt="Logo" class="logo">
                                         <p>Praesent volutpat justo sit amet elementum malesuada. Praesent sagittis augue justo, in accumsan orci rhoncus at pellentesque.</p>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                                         <i class="quote-right fas fa-quote-right"></i>
@@ -261,7 +261,7 @@
                             <div class="swiper-slide slide-center item">
                                 <div class="row card">
                                     <div class="col-12">
-                                        <img src="assets/images/logo-3.png" alt="Logo" class="logo">
+                                        <img src="{{$THEME_IMAGES.'logo-3.png'}}" alt="Logo" class="logo">
                                         <p>Praesent volutpat justo sit amet elementum malesuada. Praesent sagittis augue justo, in accumsan orci rhoncus at pellentesque.</p>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                                         <i class="quote-right fas fa-quote-right"></i>
@@ -271,7 +271,7 @@
                             <div class="swiper-slide slide-center item">
                                 <div class="row card">
                                     <div class="col-12">
-                                        <img src="assets/images/logo-4.png" alt="Logo" class="logo">
+                                        <img src="{{$THEME_IMAGES.'logo-4.png'}}" alt="Logo" class="logo">
                                         <p>Praesent volutpat justo sit amet elementum malesuada. Praesent sagittis augue justo, in accumsan orci rhoncus at pellentesque.</p>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                                         <i class="quote-right fas fa-quote-right"></i>
@@ -281,7 +281,7 @@
                             <div class="swiper-slide slide-center item">
                                 <div class="row card">
                                     <div class="col-12">
-                                        <img src="assets/images/logo-5.png" alt="Logo" class="logo">
+                                        <img src="{{$THEME_IMAGES.'logo-5.png'}}" alt="Logo" class="logo">
                                         <p>Praesent volutpat justo sit amet elementum malesuada. Praesent sagittis augue justo, in accumsan orci rhoncus at pellentesque.</p>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                                         <i class="quote-right fas fa-quote-right"></i>

@@ -222,37 +222,13 @@
 <!-- Theme js-->
 <script src="../assets/js/script.js"></script>
 <script src="../assets/js/theme-customizer/customizer.js"></script>
-
-<!-- login js-->
-<!-- Plugin used -->   </body>
-{{--<script src="http://laravel.pixelstrap.com/xolo/assets/js/jquery-3.2.1.min.js"></script>--}}
-{{--<!-- Bootstrap js-->--}}
-{{--<script src="http://laravel.pixelstrap.com/xolo/assets/js/bootstrap/popper.min.js"></script>--}}
-{{--<script src="http://laravel.pixelstrap.com/xolo/assets/js/bootstrap/bootstrap.js"></script>--}}
-{{--<!-- feather icon js-->--}}
-{{--<script src="http://laravel.pixelstrap.com/xolo/assets/js/icons/feather-icon/feather.min.js"></script>--}}
-{{--<script src="http://laravel.pixelstrap.com/xolo/assets/js/icons/feather-icon/feather-icon.js"></script>--}}
-{{--<!-- Sidebar jquery-->--}}
-{{--<script src="http://laravel.pixelstrap.com/xolo/assets/js/sidebar-menu.js"></script>--}}
-{{--<script src="http://laravel.pixelstrap.com/xolo/assets/js/config.js"></script>--}}
-{{--<!-- Plugins JS start-->--}}
-{{--<script src="http://laravel.pixelstrap.com/xolo/assets/js/chart/chartist/chartist.js"></script>--}}
-{{--<script src="http://laravel.pixelstrap.com/xolo/assets/js/chart/chartist/chartist-plugin-tooltip.js"></script>--}}
-{{--<script src="http://laravel.pixelstrap.com/xolo/assets/js/chart/apex-chart/apex-chart.js"></script>--}}
-{{--<script src="http://laravel.pixelstrap.com/xolo/assets/js/chart/apex-chart/stock-prices.js"></script>--}}
-<script src="http://laravel.pixelstrap.com/xolo/assets/js/prism/prism.min.js"></script>
-<script src="http://laravel.pixelstrap.com/xolo/assets/js/clipboard/clipboard.min.js"></script>
-<script src="http://laravel.pixelstrap.com/xolo/assets/js/counter/jquery.waypoints.min.js"></script>
-<script src="http://laravel.pixelstrap.com/xolo/assets/js/counter/jquery.counterup.min.js"></script>
 <script src="http://laravel.pixelstrap.com/xolo/assets/js/counter/counter-custom.js"></script>
 <script src="http://laravel.pixelstrap.com/xolo/assets/js/custom-card/custom-card.js"></script>
 <script src="http://laravel.pixelstrap.com/xolo/assets/js/notify/bootstrap-notify.min.js"></script>
 <script src="http://laravel.pixelstrap.com/xolo/assets/js/dashboard/default.js"></script>
 <script src="http://laravel.pixelstrap.com/xolo/assets/js/notify/index.js"></script>
 <script src="http://laravel.pixelstrap.com/xolo/assets/js/tooltip-init.js"></script>
-<!-- Plugins JS Ends-->
-<!-- Theme js-->
-<script src="http://laravel.pixelstrap.com/xolo/assets/js/script.js"></script>
-<script src="http://laravel.pixelstrap.com/xolo/assets/js/theme-customizer/customizer.js"></script>
+   </body>
+
 
 </html>
