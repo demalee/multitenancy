@@ -31,18 +31,6 @@
     <!-- ==============================================
     Vendor Stylesheet
     =============================================== -->
-    <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/vendor/slider.min.css">
-    <link rel="stylesheet" href="assets/css/main.css">
-    <link rel="stylesheet" href="assets/css/vendor/icons.min.css">
-    <link rel="stylesheet" href="assets/css/vendor/icons-fa.min.css">
-    <link rel="stylesheet" href="assets/css/vendor/animation.min.css">
-    <link rel="stylesheet" href="assets/css/vendor/gallery.min.css">
-    <link rel="stylesheet" href="assets/css/vendor/cookie-notice.min.css">
-
-    <!-- ==============================================
-    Custom Stylesheet
-    =============================================== -->
     <link rel="stylesheet" href="{{ url($THEME_CSS.'main.css') }}">
 
     <!-- ==============================================
@@ -65,7 +53,7 @@
             --section-6-bg-color: #111117;
             --section-7-bg-color: #ffffff;
 
-            --footer-bg-color: #080d10; --footer-bg-image: url('assets/images/bg-7.jpg');
+            --footer-bg-color: #080d10; --footer-bg-image: url('{{ url($THEME_IMAGES.'bg-7.jpg') }}');
         }
     </style>
 
@@ -81,7 +69,7 @@
 {{--        </div>--}}
 {{--    </div>--}}
 {{--</div>--}}
-@include('layouts.header')
+@include('theme.corporate.layouts.header')
 
         <!--end menu-->
         @yield('content')
