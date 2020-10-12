@@ -95,7 +95,7 @@
 <script src="https://laravel.pixelstrap.com/xolo/assets/js/icons/feather-icon/feather-icon.js"></script>
 <!-- Sidebar jquery-->
 <!-- Plugins JS start-->
-<script src="http://laravel.pixelstrap.com/xolo/assets/js/login.js"></script>
+<script src="https://laravel.pixelstrap.com/xolo/assets/js/login.js"></script>
 <!-- Plugins JS Ends-->
 <script src="https://laravel.pixelstrap.com/xolo/assets/js/sidebar-menu.js"></script>
 <script src="https://laravel.pixelstrap.com/xolo/assets/js/config.js"></script>
