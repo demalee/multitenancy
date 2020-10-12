@@ -8,8 +8,8 @@
     <meta name="description" content="Xolo admin is super flexible, powerful, clean &amp; modern responsive bootstrap 4 admin template with unlimited possibilities.">
     <meta name="keywords" content="admin template, Xolo admin template, dashboard template, flat admin template, responsive admin template, web app">
     <meta name="author" content="pixelstrap">
-    <link rel="icon" href="http://laravel.pixelstrap.com/xolo/assets/images/favicon.png" type="image/x-icon">
-    <link rel="shortcut icon" href="http://laravel.pixelstrap.com/xolo/assets/images/favicon.png" type="image/x-icon">
+    <link rel="icon" href="https://laravel.pixelstrap.com/xolo/assets/images/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="https://laravel.pixelstrap.com/xolo/assets/images/favicon.png" type="image/x-icon">
     <title>Xolo - Premium Admin Template Login</title>
     <!-- Google font-->
     <link rel="stylesheet" type="text/css" href="../assets/css/fontawesome.css">
