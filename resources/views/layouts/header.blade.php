@@ -28,7 +28,7 @@
                     </li>
 
                     <li class="dropdown">
-                        <a class="nav-link menu-title" href="{{url('/homepage')}}"><i data-feather="eye"></i><span>Preview</span>
+                        <a class="nav-link menu-title" href="{{route('home')}}"><i data-feather="eye"></i><span>Preview</span>
 
                         </a>
 
