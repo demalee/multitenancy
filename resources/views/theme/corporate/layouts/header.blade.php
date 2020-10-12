@@ -45,13 +45,43 @@
                 <li class="nav-item"> <a class="nav-link" href="{{url('about')}}">About </a></li>
 
 
+
                 <li class="nav-item dropdown">
                     <a href="#" class="nav-link">PARTS <i class="icon-arrow-down"></i></a>
                     <ul class="dropdown-menu">
                         <li class="nav-item"><a href="{{url('services')}}" class="nav-link">Section</a></li>
-
                     </ul>
                 </li>
+
+                    @guest
+
+                    <li class="nav-item"> <a class="nav-link" href="{{url('login')}}" class="btn"><i class="fas fa-user"></i>Login</a>
+
+                @endguest
+                @auth
+
+
+                    <li class="nav-item"> <a class="nav-link"  href="{{ route('dashboard') }}">Dashboard</a>
+                    </li>
+
+                    <!-- Logout nav link -->
+                    <li class="nav-item">
+                        <form class="" action="{{ route('logout') }}" method="post" id="logout_form">
+                            @csrf
+                        </form>
+
+                    <li class="nav-item"> <a class="nav-link"  type="submit" onclick="logout()"><b>{{ __('Logout') }}</b></a></li>
+
+                        <script type="text/javascript" defer>
+                            function logout() {
+                                document.getElementById('logout_form').submit();
+                            }
+                        </script>
+                        </li>
+
+                    @endauth
+
+                    </li>
             </ul>
 
             <!-- Navbar Icons -->
@@ -61,6 +91,7 @@
                         <i class="icon-magnifier"></i>
                     </a>
                 </li>
+
             </ul>
 
             <!-- Navbar Toggle -->

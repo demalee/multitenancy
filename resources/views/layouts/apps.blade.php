@@ -166,7 +166,19 @@
                             <li class="f-12"><i data-feather="chevron-right"> </i>Inbox</li>
                             <li class="f-12"><i data-feather="chevron-right"> </i>Taskboard</li>
                             <li class="f-12"><i data-feather="chevron-right"> </i>Settings</li>
-                            <li><i data-feather="log-in"></i>Log in  </li>
+                            <li class="f-12">
+                                <form class="" action="{{ route('logout') }}" method="post" id="logout_form">
+                                    @csrf
+                                </form>
+
+                                <a href="#"  type="submit" onclick="logout()"><b><i data-feather="log-in"></i>{{ __('Logout') }}</b></a>
+
+                                <script type="text/javascript" defer>
+                                    function logout() {
+                                        document.getElementById('logout_form').submit();
+                                    }
+                                </script>
+                            </li>
                         </ul>
                     </li>
                 </ul>

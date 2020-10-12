@@ -22,13 +22,10 @@
                                             <li><a href="{{url('about')}}">About</a></li>
                                             <li><a href="{{url('services')}}">Services</a></li>
                                             <li><a href="{{url('contact')}}">Contact</a></li>
-                                        </ul>
-                                    </nav>
-                                </div>
+@include('theme.default.layouts.authenticate')
 
-                                <div class="header-right-btn d-none d-lg-block ml-40">
-                                    <a href="login.html" class="btn"><i class="fas fa-phone-alt"></i>(10) 892-293 2678</a>
-                                </div>
+                                </ul>
+                                    </nav></div>
                             </div>
                         </div>
 

@@ -11,7 +11,7 @@ class PageController extends Controller
 
     public function __construct()
     {
-        return $this->middleware('guest');
+        return $this->middleware('auth');
     }
 
     public function index()
