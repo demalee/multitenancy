@@ -28,6 +28,9 @@ class HomeController extends Controller
     }
     public function pages()
     {
+
+
+
         return view('dashboard/pages/index');
     }
     public function steps()

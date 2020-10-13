@@ -207,7 +207,6 @@
         </div>
     </footer>         </div>
 </div>
-
 <script src="../assets/js/jquery-3.2.1.min.js"></script>
 <!-- Bootstrap js-->
 <script src="../assets/js/bootstrap/popper.min.js"></script>
@@ -234,10 +233,5 @@
 <script src="../assets/js/tooltip-init.js"></script>
 <!-- Plugins JS Ends-->
 <!-- Theme js-->
-
-
-
    </body>
-
-
 </html>
