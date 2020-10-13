@@ -30,10 +30,19 @@ Route::get('/Widgets', function () {
 Route::get('/custom-css', function () {
     return view('/custom-css');
 });
-});
+//    Route::get('/dashboard/pages/index', function () {
+//        return view('/dashboard/pages/');
+//    });
+
+Route::get('/dashboard/pages/create', function () {
+    return view('/dashboard/pages/create');
+
+});});
 Auth::routes();
 
 Route::get('/dashboard', [App\Http\Controllers\HomeController::class, 'index'])->name('dashboard');
+Route::get('/dashboard/pages', [App\Http\Controllers\HomeController::class, 'pages'])->name('dashboard.pages');
+Route::get('/dashboard/website', [App\Http\Controllers\HomeController::class, 'steps'])->name('dashboard.website');
 
 //website routes
 Route::get('/home',[App\Http\Controllers\PageController::class, 'index'])->name('home');

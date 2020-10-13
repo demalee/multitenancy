@@ -22,7 +22,9 @@
                                             <li><a href="{{url('about')}}">About</a></li>
                                             <li><a href="{{url('services')}}">Services</a></li>
                                             <li><a href="{{url('contact')}}">Contact</a></li>
-@include('theme.default.layouts.authenticate')
+                                            <li><a href="{{route('dashboard.website')}}">Create Website</a></li>
+
+                                            @include('theme.default.layouts.authenticate')
 
                                 </ul>
                                     </nav></div>

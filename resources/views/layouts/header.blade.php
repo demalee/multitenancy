@@ -26,6 +26,12 @@
 
                         </ul>
                     </li>
+                    <li class="dropdown">
+                        <a class="nav-link menu-title" href="{{route('dashboard.pages')}}"><i data-feather="file-plus"></i><span>Pages</span>
+
+                        </a>
+
+                    </li>
 
                     <li class="dropdown">
                         <a class="nav-link menu-title" href="{{route('home')}}"><i data-feather="eye"></i><span>Preview</span>

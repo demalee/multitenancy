@@ -26,4 +26,12 @@ class HomeController extends Controller
     {
         return view('home');
     }
+    public function pages()
+    {
+        return view('dashboard/pages/index');
+    }
+    public function steps()
+    {
+        return view('dashboard/website/steps');
+    }
 }
