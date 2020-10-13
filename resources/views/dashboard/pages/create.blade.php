@@ -1,8 +1,6 @@
-@extends('layouts.apps')
+@extends('layouts.apppages')
 @section('content')
 
-
-    <!-- Container-fluid starts-->
             <div class="container-fluid">
                 <div class="row">
 
@@ -53,24 +51,8 @@
                 </div>
             </div>
 
-            <!-- latest jquery-->
-    <script src="https://laravel.pixelstrap.com/xolo/assets/js/bootstrap/popper.min.js"></script>
-    <script src="https://laravel.pixelstrap.com/xolo/assets/js/bootstrap/bootstrap.js"></script>
-    <!-- feather icon js-->
-    <script src="https://laravel.pixelstrap.com/xolo/assets/js/icons/feather-icon/feather.min.js"></script>
-    <script src="https://laravel.pixelstrap.com/xolo/assets/js/icons/feather-icon/feather-icon.js"></script>
-    <!-- Sidebar jquery-->
-    <script src="https://laravel.pixelstrap.com/xolo/assets/js/sidebar-menu.js"></script>
-    <script src="https://laravel.pixelstrap.com/xolo/assets/js/config.js"></script>
-    <!-- Plugins JS start-->
-    <script src="https://laravel.pixelstrap.com/xolo/assets/js/editor/ckeditor/ckeditor.js"></script>
-    <script src="https://laravel.pixelstrap.com/xolo/assets/js/editor/ckeditor/adapters/jquery.js"></script>
-    <script src="https://laravel.pixelstrap.com/xolo/assets/js/editor/ckeditor/styles.js"></script>
-    <script src="https://laravel.pixelstrap.com/xolo/assets/js/editor/ckeditor/ckeditor.custom.js"></script>
-    <script src="https://laravel.pixelstrap.com/xolo/assets/js/tooltip-init.js"></script>
     <!-- Plugins JS Ends-->
     <!-- Theme js-->
-    <script src="https://laravel.pixelstrap.com/xolo/assets/js/script.js"></script>
-    <script src="https://laravel.pixelstrap.com/xolo/assets/js/theme-customizer/customizer.js"></script>
+
 
 @endsection

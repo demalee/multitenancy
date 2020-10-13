@@ -43,7 +43,6 @@
                     </ul>
                 </li>
                 <li class="nav-item"> <a class="nav-link" href="{{url('about')}}">About </a></li>
-                <li><a href="{{route('dashboard.website')}}">Create Website</a></li>
 
 
 
@@ -53,6 +52,7 @@
                         <li class="nav-item"><a href="{{url('services')}}" class="nav-link">Section</a></li>
                     </ul>
                 </li>
+                <li class="nav-item"><a class="nav-link" href="{{route('dashboard.website')}}">Create Website</a></li>
 
                     @guest
 

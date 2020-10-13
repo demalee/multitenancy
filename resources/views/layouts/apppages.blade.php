@@ -37,15 +37,7 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i&amp;display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700&amp;display=swap" rel="stylesheet">
     <!-- Font Awesome-->
-    <link rel="stylesheet" type="text/css" href="http://laravel.pixelstrap.com/xolo/assets/css/fontawesome.css">
-    <!-- ico-font-->
-    <link rel="stylesheet" type="text/css" href="http://laravel.pixelstrap.com/xolo/assets/css/icofont.css">
-    <!-- Themify icon-->
-    <link rel="stylesheet" type="text/css" href="http://laravel.pixelstrap.com/xolo/assets/css/themify.css">
-    <!-- Flag icon-->
-    <link rel="stylesheet" type="text/css" href="http://laravel.pixelstrap.com/xolo/assets/css/flag-icon.css">
-    <!-- Feather icon-->
-    <link rel="stylesheet" type="text/css" href="http://laravel.pixelstrap.com/xolo/assets/css/feather-icon.css">
+
     <!-- Plugins css start-->
     <link rel="stylesheet" type="text/css" href="http://laravel.pixelstrap.com/xolo/assets/css/chartist.css">
     <link rel="stylesheet" type="text/css" href="http://laravel.pixelstrap.com/xolo/assets/css/prism.css">
@@ -54,34 +46,14 @@
     <link rel="stylesheet" type="text/css" href="http://laravel.pixelstrap.com/xolo/assets/css/bootstrap.css">
     <!-- App css-->
     <link rel="stylesheet" type="text/css" href="http://laravel.pixelstrap.com/xolo/assets/css/style.css">
-    <link id="color" rel="stylesheet" href="http://laravel.pixelstrap.com/xolo/assets/css/color-1.css" media="screen">
-    <!-- Responsive css-->
-    <link rel="stylesheet" type="text/css" href="http://laravel.pixelstrap.com/xolo/assets/css/responsive.css">  </head>
-<link rel="stylesheet" type="text/css" href="http://laravel.pixelstrap.com/xolo/assets/css/fontawesome.css">
-<!-- ico-font-->
-<link rel="stylesheet" type="text/css" href="http://laravel.pixelstrap.com/xolo/assets/css/icofont.css">
-<!-- Themify icon-->
-<link rel="stylesheet" type="text/css" href="http://laravel.pixelstrap.com/xolo/assets/css/themify.css">
-<!-- Flag icon-->
-<link rel="stylesheet" type="text/css" href="http://laravel.pixelstrap.com/xolo/assets/css/flag-icon.css">
+
+
 <!-- Feather icon-->
-<link rel="stylesheet" type="text/css" href="http://laravel.pixelstrap.com/xolo/assets/css/feather-icon.css">
-<!-- Plugins css start-->
-<!-- Plugins css Ends-->
-<!-- Bootstrap css-->
-<link rel="stylesheet" type="text/css" href="http://laravel.pixelstrap.com/xolo/assets/css/bootstrap.css">
-<!-- App css-->
-<link rel="stylesheet" type="text/css" href="http://laravel.pixelstrap.com/xolo/assets/css/style.css">
-<link id="color" rel="stylesheet" href="http://laravel.pixelstrap.com/xolo/assets/css/color-1.css" media="screen">
-<!-- Responsive css-->
-<link rel="stylesheet" type="text/css" href="http://laravel.pixelstrap.com/xolo/assets/css/responsive.css">
+
+
+
 <body>
-<!-- Loader starts-->
-{{--<div class="loader-wrapper">--}}
-{{--    <div class="theme-loader"></div>--}}
-{{--</div>--}}
-<!-- Loader ends-->
-<!-- page-wrapper Start-->
+<!-- Container-fluid starts-->
 <div class="page-wrapper compact-wrapper" id="pageWrapper">
     <!-- Page Header Start-->
     <div class="page-main-header">
@@ -187,31 +159,30 @@
     <!-- Page Body Start-->
     <div class="page-body-wrapper sidebar-icon">
         <nav-menus></nav-menus>
-@include('layouts.header')
+        @include('layouts.header')
         <div class="page-body">
             <main class="py-4">
                 <!--end menu-->
                 @yield('content')
             </main></div>
-    <!-- footer start-->
-    <footer class="footer">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-6 footer-copyright">
-                    <p class="mb-0">Copyright 2020 © Xolo All rights reserved.</p>
-                </div>
-                <div class="col-md-6">
-                    <p class="pull-right mb-0">Hand crafted & made with &nbsp;<i class="fa fa-heart"></i></p>
+        <!-- footer start-->
+        <footer class="footer">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-6 footer-copyright">
+                        <p class="mb-0">Copyright 2020 © Xolo All rights reserved.</p>
+                    </div>
+                    <div class="col-md-6">
+                        <p class="pull-right mb-0">Hand crafted & made with &nbsp;<i class="fa fa-heart"></i></p>
+                    </div>
                 </div>
             </div>
-        </div>
-    </footer>         </div>
+        </footer>         </div>
 </div>
-<script src="../assets/js/jquery-3.2.1.min.js"></script>
-<!-- Bootstrap js-->
-<script src="../assets/js/bootstrap/popper.min.js"></script>
-<script src="../assets/js/bootstrap/bootstrap.js"></script>
+
 <!-- feather icon js-->
+<script src="../assets/js/script.js"></script>
+<script src="../assets/js/theme-customizer/customizer.js"></script>
 <script src="../assets/js/icons/feather-icon/feather.min.js"></script>
 <script src="../assets/js/icons/feather-icon/feather-icon.js"></script>
 <!-- Sidebar jquery-->
@@ -231,8 +202,21 @@
 <script src="../assets/js/custom-card/custom-card.js"></script>
 <script src="../assets/js/dashboard/dashboard_4.js"></script>
 <script src="../assets/js/tooltip-init.js"></script>
+<!-- latest jquery-->
+<script src="https://laravel.pixelstrap.com/xolo/assets/js/bootstrap/popper.min.js"></script>
+<script src="https://laravel.pixelstrap.com/xolo/assets/js/bootstrap/bootstrap.js"></script>
+<!-- feather icon js-->
+<script src="https://laravel.pixelstrap.com/xolo/assets/js/icons/feather-icon/feather.min.js"></script>
+<script src="https://laravel.pixelstrap.com/xolo/assets/js/icons/feather-icon/feather-icon.js"></script>
+
+<!-- Plugins JS start-->
+<script src="https://laravel.pixelstrap.com/xolo/assets/js/editor/ckeditor/ckeditor.js"></script>
+<script src="https://laravel.pixelstrap.com/xolo/assets/js/editor/ckeditor/adapters/jquery.js"></script>
+<script src="https://laravel.pixelstrap.com/xolo/assets/js/editor/ckeditor/styles.js"></script>
+<script src="https://laravel.pixelstrap.com/xolo/assets/js/editor/ckeditor/ckeditor.custom.js"></script>
+<script src="https://laravel.pixelstrap.com/xolo/assets/js/tooltip-init.js"></script>
 <!-- Plugins JS Ends-->
 <!-- Theme js-->
 
-   </body>
+</body>
 </html>
