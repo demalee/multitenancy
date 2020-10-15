@@ -48,6 +48,7 @@
     <link rel="stylesheet" type="text/css" href="http://laravel.pixelstrap.com/xolo/assets/css/style.css">
 
 
+
 <!-- Feather icon-->
 
 
@@ -215,6 +216,7 @@
 <script src="https://laravel.pixelstrap.com/xolo/assets/js/editor/ckeditor/styles.js"></script>
 <script src="https://laravel.pixelstrap.com/xolo/assets/js/editor/ckeditor/ckeditor.custom.js"></script>
 <script src="https://laravel.pixelstrap.com/xolo/assets/js/tooltip-init.js"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 <!-- Plugins JS Ends-->
 <!-- Theme js-->
 

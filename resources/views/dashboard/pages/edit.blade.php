@@ -12,19 +12,20 @@
                                         <h5>Page Details</h5>
                                     </div>
                                     <div class="card-body">
-                                        <form class="theme-form mega-form" method="post" action="{{route('pages.store')}}" enctype="multipart/form-data">
+                                        <form class="theme-form mega-form" method="post" action="{{route('pages.update',$page->id)}}" enctype="multipart/form-data">
                                             @csrf
+                                            @method('patch')
                                             <div class="form-group">
                                                 <label class="col-form-label">Name</label>
-                                                <input class="form-control" name="name" type="text" placeholder="Page title" required>
+                                                <input class="form-control" name="name" type="text" placeholder="Page title" required  value="{{@$page->title}}">
                                             </div>
                                             <div class="form-group">
                                                 <label for="exampleFormControlTextarea9">Description</label>
-                                                <textarea class="form-control" required name="description" id="exampleFormControlTextarea9" rows="3"></textarea>
+                                                <textarea class="form-control" required name="description" id="exampleFormControlTextarea9" rows="3">{{@$page->page_description}}</textarea>
                                             </div>
                                             <div class="form-group">
                                                 <label class="col-form-label">Content</label>
-                                            <textarea class="form-control" required id="editor1" name="editor1" cols="30" rows="10"></textarea>
+                                            <textarea class="form-control" required id="editor1" name="editor1" cols="30" rows="10">{{@$page->content}}</textarea>
                                             </div>
 {{--                                            <div class="form-group">--}}
 {{--                                                <label class="col-sm-3 col-form-label">Upload File</label>--}}

@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Page;
 use App\Models\Theme;
 use Illuminate\Http\Request;
 
@@ -28,10 +29,17 @@ class HomeController extends Controller
     }
     public function pages()
     {
-
-
-
-        return view('dashboard/pages/index');
+        $theme = Theme::where('status_active',1)->first();
+        if ($theme)
+        {
+            $themeid = $theme->id;
+        }
+        else
+        {
+            $themeid  = 1;
+        }
+        $pages = Page::where('theme_id',$themeid)->get();
+        return view('dashboard/pages/index',compact('pages'));
     }
     public function steps()
     {
