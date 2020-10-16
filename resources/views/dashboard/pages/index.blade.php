@@ -10,8 +10,8 @@
 
 
                         </h5>
-                        <span class="pull-right" ><button class="btn btn-pill btn-primary btn-air-secondary btn-sm" type="button"><a href="{{url('dashboard/pages/create')}}" ><span style="color: white">Create</span></a></button>
-</span>
+{{--                        <span class="pull-right" ><button class="btn btn-pill btn-primary btn-air-secondary btn-sm" type="button"><a href="{{url('dashboard/pages/create')}}" ><span style="color: white">Create</span></a></button>--}}
+{{--</span>--}}
 
                     </div>
                     <div class="table-responsive">
