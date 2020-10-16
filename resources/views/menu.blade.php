@@ -1,5 +1,5 @@
 
-@extends('layouts.app')
+@extends('layouts.apps')
 @section('content')
     <!-- Container-fluid starts-->
     <div class="container-fluid">
