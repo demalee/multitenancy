@@ -14,10 +14,10 @@ Route::get('/themes', function () {
     $themes = Theme::all();
     return view('/themes', compact('themes'));
 });
+    Route::get('/menu', function () {
+        return view('/menu');
+    });
 
-Route::get('/menus', function () {
-    return view('/menus');
-});
 Route::get('/Widgets', function () {
     return view('/widgets');
 });Route::get('/theme-option', function () {

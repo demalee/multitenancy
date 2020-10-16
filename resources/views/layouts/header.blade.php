@@ -19,7 +19,7 @@
                         </a>
                         <ul class="nav-submenu menu-content" style="display: none">
                             <li><a href="{{url('/themes')}}" class="">Themes</a></li>
-                            <li><a href="{{url('/menus')}}" class="">Menus</a></li>
+                            <li><a href="{{url('/menu')}}" class="">Menus</a></li>
                             <li><a href="#" class="">Widgets</a></li>
                             <li><a href="#" class="">Themes Options</a></li>
                             <li><a href="{{url('custom-css')}}" class="">Custom-css</a></li>
