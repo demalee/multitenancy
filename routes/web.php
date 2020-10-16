@@ -1,13 +1,9 @@
 <?php
 
 use App\Models\Theme;
+use Illuminate\Support\Facades\Config;
 use Illuminate\Support\Facades\Route;
 
-
-//Route::get('/', function () {
-//    return view('welcome');
-//});
-//protected routes
 Route::middleware(['auth'])->group(function () {
 
 Route::get('/dashboard/dashboard_themed', function () {
@@ -30,9 +26,6 @@ Route::get('/Widgets', function () {
 Route::get('/custom-css', function () {
     return view('/custom-css');
 });
-//    Route::get('/dashboard/pages/index', function () {
-//        return view('/dashboard/pages/');
-//    });
 
 Route::get('/dashboard/pages/create', function () {
     return view('/dashboard/pages/create');
@@ -53,4 +46,16 @@ Route::get('contact',[App\Http\Controllers\PageController::class, 'contact']);
 
 //change between themes
 Route::post('dashboard/theme/change/{id}',[App\Http\Controllers\PageController::class, 'themeChange']);
+//pages controller
+Route::resource('pages', App\Http\Controllers\Backend\PagesController::class);
+//custom pages views
+Route::get('{page}',function ($slug)
+{
+    $page = \App\Models\Page::findBySlug($slug);
+    $route = Config::get('THEME_PAGES').'default';
+    return view($route,compact('page'));
+});
+
+//menu controller
+Route::resource('menus',\App\Http\Controllers\Backend\MenuController::class);
 
