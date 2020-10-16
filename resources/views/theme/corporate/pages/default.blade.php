@@ -24,7 +24,7 @@
                                     </ol>
                                 </nav>
 
-                                <h1 class="mb-0 title effect-static-text">Services</h1>
+                                <h1 class="mb-0 title effect-static-text">{{@$page->title}}</h1>
                             </div>
                         </div>
                     </div>
@@ -32,6 +32,8 @@
                 </div>
             </div>
         </section>
+
+        {!! html_entity_decode(@$page->content) !!}
 
     </main>
 
