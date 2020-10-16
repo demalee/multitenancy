@@ -9,7 +9,9 @@
                             <div class="col-sm-12">
                                 <div class="card">
                                     <div class="card-header">
-                                        <h5>Page Details</h5>
+
+                                        <h5>Page Details<span class="pull-right" ><button class="btn btn-pill btn-primary btn-air-secondary btn-sm" type="button"><a href="{{route('dashboard.pages')}}" ><span style="color: white">Back</span></a></button>
+</span></h5>
                                     </div>
                                     <div class="card-body">
                                         <form class="theme-form mega-form" method="post" action="{{route('pages.store')}}" enctype="multipart/form-data">
