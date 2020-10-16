@@ -26,7 +26,9 @@ Route::get('/Widgets', function () {
 Route::get('/custom-css', function () {
     return view('/custom-css');
 });
-
+    Route::get('/main', function () {
+        return view('/main');
+    });
 Route::get('/dashboard/pages/create', function () {
     return view('/dashboard/pages/create');
 

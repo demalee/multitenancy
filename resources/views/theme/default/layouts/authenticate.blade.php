@@ -8,7 +8,7 @@
 
 
     <li>
-        <a  href="{{ route('dashboard') }}">Dashboard</a>
+        <a  href="{{ url('main') }}">Dashboard</a>
     </li>
 
     <!-- Logout nav link -->
