@@ -32,7 +32,16 @@ Route::get('/custom-css', function () {
 Route::get('/dashboard/pages/create', function () {
     return view('/dashboard/pages/create');
 
-});});
+});
+    Route::get('/dashboard/pages/menus', function () {
+        return view('/dashboard/pages/menus');
+
+    });
+    Route::get('/dashboard/pages/createmenu', function () {
+        return view('/dashboard/pages/createmenu');
+
+    });
+});
 Auth::routes();
 
 Route::get('/dashboard', [App\Http\Controllers\HomeController::class, 'index'])->name('dashboard');

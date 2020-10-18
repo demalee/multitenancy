@@ -11,8 +11,9 @@
 
 
                         </h5>
-                        <span class="pull-right" ><button class="btn btn-pill btn-primary btn-air-secondary btn-sm" type="button"> Create</button>
+                        <span class="pull-right" ><button class="btn btn-pill btn-primary btn-air-secondary btn-sm" type="button"><a href="{{url('dashboard/pages/createmenu')}}" ><span style="color: white">Create Menu</span></a></button>
 </span>
+
 
                     </div>
                     <div class="table-responsive">
@@ -32,7 +33,7 @@
                             <tbody>
                             <tr>
                                 <th scope="row">1</th>
-                                <td>Categories</td>
+                                <td><a href="{{url('dashboard/pages/menus')}}" >Categories</a></td>
                                 <td>2016-10-21</td>
                                 <td>
                                     <button class="btn btn-pill btn-primary btn-air-secondary btn-sm" type="button">Published</button>
