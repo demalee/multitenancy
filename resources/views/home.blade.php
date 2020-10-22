@@ -8,7 +8,7 @@
                         <li class="breadcrumb-item"><a href="{{url('/')}}"><i data-feather="home"></i></a></li>
                         <li class="breadcrumb-item">Dashboard</li>
                     </ol>
-                    <h5 class="social-title">Welcome back, {{Auth::user()->name}}!</h5>
+                    <h5 class="social-title">Welcome back</h5>
 
                 </div>
 

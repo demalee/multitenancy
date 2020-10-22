@@ -43,6 +43,7 @@ class HomeController extends Controller
     }
     public function steps()
     {
-        return view('dashboard/website/steps');
+        $themes = Theme::all();
+        return view('dashboard/website/steps',compact('themes'));
     }
 }
