@@ -39,7 +39,7 @@
                                         <div class="form-group">
                                             <label for="f1-first-name"> Website title</label>
                                             <input class="form-control" id="f1-first-name" type="text"
-                                                   name="f1-first-name" placeholder="name@example.com" required="">
+                                                   name="f1-first-name" placeholder="www.example.com" required="">
                                         </div>
                                         <div class="form-group">
                                             <label for="f1-last-name">Description</label>

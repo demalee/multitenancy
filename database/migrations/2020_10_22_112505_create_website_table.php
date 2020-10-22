@@ -17,9 +17,9 @@ class CreateWebsiteTable extends Migration
             $table->id();
             $table->string('name');
             $table->text('description');
-            $table->foreignId('theme_id');
-            $table->foreignId('admin_id');
-            $table->foreignId('menu_id');
+            $table->foreignId('theme_id')->default(1);
+            $table->foreignId('admin_id')->nullable();
+            $table->foreignId('menu_id')->nullable();
             $table->timestamps();
         });
     }
