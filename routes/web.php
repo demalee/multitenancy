@@ -3,7 +3,11 @@
 use App\Models\Theme;
 use Illuminate\Support\Facades\Config;
 use Illuminate\Support\Facades\Route;
+Route::get('/', function () {
+    return view('welcome');
 
+});
+//Route::get('/',[App\Http\Controllers\PageController::class, 'index']);
 Route::middleware(['auth'])->group(function () {
 
 Route::get('/dashboard/dashboard_themed', function () {
@@ -49,8 +53,8 @@ Route::get('/dashboard/pages', [App\Http\Controllers\HomeController::class, 'pag
 Route::get('/dashboard/website', [App\Http\Controllers\HomeController::class, 'steps'])->name('dashboard.website');
 
 //website routes
-Route::get('/home',[App\Http\Controllers\PageController::class, 'index'])->name('home');
-Route::get('/',[App\Http\Controllers\PageController::class, 'index'])->name('home');
+
+//Route::get('/',[App\Http\Controllers\PageController::class, 'index'])->name('home');
 Route::get('about',[App\Http\Controllers\PageController::class, 'about']);
 Route::get('services',[App\Http\Controllers\PageController::class, 'services']);
 Route::get('contact',[App\Http\Controllers\PageController::class, 'contact']);
