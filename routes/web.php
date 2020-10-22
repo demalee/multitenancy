@@ -32,7 +32,7 @@ Route::get('/custom-css', function () {
 });
     Route::get('/main', function () {
         return view('/main');
-    });
+    })->name('home');
 Route::get('/dashboard/pages/create', function () {
     return view('/dashboard/pages/create');
 
@@ -53,8 +53,12 @@ Route::get('/dashboard/pages', [App\Http\Controllers\HomeController::class, 'pag
 Route::get('/dashboard/website', [App\Http\Controllers\HomeController::class, 'steps'])->name('dashboard.website');
 
 //website routes
+Route::resource('websites',App\Http\Controllers\Backend\WebsiteController::class);
 
-Route::get('/',[App\Http\Controllers\PageController::class, 'index'])->name('home');
+
+
+Route::get('home',[App\Http\Controllers\PageController::class, 'index'])->name('home');
+
 Route::get('about',[App\Http\Controllers\PageController::class, 'about']);
 Route::get('services',[App\Http\Controllers\PageController::class, 'services']);
 Route::get('contact',[App\Http\Controllers\PageController::class, 'contact']);
