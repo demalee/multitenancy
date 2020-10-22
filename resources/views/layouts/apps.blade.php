@@ -87,7 +87,7 @@
     <div class="page-main-header">
         <div class="main-header-right">
             <div class="main-header-left">
-                <div class="logo-wrapper"><a href="{{URL('/')}}">  <H3>MULTISITE</H3></a></div>
+                <div class="logo-wrapper"><a href="{{URL('home')}}">  <H3>MULTISITE</H3></a></div>
             </div>
             <div class="mobile-sidebar">
                 <div class="media-body text-right switch-sm">

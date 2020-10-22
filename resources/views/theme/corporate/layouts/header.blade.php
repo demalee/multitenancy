@@ -62,7 +62,7 @@
                 @auth
 
 
-                    <li class="nav-item"> <a class="nav-link"  href="{{ route('dashboard') }}">Dashboard</a>
+                    <li class="nav-item"> <a class="nav-link"  href="{{ url('main') }}">Dashboard</a>
                     </li>
 
                     <!-- Logout nav link -->

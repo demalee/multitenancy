@@ -46,6 +46,7 @@ class PagesController extends Controller
             'name'=>'required',
 
         ]);
+
         $theme = Theme::where('status_active',1)->first();
         if ($theme)
         {
