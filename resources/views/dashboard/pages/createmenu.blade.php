@@ -15,17 +15,17 @@
 </span></h5>
                             </div>
                             <div class="card-body">
-                                <form class="theme-form mega-form" method="post" action="" enctype="multipart/form-data">
-                                    @csrf
+                                <form >
+{{--                                    @csrf--}}
                                     <div class="form-group">
                                         <label class="col-form-label">Name</label>
                                         <input class="form-control" name="name" type="text" placeholder="Menu name" required>
                                     </div>
 
                                     <div class="card-footer">
-                                        <button class="btn btn-primary" > Save
+                                        <button class="btn btn-primary" type="submit"> Save
                                         </button>
-                                        <button class="btn btn-primary pull-right">Save and edit
+                                        <button class="btn btn-primary pull-right" type="submit">Save and edit
                                         </button>
                                     </div>
                                 </form>
