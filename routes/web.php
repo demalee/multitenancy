@@ -63,7 +63,8 @@ Route::get('about',[App\Http\Controllers\PageController::class, 'about']);
 Route::get('services',[App\Http\Controllers\PageController::class, 'services']);
 Route::get('contact',[App\Http\Controllers\PageController::class, 'contact']);
 
-//change between themes
+
+
 Route::post('dashboard/theme/change/{id}',[App\Http\Controllers\PageController::class, 'themeChange']);
 //pages controller
 Route::resource('pages', App\Http\Controllers\Backend\PagesController::class);
