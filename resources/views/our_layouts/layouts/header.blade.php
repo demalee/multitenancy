@@ -4,26 +4,24 @@
         <div class="row align-items-center">
 
             <div class="col-11 col-xl-2">
-                <h1 class="mb-0 site-logo"><a href="index-2.html" class="text-black h2 mb-0">Create<span class="text-primary">.</span> </a></h1>
+                <h1 class="mb-0 site-logo"><a href="#home-section" class="text-black h2 mb-0">Multisite<span class="text-primary">.</span> </a></h1>
             </div>
             <div class="col-12 col-md-10 d-none d-xl-block">
                 <nav class="site-navigation position-relative text-right" role="navigation">
 
                     <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
                         <li><a href="#home-section" class="nav-link">Home</a></li>
-                        <li><a href="#work-section" class="nav-link">Work</a></li>
+
+                        <li>
+                        <li><a href="#home" class="nav-link">How it Works</a></li>
+
                         <li>
                             <a href="#services-section" class="nav-link">Services</a>
                         </li>
-                        <li class="has-children">
-                            <a href="#about-section" class="nav-link">About</a>
-                            <ul class="dropdown">
-                                <li><a href="#about-section">Specialties</a></li>
-                                <li><a href="#team-section">Our Team</a></li>
-                            </ul>
+                        <li>
+                            <a href="#why-us" class="nav-link">Why Us</a>
                         </li>
-                        <li><a href="#blog-section" class="nav-link">Blog</a></li>
-                        <li><a href="#contact-section" class="nav-link">Contact</a></li>
+
                         <li>@include('theme.default.layouts.authenticate')</li>
 
                     </ul>
