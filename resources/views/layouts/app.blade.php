@@ -36,22 +36,22 @@
     <!-- Font Awesome-->
     <link rel="stylesheet" type="text/css" href="http://laravel.pixelstrap.com/xolo/assets/css/fontawesome.css">
     <!-- ico-font-->
-    <link rel="stylesheet" type="text/css" href="http://laravel.pixelstrap.com/xolo/assets/css/icofont.css">
+    <link rel="stylesheet" type="text/css" href="https://laravel.pixelstrap.com/xolo/assets/css/icofont.css">
     <!-- Themify icon-->
-    <link rel="stylesheet" type="text/css" href="http://laravel.pixelstrap.com/xolo/assets/css/themify.css">
+    <link rel="stylesheet" type="text/css" href="https://laravel.pixelstrap.com/xolo/assets/css/themify.css">
     <!-- Flag icon-->
-    <link rel="stylesheet" type="text/css" href="http://laravel.pixelstrap.com/xolo/assets/css/flag-icon.css">
+    <link rel="stylesheet" type="text/css" href="https://laravel.pixelstrap.com/xolo/assets/css/flag-icon.css">
     <!-- Feather icon-->
-    <link rel="stylesheet" type="text/css" href="http://laravel.pixelstrap.com/xolo/assets/css/feather-icon.css">
+    <link rel="stylesheet" type="text/css" href="https://laravel.pixelstrap.com/xolo/assets/css/feather-icon.css">
     <!-- Plugins css start-->
     <!-- Plugins css Ends-->
     <!-- Bootstrap css-->
-    <link rel="stylesheet" type="text/css" href="http://laravel.pixelstrap.com/xolo/assets/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="https://laravel.pixelstrap.com/xolo/assets/css/bootstrap.css">
     <!-- App css-->
-    <link rel="stylesheet" type="text/css" href="http://laravel.pixelstrap.com/xolo/assets/css/style.css">
-    <link id="color" rel="stylesheet" href="http://laravel.pixelstrap.com/xolo/assets/css/color-1.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="https://laravel.pixelstrap.com/xolo/assets/css/style.css">
+    <link id="color" rel="stylesheet" href="https://laravel.pixelstrap.com/xolo/assets/css/color-1.css" media="screen">
     <!-- Responsive css-->
-    <link rel="stylesheet" type="text/css" href="http://laravel.pixelstrap.com/xolo/assets/css/responsive.css">
+    <link rel="stylesheet" type="text/css" href="https://laravel.pixelstrap.com/xolo/assets/css/responsive.css">
 </head>
 <body>
 <!-- Loader starts-->
@@ -86,21 +86,21 @@
 <script src="../assets/js/dashboard/dashboard_4.js"></script>
 <script src="../assets/js/tooltip-init.js"></script>
 <!-- latest jquery-->
-<script src="http://laravel.pixelstrap.com/xolo/assets/js/jquery-3.2.1.min.js"></script>
+<script src="https://laravel.pixelstrap.com/xolo/assets/js/jquery-3.2.1.min.js"></script>
 <!-- Bootstrap js-->
-<script src="http://laravel.pixelstrap.com/xolo/assets/js/bootstrap/popper.min.js"></script>
-<script src="http://laravel.pixelstrap.com/xolo/assets/js/bootstrap/bootstrap.js"></script>
+<script src="https://laravel.pixelstrap.com/xolo/assets/js/bootstrap/popper.min.js"></script>
+<script src="https://laravel.pixelstrap.com/xolo/assets/js/bootstrap/bootstrap.js"></script>
 <!-- feather icon js-->
-<script src="http://laravel.pixelstrap.com/xolo/assets/js/icons/feather-icon/feather.min.js"></script>
-<script src="http://laravel.pixelstrap.com/xolo/assets/js/icons/feather-icon/feather-icon.js"></script>
+<script src="https://laravel.pixelstrap.com/xolo/assets/js/icons/feather-icon/feather.min.js"></script>
+<script src="https://laravel.pixelstrap.com/xolo/assets/js/icons/feather-icon/feather-icon.js"></script>
 <!-- Sidebar jquery-->
 <!-- Plugins JS start-->
-<script src="http://laravel.pixelstrap.com/xolo/assets/js/login.js"></script>
+<script src="https://laravel.pixelstrap.com/xolo/assets/js/login.js"></script>
 <!-- Plugins JS Ends-->
-<script src="http://laravel.pixelstrap.com/xolo/assets/js/sidebar-menu.js"></script>
-<script src="http://laravel.pixelstrap.com/xolo/assets/js/config.js"></script>
+<script src="https://laravel.pixelstrap.com/xolo/assets/js/sidebar-menu.js"></script>
+<script src="https://laravel.pixelstrap.com/xolo/assets/js/config.js"></script>
 <!-- Theme js-->
-<script src="http://laravel.pixelstrap.com/xolo/assets/js/script.js"></script>
+<script src="https://laravel.pixelstrap.com/xolo/assets/js/script.js"></script>
 <!-- login js-->
 <!-- Plugin used-->
 </body>
