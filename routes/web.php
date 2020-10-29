@@ -37,6 +37,10 @@ Route::get('/dashboard/pages/create', function () {
     return view('/dashboard/pages/create');
 
 });
+    Route::get('/dashboard/pages/pagebuild', function () {
+        return view('/dashboard/pages/pagebuild');
+
+    });
     Route::get('/dashboard/pages/menus', function () {
         return view('/dashboard/pages/menus');
 
