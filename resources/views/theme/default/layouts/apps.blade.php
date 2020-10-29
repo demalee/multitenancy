@@ -48,8 +48,7 @@
                                 </div>
                                 <div class="footer-tittle">
                                     <div class="footer-pera">
-                                        <p>The information is also part of the MF Rural, where you can find news,
-                                            quotes, technological information and others, in addition.</p>
+                                        <p>Create your unique and customized websites with us.</p>
                                     </div>
                                 </div>
 
@@ -61,34 +60,20 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-4">
+                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4">
                         <div class="single-footer-caption mb-50">
                             <div class="footer-tittle">
                                 <h4>Quick Links</h4>
                                 <ul>
-                                    <li><a href="#">Design & creatives</a></li>
-                                    <li><a href="#">Telecommunication</a></li>
-                                    <li><a href="#">Restaurant</a></li>
-                                    <li><a href="#">Programing</a></li>
-                                    <li><a href="#">Architecture</a></li>
+                                    <li><a href="#why-us">Why us</a></li>
+                                    <li><a href="#">Services</a></li>
+                                    <li><a href="#home">Process</a></li>
+
                                 </ul>
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6">
-                        <div class="single-footer-caption mb-50">
-                            <div class="footer-tittle">
-                                <h4>Company</h4>
-                                <ul>
-                                    <li><a href="#">Design & creatives</a></li>
-                                    <li><a href="#">Telecommunication</a></li>
-                                    <li><a href="#">Restaurant</a></li>
-                                    <li><a href="#">Programing</a></li>
-                                    <li><a href="#">Architecture</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
+
                 </div>
             </div>
         </div>
@@ -103,9 +88,7 @@
                                     Copyright &copy;<script data-cfasync="false"
                                                             src="../../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
                                     <script>document.write(new Date().getFullYear());</script>
-                                    All rights reserved | This template is made with <i class="fa fa-heart"
-                                                                                        aria-hidden="true"></i> by <a
-                                        href="https://colorlib.com/" target="_blank">Colorlib</a>
+                                    All rights reserved | Multisite
                                 </p>
                             </div>
                         </div>
