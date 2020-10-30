@@ -1,4 +1,7 @@
+<?php header('Access-Control-Allow-Origin: *'); ?>
 @extends('layouts.builder')
+<?php header('Access-Control-Allow-Origin: *'); ?>
+
 @section('content')
                   <!-- Page Sidebar Ends-->
         <div class="page-body">
