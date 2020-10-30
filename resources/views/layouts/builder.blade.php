@@ -1,5 +1,6 @@
+<?php header('Access-Control-Allow-Origin: *'); ?>
 
-<!DOCTYPE html>
+    <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta https-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -10,7 +11,7 @@
     <meta name="author" content="pixelstrap">
     <link rel="icon" href="https://laravel.pixelstrap.com/xolo/assets/images/favicon.png" type="image/x-icon">
     <link rel="shortcut icon" href="https://laravel.pixelstrap.com/xolo/assets/images/favicon.png" type="image/x-icon">
-    <title>Xolo - Premium Admin Template Page Builder</title>
+    <title>Multiste</title>
     <!-- Google font-->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i&amp;display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700&amp;display=swap" rel="stylesheet">
@@ -36,9 +37,7 @@
     <link rel="stylesheet" type="text/css" href="https://laravel.pixelstrap.com/xolo/assets/css/responsive.css">         </head>
 <body>
 <!-- Loader starts-->
-<div class="loader-wrapper">
-    <div class="theme-loader"></div>
-</div>
+
 <!-- Loader ends-->
 <!-- page-wrapper Start-->
 <div class="page-wrapper compact-wrapper" id="pageWrapper">
