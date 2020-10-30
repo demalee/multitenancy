@@ -1,5 +1,6 @@
+<?php header('Access-Control-Allow-Origin: *'); ?>
 
-<!DOCTYPE html>
+    <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -8,9 +9,9 @@
     <meta name="description" content="Xolo admin is super flexible, powerful, clean &amp; modern responsive bootstrap 4 admin template with unlimited possibilities.">
     <meta name="keywords" content="admin template, Xolo admin template, dashboard template, flat admin template, responsive admin template, web app">
     <meta name="author" content="pixelstrap">
-    <link rel="icon" href="https://laravel.pixelstrap.com/xolo/assets/images/favicon.png" type="image/x-icon">
-    <link rel="shortcut icon" href="https://laravel.pixelstrap.com/xolo/assets/images/favicon.png" type="image/x-icon">
-    <title>Xolo - Premium Admin Template Login</title>
+    <link rel="icon" href="http://laravel.pixelstrap.com/xolo/assets/images/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="http://laravel.pixelstrap.com/xolo/assets/images/favicon.png" type="image/x-icon">
+    <title>Multisite</title>
     <!-- Google font-->
     <link rel="stylesheet" type="text/css" href="../assets/css/fontawesome.css">
     <!-- ico-font-->
@@ -31,10 +32,10 @@
     <link id="color" rel="stylesheet" href="../assets/css/color-1.css" media="screen">
     <!-- Responsive css-->
     <link rel="stylesheet" type="text/css" href="../assets/css/responsive.css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i&amp;display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700&amp;display=swap" rel="stylesheet">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i&amp;display=swap" rel="stylesheet">
+    <link href="http://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700&amp;display=swap" rel="stylesheet">
     <!-- Font Awesome-->
-    <link rel="stylesheet" type="text/css" href="https://laravel.pixelstrap.com/xolo/assets/css/fontawesome.css">
+    <link rel="stylesheet" type="text/css" href="http://laravel.pixelstrap.com/xolo/assets/css/fontawesome.css">
     <!-- ico-font-->
     <link rel="stylesheet" type="text/css" href="https://laravel.pixelstrap.com/xolo/assets/css/icofont.css">
     <!-- Themify icon-->

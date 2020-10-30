@@ -8,8 +8,8 @@
 
                 <div class="row justify-content-center mb-4">
                     <div class="col-md-8 text-center">
-                        <h1>Welcome to multisite <span class="typed-words"></span></h1>
-                        <p class="lead mb-5">Create your own  <a href="#" target="_blank">website</a></p>
+                        <h1>Welcome to multisite <span class="typed-wods"></span></h1>
+                        <p class="lead mb-5">Create your own  <a href="#" target="_blank">website in few minutes</a></p>
                     </div>
                 </div>
 
@@ -21,44 +21,73 @@
 
 
 
-<section class="site-section">
+<section class="site-section" id="home">
     <div class="container">
+        <div class="row justify-content-center mb-5">
+            <div class="col-md-8 text-center" data-aos="fade-up">
+                <h2 class="text-black h1 site-section-heading text-center">Steps of creating your website</h2>
+            </div>
+        </div>
         <div class="row">
-            <div class="col-md-6 col-lg-4">
+            <div class="col-md-6 col-lg-3">
                 <div class="p-3 box-with-humber">
                     <div class="number-behind">01.</div>
-                    <h2 class="text-primary">Innovate</h2>
-                    <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et praesentium eos nulla qui commodi consectetur beatae fugiat. Veniam iste rerum perferendis.</p>
+                    <h2 class="text-primary">Create Account</h2>
+                    <p class="mb-4">First create account if you dont have one,or login if you already have an account with us.</p>
+                    <p class="mb-4">Fill in the following details in registration page.</p>
+
                     <ul class="list-unstyled ul-check primary">
-                        <li>Customer Experience</li>
-                        <li>Product Management</li>
-                        <li>Proof of Concept</li>
+                        <li>Your name</li>
+                        <li>Your username/Email</li>
+                        <li>Your Password</li>
                     </ul>
                 </div>
             </div>
 
-            <div class="col-md-6 col-lg-4">
+            <div class="col-md-6 col-lg-3">
                 <div class="p-3 box-with-humber">
                     <div class="number-behind">02.</div>
-                    <h2 class="text-primary">Create</h2>
-                    <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et praesentium eos nulla qui commodi consectetur beatae fugiat. Veniam iste rerum perferendis.</p>
+                    <h2 class="text-primary">Website creation process</h2>
+                    <p class="mb-4">After successully creating an account with us for the first time,you will be redirected to a page that will allow you to create your website.</p>
+                    <p class="mb-4">The first process is filling in the webiste information.</p>
+
                     <ul class="list-unstyled ul-check primary">
-                        <li>Web Design</li>
-                        <li>Branding</li>
-                        <li>Web &amp; App Development</li>
+                        <li>Website title-This is the url or domain of the website you want to create.</li>
+                        <li>Website description-Describe the website you want to create,the use and its goals</li>
+
                     </ul>
                 </div>
             </div>
 
-            <div class="col-md-6 col-lg-4">
+            <div class="col-md-6 col-lg-3">
                 <div class="p-3 box-with-humber">
                     <div class="number-behind">03.</div>
-                    <h2 class="text-primary">Scale</h2>
-                    <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et praesentium eos nulla qui commodi consectetur beatae fugiat. Veniam iste rerum perferendis.</p>
+                    <h2 class="text-primary">Themes</h2>
+                    <p class="mb-4">We have provided you with sample themes where you will choose to create the website</p>
+                    <p class="mb-4">The themes are for the looks and feels of the website.</p>
+
                     <ul class="list-unstyled ul-check primary">
-                        <li>Social Media</li>
-                        <li>Paid Campaigns</li>
-                        <li>Marketing &amp; SEO</li>
+                        <li>You will be able to manipulate the theme you have choosen based on your interest.This is done in the dashboard</li>
+                        <li>You will be able to create your own content,add images and edit the website as per your preference</li>
+
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="p-3 box-with-humber">
+                    <div class="number-behind">04.</div>
+                    <h2 class="text-primary">Menus</h2>
+                    <p class="mb-4">Menus are basically the links and urls of the website.</p>
+                    <p class="mb-4">You will choose which menus you would like to appear on your websites.</p>
+
+                    <ul class="list-unstyled ul-check primary">
+                        <li>Header-Are the urlsof the webiste located at the top</li>
+                        <li>Subheader-Header can have a subheader.An example is in this landing page where we have phone number at the top then below it is header.</li>
+                        <li>Menu-Headers holds menus</li>
+                        <li>Submenu-Menus can consist of submenus(the dropdowns)</li>
+                        <li>Footer-Located at the bottom of the webiste</li>
+                        <li>Sidebar-Located either at the right or left of the website body.Holds urls or extra information</li>
+
                     </ul>
                 </div>
             </div>
@@ -66,79 +95,9 @@
     </div>
 </section>
 
-<section class="site-section" id="work-section">
-    <div class="container">
-        <div class="row mb-5 justify-content-center">
-            <div class="col-md-8 text-center">
-                <h2 class="text-black h1 site-section-heading text-center">Our Works</h2>
-                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, itaque neque, delectus odio iure explicabo.</p>
-            </div>
-        </div>
-    </div>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-6 col-lg-4">
-                <a href="our_theme/images/img_1.jpg" class="media-1" data-fancybox="gallery">
-                    <img src="our_theme/images/img_1.jpg" alt="Image" class="img-fluid">
-                    <div class="media-1-content">
-                        <h2>Bonzai Tree</h2>
-                        <span class="category">Web Application</span>
-                    </div>
-                </a>
-            </div>
-            <div class="col-md-6 col-lg-4">
-                <a href="our_theme/images/img_2.jpg" class="media-1" data-fancybox="gallery">
-                    <img src="our_theme/images/img_2.jpg" alt="Image" class="img-fluid">
-                    <div class="media-1-content">
-                        <h2>Simple Woman</h2>
-                        <span class="category">Branding</span>
-                    </div>
-                </a>
-            </div>
-            <div class="col-md-6 col-lg-4">
-                <a href="our_theme/images/img_3.jpg" class="media-1" data-fancybox="gallery">
-                    <img src="our_theme/images/img_3.jpg" alt="Image" class="img-fluid">
-                    <div class="media-1-content">
-                        <h2>Fruits</h2>
-                        <span class="category">Website</span>
-                    </div>
-                </a>
-            </div>
-
-            <div class="col-md-6 col-lg-4">
-                <a href="our_theme/images/img_4.jpg" class="media-1" data-fancybox="gallery">
-                    <img src="our_theme/images/img_4.jpg" alt="Image" class="img-fluid">
-                    <div class="media-1-content">
-                        <h2>Design Material</h2>
-                        <span class="category">Web Application</span>
-                    </div>
-                </a>
-            </div>
-            <div class="col-md-6 col-lg-4">
-                <a href="our_theme/images/img_5.jpg" class="media-1" data-fancybox="gallery">
-                    <img src="our_theme/images/img_5.jpg" alt="Image" class="img-fluid">
-                    <div class="media-1-content">
-                        <h2>Handy Food</h2>
-                        <span class="category">Branding</span>
-                    </div>
-                </a>
-            </div>
-            <div class="col-md-6 col-lg-4">
-                <a href="our_theme/images/img_6.jpg" class="media-1" data-fancybox="gallery">
-                    <img src="our_theme/images/img_6.jpg" alt="Image" class="img-fluid">
-                    <div class="media-1-content">
-                        <h2>Cat With Cup</h2>
-                        <span class="category">Website</span>
-                    </div>
-                </a>
-            </div>
 
 
-        </div>
-    </div>
-</section>
-
-<section class="section ft-feature-1">
+<section class="section ft-feature-1" id="why-us">
     <div class="container">
         <div class="row align-items-stretch">
             <div class="col-12 bg-black w-100 ft-feature-1-content">
@@ -150,29 +109,30 @@
                     </div>
                     <div class="col-lg-3 ml-auto">
                         <div class="mb-5">
-                            <h3 class="d-flex align-items-center"><span class="icon icon-beach_access mr-2"></span><span>Strategy</span></h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ab nihil quam nesciunt.</p>
-                            <p><a href="#">Read More</a></p>
+                            <h3 class="d-flex align-items-center"><span class="icon icon-beach_access mr-2"></span><span>Theme editing</span></h3>
+                            <p>After completing website creation process,you will be redirected to theme you have chosen.Click on dashboard and enjoy editing your website</p>
+
+
                         </div>
 
                         <div>
-                            <h3 class="d-flex align-items-center"><span class="icon icon-build mr-2"></span><span>Web Development</span></h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ab nihil quam nesciunt.</p>
-                            <p><a href="#">Read More</a></p>
+                            <h3 class="d-flex align-items-center"><span class="icon icon-build mr-2"></span><span>Resources</span></h3>
+                            <p>In the dashboard,we have provided you with all the resources and tools you will need to create a complete website.</p>
+
                         </div>
 
                     </div>
                     <div class="col-lg-3">
                         <div class="mb-5">
-                            <h3 class="d-flex align-items-center"><span class="icon icon-format_paint mr-2"></span><span>Art Direction</span></h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ab nihil quam nesciunt.</p>
-                            <p><a href="#">Read More</a></p>
+                            <h3 class="d-flex align-items-center"><span class="icon icon-format_paint mr-2"></span><span>Easy to use</span></h3>
+                            <p>The dashboard is simple and easy to use.Its  easy to understand.</p>
+
                         </div>
 
                         <div>
-                            <h3 class="d-flex align-items-center"><span class="icon icon-question_answer mr-2"></span><span>Copywriting</span></h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ab nihil quam nesciunt.</p>
-                            <p><a href="#">Read More</a></p>
+                            <h3 class="d-flex align-items-center"><span class="icon icon-question_answer mr-2"></span><span>user friendly </span></h3>
+                            <p>The steps and procedures needed during website and pages creation is simple and easy to follow.</p>
+
                         </div>
                     </div>
                 </div>
@@ -182,79 +142,13 @@
 </section>
 
 
-<section class="site-section testimonial-wrap">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-md-8 text-center">
-                <h2 class="text-black h1 site-section-heading text-center">Testimonials</h2>
-            </div>
-        </div>
-    </div>
-    <div class="slide-one-item home-slider owl-carousel">
-        <div>
-            <div class="testimonial">
 
-                <blockquote class="mb-5">
-                    <p>&ldquo;Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur unde reprehenderit aperiam quaerat fugiat repudiandae explicabo animi minima fuga beatae illum eligendi incidunt consequatur. Amet dolores excepturi earum unde iusto.&rdquo;</p>
-                </blockquote>
-
-                <figure class="mb-4 d-flex align-items-center justify-content-center">
-                    <div><img src="our_theme/images/person_3.jpg" alt="Image" class="w-50 img-fluid mb-3"></div>
-                    <p>John Smith</p>
-                </figure>
-            </div>
-        </div>
-        <div>
-            <div class="testimonial">
-
-                <blockquote class="mb-5">
-                    <p>&ldquo;Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur unde reprehenderit aperiam quaerat fugiat repudiandae explicabo animi minima fuga beatae illum eligendi incidunt consequatur. Amet dolores excepturi earum unde iusto.&rdquo;</p>
-                </blockquote>
-                <figure class="mb-4 d-flex align-items-center justify-content-center">
-                    <div><img src="our_theme/images/person_2.jpg" alt="Image" class="w-50 img-fluid mb-3"></div>
-                    <p>Christine Aguilar</p>
-                </figure>
-
-            </div>
-        </div>
-
-        <div>
-            <div class="testimonial">
-
-                <blockquote class="mb-5">
-                    <p>&ldquo;Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur unde reprehenderit aperiam quaerat fugiat repudiandae explicabo animi minima fuga beatae illum eligendi incidunt consequatur. Amet dolores excepturi earum unde iusto.&rdquo;</p>
-                </blockquote>
-                <figure class="mb-4 d-flex align-items-center justify-content-center">
-                    <div><img src="our_theme/images/person_4.jpg" alt="Image" class="w-50 img-fluid mb-3"></div>
-                    <p>Robert Spears</p>
-                </figure>
-
-
-            </div>
-        </div>
-
-        <div>
-            <div class="testimonial">
-
-                <blockquote class="mb-5">
-                    <p>&ldquo;Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur unde reprehenderit aperiam quaerat fugiat repudiandae explicabo animi minima fuga beatae illum eligendi incidunt consequatur. Amet dolores excepturi earum unde iusto.&rdquo;</p>
-                </blockquote>
-                <figure class="mb-4 d-flex align-items-center justify-content-center">
-                    <div><img src="our_theme/images/person_5.jpg" alt="Image" class="w-50 img-fluid mb-3"></div>
-                    <p>Bruce Rogers</p>
-                </figure>
-
-            </div>
-        </div>
-
-    </div>
-</section>
 
 <section class="site-section border-bottom" id="services-section">
     <div class="container">
         <div class="row justify-content-center mb-5">
             <div class="col-md-8 text-center" data-aos="fade-up">
-                <h2 class="text-black h1 site-section-heading text-center">Our Services</h2>
+                <h2 class="text-black h1 site-section-heading text-center">Services</h2>
             </div>
         </div>
         <div class="row align-items-stretch">
@@ -262,9 +156,9 @@
                 <div class="unit-4 d-flex">
                     <div class="unit-4-icon mr-4"><span class="text-primary icon-laptop2"></span></div>
                     <div>
-                        <h3>Web Design</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
-                        <p><a href="#">Learn More</a></p>
+                        <h3>Page Creation</h3>
+                        <p>Every website has a page,on the dasboard you will be able to create a specific page for the website</p>
+
                     </div>
                 </div>
             </div>
@@ -272,9 +166,9 @@
                 <div class="unit-4 d-flex">
                     <div class="unit-4-icon mr-4"><span class="text-primary icon-shopping_cart"></span></div>
                     <div>
-                        <h3>eCommerce</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
-                        <p><a href="#">Learn More</a></p>
+                        <h3>Menus and Widgets</h3>
+                        <p>The pages urls will be in Menus.The menus and widgets is used to navigate to different pages created.You can add and edit menus for your website</p>
+
                     </div>
                 </div>
             </div>
@@ -282,9 +176,9 @@
                 <div class="unit-4 d-flex">
                     <div class="unit-4-icon mr-4"><span class="text-primary icon-question_answer"></span></div>
                     <div>
-                        <h3>Web Applications</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
-                        <p><a href="#">Learn More</a></p>
+                        <h3>  Custom  Themes</h3>
+                        <p>You can activate and preview the available themes in the dahsboard.After activating a specific,you can preview and edit the selected themes</p>
+
                     </div>
                 </div>
             </div>
@@ -294,9 +188,9 @@
                 <div class="unit-4 d-flex">
                     <div class="unit-4-icon mr-4"><span class="text-primary icon-format_paint"></span></div>
                     <div>
-                        <h3>Branding</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
-                        <p><a href="#">Learn More</a></p>
+                        <h3>Gallery</h3>
+                        <p>Gallery is used to store your media eg images.</p>
+
                     </div>
                 </div>
             </div>
@@ -304,9 +198,9 @@
                 <div class="unit-4 d-flex">
                     <div class="unit-4-icon mr-4"><span class="text-primary icon-extension"></span></div>
                     <div>
-                        <h3>Copy Writing</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
-                        <p><a href="#">Learn More</a></p>
+                        <h3>Settings</h3>
+                        <p>Settings helps you customize your website eg changing logo</p>
+
                     </div>
                 </div>
             </div>
@@ -314,9 +208,9 @@
                 <div class="unit-4 d-flex">
                     <div class="unit-4-icon mr-4"><span class="text-primary icon-phonelink"></span></div>
                     <div>
-                        <h3>Mobile Applications</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
-                        <p><a href="#">Learn More</a></p>
+                        <h3>  Appearance</h3>
+                        <p>The appearace consist of themes,widgets and menus.This is basically the part where you customize your website</p>
+
                     </div>
                 </div>
             </div>
@@ -325,235 +219,7 @@
     </div>
 </section>
 
-<div class="site-section" id="about-section">
-    <div class="container">
-        <div class="row mb-5">
-
-            <div class="col-md-5 ml-auto mb-5 order-md-2" data-aos="fade">
-                <img src="our_theme/images/about_1.jpg" alt="Image" class="img-fluid rounded">
-            </div>
-            <div class="col-md-6 order-md-1" data-aos="fade">
-
-                <div class="row">
-
-                    <div class="col-12">
-                        <div class="text-left pb-1">
-                            <h2 class="text-black h1 site-section-heading">About Us</h2>
-                        </div>
-                    </div>
-                    <div class="col-12 mb-4">
-                        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet incidunt magnam corrupti, odit eos harum quaerat nostrum voluptatibus aspernatur eligendi accusantium cum, impedit blanditiis voluptate commodi doloribus, nemo dignissimos recusandae.</p>
-                    </div>
-                    <div class="col-md-12 mb-md-5 mb-0 col-lg-6">
-                        <div class="unit-4">
-                            <div class="unit-4-icon mr-4 mb-3"><span class="text-secondary icon-phonelink"></span></div>
-                            <div>
-                                <h3>Web &amp; Mobile Specialties</h3>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis consect.</p>
-                                <p class="mb-0"><a href="#">Learn More</a></p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-12 mb-md-5 mb-0 col-lg-6">
-                        <div class="unit-4">
-                            <div class="unit-4-icon mr-4 mb-3"><span class="text-secondary icon-extension"></span></div>
-                            <div>
-                                <h3>Intuitive Thinkers</h3>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis.</p>
-                                <p class="mb-0"><a href="#">Learn More</a></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </div>
-</div>
 
 
-<div class="site-section border-bottom" id="team-section">
-    <div class="container">
-        <div class="row justify-content-center mb-5">
-            <div class="col-md-7 text-center">
-                <h2 class="text-black h1 site-section-heading">Our Team</h2>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-6 col-lg-4 mb-5 mb-lg-0" data-aos="fade" data-aos-delay="100">
-                <div class="person text-center">
-                    <img src="our_theme/images/person_2.jpg" alt="Image" class="img-fluid rounded-circle w-50 mb-5">
-                    <h3>John Rooster</h3>
-                    <p class="position text-muted">Co-Founder, President</p>
-                    <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi at consequatur unde molestiae quidem provident voluptatum deleniti quo iste error eos est praesentium distinctio cupiditate tempore suscipit inventore deserunt tenetur.</p>
-                    <ul class="ul-social-circle">
-                        <li><a href="#"><span class="icon-facebook"></span></a></li>
-                        <li><a href="#"><span class="icon-twitter"></span></a></li>
-                        <li><a href="#"><span class="icon-linkedin"></span></a></li>
-                        <li><a href="#"><span class="icon-instagram"></span></a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-4 mb-5 mb-lg-0" data-aos="fade" data-aos-delay="200">
-                <div class="person text-center">
-                    <img src="our_theme/images/person_3.jpg" alt="Image" class="img-fluid rounded-circle w-50 mb-5">
-                    <h3>Tom Sharp</h3>
-                    <p class="position text-muted">Co-Founder, COO</p>
-                    <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi at consequatur unde molestiae quidem provident voluptatum deleniti quo iste error eos est praesentium distinctio cupiditate tempore suscipit inventore deserunt tenetur.</p>
-                    <ul class="ul-social-circle">
-                        <li><a href="#"><span class="icon-facebook"></span></a></li>
-                        <li><a href="#"><span class="icon-twitter"></span></a></li>
-                        <li><a href="#"><span class="icon-linkedin"></span></a></li>
-                        <li><a href="#"><span class="icon-instagram"></span></a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-4 mb-5 mb-lg-0" data-aos="fade" data-aos-delay="300">
-                <div class="person text-center">
-                    <img src="our_theme/images/person_4.jpg" alt="Image" class="img-fluid rounded-circle w-50 mb-5">
-                    <h3>Winston Hodson</h3>
-                    <p class="position text-muted">Marketing</p>
-                    <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi at consequatur unde molestiae quidem provident voluptatum deleniti quo iste error eos est praesentium distinctio cupiditate tempore suscipit inventore deserunt tenetur.</p>
-                    <ul class="ul-social-circle">
-                        <li><a href="#"><span class="icon-facebook"></span></a></li>
-                        <li><a href="#"><span class="icon-twitter"></span></a></li>
-                        <li><a href="#"><span class="icon-linkedin"></span></a></li>
-                        <li><a href="#"><span class="icon-instagram"></span></a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<section class="site-section" id="blog-section">
-    <div class="container">
-        <div class="row justify-content-center mb-5">
-            <div class="col-md-8 text-center">
-                <h2 class="text-black h1 site-section-heading text-center">Blog</h2>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
-                <div class="h-entry">
-                    <a href="single.html"><img src="our_theme/images/img_1.jpg" alt="Image" class="img-fluid"></a>
-                    <h2 class="font-size-regular"><a href="single.html">Create Beautiful Website In Less Than An Hour</a></h2>
-                    <div class="meta mb-4">Ham Brook <span class="mx-2">&bullet;</span> Jan 18, 2019<span class="mx-2">&bullet;</span> <a href="#">News</a></div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus eligendi nobis ea maiores sapiente veritatis reprehenderit suscipit quaerat rerum voluptatibus a eius.</p>
-                    <p><a href="#">Continue Reading...</a></p>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
-                <div class="h-entry">
-                    <a href="single.html"><img src="our_theme/images/img_2.jpg" alt="Image" class="img-fluid"></a>
-                    <h2 class="font-size-regular"><a href="single.html">Create Beautiful Website In Less Than An Hour</a></h2>
-                    <div class="meta mb-4">James Phelps <span class="mx-2">&bullet;</span> Jan 18, 2019<span class="mx-2">&bullet;</span> <a href="#">News</a></div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus eligendi nobis ea maiores sapiente veritatis reprehenderit suscipit quaerat rerum voluptatibus a eius.</p>
-                    <p><a href="#">Continue Reading...</a></p>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-4 mb-4 mb-lg-4">
-                <div class="h-entry">
-                    <a href="single.html"><img src="our_theme/images/img_1.jpg" alt="Image" class="img-fluid"></a>
-                    <h2 class="font-size-regular"><a href="single.html">Create Beautiful Website In Less Than An Hour</a></h2>
-                    <div class="meta mb-4">James Phelps <span class="mx-2">&bullet;</span> Jan 18, 2019<span class="mx-2">&bullet;</span> <a href="#">News</a></div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus eligendi nobis ea maiores sapiente veritatis reprehenderit suscipit quaerat rerum voluptatibus a eius.</p>
-                    <p><a href="#">Continue Reading...</a></p>
-                </div>
-            </div>
-
-        </div>
-    </div>
-</section>
-
-
-
-
-<section class="site-section bg-light" id="contact-section">
-    <div class="container">
-        <div class="row mb-5">
-            <div class="col-12 text-center">
-                <h2 class="text-black h1 site-section-heading">Contact Us</h2>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-7 mb-5">
-
-
-
-                <form action="#" class="p-5 bg-white">
-
-                    <h2 class="h4 text-black mb-5">Contact Form</h2>
-
-                    <div class="row form-group">
-                        <div class="col-md-6 mb-3 mb-md-0">
-                            <label class="text-black" for="fname">First Name</label>
-                            <input type="text" id="fname" class="form-control">
-                        </div>
-                        <div class="col-md-6">
-                            <label class="text-black" for="lname">Last Name</label>
-                            <input type="text" id="lname" class="form-control">
-                        </div>
-                    </div>
-
-                    <div class="row form-group">
-
-                        <div class="col-md-12">
-                            <label class="text-black" for="email">Email</label>
-                            <input type="email" id="email" class="form-control">
-                        </div>
-                    </div>
-
-                    <div class="row form-group">
-
-                        <div class="col-md-12">
-                            <label class="text-black" for="subject">Subject</label>
-                            <input type="subject" id="subject" class="form-control">
-                        </div>
-                    </div>
-
-                    <div class="row form-group">
-                        <div class="col-md-12">
-                            <label class="text-black" for="message">Message</label>
-                            <textarea name="message" id="message" cols="30" rows="7" class="form-control" placeholder="Write your notes or questions here..."></textarea>
-                        </div>
-                    </div>
-
-                    <div class="row form-group">
-                        <div class="col-md-12">
-                            <input type="submit" value="Send Message" class="btn btn-primary btn-md text-white">
-                        </div>
-                    </div>
-
-
-                </form>
-            </div>
-            <div class="col-md-5">
-
-                <div class="p-4 mb-3 bg-white">
-                    <p class="mb-0 font-weight-bold">Address</p>
-                    <p class="mb-4">203 Fake St. Mountain View, San Francisco, California, USA</p>
-
-                    <p class="mb-0 font-weight-bold">Phone</p>
-                    <p class="mb-4"><a href="#">+1 232 3235 324</a></p>
-
-                    <p class="mb-0 font-weight-bold">Email Address</p>
-                    <p class="mb-0"><a href="#">youremail@domain.com</a></p>
-
-                </div>
-
-            </div>
-        </div>
-    </div>
-</section>
-
-<a href="#" class="bg-primary py-5 d-block">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-md10"><h2 class="text-white">Let's Get Started</h2></div>
-        </div>
-    </div>
-</a>
 
 @endsection

@@ -64,6 +64,13 @@
 
         @yield('content')
     </main>
+    <a href="{{url('login')}}" class="bg-primary py-5 d-block">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md10"><h2 class="text-white">Let's Get Started</h2></div>
+            </div>
+        </div>
+    </a>
     <footer class="site-footer">
         <div class="container">
             <div class="row">
@@ -71,15 +78,14 @@
                     <div class="row">
                         <div class="col-md-5">
                             <h2 class="footer-heading mb-4">About Us</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque facere laudantium magnam voluptatum autem. Amet aliquid nesciunt veritatis aliquam.</p>
+                            <p>Enjoy creating your unique and customizable website with us.</p>
                         </div>
                         <div class="col-md-3 ml-auto">
                             <h2 class="footer-heading mb-4">Features</h2>
                             <ul class="list-unstyled">
-                                <li><a href="#">About Us</a></li>
+                                <li><a href="#home">How it Works</a></li>
                                 <li><a href="#">Services</a></li>
-                                <li><a href="#">Testimonials</a></li>
-                                <li><a href="#">Contact Us</a></li>
+                                <li><a href="#why-us">Why us</a></li>
                             </ul>
                         </div>
                         <div class="col-md-3">
@@ -107,9 +113,7 @@
                 <div class="col-md-12">
                     <div class="border-top pt-5">
                         <p>
-                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart text-danger" aria-hidden="true"></i> by <a href="https://colorlib.com/" target="_blank" >Colorlib</a>
-                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Multisite
                         </p>
                     </div>
                 </div>

@@ -1,4 +1,6 @@
-<!DOCTYPE html>
+<?php header('Access-Control-Allow-Origin: *'); ?>
+
+    <!DOCTYPE html>
 <html lang="en">
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 <head>
