@@ -57,8 +57,10 @@ class PagesController extends Controller
             $themeid  = 1;
         }
         $data['content'] = htmlspecialchars_decode($data['editor1']);
-        $page = Page::create([
+        $page = Page::updateorcreate([
             'title'=>$data['name'],
+             'theme_id'=>$themeid
+            ],[
             'slug'=>Str::slug($data['name']),
             'page_description'=>@$data['description'],
             'content'=>$data['content'],
@@ -111,7 +113,7 @@ class PagesController extends Controller
             'title'=>$data['name'],
             'slug'=>Str::slug($data['name']),
             'page_description'=>@$data['description'],
-            'content'=>$data['editor1']
+            'content'=>htmlspecialchars_decode($data['editor1'])
         ]);
         return redirect('/dashboard/pages');
     }
@@ -124,7 +126,20 @@ class PagesController extends Controller
      */
     public function destroy($id)
     {
-        $page = Page::findorfail($id)->delete();
-        return back();
+        $page = Page::findorfail($id);
+        if ($page)
+        {
+            if ($page->parent_page == 0)
+            {
+                return back()->with('info','You cant delete a parent page');
+            }
+            else
+            {
+
+                $page->delete();
+                return back();
+            }
+        }
+
     }
 }

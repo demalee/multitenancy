@@ -9,7 +9,7 @@
 
                         <div class="col-xl-2 col-lg-2">
                             <div class="logo">
-                                <a href="index-2.html"><img src="assets/img/logo/logo.png" alt=""></a>
+                                <a href="{{url('home')}}"><img src="{{asset('assets/img/logo/logo.png')}}" alt=""></a>
                             </div>
                         </div>
                         <div class="col-xl-10 col-lg-10">
@@ -18,10 +18,9 @@
                                 <div class="main-menu d-none d-lg-block">
                                     <nav>
                                         <ul id="navigation">
-                                            <li><a href="{{url('/')}}">Home</a></li>
-                                            <li><a href="{{url('about')}}">About</a></li>
-                                            <li><a href="{{url('services')}}">Services</a></li>
-                                            <li><a href="{{url('contact')}}">Contact</a></li>
+                                           @foreach($menu_items as $menu_item)
+                                            <li><a href="{{url(@$menu_item->page->slug)}}">{{@$menu_item->page->title}}</a></li>
+                                            @endforeach
                                             <li><a href="{{route('dashboard.website')}}">Create Website</a></li>
 
                                             @include('theme.default.layouts.authenticate')

@@ -12,85 +12,115 @@
                     <div class="card-body">
                             <div class="card-header">
 
-                                <h5>Edit Menu<span class="pull-right" ><button class="btn btn-pill btn-primary btn-air-secondary btn-sm" type="button"><a href="{{url('main')}}" ><span style="color: white">Dashboard</span></a></button>
-</span></h5>
+                                <h5>Edit Menu
+                                    <span class="pull-right" >
+                                        <button class="btn btn-pill btn-primary btn-air-secondary btn-sm" type="button">
+                                            <a href="{{url('main')}}" ><span style="color: white">Dashboard
+                                                </span>
+                                            </a>
+                                        </button>
+                                    </span>
+                                </h5>
                             </div>
+                    </div>
+                </div>
+                    <div class="card">
                             <div class="card-body">
-                                <form class="theme-form mega-form" method="post" action="" enctype="multipart/form-data">
+                                <form class="theme-form mega-form" method="post" action="{{route('menus.update',$menu->id)}}">
                                     @csrf
+                                    @method('PUT')
                                     <div class="form-group">
                                         <label class="col-form-label">Name *</label>
-                                        <input class="form-control" name="name" type="text" placeholder="Menu name" required>
+                                        <input class="form-control" name="name" type="text" value="{{$menu->name}}" placeholder="Menu name" required>
                                     </div>
+                                    <button class="btn btn-primary pull-right" name="submit" value="menu_edit">Edit menu</button>
+                                </form>
                             </div>
+                    </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card-body">
+                    <div class="card-header">
 
-
-
-
+                        <h5>{{$menu->name}} pages
+                        </h5>
+                        @foreach($menu_items as $menu_item )
+                        <form action="{{route('menus.update',$menu_item->id)}}" method="post">
+                            @csrf
+                            @method('PUT')
+                            <h6>{{@$menu_item->page->title}}<button class="btn float-right" name="submit" value="remove_menu_item" title="remove {{@$menu_item->page->title}} from main menu"><i class="fa fa-times"></i></button>
+                            </h6>
+                        </form>
+                            <br>
+                        @endforeach
+                    </div>
                 </div>
+            </div>
             </div>
         </div>
 
 
 
+
+
         <div class="col-sm-8">
-        <div class="card">
+{{--        <div class="card">--}}
 
-            <div class="card-body">
+{{--            <div class="card-body">--}}
 
 
 
-                <div class="form-group row mb-0">
-                    <label class="col-sm-3 col-form-label pb-0">Categories</label>
-                    <div class="col-sm-9">
-                        <div class="form-group m-checkbox-inline mb-0">
-                            <div class="checkbox checkbox-primary">
-                                <input id="inline-form-4" type="checkbox">
-                                <label class="mb-0" for="inline-form-4">Business</label>
-                            </div>
-                            <div class="checkbox checkbox-primary">
-                                <input id="inline-form-5" type="checkbox">
-                                <label class="mb-0" for="inline-form-5">Events</label>
-                            </div>
-                            <div class="checkbox checkbox-primary">
-                                <input id="inline-form-6" type="checkbox">
-                                <label class="mb-0" for="inline-form-6">New & Updates</label>
-                            </div>
-                            <div class="card-footer">
-                                <button class="btn btn-primary" > Add to Menu
-                                </button>
+{{--                <div class="form-group row mb-0">--}}
+{{--                    <label class="col-sm-3 col-form-label pb-0">Categories</label>--}}
+{{--                    <div class="col-sm-9">--}}
+{{--                        <div class="form-group m-checkbox-inline mb-0">--}}
+{{--                            <div class="checkbox checkbox-primary">--}}
+{{--                                <input id="inline-form-4" type="checkbox">--}}
+{{--                                <label class="mb-0" for="inline-form-4">Business</label>--}}
+{{--                            </div>--}}
+{{--                            <div class="checkbox checkbox-primary">--}}
+{{--                                <input id="inline-form-5" type="checkbox">--}}
+{{--                                <label class="mb-0" for="inline-form-5">Events</label>--}}
+{{--                            </div>--}}
+{{--                            <div class="checkbox checkbox-primary">--}}
+{{--                                <input id="inline-form-6" type="checkbox">--}}
+{{--                                <label class="mb-0" for="inline-form-6">New & Updates</label>--}}
+{{--                            </div>--}}
+{{--                            <div class="card-footer">--}}
+{{--                                <button class="btn btn-primary" > Add to Menu--}}
+{{--                                </button>--}}
 
-                            </div>
-                        </div>
-                    </div>
-                </div></div></div>
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--        </div>--}}
             <div class="card">
 
                 <div class="card-body">
+                    <form action="{{route('menus.update',$menu->id)}}" method="post">
+                        @csrf
+                        @method('PUT')
                 <div class="form-group row mb-0">
                     <label class="col-sm-3 col-form-label pb-0">Pages</label>
                     <div class="col-sm-9">
                         <div class="form-group m-checkbox-inline mb-0">
-                            <div class="checkbox checkbox-primary">
-                                <input id="inline-form-1" type="checkbox">
-                                <label class="mb-0" for="inline-form-1">Contact</label>
-                            </div>
-                            <div class="checkbox checkbox-primary">
-                                <input id="inline-form-2" type="checkbox">
-                                <label class="mb-0" for="inline-form-2">Portfolio</label>
-                            </div>
-                            <div class="checkbox checkbox-primary">
-                                <input id="inline-form-3" type="checkbox">
-                                <label class="mb-0" for="inline-form-3">Shop</label>
-                            </div>
+                            @foreach($pages as $page)
+
+                                <input type="checkbox"  name="page_id[]" value="{{$page->id}}"> {{$page->title}} <br/>
+                            @endforeach
+
                             <div class="card-footer">
-                                <button class="btn btn-primary" > Add to Menu
+                                <button class="btn btn-primary" name="submit" value="edit_menu_items"> Add to Menu
                                 </button>
 
                             </div>
                         </div>
                     </div>
-                </div></div></div>
+                </div>
+                    </form>
+                </div></div>
             <div class="card">
 
                 <div class="card-body">

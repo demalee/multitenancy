@@ -2,6 +2,8 @@
 
 namespace App\Providers;
 
+use App\Models\MenuItem;
+use Illuminate\Support\Facades\Config;
 use Illuminate\Support\ServiceProvider;
 
 class AppServiceProvider extends ServiceProvider
@@ -18,11 +20,11 @@ class AppServiceProvider extends ServiceProvider
 
     /**
      * Bootstrap any application services.
-     *
+     *'App\Http\Composers\MasterComposer'
      * @return void
      */
     public function boot()
     {
-        //
+
     }
 }

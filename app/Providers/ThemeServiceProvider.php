@@ -39,6 +39,8 @@ class ThemeServiceProvider extends ServiceProvider
             }
         }
         View::share("THEME_NAME",$theme_name);
+        View::share("THEME_ID",$theme_name);
+        Config::set('THEME_ID',$theme->id);
         $theme_directories = array("layouts","pages","about","services","contact","blog");
         $theme_assets_directories = array("css","font","images","js","videos","img","assets");
 

@@ -76,30 +76,15 @@
                                     </fieldset>
                                     <fieldset>
                                         <div class="form-group">
-                                            <label class="sr-only">Menus</label>
+                                            <label class="sr-only">Add pages to the Main Menu</label>
                                             <p>Choose menus</p></div>
                                         <div class="form-group row mb-0">
                                             <div class="col-sm-12">
                                                 <div class="form-group m-checkbox-inline mb-0">
-                                                    <div class="checkbox checkbox-primary">
-                                                        <input id="inline-form-1" type="checkbox">
-                                                        <label class="mb-0" for="inline-form-1">Header</label>
-                                                    </div>
-                                                    <br>
-                                                    <div class="checkbox checkbox-primary">
-                                                        <input id="inline-form-2" type="checkbox">
-                                                        <label class="mb-0" for="inline-form-2">Footer</label>
-                                                    </div>
-                                                    <br>
-                                                    <div class="checkbox checkbox-primary">
-                                                        <input id="inline-form-3" type="checkbox">
-                                                        <label class="mb-0" for="inline-form-3">Main menu</label>
-                                                    </div>
-                                                    <br>
-                                                    <div class="checkbox checkbox-primary">
-                                                        <input id="inline-form-4" type="checkbox">
-                                                        <label class="mb-0" for="inline-form-4">Sub Menu</label>
-                                                    </div>
+                                                    @foreach($pages as $page)
+                                                        <input type="checkbox"  name="page_id[]" value="{{$page->slug}}"> {{$page->title}} <br/>
+
+                                                    @endforeach
 
                                                 </div>
                                             </div>
