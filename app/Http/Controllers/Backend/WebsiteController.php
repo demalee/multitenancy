@@ -54,6 +54,7 @@ class WebsiteController extends Controller
             return back();
         } else {
             $website = Website::where('admin_id', auth()->id())->first();
+//            dd($website);
             if ($website) {
                 $website->update([
                     'name' => $data['f1-first-name'],
@@ -65,8 +66,10 @@ class WebsiteController extends Controller
                 $website = Website::updateorcreate([
                         'theme_id' => $data['radio1'],
                         'name' => $data['f1-first-name'],
-                    ].[
-                    'description' => @$data['description'],
+
+                    ],[
+                    'description' => $data['description'],
+
                     'menu_id' => 0,
                     'admin_id' => auth()->id()
                 ]);
