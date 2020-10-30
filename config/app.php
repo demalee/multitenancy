@@ -177,6 +177,8 @@ return [
 
         App\Providers\ThemeServiceProvider::class,
 
+        \App\Providers\ViewComposerServiceProvider::class,
+
     ],
 
     /*

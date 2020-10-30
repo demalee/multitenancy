@@ -4,6 +4,7 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Facades\Config;
 
 class Page extends Model
 {
@@ -20,6 +21,7 @@ class Page extends Model
 
     public static function findBySlug($slug)
     {
-        return Page::where('slug',$slug)->first();
+        $theme_id = Config::get('THEME_ID');
+        return Page::where('slug',$slug)->where('theme_id',$theme_id)->first();
     }
 }

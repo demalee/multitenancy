@@ -189,9 +189,14 @@
     <!-- Page Body Start-->
     <div class="page-body-wrapper sidebar-icon">
         <nav-menus></nav-menus>
-@include('layouts.header')
+        @include('layouts.header')
         <div class="page-body">
             <main class="py-4">
+                <div class="row">
+                    <div class="col-sm-12">
+                        @include('layouts.alerts')
+                    </div>
+                </div>
                 <!--end menu-->
                 @yield('content')
             </main></div>

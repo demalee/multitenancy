@@ -22,6 +22,7 @@ class PageController extends Controller
     public function about()
     {
         $route = Config::get('THEME_PAGES').'about';
+
         return view($route);
     }
     public function services()

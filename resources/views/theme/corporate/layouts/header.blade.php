@@ -13,7 +13,7 @@
         <div class="container header">
 
             <!-- Navbar Brand-->
-            <a class="navbar-brand" href="{{url('/')}}">
+            <a class="navbar-brand" href="{{url('home')}}">
 
 
                 <!--
@@ -27,32 +27,13 @@
 
             <!-- Navbar Items -->
             <ul class="navbar-nav items">
-                <li class="nav-item dropdown">
-                    <a href="#" class="nav-link">HOME <i class="icon-arrow-down"></i></a>
-                    <ul class="dropdown-menu">
-                        <li class="nav-item dropdown">
-                            <a class="nav-link" href="#">Multi-Page <i class="icon-arrow-right"></i></a>
-                            <ul class="dropdown-menu">
-                                <li class="nav-item"><a href="{{url('/')}}" class="nav-link">Multi-Page <span>1</span></a></li>
-                                <li class="nav-item"><a href="{{url('/')}}" class="nav-link">Multi-Page <span>2</span></a></li>
-                                <li class="nav-item"><a href="{{url('/')}}" class="nav-link">Multi-Page <span>3</span></a></li>
+                @foreach($menu_items as $menu_item)
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{url(@$menu_item->page->slug)}}">{{@$menu_item->page->title}}</a>
+                    </li>
+                @endforeach
 
-                            </ul>
-                        </li>
-
-                    </ul>
-                </li>
-                <li class="nav-item"> <a class="nav-link" href="{{url('about')}}">About </a></li>
-
-
-
-                <li class="nav-item dropdown">
-                    <a href="#" class="nav-link">PARTS <i class="icon-arrow-down"></i></a>
-                    <ul class="dropdown-menu">
-                        <li class="nav-item"><a href="{{url('services')}}" class="nav-link">Section</a></li>
-                    </ul>
-                </li>
-{{--                <li class="nav-item"><a class="nav-link" href="{{route('dashboard.website')}}">Create Website</a></li>--}}
+                <li class="nav-item"><a class="nav-link" href="{{route('dashboard.website')}}">Create Website</a></li>
 
                     @guest
 

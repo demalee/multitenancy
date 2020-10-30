@@ -15,19 +15,15 @@
 </span></h5>
                             </div>
                             <div class="card-body">
-                                <form >
-{{--                                    @csrf--}}
+                                <form class="theme-form mega-form" method="post" action="{{route('menus.store')}}">
+                                    @csrf
                                     <div class="form-group">
                                         <label class="col-form-label">Name</label>
                                         <input class="form-control" name="name" type="text" placeholder="Menu name" required>
                                     </div>
 
-                                    <div class="card-footer">
-                                        <button class="btn btn-primary" type="submit"> Save
-                                        </button>
-                                        <button class="btn btn-primary pull-right" type="submit">Save and edit
-                                        </button>
-                                    </div>
+                                    <button class="btn btn-primary pull-right">Save
+                                    </button>
                                 </form>
                             </div>
 

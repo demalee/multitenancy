@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Menu;
+use App\Models\MenuItem;
 use App\Models\Page;
 use App\Models\Theme;
 use Illuminate\Http\Request;
@@ -44,6 +46,18 @@ class HomeController extends Controller
     public function steps()
     {
         $themes = Theme::all();
-        return view('dashboard/website/steps',compact('themes'));
+        $theme = Theme::where('status_active',1)->first();
+        if ($theme)
+        {
+            $theme_id = $theme->id;
+        }
+        else
+        {
+            $theme_id = 1;
+        }
+
+        $pages = Page::where('theme_id',$theme_id)->where('parent_page',0)->get();
+        $menu = Menu::where('name','Main menu')->where('theme_id',$theme_id)->get();
+        return view('dashboard/website/steps',compact('pages','themes'));
     }
 }

@@ -3,6 +3,9 @@
 namespace App\Http\Controllers\Backend;
 
 use App\Http\Controllers\Controller;
+use App\Models\Menu;
+use App\Models\MenuItem;
+use App\Models\Page;
 use App\Models\Theme;
 use App\Models\Website;
 use Illuminate\Http\Request;
@@ -42,71 +45,89 @@ class WebsiteController extends Controller
 
         $data = $request->all();
 //        dd($data);
-        $validate = Validator::make($data,[
-            'f1-first-name'=>'required',
-            'description'=>'required'
+        $validate = Validator::make($data, [
+            'f1-first-name' => 'required',
+            'description' => 'required'
         ]);
 
-        if ($validate->fails())
-        {
+        if ($validate->fails()) {
             return back();
-        }
-        else
-        {
-            $website = Website::where('admin_id',auth()->id())->first();
-            if ($website)
-            {
+        } else {
+            $website = Website::where('admin_id', auth()->id())->first();
+            if ($website) {
                 $website->update([
-                    'name'=>$data['f1-first-name'],
-                    'description'=>$data['description'],
-                    'theme_id'=>$data['radio1'],
-                    'menu_id'=>0,
+                    'name' => $data['f1-first-name'],
+                    'description' => $data['description'],
+                    'theme_id' => $data['radio1'],
+                    'menu_id' => 0,
                 ]);
-            }
-            else
-            {
-               $website =  Website::create([
-                    'name'=>$data['f1-first-name'],
-                    'description'=>$data['description'],
-                    'theme_id'=>$data['radio1'],
-                    'menu_id'=>0,
-                    'admin_id'=>auth()->id()
+            } else {
+                $website = Website::updateorcreate([
+                        'theme_id' => $data['radio1'],
+                        'name' => $data['f1-first-name'],
+                    ].[
+                    'description' => $data['description'],
+                    'menu_id' => 0,
+                    'admin_id' => auth()->id()
                 ]);
             }
 
-            if ($website)
-            {
-                if (isset($data['radio1']))
-                {
+            if ($website) {
+                if (isset($data['radio1'])) {
                     $themes = Theme::all();
-                    foreach ($themes as $th)
-                    {
-                        if ($th->id == $data['radio1'])
-                        {
+                    foreach ($themes as $th) {
+                        if ($th->id == $data['radio1']) {
                             $th->update([
-                                'status_active'=>1
+                                'status_active' => 1
                             ]);
-                        }
-                        else
-                        {
+                        } else {
                             $th->update([
-                                'status_active'=>0
+                                'status_active' => 0
                             ]);
                         }
 
                     }
-                }
-                else
-                {
-                    $themes = Theme::findorfail(1)->update([
-                        'status_active'=>1
+                } else {
+                    $th = Theme::findorfail(1)->update([
+                        'status_active' => 1
                     ]);
                 }
 
-                return redirect('/home');
+                if (isset($data['page_id'])) {
+                    $count = 0;
+                    $menu = Menu::where('name', 'Main Menu')->where('theme_id', self::getActiveTheme())->first();
 
+                    foreach ($data['page_id'] as $page_id) {
+                        $pages = Page::where('slug',$page_id)->first();
+                        $menu_item = MenuItem::updateorcreate([
+                            'menu_id' => $menu->id,
+                            'page_id' => $pages->id,
+                        ], [
+                            'menu' => $menu->name,
+                            'parent_id' => 0,
+                            'slug' => \Illuminate\Support\Str::slug($menu->name)
+                        ]);
+                    }
+
+                    return redirect('/home');
+
+                }
             }
         }
+    }
+
+    public function getActiveTheme()
+    {
+        $theme = Theme::where('status_active',1)->first();
+        if ($theme)
+        {
+            $theme_id = $theme->id;
+        }
+        else
+        {
+            $theme_id = 1;
+        }
+        return $theme_id;
     }
 
     /**

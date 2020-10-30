@@ -18,9 +18,6 @@ Route::get('/themes', function () {
     $themes = Theme::all();
     return view('/themes', compact('themes'));
 });
-    Route::get('/menu', function () {
-        return view('/menu');
-    });
 
 Route::get('/Widgets', function () {
     return view('/widgets');
@@ -37,18 +34,7 @@ Route::get('/dashboard/pages/create', function () {
     return view('/dashboard/pages/create');
 
 });
-    Route::get('/dashboard/pages/pagebuild', function () {
-        return view('/dashboard/pages/pagebuild');
 
-    });
-    Route::get('/dashboard/pages/menus', function () {
-        return view('/dashboard/pages/menus');
-
-    });
-    Route::get('/dashboard/pages/createmenu', function () {
-        return view('/dashboard/pages/createmenu');
-
-    });
 });
 Auth::routes();
 
@@ -59,16 +45,12 @@ Route::get('/dashboard/website', [App\Http\Controllers\HomeController::class, 's
 //website routes
 Route::resource('websites',App\Http\Controllers\Backend\WebsiteController::class);
 
+//Route::get('home',[App\Http\Controllers\PageController::class, 'index'])->name('home');
+//Route::get('about',[App\Http\Controllers\PageController::class, 'about']);
+//Route::get('services',[App\Http\Controllers\PageController::class, 'services']);
+//Route::get('contact',[App\Http\Controllers\PageController::class, 'contact']);
 
-
-Route::get('home',[App\Http\Controllers\PageController::class, 'index'])->name('home');
-
-Route::get('about',[App\Http\Controllers\PageController::class, 'about']);
-Route::get('services',[App\Http\Controllers\PageController::class, 'services']);
-Route::get('contact',[App\Http\Controllers\PageController::class, 'contact']);
-
-
-
+//change between themes
 Route::post('dashboard/theme/change/{id}',[App\Http\Controllers\PageController::class, 'themeChange']);
 //pages controller
 Route::resource('pages', App\Http\Controllers\Backend\PagesController::class);
@@ -81,5 +63,5 @@ Route::get('{page}',function ($slug)
 });
 
 //menu controller
-Route::resource('menus',\App\Http\Controllers\Backend\MenuController::class);
+Route::resource('dashboard/menus',\App\Http\Controllers\Backend\MenuController::class);
 

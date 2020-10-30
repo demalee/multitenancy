@@ -19,7 +19,7 @@
                         </a>
                         <ul class="nav-submenu menu-content" style="display: none">
                             <li><a href="{{url('/themes')}}" class="">Themes</a></li>
-                            <li><a href="{{url('/menu')}}" class="">Menus</a></li>
+                            <li><a href="{{url('dashboard/menus')}}" class="">Menus</a></li>
                             <li><a href="#" class="">Widgets</a></li>
                             <li><a href="#" class="">Themes Options</a></li>
                             <li><a href="{{url('custom-css')}}" class="">Custom-css</a></li>
@@ -34,7 +34,7 @@
                     </li>
 
                     <li class="dropdown">
-                        <a class="nav-link menu-title" href="{{route('home')}}"><i data-feather="eye"></i><span>Preview</span>
+                        <a class="nav-link menu-title" href="{{url('home')}}"><i data-feather="eye"></i><span>Preview</span>
 
                         </a>
 
