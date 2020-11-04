@@ -82,8 +82,7 @@
                                             <div class="col-sm-12">
                                                 <div class="form-group m-checkbox-inline mb-0">
                                                     @foreach($pages as $page)
-                                                        <input type="checkbox"  name="page_id[]" value="{{$page->slug}}"> {{$page->title}} <br/>
-
+                                                        <input type="checkbox"  name="page_id[]" value="{{$page->id}}"> {{$page->title}} <br/>
                                                     @endforeach
 
                                                 </div>

@@ -26,7 +26,8 @@
                                             </div>
                                             <div class="form-group">
                                                 <label class="col-form-label">Content</label>
-                                            <textarea class="form-control" required id="editor1" name="editor1" cols="30" rows="10"></textarea>
+                                                <textarea class="form-control" id="editor1" name="editor1"></textarea>
+{{--                                            <textarea class="form-control" required id="editor1" name="editor1" cols="30" rows="10"></textarea>--}}
                                             </div>
 {{--                                            <div class="form-group">--}}
 {{--                                                <label class="col-sm-3 col-form-label">Upload File</label>--}}
@@ -50,6 +51,5 @@
 
     <!-- Plugins JS Ends-->
     <!-- Theme js-->
-
 
 @endsection

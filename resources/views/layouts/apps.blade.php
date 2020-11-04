@@ -238,6 +238,7 @@
 <script src="../assets/js/custom-card/custom-card.js"></script>
 <script src="../assets/js/dashboard/dashboard_4.js"></script>
 <script src="../assets/js/tooltip-init.js"></script>
+<script src="https://cdn.ckeditor.com/4.14.0/standard/ckeditor.js"></script>
 <!-- Plugins JS Ends-->
 <!-- Theme js-->
 
