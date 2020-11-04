@@ -67,8 +67,10 @@ class WebsiteController extends Controller
                 $website = Website::updateorcreate([
                         'theme_id' => $data['radio1'],
                         'name' => $data['f1-first-name'],
+
                     ],[
                     'description' => $data['description'],
+
                     'menu_id' => 0,
                     'admin_id' => auth()->id()
                 ]);

@@ -27,11 +27,11 @@
 
             <!-- Navbar Items -->
             <ul class="navbar-nav items">
-                @foreach($menu_items as $menu_item)
-                    <li class="nav-item">
-                        <a class="nav-link" href="{{url(@$menu_item->page->slug)}}">{{@$menu_item->page->title}}</a>
-                    </li>
-                @endforeach
+{{--                @foreach($menu_items as $menu_item)--}}
+{{--                    <li class="nav-item">--}}
+{{--                        <a class="nav-link" href="{{url(@$menu_item->page->slug)}}">{{@$menu_item->page->title}}</a>--}}
+{{--                    </li>--}}
+{{--                @endforeach--}}
 
                 <li class="nav-item"><a class="nav-link" href="{{route('dashboard.website')}}">Create Website</a></li>
 
