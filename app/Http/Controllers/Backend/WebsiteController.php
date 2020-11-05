@@ -9,6 +9,7 @@ use App\Models\Page;
 use App\Models\Theme;
 use App\Models\Website;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Validator;
 
 class WebsiteController extends Controller
@@ -100,11 +101,12 @@ class WebsiteController extends Controller
                     $count = 0;
                     $menu = Menu::where('name', 'Main Menu')->where('theme_id', self::getActiveTheme())->first();
 
+                    DB::table('menu_items')->where('menu_id', $menu->id)->delete();
                     foreach ($data['page_id'] as $page_id) {
-                        $pages = Page::where('slug',$page_id)->first();
+//                        $pages = Page::where('slug',$page_id)->first();
                         $menu_item = MenuItem::updateorcreate([
                             'menu_id' => $menu->id,
-                            'page_id' => $pages->id,
+                            'page_id' => $page_id,
                         ], [
                             'menu' => $menu->name,
                             'parent_id' => 0,

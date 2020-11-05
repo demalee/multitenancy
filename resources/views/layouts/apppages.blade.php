@@ -204,12 +204,21 @@
 <script src="http://laravel.pixelstrap.com/xolo/assets/js/editor/ckeditor/ckeditor.js"></script>
 <script src="http://laravel.pixelstrap.com/xolo/assets/js/editor/ckeditor/adapters/jquery.js"></script>
 <script src="http://laravel.pixelstrap.com/xolo/assets/js/editor/ckeditor/styles.js"></script>
-<script src="http://laravel.pixelstrap.com/xolo/assets/js/editor/ckeditor/ckeditor.custom.js"></script>
+{{--<script src="http://laravel.pixelstrap.com/xolo/assets/js/editor/ckeditor/ckeditor.custom.js"></script>--}}
 <script src="http://laravel.pixelstrap.com/xolo/assets/js/tooltip-init.js"></script>
 <script src="http://laravel.pixelstrap.com/xolo/assets/js/theme-customizer/customizer.js"></script>
 <script src="http://laravel.pixelstrap.com/xolo/assets/js/script.js"></script>
 
 <script src="http://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<script src="{{ asset('ckeditor/ckeditor.js') }}"></script>
+<script>
+    CKEDITOR.replace( 'editor1',
+        {
+            filebrowserUploadUrl: "{{route('upload', ['_token' => csrf_token() ])}}",
+            filebrowserUploadMethod: 'form'
+        });
+</script>
+
 <!-- Plugins JS Ends-->
 <!-- Theme js-->
 

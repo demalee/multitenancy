@@ -367,6 +367,14 @@ Vendor Scripts
 <script src="assets/js/vendor/cookie-notice.min.js"></script>
 <script src="assets/js/vendor/particles.min.js"></script>
 <script src="assets/js/main.js"></script>
+<script src="{{ asset('ckeditor/ckeditor.js') }}"></script>
+<script>
+    CKEDITOR.replace( 'editor1',
+        {
+            filebrowserUploadUrl: "{{route('upload', ['_token' => csrf_token() ])}}",
+            filebrowserUploadMethod: 'form'
+        });
+</script>
 </body>
 
 </html>
