@@ -46,6 +46,7 @@ class HomeController extends Controller
     public function steps()
     {
         $themes = Theme::all();
+
         $theme = Theme::where('status_active',1)->first();
         if ($theme)
         {
