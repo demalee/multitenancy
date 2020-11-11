@@ -18,9 +18,11 @@
                                 <div class="main-menu d-none d-lg-block">
                                     <nav>
                                         <ul id="navigation">
-                                           @foreach($menu_items as $menu_item)
+                                            @if($main_menu_items_count>0)
+                                           @foreach(@$menu_items as $menu_item)
                                             <li><a href="{{url(@$menu_item->page->slug)}}">{{@$menu_item->page->title}}</a></li>
                                             @endforeach
+                                            @endif
                                             <li><a href="{{route('dashboard.website')}}">Create Website</a></li>
 
                                             @include('theme.default.layouts.authenticate')

@@ -35,12 +35,18 @@ class ThemeServiceProvider extends ServiceProvider
             if ($theme->status_active == 1)
             {
                 $theme_name = $theme->name;
+                View::share("THEME_ID",$theme->id);
+                Config::set('THEME_ID',$theme->id);
                 break;
             }
         }
-        View::share("THEME_NAME",$theme_name);
-        View::share("THEME_ID",$theme->id);
-        Config::set('THEME_ID',$theme->id);
+
+        if ($theme_name)
+        {
+            View::share("THEME_NAME",$theme_name);
+
+        }
+
         $theme_directories = array("layouts","pages","about","services","contact","blog");
         $theme_assets_directories = array("css","font","images","js","videos","img","assets");
 

@@ -12,7 +12,8 @@ class Menu extends Model
         'name',
         'slug',
         'theme_id',
-        'status_active'
+        'status_active',
+        'parent_menu'
     ];
 
     public function menuitem()

@@ -1,13 +1,13 @@
-@extends('theme/netaji/layouts.app')
+@extends('theme/netaji_theme/layouts.app')
 @section('content')
-		<div class="breadcrumb-area pt-250 pb-250" style="background-image:url(img/bg/8.jpg)">
+		<div class="breadcrumb-area pt-250 pb-250" style="background-image:url(theme/netaji/img/bg/8.jpg)">
 			<div class="container">
 				<div class="row">
 					<div class="col-xl-12">
 						<div class="breadcrumb-text text-center">
 							<h1>About Us</h1>
 							<ul class="breadcrumb-menu">
-								<li><a href="index-2.html">home</a></li>
+								<li><a href="{{url('home')}}">home</a></li>
 								<li><span>About Us</span></li>
 							</ul>
 						</div>
@@ -31,7 +31,7 @@
 					</div>
 					<div class="col-xl-7 col-lg-7">
 						<div class="about2-me-img">
-							<img src="img/about/1.jpg" alt="">
+							<img src="{{asset('theme/netaji/img/about/1.jpg')}}" alt="">
 						</div>
 					</div>
 				</div>
@@ -55,7 +55,7 @@
 						<div class="col-xl-12">
 							<div class="we-do-wrapper">
 								<div class="we-do-img">
-									<img src="img/we-do/1.jpg" alt="" />
+									<img src="{{asset('theme/netaji/img/we-do/1.jpg')}}" alt="" />
 								</div>
 								<div class="we-do-text">
 									<h3>Ecomic Progress</h3>
@@ -67,7 +67,7 @@
 						<div class="col-xl-12">
 							<div class="we-do-wrapper">
 								<div class="we-do-img">
-									<img src="img/we-do/2.jpg" alt="" />
+									<img src="{{asset('theme/netaji/img/we-do/2.jpg')}}" alt="" />
 								</div>
 								<div class="we-do-text">
 									<h3>Charity For Children</h3>
@@ -79,7 +79,7 @@
 						<div class="col-xl-12">
 							<div class="we-do-wrapper">
 								<div class="we-do-img">
-									<img src="img/we-do/3.jpg" alt="" />
+									<img src="{{asset('theme/netaji/img/we-do/2.jpg')}}" alt="" />
 								</div>
 								<div class="we-do-text">
 									<h3>Government Policy</h3>
@@ -91,7 +91,7 @@
 						<div class="col-xl-12">
 							<div class="we-do-wrapper">
 								<div class="we-do-img">
-									<img src="img/we-do/1.jpg" alt="" />
+									<img src="{{asset('theme/netaji/img/we-do/1.jpg')}}" alt="" />
 								</div>
 								<div class="we-do-text">
 									<h3>Ecomic Progress</h3>
@@ -103,7 +103,7 @@
 						<div class="col-xl-12">
 							<div class="we-do-wrapper">
 								<div class="we-do-img">
-									<img src="img/we-do/2.jpg" alt="" />
+									<img src="{{asset('theme/netaji/img/we-do/2.jpg')}}" alt="" />
 								</div>
 								<div class="we-do-text">
 									<h3>Charity For Children</h3>
@@ -115,7 +115,7 @@
 						<div class="col-xl-12">
 							<div class="we-do-wrapper">
 								<div class="we-do-img">
-									<img src="img/we-do/3.jpg" alt="" />
+									<img src="{{asset('theme/netaji/img/we-do/3.jpg')}}" alt="" />
 								</div>
 								<div class="we-do-text">
 									<h3>Government Policy</h3>
@@ -127,7 +127,7 @@
 						<div class="col-xl-12">
 							<div class="we-do-wrapper">
 								<div class="we-do-img">
-									<img src="img/we-do/1.jpg" alt="" />
+									<img src="{{asset('theme/netaji/img/we-do/1.jpg')}}" alt="" />
 								</div>
 								<div class="we-do-text">
 									<h3>Ecomic Progress</h3>
@@ -139,7 +139,7 @@
 						<div class="col-xl-12">
 							<div class="we-do-wrapper">
 								<div class="we-do-img">
-									<img src="img/we-do/2.jpg" alt="" />
+									<img src="{{asset('theme/netaji/img/we-do/2.jpg')}}img/we-do/2.jpg" alt="" />
 								</div>
 								<div class="we-do-text">
 									<h3>Charity For Children</h3>
@@ -151,7 +151,7 @@
 						<div class="col-xl-12">
 							<div class="we-do-wrapper">
 								<div class="we-do-img">
-									<img src="img/we-do/3.jpg" alt="" />
+									<img src="{{asset('theme/netaji/img/we-do/3.jpg')}}" alt="" />
 								</div>
 								<div class="we-do-text">
 									<h3>Government Policy</h3>
@@ -181,7 +181,7 @@
 					<div class="col-xl-4 col-lg-4 col-md-6">
 						<div class="team-wrapper mb-30">
 							<div class="team-img">
-								<img src="img/team/1.jpg" alt="">
+								<img src="{{asset('theme/netaji/img/team/3.jpg')}}" alt="">
 								<div class="team-text">
 									<h3>Jonathon mark bon</h3>
 									<span>Web designer</span>
@@ -199,7 +199,7 @@
 					<div class="col-xl-4 col-lg-4 col-md-6">
 						<div class="team-wrapper mb-30">
 							<div class="team-img">
-								<img src="img/team/2.jpg" alt="">
+								<img src="{{asset('theme/netaji/img/team/2.jpg')}}" alt="">
 								<div class="team-text">
 									<h3>Mukul Kumer Dev</h3>
 									<span>Web designer</span>
@@ -217,7 +217,7 @@
 					<div class="col-xl-4 col-lg-4 col-md-6">
 						<div class="team-wrapper mb-30">
 							<div class="team-img">
-								<img src="img/team/3.jpg" alt="">
+								<img src="{{asset('theme/netaji/img/team/3.jpg')}}" alt="">
 								<div class="team-text">
 									<h3>Nicholas M. Justus</h3>
 									<span>Web designer</span>
@@ -238,7 +238,7 @@
 		<!-- team-area-end -->
 
 		<!-- counter-area-start -->
-		<div class="counter-area pt-140 pb-110" style="background-image:url(img/bg/1.jpg)">
+		<div class="counter-area pt-140 pb-110" style="background-image:url(theme/netaji/img/bg/1.jpg)">
 			<div class="container">
 				<div class="row">
 					<div class="col-xl-3 cl-lg-3 col-md-6">
@@ -297,7 +297,7 @@
 									<p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system and expound the actual teachings.</p>
 									<div class="testimonial-name">
 										<div class="testimonial-img">
-											<img src="img/testimonial/01.png" alt="" />
+											<img src="{{asset('theme/netaji/img/testimonial/01.png')}}" alt="" />
 										</div>
 										<div class="testimonial-content">
 											<h3>Joseph V. Ramirez</h3>
@@ -311,7 +311,7 @@
 									<p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system and expound the actual teachings.</p>
 									<div class="testimonial-name">
 										<div class="testimonial-img">
-											<img src="img/testimonial/01.png" alt="" />
+											<img src="{{asset('theme/netaji/img/testimonial/01.png')}}" alt="" />
 										</div>
 										<div class="testimonial-content">
 											<h3>Joseph V. Ramirez</h3>
@@ -325,7 +325,7 @@
 									<p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system and expound the actual teachings.</p>
 									<div class="testimonial-name">
 										<div class="testimonial-img">
-											<img src="img/testimonial/01.png" alt="" />
+											<img src="{{asset('theme/netaji/img/testimonial/01.png')}}" alt="" />
 										</div>
 										<div class="testimonial-content">
 											<h3>Joseph V. Ramirez</h3>
@@ -348,32 +348,32 @@
 					<div class="brand-active owl-carousel">
 						<div class="col-xl-12">
 							<div class="brans-img text-center">
-								<img src="img/brand/1.png" alt="" />
+								<img src="{{asset('theme/netaji/img/brand/1.png')}}" alt="" />
 							</div>
 						</div>
 						<div class="col-xl-12">
 							<div class="brans-img text-center">
-								<img src="img/brand/2.png" alt="" />
+								<img src="{{asset('theme/netaji/img/brand/2.png')}}" alt="" />
 							</div>
 						</div>
 						<div class="col-xl-12">
 							<div class="brans-img text-center">
-								<img src="img/brand/3.png" alt="" />
+								<img src="{{asset('theme/netaji/img/brand/3.png')}}" alt="" />
 							</div>
 						</div>
 						<div class="col-xl-12">
 							<div class="brans-img text-center">
-								<img src="img/brand/4.png" alt="" />
+								<img src="{{asset('theme/netaji/img/brand/4.png')}}" alt="" />
 							</div>
 						</div>
 						<div class="col-xl-12">
 							<div class="brans-img text-center">
-								<img src="img/brand/5.png" alt="" />
+								<img src="{{asset('theme/netaji/img/brand/5.png')}}" alt="" />
 							</div>
 						</div>
 						<div class="col-xl-12 text-center">
 							<div class="brans-img">
-								<img src="img/brand/6.png" alt="" />
+								<img src="{{asset('theme/netaji/img/brand/6.png')}}" alt="" />
 							</div>
 						</div>
 					</div>

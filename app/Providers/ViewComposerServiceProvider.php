@@ -40,9 +40,17 @@ class ViewComposerServiceProvider extends ServiceProvider
     {
         view()->composer($route, function ($view) {
             $theme_id =  Config::get('THEME_ID');
+//            dd($theme_id);
             $menu = Menu::where('name','Main Menu')->where('theme_id',$theme_id)->first();
-            $main_menu_items = MenuItem::where('menu_id',$menu->id)->get();
-            $view->with('menu_items',$main_menu_items);
+            $menu_items = [];
+            $main_menu_items_count = 0;
+            if ($menu)
+            {
+                $menu_items = MenuItem::where('menu_id',$menu->id)->get();
+                $main_menu_items_count = MenuItem::where('menu_id',$menu->id)->count();
+            }
+
+            $view->with(compact('menu_items','main_menu_items_count'));
         });
     }
 

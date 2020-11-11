@@ -14,5 +14,13 @@ class DatabaseSeeder extends Seeder
     public function run()
     {
         // \App\Models\User::factory(10)->create();
+        $this->call(
+            [
+                ThemeSeeder::class,
+                PageSeeder::class,
+                MenuSeeder::class
+            ]);
+
+        $this->command->info('Seeder ran successfully');
     }
 }

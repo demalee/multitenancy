@@ -1,11 +1,11 @@
-@extends('theme/netaji/layouts.app')
+@extends('theme/netaji_theme/layouts.app')
 @section('content')
     <!-- header-end -->
 
     <!-- slider-start -->
     <div class="slider-area">
         <div class="slider-active">
-            <div class="single-slider slider-height d-flex align-items-center" style="background-image:url(img/slider/slider1.jpg)">
+            <div class="single-slider slider-height d-flex align-items-center" style="background-image:url(theme/netaji/img/slider/slider1.jpg)">
                 <div class="container">
                     <div class="row ">
                         <div class="col-xl-12">
@@ -18,7 +18,7 @@
                     </div>
                 </div>
             </div>
-            <div class="single-slider slider-height d-flex align-items-center" style="background-image:url(img/slider/slider1.jpg)">
+            <div class="single-slider slider-height d-flex align-items-center" style="background-image:url(theme/netaji/img/slider/slider1.jpg)">
                 <div class="container">
                     <div class="row ">
                         <div class="col-xl-12">
@@ -31,7 +31,7 @@
                     </div>
                 </div>
             </div>
-            <div class="single-slider slider-height d-flex align-items-center" style="background-image:url(img/slider/slider1.jpg)">
+            <div class="single-slider slider-height d-flex align-items-center" style="background-image:url(theme/netaji/img/slider/slider1.jpg)">
                 <div class="container">
                     <div class="row ">
                         <div class="col-xl-12">
@@ -63,7 +63,7 @@
                     <div class="feature-wrapper text-center mb-30">
                         <div class="feature-item">
                             <div class="feature-img">
-                                <img src="img/feature/icon1.png" alt="" />
+                                <img src="{{url('theme/netaji/img/feature/icon1.png')}}" alt="" />
                             </div>
                             <div class="feature-text">
                                 <h2>Our Campaign</h2>
@@ -81,7 +81,7 @@
                     <div class="feature-wrapper active text-center mb-30">
                         <div class="feature-item">
                             <div class="feature-img">
-                                <img src="img/feature/icon2.png" alt="" />
+                                <img src="{{url('theme/netaji/img/feature/icon2.png')}}" alt="" />
                             </div>
                             <div class="feature-text">
                                 <h2>Join Volunteer</h2>
@@ -99,7 +99,7 @@
                     <div class="feature-wrapper text-center mb-30">
                         <div class="feature-item">
                             <div class="feature-img">
-                                <img src="img/feature/icon1.png" alt="" />
+                                <img src="{{url('theme/netaji/img/feature/icon1.png')}}" alt="" />
                             </div>
                             <div class="feature-text">
                                 <h2>Make Donation</h2>
@@ -124,7 +124,7 @@
     <!-- feature-area-end -->
 
     <!-- donation-area-start -->
-    <div class="donation-area pt-240 pb-140" style="background-image:url(img/bg/4.jpg)">
+    <div class="donation-area pt-240 pb-140" style="background-image:url(theme/netaji/img/bg/4.jpg)">
         <div class="container">
             <div class="row">
                 <div class="col-xl-6 offset-xl-6 col-lg-6 offset-lg-6">
@@ -163,7 +163,7 @@
                 <div class="col-xl-4 col-lg-4 col-md-6">
                     <div class="services-wrapper text-center mb-70">
                         <div class="services-img">
-                            <img src="img/service/1.png" alt="" />
+                            <img src="{{url('theme/netaji/img/service/1.png')}}" alt="" />
                         </div>
                         <div class="services-text">
                             <h2>Economic Progress</h2>
@@ -175,7 +175,7 @@
                 <div class="col-xl-4 col-lg-4 col-md-6">
                     <div class="services-wrapper text-center mb-70">
                         <div class="services-img">
-                            <img src="img/service/2.png" alt="" />
+                            <img src="{{url('theme/netaji/img/service/2.png')}}" alt="" />
                         </div>
                         <div class="services-text">
                             <h2>Education Progress</h2>
@@ -187,7 +187,7 @@
                 <div class="col-xl-4 col-lg-4 col-md-6">
                     <div class="services-wrapper text-center mb-70">
                         <div class="services-img">
-                            <img src="img/service/3.png" alt="" />
+                            <img src="{{url('theme/netaji/img/service/3.png')}}" alt="" />
                         </div>
                         <div class="services-text">
                             <h2>Accomodation</h2>
@@ -199,7 +199,7 @@
                 <div class="col-xl-4 col-lg-4 col-md-6">
                     <div class="services-wrapper text-center mb-70">
                         <div class="services-img">
-                            <img src="img/service/4.png" alt="" />
+                            <img src="{{url('theme/netaji/img/service/4.png')}}" alt="" />
                         </div>
                         <div class="services-text">
                             <h2>Medical Care</h2>
@@ -211,7 +211,7 @@
                 <div class="col-xl-4 col-lg-4 col-md-6">
                     <div class="services-wrapper text-center mb-70">
                         <div class="services-img">
-                            <img src="img/service/5.png" alt="" />
+                            <img src="{{url('theme/netaji/img/service/5.png')}}" alt="" />
                         </div>
                         <div class="services-text">
                             <h2>Clothes For Human</h2>
@@ -223,7 +223,7 @@
                 <div class="col-xl-4 col-lg-4 col-md-6">
                     <div class="services-wrapper text-center mb-70">
                         <div class="services-img">
-                            <img src="img/service/6.png" alt="" />
+                            <img src="{{url('theme/netaji/img/service/6.png')}}" alt="" />
                         </div>
                         <div class="services-text">
                             <h2>Healthy Foods</h2>
@@ -238,7 +238,7 @@
     <!-- services-area-end -->
 
     <!-- counter-area-start -->
-    <div class="counter-area pt-140 pb-110" style="background-image:url(img/bg/1.jpg)">
+    <div class="counter-area pt-140 pb-110" style="background-image:url(theme/netaji/img/bg/1.jpg)">
         <div class="container">
             <div class="row">
                 <div class="col-xl-3 cl-lg-3 col-md-6">
@@ -292,7 +292,7 @@
                 <div class="event-box-active">
                     <div class="event-wrapper">
                         <div class="event-img">
-                            <img src="img/event/1.jpg" alt="" />
+                            <img src="{{url('theme/netaji/img/event/1.jpg')}}" alt="" />
                             <div class="event-text">
                                 <h2><a href="#">March for our lives</a></h2>
                                 <span>10 december 2018</span>
@@ -301,7 +301,7 @@
                     </div>
                     <div class="event-wrapper">
                         <div class="event-img">
-                            <img src="img/event/2.jpg" alt="" />
+                            <img src="{{url('theme/netaji/img/event/2.jpg')}}" alt="" />
                             <div class="event-text">
                                 <h2><a href="#">Annual Conference</a></h2>
                                 <span>15 december 2018</span>
@@ -310,7 +310,7 @@
                     </div>
                     <div class="event-wrapper">
                         <div class="event-img">
-                            <img src="img/event/3.jpg" alt="" />
+                            <img src="{{url('theme/netaji/img/event/3.jpg')}}" alt="" />
                             <div class="event-text">
                                 <h2><a href="#">Complete Anatomy.</a></h2>
                                 <span>16 december 2018</span>
@@ -319,7 +319,7 @@
                     </div>
                     <div class="event-wrapper">
                         <div class="event-img">
-                            <img src="img/event/4.jpg" alt="" />
+                            <img src="{{url('theme/netaji/img/event/4.jpg')}}" alt="" />
                             <div class="event-text">
                                 <h2><a href="#">Our human Activities</a></h2>
                                 <span>16 december 2018</span>
@@ -328,7 +328,7 @@
                     </div>
                     <div class="event-wrapper">
                         <div class="event-img">
-                            <img src="img/event/5.jpg" alt="" />
+                            <img src="{{url('theme/netaji/img/event/5.jpg')}}" alt="" />
                             <div class="event-text">
                                 <h2><a href="#">About Alignment Flex.</a></h2>
                                 <span>12 January 2018</span>
@@ -337,7 +337,7 @@
                     </div>
                     <div class="event-wrapper">
                         <div class="event-img">
-                            <img src="img/event/6.jpg" alt="" />
+                            <img src="{{url('theme/netaji/img/event/6.jpg')}}" alt="" />
                             <div class="event-text">
                                 <h2><a href="#">I Learned Designing.</a></h2>
                                 <span>16 november 2018</span>
@@ -351,7 +351,7 @@
     <!-- event-area-end -->
 
     <!-- volunteer-area-start -->
-    <div class="volunteer-area volunteer11" style="background-image:url(img/bg/2.jpg)">
+    <div class="volunteer-area volunteer11" style="background-image:url(theme/netaji/img/bg/2.jpg)">
         <div class="container">
             <div class="row">
                 <div class="col-xl-6 col-lg-6 d-flex align-items-center">
@@ -363,7 +363,7 @@
                 </div>
                 <div class="col-xl-6 col-lg-6 d-lg-none d-xl-block">
                     <div class="volunteer-img">
-                        <img src="img/bg/become_vo.png" alt="">
+                        <img src="{{url('theme/netaji/img/bg/become_vo.png')}}" alt="">
                     </div>
                 </div>
             </div>
@@ -388,7 +388,7 @@
                             <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system and expound the actual teachings.</p>
                             <div class="testimonial-name">
                                 <div class="testimonial-img">
-                                    <img src="img/testimonial/01.png" alt="" />
+                                    <img src="{{url('theme/netaji/img/testimonial/01.png')}}" alt="" />
                                 </div>
                                 <div class="testimonial-content">
                                     <h3>Joseph V. Ramirez</h3>
@@ -402,7 +402,7 @@
                             <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system and expound the actual teachings.</p>
                             <div class="testimonial-name">
                                 <div class="testimonial-img">
-                                    <img src="img/testimonial/01.png" alt="" />
+                                    <img src="{{url('theme/netaji/img/testimonial/01.png')}}" alt="" />
                                 </div>
                                 <div class="testimonial-content">
                                     <h3>Joseph V. Ramirez</h3>
@@ -416,7 +416,7 @@
                             <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system and expound the actual teachings.</p>
                             <div class="testimonial-name">
                                 <div class="testimonial-img">
-                                    <img src="img/testimonial/01.png" alt="" />
+                                    <img src="{{url('theme/netaji/img/testimonial/01.png')}}" alt="" />
                                 </div>
                                 <div class="testimonial-content">
                                     <h3>Joseph V. Ramirez</h3>

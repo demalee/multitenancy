@@ -4,7 +4,7 @@
             <div class="row">
                 <div class="col-xl-3 col-lg-3">
                     <div class="logo">
-                        <a href="index-2.html"><img src="img/logo/logo.png" alt="" /></a>
+                        <a href="{{url('home')}}"><img src="{{url('theme/netaji/img/logo/logo.png')}}" alt="" /></a>
                     </div>
                 </div>
                 <div class="col-xl-9 col-lg-9">
@@ -16,11 +16,11 @@
                     <div class="main-menu text-right f-right">
                         <nav id="mobile-menu">
                             <ul>
-                                <li class="active"><a href="{{url('theme/netaji/')}}">HOME </a>
+                                <li class="active"><a href="{{url('home')}}">HOME </a>
 
                                 </li>
-                                <li><a href="{{url('about-us')}}">ABOUT US</a></li>
-                                <li><a href="{{url('events-grid')}}">EVENTS</a>
+                                <li><a href="{{url('about')}}">ABOUT US</a></li>
+                                <li><a href="{{url('events')}}">EVENTS</a>
                                     <ul class="sub-menu text-left">
                                         <li><a href="{{url('events-grid')}}">events grid</a></li>
                                         <li><a href="{{url('events-list')}}">events list</a></li>
@@ -50,6 +50,9 @@
                                     </ul>
                                 </li>
                                 <li><a href="{{url('contact')}}">CONTACT US</a></li>
+                                <li>
+                                    <a  href="{{ url('main') }}">Dashboard</a>
+                                </li>
                             </ul>
                         </nav>
                     </div>
@@ -67,8 +70,8 @@
             </button>
         </div>
         <div class="logo-side mb-30">
-            <a href="index-2.html">
-                <img src="img/logo/logo.png" alt="" />
+            <a href="{{url('home')}}">
+                <img src="{{url('theme/netaji/img/logo/logo.png')}}" alt="" />
             </a>
         </div>
         <div class="side-menu mb-30">
