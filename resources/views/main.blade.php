@@ -15,6 +15,42 @@
             </div>
         </div>
     </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+
+
+
+                        <div class="card card-with-border resolve-complain insta-profile">
+                            <div class="card-header card-no-border">
+                                <div class="media">
+                                    <div class="col-md-3">
+                                    <img class=" " src="https://laravel.pixelstrap.com/xolo/assets/images/banner/3.jpg" alt="" style="width: 150px; height: 150px;">
+                                    </div>    <div class="col-md-9"><div class="media-body">
+                                        <h5>Multisite Template
+                                        </h5>
+                                        <p class="f-12">
+                                            The description of the website will go here. I am sure it will make it
+                                            more appealing
+                                        </p>
+                                        <ul>
+
+
+                                            <li>
+                                                <button class="btn btn-light" type="button">View your website</button>
+
+                                            </li>
+                                            <li>
+                                                <button class="btn btn-primary" type="button">Edit template
+                                                </button>
+
+                                            </li>
+                                        </ul>
+                                        </div></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div></div></div>
     <!-- Container-fluid starts-->
     <div class="container-fluid">
         <div class="row">
@@ -23,18 +59,28 @@
                     <div class="col-12">
                         <div class="project-overview">
                             <div class="row">
-                                <div class="col-xl-2 col-sm-4 col-6">
-                                    <h2 class="f-w-600 counter font-primary">18</h2>
-                                    <p class="mb-0">Active Cases</p>
-                                </div>
-                                <div class="col-xl-2 col-sm-4 col-6">
-                                    <h2 class="f-w-600 counter font-secondary">143</h2>
-                                    <p class="mb-0">Pending Tasks</p>
-                                </div>
-                                <div class="col-xl-2 col-sm-4 col-6">
-                                    <h2 class="f-w-600 counter font-success">574</h2>
-                                    <p class="mb-0">Upcoming Events</p>
-                                </div>
+
+                                <div class="col-xl-6 col-sm-4 col-6"><div class="media-body">
+                                        <center><p><i data-feather="zap"></i></p></center>
+                                        <h5>Publish your website
+
+                                        </h5>
+                                        <p class="f-12">
+                                            The description of the website will go here. I
+                                            am sure it will make it more appealing
+
+                                        </p>
+                                        <ul>
+
+
+
+                                            <li>
+                                                <button class="btn btn-primary" type="button">Publish
+                                                </button>
+
+                                            </li>
+                                        </ul>
+                                    </div></div>
                                 <div class="col-xl-2 col-sm-4 col-6">
                                     <h2 class="f-w-600 counter font-info">15</h2>
                                     <p class="mb-0">New Messages</p>

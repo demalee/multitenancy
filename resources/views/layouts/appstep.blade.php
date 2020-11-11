@@ -15,30 +15,34 @@
     <link href="http://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i&amp;display=swap" rel="stylesheet">
     <link href="http://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700&amp;display=swap" rel="stylesheet">
     <!-- Font Awesome-->
-    <link rel="stylesheet" type="text/css" href="https://laravel.pixelstrap.com/xolo/assets/css/fontawesome.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/fontawesome.css">
     <!-- ico-font-->
-    <link rel="stylesheet" type="text/css" href="https://laravel.pixelstrap.com/xolo/assets/css/icofont.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/icofont.css">
     <!-- Themify icon-->
-    <link rel="stylesheet" type="text/css" href="https://laravel.pixelstrap.com/xolo/assets/css/themify.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/themify.css">
     <!-- Flag icon-->
-    <link rel="stylesheet" type="text/css" href="https://laravel.pixelstrap.com/xolo/assets/css/flag-icon.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/flag-icon.css">
     <!-- Feather icon-->
-    <link rel="stylesheet" type="text/css" href="https://laravel.pixelstrap.com/xolo/assets/css/feather-icon.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/feather-icon.css">
     <!-- Plugins css start-->
+    <link rel="stylesheet" type="text/css" href="../assets/css/prism.css">
     <!-- Plugins css Ends-->
     <!-- Bootstrap css-->
-    <link rel="stylesheet" type="text/css" href="https://laravel.pixelstrap.com/xolo/assets/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/bootstrap.css">
     <!-- App css-->
-    <link rel="stylesheet" type="text/css" href="https://laravel.pixelstrap.com/xolo/assets/css/style.css">
-    <link id="color" rel="stylesheet" href="http://laravel.pixelstrap.com/xolo/assets/css/color-1.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="../assets/css/style.css">
+    <link id="color" rel="stylesheet" href="../assets/css/color-1.css" media="screen">
     <!-- Responsive css-->
-    <!-- Responsive css-->
-    <link rel="stylesheet" type="text/css" href="https://laravel.pixelstrap.com/xolo/assets/css/responsive.css">         </head>
-<body class="light-only" main-theme-layout="ltr" >
+    <link rel="stylesheet" type="text/css" href="../assets/css/responsive.css">
+    <link rel="stylesheet" href="{{asset('css/custom.css')}}">
+</head>
+<body >
+{{--<div class="page-wrapper compact-wrapper" id="pageWrapper">--}}
 
 <div class="page-body-wrapper sidebar-icon">
-
+    @include('layouts.headerstep')
     <main class="py-4">
+
         <!--end menu-->
         @yield('content')
     </main>

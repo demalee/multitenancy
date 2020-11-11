@@ -101,16 +101,16 @@ class WebsiteController extends Controller
                     $count = 0;
                     $menu = Menu::where('name', 'Main Menu')->where('theme_id', self::getActiveTheme())->first();
 
-                    DB::table('menu_items')->where('menu_id', $menu->id)->delete();
+                    DB::table('menu_items')->where('menu_id', @$menu->id)->delete();
                     foreach ($data['page_id'] as $page_id) {
 //                        $pages = Page::where('slug',$page_id)->first();
                         $menu_item = MenuItem::updateorcreate([
-                            'menu_id' => $menu->id,
-                            'page_id' => $page_id,
+                            'menu_id' => @$menu->id,
+                            'page_id' => @$page_id,
                         ], [
-                            'menu' => $menu->name,
+                            'menu' => @$menu->name,
                             'parent_id' => 0,
-                            'slug' => \Illuminate\Support\Str::slug($menu->name)
+                            'slug' => \Illuminate\Support\Str::slug(@$menu->name)
                         ]);
                     }
 

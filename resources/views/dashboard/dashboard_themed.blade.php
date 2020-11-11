@@ -1399,6 +1399,4 @@
 <script src="../assets/js/theme-customizer/customizer.js"></script>
 <!-- login js-->
 <!-- Plugin used -->   </body>
-
-<!-- Mirrored from laravel.pixelstrap.com/xolo/dashboard/dashboard-03 by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 05 Oct 2020 16:31:29 GMT -->
 </html>

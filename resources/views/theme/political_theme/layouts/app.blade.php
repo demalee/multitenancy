@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>political theme</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.png">
+    <link rel="stylesheet" href="theme/political/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="theme/political/assets/css/animate.css">
+    <link rel="stylesheet" href="theme/political/assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="theme/political/assets/css/swiper.min.css">
+    <link rel="stylesheet" href="theme/political/assets/css/lightcase.css">
+    <link rel="stylesheet" href="theme/political/assets/css/style.css">
+</head>
+<body class="body-padding">
+<!-- preloader start -->
+<div id="loading">
+    <div id="loading-center">
+        <div id="loading-center-absolute">
+            <div class="object" id="object_one"></div>
+            <div class="object" id="object_two"></div>
+            <div class="object" id="object_three"></div>
+            <div class="object" id="object_four"></div>
+        </div>
+    </div>
+</div>
+<!-- preloader end -->
+@include('layouts.header')
+
+<main class="py-4">
+    @yield('content')
+
+</main>
+
+<!-- Start Header -->
+<!-- start footer section -->
+<footer class="footer-section">
+    <div class="footer-top section-padding-100">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-4 col-sm-6">
+                    <div class="widget">
+                        <a class="navbar-brand logo" href="index.html"><img src="assets/images/logo/02.png" alt="logo"></a>
+                        <p>Globally brand stand-alone processes and enable methods of empowerment. Efficient provide access to world wide methods vis-a-vis revolution.</p>
+                        <ul class="contact-info">
+                            <li><i class="fa fa-map-marker"></i>Rodney Square,Wilmington USA</li>
+                            <li><i class="fa fa-phone"></i>4588 957 8457</li>
+                            <li><i class="fa fa-envelope"></i>contact@yourmail.com</li>
+                        </ul>
+                        <ul class="social-media">
+                            <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="widget">
+                        <h5>Recent News</h5>
+                        <div class="small-post-list">
+                            <div class="post-item">
+                                <div class="post-thumb">
+                                    <a href="single.html"><img src="assets/images/small-thumb/01.jpg" alt="thumb"></a>
+                                </div>
+                                <div class="post-content">
+                                    <a href="single.html">Holisticly fashion multimedia based synergy vis-a-vis granular.</a>
+                                    <ul class="post-meta">
+                                        <li>26 March, 2020</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="post-item">
+                                <div class="post-thumb">
+                                    <a href="single.html"><img src="assets/images/small-thumb/02.jpg" alt="thumb"></a>
+                                </div>
+                                <div class="post-content">
+                                    <a href="single.html">Holisticly fashion multimedia based synergy vis-a-vis granular.</a>
+                                    <ul class="post-meta">
+                                        <li>26 March, 2020</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="post-item">
+                                <div class="post-thumb">
+                                    <a href="single.html"><img src="assets/images/small-thumb/03.jpg" alt="thumb"></a>
+                                </div>
+                                <div class="post-content">
+                                    <a href="single.html">Holisticly fashion multimedia based synergy vis-a-vis granular.</a>
+                                    <ul class="post-meta">
+                                        <li>26 March, 2020</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="widget">
+                        <h5>Recent Tweets</h5>
+                        <div class="tweet-list">
+                            <div class="tweet-item">
+                                <div class="tweet-thumb">
+                                    <a href="#"><img src="assets/images/tweet/01.png" alt="thumb"></a>
+                                </div>
+                                <div class="tweet-content">
+                                    <a class="name" href="#">Stella Gabriella <span>@stellagabriella</span></a>
+                                    <p>Holisticly fabricate state of the art growth. <a href="#">#webenabled</a> band: <a href="#">stella.org/your-voice.</a></p>
+                                </div>
+                            </div>
+                            <div class="tweet-item">
+                                <div class="tweet-thumb">
+                                    <a href="#"><img src="assets/images/tweet/01.png" alt="thumb"></a>
+                                </div>
+                                <div class="tweet-content">
+                                    <a class="name" href="#">Stella Gabriella <span>@stellagabriella</span></a>
+                                    <p>Holisticly fabricate state of the art growth. <a href="#">#webenabled</a> band: <a href="#">stella.org/your-voice.</a></p>
+                                </div>
+                            </div>
+                            <div class="tweet-item">
+                                <div class="tweet-thumb">
+                                    <a href="#"><img src="assets/images/tweet/01.png" alt="thumb"></a>
+                                </div>
+                                <div class="tweet-content">
+                                    <a class="name" href="#">Stella Gabriella <span>@stellagabriella</span></a>
+                                    <p>Holisticly fabricate state of the art growth. <a href="#">#webenabled</a> band: <a href="#">stella.org/your-voice.</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2020 <a href="index.html">Neta</a>Designed By <a href="https://themeforest.net/user/Labartisan/portfolio" target="_blank">Labartisan</a></p>
+    </div>
+</footer>
+<!-- end footer section -->
+
+
+
+<script src='theme/political/assets/js/plugins.js'></script>
+<script src='theme/political/assets/js/function.js'></script>
+</body>
+
+</html>

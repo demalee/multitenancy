@@ -48,8 +48,31 @@
                         <form action="{{route('menus.update',$menu_item->id)}}" method="post">
                             @csrf
                             @method('PUT')
-                            <h6>{{@$menu_item->page->title}}<button class="btn float-right" name="submit" value="remove_menu_item" title="remove {{@$menu_item->page->title}} from main menu"><i class="fa fa-times"></i></button>
+                            <h6> <button class="btn btn-primary" type="button" data-toggle="modal" data-target="#exampleModalmdo" data-whatever="@fat">{{@$menu_item->page->title}}</button><button class="btn float-right" name="submit" value="remove_menu_item" title="remove {{@$menu_item->page->title}} from main menu" ><i class="fa fa-times"></i></button>
                             </h6>
+                            <div class="modal fade" id="exampleModalmdo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel2">Add submenu to {{@$menu_item->page->title}}</h5>
+                                            <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <form>
+                                                <div class="form-group">
+                                                    <label class="col-form-label" for="recipient-name">Submenu title</label>
+                                                    <input class="form-control"  name="submenu" type="text" value="Submenu title">
+                                                </div>
+
+                                            </form>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button class="btn btn-secondary" type="button" data-dismiss="modal">Close</button>
+                                            <button class="btn btn-primary" type="button">Add</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </form>
                             <br>
                         @endforeach
@@ -177,6 +200,34 @@
             </form>
         </div>
     </div>
+    </div>
+
+
+    <div class="modal fade" id="exampleModalgetbootstrap" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">New message</h5>
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label class="col-form-label" for="recipient-name">Recipient:</label>
+                            <input class="form-control" type="text" value="@getbootstrap">
+                        </div>
+                        <div class="form-group">
+                            <label class="col-form-label" for="message-text">Message:</label>
+                            <textarea class="form-control"></textarea>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-secondary" type="button" data-dismiss="modal">Close</button>
+                    <button class="btn btn-primary" type="button">Send message</button>
+                </div>
+            </div>
+        </div>
     </div>
 
 

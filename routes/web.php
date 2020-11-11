@@ -34,7 +34,10 @@ Route::get('/dashboard/pages/create', function () {
     return view('/dashboard/pages/create');
 
 });
+    Route::get('/dashboard/settings', function () {
+        return view('/dashboard/settings');
 
+    });
 });
 Auth::routes();
 
