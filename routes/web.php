@@ -47,7 +47,6 @@ Route::get('/dashboard/website', [App\Http\Controllers\HomeController::class, 's
 
 //website routes
 Route::resource('websites',App\Http\Controllers\Backend\WebsiteController::class);
-
 Route::get('home',[App\Http\Controllers\PageController::class, 'index'])->name('home');
 Route::get('about',[App\Http\Controllers\PageController::class, 'about']);
 Route::get('services',[App\Http\Controllers\PageController::class, 'services']);
