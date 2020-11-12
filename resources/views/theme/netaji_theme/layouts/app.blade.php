@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="manifest" href="site.html">
-    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="{{asset('theme/netaji/img/favicon.ico')}}">
     <!-- Place favicon.ico in the root directory -->
 
     <!-- CSS here -->
@@ -32,7 +32,7 @@
 
 @include('theme/netaji_theme/layouts.header')
 
-<main class="py-4">
+<main>
     @yield('content')
 
 </main>
@@ -69,7 +69,7 @@
                         <ul class="footer-news">
                             <li>
                                 <div class="footer-news-img">
-                                    <img src="img/footer/1.png" alt="" />
+                                    <img src="{{asset('theme/netaji/img/footer/1.png')}}" alt="" />
                                 </div>
                                 <div class="footer-news-text">
                                     <h4><a href="#">Designing The Invisible Things I Learned Designing.</a></h4>
@@ -78,7 +78,7 @@
                             </li>
                             <li>
                                 <div class="footer-news-img">
-                                    <img src="img/footer/2.png" alt="" />
+                                    <img src="{{asset('theme/netaji/img/footer/2.png')}}" alt="" />
                                 </div>
                                 <div class="footer-news-text">
                                     <h4><a href="#">The Complete Anatomy Of The Gutenberg WordPress.</a></h4>
@@ -87,7 +87,7 @@
                             </li>
                             <li>
                                 <div class="footer-news-img">
-                                    <img src="img/footer/3.png" alt="" />
+                                    <img src="{{asset('theme/netaji/img/footer/3.png')}}" alt="" />
                                 </div>
                                 <div class="footer-news-text">
                                     <h4><a href="#">Everything You Need To Know About Alignment Flex.</a></h4>
@@ -101,12 +101,12 @@
                     <div class="footer-wrapper pl-15 mb-30">
                         <h3 class="footer-title">Follow Instagram</h3>
                         <ul class="footer-img">
-                            <li><a href="#"><img alt="" src="img/instagram/1.jpg"></a></li>
-                            <li><a href="#"><img alt="" src="img/instagram/2.jpg"></a></li>
-                            <li><a href="#"><img alt="" src="img/instagram/3.jpg"></a></li>
-                            <li><a href="#"><img alt="" src="img/instagram/4.jpg"></a></li>
-                            <li><a href="#"><img alt="" src="img/instagram/5.jpg"></a></li>
-                            <li><a href="#"><img alt="" src="img/instagram/6.jpg"></a></li>
+                            <li><a href="#"><img alt="" src="{{asset('theme/netaji/img/instagram/1.jpg')}}"></a></li>
+                            <li><a href="#"><img alt="" src="{{asset('theme/netaji/img/instagram/2.jpg')}}"></a></li>
+                            <li><a href="#"><img alt="" src="{{asset('theme/netaji/img/instagram/3.jpg')}}"></a></li>
+                            <li><a href="#"><img alt="" src="{{asset('theme/netaji/img/instagram/4.jpg')}}"></a></li>
+                            <li><a href="#"><img alt="" src="{{asset('theme/netaji/img/instagram/5.jpg')}}"></a></li>
+                            <li><a href="#"><img alt="" src="{{asset('theme/netaji/img/instagram/6.jpg')}}"></a></li>
                         </ul>
                     </div>
                 </div>

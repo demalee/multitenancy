@@ -50,6 +50,9 @@ Route::get('home',[App\Http\Controllers\PageController::class, 'index'])->name('
 Route::get('about',[App\Http\Controllers\PageController::class, 'about']);
 Route::get('services',[App\Http\Controllers\PageController::class, 'services']);
 Route::get('contact',[App\Http\Controllers\PageController::class, 'contact']);
+Route::get('events',[App\Http\Controllers\PageController::class, 'event']);
+Route::get('blog',[App\Http\Controllers\PageController::class, 'blog']);
+Route::get('event-detail',[App\Http\Controllers\PageController::class, 'eventDetail']);
 
 //change between themes
 Route::post('dashboard/theme/change/{id}',[App\Http\Controllers\PageController::class, 'themeChange']);

@@ -1,15 +1,15 @@
-@extends('theme/netaji/layouts.app')
+@extends('theme.netaji_theme.layouts.app')
 @section('content')
 
 		<!-- breadcrumb-area-start -->
-		<div class="breadcrumb-area pt-250 pb-250" style="background-image:url(img/bg/8.jpg)">
+		<div class="breadcrumb-area pt-250 pb-250" style="background-image:url(theme/netaji/img/bg/8.jpg)">
 			<div class="container">
 				<div class="row">
 					<div class="col-xl-12">
 						<div class="breadcrumb-text text-center">
 							<h1>Events details</h1>
 							<ul class="breadcrumb-menu">
-								<li><a href="index-2.html">home</a></li>
+								<li><a href="{{url('home')}}">home</a></li>
 								<li><span>Events details</span></li>
 							</ul>
 						</div>
@@ -25,7 +25,7 @@
 				<div class="row">
 					<div class="col-xl-12">
 						<div class="event-details-img">
-							<img src="img/event/events-details/1.jpg" alt="" />
+							<img src="{{asset('theme/netaji/img/event/events-details/1.jpg')}}" alt="" />
 						</div>
 						<div class="events-deatils-meta">
 							<span><i class="fas fa-calendar-alt"></i> 05 January 2018</span>
@@ -48,17 +48,17 @@
 						<div class="row mb-10">
 							<div class="col-xl-4 col-lg-4 col-md-6">
 								<div class="event-details-img mb-20">
-									<img src="img/event/events-details/2.jpg" alt="" />
+									<img src="{{asset('theme/netaji/img/event/events-details/2.jpg')}}" alt="" />
 								</div>
 							</div>
 							<div class="col-xl-4 col-lg-4 col-md-6">
 								<div class="event-details-img mb-20">
-									<img src="img/event/events-details/3.jpg" alt="" />
+									<img src="{{asset('theme/netaji/img/event/events-details/3.jpg')}}" alt="" />
 								</div>
 							</div>
 							<div class="col-xl-4 col-lg-4 col-md-6">
 								<div class="event-details-img mb-20">
-									<img src="img/event/events-details/4.jpg" alt="" />
+									<img src="{{asset('theme/netaji/img/event/events-details/4.jpg')}}" alt="" />
 								</div>
 							</div>
 						</div>

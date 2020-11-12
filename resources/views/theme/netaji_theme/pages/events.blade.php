@@ -1,15 +1,15 @@
-@extends('theme/netaji/layouts.app')
+@extends('theme.netaji_theme.layouts.app')
 @section('content')
 
 		<!-- breadcrumb-area-start -->
-		<div class="breadcrumb-area pt-250 pb-250" style="background-image:url(img/bg/8.jpg)">
+		<div class="breadcrumb-area pt-250 pb-250" style="background-image:url(theme/netaji/img/bg/8.jpg)">
 			<div class="container">
 				<div class="row">
 					<div class="col-xl-12">
 						<div class="breadcrumb-text text-center">
 							<h1>Events Gridview</h1>
 							<ul class="breadcrumb-menu">
-								<li><a href="index-2.html">home</a></li>
+								<li><a href="{{url('home')}}">home</a></li>
 								<li><span>Events</span></li>
 							</ul>
 						</div>
@@ -34,7 +34,7 @@
 					<div class="col-xl-4 col-lg-4 col-md-6">
 						<div class="events-wrapper text-center mb-60">
 							<div class="events-img">
-								<a href="#"><img src="img/event/events1.jpg" alt="" /></a>
+								<a href="#"><img src="{{asset('theme/netaji/img/event/events1.jpg')}}" alt="" /></a>
 							</div>
 							<div class="events-meta">
 								<span>10 feb 2018</span>
@@ -49,7 +49,7 @@
 					<div class="col-xl-4 col-lg-4 col-md-6">
 						<div class="events-wrapper text-center mb-60">
 							<div class="events-img">
-								<a href="#"><img src="img/event/events2.jpg" alt="" /></a>
+								<a href="#"><img src="{{asset('theme/netaji/img/event/events2.jpg')}}" alt="" /></a>
 							</div>
 							<div class="events-meta">
 								<span>10 dec 2018</span>
@@ -64,7 +64,7 @@
 					<div class="col-xl-4 col-lg-4 col-md-6">
 						<div class="events-wrapper text-center mb-60">
 							<div class="events-img">
-								<a href="#"><img src="img/event/events3.jpg" alt="" /></a>
+								<a href="#"><img src="{{asset('theme/netaji/img/event/events3.jpg')}}" alt="" /></a>
 							</div>
 							<div class="events-meta">
 								<span>5 aug 2018</span>
@@ -79,7 +79,7 @@
 					<div class="col-xl-4 col-lg-4 col-md-6">
 						<div class="events-wrapper text-center mb-60">
 							<div class="events-img">
-								<a href="#"><img src="img/event/events4.jpg" alt="" /></a>
+								<a href="#"><img src="{{asset('theme/netaji/img/event/events4.jpg')}}" alt="" /></a>
 							</div>
 							<div class="events-meta">
 								<span>10 sep 2018</span>
@@ -94,7 +94,7 @@
 					<div class="col-xl-4 col-lg-4 col-md-6">
 						<div class="events-wrapper text-center mb-60">
 							<div class="events-img">
-								<a href="#"><img src="img/event/events5.jpg" alt="" /></a>
+								<a href="#"><img src="{{asset('theme/netaji/img/event/events5.jpg')}}" alt="" /></a>
 							</div>
 							<div class="events-meta">
 								<span>10 dec 2018</span>
@@ -109,7 +109,7 @@
 					<div class="col-xl-4 col-lg-4 col-md-6">
 						<div class="events-wrapper text-center mb-60">
 							<div class="events-img">
-								<a href="#"><img src="img/event/events6.jpg" alt="" /></a>
+								<a href="#"><img src="{{asset('theme/netaji/img/event/events6.jpg')}}" alt="" /></a>
 							</div>
 							<div class="events-meta">
 								<span>05 feb 2018</span>
@@ -124,7 +124,7 @@
 					<div class="col-xl-4 col-lg-4 col-md-6">
 						<div class="events-wrapper text-center mb-60">
 							<div class="events-img">
-								<a href="#"><img src="img/event/events7.jpg" alt="" /></a>
+								<a href="#"><img src="{{asset('theme/netaji/img/event/events7.jpg')}}" alt="" /></a>
 							</div>
 							<div class="events-meta">
 								<span>20 feb 2018</span>
@@ -139,7 +139,7 @@
 					<div class="col-xl-4 col-lg-4 col-md-6">
 						<div class="events-wrapper text-center mb-60">
 							<div class="events-img">
-								<a href="#"><img src="img/event/events8.jpg" alt="" /></a>
+								<a href="#"><img src="{{asset('theme/netaji/img/event/events8.jpg')}}" alt="" /></a>
 							</div>
 							<div class="events-meta">
 								<span>10 feb 2018</span>
@@ -154,7 +154,7 @@
 					<div class="col-xl-4 col-lg-4 col-md-6">
 						<div class="events-wrapper text-center mb-60">
 							<div class="events-img">
-								<a href="#"><img src="img/event/events9.jpg" alt="" /></a>
+								<a href="#"><img src="{{asset('theme/netaji/img/event/events9.jpg')}}" alt="" /></a>
 							</div>
 							<div class="events-meta">
 								<span>05 aug 2018</span>

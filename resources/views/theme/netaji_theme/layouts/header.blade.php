@@ -22,9 +22,9 @@
                                 <li><a href="{{url('about')}}">ABOUT US</a></li>
                                 <li><a href="{{url('events')}}">EVENTS</a>
                                     <ul class="sub-menu text-left">
-                                        <li><a href="{{url('events-grid')}}">events grid</a></li>
-                                        <li><a href="{{url('events-list')}}">events list</a></li>
-                                        <li><a href="{{url('events-list')}}">events details</a></li>
+                                        <li><a href="{{url('events')}}">events grid</a></li>
+                                        <li><a href="{{url('events')}}">events list</a></li>
+                                        <li><a href="{{url('events-details')}}">events details</a></li>
                                     </ul>
                                 </li>
                                 <li><a href="#">Pages</a>
@@ -98,22 +98,22 @@
         </div>
         <div class="instagram">
             <a href="#">
-                <img src="img/instagram/1.jpg" alt="">
+                <img src="{{asset('theme/netaji/img/instagram/1.jpg')}}" alt="">
             </a>
             <a href="#">
-                <img src="img/instagram/2.jpg" alt="">
+                <img src="{{asset('theme/netaji/img/instagram/2.jpg')}}" alt="">
             </a>
             <a href="#">
-                <img src="img/instagram/3.jpg" alt="">
+                <img src="{{asset('theme/netaji/img/instagram/3.jpg')}}" alt="">
             </a>
             <a href="#">
-                <img src="img/instagram/4.jpg" alt="">
+                <img src="{{asset('theme/netaji/img/instagram/4.jpg')}}" alt="">
             </a>
             <a href="#">
-                <img src="img/instagram/5.jpg" alt="">
+                <img src="{{asset('theme/netaji/img/instagram/5.jpg')}}" alt="">
             </a>
             <a href="#">
-                <img src="img/instagram/6.jpg" alt="">
+                <img src="{{asset('theme/netaji/img/instagram/6.jpg')}}" alt="">
             </a>
         </div>
         <div class="social-icon-right mt-20">

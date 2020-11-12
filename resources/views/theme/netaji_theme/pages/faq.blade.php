@@ -2,14 +2,14 @@
 @section('content')
 
 		<!-- breadcrumb-area-start -->
-		<div class="breadcrumb-area pt-250 pb-250" style="background-image:url(img/bg/8.jpg)">
+		<div class="breadcrumb-area pt-250 pb-250" style="background-image:url(theme/netaji/img/bg/8.jpg)">
 			<div class="container">
 				<div class="row">
 					<div class="col-xl-12">
 						<div class="breadcrumb-text text-center">
 							<h1>FAQ</h1>
 							<ul class="breadcrumb-menu">
-								<li><a href="index-2.html">home</a></li>
+								<li><a href="{{url('home')}}">home</a></li>
 								<li><span>FAQ</span></li>
 							</ul>
 						</div>
@@ -25,7 +25,7 @@
 				<div class="row">
 					<div class="col-xl-4 col-lg-4 d-md-none d-lg-block">
 						<div class="frequently2-img mb-30">
-							<img src="img/faq/1.png" alt="" />
+							<img src="{{asset('theme/netaji/img/faq/1.png')}}" alt="" />
 						</div>
 					</div>
 					<div class="col-xl-8 col-lg-8 mb-30">

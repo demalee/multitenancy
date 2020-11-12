@@ -168,7 +168,7 @@
                             </ul>
                             <div class="project__post">
                                 <div class="project__post__thumb">
-                                    <img src="images/running/sm-img/1.png" alt="post iamges">
+                                    <img src="{{asset('theme/republic/images/running/sm-img/1.png')}}" alt="post iamges">
                                 </div>
                                 <div class="project__post__title">
                                     <h4><a href="#">Momen Bhuiyan</a></h4>
@@ -183,7 +183,7 @@
                     <div class="project">
                         <div class="project__inner">
                             <div class="htc__hover__fornt">
-                                <img src="images/running/2.jpg" alt="project images">
+                                <img src="{{asset('them')}}" alt="project images">
                             </div>
                             <div class="htc__hover__information">
                                 <div class="htc__hover__action">

@@ -5,7 +5,7 @@
     <!-- slider-start -->
     <div class="slider-area">
         <div class="slider-active">
-            <div class="single-slider slider-height d-flex align-items-center" style="background-image:url(theme/netaji/img/slider/slider1.jpg)">
+            <div class="single-slider slider-height d-flex align-items-center" style="background-image:url(theme/netaji/img/slider/image.png)">
                 <div class="container">
                     <div class="row ">
                         <div class="col-xl-12">
@@ -18,7 +18,7 @@
                     </div>
                 </div>
             </div>
-            <div class="single-slider slider-height d-flex align-items-center" style="background-image:url(theme/netaji/img/slider/slider1.jpg)">
+            <div class="single-slider slider-height d-flex align-items-center" style="background-image:url(theme/netaji/img/slider/image.png)">
                 <div class="container">
                     <div class="row ">
                         <div class="col-xl-12">
@@ -31,7 +31,7 @@
                     </div>
                 </div>
             </div>
-            <div class="single-slider slider-height d-flex align-items-center" style="background-image:url(theme/netaji/img/slider/slider1.jpg)">
+            <div class="single-slider slider-height d-flex align-items-center" style="background-image:url(theme/netaji/img/slider/image.png)">
                 <div class="container">
                     <div class="row ">
                         <div class="col-xl-12">
@@ -445,11 +445,11 @@
                 <div class="col-xl-6 col-lg-6 col-md-6">
                     <div class="blog-wrapper mb-30">
                         <div class="blog-img">
-                            <a href="blog-details.html"><img src="img/blog/blog1.jpg" alt="" /></a>
+                            <a href="{{url('blog')}}"><img src="{{asset('theme/netaji/img/blog/blog1.jpg')}}" alt="" /></a>
                             <div class="blog-text">
                                 <span>05 december 2018</span>
-                                <h2><a href="blog-details.html">Form Design Patterns Book Excerpt Registration</a></h2>
-                                <a href="blog-details.html">read more</a>
+                                <h2><a href="{{url('blog')}}">Form Design Patterns Book Excerpt Registration</a></h2>
+                                <a href="{{url('blog')}}">read more</a>
                             </div>
                         </div>
                     </div>
@@ -457,11 +457,11 @@
                 <div class="col-xl-6 col-lg-6 col-md-6">
                     <div class="blog-wrapper mb-30">
                         <div class="blog-img">
-                            <a href="blog-details.html"><img src="img/blog/blog2.jpg" alt="" /></a>
+                            <a href="{{url('blog-details')}}"><img src="{{asset('theme/netaji/img/blog/blog2.jpg')}}" alt="" /></a>
                             <div class="blog-text">
                                 <span>05 december 2018</span>
-                                <h2><a href="blog-details.html">Working Together Designers And Developers Can.</a></h2>
-                                <a href="blog-details.html">read more</a>
+                                <h2><a href="{{url('blog-details')}}">Working Together Designers And Developers Can.</a></h2>
+                                <a href="{{url('blog')}}">read more</a>
                             </div>
                         </div>
                     </div>
@@ -472,7 +472,7 @@
     <!-- blog-area-end -->
 
     <!-- subscribe-area-start -->
-    <div class="subscribe-area pt-110 pb-115" style="background-image:url(img/bg/3.jpg)">
+    <div class="subscribe-area pt-110 pb-115" style="background-image:url(theme/netaji/img/bg/3.jpg)">
         <div class="container">
             <div class="row">
                 <div class="col-xl-8 col-lg-8 offset-lg-2 offset-xl-2">

@@ -29,11 +29,30 @@ class PageController extends Controller
     {
         $route = Config::get('THEME_PAGES').'services';
         return view($route);
-    } public function contact()
-{
-    $route = Config::get('THEME_PAGES').'contact';
-    return view($route);
-}
+    }
+    public function contact()
+    {
+        $route = Config::get('THEME_PAGES').'contact';
+        return view($route);
+    }
+
+    public function event()
+    {
+        $route = Config::get('THEME_PAGES').'events';
+        return view($route);
+    }
+
+    public function eventDetail()
+    {
+        $route = Config::get('THEME_PAGES').'events-details';
+        return view($route);
+    }
+
+    public function blog()
+    {
+        $route = Config::get('THEME_PAGES').'blog';
+        return view($route);
+    }
     //theme
     public function themeChange(Request $request,$id)
     {
