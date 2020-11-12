@@ -20,9 +20,13 @@ Route::get('/themes', function () {
 
 Route::get('/Widgets', function () {
     return view('/widgets');
-});Route::get('/theme-option', function () {
+});
+Route::get('/theme-option', function () {
     return view('/theme-option');
 });
+    Route::get('/dashboard/block', function () {
+        return view('/dashboard/block');
+    });
 Route::get('/custom-css', function () {
     return view('/custom-css');
 });
@@ -72,6 +76,9 @@ Route::get('health',[App\Http\Controllers\PageController::class, 'health']);
 Route::get('mayor',[App\Http\Controllers\PageController::class, 'mayor']);
 Route::get('resident_detail',[App\Http\Controllers\PageController::class, 'resident_detail']);
 Route::get('priorities',[App\Http\Controllers\PageController::class, 'priorities']);
+Route::get('faq',[App\Http\Controllers\PageController::class, 'faq']);
+Route::get('issue',[App\Http\Controllers\PageController::class, 'issue']);
+Route::get('events_details',[App\Http\Controllers\PageController::class, 'events_details']);
 
 
 //change between themes

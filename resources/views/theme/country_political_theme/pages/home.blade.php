@@ -26,7 +26,7 @@
                              data-paddingright="[0,0,0,0]"
                              data-paddingbottom="[0,0,0,0]"
                              data-paddingleft="[0,0,0,0]"
-                             style="text-shadow: 0 3px 5px rgba(0,0,0,.3);letter-spacing: 0;font-family: playfair display;color: #fff;">Take Actions
+                             style="text-shadow: 0 3px 5px rgba(0,0,0,.3);letter-spacing: 0;font-family: playfair display;color: #fff;" contenteditable="true">Take Actions
                         </div>
 
                         <!-- LAYER NR. 2 -->
@@ -47,7 +47,7 @@
                              data-paddingright="[0,0,0,0]"
                              data-paddingbottom="[0,0,0,0]"
                              data-paddingleft="[0,0,0,0]"
-                             style="text-shadow: 0 3px 5px rgba(0,0,0,.3);letter-spacing: 0;color: #fff;font-weight:800;font-family: playfair display;">A Community Of
+                             style="text-shadow: 0 3px 5px rgba(0,0,0,.3);letter-spacing: 0;color: #fff;font-weight:800;font-family: playfair display;" contenteditable="true">A Community Of
                         </div>
 
                         <!-- LAYER NR. 3 -->

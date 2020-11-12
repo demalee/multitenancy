@@ -51,6 +51,58 @@
         @yield('content')
 
     </main>
+    <div class="city_requset_wrap">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-6">
+                    <div class="city_request_list">
+                        <div class="city_request_row">
+                            <span><i class="fa icon-question"></i></span>
+                            <div class="city_request_text">
+                                <span contenteditable="true">Recent</span>
+                                <h4 contenteditable="true">Top Request</h4>
+                            </div>
+                        </div>
+                        <div class="city_request_link">
+                            <ul>
+                                <li><a href="#" contenteditable="true">Pay a Parking Ticket</a></li>
+                                <li><a href="#" contenteditable="true">Building Violation</a></li>
+                                <li><a href="#">Affordable Housing</a></li>
+                                <li><a href="#">Graffiti Removal</a></li>
+                                <li><a href="#">Civil Service Exams</a></li>
+                                <li><a href="#">Rodent Baiting</a></li>
+                                <li class="margin0"><a href="#">Cleaning</a></li>
+                                <li class="margin0"><a href="#">Uncleared Sidewalk</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6">
+                    <div class="city_request_list">
+                        <div class="city_request_row">
+                            <span><i class="fa icon-shout"></i></span>
+                            <div class="city_request_text">
+                                <span>Recent</span>
+                                <h4>Announcement</h4>
+                            </div>
+                        </div>
+                        <div class="city_request_link">
+                            <ul>
+                                <li><a href="#">Pay a Parking Ticket</a></li>
+                                <li><a href="#">Building Violation</a></li>
+                                <li><a href="#">Affordable Housing</a></li>
+                                <li><a href="#">Graffiti Removal</a></li>
+                                <li><a href="#">Civil Service Exams</a></li>
+                                <li><a href="#">Rodent Baiting</a></li>
+                                <li class="margin0"><a href="#">Cleaning</a></li>
+                                <li class="margin0"><a href="#">Uncleared Sidewalk</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <footer>
         <div class="widget_wrap overlay">
             <div class="container">
@@ -187,6 +239,14 @@
 <!--Custom JavaScript-->
 <script src="{{asset('theme/local/js/custom.js')}}"></script>
 <script>document.documentElement.className = 'js';</script>
+<script src="{{ asset('ckeditor/ckeditor.js') }}"></script>
+<script>
+    CKEDITOR.replace( 'editor1',
+        {
+            filebrowserUploadUrl: "{{route('upload', ['_token' => csrf_token() ])}}",
+            filebrowserUploadMethod: 'form'
+        });
+</script>
 </body>
 
 </html>

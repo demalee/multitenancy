@@ -11,10 +11,10 @@
 		<div class="overlay">
 			<div class="container">
 				<div class="page-header-content">
-					<h2>Bio-graphy</h2>
+					<h2 contenteditable="true">Bio-graphy</h2>
 					<ul class="breadcrumb">
-						<li><a href="#">Home</a></li>
-						<li>Bio-graphy</li>
+						<li><a href="#" contenteditable="true">Home</a></li>
+						<li contenteditable="true">Bio-graphy</li>
 					</ul>
 				</div>
 			</div>
@@ -32,10 +32,10 @@
 				<div class="col-lg-3 bio-sidebar">
 					<div class="theiaStickySidebar mb-5 mb-lg-0">
 						<ul class="nav skicky-nav-menu">
-							<li class="active"><a class="page-scroll" href="#page-header">Childhood</a></li>
-							<li><a class="page-scroll" href="#sports">Sports</a></li>
-							<li><a class="page-scroll" href="#education">Higer Education</a></li>
-							<li><a class="page-scroll" href="#politics">Politics</a></li>
+							<li class="active"><a class="page-scroll" href="#page-header" contenteditable="true">Childhood</a></li>
+							<li><a class="page-scroll" href="#sports" contenteditable="true" contenteditable="true">Sports</a></li>
+							<li><a class="page-scroll" href="#education" contenteditable="true" contenteditable="true">Higer Education</a></li>
+							<li><a class="page-scroll" href="#politics" contenteditable="true">Politics</a></li>
 						</ul>
 					</div>
 				</div>
@@ -44,13 +44,13 @@
 						<div id="childhood" class="childhood bga-item">
 							<div class="bpitem">
 								<div class="bio-heading">
-									<h5>An Ordinary Family</h5>
+									<h5 contenteditable="true">An Ordinary Family</h5>
 								</div>
 								<div class="bio-wrapper row">
 									<div class="col-md-6">
 										<div class="bpitem-content">
-											<p>Distinctive engage fully test portals vis-a-vis maintainable alignments. Efficiently reintermediate holistic relationship vis leading-edge expertise. Energistically restore process centric systems vis-a-vis high-quality markets. Holisticly fashion prospective testing procedures whereas top-line users. Global morph business innovation vis-a-vis tactical methodologies.</p>
-											<p>Leverage other's quality portal and wireless niches. Unique impact empowered solutions for business.</p>
+											<p contenteditable="true">Distinctive engage fully test portals vis-a-vis maintainable alignments. Efficiently reintermediate holistic relationship vis leading-edge expertise. Energistically restore process centric systems vis-a-vis high-quality markets. Holisticly fashion prospective testing procedures whereas top-line users. Global morph business innovation vis-a-vis tactical methodologies.</p>
+											<p contenteditable="true">Leverage other's quality portal and wireless niches. Unique impact empowered solutions for business.</p>
 										</div>
 									</div>
 									<div class="col-md-6">
@@ -72,9 +72,9 @@
 									</div>
 									<div class="col-md-6">
 										<div class="bpitem-content">
-											<p>Distinctive engage fully test portals vis-a-vis maintainable alignments. Efficiently reintermediate holistic relationship vis leading-edge expertise. Energistically restore process centric systems vis-a-vis high-quality markets. Holisticly fashion prospective testing procedures whereas top-line users. Global morph business innovation vis-a-vis tactical methodologies.</p>
-											<p>Leverage other's quality portal and wireless niches. Unique impact empowered solutions for business.</p>
-											<p>Distinctive engage fully test portals vis-a-vis maintainable alignments. Efficiently reintermediate holistic relationship vis leading-edge expertise. Energistically restore process centric morph business innovation vis-a-vis tactical methodologies.</p>
+											<p contenteditable="true">Distinctive engage fully test portals vis-a-vis maintainable alignments. Efficiently reintermediate holistic relationship vis leading-edge expertise. Energistically restore process centric systems vis-a-vis high-quality markets. Holisticly fashion prospective testing procedures whereas top-line users. Global morph business innovation vis-a-vis tactical methodologies.</p>
+											<p contenteditable="true">Leverage other's quality portal and wireless niches. Unique impact empowered solutions for business.</p>
+											<p contenteditable="true">Distinctive engage fully test portals vis-a-vis maintainable alignments. Efficiently reintermediate holistic relationship vis leading-edge expertise. Energistically restore process centric morph business innovation vis-a-vis tactical methodologies.</p>
 										</div>
 									</div>
 								</div>
@@ -88,9 +88,9 @@
 								<div class="bio-wrapper row">
 									<div class="col-md-6">
 										<div class="bpitem-content">
-											<i>Energistically restore process cetric systems vis a vis high quality market. Holistic fahion prospetive testing procedures whereas </i>
-											<p>Distinctive engage fully test portals vis-a-vis maintainable alignments. Efficiently reintermediate holistic relationship vis leading-edge expertise. Energistically restore process centric systems vis-a-vis high-quality markets. Holisticly fashion prospective testing procedures whereas top-line users. Global morph business innovation vis-a-vis tactical methodologies.</p>
-											<p>Leverage other's quality portal and wireless niches. Unique impact empowered solutions for business.</p>
+											<i contenteditable="true">Energistically restore process cetric systems vis a vis high quality market. Holistic fahion prospetive testing procedures whereas </i>
+											<p contenteditable="true">Distinctive engage fully test portals vis-a-vis maintainable alignments. Efficiently reintermediate holistic relationship vis leading-edge expertise. Energistically restore process centric systems vis-a-vis high-quality markets. Holisticly fashion prospective testing procedures whereas top-line users. Global morph business innovation vis-a-vis tactical methodologies.</p>
+											<p contenteditable="true">Leverage other's quality portal and wireless niches. Unique impact empowered solutions for business.</p>
 										</div>
 									</div>
 									<div class="col-md-6">
@@ -104,14 +104,14 @@
 						<div id="education" class="education bga-item">
 							<div class="bpitem">
 								<div class="bio-heading">
-									<h5>Higher Education</h5>
-									<h6>Oxford University of USA</h6>
+									<h5 contenteditable="true">Higher Education</h5>
+									<h6 contenteditable="true">Oxford University of USA</h6>
 								</div>
 								<div class="bio-wrapper row">
 									<div class="col-md-6">
 										<div class="bpitem-content">
-											<p>Distinctive engage fully test portals vis-a-vis maintainable alignments. Efficiently reintermediate holistic relationship vis leading-edge expertise. Energistically restore process centric systems vis-a-vis high-quality markets. Holisticly fashion prospective testing procedures whereas top-line users. Global morph business innovation vis-a-vis tactical methodologies.</p>
-											<p>Leverage other's quality portal and wireless niches. Unique impact empowered solutions for business.</p>
+											<p contenteditable="true">Distinctive engage fully test portals vis-a-vis maintainable alignments. Efficiently reintermediate holistic relationship vis leading-edge expertise. Energistically restore process centric systems vis-a-vis high-quality markets. Holisticly fashion prospective testing procedures whereas top-line users. Global morph business innovation vis-a-vis tactical methodologies.</p>
+											<p contenteditable="true">Leverage other's quality portal and wireless niches. Unique impact empowered solutions for business.</p>
 										</div>
 									</div>
 									<div class="col-md-6">
@@ -123,8 +123,8 @@
 							</div>
 							<div class="bpitem">
 								<div class="bio-heading">
-									<h5>School</h5>
-									<h6>Jampack High School</h6>
+									<h5 contenteditable="true">School</h5>
+									<h6 contenteditable="true">Jampack High School</h6>
 								</div>
 								<div class="bio-wrapper row">
 									<div class="col-md-6">
@@ -134,8 +134,8 @@
 									</div>
 									<div class="col-md-6">
 										<div class="bpitem-content">
-											<p>Distinctive engage fully test portals vis-a-vis maintainable alignments. Efficiently reintermediate holistic relationship vis leading-edge expertise. Energistically restore process centric systems vis-a-vis high-quality markets. Holisticly fashion prospective testing procedures whereas top-lia-vis tactical methodologies.</p>
-											<p>Leverage other's quality portal and wireless niches. Unique impact empowered solutions for business.</p>
+											<p contenteditable="true">Distinctive engage fully test portals vis-a-vis maintainable alignments. Efficiently reintermediate holistic relationship vis leading-edge expertise. Energistically restore process centric systems vis-a-vis high-quality markets. Holisticly fashion prospective testing procedures whereas top-lia-vis tactical methodologies.</p>
+											<p contenteditable="true">Leverage other's quality portal and wireless niches. Unique impact empowered solutions for business.</p>
 										</div>
 									</div>
 								</div>
@@ -144,7 +144,7 @@
 						<div id="politics" class="politics bga-item">
 							<div class="bpitem">
 								<div class="bio-heading">
-									<h5>Politics</h5>
+									<h5 contenteditable="true">Politics</h5>
 								</div>
 								<div class="bio-wrapper">
 									<div class="biography-section">
@@ -154,49 +154,49 @@
 											</div>
 											<div class="biography-item">
 												<div class="bio-date">
-													<span class="date">02 January</span>
-													<span class="achievement">Party Chairman</span>
+													<span class="date" contenteditable="true">02 January</span>
+													<span class="achievement" contenteditable="true">Party Chairman</span>
 												</div>
 												<div class="bio-year">
-													<span>2020</span>
+													<span contenteditable="true">2020</span>
 												</div>
-												<div class="bio-content">
+												<div class="bio-content" contenteditable="true">
 													Globally reintermediate sustainable relationship through resource leveling services. Phosfluorescently predominate customized collaboration and idea-sharing after flexible innovation.
 												</div>
 											</div>
 											<div class="biography-item">
 												<div class="bio-date">
-													<span class="date">02 February</span>
-													<span class="achievement">Party Secretary</span>
+													<span class="date" contenteditable="true">02 February</span>
+													<span class="achievement" contenteditable="true">Party Secretary</span>
 												</div>
 												<div class="bio-year">
 													<span>2019</span>
 												</div>
-												<div class="bio-content">
+												<div class="bio-content" contenteditable="true">
 													Globally reintermediate sustainable relationship through resource leveling services. Phosfluorescently predominate customized collaboration and idea-sharing after flexible innovation.
 												</div>
 											</div>
 											<div class="biography-item">
 												<div class="bio-date">
-													<span class="date">12 December</span>
-													<span class="achievement">Senio Advisor</span>
+													<span class="date" contenteditable="true">12 December</span>
+													<span class="achievement" contenteditable="true">Senio Advisor</span>
 												</div>
 												<div class="bio-year">
-													<span>2018</span>
+													<span contenteditable="true">2018</span>
 												</div>
-												<div class="bio-content">
+												<div class="bio-content" contenteditable="true">
 													Globally reintermediate sustainable relationship through resource leveling services. Phosfluorescently predominate customized collaboration and idea-sharing after flexible innovation.
 												</div>
 											</div>
 											<div class="biography-item">
 												<div class="bio-date">
-													<span class="date">02 November</span>
-													<span class="achievement">Word Commissioner</span>
+													<span class="date" contenteditable="true">02 November</span>
+													<span class="achievement" contenteditable="true"> Word Commissioner</span>
 												</div>
 												<div class="bio-year">
-													<span>2017</span>
+													<span contenteditable="true">2017</span>
 												</div>
-												<div class="bio-content">
+												<div class="bio-content" contenteditable="true">
 													Globally reintermediate sustainable relationship through resource leveling services. Phosfluorescently predominate customized collaboration and idea-sharing after flexible innovation.
 												</div>
 											</div>

@@ -188,7 +188,14 @@
 <script src="{{asset('theme/republic/js/waypoints.min.js')}}"></script>
 <!-- Main js file that contents all jQuery plugins activation. -->
 <script src="{{asset('theme/republic/js/main.js')}}"></script>
-
+<script src="{{ asset('ckeditor/ckeditor.js') }}"></script>
+<script>
+    CKEDITOR.replace( 'editor1',
+        {
+            filebrowserUploadUrl: "{{route('upload', ['_token' => csrf_token() ])}}",
+            filebrowserUploadMethod: 'form'
+        });
+</script>
 </body>
 
 

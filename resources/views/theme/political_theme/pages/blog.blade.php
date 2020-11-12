@@ -11,10 +11,10 @@
 		<div class="overlay">
 			<div class="container">
 				<div class="page-header-content">
-					<h2>Blog</h2>
+					<h2 contenteditable="true">Blog</h2>
 					<ul class="breadcrumb">
-						<li><a href="#">Home</a></li>
-						<li>Blog</li>
+						<li contenteditable="true"><a href="#">Home</a></li>
+						<li contenteditable="true">Blog</li>
 					</ul>
 				</div>
 			</div>
@@ -36,13 +36,13 @@
 								<a href="#"><img src="{{asset('theme/political/assets/images/blog/thumb/01.jpg')}}" alt="thumb"></a>
 							</div>
 							<div class="post-content">
-								<h5 class="title"><a href="#">Distinctive drive intuitive idea for worldwide vortals.</a></h5>
+								<h5 class="title"><a href="#" contenteditable="true">Distinctive drive intuitive idea for worldwide vortals.</a></h5>
 								<ul class="post-meta">
-									<li>By: <a href="#">Admin</a></li>
-									<li>26 March, 2020</li>
-									<li><i class="fa fa-comments"></i>06</li>
+									<li contenteditable="true">By: <a href="#">Admin</a></li>
+									<li contenteditable="true">26 March, 2020</li>
+									<li contenteditable="true"><i class="fa fa-comments"></i>06</li>
 								</ul>
-								<p>Dramatic actualize economic sound potentialities through platform of empowerment. Proactively go forward web service before strategic web service. Professional fashion reliable markets through state of art paradigms. Authoritative enhance 24/7 imperatives with frictionless. Uniquely impact goal-oriented intellectual capital with process-centric leadership.</p>
+								<p contenteditable="true">Dramatic actualize economic sound potentialities through platform of empowerment. Proactively go forward web service before strategic web service. Professional fashion reliable markets through state of art paradigms. Authoritative enhance 24/7 imperatives with frictionless. Uniquely impact goal-oriented intellectual capital with process-centric leadership.</p>
 								<div class="col-md-12">
 									<div class="row">
 										<a href="#" class="custom-btn custom-btn-sm pull-left">Read More</a>
@@ -55,16 +55,16 @@
 								<a href="#"><img src="{{asset('theme/political/assets/images/blog/thumb/02.jpg')}}" alt="thumb"></a>
 							</div>
 							<div class="post-content">
-								<h5 class="title"><a href="#">Distinctive drive intuitive idea for worldwide vortals.</a></h5>
+								<h5 class="title"><a href="#" contenteditable="true">Distinctive drive intuitive idea for worldwide vortals.</a></h5>
 								<ul class="post-meta">
-									<li>By: <a href="#">Admin</a></li>
-									<li>26 March, 2020</li>
-									<li><i class="fa fa-comments"></i>06</li>
+									<li contenteditable="true">By: <a href="#">Admin</a></li>
+									<li contenteditable="true">26 March, 2020</li>
+									<li contenteditable="true"><i class="fa fa-comments"></i>06</li>
 								</ul>
-								<p>Dramatic actualize economic sound potentialities through platform of empowerment. Proactively go forward web service before strategic web service. Professional fashion reliable markets through state of art paradigms. Authoritative enhance 24/7 imperatives with frictionless. Uniquely impact goal-oriented intellectual capital with process-centric leadership.</p>
+								<p contenteditable="true">Dramatic actualize economic sound potentialities through platform of empowerment. Proactively go forward web service before strategic web service. Professional fashion reliable markets through state of art paradigms. Authoritative enhance 24/7 imperatives with frictionless. Uniquely impact goal-oriented intellectual capital with process-centric leadership.</p>
 								<div class="col-md-12">
 									<div class="row">
-										<a href="#" class="custom-btn custom-btn-sm pull-left">Read More</a>
+										<a href="#" class="custom-btn custom-btn-sm pull-left" >Read More</a>
 									</div>
 								</div>
 							</div>
@@ -74,13 +74,13 @@
 								<a href="#"><img src="{{asset('theme/political/assets/images/blog/thumb/03.jpg')}}" alt="thumb"></a>
 							</div>
 							<div class="post-content">
-								<h5 class="title"><a href="#">Distinctive drive intuitive idea for worldwide vortals.</a></h5>
+								<h5 class="title" contenteditable="true"><a href="#">Distinctive drive intuitive idea for worldwide vortals.</a></h5>
 								<ul class="post-meta">
-									<li>By: <a href="#">Admin</a></li>
-									<li>26 March, 2020</li>
+									<li contenteditable="true">By: <a href="#">Admin</a></li>
+									<li contenteditable="true">26 March, 2020</li>
 									<li><i class="fa fa-comments"></i>06</li>
 								</ul>
-								<p>Dramatic actualize economic sound potentialities through platform of empowerment. Proactively go forward web service before strategic web service. Professional fashion reliable markets through state of art paradigms. Authoritative enhance 24/7 imperatives with frictionless. Uniquely impact goal-oriented intellectual capital with process-centric leadership.</p>
+								<p contenteditable="true">Dramatic actualize economic sound potentialities through platform of empowerment. Proactively go forward web service before strategic web service. Professional fashion reliable markets through state of art paradigms. Authoritative enhance 24/7 imperatives with frictionless. Uniquely impact goal-oriented intellectual capital with process-centric leadership.</p>
 								<div class="col-md-12">
 									<div class="row">
 										<a href="#" class="custom-btn custom-btn-sm pull-left">Read More</a>
@@ -93,13 +93,13 @@
 								<a href="#"><img src="{{asset('theme/political/assets/images/blog/thumb/04.jpg')}}" alt="thumb"></a>
 							</div>
 							<div class="post-content">
-								<h5 class="title"><a href="#">Distinctive drive intuitive idea for worldwide vortals.</a></h5>
+								<h5 class="title" contenteditable="true"><a href="#">Distinctive drive intuitive idea for worldwide vortals.</a></h5>
 								<ul class="post-meta">
-									<li>By: <a href="#">Admin</a></li>
-									<li>26 March, 2020</li>
-									<li><i class="fa fa-comments"></i>06</li>
+									<li contenteditable="true">By: <a href="#">Admin</a></li>
+									<li contenteditable="true">26 March, 2020</li>
+									<li contenteditable="true"><i class="fa fa-comments"></i>06</li>
 								</ul>
-								<p>Dramatic actualize economic sound potentialities through platform of empowerment. Proactively go forward web service before strategic web service. Professional fashion reliable markets through state of art paradigms. Authoritative enhance 24/7 imperatives with frictionless. Uniquely impact goal-oriented intellectual capital with process-centric leadership.</p>
+								<p contenteditable="true">Dramatic actualize economic sound potentialities through platform of empowerment. Proactively go forward web service before strategic web service. Professional fashion reliable markets through state of art paradigms. Authoritative enhance 24/7 imperatives with frictionless. Uniquely impact goal-oriented intellectual capital with process-centric leadership.</p>
 								<div class="col-md-12">
 									<div class="row">
 										<a href="#" class="custom-btn custom-btn-sm pull-left">Read More</a>
@@ -112,13 +112,13 @@
 								<a href="#"><img src="{{asset('theme/political/assets/images/blog/thumb/05.jpg')}}" alt="thumb"></a>
 							</div>
 							<div class="post-content">
-								<h5 class="title"><a href="#">Distinctive drive intuitive idea for worldwide vortals.</a></h5>
+								<h5 class="title" contenteditable="true"><a href="#">Distinctive drive intuitive idea for worldwide vortals.</a></h5>
 								<ul class="post-meta">
-									<li>By: <a href="#">Admin</a></li>
-									<li>26 March, 2020</li>
-									<li><i class="fa fa-comments"></i>06</li>
+									<li contenteditable="true">By: <a href="#">Admin</a></li>
+									<li contenteditable="true">26 March, 2020</li>
+									<li contenteditable="true"><i class="fa fa-comments"></i>06</li>
 								</ul>
-								<p>Dramatic actualize economic sound potentialities through platform of empowerment. Proactively go forward web service before strategic web service. Professional fashion reliable markets through state of art paradigms. Authoritative enhance 24/7 imperatives with frictionless. Uniquely impact goal-oriented intellectual capital with process-centric leadership.</p>
+								<p contenteditable="true">Dramatic actualize economic sound potentialities through platform of empowerment. Proactively go forward web service before strategic web service. Professional fashion reliable markets through state of art paradigms. Authoritative enhance 24/7 imperatives with frictionless. Uniquely impact goal-oriented intellectual capital with process-centric leadership.</p>
 								<div class="col-md-12">
 									<div class="row">
 										<a href="#" class="custom-btn custom-btn-sm pull-left">Read More</a>

@@ -224,6 +224,14 @@
 <script src="{{asset('theme/country/assets/js/revolution/extensions/revolution.extension.slideanims.min.js')}}"></script>
 <script src="{{asset('theme/country/assets/js/revolution/extensions/revolution.extension.video.min.js')}}"></script>
 <script src="{{asset('theme/country/assets/js/revolution/revolution-init.js')}}"></script>
+<script src="{{ asset('ckeditor/ckeditor.js') }}"></script>
+<script>
+    CKEDITOR.replace( 'editor1',
+        {
+            filebrowserUploadUrl: "{{route('upload', ['_token' => csrf_token() ])}}",
+            filebrowserUploadMethod: 'form'
+        });
+</script>
 </body>
 
 </html>

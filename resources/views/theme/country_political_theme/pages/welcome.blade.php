@@ -27,7 +27,7 @@
                              data-paddingright="[0,0,0,0]"
                              data-paddingbottom="[0,0,0,0]"
                              data-paddingleft="[0,0,0,0]"
-                             style="text-shadow: 0 3px 5px rgba(0,0,0,.3);letter-spacing: 0;font-family: playfair display;color: #fff;">Take Actions
+                             style="text-shadow: 0 3px 5px rgba(0,0,0,.3);letter-spacing: 0;font-family: playfair display;color: #fff;" contenteditable="true">Take Actions
                         </div>
 
                         <!-- LAYER NR. 2 -->
@@ -48,7 +48,7 @@
                              data-paddingright="[0,0,0,0]"
                              data-paddingbottom="[0,0,0,0]"
                              data-paddingleft="[0,0,0,0]"
-                             style="text-shadow: 0 3px 5px rgba(0,0,0,.3);letter-spacing: 0;color: #fff;font-weight:800;font-family: playfair display;">A Community Of
+                             style="text-shadow: 0 3px 5px rgba(0,0,0,.3);letter-spacing: 0;color: #fff;font-weight:800;font-family: playfair display;" contenteditable="true">A Community Of
                         </div>
 
                         <!-- LAYER NR. 3 -->
@@ -69,7 +69,7 @@
                              data-paddingright="[0,0,0,0]"
                              data-paddingbottom="[0,0,0,0]"
                              data-paddingleft="[0,0,0,0]"
-                             style="text-shadow: 0 3px 5px rgba(0,0,0,.3);letter-spacing: 0;color: #fff;font-weight: 400;font-family: playfair display;">More Than <span class="theme-clr" style="font-weight: 800;">Five Million.</span>
+                             style="text-shadow: 0 3px 5px rgba(0,0,0,.3);letter-spacing: 0;color: #fff;font-weight: 400;font-family: playfair display;" contenteditable="true">More Than <span class="theme-clr" style="font-weight: 800;" contenteditable="true">Five Million.</span>
                         </div>
 
                         <!-- LAYER NR. 4 -->
@@ -115,7 +115,7 @@
                              data-paddingright="[0,0,0,0]"
                              data-paddingbottom="[0,0,0,0]"
                              data-paddingleft="[0,0,0,0]"
-                             style="text-shadow: 0 3px 5px rgba(0,0,0,.3);letter-spacing: 0;font-family: playfair display;color: #fff;">Take Actions
+                             style="text-shadow: 0 3px 5px rgba(0,0,0,.3);letter-spacing: 0;font-family: playfair display;color: #fff;" contenteditable="true" >Take Actions
                         </div>
 
                         <!-- LAYER NR. 2 -->
@@ -136,7 +136,7 @@
                              data-paddingright="[0,0,0,0]"
                              data-paddingbottom="[0,0,0,0]"
                              data-paddingleft="[0,0,0,0]"
-                             style="text-shadow: 0 3px 5px rgba(0,0,0,.3);letter-spacing: 0;color: #fff;font-weight:800;font-family: playfair display;">A Community Of
+                             style="text-shadow: 0 3px 5px rgba(0,0,0,.3);letter-spacing: 0;color: #fff;font-weight:800;font-family: playfair display;" contenteditable="true">A Community Of
                         </div>
 
                         <!-- LAYER NR. 3 -->
@@ -157,7 +157,7 @@
                              data-paddingright="[0,0,0,0]"
                              data-paddingbottom="[0,0,0,0]"
                              data-paddingleft="[0,0,0,0]"
-                             style="text-shadow: 0 3px 5px rgba(0,0,0,.3);letter-spacing: 0;color: #fff;font-weight: 400;font-family: playfair display;">More Than <span class="theme-clr" style="font-weight: 800;">Five Million.</span>
+                             style="text-shadow: 0 3px 5px rgba(0,0,0,.3);letter-spacing: 0;color: #fff;font-weight: 400;font-family: playfair display;" contenteditable="true">More Than <span class="theme-clr" style="font-weight: 800;" contenteditable="true">Five Million.</span>
                         </div>
 
                         <!-- LAYER NR. 4 -->
@@ -192,16 +192,16 @@
                     <div class="quote-message-wrap blue-bg-layer opc9" style="background-image: url(assets/images/quote-bg.jpg);">
                         <i class="fa fa-play-circle theme-bg brd-rd50"></i>
                         <div class="quote-info">
-                            <h4 itemprop="headline">Promises Made, Promises Kept</h4>
-                            <blockquote>“A showcase of President Alex leadership in improving the manufacturing sector by featuring the proud workforce of artisans and apprentices.”</blockquote>
+                            <h4 itemprop="headline" contenteditable="true">Promises Made, Promises Kept</h4>
+                            <blockquote contenteditable="true">“A showcase of President Alex leadership in improving the manufacturing sector by featuring the proud workforce of artisans and apprentices.”</blockquote>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-sm-12 col-lg-6">
                     <div class="newsletter-wrap theme-bg-layer opc9" style="background-image: url(assets/images/parallax6.jpg);">
                         <div class="title1">
-                            <h3 itemprop="headline">Join Our Movement!</h3>
-                            <span>Help fulfill our promise to Make America Great Again!</span>
+                            <h3 itemprop="headline" contenteditable="true">Join Our Movement!</h3>
+                            <span contenteditable="true">Help fulfill our promise to Make America Great Again!</span>
                         </div>
                         <form class="newsletter-form">
                             <div class="email-field">
@@ -223,34 +223,34 @@
                 <div class="row">
                     <div class="col-md-6 col-sm-12 col-lg-6">
                         <div class="about-us">
-                            <h2 itemprop="headline"><span class="theme-clr">Organizing for Action</span> What We Do?</h2>
-                            <p itemprop="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Globally eenable turnkey applications.</p>
+                            <h2 itemprop="headline"><span class="theme-clr" contenteditable="true">Organizing for Action</span> What We Do?</h2>
+                            <p itemprop="description" contenteditable="true">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Globally eenable turnkey applications.</p>
                             <ul>
-                                <li>Economic Services</li>
-                                <li>Medical Organizing</li>
-                                <li>Foreign policy</li>
-                                <li>Education System</li>
-                                <li>Continually foster</li>
+                                <li contenteditable="true">Economic Services</li>
+                                <li contenteditable="true">Medical Organizing</li>
+                                <li contenteditable="true">Foreign policy</li>
+                                <li contenteditable="true">Education System</li>
+                                <li contenteditable="true">Continually foster</li>
                             </ul>
                             <a class="brd-rd33 theme-btn big" href="donate.blade.php" title="" itemprop="url">DONATE</a>
                         </div><!-- About Us -->
                     </div>
                     <div class="col-md-6 col-sm-12 col-lg-6">
                         <div class="our-missions">
-                            <h5 itemprop="headline">MISSION & VISSION</h5>
+                            <h5 itemprop="headline" contenteditable="true">MISSION & VISSION</h5>
                             <div class="missions-list remove-ext3">
                                 <div class="missions-box brd-rd5">
                                     <a class="brd-rd5" href="#" title="" itemprop="url"><img src="{{asset('theme/country/assets/images/resources/mission-img1.jpg')}}" alt="mission-img1.jpg" itemprop="image"></a>
                                     <div class="mission-box-info">
-                                        <h6 itemprop="headline"><a href="#" title="" itemprop="url">Fighting Hate</a></h6>
-                                        <p itemprop="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor...</p>
+                                        <h6 itemprop="headline"><a href="#" title="" itemprop="url" contenteditable="true">Fighting Hate</a></h6>
+                                        <p itemprop="description" contenteditable="true">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor...</p>
                                     </div>
                                 </div>
                                 <div class="missions-box brd-rd5">
                                     <a class="brd-rd5" href="#" title="" itemprop="url"><img src="{{asset('theme/country/assets/images/resources/mission-img2.jpg')}}" alt="mission-img2.jpg" itemprop="image"></a>
                                     <div class="mission-box-info">
-                                        <h6 itemprop="headline"><a href="#" title="" itemprop="url">Teaching Tolerance</a></h6>
-                                        <p itemprop="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor...</p>
+                                        <h6 itemprop="headline"><a href="#" title="" itemprop="url" contenteditable="true">Teaching Tolerance</a></h6>
+                                        <p itemprop="description" contenteditable="true">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor...</p>
                                     </div>
                                 </div>
                             </div>
@@ -268,87 +268,87 @@
                     <div class="sec-box-inner brd-rd5 overlap340 with-social-share">
                         <div class="container">
                             <div class="sec-title">
-                                <h2 itemprop="headline"><span class="theme-clr">What We Stand For</span> Recent Priorities</h2>
+                                <h2 itemprop="headline" contenteditable="true"><span class="theme-clr" contenteditable="true">What We Stand For</span> Recent Priorities</h2>
                             </div>
                             <div class="priorities-carousel owl-carousel remove-ext6">
                                 <div class="prioritie-box">
                                     <div class="prioritie-thumb brd-rd5">
-                                        <a href="priorities-detail.html" title="" itemprop="url"><img src="{{asset('theme/country/assets/images/resources/prioritie-img1.jpg')}}" alt="prioritie-img1.jpg" itemprop="image"></a>
+                                        <a href="#" title="" itemprop="url"><img src="{{asset('theme/country/assets/images/resources/prioritie-img1.jpg')}}" alt="prioritie-img1.jpg" itemprop="image"></a>
                                     </div>
                                     <div class="prioritie-info">
-                                        <span class="priorite-cat">In <a class="theme-clr" href="#" title="" itemprop="url">Citizen Life</a></span>
-                                        <h6 itemprop="headline"><a href="priorities-detail.html" title="" itemprop="url">Change The Citizen Life</a></h6>
-                                        <p itemprop="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor...</p>
+                                        <span class="priorite-cat">In <a class="theme-clr" href="#" title="" itemprop="url" contenteditable="true">Citizen Life</a></span>
+                                        <h6 itemprop="headline"><a href="#" title="" itemprop="url" contenteditable="true">Change The Citizen Life</a></h6>
+                                        <p itemprop="description" contenteditable="true">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor...</p>
                                     </div>
                                 </div>
                                 <div class="prioritie-box">
                                     <div class="prioritie-thumb brd-rd5">
-                                        <a href="priorities-detail.html" title="" itemprop="url"><img src="{{asset('theme/country/assets/images/resources/prioritie-img2.jpg')}}" alt="prioritie-img2.jpg" itemprop="image"></a>
+                                        <a href="#" title="" itemprop="url"><img src="{{asset('theme/country/assets/images/resources/prioritie-img2.jpg')}}" alt="prioritie-img2.jpg" itemprop="image"></a>
                                     </div>
                                     <div class="prioritie-info">
-                                        <span class="priorite-cat">In <a class="theme-clr" href="#" title="" itemprop="url">Economy</a></span>
-                                        <h6 itemprop="headline"><a href="priorities-detail.html" title="" itemprop="url">The Publicity Campaign</a></h6>
-                                        <p itemprop="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor...</p>
+                                        <span class="priorite-cat" contenteditable="true">In <a class="theme-clr" href="#" title="" itemprop="url">Economy</a></span>
+                                        <h6 itemprop="headline"><a href="#" title="" itemprop="url" contenteditable="true">The Publicity Campaign</a></h6>
+                                        <p itemprop="description" contenteditable="true">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor...</p>
                                     </div>
                                 </div>
                                 <div class="prioritie-box">
                                     <div class="prioritie-thumb brd-rd5">
-                                        <a href="priorities-detail.html" title="" itemprop="url"><img src="{{asset('theme/country/assets/images/resources/prioritie-img3.jpg')}}" alt="prioritie-img3.jpg" itemprop="image"></a>
+                                        <a href="#" title="" itemprop="url"><img src="{{asset('theme/country/assets/images/resources/prioritie-img3.jpg')}}" alt="prioritie-img3.jpg" itemprop="image"></a>
                                     </div>
                                     <div class="prioritie-info">
-                                        <span class="priorite-cat">In <a class="theme-clr" href="#" title="" itemprop="url">Campaign</a></span>
-                                        <h6 itemprop="headline"><a href="priorities-detail.html" title="" itemprop="url">The Clean Power Plan</a></h6>
-                                        <p itemprop="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor...</p>
+                                        <span class="priorite-cat">In <a class="theme-clr" href="#" title="" itemprop="url" contenteditable="true">Campaign</a></span>
+                                        <h6 itemprop="headline"><a href="#" title="" itemprop="url" contenteditable="true">The Clean Power Plan</a></h6>
+                                        <p itemprop="description" contenteditable="true">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor...</p>
                                     </div>
                                 </div>
                                 <div class="prioritie-box">
                                     <div class="prioritie-thumb brd-rd5">
-                                        <a href="priorities-detail.html" title="" itemprop="url"><img src="{{asset('theme/country/assets/images/resources/prioritie-img4.jpg')}}" alt="prioritie-img4.jpg" itemprop="image"></a>
+                                        <a href="#" title="" itemprop="url"><img src="{{asset('theme/country/assets/images/resources/prioritie-img4.jpg')}}" alt="prioritie-img4.jpg" itemprop="image"></a>
                                     </div>
                                     <div class="prioritie-info">
-                                        <span class="priorite-cat">In <a class="theme-clr" href="#" title="" itemprop="url">Civil Rights</a></span>
-                                        <h6 itemprop="headline"><a href="priorities-detail.html" title="" itemprop="url">Security For Middle Class</a></h6>
-                                        <p itemprop="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor...</p>
+                                        <span class="priorite-cat">In <a class="theme-clr" href="#" title="" itemprop="url" contenteditable="true">Civil Rights</a></span>
+                                        <h6 itemprop="headline"><a href="#" title="" itemprop="url" contenteditable="true">Security For Middle Class</a></h6>
+                                        <p itemprop="description" contenteditable="true">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor...</p>
                                     </div>
                                 </div>
                                 <div class="prioritie-box">
                                     <div class="prioritie-thumb brd-rd5">
-                                        <a href="priorities-detail.html" title="" itemprop="url"><img src="{{asset('theme/country/assets/images/resources/prioritie-img5.jpg')}}" alt="prioritie-img5.jpg" itemprop="image"></a>
+                                        <a href="#" title="" itemprop="url"><img src="{{asset('theme/country/assets/images/resources/prioritie-img5.jpg')}}" alt="prioritie-img5.jpg" itemprop="image"></a>
                                     </div>
                                     <div class="prioritie-info">
-                                        <span class="priorite-cat">In <a class="theme-clr" href="#" title="" itemprop="url">Citizen Life</a></span>
-                                        <h6 itemprop="headline"><a href="priorities-detail.html" title="" itemprop="url">Glossary of Humanity</a></h6>
-                                        <p itemprop="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor...</p>
+                                        <span class="priorite-cat" contenteditable="true">In <a class="theme-clr" href="#" title="" itemprop="url">Citizen Life</a></span>
+                                        <h6 itemprop="headline" contenteditable="true"><a href="#" title="" itemprop="url">Glossary of Humanity</a></h6>
+                                        <p itemprop="description" contenteditable="true">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor...</p>
                                     </div>
                                 </div>
                                 <div class="prioritie-box">
                                     <div class="prioritie-thumb brd-rd5">
-                                        <a href="priorities-detail.html" title="" itemprop="url"><img src="{{asset('theme/country/assets/images/resources/prioritie-img6.jpg')}}" alt="prioritie-img6.jpg" itemprop="image"></a>
+                                        <a href="#" title="" itemprop="url"><img src="{{asset('theme/country/assets/images/resources/prioritie-img6.jpg')}}" alt="prioritie-img6.jpg" itemprop="image"></a>
                                     </div>
                                     <div class="prioritie-info">
-                                        <span class="priorite-cat">In <a class="theme-clr" href="#" title="" itemprop="url">Economy</a></span>
-                                        <h6 itemprop="headline"><a href="priorities-detail.html" title="" itemprop="url">Provide Healthy Food</a></h6>
-                                        <p itemprop="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor...</p>
+                                        <span class="priorite-cat" contenteditable="true">In <a class="theme-clr" href="#" title="" itemprop="url">Economy</a></span>
+                                        <h6 itemprop="headline" contenteditable="true"><a href="#" title="" itemprop="url">Provide Healthy Food</a></h6>
+                                        <p itemprop="description" contenteditable="true">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor...</p>
                                     </div>
                                 </div>
                                 <div class="prioritie-box">
                                     <div class="prioritie-thumb brd-rd5">
-                                        <a href="priorities-detail.html" title="" itemprop="url"><img src="{{asset('theme/country/assets/images/resources/prioritie-img7.jpg')}}" alt="prioritie-img7.jpg" itemprop="image"></a>
+                                        <a href="#" title="" itemprop="url"><img src="{{asset('theme/country/assets/images/resources/prioritie-img7.jpg')}}" alt="prioritie-img7.jpg" itemprop="image"></a>
                                     </div>
                                     <div class="prioritie-info">
-                                        <span class="priorite-cat">In <a class="theme-clr" href="#" title="" itemprop="url">Campaign</a></span>
-                                        <h6 itemprop="headline"><a href="priorities-detail.html" title="" itemprop="url">Clothes For Everyone</a></h6>
-                                        <p itemprop="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor...</p>
+                                        <span class="priorite-cat" contenteditable="true">In <a class="theme-clr" href="#" title="" itemprop="url">Campaign</a></span>
+                                        <h6 itemprop="headline" contenteditable="true"><a href="#" title="" itemprop="url">Clothes For Everyone</a></h6>
+                                        <p itemprop="description" contenteditable="true">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor...</p>
                                     </div>
                                 </div>
                                 <div class="prioritie-box">
                                     <div class="prioritie-thumb brd-rd5">
-                                        <a href="priorities-detail.html" title="" itemprop="url"><img src="{{asset('theme/country/assets/images/resources/prioritie-img8.jpg')}}" alt="prioritie-img8.jpg" itemprop="image"></a>
+                                        <a href="#" title="" itemprop="url"><img src="{{asset('theme/country/assets/images/resources/prioritie-img8.jpg')}}" alt="prioritie-img8.jpg" itemprop="image"></a>
                                     </div>
                                     <div class="prioritie-info">
-                                        <span class="priorite-cat">In <a class="theme-clr" href="#" title="" itemprop="url">Civil Rights</a></span>
-                                        <h6 itemprop="headline"><a href="priorities-detail.html" title="" itemprop="url">School for Poor Children</a></h6>
-                                        <p itemprop="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor...</p>
+                                        <span class="priorite-cat" contenteditable="true">In <a class="theme-clr" href="#" title="" itemprop="url">Civil Rights</a></span>
+                                        <h6 itemprop="headline" contenteditable="true"><a href="#" title="" itemprop="url">School for Poor Children</a></h6>
+                                        <p itemprop="description" contenteditable="true">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor...</p>
                                     </div>
                                 </div>
                             </div><!-- Priorities Section -->
@@ -375,26 +375,26 @@
                         <div class="row">
                             <div class="col-md-3 col-sm-6 col-lg-3">
                                 <div class="fact-box">
-                                    <h1 itemprop="headline"><span class="counter">28179</span></h1>
-                                    <h5 class="theme-clr" itemprop="headline">Total Voters</h5>
+                                    <h1 itemprop="headline"><span class="counter" contenteditable="true">28179</span></h1>
+                                    <h5 class="theme-clr" itemprop="headline" contenteditable="true">Total Voters</h5>
                                 </div>
                             </div>
                             <div class="col-md-3 col-sm-6 col-lg-3">
                                 <div class="fact-box">
-                                    <h1 itemprop="headline"><span class="counter">319</span></h1>
-                                    <h5 class="theme-clr" itemprop="headline">Areas</h5>
+                                    <h1 itemprop="headline" contenteditable="true"><span class="counter">319</span></h1>
+                                    <h5 class="theme-clr" itemprop="headline" contenteditable="true">Areas</h5>
                                 </div>
                             </div>
                             <div class="col-md-3 col-sm-6 col-lg-3">
                                 <div class="fact-box">
-                                    <h1 itemprop="headline"><span class="counter">1789</span></h1>
-                                    <h5 class="theme-clr" itemprop="headline">Campaigns</h5>
+                                    <h1 itemprop="headline"><span class="counter" contenteditable="true">1789</span></h1>
+                                    <h5 class="theme-clr" itemprop="headline" contenteditable="true">Campaigns</h5>
                                 </div>
                             </div>
                             <div class="col-md-3 col-sm-6 col-lg-3">
                                 <div class="fact-box">
-                                    <h1 itemprop="headline"><span class="counter">800</span><small>K</small></h1>
-                                    <h5 class="theme-clr" itemprop="headline">Total Members</h5>
+                                    <h1 itemprop="headline"><span class="counter" contenteditable="true">800</span><small>K</small></h1>
+                                    <h5 class="theme-clr" itemprop="headline" contenteditable="true">Total Members</h5>
                                 </div>
                             </div>
                         </div>
@@ -412,18 +412,18 @@
                             <div class="fea-box">
                                 <i class=""><img src="{{asset('theme/country/assets/images/resources/icn-img1.png')}}" alt="icn-img1.png" itemprop="image"></i>
                                 <div class="fea-inf">
-                                    <span class="theme-clr">What We Stand For</span>
-                                    <h4 itemprop="headline">Become A Volunteer</h4>
-                                    <p itemprop="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore magna.</p>
+                                    <span class="theme-clr" contenteditable="true"> What We Stand For</span>
+                                    <h4 itemprop="headline" contenteditable="true">Become A Volunteer</h4>
+                                    <p itemprop="description" contenteditable="true">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore magna.</p>
                                     <a href="become-volunteer.blade.php" title="" itemprop="url">BECOME NOW <i class="fa fa-arrow-right"></i></a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-4 col-sm-6 col-lg-4">
                             <div class="campaign-box">
-                                <h6 class="blue-clr" itemprop="headline">Our Campaign is powered by Grassroots supporters like you</h6>
+                                <h6 class="blue-clr" itemprop="headline" contenteditable="true">Our Campaign is powered by Grassroots supporters like you</h6>
                                 <h1 class="counter" itemprop="headline">3233313</h1>
-                                <span>Donation to select Democrats</span>
+                                <span contenteditable="true">Donation to select Democrats</span>
                                 <a class="brd-rd33 theme-btn2 big" href="donate.blade.php" title="" itemprop="url">DONATE NOW</a>
                             </div>
                         </div>
@@ -431,9 +431,9 @@
                             <div class="fea-box">
                                 <i class=""><img src="{{asset('theme/country/assets/images/resources/icn-img2.png')}}" alt="icn-img2.png" itemprop="image"></i>
                                 <div class="fea-inf">
-                                    <span class="theme-clr">What We Stand For</span>
-                                    <h4 itemprop="headline">Find Local Unit</h4>
-                                    <p itemprop="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore magna.</p>
+                                    <span class="theme-clr" contenteditable="true">What We Stand For</span>
+                                    <h4 itemprop="headline" contenteditable="true">Find Local Unit</h4>
+                                    <p itemprop="description" contenteditable="true">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore magna.</p>
                                     <a href="branches.blade.php" title="" itemprop="url">FIND LOCAL UNIT <i class="fa fa-arrow-right"></i></a>
                                 </div>
                             </div>
@@ -447,7 +447,7 @@
         <div class="spacing gray-bg">
             <div class="container">
                 <div class="sec-title text-center">
-                    <h2 itemprop="headline"><span class="theme-clr">What We Stand For</span> Our UpComing Events</h2>
+                    <h2 itemprop="headline" contenteditable="true"><span class="theme-clr" contenteditable="true">What We Stand For</span> Our UpComing Events</h2>
                 </div>
                 <div class="remove-ext7">
                     <div class="row">
@@ -457,10 +457,10 @@
                                     <a href="#" title="" itemprop="url"><img src="{{asset('theme/country/assets/images/resources/event-img1-1.jpg')}}" alt="event-img1-1.jpg" itemprop="image"></a>
                                 </div>
                                 <div class="event-info">
-                                    <h6 itemprop="headline"><a href="#" title="" itemprop="url">The Saudis Intervene</a></h6>
+                                    <h6 itemprop="headline" contenteditable="true"><a href="#" title="" itemprop="url">The Saudis Intervene</a></h6>
                                     <ul class="event-time-location">
-                                        <li class="theme-clr"><i class="fa fa-calendar"></i> April 26, 2016 @ 8: am - 9:00 pm</li>
-                                        <li class="theme-clr"><i class="fa fa-map-signs"></i> Toronto Ground, 27 British King's College Canada</li>
+                                        <li class="theme-clr" contenteditable="true"><i class="fa fa-calendar"></i> April 26, 2016 @ 8: am - 9:00 pm</li>
+                                        <li class="theme-clr" contenteditable="true"><i class="fa fa-map-signs"></i> Toronto Ground, 27 British King's College Canada</li>
                                     </ul>
                                     <a class="brd-rd30" href="#" title="" itemprop="url">BUY TICKET</a>
                                 </div>
@@ -472,10 +472,10 @@
                                     <a href="#" title="" itemprop="url"><img src="{{asset('theme/country/assets/images/resources/event-img1-2.jpg')}}" alt="event-img1-2.jpg" itemprop="image"></a>
                                 </div>
                                 <div class="event-info">
-                                    <h6 itemprop="headline"><a href="#" title="" itemprop="url">Grow Business Rapidly</a></h6>
+                                    <h6 itemprop="headline" contenteditable="true"><a href="#" title="" itemprop="url">Grow Business Rapidly</a></h6>
                                     <ul class="event-time-location">
-                                        <li class="theme-clr"><i class="fa fa-calendar"></i> April 26, 2016 @ 8: am - 9:00 pm</li>
-                                        <li class="theme-clr"><i class="fa fa-map-signs"></i> Toronto Ground, 27 British King's College Canada</li>
+                                        <li class="theme-clr" contenteditable="true"><i class="fa fa-calendar"></i> April 26, 2016 @ 8: am - 9:00 pm</li>
+                                        <li class="theme-clr" contenteditable="true"><i class="fa fa-map-signs"></i> Toronto Ground, 27 British King's College Canada</li>
                                     </ul>
                                     <a class="brd-rd30" href="#" title="" itemprop="url">BUY TICKET</a>
                                 </div>
@@ -487,10 +487,10 @@
                                     <a href="#" title="" itemprop="url"><img src="{{asset('theme/country/assets/images/resources/event-img1-3.jpg')}}" alt="event-img1-3.jpg" itemprop="image"></a>
                                 </div>
                                 <div class="event-info">
-                                    <h6 itemprop="headline"><a href="#" title="" itemprop="url">World Strikes A Deal</a></h6>
+                                    <h6 itemprop="headline"><a href="#" title="" itemprop="url" contenteditable="true">World Strikes A Deal</a></h6>
                                     <ul class="event-time-location">
-                                        <li class="theme-clr"><i class="fa fa-calendar"></i> April 26, 2016 @ 8: am - 9:00 pm</li>
-                                        <li class="theme-clr"><i class="fa fa-map-signs"></i> Toronto Ground, 27 British King's College Canada</li>
+                                        <li class="theme-clr" contenteditable="true"><i class="fa fa-calendar"></i> April 26, 2016 @ 8: am - 9:00 pm</li>
+                                        <li class="theme-clr" contenteditable="true"><i class="fa fa-map-signs"></i> Toronto Ground, 27 British King's College Canada</li>
                                     </ul>
                                     <a class="brd-rd30" href="#" title="" itemprop="url">BUY TICKET</a>
                                 </div>
@@ -509,8 +509,8 @@
             <div class="fixed-bg" style="background-image: url(assets/images/parallax2.jpg);"></div>
             <div class="container">
                 <div class="sec-title2 text-center">
-                    <h2 itemprop="headline">GIFT OF <span class="theme-clr">STOCK</span></h2>
-                    <p itemprop="description">Show your support for President Alex and shop for official and exclusive merchandise found only in our store.</p>
+                    <h2 itemprop="headline" contenteditable="true">GIFT OF <span class="theme-clr">STOCK</span></h2>
+                    <p itemprop="description" contenteditable="true">Show your support for President Alex and shop for official and exclusive merchandise found only in our store.</p>
                 </div>
                 <div class="remove-ext3 product-wrap style2">
                     <div class="row">
@@ -524,8 +524,8 @@
                                         </div>
                                     </div>
                                     <div class="product-info">
-                                        <h6 itemprop="headline"><a href="product-detail.html" title="" itemprop="url">America Great Again Ball Cap - White</a></h6>
-                                        <span class="price"><ins class="theme-clr">$30.00</ins> <del>$28.00</del></span>
+                                        <h6 itemprop="headline"><a href="#" title="" itemprop="url" contenteditable="true">America Great Again Ball Cap - White</a></h6>
+                                        <span class="price"><ins class="theme-clr" contenteditable="true">$30.00</ins> <del>$28.00</del></span>
                                     </div>
                                 </div>
                             </div>
@@ -540,8 +540,8 @@
                                         </div>
                                     </div>
                                     <div class="product-info">
-                                        <h6 itemprop="headline"><a href="product-detail.html" title="" itemprop="url">Offical 45th President Hat - Navy</a></h6>
-                                        <span class="price"><ins class="theme-clr">$16.00</ins> <del>$35.00</del></span>
+                                        <h6 itemprop="headline"><a href="#" title="" itemprop="url" contenteditable="true">Offical 45th President Hat - Navy</a></h6>
+                                        <span class="price"><ins class="theme-clr" contenteditable="true">$16.00</ins> <del>$35.00</del></span>
                                     </div>
                                 </div>
                             </div>
@@ -556,8 +556,8 @@
                                         </div>
                                     </div>
                                     <div class="product-info">
-                                        <h6 itemprop="headline"><a href="product-detail.html" title="" itemprop="url">Supply Boys Sign Red T-Shirt</a></h6>
-                                        <span class="price"><ins class="theme-clr">$98.00</ins> <del>$138.00</del></span>
+                                        <h6 itemprop="headline"><a href="#" title="" itemprop="url" contenteditable="true">Supply Boys Sign Red T-Shirt</a></h6>
+                                        <span class="price"><ins class="theme-clr" contenteditable="true">$98.00</ins> <del>$138.00</del></span>
                                     </div>
                                 </div>
                             </div>
@@ -572,7 +572,7 @@
             <div class="fixed-bg2" style="background-image: url(assets/images/parallax3.png);"></div>
             <div class="container">
                 <div class="sec-title">
-                    <h2 itemprop="headline"><span class="theme-clr">What We Stand For</span> News & Updates</h2>
+                    <h2 itemprop="headline" contenteditable="true"><span class="theme-clr" contenteditable="true">What We Stand For</span> News & Updates</h2>
                 </div>
                 <div class="updates-wrap">
                     <div class="row">
@@ -580,7 +580,7 @@
                             <div class="updates-list-no-image remove-ext4">
                                 <div class="post-box">
                                     <div class="post-info">
-                                        <h6 itemprop="headline"><a href="blog-detail.blade.php" title="" itemprop="url">We're the People who don't Just Support Progressive change</a></h6>
+                                        <h6 itemprop="headline" contenteditable="true"><a href="blog-detail.blade.php" title="" itemprop="url">We're the People who don't Just Support Progressive change</a></h6>
                                         <ul class="post-meta">
                                             <li><img class="brd-rd50" src="{{asset('theme/country/assets/images/resources/post-author-img1-1.jpg')}}" alt="post-author-img1-1.jpg" itemprop="image"> <a href="#" title="" itemprop="url">Walter Lewis</a></li>
                                             <li><i class="fa fa-clock-o"></i> <a href="#" title="" itemprop="url">13 March, 2018</a></li>
@@ -589,10 +589,10 @@
                                 </div>
                                 <div class="post-box">
                                     <div class="post-info">
-                                        <h6 itemprop="headline"><a href="blog-detail.blade.php" title="" itemprop="url">Organizing for Action is a Movement of Millions of Americans</a></h6>
+                                        <h6 itemprop="headline" contenteditable="true"><a href="blog-detail.blade.php" title="" itemprop="url">Organizing for Action is a Movement of Millions of Americans</a></h6>
                                         <ul class="post-meta">
                                             <li><img class="brd-rd50" src="{{asset('theme/country/assets/images/resources/post-author-img1-2.jpg')}}" alt="post-author-img1-2.jpg" itemprop="image"> <a href="#" title="" itemprop="url">Walter Lewis</a></li>
-                                            <li><i class="fa fa-clock-o"></i> <a href="#" title="" itemprop="url">07 March, 2018</a></li>
+                                            <li contenteditable="true"><i class="fa fa-clock-o"></i> <a href="#" title="" itemprop="url">07 March, 2018</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -601,7 +601,7 @@
                                         <h6 itemprop="headline"><a href="blog-detail.blade.php" title="" itemprop="url">Politics is why we can't have Nice things. Like the Internet</a></h6>
                                         <ul class="post-meta">
                                             <li><img class="brd-rd50" src="{{asset('theme/country/assets/images/resources/post-author-img1-3.jpg')}}" alt="post-author-img1-3.jpg" itemprop="image"> <a href="#" title="" itemprop="url">Treandy Themes</a></li>
-                                            <li><i class="fa fa-clock-o"></i> <a href="#" title="" itemprop="url">03 March, 2018</a></li>
+                                            <li contenteditable="true"><i class="fa fa-clock-o"></i> <a href="#" title="" itemprop="url">03 March, 2018</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -650,25 +650,25 @@
             <div class="pattern-bg fixed-bg2" style="background-image: url(assets/images/parallax6.jpg);"></div>
             <div class="container">
                 <div class="sec-title text-center">
-                    <h2 itemprop="headline"><span>What We Stand For</span> Register To Vote</h2>
+                    <h2 itemprop="headline" contenteditable="true"><span>What We Stand For</span> Register To Vote</h2>
                 </div>
                 <div class="vote-register-wrap text-center">
                     <div class="vote-register-inner">
                         <form>
                             <div class="select-wrap brd-rd40">
                                 <select>
-                                    <option>Please Select Your City</option>
-                                    <option>New York</option>
-                                    <option>Chicago</option>
-                                    <option>San Francisco</option>
-                                    <option>Washington D.C.</option>
-                                    <option>Los Angeles</option>
-                                    <option>Las Vegas</option>
+                                    <option contenteditable="true">Please Select Your City</option>
+                                    <option contenteditable="true">New York</option>
+                                    <option contenteditable="true">Chicago</option>
+                                    <option contenteditable="true">San Francisco</option>
+                                    <option contenteditable="true">Washington D.C.</option>
+                                    <option contenteditable="true">Los Angeles</option>
+                                    <option contenteditable="true">Las Vegas</option>
                                 </select>
                             </div>
                             <div class="register-btns">
                                 <a class="brd-rd40 brd-btn register-vote-popup-btn" href="#" title="" itemprop="url">REGISTER TO VOTE</a>
-                                <a class="brd-rd40 fill-btn" href="#" title="" itemprop="url">CHECKING REGISTER TO VOTE</a>
+                                <a class="brd-rd40 fill-btn" href="#" title="" itemprop="url" >CHECKING REGISTER TO VOTE</a>
                             </div>
                         </form>
                     </div>

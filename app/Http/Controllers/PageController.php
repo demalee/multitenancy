@@ -140,6 +140,20 @@ class PageController extends Controller
         $route = Config::get('THEME_PAGES').'priorities';
         return view($route);
     }
+    public function faq()
+    {
+        $route = Config::get('THEME_PAGES').'faq';
+        return view($route);
+    } public function events_details()
+{
+    $route = Config::get('THEME_PAGES').'events_details';
+    return view($route);
+}
+    public function issue()
+    {
+        $route = Config::get('THEME_PAGES').'issue';
+        return view($route);
+    }
     //theme
     public function themeChange(Request $request,$id)
     {

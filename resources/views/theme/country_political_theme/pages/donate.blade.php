@@ -6,10 +6,10 @@
                 <div class="container">
                     <div class="page-top-wrap text-center">
                         <div class="page-top-inner">
-                            <h1 itemprop="headline">DONATE NOW</h1>
+                            <h1 itemprop="headline" contenteditable="true">DONATE NOW</h1>
                             <ol class="breadcrumb">
-                                <li class="breadcrumb-item"><a href="#" title="" itemprop="url">Home</a></li>
-                                <li class="breadcrumb-item active">Donate Now</li>
+                                <li class="breadcrumb-item"><a href="#" title="" itemprop="url" contenteditable="true">Home</a></li>
+                                <li class="breadcrumb-item active" contenteditable="true">Donate Now</li>
                             </ol>
                         </div>
                     </div>
@@ -20,25 +20,25 @@
             <div class="spacing">
                 <div class="container">
                     <div class="donation-form-wrap">
-                        <h3 itemprop="headline">Donate Our Cause</h3>
+                        <h3 itemprop="headline" contenteditable="true">Donate Our Cause</h3>
                         <div class="give_error">
-                            <p itemprop="description"><strong>Notice:</strong> Test mode is enabled. While in test mode no live donations are processed.</p>
+                            <p itemprop="description" contenteditable="true"><strong>Notice:</strong> Test mode is enabled. While in test mode no live donations are processed.</p>
                         </div><!-- Donation Notice -->
                         <form class="give-form">
                             <div class="give-total-wrap">
                                 <div class="give-donation-amount">
-                                    <label>Please Select Amount, What you want to Donate:</label>
-                                    <span class="give-donation-symbol">$</span>
+                                    <label contenteditable="true">Please Select Amount, What you want to Donate:</label>
+                                    <span class="give-donation-symbol" contenteditable="true">$</span>
                                     <input class="give-text-input" type="text" placeholder="50">
                                 </div>
                                 <ul class="give-donation-levels-wrap">
                                     <li>
                                         <input id="give-radio-level-0" type="radio" name="give-radio-donation-level" checked="checked">
-                                        <label for="give-radio-level-0">50</label>
+                                        <label for="give-radio-level-0" contenteditable="true">50</label>
                                     </li>
                                     <li>
                                         <input id="give-radio-level-1" type="radio" name="give-radio-donation-level">
-                                        <label for="give-radio-level-1">100</label>
+                                        <label for="give-radio-level-1" contenteditable="true">100</label>
                                     </li>
                                     <li>
                                         <input id="give-radio-level-2" type="radio" name="give-radio-donation-level">
@@ -58,16 +58,16 @@
                                     </li>
                                 </ul><!-- Give Donation Levels Wrap -->
                                 <fieldset id="give-payment-mode-select">
-                                    <legend class="give-payment-mode-label">Please Select Your Payment Options:</legend>
+                                    <legend class="give-payment-mode-label" contenteditable="true">Please Select Your Payment Options:</legend>
                                     <div id="give-payment-mode-wrap">
                                         <ul id="give-gateway-radio-list">
                                             <li>
                                                 <input class="give-gateway" id="give-gateway-option1" type="radio" name="payment-mode">
-                                                <label for="give-gateway-option1">Paypal</label>
+                                                <label for="give-gateway-option1" contenteditable="true">Paypal</label>
                                             </li>
                                             <li>
                                                 <input class="give-gateway" id="give-gateway-option2" type="radio" name="payment-mode">
-                                                <label for="give-gateway-option2">Credit Card</label>
+                                                <label for="give-gateway-option2" contenteditable="true">Credit Card</label>
                                             </li>
                                         </ul>
                                     </div>
@@ -81,22 +81,22 @@
                                             <div class="col-md-3 col-sm-6 col-lg-3">
                                                 <div class="select-wrap2">
                                                     <select>
-                                                        <option>Expire Month</option>
-                                                        <option>Jan</option>
-                                                        <option>Feb</option>
-                                                        <option>Mar</option>
-                                                        <option>Apr</option>
+                                                        <option contenteditable="true">Expire Month</option>
+                                                        <option contenteditable="true">Jan</option>
+                                                        <option contenteditable="true">Feb</option>
+                                                        <option contenteditable="true">Mar</option>
+                                                        <option contenteditable="true">Apr</option>
                                                     </select>
                                                 </div>
                                             </div>
                                             <div class="col-md-3 col-sm-6 col-lg-3">
                                                 <div class="select-wrap2">
                                                     <select>
-                                                        <option>Expire Year</option>
-                                                        <option>2019</option>
-                                                        <option>2020</option>
-                                                        <option>2021</option>
-                                                        <option>2022</option>
+                                                        <option contenteditable="true">Expire Year</option>
+                                                        <option contenteditable="true">2019</option>
+                                                        <option contenteditable="true">2020</option>
+                                                        <option contenteditable="true">2021</option>
+                                                        <option contenteditable="true">2022</option>
                                                     </select>
                                                 </div>
                                             </div>
@@ -111,7 +111,7 @@
                                 </fieldset><!-- Donation Payment Methods -->
                                 <div id="give_purchase_form_wrap">
                                     <fieldset id="give_checkout_user_info">
-                                        <legend>Personal Info:</legend>
+                                        <legend contenteditable="true">Personal Info:</legend>
                                         <p id="give-first-name-wrap" class="form-row">
                                             <input type="text" class="give-input" placeholder="First Name">
                                         </p>
@@ -124,8 +124,8 @@
                                     </fieldset>
                                     <fieldset id="give_purchase_submit">
                                         <p id="give-final-total-wrap">
-                                            <span class="give-donation-total-label">Donation Total:</span>
-                                            <span class="give-final-total-amount">$50</span>
+                                            <span class="give-donation-total-label" contenteditable="true">Donation Total:</span>
+                                            <span class="give-final-total-amount" contenteditable="true">$50</span>
                                         </p>
                                         <div class="give-submit-button-wrap">
                                             <input id="give-purchase-button" class="give-submit" type="submit" value="Donate Now">

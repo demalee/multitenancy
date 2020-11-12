@@ -143,6 +143,14 @@
 
 <script src='{{asset('theme/political/assets/js/plugins.js')}}'></script>
 <script src='{{asset('theme/political/theme/political/assets/js/function.js')}}'></script>
+<script src="{{ asset('ckeditor/ckeditor.js') }}"></script>
+<script>
+    CKEDITOR.replace( 'editor1',
+        {
+            filebrowserUploadUrl: "{{route('upload', ['_token' => csrf_token() ])}}",
+            filebrowserUploadMethod: 'form'
+        });
+</script>
 </body>
 
 </html>

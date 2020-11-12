@@ -8,12 +8,12 @@
                 <figure class="overlay">
                     <img src="{{asset('theme/local/extra-images/main-banner.jpg')}}" alt="">
                     <div class="banner_text">
-                        <div class="small_text animated">Welcome to</div>
-                        <div class="medium_text animated">Smart City</div>
+                        <div class="small_text animated" contenteditable="true">Welcome to</div>
+                        <div class="medium_text animated" contenteditable="true">Smart City</div>
                         <div class="large_text animated"><span id='text'></span><div class='console-underscore' id='console'>&#95;</div></div>
                         <div class="banner_btn">
-                            <a class="theam_btn animated" href="#">Read More</a>
-                            <a class="theam_btn animated" href="#">Explore Now</a>
+                            <a class="theam_btn animated" href="#" contenteditable="true">Read More</a>
+                            <a class="theam_btn animated" href="#" >Explore Now</a>
                         </div>
                         <div class="banner_search_form">
                             <label>Search Here</label>
@@ -29,9 +29,9 @@
                 <figure class="overlay">
                     <img src="{{asset('theme/local/extra-images/main-banner1.jpg')}}" alt="">
                     <div class="banner_text">
-                        <div class="small_text animated">Welcome to</div>
-                        <div class="medium_text animated">Smart City</div>
-                        <div class="large_text animated">municipal</div>
+                        <div class="small_text animated" contenteditable="true">Welcome to</div>
+                        <div class="medium_text animated" contenteditable="true">Smart City</div>
+                        <div class="large_text animated" contenteditable="true">municipal</div>
                         <div class="banner_btn">
                             <a class="theam_btn animated" href="#">Read More</a>
                             <a class="theam_btn animated" href="#">Explore Now</a>
@@ -50,12 +50,12 @@
                 <figure class="overlay">
                     <img src="{{asset('theme/local/extra-images/main-banner2.jpg')}}" alt="">
                     <div class="banner_text">
-                        <div class="small_text animated">Welcome to</div>
-                        <div class="medium_text animated">Smart City</div>
-                        <div class="large_text animated">municipal</div>
+                        <div class="small_text animated" contenteditable="true">Welcome to</div>
+                        <div class="medium_text animated" contenteditable="true">Smart City</div>
+                        <div class="large_text animated" contenteditable="true">municipal</div>
                         <div class="banner_btn">
-                            <a class="theam_btn animated" href="#">Read More</a>
-                            <a class="theam_btn animated" href="#">Explore Now</a>
+                            <a class="theam_btn animated" href="#" contenteditable="true">Read More</a>
+                            <a class="theam_btn animated" href="#" contenteditable="true">Explore Now</a>
                         </div>
                         <div class="banner_search_form">
                             <label>Search Here</label>
@@ -79,25 +79,25 @@
                     <li>
                         <div class="city_service_text">
                             <span><i class="fa icon-news"></i></span>
-                            <h5><a href="#">News & Public Notices</a></h5>
+                            <h5><a href="#" contenteditable="true">News & Public Notices</a></h5>
                         </div>
                     </li>
                     <li>
                         <div class="city_service_text">
                             <span><i class="fa icon-law"></i></span>
-                            <h5><a href="#">Goverment Tender </a></h5>
+                            <h5><a href="#" contenteditable="true">Goverment Tender </a></h5>
                         </div>
                     </li>
                     <li>
                         <div class="city_service_text">
                             <span><i class="fa icon-cursor"></i></span>
-                            <h5><a href="#">Pay Online Tickets</a></h5>
+                            <h5><a href="#" contenteditable="true">Pay Online Tickets</a></h5>
                         </div>
                     </li>
                     <li>
                         <div class="city_service_text">
                             <span><i class="fa icon-trash"></i></span>
-                            <h5><a href="#">Garbage and Recycling</a></h5>
+                            <h5><a href="#" contenteditable="true">Garbage and Recycling</a></h5>
                         </div>
                     </li>
                 </ul>
@@ -130,20 +130,20 @@
                     <div class="city_about_list">
                         <!--SECTION HEADING START-->
                         <div class="section_heading border">
-                            <span>Welcome to Smart City</span>
-                            <h2>Municipal</h2>
+                            <span contenteditable="true">Welcome to Smart City</span>
+                            <h2 contenteditable="true">Municipal</h2>
                         </div>
                         <!--SECTION HEADING END-->
                         <div class="city_about_text">
-                            <h6>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin</h6>
-                            <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. </p>
+                            <h6 contenteditable="true">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin</h6>
+                            <p contenteditable="true">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. </p>
                         </div>
                         <ul class="city_about_link">
-                            <li><a href="#"><i class="fa fa-star"></i>24-Hours Emergency Services</a></li>
-                            <li><a href="#"><i class="fa fa-star"></i>Citizen Safety Information</a></li>
-                            <li><a href="#"><i class="fa fa-star"></i>Marriage Procedures</a></li>
-                            <li><a href="#"><i class="fa fa-star"></i>Constitution and Government Law</a></li>
-                            <li><a href="#"><i class="fa fa-star"></i>Ongoing Projects</a></li>
+                            <li contenteditable="true"><a href="#"><i class="fa fa-star"></i>24-Hours Emergency Services</a></li>
+                            <li contenteditable="true"><a href="#"><i class="fa fa-star"></i>Citizen Safety Information</a></li>
+                            <li contenteditable="true"><a href="#"><i class="fa fa-star"></i>Marriage Procedures</a></li>
+                            <li contenteditable="true"><a href="#"><i class="fa fa-star"></i>Constitution and Government Law</a></li>
+                            <li contenteditable="true"><a href="#"><i class="fa fa-star"></i>Ongoing Projects</a></li>
                         </ul>
                     </div>
                 </div>
@@ -158,8 +158,8 @@
             <div class="container-fluid">
                 <!--SECTION HEADING START-->
                 <div class="section_heading margin-bottom">
-                    <span>Explore</span>
-                    <h2>Govt Departments</h2>
+                    <span contenteditable="true">Explore</span>
+                    <h2 contenteditable="true">Govt Departments</h2>
                 </div>
                 <!--SECTION HEADING END-->
                 <div class="city-department-slider">
@@ -174,8 +174,8 @@
                                     <a class="paly_btn" data-rel="prettyPhoto" href="{{asset('theme/local/extra-images/department-fig.jpg')}}"><i class="fa fa-plus"></i></a>
                                 </figure>
                                 <div class="city_department_text">
-                                    <h5>Administration</h5>
-                                    <p>This is Photoshop's version  of Ipsum. </p>
+                                    <h5 contenteditable="true">Administration</h5>
+                                    <p contenteditable="true">This is Photoshop's version  of Ipsum. </p>
                                     <a href="#">See More<i class="fa fa-angle-double-right"></i></a>
                                 </div>
                             </div>
@@ -190,8 +190,8 @@
                                     <a class="paly_btn" data-rel="prettyPhoto" href="{{asset('theme/local/extra-images/department-fig.jpg')}}"><i class="fa fa-plus"></i></a>
                                 </figure>
                                 <div class="city_department_text">
-                                    <h5>Employment </h5>
-                                    <p>This is Photoshop's version  of Ipsum. </p>
+                                    <h5 contenteditable="true">Employment </h5>
+                                    <p contenteditable="true">This is Photoshop's version  of Ipsum. </p>
                                     <a href="#">See More<i class="fa fa-angle-double-right"></i></a>
                                 </div>
                             </div>
@@ -206,8 +206,8 @@
                                     <a class="paly_btn" data-rel="prettyPhoto" href="{{asset('theme/local/extra-images/department-fig.jpg')}}"><i class="fa fa-plus"></i></a>
                                 </figure>
                                 <div class="city_department_text">
-                                    <h5>Education</h5>
-                                    <p>This is Photoshop's version  of Ipsum. </p>
+                                    <h5 contenteditable="true">Education</h5>
+                                    <p contenteditable="true">This is Photoshop's version  of Ipsum. </p>
                                     <a href="#">See More<i class="fa fa-angle-double-right"></i></a>
                                 </div>
                             </div>
@@ -222,8 +222,8 @@
                                     <a class="paly_btn" data-rel="prettyPhoto" href="{{asset('theme/local/extra-images/department-fig.jpg')}}"><i class="fa fa-plus"></i></a>
                                 </figure>
                                 <div class="city_department_text">
-                                    <h5>Health Care</h5>
-                                    <p>This is Photoshop's version  of Ipsum. </p>
+                                    <h5 contenteditable="true">Health Care</h5>
+                                    <p contenteditable="true"> This is Photoshop's version  of Ipsum. </p>
                                     <a href="#">See More<i class="fa fa-angle-double-right"></i></a>
                                 </div>
                             </div>
@@ -238,8 +238,8 @@
                                     <a class="paly_btn" data-rel="prettyPhoto" href="{{asset('theme/local/extra-images/department-fig.jpg')}}"><i class="fa fa-plus"></i></a>
                                 </figure>
                                 <div class="city_department_text">
-                                    <h5>Travel & Tourism</h5>
-                                    <p>This is Photoshop's version  of Ipsum. </p>
+                                    <h5 contenteditable="true">Travel & Tourism</h5>
+                                    <p contenteditable="true">This is Photoshop's version  of Ipsum. </p>
                                     <a href="#">See More<i class="fa fa-angle-double-right"></i></a>
                                 </div>
                             </div>
@@ -254,8 +254,8 @@
                                     <a class="paly_btn" data-rel="prettyPhoto" href="{{asset('theme/local/extra-images/department-fig.jpg')}}"><i class="fa fa-plus"></i></a>
                                 </figure>
                                 <div class="city_department_text">
-                                    <h5>Police Department</h5>
-                                    <p>This is Photoshop's version  of Ipsum. </p>
+                                    <h5 contenteditable="true">Police Department</h5>
+                                    <p contenteditable="true">This is Photoshop's version  of Ipsum. </p>
                                     <a href="#">See More<i class="fa fa-angle-double-right"></i></a>
                                 </div>
                             </div>
@@ -272,8 +272,8 @@
                                     <a class="paly_btn" data-rel="prettyPhoto" href="{{asset('theme/local/extra-images/department-fig.jpg')}}"><i class="fa fa-plus"></i></a>
                                 </figure>
                                 <div class="city_department_text">
-                                    <h5>Administration</h5>
-                                    <p>This is Photoshop's version  of Ipsum. </p>
+                                    <h5 contenteditable="true">Administration</h5>
+                                    <p contenteditable="true">This is Photoshop's version  of Ipsum. </p>
                                     <a href="#">See More<i class="fa fa-angle-double-right"></i></a>
                                 </div>
                             </div>
@@ -288,8 +288,8 @@
                                     <a class="paly_btn" data-rel="prettyPhoto" href="{{asset('theme/local/extra-images/department-fig.jpg')}}"><i class="fa fa-plus"></i></a>
                                 </figure>
                                 <div class="city_department_text">
-                                    <h5>Employment </h5>
-                                    <p>This is Photoshop's version  of Ipsum. </p>
+                                    <h5 contenteditable="true">Employment </h5>
+                                    <p contenteditable="true">This is Photoshop's version  of Ipsum. </p>
                                     <a href="#">See More<i class="fa fa-angle-double-right"></i></a>
                                 </div>
                             </div>
@@ -304,8 +304,8 @@
                                     <a class="paly_btn" data-rel="prettyPhoto" href="{{asset('theme/local/extra-images/department-fig.jpg')}}"><i class="fa fa-plus"></i></a>
                                 </figure>
                                 <div class="city_department_text">
-                                    <h5>Education</h5>
-                                    <p>This is Photoshop's version  of Ipsum. </p>
+                                    <h5 contenteditable="true">Education</h5>
+                                    <p contenteditable="true">This is Photoshop's version  of Ipsum. </p>
                                     <a href="#">See More<i class="fa fa-angle-double-right"></i></a>
                                 </div>
                             </div>
@@ -320,8 +320,8 @@
                                     <a class="paly_btn" data-rel="prettyPhoto" href="{{asset('theme/local/extra-images/department-fig.jpg')}}"><i class="fa fa-plus"></i></a>
                                 </figure>
                                 <div class="city_department_text">
-                                    <h5>Health Care</h5>
-                                    <p>This is Photoshop's version  of Ipsum. </p>
+                                    <h5 contenteditable="true">Health Care</h5>
+                                    <p contenteditable="true">This is Photoshop's version  of Ipsum. </p>
                                     <a href="#">See More<i class="fa fa-angle-double-right"></i></a>
                                 </div>
                             </div>
@@ -336,8 +336,8 @@
                                     <a class="paly_btn" data-rel="prettyPhoto" href="{{asset('theme/local/extra-images/department-fig.jpg')}}"><i class="fa fa-plus"></i></a>
                                 </figure>
                                 <div class="city_department_text">
-                                    <h5>Travel & Tourism</h5>
-                                    <p>This is Photoshop's version  of Ipsum. </p>
+                                    <h5 contenteditable="true">Travel & Tourism</h5>
+                                    <p contenteditable="true">This is Photoshop's version  of Ipsum. </p>
                                     <a href="#">See More<i class="fa fa-angle-double-right"></i></a>
                                 </div>
                             </div>
@@ -352,8 +352,8 @@
                                     <a class="paly_btn" data-rel="prettyPhoto" href="{{asset('theme/local/extra-images/department-fig.jpg')}}"><i class="fa fa-plus"></i></a>
                                 </figure>
                                 <div class="city_department_text">
-                                    <h5>Police Department</h5>
-                                    <p>This is Photoshop's version  of Ipsum. </p>
+                                    <h5 contenteditable="true">Police Department</h5>
+                                    <p contenteditable="true">This is Photoshop's version  of Ipsum. </p>
                                     <a href="#">See More<i class="fa fa-angle-double-right"></i></a>
                                 </div>
                             </div>
@@ -376,16 +376,16 @@
                     <div class="center_text">
                         <div class="city_office_list">
                             <div class="city_office_text">
-                                <h6>City</h6>
-                                <h3>Mayor’s Office</h3>
+                                <h6 contenteditable="true">City</h6>
+                                <h3 contenteditable="true">Mayor’s Office</h3>
                                 <a href="#">See More<i class="fa fa-angle-double-right"></i></a>
                             </div>
                             <div class="city_office_logo">
                                 <a href="#"><img src="{{asset('theme/local/images/office-logo.png')}}" alt=""></a>
                             </div>
                             <div class="city_office_text pull_right">
-                                <h6>City</h6>
-                                <h3>Council Office</h3>
+                                <h6 contenteditable="true">City</h6>
+                                <h3 contenteditable="true">Council Office</h3>
                                 <a href="#">See More<i class="fa fa-angle-double-right"></i></a>
                             </div>
                         </div>
@@ -405,10 +405,10 @@
             <!--SECTION HEADING START-->
             <div class="heding_full">
                 <div class="section_heading">
-                    <span>Welcome to Local City</span>
-                    <h2>City Spotlights</h2>
+                    <span contenteditable="true">Welcome to Local City</span>
+                    <h2 contenteditable="true">City Spotlights</h2>
                 </div>
-                <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean sollicitudin, lorem quis bibendum auctor Proin gravida nibh vel velit auctor aliquet Aenean sollicitudin, lorem quis bibendum auctor</p>
+                <p contenteditable="true">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean sollicitudin, lorem quis bibendum auctor Proin gravida nibh vel velit auctor aliquet Aenean sollicitudin, lorem quis bibendum auctor</p>
             </div>
             <!--SECTION HEADING END-->
             <div class="row">
@@ -421,9 +421,9 @@
                             <img src="{{asset('theme/local/extra-images/blog-fig.jpg')}}" alt="">
                         </figure>
                         <div class="city_blog_text">
-                            <span>Community</span>
-                            <h4>Animal Control</h4>
-                            <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctornisi elit.</p>
+                            <span contenteditable="true">Community</span>
+                            <h4 contenteditable="true">Animal Control</h4>
+                            <p contenteditable="true">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctornisi elit.</p>
                             <div class="city_blog_social">
                                 <a class="theam_btn border-color color" href="#" tabindex="0">Read More</a>
                                 <div class="city_blog_icon_list">
@@ -446,9 +446,9 @@
                             <img src="{{asset('theme/local/extra-images/blog-hover.jpg')}}" alt="">
                         </figure>
                         <div class="city_blog_text">
-                            <span>Community</span>
-                            <h4>Animal Control</h4>
-                            <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctornisi elit.</p>
+                            <span contenteditable="true">Community</span>
+                            <h4 contenteditable="true">Animal Control</h4>
+                            <p contenteditable="true">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctornisi elit.</p>
                             <div class="city_blog_social">
                                 <a class="theam_btn border-color color" href="#" tabindex="0">Read More</a>
                                 <div class="city_blog_icon_list">
@@ -473,9 +473,9 @@
                             <img src="{{asset('theme/local/extra-images/blog-fig1.jpg')}}" alt="">
                         </figure>
                         <div class="city_blog_text">
-                            <span>Community</span>
-                            <h4>Job Seeker</h4>
-                            <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctornisi elit.</p>
+                            <span contenteditable="true">Community</span>
+                            <h4 contenteditable="true" >Job Seeker</h4>
+                            <p contenteditable="true">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctornisi elit.</p>
                             <div class="city_blog_social">
                                 <a class="theam_btn border-color color" href="#" tabindex="0">Read More</a>
                                 <div class="city_blog_icon_list">
@@ -498,9 +498,9 @@
                             <img src="{{asset('theme/local/extra-images/blog-hover.jpg')}}" alt="">
                         </figure>
                         <div class="city_blog_text">
-                            <span>Community</span>
-                            <h4>Job Seeker</h4>
-                            <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctornisi elit.</p>
+                            <span contenteditable="true">Community</span>
+                            <h4 contenteditable="true">Job Seeker</h4>
+                            <p contenteditable="true">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctornisi elit.</p>
                             <div class="city_blog_social">
                                 <a class="theam_btn border-color color" href="#" tabindex="0">Read More</a>
                                 <div class="city_blog_icon_list">
@@ -525,9 +525,9 @@
                             <img src="{{asset('theme/local/extra-images/blog-fig2.jpg')}}" alt="">
                         </figure>
                         <div class="city_blog_text">
-                            <span>Community</span>
-                            <h4>Senior Citizen</h4>
-                            <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctornisi elit.</p>
+                            <span contenteditable="true">Community</span>
+                            <h4 contenteditable="true">Senior Citizen</h4>
+                            <p contenteditable="true"> This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctornisi elit.</p>
                             <div class="city_blog_social">
                                 <a class="theam_btn border-color color" href="#" tabindex="0">Read More</a>
                                 <div class="city_blog_icon_list">
@@ -550,9 +550,9 @@
                             <img src="{{asset('theme/local/extra-images/blog-hover.jpg')}}" alt="">
                         </figure>
                         <div class="city_blog_text">
-                            <span>Community</span>
-                            <h4>Senior Citizen</h4>
-                            <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctornisi elit.</p>
+                            <span contenteditable="true">Community</span>
+                            <h4 contenteditable="true">Senior Citizen</h4>
+                            <p contenteditable="true">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctornisi elit.</p>
                             <div class="city_blog_social">
                                 <a class="theam_btn border-color color" href="#" tabindex="0">Read More</a>
                                 <div class="city_blog_icon_list">
@@ -577,9 +577,9 @@
     <div class="city_jobs_wrap">
         <div class="city_jobs_fig">
             <div class="city_job_text">
-                <span>Mayor of the city</span>
-                <h2>Meet Dorien Daniels</h2>
-                <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis </p>
+                <span contenteditable="true"> Mayor of the city</span>
+                <h2 contenteditable="true">Meet Dorien Daniels</h2>
+                <p contenteditable="true">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis </p>
                 <a class="theam_btn" href="#" tabindex="0">Get In Touch</a>
             </div>
         </div>
@@ -589,8 +589,8 @@
                     <div class="city_jobs_item overlay">
                         <span><i class="fa icon-team"></i></span>
                         <div class="ciy_jobs_caption">
-                            <h2>Living Here</h2>
-                            <p>This is Photoshop's ersion  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin</p>
+                            <h2 contenteditable="true">Living Here</h2>
+                            <p contenteditable="true">This is Photoshop's ersion  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin</p>
                             <a href="#">Find Out More</a>
                         </div>
                     </div>
@@ -598,8 +598,8 @@
                 <li>
                     <div class="city_jobs_item pull-right overlay">
                         <div class="ciy_jobs_caption">
-                            <h2>Visit Here</h2>
-                            <p>This is Photoshop's ersion  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin</p>
+                            <h2 contenteditable="true">Visit Here</h2>
+                            <p contenteditable="true">This is Photoshop's ersion  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin</p>
                             <a href="#">Find Out More</a>
                         </div>
                         <span><i class="fa icon-urban"></i></span>
@@ -609,8 +609,8 @@
                     <div class="city_jobs_item overlay">
                         <span><i class="fa icon-portfolio"></i></span>
                         <div class="ciy_jobs_caption">
-                            <h2>Doing Busines Here</h2>
-                            <p>This is Photoshop's ersion  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin</p>
+                            <h2 contenteditable="true">Doing Busines Here</h2>
+                            <p contenteditable="true">This is Photoshop's ersion  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin</p>
                             <a href="#">Find Out More</a>
                         </div>
                     </div>
@@ -625,19 +625,19 @@
         <div class="container-fluid">
             <!--SECTION HEADING START-->
             <div class="section_heading center">
-                <span>Goverment</span>
-                <h2>Programs & Projects</h2>
+                <span contenteditable="true">Goverment</span>
+                <h2 contenteditable="true">Programs & Projects</h2>
             </div>
             <!--SECTION HEADING END-->
             <div class="city_project_mansory">
                 <ul id="filterable-item-filter-1">
-                    <li><a data-value="all" href="#">All</a></li>
-                    <li><a data-value="1" href="#">Categories</a></li>
-                    <li><a data-value="2" href="#">Eco</a></li>
+                    <li><a data-value="all" href="#" contenteditable="true">All</a></li>
+                    <li><a data-value="1" href="#"contenteditable="true">Categories</a></li>
+                    <li><a data-value="2" href="#" contenteditable="true">Eco</a></li>
                     <li><a data-value="3" class="active" href="#">Programs</a></li>
-                    <li><a data-value="4" href="#">Social life</a></li>
-                    <li><a data-value="5" href="#">Sport</a></li>
-                    <li><a data-value="6" href="#">Technology</a></li>
+                    <li><a data-value="4" href="#" contenteditable="true">Social life</a></li>
+                    <li><a data-value="5" href="#" contenteditable="true">Sport</a></li>
+                    <li><a data-value="6" href="#" contenteditable="true"> Technology</a></li>
                 </ul>
             </div>
             <div class="city-project-slider">
@@ -647,8 +647,8 @@
                             <img src="{{asset('theme/local/extra-images/project-fig.jpg')}}" alt="">
                             <div class="city_project_text">
                                 <span><i class="fa icon-plastic"></i></span>
-                                <a href="#">Constructions</a>
-                                <h3><a href="#">Government vows to prioritize local contractors in infrastructure program</a></h3>
+                                <a href="#" contenteditable="true">Constructions</a>
+                                <h3><a href="#" contenteditable="true">Government vows to prioritize local contractors in infrastructure program</a></h3>
                             </div>
                         </figure>
                     </div>
@@ -660,8 +660,8 @@
                             <img src="{{asset('theme/local/extra-images/project-fig1.jpg')}}" alt="">
                             <div class="city_project_text">
                                 <span><i class="fa icon-sun"></i></span>
-                                <a href="#">Goverment Solar Project</a>
-                                <h3><a href="#">Businesses Should Accelerate Their Renewable Energy Strategy</a> </h3>
+                                <a href="#" contenteditable="true"> Goverment Solar Project</a>
+                                <h3><a href="#" contenteditable="true">Businesses Should Accelerate Their Renewable Energy Strategy</a> </h3>
                             </div>
                         </figure>
                     </div>
@@ -673,8 +673,8 @@
                             <img src="{{asset('theme/local/extra-images/project-fig2.jpg')}}" alt="">
                             <div class="city_project_text">
                                 <span><i class="fa icon-partner"></i></span>
-                                <a href="#">Citizen Program</a>
-                                <h3><a href="#">Government vows to prioritize local contractors in infrastructure program</a></h3>
+                                <a href="#" contenteditable="true">Citizen Program</a>
+                                <h3><a href="#" contenteditable="true">Government vows to prioritize local contractors in infrastructure program</a></h3>
                             </div>
                         </figure>
                     </div>
@@ -685,8 +685,8 @@
                             <img src="{{asset('theme/local/extra-images/project-fig2.jpg')}}" alt="">
                             <div class="city_project_text">
                                 <span><i class="fa icon-plastic"></i></span>
-                                <a href="#">Citizen Program</a>
-                                <h3><a href="#">Government vows to prioritize local contractors in infrastructure program</a></h3>
+                                <a href="#" contenteditable="true">Citizen Program</a>
+                                <h3><a href="#" contenteditable="true">Government vows to prioritize local contractors in infrastructure program</a></h3>
                             </div>
                         </figure>
                     </div>
@@ -703,10 +703,10 @@
                 <!--SECTION HEADING START-->
                 <div class="heding_full">
                     <div class="section_heading">
-                        <span>Upcoming</span>
-                        <h2>Feature Events & Meeting</h2>
+                        <span contenteditable="true">Upcoming</span>
+                        <h2 contenteditable="true">Feature Events & Meeting</h2>
                     </div>
-                    <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean sollicitudin, lorem quis bibendum auctor Proin gravida nibh vel velit auctor aliquet Aenean sollicitudin, lorem quis bibendum auctor</p>
+                    <p contenteditable="true">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean sollicitudin, lorem quis bibendum auctor Proin gravida nibh vel velit auctor aliquet Aenean sollicitudin, lorem quis bibendum auctor</p>
                 </div>
                 <div class="row">
                     <div class="col-md-6 col-sm-6">
@@ -721,16 +721,16 @@
                             <div class="city_event_text">
                                 <div class="city_event_history">
                                     <div class="event_date">
-                                        <span>25</span>
-                                        <strong>SEP, 2018</strong>
+                                        <span contenteditable="true">25</span>
+                                        <strong contenteditable="true">SEP, 2018</strong>
                                     </div>
                                     <div class="city_date_text">
-                                        <h5 class="custom_size">Mayor Conferences</h5>
-                                        <a href="#"><i class="fa fa-clock-o"></i>05:23 AM - 09:23 AM </a>
+                                        <h5 class="custom_size" contenteditable="true">Mayor Conferences</h5>
+                                        <a href="#"><i class="fa fa-clock-o" contenteditable="true"></i>05:23 AM - 09:23 AM </a>
                                     </div>
                                 </div>
-                                <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean..</p>
-                                <a href="#">Speaker : <span>Alexzender</span></a>
+                                <p contenteditable="true">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean..</p>
+                                <a href="#" contenteditable="true">  : <span>Alexzender</span></a>
                             </div>
                         </div>
                     </div>
@@ -746,16 +746,16 @@
                             <div class="city_event_text">
                                 <div class="city_event_history">
                                     <div class="event_date">
-                                        <span>24</span>
-                                        <strong>SEP, 2018</strong>
+                                        <span contenteditable="true">24</span>
+                                        <strong contenteditable="true">SEP, 2018</strong>
                                     </div>
                                     <div class="city_date_text">
-                                        <h5 class="custom_size">Culture & Recreation</h5>
-                                        <a href="#"><i class="fa fa-clock-o"></i>05:23 AM - 09:23 AM </a>
+                                        <h5 class="custom_size" contenteditable="true">Culture & Recreation</h5>
+                                        <a href="#" contenteditable="true"><i class="fa fa-clock-o"></i>05:23 AM - 09:23 AM </a>
                                     </div>
                                 </div>
-                                <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean..</p>
-                                <a href="#">Speaker : <span>Alexzender</span></a>
+                                <p contenteditable="true">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean..</p>
+                                <a href="#" contenteditable="true">Speaker : <span >Alexzender</span></a>
                             </div>
                         </div>
                     </div>
@@ -771,16 +771,16 @@
                             <div class="city_event_text">
                                 <div class="city_event_history">
                                     <div class="event_date">
-                                        <span>20</span>
-                                        <strong>SEP, 2018</strong>
+                                        <span contenteditable="true">20</span>
+                                        <strong contenteditable="true">SEP, 2018</strong>
                                     </div>
                                     <div class="city_date_text">
                                         <h5 class="custom_size">Fundraise Event</h5>
                                         <a href="#"><i class="fa fa-clock-o"></i>05:23 AM - 09:23 AM </a>
                                     </div>
                                 </div>
-                                <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean..</p>
-                                <a href="#">Speaker : <span>Alexzender</span></a>
+                                <p contenteditable="true">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean..</p>
+                                <a href="#" contenteditable="true">Speaker : <span>Alexzender</span></a>
                             </div>
                         </div>
                     </div>
@@ -796,16 +796,16 @@
                             <div class="city_event_text">
                                 <div class="city_event_history">
                                     <div class="event_date">
-                                        <span>15</span>
-                                        <strong>SEP, 2018</strong>
+                                        <span contenteditable="true">15</span>
+                                        <strong contenteditable="true">SEP, 2018</strong>
                                     </div>
                                     <div class="city_date_text">
-                                        <h5 class="custom_size">Coporate Meetings</h5>
-                                        <a href="#"><i class="fa fa-clock-o"></i>05:23 AM - 09:23 AM </a>
+                                        <h5 class="custom_size" contenteditable="true">Coporate Meetings</h5>
+                                        <a href="#" contenteditable="true"><i class="fa fa-clock-o"></i>05:23 AM - 09:23 AM </a>
                                     </div>
                                 </div>
-                                <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean..</p>
-                                <a href="#">Speaker : <span>Alexzender</span></a>
+                                <p contenteditable="true">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean..</p>
+                                <a href="#" contenteditable="true">Speaker : <span>Alexzender</span></a>
                             </div>
                         </div>
                     </div>
@@ -829,9 +829,9 @@
                                 <img src="{{asset('theme/local/extra-images/client.jpg')}}" alt="">
                             </figure>
                             <div class="city_client_text">
-                                <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis. </p>
-                                <h4><a href="#">Likor Stom</a> </h4>
-                                <span><a href="#">Directio-Baseline</a></span>
+                                <p contenteditable="true">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis. </p>
+                                <h4><a href="#" contenteditable="true">Likor Stom</a> </h4>
+                                <span><a href="#" contenteditable="true">Directio-Baseline</a></span>
                             </div>
                         </div>
                     </li>
@@ -844,9 +844,9 @@
                                 <img src="{{asset('theme/local/extra-images/client.jpg')}}" alt="">
                             </figure>
                             <div class="city_client_text">
-                                <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis. </p>
-                                <h4><a href="#">Likor Stom</a> </h4>
-                                <span><a href="#">Directio-Baseline</a></span>
+                                <p contenteditable="true">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis. </p>
+                                <h4><a href="#" contenteditable="true">Likor Stom</a> </h4>
+                                <span><a href="#" contenteditable="true">Directio-Baseline</a></span>
                             </div>
                         </div>
                     </li>
@@ -885,8 +885,8 @@
                 <div class="col-md-8">
                     <!--SECTION HEADING START-->
                     <div class="section_heading margin-bottom">
-                        <span>Welcome to Local City</span>
-                        <h2>News Releases</h2>
+                        <span contenteditable="true">Welcome to Local City</span>
+                        <h2 contenteditable="true">News Releases</h2>
                     </div>
                     <!--SECTION HEADING START-->
                     <div class="row">
@@ -899,12 +899,12 @@
                                     <img src="{{asset('theme/local/extra-images/news-fig.jpg')}}" alt="">
                                 </figure>
                                 <div class="city_news_text">
-                                    <h2>A Fundraiser for the City Club</h2>
+                                    <h2 contenteditable="true">A Fundraiser for the City Club</h2>
                                     <ul class="city_news_meta">
-                                        <li><a href="#">May 22, 2018</a></li>
-                                        <li><a href="#">Public Notices</a></li>
+                                        <li><a href="#" contenteditable="true">May 22, 2018</a></li>
+                                        <li><a href="#" contenteditable="true">Public Notices</a></li>
                                     </ul>
-                                    <p>Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sollicitudin</p>
+                                    <p contenteditable="true">Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sollicitudin</p>
                                     <a class="theam_btn border-color color" href="#" tabindex="0">Read More</a>
                                 </div>
                             </div>
@@ -921,10 +921,10 @@
                                                 <img src="{{asset('theme/local/extra-images/news-fig1.jpg')}}" alt="">
                                             </figure>
                                             <div class="city_news_list_text">
-                                                <h5>Lorem Ipsum Proin gravida nibh </h5>
+                                                <h5 contenteditable="true">Lorem Ipsum Proin gravida nibh </h5>
                                                 <ul class="city_news_meta">
-                                                    <li><a href="#">May 22, 2018</a></li>
-                                                    <li><a href="#">Public Notices</a></li>
+                                                    <li><a href="#" contenteditable="true">May 22, 2018</a></li>
+                                                    <li><a href="#" contenteditable="true">Public Notices</a></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -940,7 +940,7 @@
                                             <div class="city_news_list_text">
                                                 <h5>Lorem Ipsum Proin gravida nibh </h5>
                                                 <ul class="city_news_meta">
-                                                    <li><a href="#">May 22, 2018</a></li>
+                                                    <li><a href="#" contenteditable="true">May 22, 2018</a></li>
                                                     <li><a href="#">Public Notices</a></li>
                                                 </ul>
                                             </div>
@@ -955,9 +955,9 @@
                                                 <img src="{{asset('theme/local/extra-images/news-fig3.jpg')}}" alt="">
                                             </figure>
                                             <div class="city_news_list_text">
-                                                <h5>Lorem Ipsum Proin gravida nibh </h5>
+                                                <h5 contenteditable="true">Lorem Ipsum Proin gravida nibh </h5>
                                                 <ul class="city_news_meta">
-                                                    <li><a href="#">May 22, 2018</a></li>
+                                                    <li><a href="#" contenteditable="true">May 22, 2018</a></li>
                                                     <li><a href="#">Public Notices</a></li>
                                                 </ul>
                                             </div>
@@ -972,10 +972,10 @@
                                                 <img src="{{asset('theme/local/extra-images/news-fig4.jpg')}}" alt="">
                                             </figure>
                                             <div class="city_news_list_text">
-                                                <h5>Lorem Ipsum Proin gravida nibh </h5>
+                                                <h5 contenteditable="true">Lorem Ipsum Proin gravida nibh </h5>
                                                 <ul class="city_news_meta">
-                                                    <li><a href="#">May 22, 2018</a></li>
-                                                    <li><a href="#">Public Notices</a></li>
+                                                    <li contenteditable="true"><a href="#">May 22, 2018</a></li>
+                                                    <li contenteditable="true"><a href="#">Public Notices</a></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -989,10 +989,10 @@
                                                 <img src="{{asset('theme/local/extra-images/news-fig5.jpg')}}" alt="">
                                             </figure>
                                             <div class="city_news_list_text">
-                                                <h5>Lorem Ipsum Proin gravida nibh </h5>
+                                                <h5 contenteditable="true">Lorem Ipsum Proin gravida nibh </h5>
                                                 <ul class="city_news_meta">
-                                                    <li><a href="#">May 22, 2018</a></li>
-                                                    <li><a href="#">Public Notices</a></li>
+                                                    <li><a href="#" contenteditable="true">May 22, 2018</a></li>
+                                                    <li><a href="#" contenteditable="true">Public Notices</a></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -1005,25 +1005,25 @@
                 <div class="col-md-4">
                     <div class="city_news_form">
                         <div class="city_news_feild">
-                            <span>Signup</span>
-                            <h4>Newsletter</h4>
-                            <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida </p>
+                            <span contenteditable="true">Signup</span>
+                            <h4 contenteditable="true">Newsletter</h4>
+                            <p contenteditable="true">This is Photoshop's version  of Lorem Ipsum. Proin gravida </p>
                             <div class="city_news_search">
                                 <input type="text" name="text" placeholder="Enter Your Email Adress Here" required>
                                 <button class="theam_btn border-color color">Subcribe Now</button>
                             </div>
                         </div>
                         <div class="city_news_feild feild2">
-                            <span>Recent</span>
-                            <h4>Documents</h4>
-                            <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida </p>
+                            <span contenteditable="true">Recent</span>
+                            <h4 contenteditable="true">Documents</h4>
+                            <p contenteditable="true">This is Photoshop's version  of Lorem Ipsum. Proin gravida </p>
                             <div class="city_document_list">
                                 <ul>
-                                    <li><a href="#"><i class="fa icon-document"></i>Council Agenda April 24, 2015 (27 kB)</a></li>
-                                    <li><a href="#"><i class="fa icon-document"></i>Council Agenda April 24, 2015 (27 kB)</a></li>
-                                    <li><a href="#"><i class="fa icon-document"></i>Council Agenda April 24, 2015 (27 kB)</a></li>
-                                    <li><a href="#"><i class="fa icon-document"></i>Council Agenda April 24, 2015 (27 kB)</a></li>
-                                    <li><a href="#"><i class="fa icon-document"></i>Council Agenda April 24, 2015 (27 kB)</a></li>
+                                    <li contenteditable="true"><a href="#"><i class="fa icon-document"></i>Council Agenda April 24, 2015 (27 kB)</a></li>
+                                    <li contenteditable="true"><a href="#"><i class="fa icon-document"></i>Council Agenda April 24, 2015 (27 kB)</a></li>
+                                    <li contenteditable="true"><a href="#"><i class="fa icon-document"></i>Council Agenda April 24, 2015 (27 kB)</a></li>
+                                    <li contenteditable="true"><a href="#"><i class="fa icon-document"></i>Council Agenda April 24, 2015 (27 kB)</a></li>
+                                    <li contenteditable="true"><a href="#"><i class="fa icon-document"></i>Council Agenda April 24, 2015 (27 kB)</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -1034,58 +1034,5 @@
     </div>
     <!--CITY NEWS WRAP END-->
 
-    <!--CITY REQUEST WRAP START-->
-    <div class="city_requset_wrap">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 col-sm-6">
-                    <div class="city_request_list">
-                        <div class="city_request_row">
-                            <span><i class="fa icon-question"></i></span>
-                            <div class="city_request_text">
-                                <span>Recent</span>
-                                <h4>Top Request</h4>
-                            </div>
-                        </div>
-                        <div class="city_request_link">
-                            <ul>
-                                <li><a href="#">Pay a Parking Ticket</a></li>
-                                <li><a href="#">Building Violation</a></li>
-                                <li><a href="#">Affordable Housing</a></li>
-                                <li><a href="#">Graffiti Removal</a></li>
-                                <li><a href="#">Civil Service Exams</a></li>
-                                <li><a href="#">Rodent Baiting</a></li>
-                                <li class="margin0"><a href="#">Cleaning</a></li>
-                                <li class="margin0"><a href="#">Uncleared Sidewalk</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-sm-6">
-                    <div class="city_request_list">
-                        <div class="city_request_row">
-                            <span><i class="fa icon-shout"></i></span>
-                            <div class="city_request_text">
-                                <span>Recent</span>
-                                <h4>Announcement</h4>
-                            </div>
-                        </div>
-                        <div class="city_request_link">
-                            <ul>
-                                <li><a href="#">Pay a Parking Ticket</a></li>
-                                <li><a href="#">Building Violation</a></li>
-                                <li><a href="#">Affordable Housing</a></li>
-                                <li><a href="#">Graffiti Removal</a></li>
-                                <li><a href="#">Civil Service Exams</a></li>
-                                <li><a href="#">Rodent Baiting</a></li>
-                                <li class="margin0"><a href="#">Cleaning</a></li>
-                                <li class="margin0"><a href="#">Uncleared Sidewalk</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
     <!--CITY REQUEST WRAP END-->
 @endsection

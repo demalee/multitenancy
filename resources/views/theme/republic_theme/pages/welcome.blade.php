@@ -12,11 +12,11 @@
                             <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
                                 <div class="slider__wrap">
                                     <div class="slider__inner">
-                                        <h1 class="text-theme wow">Change the world & increase opportunity</h1>
-                                        <p class="wow">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour,</p>
+                                        <h1 class="text-theme wow" contenteditable="true">Change the world & increase opportunity</h1>
+                                        <p class="wow" contenteditable="true">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour,</p>
                                         <div class="slider__btn wow">
                                             <div class="link-video">
-                                                <a class="" href="about.blade.php">View US</a>
+                                                <a class="" href="about.blade.php" contenteditable="true">View US</a>
                                                 <a class="video-icon video-popup" href="https://www.youtube.com/watch?v=rXcp6s0VjZk"><i class="zmdi zmdi-play-circle-outline"></i></a>
                                             </div>
                                         </div>
@@ -38,8 +38,8 @@
             <div class="row">
                 <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
                     <div class="section__title text-center">
-                        <h2 class="title-line">Goverment Services</h2>
-                        <p class="title-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                        <h2 class="title-line" contenteditable="true">Goverment Services</h2>
+                        <p class="title-desc" contenteditable="true">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
                     </div>
                 </div>
             </div>
@@ -54,8 +54,8 @@
                                 <i class="zmdi zmdi-city-alt"></i>
                             </div>
                             <div class="service__details">
-                                <h4><a href="#">Ministry</a></h4>
-                                <p>There are many variations of passages of Lorem Ipsum available, but the majority.</p>
+                                <h4><a href="#" contenteditable="true">Ministry</a></h4>
+                                <p contenteditable="true">There are many variations of passages of Lorem Ipsum available, but the majority.</p>
                             </div>
                         </div>
                     </div>
@@ -67,8 +67,8 @@
                                 <i class="zmdi zmdi-home"></i>
                             </div>
                             <div class="service__details">
-                                <h4><a href="#">Housing</a></h4>
-                                <p>There are many variations of passages of Lorem Ipsum available, but the majority.</p>
+                                <h4><a href="#" contenteditable="true">Housing</a></h4>
+                                <p contenteditable="true">There are many variations of passages of Lorem Ipsum available, but the majority.</p>
                             </div>
                         </div>
                     </div>
@@ -80,8 +80,8 @@
                                 <i class="zmdi zmdi-book-image"></i>
                             </div>
                             <div class="service__details">
-                                <h4><a href="#">Education</a></h4>
-                                <p>There are many variations of passages of Lorem Ipsum available, but the majority.</p>
+                                <h4><a href="#" contenteditable="true">Education</a></h4>
+                                <p contenteditable="true">There are many variations of passages of Lorem Ipsum available, but the majority.</p>
                             </div>
                         </div>
                     </div>
@@ -93,8 +93,8 @@
                                 <i class="zmdi zmdi-money"></i>
                             </div>
                             <div class="service__details">
-                                <h4><a href="#">Economy</a></h4>
-                                <p>There are many variations of passages of Lorem Ipsum available, but the majority.</p>
+                                <h4><a href="#" contenteditable="true">Economy</a></h4>
+                                <p contenteditable="true">There are many variations of passages of Lorem Ipsum available, but the majority.</p>
                             </div>
                         </div>
                     </div>
@@ -112,9 +112,9 @@
                 <div class="col-md-6 col-lg-6 col-sm-6 col-xs-12">
                     <div class="about">
                         <div class="about__inner">
-                            <h2>About The Government</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <h2 contenteditable="true">About The Government</h2>
+                            <p contenteditable="true">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <p contenteditable="true">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                             <div class="about__btn">
                                 <a class="rp-btn" href="about.blade.php">Join us</a>
                                 <a class="play-video video-popup" href="https://www.youtube.com/watch?v=rXcp6s0VjZk"><i class="zmdi zmdi-play-circle-outline"></i><span>Play more video about us</span></a>
@@ -138,8 +138,8 @@
             <div class="row">
                 <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
                     <div class="section__title text-center">
-                        <h2 class="title-line">Our Running Project</h2>
-                        <p class="title-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                        <h2 class="title-line" contenteditable="true">Our Running Project</h2>
+                        <p class="title-desc" contenteditable="true">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
                     </div>
                 </div>
             </div>
@@ -161,17 +161,17 @@
                                 </div>
                             </div>
                             <div class="project__details">
-                                <h4><a href="#">Provide extra support for senior citizen.</a></h4>
+                                <h4><a href="#" contenteditable="true">Provide extra support for senior citizen.</a></h4>
                                 <ul class="time__like__list">
-                                    <li><i class="zmdi zmdi-time"></i><span>13 feb 2017</span></li>
-                                    <li><i class="zmdi zmdi-favorite-outline"></i><span>20,000 People Like</span></li>
+                                    <li><i class="zmdi zmdi-time"></i><span contenteditable="true"> 13 feb 2017</span></li>
+                                    <li><i class="zmdi zmdi-favorite-outline"></i><span contenteditable="true">20,000 People Like</span></li>
                                 </ul>
                                 <div class="project__post">
                                     <div class="project__post__thumb">
                                         <img src="{{asset('theme/republic/images/running/sm-img/1.png')}}" alt="post iamges">
                                     </div>
                                     <div class="project__post__title">
-                                        <h4><a href="#">Momen Bhuiyan</a></h4>
+                                        <h4><a href="#" contenteditable="true">Momen Bhuiyan</a></h4>
                                     </div>
                                 </div>
                             </div>
@@ -192,17 +192,17 @@
                                 </div>
                             </div>
                             <div class="project__details">
-                                <h4><a href="#">Provide extra support for senior citizen.</a></h4>
+                                <h4><a href="#" contenteditable="true">Provide extra support for senior citizen.</a></h4>
                                 <ul class="time__like__list">
-                                    <li><i class="zmdi zmdi-time"></i><span>13 feb 2017</span></li>
-                                    <li><i class="zmdi zmdi-favorite-outline"></i><span>20,000 People Like</span></li>
+                                    <li><i class="zmdi zmdi-time"></i><span contenteditable="true">13 feb 2017</span></li>
+                                    <li><i class="zmdi zmdi-favorite-outline"></i><span contenteditable="true">20,000 People Like</span></li>
                                 </ul>
                                 <div class="project__post">
                                     <div class="project__post__thumb">
                                         <img src="{{asset('theme/republic/images/running/sm-img/2.png')}}" alt="post iamges">
                                     </div>
                                     <div class="project__post__title">
-                                        <h4><a href="#">Momen Bhuiyan</a></h4>
+                                        <h4><a href="#" contenteditable="true">Momen Bhuiyan</a></h4>
                                     </div>
                                 </div>
                             </div>
@@ -223,17 +223,17 @@
                                 </div>
                             </div>
                             <div class="project__details">
-                                <h4><a href="#">Provide extra support for senior citizen.</a></h4>
+                                <h4><a href="#" contenteditable="true">Provide extra support for senior citizen.</a></h4>
                                 <ul class="time__like__list">
-                                    <li><i class="zmdi zmdi-time"></i><span>13 feb 2017</span></li>
-                                    <li><i class="zmdi zmdi-favorite-outline"></i><span>20,000 People Like</span></li>
+                                    <li><i class="zmdi zmdi-time"></i><span contenteditable="true">13 feb 2017</span></li>
+                                    <li><i class="zmdi zmdi-favorite-outline"></i><span contenteditable="true" >20,000 People Like</span></li>
                                 </ul>
                                 <div class="project__post">
                                     <div class="project__post__thumb">
                                         <img src="{{asset('theme/republic/images/running/sm-img/3.png')}}" alt="post iamges">
                                     </div>
                                     <div class="project__post__title">
-                                        <h4><a href="#">Momen Bhuiyan</a></h4>
+                                        <h4><a href="#" contenteditable="true">Momen Bhuiyan</a></h4>
                                     </div>
                                 </div>
                             </div>
@@ -252,9 +252,9 @@
             <div class="row">
                 <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
                     <div class="story">
-                        <h4 class="text-theme">Know about us.. </h4>
-                        <h2>This is our story.</h2>
-                        <p>Sed ut perspiciatis unde omnis iste natus voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                        <h4 class="text-theme" contenteditable="true">Know about us.. </h4>
+                        <h2 contenteditable="true">This is our story.</h2>
+                        <p contenteditable="true">Sed ut perspiciatis unde omnis iste natus voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
                         <div class="story__btn">
                             <a class="rp-btn btn--transparent" href="about.blade.php">Learn More</a>
                         </div>
@@ -281,8 +281,8 @@
                 <div class="row">
                     <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
                         <div class="counterup__inner">
-                            <h2>Our Work in a number ratio</h2>
-                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour</p>
+                            <h2 contenteditable="true">Our Work in a number ratio</h2>
+                            <p contenteditable="true">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour</p>
                         </div>
                     </div>
                 </div>
@@ -297,7 +297,7 @@
                                         </div>
                                     </div>
                                     <div class="fact-title">
-                                        <h2>Police Station</h2>
+                                        <h2 contenteditable="true">Police Station</h2>
                                     </div>
                                 </div>
                             </div>
@@ -305,11 +305,11 @@
                                 <div class="single-fact-flex">
                                     <div class="funfact-count-inner">
                                         <div class="fact-count">
-                                            <span class="count">200</span>
+                                            <span class="count" contenteditable="true">200</span>
                                         </div>
                                     </div>
                                     <div class="fact-title">
-                                        <h2>Security Zone</h2>
+                                        <h2 contenteditable="true"> Security Zone</h2>
                                     </div>
                                 </div>
                             </div>
@@ -317,11 +317,11 @@
                                 <div class="single-fact-flex">
                                     <div class="funfact-count-inner">
                                         <div class="fact-count">
-                                            <span class="count">210</span>
+                                            <span class="count" contenteditable="true">210</span>
                                         </div>
                                     </div>
                                     <div class="fact-title">
-                                        <h2>Support Center</h2>
+                                        <h2 contenteditable="true">Support Center</h2>
                                     </div>
                                 </div>
                             </div>
@@ -333,7 +333,7 @@
                                         </div>
                                     </div>
                                     <div class="fact-title">
-                                        <h2>Call Center</h2>
+                                        <h2 contenteditable="true">Call Center</h2>
                                     </div>
                                 </div>
                             </div>
@@ -351,8 +351,8 @@
             <div class="row">
                 <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
                     <div class="section__title text-center">
-                        <h2 class="title-line">Our Gallery</h2>
-                        <p class="title-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                        <h2 class="title-line" contenteditable="true">Our Gallery</h2>
+                        <p class="title-desc" contenteditable="true">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
                     </div>
                 </div>
             </div>
@@ -501,8 +501,8 @@
             <div class="row">
                 <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
                     <div class="section__title text-center">
-                        <h2 class="title-line">Our Recent Events</h2>
-                        <p class="title-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                        <h2 class="title-line" contenteditable="true">Our Recent Events</h2>
+                        <p class="title-desc" contenteditable="true">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
                     </div>
                 </div>
             </div>
@@ -514,14 +514,14 @@
                             <!-- Start Single Post -->
                             <div class="recent__event">
                                 <div class="event__time">
-                                    <span>13 feb</span>
-                                    <span class="event--year">2017</span>
+                                    <span contenteditable="true">13 feb</span>
+                                    <span class="event--year" contenteditable="true">2017</span>
                                 </div>
                                 <div class="event__information">
-                                    <h4><a href="#">Development project for student & employee</a></h4>
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour,</p>
+                                    <h4><a href="#" contenteditable="true">Development project for student & employee</a></h4>
+                                    <p contenteditable="true">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour,</p>
                                     <div class="event__post__btn">
-                                        <p><i class="zmdi zmdi-pin"></i>Hall No. 02</p>
+                                        <p contenteditable="true"><i class="zmdi zmdi-pin" contenteditable="true"></i>Hall No. 02</p>
                                         <a href="#">Buy Now</a>
                                     </div>
                                 </div>
@@ -530,15 +530,15 @@
                             <!-- Start Single Post -->
                             <div class="recent__event">
                                 <div class="event__time">
-                                    <span>13 feb</span>
-                                    <span class="event--year">2017</span>
+                                    <span contenteditable="true">13 feb</span>
+                                    <span class="event--year" contenteditable="true"> 2017</span>
                                 </div>
                                 <div class="event__information">
-                                    <h4><a href="#">Development project for student & employee</a></h4>
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour,</p>
+                                    <h4><a href="#" contenteditable="true">Development project for student & employee</a></h4>
+                                    <p contenteditable="true">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour,</p>
                                     <div class="event__post__btn">
-                                        <p><i class="zmdi zmdi-pin"></i>Hall No. 02</p>
-                                        <a href="#">Buy Now</a>
+                                        <p contenteditable="true"><i class="zmdi zmdi-pin"></i>Hall No. 02</p>
+                                        <a href="#" contenteditable="true">Buy Now</a>
                                     </div>
                                 </div>
                             </div>
@@ -547,14 +547,14 @@
                             <div class="recent__event">
                                 <div class="event__time">
                                     <span>13 feb</span>
-                                    <span class="event--year">2017</span>
+                                    <span class="event--year" contenteditable="true">2017</span>
                                 </div>
                                 <div class="event__information">
-                                    <h4><a href="#">Development project for student & employee</a></h4>
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour,</p>
+                                    <h4 contenteditable="true"><a href="#">Development project for student & employee</a></h4>
+                                    <p contenteditable="true">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour,</p>
                                     <div class="event__post__btn">
-                                        <p><i class="zmdi zmdi-pin"></i>Hall No. 02</p>
-                                        <a href="#">Buy Now</a>
+                                        <p><i class="zmdi zmdi-pin" contenteditable="true"></i>Hall No. 02</p>
+                                        <a href="#" contenteditable="true">Buy Now</a>
                                     </div>
                                 </div>
                             </div>
@@ -578,20 +578,20 @@
                 <div class="row">
                     <div class="col-md-7 col-lg-7 col-sm-7 col-xs-12">
                         <div class="app-text">
-                            <h3>Government App !</h3>
-                            <h2>Download This app to get extra Support</h2>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since. Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                            <h3 contenteditable="true">Government App !</h3>
+                            <h2 contenteditable="true">Download This app to get extra Support</h2>
+                            <p contenteditable="true">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since. Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
                             <div class="download-links">
                                 <a class="active" href="#">
                                     <i class="zmdi zmdi-apple"></i>
                                     <div class="text fix">
-                                        <h4>App Store</h4>
+                                        <h4 contenteditable="true">App Store</h4>
                                     </div>
                                 </a>
                                 <a href="#">
                                     <i class="zmdi zmdi-google-play"></i>
                                     <div class="text fix">
-                                        <h4>Play Store</h4>
+                                        <h4 contenteditable="true">Play Store</h4>
                                     </div>
                                 </a>
                             </div>
@@ -614,8 +614,8 @@
             <div class="row">
                 <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
                     <div class="section__title text-center">
-                        <h2 class="title-line">Recent News</h2>
-                        <p class="title-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                        <h2 class="title-line" contenteditable="true">Recent News</h2>
+                        <p class="title-desc" contenteditable="true">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
                     </div>
                 </div>
             </div>
@@ -636,8 +636,8 @@
                                 </div>
                             </div>
                             <div class="blog__details">
-                                <h2><a href="#">Work for rural development</a></h2>
-                                <p><i class="zmdi zmdi-pin"></i>Ipsam Road, Alaska. USA</p>
+                                <h2><a href="#" contenteditable="true">Work for rural development</a></h2>
+                                <p contenteditable="true"><i class="zmdi zmdi-pin"></i>Ipsam Road, Alaska. USA</p>
                             </div>
                         </div>
                     </div>
@@ -656,8 +656,8 @@
                                 </div>
                             </div>
                             <div class="blog__details">
-                                <h2><a href="#">Work for rural development</a></h2>
-                                <p><i class="zmdi zmdi-pin"></i>Ipsam Road, Alaska. USA</p>
+                                <h2 contenteditable="true"><a href="#">Work for rural development</a></h2>
+                                <p contenteditable="true"> <i class="zmdi zmdi-pin"></i>Ipsam Road, Alaska. USA</p>
                             </div>
                         </div>
                     </div>
@@ -676,8 +676,8 @@
                                 </div>
                             </div>
                             <div class="blog__details">
-                                <h2><a href="#">Work for rural development</a></h2>
-                                <p><i class="zmdi zmdi-pin"></i>Ipsam Road, Alaska. USA</p>
+                                <h2><a href="#" contenteditable="true">Work for rural development</a></h2>
+                                <p contenteditable="true"><i class="zmdi zmdi-pin"></i>Ipsam Road, Alaska. USA</p>
                             </div>
                         </div>
                     </div>
