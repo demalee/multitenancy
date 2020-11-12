@@ -1,5 +1,4 @@
-
-@extends('layouts.app')
+@extends('theme.country_political_theme.layouts.app')
 @section('content')
     <section>
         <div id="rev_slider_4_1_wrapper" class="rev_slider_wrapper fullscreen-container" data-alias="notgeneric125" data-source="gallery" style="background-color:transparent;padding:0px;">
@@ -240,16 +239,16 @@
                             <h5 itemprop="headline">MISSION & VISSION</h5>
                             <div class="missions-list remove-ext3">
                                 <div class="missions-box brd-rd5">
-                                    <a class="brd-rd5" href="mission-vision.blade.php" title="" itemprop="url"><img src="assets/images/resources/mission-img1.jpg" alt="mission-img1.jpg" itemprop="image"></a>
+                                    <a class="brd-rd5" href="mission_vision.blade.php" title="" itemprop="url"><img src="assets/images/resources/mission-img1.jpg" alt="mission-img1.jpg" itemprop="image"></a>
                                     <div class="mission-box-info">
-                                        <h6 itemprop="headline"><a href="mission-vision.blade.php" title="" itemprop="url">Fighting Hate</a></h6>
+                                        <h6 itemprop="headline"><a href="mission_vision.blade.php" title="" itemprop="url">Fighting Hate</a></h6>
                                         <p itemprop="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor...</p>
                                     </div>
                                 </div>
                                 <div class="missions-box brd-rd5">
-                                    <a class="brd-rd5" href="mission-vision.blade.php" title="" itemprop="url"><img src="assets/images/resources/mission-img2.jpg" alt="mission-img2.jpg" itemprop="image"></a>
+                                    <a class="brd-rd5" href="mission_vision.blade.php" title="" itemprop="url"><img src="assets/images/resources/mission-img2.jpg" alt="mission-img2.jpg" itemprop="image"></a>
                                     <div class="mission-box-info">
-                                        <h6 itemprop="headline"><a href="mission-vision.blade.php" title="" itemprop="url">Teaching Tolerance</a></h6>
+                                        <h6 itemprop="headline"><a href="mission_vision.blade.php" title="" itemprop="url">Teaching Tolerance</a></h6>
                                         <p itemprop="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor...</p>
                                     </div>
                                 </div>

@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="" />
     <meta name="keywords" content="" />
-    <title>Country - Political</title>
+    <title>Country </title>
 
     <!-- Styles -->
     <link rel="stylesheet" href="{{asset('theme/country/assets/css/bootstrap.min.css')}}"><!-- Bootstrap -->
@@ -23,7 +23,7 @@
 </head>
 <body itemscope>
 <main>
-    @include('layouts.header')
+    @include('theme.country_political_theme.layouts.header')
 
     <main class="py-4">
         @yield('content')

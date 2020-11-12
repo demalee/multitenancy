@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('theme.republic_theme.layouts.app')
 @section('content')
         <!-- End Header Style -->
         <!-- page Content Start -->

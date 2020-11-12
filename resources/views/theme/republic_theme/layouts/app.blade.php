@@ -34,9 +34,9 @@
 
 <body>
 
-@include('layouts.header')
+@include('theme.republic_theme.layouts.header')
 
-<main class="py-4">
+<main>
     @yield('content')
 
 </main>

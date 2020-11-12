@@ -55,8 +55,8 @@ class ThemeSeeder extends Seeder
             ],
             [
             'id'=>6,
-            'name'=> 'country_theme',
-            'slug'=>'country_theme',
+            'name'=> 'country_political_theme',
+            'slug'=>'country_political_theme',
             'theme_image'=>'country.PNG',
             'status_active'=>0
             ]

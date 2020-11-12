@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('theme.country_political_theme.layouts.app')
 @section('content')
         <section>
             <div class="spacing bottom-spac90 black-layer2 opc7">

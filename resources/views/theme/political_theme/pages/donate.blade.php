@@ -1,5 +1,4 @@
-
-@extends('layouts.app')
+@extends('theme.political_theme.layouts.app')
 
 @section('content')
 	<!-- End Header -->

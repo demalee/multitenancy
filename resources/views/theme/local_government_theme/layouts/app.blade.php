@@ -45,7 +45,7 @@
 <body class="demo-5">
 <!--WRAPPER START-->
 <div class="wrapper">
-    @include('layouts.header')
+    @include('theme.local_government_theme.layouts.header')
 
     <main class="py-4">
         @yield('content')

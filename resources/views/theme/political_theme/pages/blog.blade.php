@@ -1,5 +1,5 @@
+@extends('theme.political_theme.layouts.app')
 
-@extends('layouts.app')
 
 @section('content')
 	<!-- End Header -->
@@ -33,7 +33,7 @@
 					<div class="blog-content">
 						<article class="post-item">
 							<div class="post-thumb">
-								<a href="#"><img src="assets/images/blog/thumb/01.jpg" alt="thumb"></a>
+								<a href="#"><img src="{{asset('theme/political/assets/images/blog/thumb/01.jpg')}}" alt="thumb"></a>
 							</div>
 							<div class="post-content">
 								<h5 class="title"><a href="#">Distinctive drive intuitive idea for worldwide vortals.</a></h5>
@@ -52,7 +52,7 @@
 						</article>
 						<article class="post-item">
 							<div class="post-thumb">
-								<a href="#"><img src="assets/images/blog/thumb/02.jpg" alt="thumb"></a>
+								<a href="#"><img src="{{asset('theme/political/assets/images/blog/thumb/02.jpg')}}" alt="thumb"></a>
 							</div>
 							<div class="post-content">
 								<h5 class="title"><a href="#">Distinctive drive intuitive idea for worldwide vortals.</a></h5>
@@ -71,7 +71,7 @@
 						</article>
 						<article class="post-item">
 							<div class="post-thumb">
-								<a href="#"><img src="assets/images/blog/thumb/03.jpg" alt="thumb"></a>
+								<a href="#"><img src="{{asset('theme/political/assets/images/blog/thumb/03.jpg')}}" alt="thumb"></a>
 							</div>
 							<div class="post-content">
 								<h5 class="title"><a href="#">Distinctive drive intuitive idea for worldwide vortals.</a></h5>

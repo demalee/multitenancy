@@ -6,7 +6,7 @@
             <div class="row">
                 <div class="col-md-6 col-lg-6 col-sm-6 col-xs-12">
                     <div class="logo">
-                        <a href="{{url('home')}}"><img src="{{asset('theme/political/images/logo/republic.png')}}" alt="logo"></a>
+                        <a href="{{url('home')}}"><img src="{{asset('theme/republic/images/logo/republic.png')}}" alt="logo"></a>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-6 col-sm-6 col-xs-12">
@@ -92,10 +92,10 @@
                                             <!-- Start Single Menu -->
                                             <ul class="toggle-dropdown-menu ">
                                                 <li><h4 class="megamenu__subtitle"><span>Language</span></h4></li>
-                                                <li><a href="#"><img src="{{asset('theme/political/images/ser-img/1.png')}}" alt="flag images"><span>English</span></a></li>
-                                                <li><a href="#"><img src="{{asset('theme/political/images/ser-img/2.png')}}" alt="flag images"><span>German</span></a></li>
-                                                <li><a href="#"><img src="{{asset('theme/political/images/ser-img/3.png')}}" alt="flag images"><span>Spanish</span></a></li>
-                                                <li><a href="#"><img src="{{asset('theme/political/images/ser-img/4.png')}}" alt="flag images"><span>Russian</span></a></li>
+                                                <li><a href="#"><img src="{{asset('theme/republic/images/ser-img/1.png')}}" alt="flag images"><span>English</span></a></li>
+                                                <li><a href="#"><img src="{{asset('theme/republic/images/ser-img/2.png')}}" alt="flag images"><span>German</span></a></li>
+                                                <li><a href="#"><img src="{{asset('theme/republic/images/ser-img/3.png')}}" alt="flag images"><span>Spanish</span></a></li>
+                                                <li><a href="#"><img src="{{asset('theme/republic/images/ser-img/4.png')}}" alt="flag images"><span>Russian</span></a></li>
                                             </ul>
                                             <!-- End Single Menu -->
                                             <!-- Start Single Menu -->
@@ -140,7 +140,7 @@
     <!-- Mobile-menu-area start -->
     <div class="mobile-menu-area hidden-md hidden-lg hidden-sm">
         <div class="fluid-container mobile-menu-container">
-            <div class="mobile-logo"><a href="{{url('home')}}"><img src="{{asset('theme/political/images/logo/republic.png')}}" alt="Mobile logo"></a></div>
+            <div class="mobile-logo"><a href="{{url('home')}}"><img src="{{asset('theme/republic/images/logo/republic.png')}}" alt="Mobile logo"></a></div>
             <div class="mobile-menu clearfix">
                 <nav id="mobile_dropdown">
                     <ul class="">

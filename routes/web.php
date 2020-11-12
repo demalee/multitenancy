@@ -68,6 +68,7 @@ Route::get('government',[App\Http\Controllers\PageController::class, 'government
 Route::get('health',[App\Http\Controllers\PageController::class, 'health']);
 Route::get('mayor',[App\Http\Controllers\PageController::class, 'mayor']);
 Route::get('resident_detail',[App\Http\Controllers\PageController::class, 'resident_detail']);
+Route::get('priorities',[App\Http\Controllers\PageController::class, 'priorities']);
 
 
 //change between themes

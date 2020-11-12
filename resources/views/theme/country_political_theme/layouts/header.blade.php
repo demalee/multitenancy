@@ -40,13 +40,13 @@
                                 <li class="menu-item-has-children"><a href="#" title="" itemprop="url">Our Volunteers</a>
                                     <ul>
                                         <li><a href="{{url('volunteer')}}" title="" itemprop="url">Our Volunteers</a></li>
-                                        <li><a href="{{url('volunteer-detail')}}" title="" itemprop="url">Volunteers Detail</a></li>
+                                        <li><a href="{{url('volunteer_detail')}}" title="" itemprop="url">Volunteers Detail</a></li>
                                     </ul>
                                 </li>
 
-                                <li><a href="{{url('become-volunteer')}}" title="" itemprop="url">Become A Volunteer</a></li>
-                                <li><a href="{{url('donate-now')}}" title="" itemprop="url">Donate Now</a></li>
-                                <li><a href="{{url('mission-vission')}}" title="" itemprop="url">Mission & Vission</a></li>
+                                <li><a href="{{url('volunteer')}}" title="" itemprop="url">Become A Volunteer</a></li>
+                                <li><a href="{{url('donate')}}" title="" itemprop="url">Donate Now</a></li>
+                                <li><a href="{{url('mission_vission')}}" title="" itemprop="url">Mission & Vission</a></li>
                                 <li><a href="{{url('branches')}}" title="" itemprop="url">Find Your Local Unit</a></li>
 
                             </ul>

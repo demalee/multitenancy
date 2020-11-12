@@ -160,7 +160,6 @@
                                     <li><a href="{{url('team')}}">team</a></li>
                                     <li><a href="{{url('mayor')}}">mayor</a></li>
                                     <li><a href="{{url('government')}}">goverment</a></li>
-
                                     <li><a href="{{url('health')}}">health department</a></li>
 
                                 </ul>
