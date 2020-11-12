@@ -52,6 +52,13 @@ class ThemeSeeder extends Seeder
                 'slug'=>'republic_theme',
                 'theme_image'=>'republic.PNG',
                 'status_active'=>0
+            ],
+            [
+            'id'=>6,
+            'name'=> 'country_political_theme',
+            'slug'=>'country_political_theme',
+            'theme_image'=>'country.PNG',
+            'status_active'=>0
             ]
         );
         foreach ($data as $da)

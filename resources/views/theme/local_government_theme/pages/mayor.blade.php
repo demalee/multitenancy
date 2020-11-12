@@ -1,5 +1,6 @@
 
-@extends('layouts.app')
+@extends('theme.local_government_theme.layouts.app')
+
 
 @section('content')
 
@@ -23,7 +24,7 @@
 					<div class="city_mayor_row">
 						<div class="city_mayor_fig">
 							<figure>
-								<img src="extra-images/mayor-fig.jpg" alt="">
+								<img src="{{asset('theme/local/extra-images/mayor-fig.jpg')}}" alt="">
 							</figure>
 							<div class="city_mayor_text">
 								<h2>Bob Westbrook</h2>
@@ -91,7 +92,7 @@
 						<div class="col-md-4 col-sm-4">
 							<div class="city_team_fig">
 								<figure class="overlay">
-									<img src="extra-images/mayor_team.jpg" alt="">
+									<img src="{{asset('theme/local/extra-images/mayor_team.jpg')}}" alt="">
 									<div class="city_top_social">
 										<ul>
 											<li><a href="#"><i class="fa fa-facebook"></i></a></li>
@@ -110,7 +111,7 @@
 						<div class="col-md-4 col-sm-4">
 							<div class="city_team_fig">
 								<figure class="overlay">
-									<img src="extra-images/mayor_team1.jpg" alt="">
+									<img src="{{asset('theme/local/extra-images/mayor_team1.jpg')}}" alt="">
 									<div class="city_top_social">
 										<ul>
 											<li><a href="#"><i class="fa fa-facebook"></i></a></li>
@@ -129,7 +130,7 @@
 						<div class="col-md-4 col-sm-4">
 							<div class="city_team_fig">
 								<figure class="overlay">
-									<img src="extra-images/mayor_team2.jpg" alt="">
+									<img src="{{asset('theme/local/extra-images/mayor_team2.jpg')}}" alt="">
 									<div class="city_top_social">
 										<ul>
 											<li><a href="#"><i class="fa fa-facebook"></i></a></li>

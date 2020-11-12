@@ -1,6 +1,4 @@
-
-@extends('layouts.app')
-
+@extends('theme.local_government_theme.layouts.app')
 @section('content')
 
 			<!-- SAB BANNER START-->
@@ -24,7 +22,7 @@
 						<div class="col-md-4 col-sm-6">
 							<div class="city_team_fig">
 								<figure class="overlay">
-									<img src="extra-images/team-fig.jpg" alt="">
+									<img src="{{asset('theme/local/extra-images/team-fig.jpg')}}" alt="">
 									<div class="city_top_social">
 										<ul>
 											<li><a href="#"><i class="fa fa-facebook"></i></a></li>
@@ -43,7 +41,7 @@
 						<div class="col-md-4 col-sm-6">
 							<div class="city_team_fig">
 								<figure class="overlay">
-									<img src="extra-images/team-fig1.jpg" alt="">
+									<img src="{{asset('theme/local/extra-images/team-fig1.jpg')}}" alt="">
 									<div class="city_top_social">
 										<ul>
 											<li><a href="#"><i class="fa fa-facebook"></i></a></li>
@@ -62,7 +60,7 @@
 						<div class="col-md-4 col-sm-6">
 							<div class="city_team_fig">
 								<figure class="overlay">
-									<img src="extra-images/team-fig2.jpg" alt="">
+									<img src="{{asset('theme/local/extra-images/team-fig2.jpg')}}" alt="">
 									<div class="city_top_social">
 										<ul>
 											<li><a href="#"><i class="fa fa-facebook"></i></a></li>
@@ -81,7 +79,7 @@
 						<div class="col-md-4 col-sm-6">
 							<div class="city_team_fig">
 								<figure class="overlay">
-									<img src="extra-images/team-fig3.jpg" alt="">
+									<img src="{{asset('theme/local/extra-images/team-fig3.jpg')}}" alt="">
 									<div class="city_top_social">
 										<ul>
 											<li><a href="#"><i class="fa fa-facebook"></i></a></li>
@@ -100,7 +98,7 @@
 						<div class="col-md-4 col-sm-6">
 							<div class="city_team_fig">
 								<figure class="overlay">
-									<img src="extra-images/team-fig4.jpg" alt="">
+									<img src="{{asset('theme/local/extra-images/team-fig4.jpg')}}" alt="">
 									<div class="city_top_social">
 										<ul>
 											<li><a href="#"><i class="fa fa-facebook"></i></a></li>
@@ -119,7 +117,7 @@
 						<div class="col-md-4 col-sm-6">
 							<div class="city_team_fig">
 								<figure class="overlay">
-									<img src="extra-images/team-fig5.jpg" alt="">
+									<img src="{{asset('theme/local/extra-images/team-fig5.jpg')}}" alt="">
 									<div class="city_top_social">
 										<ul>
 											<li><a href="#"><i class="fa fa-facebook"></i></a></li>
@@ -138,7 +136,7 @@
 						<div class="col-md-4 col-sm-6">
 							<div class="city_team_fig">
 								<figure class="overlay">
-									<img src="extra-images/team-fig6.jpg" alt="">
+									<img src="{{asset('theme/local/extra-images/team-fig6.jpg')}}" alt="">
 									<div class="city_top_social">
 										<ul>
 											<li><a href="#"><i class="fa fa-facebook"></i></a></li>
@@ -157,7 +155,7 @@
 						<div class="col-md-4 col-sm-6">
 							<div class="city_team_fig">
 								<figure class="overlay">
-									<img src="extra-images/team-fig7.jpg" alt="">
+									<img src="{{asset('theme/local/extra-images/team-fig7.jpg')}}" alt="">
 									<div class="city_top_social">
 										<ul>
 											<li><a href="#"><i class="fa fa-facebook"></i></a></li>
@@ -176,7 +174,7 @@
 						<div class="col-md-4 col-sm-6">
 							<div class="city_team_fig">
 								<figure class="overlay">
-									<img src="extra-images/team-fig8.jpg" alt="">
+									<img src="{{asset('theme/local/extra-images/team-fig8.jpg')}}" alt="">
 									<div class="city_top_social">
 										<ul>
 											<li><a href="#"><i class="fa fa-facebook"></i></a></li>
@@ -195,7 +193,7 @@
 						<div class="col-md-4 col-sm-6">
 							<div class="city_team_fig">
 								<figure class="overlay">
-									<img src="extra-images/team-fig9.jpg" alt="">
+									<img src="{{asset('theme/local/extra-images/team-fig9.jpg')}}" alt="">
 									<div class="city_top_social">
 										<ul>
 											<li><a href="#"><i class="fa fa-facebook"></i></a></li>
@@ -214,7 +212,7 @@
 						<div class="col-md-4 col-sm-6">
 							<div class="city_team_fig">
 								<figure class="overlay">
-									<img src="extra-images/team-fig10.jpg" alt="">
+									<img src="{{asset('theme/local/extra-images/team-fig10.jpg')}}" alt="">
 									<div class="city_top_social">
 										<ul>
 											<li><a href="#"><i class="fa fa-facebook"></i></a></li>
@@ -233,7 +231,7 @@
 						<div class="col-md-4 col-sm-6">
 							<div class="city_team_fig">
 								<figure class="overlay">
-									<img src="extra-images/team-fig11.jpg" alt="">
+									<img src="{{asset('theme/local/extra-images/team-fig11.jpg')}}" alt="">
 									<div class="city_top_social">
 										<ul>
 											<li><a href="#"><i class="fa fa-facebook"></i></a></li>

@@ -19,6 +19,7 @@ class CreateMenusTable extends Migration
             $table->string('slug');
             $table->boolean('status_active')->default(false);
             $table->integer('theme_id');
+            $table->integer('parent_menu')->default(1);
             $table->timestamps();
         });
     }
