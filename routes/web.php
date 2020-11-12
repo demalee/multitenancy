@@ -26,9 +26,17 @@ Route::get('/Widgets', function () {
 Route::get('/custom-css', function () {
     return view('/custom-css');
 });
-    Route::get('/main', function () {
-        return view('/main');
-    })->name('home');
+
+Route::get('/main', function () {
+    $active_theme = Theme::where('status_active',1)->first();
+    $website = \App\Models\Website::where('admin_id',auth()->id())->first();
+    if (!$active_theme)
+    {
+        $active_theme = Theme::findorfail(1);
+    }
+    return view('/main',compact('active_theme','website'));
+})->name('home');
+
 Route::get('/dashboard/pages/create', function () {
     return view('/dashboard/pages/create');
 
@@ -46,6 +54,8 @@ Route::get('/dashboard/website', [App\Http\Controllers\HomeController::class, 's
 
 //website routes
 Route::resource('websites',App\Http\Controllers\Backend\WebsiteController::class);
+Route::post('dashboard/website/setting',[\App\Http\Controllers\Backend\WebsiteController::class,'websiteSettings'])->name('dashboard.setting');
+
 Route::get('home',[App\Http\Controllers\PageController::class, 'index'])->name('home');
 Route::get('about',[App\Http\Controllers\PageController::class, 'about']);
 Route::get('services',[App\Http\Controllers\PageController::class, 'services']);

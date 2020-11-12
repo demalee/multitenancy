@@ -5,6 +5,8 @@ namespace App\Providers;
 use App\Models\Menu;
 use App\Models\MenuItem;
 use App\Models\Theme;
+use App\Models\Website;
+use App\Models\WebsiteSetting;
 use Illuminate\Support\Facades\Config;
 use Illuminate\Support\ServiceProvider;
 
@@ -30,6 +32,7 @@ class ViewComposerServiceProvider extends ServiceProvider
         //
         //
         $route = Config::get('THEME_LAYOUTS').'header';
+//        $route = Config::get('THEME_LAYOUTS').'app';
         $this->navigationComposer($route);
     }
 
@@ -40,9 +43,11 @@ class ViewComposerServiceProvider extends ServiceProvider
     {
         view()->composer($route, function ($view) {
             $theme_id =  Config::get('THEME_ID');
-//            dd($theme_id);
             $menu = Menu::where('name','Main Menu')->where('theme_id',$theme_id)->first();
             $menu_items = [];
+            $website = Website::where('admin_id',auth()->id())->first();
+            $website_setting = WebsiteSetting::where('website_id',$website->id)->first();
+//            dd($website_setting);
             $main_menu_items_count = 0;
             if ($menu)
             {
@@ -50,7 +55,7 @@ class ViewComposerServiceProvider extends ServiceProvider
                 $main_menu_items_count = MenuItem::where('menu_id',$menu->id)->count();
             }
 
-            $view->with(compact('menu_items','main_menu_items_count'));
+            $view->with(compact('menu_items','main_menu_items_count','website_setting'));
         });
     }
 

@@ -26,7 +26,8 @@
                     <div class="card-header">
                         <h5>Custom controls</h5>
                     </div>
-                    <form class="form theme-form" method="post" action="">
+                    <form class="form theme-form" method="post" action="{{url('dashboard/website/setting')}}" enctype="multipart/form-data">
+                       @csrf
                         <div class="card-body">
                             <div class="row">
                                 <div class="col">
@@ -43,7 +44,7 @@
                                     <div class="form-group row">
                                         <label class="col-sm-3 col-form-label">Upload Logo</label>
                                         <div class="col-sm-9">
-                                            <input class="form-control" type="file" name="logo">
+                                            <input class="form-control" type="file" name="logo_name">
                                         </div>
                                     </div>
                                 </div>
@@ -62,13 +63,13 @@
                             <div class="form-group row">
                                 <label class="col-sm-3 col-form-label pt-0">Brand Color</label>
                                 <div class="col-sm-9">
-                                    <input class="form-control" type="color" name="color" value="#563d7c">
+                                    <input class="form-control" type="color" name="brand_color" value="#563d7c">
                                 </div>
                             </div></div></div>
 
                         </div>
                         <div class="card-footer">
-                            <button class="btn btn-primary" type="submit">Submit</button>
+                            <button class="btn btn-primary" >Submit</button>
                             <input class="btn btn-light" type="reset" value="Cancel">
                         </div>
                     </form>

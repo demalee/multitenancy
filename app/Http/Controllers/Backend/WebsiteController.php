@@ -8,6 +8,7 @@ use App\Models\MenuItem;
 use App\Models\Page;
 use App\Models\Theme;
 use App\Models\Website;
+use App\Models\WebsiteSetting;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Validator;
@@ -32,6 +33,51 @@ class WebsiteController extends Controller
     public function create()
     {
         //
+    }
+
+    public function websiteSettings(Request $request)
+    {
+        $data = $request->all();
+        $admin = auth()->id();
+        $website = Website::where('admin_id',$admin)->first();
+
+        //favicon
+        if (isset($data['favicon']))
+        {
+            $attach = time() . '.' . request()->favicon->getClientOriginalExtension();
+            request()->favicon->move(public_path('images'), $attach);
+            $favicon_url = env('APP_URL')."/images/".$attach;
+            $favicon = $attach;
+        }
+
+        //brand color
+        if (isset($data['logo_name']))
+        {
+            $attach1 = time() . '.' . request()->logo_name->getClientOriginalExtension();
+            request()->logo_name->move(public_path('images'), $attach1);
+            $logo_url = env('APP_URL')."/images/".$attach1;
+            $logo_name = $attach1;
+        }
+
+        $website_settings = WebsiteSetting::updateorcreate(
+            [
+                'website_id'=>$website->id
+            ],
+            [
+                'favicon'=>$favicon,
+                'brand_name'=>$data['brand_name'],
+                'brand_color'=>$data['brand_color'],
+                'logo_name'=>$logo_name,
+            ]);
+        if ($website_settings)
+        {
+            return back()->with('success','website settings successfully set');
+        }
+        else
+        {
+            return back()->with('error','Error occurred, something went wrong');
+        }
+
     }
 
     /**

@@ -12,10 +12,8 @@
 
                     <div class="cal-desc text-center card-body">
 
-                        <h6 class="f-w-600">Author: Corporate Technologies</h6>
-                        <p class="text-muted mt-3 mb-0">
-                            Version: 5.7</p>
-                        <p class="text-muted mt-3 mb-0">Description: A {{@$theme->name}} theme</p>
+                        <h6 class="f-w-600">Theme: {{str_replace('_',' ',@$theme->name)}}</h6>
+                        <p class="text-muted mt-3 mb-0">Description: A {{@$theme->name}}</p>
 
                         @if($theme->id == 1)
                             <button class="btn btn-pill btn-primary btn-air-secondary btn-medium">Default</button>
@@ -27,14 +25,14 @@
                                     <button class="btn btn-pill btn-primary btn-air-secondary btn-group-sm" name="submit" value="activate">Activate</button>
                                 </form>
 
-                                <button class="btn btn-pill btn-danger btn-air-success btn-group-sm" type="button">Preview</button>
+{{--                                <button class="btn btn-pill btn-danger btn-air-success btn-group-sm" type="button">Preview</button>--}}
                             @elseif($theme->status_active == 1)
                                 <form action="{{url('dashboard/theme/change/'.$theme->id)}}" method="post">
                                     @csrf
                                     <button class="btn btn-pill btn-primary btn-air-secondary btn-group-sm "  name="submit" value="deactivate">Deactivate</button>
                                 </form>
 
-                            <button class="btn btn-pill btn-danger btn-air-success btn-group-sm" type="button">Preview</button>
+                            <a class="btn btn-pill btn-danger btn-air-success btn-group-sm" href="{{url('home')}}">Preview</a>
                             @endif
                             @endif
                     </div>

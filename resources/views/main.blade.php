@@ -24,26 +24,21 @@
                         <div class="card card-with-border resolve-complain insta-profile">
                             <div class="card-header card-no-border">
                                 <div class="media">
-                                    <div class="col-md-3">
-                                    <img class=" " src="https://laravel.pixelstrap.com/xolo/assets/images/banner/3.jpg" alt="" style="width: 150px; height: 150px;">
+                                    <div class="col-md-6">
+                                    <img src="{{asset('images/'.$active_theme->theme_image)}}" alt="" style="width: 100%; height: 200px;">
                                     </div>    <div class="col-md-9"><div class="media-body">
-                                        <h5>Multisite Template
+                                        <h5>{{str_replace('_',' ',$website->name)}}
                                         </h5>
                                         <p class="f-12">
-                                            The description of the website will go here. I am sure it will make it
-                                            more appealing
+                                            {{$website->description}}
                                         </p>
                                         <ul>
-
-
                                             <li>
-                                                <button class="btn btn-light" type="button">View your website</button>
-
+                                                <a class="btn btn-light" {{url('home')}}>View your website</a>
                                             </li>
                                             <li>
-                                                <button class="btn btn-primary" type="button">Edit template
-                                                </button>
-
+                                                <a class="btn btn-primary" href="{{url('home')}}">Edit template
+                                                </a>
                                             </li>
                                         </ul>
                                         </div></div>

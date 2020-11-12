@@ -9,7 +9,14 @@
 
                         <div class="col-xl-2 col-lg-2">
                             <div class="logo">
-                                <a href="{{url('home')}}"><img src="{{asset('../assets/img/logo/logo.png')}}" alt=""></a>
+                                @if($website_setting->logo_name)
+                                <a href="{{url('home')}}"><img src="{{asset('images/'.@$website_setting->logo_name) }}" alt=""
+                                    style="width: 50px;height: 50px; ">
+                                    @if($website_setting->brand_name)
+                                    <span style="color: {{@$website_setting->brand_color ?? ''}}" class="ml-3">{{@$website_setting->brand_name}}</span>
+                                        @endif
+                                </a>
+                                    @endif
                             </div>
                         </div>
                         <div class="col-xl-10 col-lg-10">

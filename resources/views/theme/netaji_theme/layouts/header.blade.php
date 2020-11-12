@@ -4,7 +4,10 @@
             <div class="row">
                 <div class="col-xl-3 col-lg-3">
                     <div class="logo">
-                        <a href="{{url('home')}}"><img src="{{url('theme/netaji/img/logo/logo.png')}}" alt="" /></a>
+                        <a href="{{url('home')}}"><img src="{{asset('images/'.@$website_setting->logo_name)}}"
+                                                       alt="" style="width: 50px;height: 50px;" />
+                       <Span class="ml-3" style="color: {{@$website_setting->brand_color }}">{{$website_setting->brand_name}}</Span>
+                        </a>
                     </div>
                 </div>
                 <div class="col-xl-9 col-lg-9">
