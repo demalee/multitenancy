@@ -90,7 +90,7 @@
 										<li><a href="index-2.html">Home</a></li>
 										<li><a href="#">Services</a>
 											<ul class="child">
-												<li><a href="service.blade.php">Services</a></li>
+												<li><a href="services.blade.php">Services</a></li>
 												<li><a href="service-02.html">Services 02</a></li>
 												<li><a href="service-detail.html">Services detail</a></li>
 												<li><a href="service-detail2.html">Services detail 02</a></li>
@@ -100,9 +100,9 @@
 											<ul class="child">
 												<li><a href="team.blade.php">team</a></li>
 												<li><a href="mayor.blade.php">mayor</a></li>
-												<li><a href="goverment.blade.php">goverment</a></li>
+												<li><a href="government.blade.php">goverment</a></li>
 												<li><a href="goverment-grid.html">goverment grid</a></li>
-												<li><a href="health-department.blade.php">health department</a></li>
+												<li><a href="health.blade.php">health department</a></li>
 												<li><a href="health-department02.html">health department 02 </a></li>
 											</ul>
 										</li>
@@ -115,7 +115,7 @@
 										<li><a href="#">Resident</a>
 											<ul class="child">
 												<li><a href="resident.blade.php">Resident</a></li>
-												<li><a href="resident-detail.blade.php">Resident detail</a></li>
+												<li><a href="resident_detail.blade.php">Resident detail</a></li>
 											</ul>
 										</li>
 										<li><a href="#">feature</a>
@@ -159,13 +159,13 @@
 												</li>
 												<li><a href="#">news</a>
 													<ul class="child">
-														<li><a href="news.blade.php">news page</a></li>
+														<li><a href="blog.blade.php">news page</a></li>
 														<li><a href="news-post.html">news post</a></li>
 													</ul>
 												</li>
 											</ul>
 										</li>
-										<li><a href="contact-us.blade.php">Contact Us</a></li>
+										<li><a href="contact.blade.php">Contact Us</a></li>
 									</ul>
 								</div>
 								<!--DL Menu Start-->
@@ -175,7 +175,7 @@
 										<li><a class="active" href="index-2.html">Home</a></li>
 										<li class="menu-item kode-parent-menu"><a href="#">Services</a>
 											<ul class="dl-submenu">
-												<li><a href="service.blade.php">Services</a></li>
+												<li><a href="services.blade.php">Services</a></li>
 												<li><a href="service-02.html">Services 02</a></li>
 												<li><a href="service-detail.html">Services detail</a></li>
 												<li><a href="service-detail2.html">Services detail 02</a></li>
@@ -185,9 +185,9 @@
 											<ul class="dl-submenu">
 											<li><a href="team.blade.php">team</a></li>
 											<li><a href="mayor.blade.php">mayor</a></li>
-											<li><a href="goverment.blade.php">goverment</a></li>
+											<li><a href="government.blade.php">goverment</a></li>
 											<li><a href="goverment-grid.html">goverment grid</a></li>
-											<li><a href="health-department.blade.php">health department</a></li>
+											<li><a href="health.blade.php">health department</a></li>
 											<li><a href="health-department02.html">health department 02 </a></li>
 										</ul>
 										</li>
@@ -200,7 +200,7 @@
 										<li class="menu-item kode-parent-menu"><a href="#">Resident</a>
 											<ul class="dl-submenu">
 												<li><a href="resident.blade.php">Resident</a></li>
-												<li><a href="resident-detail.blade.php">Resident detail</a></li>
+												<li><a href="resident_detail.blade.php">Resident detail</a></li>
 											</ul>
 										</li>
 										<li class="menu-item kode-parent-menu"><a href="#">feature</a>
@@ -244,13 +244,13 @@
 												</li>
 												<li><a href="#">news</a>
 													<ul class="dl-submenu">
-														<li><a href="news.blade.php">news page</a></li>
+														<li><a href="blog.blade.php">news page</a></li>
 														<li><a href="news-post.html">news post</a></li>
 													</ul>
 												</li>
 											</ul>
 										</li>
-										<li><a href="contact-us.blade.php">Contact Us</a></li>
+										<li><a href="contact.blade.php">Contact Us</a></li>
 									</ul>
 								</div>
 								<!--DL Menu END-->
@@ -279,7 +279,7 @@
 										<li><a href="index-2.html">Home</a></li>
 										<li><a href="#">Services</a>
 											<ul class="child">
-												<li><a href="service.blade.php">Services</a></li>
+												<li><a href="services.blade.php">Services</a></li>
 												<li><a href="service-02.html">Services 02</a></li>
 												<li><a href="service-detail.html">Services detail</a></li>
 												<li><a href="service-detail2.html">Services detail 02</a></li>
@@ -289,9 +289,9 @@
 											<ul class="child">
 												<li><a href="team.blade.php">team</a></li>
 												<li><a href="mayor.blade.php">mayor</a></li>
-												<li><a href="goverment.blade.php">goverment</a></li>
+												<li><a href="government.blade.php">goverment</a></li>
 												<li><a href="goverment-grid.html">goverment grid</a></li>
-												<li><a href="health-department.blade.php">health department</a></li>
+												<li><a href="health.blade.php">health department</a></li>
 												<li><a href="health-department02.html">health department 02 </a></li>
 											</ul>
 										</li>
@@ -304,7 +304,7 @@
 										<li><a href="#">Resident</a>
 											<ul class="child">
 												<li><a href="resident.blade.php">Resident</a></li>
-												<li><a href="resident-detail.blade.php">Resident detail</a></li>
+												<li><a href="resident_detail.blade.php">Resident detail</a></li>
 											</ul>
 										</li>
 										<li><a href="#">feature</a>
@@ -348,13 +348,13 @@
 												</li>
 												<li><a href="#">news</a>
 													<ul class="child">
-														<li><a href="news.blade.php">news page</a></li>
+														<li><a href="blog.blade.php">news page</a></li>
 														<li><a href="news-post.html">news post</a></li>
 													</ul>
 												</li>
 											</ul>
 										</li>
-										<li><a href="contact-us.blade.php">Contact Us</a></li>
+										<li><a href="contact.blade.php">Contact Us</a></li>
 									</ul>
 								</div>
 								<!--DL Menu Start-->
@@ -364,7 +364,7 @@
 										<li><a class="active" href="index-2.html">Home</a></li>
 										<li class="menu-item kode-parent-menu"><a href="#">Services</a>
 											<ul class="dl-submenu">
-												<li><a href="service.blade.php">Services</a></li>
+												<li><a href="services.blade.php">Services</a></li>
 												<li><a href="service-02.html">Services 02</a></li>
 												<li><a href="service-detail.html">Services detail</a></li>
 												<li><a href="service-detail2.html">Services detail 02</a></li>
@@ -374,9 +374,9 @@
 											<ul class="dl-submenu">
 												<li><a href="team.blade.php">team</a></li>
 												<li><a href="mayor.blade.php">mayor</a></li>
-												<li><a href="goverment.blade.php">goverment</a></li>
+												<li><a href="government.blade.php">goverment</a></li>
 												<li><a href="goverment-grid.html">goverment grid</a></li>
-												<li><a href="health-department.blade.php">health department</a></li>
+												<li><a href="health.blade.php">health department</a></li>
 												<li><a href="health-department02.html">health department 02 </a></li>
 											</ul>
 										</li>
@@ -389,7 +389,7 @@
 										<li class="menu-item kode-parent-menu"><a href="#">Resident</a>
 											<ul class="dl-submenu">
 												<li><a href="resident.blade.php">Resident</a></li>
-												<li><a href="resident-detail.blade.php">Resident detail</a></li>
+												<li><a href="resident_detail.blade.php">Resident detail</a></li>
 											</ul>
 										</li>
 										<li class="menu-item kode-parent-menu"><a href="#">feature</a>
@@ -433,13 +433,13 @@
 												</li>
 												<li><a href="#">news</a>
 													<ul class="dl-submenu">
-														<li><a href="news.blade.php">news page</a></li>
+														<li><a href="blog.blade.php">news page</a></li>
 														<li><a href="news-post.html">news post</a></li>
 													</ul>
 												</li>
 											</ul>
 										</li>
-										<li><a href="contact-us.blade.php">Contact Us</a></li>
+										<li><a href="contact.blade.php">Contact Us</a></li>
 									</ul>
 								</div>
 								<!--DL Menu END-->

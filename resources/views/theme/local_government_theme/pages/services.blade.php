@@ -1,16 +1,16 @@
 
-
 @extends('layouts.app')
 
 @section('content')
+
 			<!-- SAB BANNER START-->
 			<div class="sab_banner overlay">
 				<div class="container">
 					<div class="sab_banner_text">
-						<h2>Resident</h2>
+						<h2>Services</h2>
 						<ul class="breadcrumb">
 						  <li class="breadcrumb-item"><a href="#">Home</a></li>
-						  <li class="breadcrumb-item active">Resident</li>
+						  <li class="breadcrumb-item active">Services</li>
 						</ul>
 					</div>
 				</div>
@@ -22,135 +22,161 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-md-4 col-sm-6">
-							<div class="city_business_fig">
+							<div class="city_service2_fig">
 								<figure class="overlay">
-									<img src="{{asset('theme/local/extra-images/business_fig.jpg')}}" alt="">
+									<img src="{{asset('theme/local/extra-images/service-fig.jpg')}}" alt="">
 									<div class="city_service2_list">
-										<span><i class="fa icon-classroom"></i></span>
+										<span><i class="fa icon-law-2"></i></span>
 										<div class="city_service2_caption">
-											<h5>Licences and Permit</h5>
+											<h4><span>Law Enforcement</span>Services</h4>
 										</div>
 									</div>
 								</figure>
-								<div class="city_business_list">
-									<ul class="city_busine_detail">
-										<li><a href="#"><i class="fa fa-star-o"></i>Taxi licences</a></li>
-										<li><a href="#"><i class="fa fa-star-o"></i>Entertainment & alcohol Permit</a></li>
-										<li><a href="#"><i class="fa fa-star-o"></i>Business and street trading</a></li>
-										<li><a href="#"><i class="fa fa-star-o"></i>Child work & performance</a></li>
-									</ul>
-									<a class="see_more_btn" href="#">See All Permit <i class="fa icon-next-1"></i></a>
+								<div class="city_service2_text">
+									<p> Version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin lore uisbibendum auctor..</p>
+									<a class="see_more_btn" href="#">See More <i class="fa icon-next-1"></i></a>
 								</div>
 							</div>
 						</div>
 						<div class="col-md-4 col-sm-6">
-							<div class="city_business_fig">
+							<div class="city_service2_fig">
 								<figure class="overlay">
-									<img src="{{asset('theme/local/extra-images/business_fig1.jpg')}}" alt="">
+									<img src="{{asset('theme/local/extra-images/service-fig1.jpg')}}" alt="">
 									<div class="city_service2_list">
-										<span><i class="fa icon-bag"></i></span>
+										<span><i class="fa icon-heart"></i></span>
 										<div class="city_service2_caption">
-											<h5>Doing Business</h5>
+											<h4><span>Health and Social</span>Welfare</h4>
 										</div>
 									</div>
 								</figure>
-								<div class="city_business_list">
-									<ul class="city_busine_detail">
-										<li><a href="#"><i class="fa fa-star-o"></i>Taxi licences</a></li>
-										<li><a href="#"><i class="fa fa-star-o"></i>Entertainment & alcohol Permit</a></li>
-										<li><a href="#"><i class="fa fa-star-o"></i>Business and street trading</a></li>
-										<li><a href="#"><i class="fa fa-star-o"></i>Child work & performance</a></li>
-									</ul>
-									<a class="see_more_btn" href="#">See All Permit <i class="fa icon-next-1"></i></a>
+								<div class="city_service2_text">
+									<p> Version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin lore uisbibendum auctor..</p>
+									<a class="see_more_btn" href="#">See More <i class="fa icon-next-1"></i></a>
 								</div>
 							</div>
 						</div>
 						<div class="col-md-4 col-sm-6">
-							<div class="city_business_fig">
+							<div class="city_service2_fig">
 								<figure class="overlay">
-									<img src="{{asset('theme/local/extra-images/business_fig2.jpg')}}" alt="">
+									<img src="{{asset('theme/local/extra-images/service-fig2.jpg')}}" alt="">
 									<div class="city_service2_list">
-										<span><i class="fa icon-home"></i></span>
+										<span><i class="fa icon-pie-chart"></i></span>
 										<div class="city_service2_caption">
-											<h5>Land and Property</h5>
+											<h4><span>Economic</span>Development</h4>
 										</div>
 									</div>
 								</figure>
-								<div class="city_business_list">
-									<ul class="city_busine_detail">
-										<li><a href="#"><i class="fa fa-star-o"></i>Taxi licences</a></li>
-										<li><a href="#"><i class="fa fa-star-o"></i>Entertainment & alcohol Permit</a></li>
-										<li><a href="#"><i class="fa fa-star-o"></i>Business and street trading</a></li>
-										<li><a href="#"><i class="fa fa-star-o"></i>Child work & performance</a></li>
-									</ul>
-									<a class="see_more_btn" href="#">See All Permit <i class="fa icon-next-1"></i></a>
+								<div class="city_service2_text">
+									<p> Version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin lore uisbibendum auctor..</p>
+									<a class="see_more_btn" href="#">See More <i class="fa icon-next-1"></i></a>
 								</div>
 							</div>
 						</div>
 						<div class="col-md-4 col-sm-6">
-							<div class="city_business_fig">
+							<div class="city_service2_fig">
 								<figure class="overlay">
-									<img src="{{asset('theme/local/extra-images/business_fig3.jpg')}}" alt="">
+									<img src="{{asset('theme/local/extra-images/service-fig3.jpg')}}" alt="">
 									<div class="city_service2_list">
-										<span><i class="fa icon-gear"></i></span>
+										<span><i class="fa icon-green"></i></span>
 										<div class="city_service2_caption">
-											<h5>Development Permit</h5>
+											<h4><span>City Environment</span>Service</h4>
 										</div>
 									</div>
 								</figure>
-								<div class="city_business_list">
-									<ul class="city_busine_detail">
-										<li><a href="#"><i class="fa fa-star-o"></i>Taxi licences</a></li>
-										<li><a href="#"><i class="fa fa-star-o"></i>Entertainment & alcohol Permit</a></li>
-										<li><a href="#"><i class="fa fa-star-o"></i>Business and street trading</a></li>
-										<li><a href="#"><i class="fa fa-star-o"></i>Child work & performance</a></li>
-									</ul>
-									<a class="see_more_btn" href="#">See All Permit <i class="fa icon-next-1"></i></a>
+								<div class="city_service2_text">
+									<p> Version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin lore uisbibendum auctor..</p>
+									<a class="see_more_btn" href="#">See More <i class="fa icon-next-1"></i></a>
 								</div>
 							</div>
 						</div>
 						<div class="col-md-4 col-sm-6">
-							<div class="city_business_fig">
+							<div class="city_service2_fig">
 								<figure class="overlay">
-									<img src="{{asset('theme/local/extra-images/business_fig4.jpg')}}" alt="">
+									<img src="{{asset('theme/local/extra-images/service-fig4.jpg')}}" alt="">
 									<div class="city_service2_list">
-										<span><i class="fa icon-bid"></i></span>
+										<span><i class="fa icon-healthcare-and-medical"></i></span>
 										<div class="city_service2_caption">
-											<h5>Tenders & Bids</h5>
+											<h4><span>Fire Rescue</span>Services</h4>
 										</div>
 									</div>
 								</figure>
-								<div class="city_business_list">
-									<ul class="city_busine_detail">
-										<li><a href="#"><i class="fa fa-star-o"></i>Taxi licences</a></li>
-										<li><a href="#"><i class="fa fa-star-o"></i>Entertainment & alcohol Permit</a></li>
-										<li><a href="#"><i class="fa fa-star-o"></i>Business and street trading</a></li>
-										<li><a href="#"><i class="fa fa-star-o"></i>Child work & performance</a></li>
-									</ul>
-									<a class="see_more_btn" href="#">See All Permit <i class="fa icon-next-1"></i></a>
+								<div class="city_service2_text">
+									<p> Version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin lore uisbibendum auctor..</p>
+									<a class="see_more_btn" href="#">See More <i class="fa icon-next-1"></i></a>
 								</div>
 							</div>
 						</div>
 						<div class="col-md-4 col-sm-6">
-							<div class="city_business_fig">
+							<div class="city_service2_fig">
 								<figure class="overlay">
-									<img src="{{asset('theme/local/extra-images/business_fig5.jpg')}}" alt="">
+									<img src="{{asset('theme/local/extra-images/service-fig5.jpg')}}" alt="">
 									<div class="city_service2_list">
-										<span><i class="fa icon-classroom"></i></span>
+										<span><i class="fa icon-park"></i></span>
 										<div class="city_service2_caption">
-											<h5>Trading Standards</h5>
+											<h4><span>Parks, Recreation</span> and Culture</h4>
 										</div>
 									</div>
 								</figure>
-								<div class="city_business_list">
-									<ul class="city_busine_detail">
-										<li><a href="#"><i class="fa fa-star-o"></i>Taxi licences</a></li>
-										<li><a href="#"><i class="fa fa-star-o"></i>Entertainment & alcohol Permit</a></li>
-										<li><a href="#"><i class="fa fa-star-o"></i>Business and street trading</a></li>
-										<li><a href="#"><i class="fa fa-star-o"></i>Child work & performance</a></li>
-									</ul>
-									<a class="see_more_btn" href="#">See All Permit <i class="fa icon-next-1"></i></a>
+								<div class="city_service2_text">
+									<p> Version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin lore uisbibendum auctor..</p>
+									<a class="see_more_btn" href="#">See More <i class="fa icon-next-1"></i></a>
 								</div>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-6">
+							<div class="city_service2_fig">
+								<figure class="overlay">
+									<img src="{{asset('theme/local/extra-images/service-fig7.jpg')}}" alt="">
+									<div class="city_service2_list">
+										<span><i class="fa icon-guard"></i></span>
+										<div class="city_service2_caption">
+											<h4><span>Better Education</span>Services</h4>
+										</div>
+									</div>
+								</figure>
+								<div class="city_service2_text">
+									<p> Version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin lore uisbibendum auctor..</p>
+									<a class="see_more_btn" href="#">See More <i class="fa icon-next-1"></i></a>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-6">
+							<div class="city_service2_fig">
+								<figure class="overlay">
+									<img src="{{asset('theme/local/extra-images/service-fig7.jpg')}}" alt="">
+									<div class="city_service2_list">
+										<span><i class="fa icon-write"></i></span>
+										<div class="city_service2_caption">
+											<h4><span>Better Education</span>Services</h4>
+										</div>
+									</div>
+								</figure>
+								<div class="city_service2_text">
+									<p> Version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin lore uisbibendum auctor..</p>
+									<a class="see_more_btn" href="#">See More <i class="fa icon-next-1"></i></a>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-6">
+							<div class="city_service2_fig">
+								<figure class="overlay">
+									<img src="{{asset('theme/local/extra-images/service-fig8.jpg')}}" alt="">
+									<div class="city_service2_list">
+										<span><i class="fa icon-train-1"></i></span>
+										<div class="city_service2_caption">
+											<h4><span>Transportation</span>Services</h4>
+										</div>
+									</div>
+								</figure>
+								<div class="city_service2_text">
+									<p> Version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin lore uisbibendum auctor..</p>
+									<a class="see_more_btn" href="#">See More <i class="fa icon-next-1"></i></a>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-12">
+							<div class="city_service2_btn">
+								<a class="theam_btn border-color color" href="#" tabindex="0">See More</a>
 							</div>
 						</div>
 					</div>
@@ -158,52 +184,57 @@
 			</div>
 			<!-- CITY SERVICES2 WRAP END-->
 
-			<!-- CITY VISIT WRAP START-->
-			<div class="city_visit_wrap">
-				<div class="container-fluid">
+			<!--CITY SPECIAL SERVICE START-->
+			<div class="city_special_service">
+				<div class="container">
+					<div class="col-md-4"></div>
+					<div class="col-md-8">
+						<div class="special_service_text overlay">
+							<h2 class="custom_size2">Looking for more specific</h2>
+							<h3>services in a city</h3>
+							<p><span>Call us at 1800 – 123 456 78 or</span> <span>Visit the Contact Page for more detailed</span> information. </p>
+							<a class="theam_btn border-color color" href="#">Contact Now</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--CITY SPECIAL SERVICE END-->
+
+			<!--CITY AWARD WRAP START-->
+			<div class="city_award_wrap">
+				<div class="container">
 					<div class="row">
-						<div class="col-md-6 col-sm-6">
-							<div class="city_visit_fig">
-								<figure class="box">
-									<div class="box-layer layer-1"></div>
-									<div class="box-layer layer-2"></div>
-									<div class="box-layer layer-3"></div>
-									<img src="{{asset('theme/local/extra-images/visit-fig.jpg')}}" alt="">
-								</figure>
+						<div class="col-md-4 col-sm-4">
+							<div class="city_award_list">
+								<span><i class="fa icon-politician"></i></span>
+								<div class="city_award_text">
+									<h3 class="counter">1495</h3>
+									<h3>Established</h3>
+								</div>
 							</div>
 						</div>
-						<div class="col-md-6 col-sm-6">
-							<div class="city_visit_text">
-								<h3>What Are You <span>Wondering</span></h3>
-								<h3>Are You A <span>Resident!</span></h3>
-								<p><i>Proin gravida nibh vel velit auctor aliquet Aenean <br>sollicitudin, </i></p>
-								<p>Lorem quis bibendum auctor, nisi elit consequat ipsum, nec <br>sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate<br> cursus a sit amet mauris. </p>
-								<a class="theam_btn border-color color" href="#" tabindex="0">Explore More</a>
+						<div class="col-md-4 col-sm-4">
+							<div class="city_award_list">
+								<span><i class="fa icon-cube"></i></span>
+								<div class="city_award_text">
+									<h3 class="counter">75,399</h3>
+									<h3>KM Square</h3>
+								</div>
 							</div>
 						</div>
-						<div class="col-md-6 col-sm-6">
-							<div class="city_visit_text text2">
-								<h3>What Are You <span>Searching</span></h3>
-								<h3>Are You A <span>Visitor!</span></h3>
-								<p><i>Proin gravida nibh vel velit auctor aliquet Aenean <br>sollicitudin, </i></p>
-								<p>Lorem quis bibendum auctor, nisi elit consequat ipsum, nec <br>sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate<br> cursus a sit amet mauris. </p>
-								<a class="theam_btn border-color color" href="#" tabindex="0">Explore More</a>
-							</div>
-						</div>
-						<div class="col-md-6 col-sm-6">
-							<div class="city_visit_fig">
-								<figure class="box">
-									<div class="box-layer layer-1"></div>
-									<div class="box-layer layer-2"></div>
-									<div class="box-layer layer-3"></div>
-									<img src="{{asset('theme/local/extra-images/visit-fig1.jpg')}}" alt="">
-								</figure>
+						<div class="col-md-4 col-sm-4">
+							<div class="city_award_list">
+								<span><i class="fa icon-demographics"></i></span>
+								<div class="city_award_text">
+									<h3 class="counter">1,435,268</h3>
+									<h3>Total Population</h3>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-			<!-- CITY VISIT WRAP END-->
+			<!--CITY AWARD WRAP END-->
 
 			<!--CITY NEWS2 WRAP START-->
 			<div class="city_news2_wrap">
@@ -263,7 +294,7 @@
 								</figure>
 							</div>
 						</div>
-						<div class="col-md-4">
+						<div class="col-md-4 col-sm-12">
 							<div class="city_news2_fig">
 								<figure class="overlay">
 									<img src="{{asset('theme/local/extra-images/news-03.jpg')}}" alt="">
@@ -345,4 +376,4 @@
 					</div>
 				</div>
 			</div>
-            @endsection
+@endsection

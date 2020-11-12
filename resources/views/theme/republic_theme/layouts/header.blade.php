@@ -6,7 +6,7 @@
             <div class="row">
                 <div class="col-md-6 col-lg-6 col-sm-6 col-xs-12">
                     <div class="logo">
-                        <a href="{{url('/')}}"><img src="images/logo/republic.png" alt="logo"></a>
+                        <a href="{{url('home')}}"><img src="{{asset('theme/political/images/logo/republic.png')}}" alt="logo"></a>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-6 col-sm-6 col-xs-12">
@@ -34,28 +34,23 @@
                             <div class="mainmenu-content">
                                 <nav class="mainmenu__nav">
                                     <ul class="main__menu">
-                                        <li class="active"><a href="{{url('/')}}">Home</a></li>
-                                        <li><a href="{{url('about-us')}}">About</a></li>
-                                        <li><a href="{{url('service')}}">services</a></li>
+                                        <li class="active"><a href="{{url('home')}}">Home</a></li>
+                                        <li><a href="{{url('about')}}">About</a></li>
+                                        <li><a href="{{url('services')}}">services</a></li>
 
                                         <li><a href="{{url('contact')}}">contact</a></li>
                                         <li><a href="#">pages</a>
                                             <ul>
                                                 <li>
-                                                    <a href="{{url('about-us')}}">about us</a>
+                                                    <a href="{{url('about')}}">about us</a>
                                                 </li>
                                                 <li>
                                                     <a href="{{url('gallery')}}">gallery</a>
                                                 </li>
 
+
                                                 <li>
-                                                    <a href="login.html">login</a>
-                                                </li>
-                                                <li>
-                                                    <a href="register.html">register</a>
-                                                </li>
-                                                <li>
-                                                    <a href="{{url('blog-sidebar')}}">blog sidebar</a>
+                                                    <a href="{{url('blog')}}">blog sidebar</a>
                                                 </li>
 
                                                 <li>
@@ -97,10 +92,10 @@
                                             <!-- Start Single Menu -->
                                             <ul class="toggle-dropdown-menu ">
                                                 <li><h4 class="megamenu__subtitle"><span>Language</span></h4></li>
-                                                <li><a href="#"><img src="images/ser-img/1.png" alt="flag images"><span>English</span></a></li>
-                                                <li><a href="#"><img src="images/ser-img/2.png" alt="flag images"><span>German</span></a></li>
-                                                <li><a href="#"><img src="images/ser-img/3.png" alt="flag images"><span>Spanish</span></a></li>
-                                                <li><a href="#"><img src="images/ser-img/4.png" alt="flag images"><span>Russian</span></a></li>
+                                                <li><a href="#"><img src="{{asset('theme/political/images/ser-img/1.png')}}" alt="flag images"><span>English</span></a></li>
+                                                <li><a href="#"><img src="{{asset('theme/political/images/ser-img/2.png')}}" alt="flag images"><span>German</span></a></li>
+                                                <li><a href="#"><img src="{{asset('theme/political/images/ser-img/3.png')}}" alt="flag images"><span>Spanish</span></a></li>
+                                                <li><a href="#"><img src="{{asset('theme/political/images/ser-img/4.png')}}" alt="flag images"><span>Russian</span></a></li>
                                             </ul>
                                             <!-- End Single Menu -->
                                             <!-- Start Single Menu -->
@@ -145,7 +140,7 @@
     <!-- Mobile-menu-area start -->
     <div class="mobile-menu-area hidden-md hidden-lg hidden-sm">
         <div class="fluid-container mobile-menu-container">
-            <div class="mobile-logo"><a href="index.html"><img src="images/logo/republic.png" alt="Mobile logo"></a></div>
+            <div class="mobile-logo"><a href="{{url('home')}}"><img src="{{asset('theme/political/images/logo/republic.png')}}" alt="Mobile logo"></a></div>
             <div class="mobile-menu clearfix">
                 <nav id="mobile_dropdown">
                     <ul class="">
@@ -163,14 +158,9 @@
                                     <a href="{{url('gallery')}}">gallery</a>
                                 </li>
 
+
                                 <li>
-                                    <a href="login.html">login</a>
-                                </li>
-                                <li>
-                                    <a href="register.html">register</a>
-                                </li>
-                                <li>
-                                    <a href="{{url('blog-sidebar')}}">blog sidebar</a>
+                                    <a href="{{url('blog')}}">blog</a>
                                 </li>
 
                                 <li>

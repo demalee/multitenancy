@@ -50,6 +50,25 @@ Route::get('home',[App\Http\Controllers\PageController::class, 'index'])->name('
 Route::get('about',[App\Http\Controllers\PageController::class, 'about']);
 Route::get('services',[App\Http\Controllers\PageController::class, 'services']);
 Route::get('contact',[App\Http\Controllers\PageController::class, 'contact']);
+Route::get('blog',[App\Http\Controllers\PageController::class, 'blog']);
+Route::get('gallery',[App\Http\Controllers\PageController::class, 'gallery']);
+Route::get('volunteer',[App\Http\Controllers\PageController::class, 'volunteer']);
+Route::get('branches',[App\Http\Controllers\PageController::class, 'branches']);
+Route::get('cause',[App\Http\Controllers\PageController::class, 'cause']);
+Route::get('shop',[App\Http\Controllers\PageController::class, 'shop']);
+Route::get('product_detail',[App\Http\Controllers\PageController::class, 'product_detail']);
+Route::get('campaign',[App\Http\Controllers\PageController::class, 'campaign']);
+Route::get('donate',[App\Http\Controllers\PageController::class, 'donate']);
+Route::get('biography',[App\Http\Controllers\PageController::class, 'biography']);
+Route::get('campaign_detail',[App\Http\Controllers\PageController::class, 'campaign_detail']);
+Route::get('team',[App\Http\Controllers\PageController::class, 'team']);
+Route::get('event',[App\Http\Controllers\PageController::class, 'event']);
+Route::get('resident',[App\Http\Controllers\PageController::class, 'resident']);
+Route::get('government',[App\Http\Controllers\PageController::class, 'government']);
+Route::get('health',[App\Http\Controllers\PageController::class, 'health']);
+Route::get('mayor',[App\Http\Controllers\PageController::class, 'mayor']);
+Route::get('resident_detail',[App\Http\Controllers\PageController::class, 'resident_detail']);
+
 
 //change between themes
 Route::post('dashboard/theme/change/{id}',[App\Http\Controllers\PageController::class, 'themeChange']);

@@ -135,7 +135,7 @@
                     <div class="widget_copyright">
                         <div class="col-md-3 col-sm-6">
                             <div class="widget_logo">
-                                <a href="#"><img src="images/widget-logo.png" alt=""></a>
+                                <a href="#"><img src="{{asset('theme/local/images/widget-logo.png')}}" alt=""></a>
                             </div>
                         </div>
                         <div class="col-md-6">
