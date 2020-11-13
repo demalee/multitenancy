@@ -26,7 +26,7 @@
                     <div class="main-menu text-right f-right">
                         <nav id="mobile-menu">
                             <ul>
-                                @if($main_menu_items_count>0)
+                                @if(@$main_menu_items_count>0)
                                     @foreach(@$menu_items as $menu_item)
                                         <li><a href="{{url(@$menu_item->page->slug)}}">{{@$menu_item->page->title}}</a></li>
                                     @endforeach

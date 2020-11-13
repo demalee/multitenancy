@@ -17,9 +17,11 @@
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="nav navbar-nav ml-auto">
-                    <li class="active"><a href="{{url('home')}}">Home</a>
-
-                    </li>
+                    @if(@$main_menu_items_count>0)
+                        @foreach(@$menu_items as $menu_item)
+                            <li><a href="{{url(@$menu_item->page->slug)}}">{{@$menu_item->page->title}}</a></li>
+                        @endforeach
+                    @endif
                     <li><a href="#0">Pages</a>
                         <ul class="submenu">
                             <li><a href="#0">Causes</a>
@@ -28,7 +30,6 @@
                                 </ul>
                             </li>
                             <li><a href="{{url('volunteer')}}">Volunteer</a></li>
-                            <li><a href="{{url('about')}}">About Us</a></li>
 
                         </ul>
                     </li>
@@ -55,7 +56,6 @@
 
                         </ul>
                     </li>
-                    <li><a href="{{url('contact')}}">Contact</a></li>
                     <li>
                         <a  href="{{ url('main') }}">Dashboard</a>
                     </li>
