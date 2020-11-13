@@ -38,26 +38,26 @@
 
     <!-- Bootstrap css-->
     <!-- App css-->
-    <link id="color" rel="stylesheet" href="http://laravel.pixelstrap.com/xolo/assets/css/color-1.css" media="screen">
+    <link id="color" rel="stylesheet" href="https://laravel.pixelstrap.com/xolo/assets/css/color-1.css" media="screen">
     <!-- Responsive css-->
-    <link rel="stylesheet" type="text/css" href="http://laravel.pixelstrap.com/xolo/assets/css/responsive.css">  </head>
-<link rel="stylesheet" type="text/css" href="http://laravel.pixelstrap.com/xolo/assets/css/fontawesome.css">
+    <link rel="stylesheet" type="text/css" href="https://laravel.pixelstrap.com/xolo/assets/css/responsive.css">  </head>
+<link rel="stylesheet" type="text/css" href="https://laravel.pixelstrap.com/xolo/assets/css/fontawesome.css">
 <!-- ico-font-->
-<link rel="stylesheet" type="text/css" href="http://laravel.pixelstrap.com/xolo/assets/css/icofont.css">
+<link rel="stylesheet" type="text/css" href="https://laravel.pixelstrap.com/xolo/assets/css/icofont.css">
 <!-- Themify icon-->
-<link rel="stylesheet" type="text/css" href="http://laravel.pixelstrap.com/xolo/assets/css/themify.css">
+<link rel="stylesheet" type="text/css" href="https://laravel.pixelstrap.com/xolo/assets/css/themify.css">
 <!-- Flag icon-->
-<link rel="stylesheet" type="text/css" href="http://laravel.pixelstrap.com/xolo/assets/css/flag-icon.css">
+<link rel="stylesheet" type="text/css" href="https://laravel.pixelstrap.com/xolo/assets/css/flag-icon.css">
 <!-- Feather icon-->
-<link rel="stylesheet" type="text/css" href="http://laravel.pixelstrap.com/xolo/assets/css/feather-icon.css">
+<link rel="stylesheet" type="text/css" href="https://laravel.pixelstrap.com/xolo/assets/css/feather-icon.css">
 <!-- Plugins css start-->
 <!-- Plugins css Ends-->
 <!-- Bootstrap css-->
-<link rel="stylesheet" type="text/css" href="http://laravel.pixelstrap.com/xolo/assets/css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="https://laravel.pixelstrap.com/xolo/assets/css/bootstrap.css">
 <!-- App css-->
-<link id="color" rel="stylesheet" href="http://laravel.pixelstrap.com/xolo/assets/css/color-1.css" media="screen">
+<link id="color" rel="stylesheet" href="https://laravel.pixelstrap.com/xolo/assets/css/color-1.css" media="screen">
 <!-- Responsive css-->
-<link rel="stylesheet" type="text/css" href="http://laravel.pixelstrap.com/xolo/assets/css/responsive.css">
+<link rel="stylesheet" type="text/css" href="https://laravel.pixelstrap.com/xolo/assets/css/responsive.css">
 <body>
 <!-- Loader starts-->
 {{--<div class="loader-wrapper">--}}
