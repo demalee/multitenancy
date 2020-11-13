@@ -61,13 +61,13 @@
                 <div class="col-xl-4 col-lg-4 col-md-6">
                     <div class="footer-wrapper mb-30">
                         <div class="footer-text">
-                            <h3>For any additional inquiries please feel free to send us an e-mail or call</h3>
+                            <h3 contenteditable="true">For any additional inquiries please feel free to send us an e-mail or call</h3>
                             <p><a href="http://bdevs.net/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="deadabaeaeb1acaa9eb9b3bfb7b2f0bdb1b3">[email&#160;protected]</a></p>
-                            <span>+000 (123) 456 77</span>
+                            <span contenteditable="true">+000 (123) 456 77</span>
                         </div>
                         <div class="footer-info">
-                            <h3>Location</h3>
-                            <p>795 Folsom Avenue, Suite 600 <br> San Francisco, CA 94107</p>
+                            <h3 contenteditable="true">Location</h3>
+                            <p contenteditable="true">795 Folsom Avenue, Suite 600 <br> San Francisco, CA 94107</p>
                         </div>
                         <div class="footer-icon">
                             <a href="#"><i class="fab fa-facebook-f"></i></a>
@@ -80,15 +80,15 @@
                 </div>
                 <div class="col-xl-4 col-lg-4 col-md-6">
                     <div class="footer-wrapper mb-30">
-                        <h3 class="footer-title">Recent News</h3>
+                        <h3 class="footer-title" contenteditable="true">Recent News</h3>
                         <ul class="footer-news">
                             <li>
                                 <div class="footer-news-img">
                                     <img src="{{asset('theme/netaji/img/footer/1.png')}}" alt="" />
                                 </div>
                                 <div class="footer-news-text">
-                                    <h4><a href="#">Designing The Invisible Things I Learned Designing.</a></h4>
-                                    <span>05 december 2018</span>
+                                    <h4><a href="#" contenteditable="true">Designing The Invisible Things I Learned Designing.</a></h4>
+                                    <span contenteditable="true">05 december 2018</span>
                                 </div>
                             </li>
                             <li>
@@ -96,8 +96,8 @@
                                     <img src="{{asset('theme/netaji/img/footer/2.png')}}" alt="" />
                                 </div>
                                 <div class="footer-news-text">
-                                    <h4><a href="#">The Complete Anatomy Of The Gutenberg WordPress.</a></h4>
-                                    <span>07 december 2018</span>
+                                    <h4><a href="#" contenteditable="true"> The Complete Anatomy Of The Gutenberg WordPress.</a></h4>
+                                    <span contenteditable="true">07 december 2018</span>
                                 </div>
                             </li>
                             <li>
@@ -105,8 +105,8 @@
                                     <img src="{{asset('theme/netaji/img/footer/3.png')}}" alt="" />
                                 </div>
                                 <div class="footer-news-text">
-                                    <h4><a href="#">Everything You Need To Know About Alignment Flex.</a></h4>
-                                    <span>03 august 2018</span>
+                                    <h4><a href="#" contenteditable="true">Everything You Need To Know About Alignment Flex.</a></h4>
+                                    <span contenteditable="true">03 august 2018</span>
                                 </div>
                             </li>
                         </ul>
@@ -133,15 +133,15 @@
             <div class="row">
                 <div class="col-xl-6 col-lg-6">
                     <div class="copyright">
-                        <p><i class="far fa-copyright"></i> 2018 Your Company. All Rights Reserved. Designed By <a href="#">BDevs.</a></p>
+                        <p><i class="far fa-copyright" contenteditable="true"></i> 2018 Your Company. All Rights Reserved. Designed By <a href="#">BDevs.</a></p>
                     </div>
                 </div>
                 <div class="col-xl-6 col-lg-6">
                     <ul class="footer-footer-link text-lg-right">
-                        <li><a href="#">Privacy & Policy </a></li>
-                        <li><a href="#"> Setting </a></li>
-                        <li><a href="#"> Contact Us </a></li>
-                        <li><a href="#">Blog & News</a></li>
+                        <li><a href="#" contenteditable="true">Privacy & Policy </a></li>
+                        <li><a href="#" contenteditable="true"> Setting </a></li>
+                        <li><a href="#" contenteditable="true"> Contact Us </a></li>
+                        <li><a href="#" contenteditable="true">Blog & News</a></li>
                     </ul>
                 </div>
             </div>
@@ -166,6 +166,15 @@
 <script src="theme/netaji/js/jquery.magnific-popup.min.js"></script>
 <script src="theme/netaji/js/plugins.js"></script>
 <script src="theme/netaji/js/main.js"></script>
+
+<script src="{{ asset('ckeditor/ckeditor.js') }}"></script>
+<script>
+    CKEDITOR.replace( 'editor1',
+        {
+            filebrowserUploadUrl: "{{route('upload', ['_token' => csrf_token() ])}}",
+            filebrowserUploadMethod: 'form'
+        });
+</script>
 </body>
 
 </html>

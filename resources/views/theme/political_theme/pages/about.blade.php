@@ -8,10 +8,10 @@
 		<div class="overlay">
 			<div class="container">
 				<div class="page-header-content">
-					<h2>About</h2>
+					<h2 contenteditable="true">About</h2>
 					<ul class="breadcrumb">
-						<li><a href="#">Home</a></li>
-						<li>About</li>
+						<li><a href="#" contenteditable="true">Home</a></li>
+						<li contenteditable="true">About</li>
 					</ul>
 				</div>
 			</div>
@@ -23,8 +23,8 @@
 	<section class="our-statement-section section-padding-140 section-bg-color">
 		<div class="container">
 			<div class="section-heading">
-				<h2>We Are Working For</h2>
-				<p>Globally disintermediate best-of-breed methods of empowerment rather than.</p>
+				<h2 contenteditable="true">We Are Working For</h2>
+				<p contenteditable="true">Globally disintermediate best-of-breed methods of empowerment rather than.</p>
 			</div>
 			<div class="section-wrapper">
 				<div class="ourstatement">
@@ -79,8 +79,8 @@
 		<div class="section-overlay section-padding-140">
 			<div class="container">
 				<div class="mission-content">
-					<h2>Mission 2030</h2>
-					<h6>Change Yourself to Change the World</h6>
+					<h2 contenteditable="true">Mission 2030</h2>
+					<h6 contenteditable="true">Change Yourself to Change the World</h6>
 					<a href="https://www.youtube.com/embed/CzII3W2MLYY" data-rel="lightcase" class="play">
 						<i class="fa fa-play"></i>
 					</a>
@@ -94,8 +94,8 @@
 	<section class="neta-issues-section section-padding-140">
 		<div class="container">
 			<div class="section-heading">
-				<h2>Our Statements</h2>
-				<p>Globally disintermediate best-of-breed methods of empowerment rather than.</p>
+				<h2 contenteditable="true">Our Statements</h2>
+				<p contenteditable="true">Globally disintermediate best-of-breed methods of empowerment rather than.</p>
 			</div>
 			<div class="section-wrapper">
 				<div class="neta-issues row justify-content-center">
@@ -103,7 +103,7 @@
 						<div class="neta-issue-item issue1">
 							<div class="issue-thumb">
 								<img src="{{asset('theme/political/assets/images/homepage5/issue/01.jpg')}}" alt="thumb">
-								<div class="issue-cata"><a href="#">Education</a></div>
+								<div class="issue-cata"><a href="#" contenteditable="true">Education</a></div>
 							</div>
 						</div>
 					</div>
@@ -111,7 +111,7 @@
 						<div class="neta-issue-item issue2">
 							<div class="issue-thumb">
 								<img src="{{asset('theme/political/assets/images/homepage5/issue/02.jpg')}}" alt="thumb">
-								<div class="issue-cata"><a href="#">Civil Rights</a></div>
+								<div class="issue-cata"><a href="#" contenteditable="true">Civil Rights</a></div>
 							</div>
 						</div>
 					</div>
@@ -119,7 +119,7 @@
 						<div class="neta-issue-item issue3">
 							<div class="issue-thumb">
 								<img src="{{asset('theme/political/assets/images/homepage5/issue/03.jpg')}}" alt="thumb">
-								<div class="issue-cata"><a href="#">Immigration Reform</a></div>
+								<div class="issue-cata"><a href="#" contenteditable="true">Immigration Reform</a></div>
 							</div>
 						</div>
 					</div>
@@ -127,7 +127,7 @@
 						<div class="neta-issue-item issue4">
 							<div class="issue-thumb">
 								<img src="{{asset('theme/political/assets/images/homepage5/issue/01.jpg')}}" alt="thumb">
-								<div class="issue-cata"><a href="#">National Security</a></div>
+								<div class="issue-cata"><a href="#" contenteditable="true">National Security</a></div>
 							</div>
 						</div>
 					</div>
@@ -135,7 +135,7 @@
 						<div class="neta-issue-item issue5">
 							<div class="issue-thumb">
 								<img src="{{asset('theme/political/assets/images/homepage5/issue/02.jpg')}}" alt="thumb">
-								<div class="issue-cata"><a href="#">Environment</a></div>
+								<div class="issue-cata"><a href="#" contenteditable="true">Environment</a></div>
 							</div>
 						</div>
 					</div>
@@ -143,7 +143,7 @@
 						<div class="neta-issue-item issue6">
 							<div class="issue-thumb">
 								<img src="{{asset('theme/political/assets/images/homepage5/issue/03.jpg')}}" alt="thumb">
-								<div class="issue-cata"><a href="#">Health Care</a></div>
+								<div class="issue-cata"><a href="#" contenteditable="true">Health Care</a></div>
 							</div>
 						</div>
 					</div>
@@ -162,7 +162,7 @@
 						<div class="achievement-item">
 							<div class="achievement-item-inner">
 								<div class="acheive-number"><span class="number">8.2</span>K</div>
-								<span class="text">Members</span>
+								<span class="text" contenteditable="true">Members</span>
 							</div>
 						</div>
 					</div>
@@ -170,15 +170,15 @@
 						<div class="achievement-item">
 							<div class="achievement-item-inner">
 								<div class="acheive-number">$<span class="number">5,000,000</span></div>
-								<span class="text">Donations</span>
+								<span class="text" contenteditable="true">Donations</span>
 							</div>
 						</div>
 					</div>
 					<div class="col-lg-4 col-sm-6">
 						<div class="achievement-item">
 							<div class="achievement-item-inner">
-								<div class="acheive-number"><span class="number">5000</span></div>
-								<span class="text">Volunteers</span>
+								<div class="acheive-number"><span class="number" contenteditable="true">5000</span></div>
+								<span class="text" contenteditable="true">Volunteers</span>
 							</div>
 						</div>
 					</div>
@@ -193,7 +193,7 @@
 		<div class="section-padding-140">
 			<div class="container">
 				<div class="section-heading">
-					<h2>Biography</h2>
+					<h2 contenteditable="true">Biography</h2>
 				</div>
 				<div class="biography">
 					<div class="bio-country">
@@ -201,49 +201,49 @@
 					</div>
 					<div class="biography-item">
 						<div class="bio-date">
-							<span class="date">02 January</span>
-							<span class="achievement">Party Chairman</span>
+							<span class="date" contenteditable="true">02 January</span>
+							<span class="achievement" contenteditable="true">Party Chairman</span>
 						</div>
 						<div class="bio-year">
-							<span>2020</span>
+							<span contenteditable="true">2020</span>
 						</div>
-						<div class="bio-content">
+						<div class="bio-content" contenteditable="true">
 							Globally reintermediate sustainable relationship through resource leveling services. Phosfluorescently predominate customized collaboration and idea-sharing after flexible innovation.
 						</div>
 					</div>
 					<div class="biography-item">
 						<div class="bio-date">
-							<span class="date">02 February</span>
-							<span class="achievement">Party Secretary</span>
+							<span class="date" contenteditable="true">02 February</span>
+							<span class="achievement" contenteditable="true">Party Secretary</span>
 						</div>
 						<div class="bio-year">
-							<span>2019</span>
+							<span contenteditable="true">2019</span>
 						</div>
-						<div class="bio-content">
+						<div class="bio-content" contenteditable="true">
 							Globally reintermediate sustainable relationship through resource leveling services. Phosfluorescently predominate customized collaboration and idea-sharing after flexible innovation.
 						</div>
 					</div>
 					<div class="biography-item">
 						<div class="bio-date">
-							<span class="date">12 December</span>
-							<span class="achievement">Senio Advisor</span>
+							<span class="date" contenteditable="true">12 December</span>
+							<span class="achievement" contenteditable="true">Senio Advisor</span>
 						</div>
 						<div class="bio-year">
-							<span>2018</span>
+							<span contenteditable="true">2018</span>
 						</div>
-						<div class="bio-content">
+						<div class="bio-content" contenteditable="true">
 							Globally reintermediate sustainable relationship through resource leveling services. Phosfluorescently predominate customized collaboration and idea-sharing after flexible innovation.
 						</div>
 					</div>
 					<div class="biography-item">
 						<div class="bio-date">
-							<span class="date">02 November</span>
-							<span class="achievement">Word Commissioner</span>
+							<span class="date" contenteditable="true">02 November</span>
+							<span class="achievement" contenteditable="true">Word Commissioner</span>
 						</div>
 						<div class="bio-year">
-							<span>2017</span>
+							<span contenteditable="true">2017</span>
 						</div>
-						<div class="bio-content">
+						<div class="bio-content" contenteditable="true">
 							Globally reintermediate sustainable relationship through resource leveling services. Phosfluorescently predominate customized collaboration and idea-sharing after flexible innovation.
 						</div>
 					</div>
@@ -266,9 +266,9 @@
 				            		<div class="icon">
 				            			<i class="fa fa-quote-left" aria-hidden="true"></i>
 				            		</div>
-				            		<p>Globally productize diverse customer service whereas low-risk high-yield growth strategies. Rapidious embrace wireless marketsmarket driven metrics.</p>
-				            		<h6 class="name">Monali Krithi</h6>
-				            		<p class="designation">Loyer</p>
+				            		<p contenteditable="true">Globally productize diverse customer service whereas low-risk high-yield growth strategies. Rapidious embrace wireless marketsmarket driven metrics.</p>
+				            		<h6 class="name" contenteditable="true" >Monali Krithi</h6>
+				            		<p class="designation" contenteditable="true">Loyer</p>
 				            	</div>
 				            </div>
 				            <div class="swiper-slide swiper-slide-prev" style="height: 280px; margin-bottom: 90px;">
@@ -276,9 +276,9 @@
 				            		<div class="icon">
 				            			<i class="fa fa-quote-left" aria-hidden="true"></i>
 				            		</div>
-				            		<p>Globally productize diverse customer service whereas low-risk high-yield growth strategies. Rapidious embrace wireless marketsmarket driven metrics.</p>
-				            		<h6 class="name">Monali Krithi</h6>
-				            		<p class="designation">Loyer</p>
+				            		<p contenteditable="true">Globally productize diverse customer service whereas low-risk high-yield growth strategies. Rapidious embrace wireless marketsmarket driven metrics.</p>
+				            		<h6 class="name" contenteditable="true">Monali Krithi</h6>
+				            		<p class="designation" contenteditable="true">Loyer</p>
 				            	</div>
 				            </div>
 				            <div class="swiper-slide swiper-slide-active" style="height: 280px; margin-bottom: 90px;">
@@ -286,9 +286,9 @@
 				            		<div class="icon">
 				            			<i class="fa fa-quote-left" aria-hidden="true"></i>
 				            		</div>
-				            		<p>Globally productize diverse customer service whereas low-risk high-yield growth strategies. Rapidious embrace wireless marketsmarket driven metrics.</p>
-				            		<h6 class="name">Monali Krithi</h6>
-				            		<p class="designation">Loyer</p>
+				            		<p contenteditable="true">Globally productize diverse customer service whereas low-risk high-yield growth strategies. Rapidious embrace wireless marketsmarket driven metrics.</p>
+				            		<h6 class="name" contenteditable="true">Monali Krithi</h6>
+				            		<p class="designation" contenteditable="true">Loyer</p>
 				            	</div>
 				            </div>
 				            <div class="swiper-slide swiper-slide-next" style="height: 280px; margin-bottom: 90px;">
@@ -296,9 +296,9 @@
 				            		<div class="icon">
 				            			<i class="fa fa-quote-left" aria-hidden="true"></i>
 				            		</div>
-				            		<p>Globally productize diverse customer service whereas low-risk high-yield growth strategies. Rapidious embrace wireless marketsmarket driven metrics.</p>
-				            		<h6 class="name">Monali Krithi</h6>
-				            		<p class="designation">Loyer</p>
+				            		<p contenteditable="true">Globally productize diverse customer service whereas low-risk high-yield growth strategies. Rapidious embrace wireless marketsmarket driven metrics.</p>
+				            		<h6 class="name" contenteditable="true">Monali Krithi</h6>
+				            		<p class="designation" contenteditable="true">Loyer</p>
 				            	</div>
 				            </div>
 				        </div>
@@ -321,8 +321,8 @@
 	<section class="member-section section-padding-140">
 		<div class="container">
 			<div class="section-heading">
-				<h2>Devoted Members</h2>
-				<p>Globally disintermediate best-of-breed methods of empowerment rather than.</p>
+				<h2 contenteditable="true">Devoted Members</h2>
+				<p contenteditable="true">  disintermediate best-of-breed methods of empowerment rather than.</p>
 			</div>
 
 			<div class="section-wrapper">

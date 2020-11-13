@@ -10,9 +10,9 @@
                     <div class="row ">
                         <div class="col-xl-12">
                             <div class="slider-content">
-                                <h1 data-animation="fadeInUp" data-delay=".4s">Let's make the <br> great country</h1>
-                                <p data-animation="fadeInUp" data-delay=".6s">But I must explain to you how all this mistaken idea of denouncing pleasure and prai sing pain was born and I will give you a complete account.</p>
-                                <a data-animation="fadeInUp" data-delay=".8s" class="btn" href="#">join with us</a>
+                                <h1 data-animation="fadeInUp" data-delay=".4s" contenteditable="true">Let's make the <br> great country</h1>
+                                <p data-animation="fadeInUp" data-delay=".6s"  contenteditable="true">But I must explain to you how all this mistaken idea of denouncing pleasure and prai sing pain was born and I will give you a complete account.</p>
+                                <a data-animation="fadeInUp" data-delay=".8s" class="btn" href="#" contenteditable="true">join with us</a>
                             </div>
                         </div>
                     </div>
@@ -23,22 +23,22 @@
                     <div class="row ">
                         <div class="col-xl-12">
                             <div class="slider-content">
-                                <h1 data-animation="fadeInUp" data-delay=".4s">Let's make the <br> great country</h1>
-                                <p data-animation="fadeInUp" data-delay=".6s">But I must explain to you how all this mistaken idea of denouncing pleasure and prai sing pain was born and I will give you a complete account.</p>
-                                <a data-animation="fadeInUp" data-delay=".8s" class="btn" href="#">join with us</a>
+                                <h1 data-animation="fadeInUp" data-delay=".4s" contenteditable="true">Let's make the <br> great country</h1>
+                                <p data-animation="fadeInUp" data-delay=".6s" contenteditable="true">But I must explain to you how all this mistaken idea of denouncing pleasure and prai sing pain was born and I will give you a complete account.</p>
+                                <a data-animation="fadeInUp" data-delay=".8s" class="btn" href="#" contenteditable="true">join with us</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="single-slider slider-height d-flex align-items-center" style="background-image:url(theme/netaji/img/slider/image.png)">
+            <div class="single-slider slider-height d-flex align-items-center" style="background-image:url(theme/netaji/img/slider/image.png)" contenteditable="true">
                 <div class="container">
                     <div class="row ">
                         <div class="col-xl-12">
                             <div class="slider-content">
-                                <h1 data-animation="fadeInUp" data-delay=".4s">Let's make the <br> great country</h1>
-                                <p data-animation="fadeInUp" data-delay=".6s">But I must explain to you how all this mistaken idea of denouncing pleasure and prai sing pain was born and I will give you a complete account.</p>
-                                <a data-animation="fadeInUp" data-delay=".8s" class="btn" href="#">join with us</a>
+                                <h1 data-animation="fadeInUp" data-delay=".4s" contenteditable="true">Let's make the <br> great country</h1>
+                                <p data-animation="fadeInUp" data-delay=".6s" contenteditable="true">But I must explain to you how all this mistaken idea of denouncing pleasure and prai sing pain was born and I will give you a complete account.</p>
+                                <a data-animation="fadeInUp" data-delay=".8s" class="btn" href="#" contenteditable="true">join with us</a>
                             </div>
                         </div>
                     </div>
@@ -54,7 +54,7 @@
             <div class="row">
                 <div class="col-xl-12">
                     <div class="section-title text-center mb-60">
-                        <h1>The job of a leader is to love his country <br> and people of the country</h1>
+                        <h1 contenteditable="true">The job of a leader is to love his country <br> and people of the country</h1>
                     </div>
                 </div>
             </div>
@@ -62,35 +62,35 @@
                 <div class="col-xl-4 col-lg-4 col-md-6">
                     <div class="feature-wrapper text-center mb-30">
                         <div class="feature-item">
-                            <div class="feature-img">
+                            <div class="feature-img" contenteditable="true">
                                 <img src="{{url('theme/netaji/img/feature/icon1.png')}}" alt="" />
                             </div>
                             <div class="feature-text">
-                                <h2>Our Campaign</h2>
-                                <a class="btn" href="#">read more</a>
+                                <h2 contenteditable="true">Our Campaign</h2>
+                                <a class="btn" href="#" contenteditable="true">read more</a>
                             </div>
                         </div>
                         <div class="feature-content">
-                            <h2>Our Campaign</h2>
-                            <p>But I must explain to you how this taken idea of denouncing pleasure and praising pain was born and I will give you a coplete account of the system expound </p>
-                            <a class="btn" href="#">read more</a>
+                            <h2 contenteditable="true">Our Campaign</h2>
+                            <p contenteditable="true">But I must explain to you how this taken idea of denouncing pleasure and praising pain was born and I will give you a coplete account of the system expound </p>
+                            <a class="btn" href="#" contenteditable="true">read more</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4 col-lg-4 col-md-6">
+                <div class="col-xl-4 col-lg-4 col-md-6" contenteditable="true">
                     <div class="feature-wrapper active text-center mb-30">
                         <div class="feature-item">
-                            <div class="feature-img">
-                                <img src="{{url('theme/netaji/img/feature/icon2.png')}}" alt="" />
+                            <div class="feature-img" >
+                                <img src="{{url('theme/netaji/img/feature/icon2.png')}}"  contenteditable="true" alt="" />
                             </div>
                             <div class="feature-text">
-                                <h2>Join Volunteer</h2>
+                                <h2 contenteditable="true">Join Volunteer</h2>
                                 <a class="btn" href="#">read more</a>
                             </div>
                         </div>
                         <div class="feature-content">
-                            <h2>Join Volunteer</h2>
-                            <p>But I must explain to you how this taken idea of denouncing pleasure and praising pain was born and I will give you a coplete account of the system expound </p>
+                            <h2 contenteditable="true">Join Volunteer</h2>
+                            <p contenteditable="true">But I must explain to you how this taken idea of denouncing pleasure and praising pain was born and I will give you a coplete account of the system expound </p>
                             <a class="btn" href="#">read more</a>
                         </div>
                     </div>
@@ -102,20 +102,20 @@
                                 <img src="{{url('theme/netaji/img/feature/icon1.png')}}" alt="" />
                             </div>
                             <div class="feature-text">
-                                <h2>Make Donation</h2>
+                                <h2 contenteditable="true">Make Donation</h2>
                                 <a class="btn" href="#">read more</a>
                             </div>
                         </div>
                         <div class="feature-content">
-                            <h2>Make Donation</h2>
-                            <p>But I must explain to you how this taken idea of denouncing pleasure and praising pain was born and I will give you a coplete account of the system expound </p>
-                            <a class="btn" href="#">read more</a>
+                            <h2 contenteditable="true">Make Donation</h2>
+                            <p contenteditable="true">But I must explain to you how this taken idea of denouncing pleasure and praising pain was born and I will give you a coplete account of the system expound </p>
+                            <a class="btn" href="#" >read more</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-xl-12 mt-25">
                     <div class="feature-info text-center">
-                        <p>But I must explain to you how all <a href="#">Our timeline</a> dea of denouncing pleasure and praising pain was born and I will give you a complete account of the system.</p>
+                        <p contenteditable="true">But I must explain to you how all <a href="#">Our timeline</a> dea of denouncing pleasure and praising pain was born and I will give you a complete account of the system.</p>
                     </div>
                 </div>
             </div>
@@ -130,12 +130,12 @@
                 <div class="col-xl-6 offset-xl-6 col-lg-6 offset-lg-6">
                     <div class="donation-wrapper">
                         <div class="donation-text">
-                            <h1>Join Our Activities <br> By a Donation</h1>
-                            <p>But I must explain to you how all this mistaken idea of denople asure and praising pain was born and I will give you a complete.</p>
+                            <h1 contenteditable="true">Join Our Activities <br> By a Donation</h1>
+                            <p contenteditable="true">But I must explain to you how all this mistaken idea of denople asure and praising pain was born and I will give you a complete.</p>
                             <div class="donation-button donation-button2">
-                                <button>$15</button>
-                                <button>$50</button>
-                                <button>$100</button>
+                                <button contenteditable="true">$15</button>
+                                <button contenteditable="true" >$50</button>
+                                <button contenteditable="true">$100</button>
                             </div>
                             <div class="cart-plus-minus">
                                 <input type="text" value="02" name="qtybutton" class="cart-plus-minus-box">
@@ -155,7 +155,7 @@
             <div class="row">
                 <div class="col-xl-12">
                     <div class="section-title text-center mb-60">
-                        <h1>A leader can change his country and condition <br> of the people. <span>What we do</span></h1>
+                        <h1 contenteditable="true">A leader can change his country and condition <br> of the people. <span>What we do</span></h1>
                     </div>
                 </div>
             </div>
@@ -166,8 +166,8 @@
                             <img src="{{url('theme/netaji/img/service/1.png')}}" alt="" />
                         </div>
                         <div class="services-text">
-                            <h2>Economic Progress</h2>
-                            <p>But I must explain to you how all this mista en idea of denouncing pleasure and praising pain was born and I will give</p>
+                            <h2 contenteditable="true">Economic Progress</h2>
+                            <p contenteditable="true">But I must explain to you how all this mista en idea of denouncing pleasure and praising pain was born and I will give</p>
                             <a href="#">read more<i class="fas fa-long-arrow-alt-right"></i></a>
                         </div>
                     </div>
@@ -178,8 +178,8 @@
                             <img src="{{url('theme/netaji/img/service/2.png')}}" alt="" />
                         </div>
                         <div class="services-text">
-                            <h2>Education Progress</h2>
-                            <p>But I must explain to you how all this mista en idea of denouncing pleasure and praising pain was born and I will give</p>
+                            <h2 contenteditable="true">Education Progress</h2>
+                            <p contenteditable="true">But I must explain to you how all this mista en idea of denouncing pleasure and praising pain was born and I will give</p>
                             <a href="#">read more<i class="fas fa-long-arrow-alt-right"></i></a>
                         </div>
                     </div>
@@ -190,8 +190,8 @@
                             <img src="{{url('theme/netaji/img/service/3.png')}}" alt="" />
                         </div>
                         <div class="services-text">
-                            <h2>Accomodation</h2>
-                            <p>But I must explain to you how all this mista en idea of denouncing pleasure and praising pain was born and I will give</p>
+                            <h2 contenteditable="true">Accomodation</h2>
+                            <p contenteditable="true">But I must explain to you how all this mista en idea of denouncing pleasure and praising pain was born and I will give</p>
                             <a href="#">read more<i class="fas fa-long-arrow-alt-right"></i></a>
                         </div>
                     </div>
@@ -202,8 +202,8 @@
                             <img src="{{url('theme/netaji/img/service/4.png')}}" alt="" />
                         </div>
                         <div class="services-text">
-                            <h2>Medical Care</h2>
-                            <p>But I must explain to you how all this mista en idea of denouncing pleasure and praising pain was born and I will give</p>
+                            <h2 contenteditable="true">Medical Care</h2>
+                            <p contenteditable="true">But I must explain to you how all this mista en idea of denouncing pleasure and praising pain was born and I will give</p>
                             <a href="#">read more<i class="fas fa-long-arrow-alt-right"></i></a>
                         </div>
                     </div>
@@ -214,8 +214,8 @@
                             <img src="{{url('theme/netaji/img/service/5.png')}}" alt="" />
                         </div>
                         <div class="services-text">
-                            <h2>Clothes For Human</h2>
-                            <p>But I must explain to you how all this mista en idea of denouncing pleasure and praising pain was born and I will give</p>
+                            <h2 contenteditable="true">Clothes For Human</h2>
+                            <p contenteditable="true">But I must explain to you how all this mista en idea of denouncing pleasure and praising pain was born and I will give</p>
                             <a href="#">read more<i class="fas fa-long-arrow-alt-right"></i></a>
                         </div>
                     </div>
@@ -226,8 +226,8 @@
                             <img src="{{url('theme/netaji/img/service/6.png')}}" alt="" />
                         </div>
                         <div class="services-text">
-                            <h2>Healthy Foods</h2>
-                            <p>But I must explain to you how all this mista en idea of denouncing pleasure and praising pain was born and I will give</p>
+                            <h2 contenteditable="true">Healthy Foods</h2>
+                            <p contenteditable="true">But I must explain to you how all this mista en idea of denouncing pleasure and praising pain was born and I will give</p>
                             <a href="#">read more<i class="fas fa-long-arrow-alt-right"></i></a>
                         </div>
                     </div>
@@ -244,16 +244,16 @@
                 <div class="col-xl-3 cl-lg-3 col-md-6">
                     <div class="counter-wrapper text-center mb-30">
                         <div class="counter-text">
-                            <h1 class="counter">3564</h1>
-                            <span>Our Volunteer</span>
+                            <h1 class="counter" contenteditable="true">3564</h1>
+                            <span contenteditable="true">Our Volunteer</span>
                         </div>
                     </div>
                 </div>
                 <div class="col-xl-3 cl-lg-3 col-md-6">
                     <div class="counter-wrapper text-center mb-30">
                         <div class="counter-text">
-                            <h1 class="counter">896</h1>
-                            <span>Campaign</span>
+                            <h1 class="counter" contenteditable="true">896</h1>
+                            <span contenteditable="true">Campaign</span>
                         </div>
                     </div>
                 </div>
@@ -268,8 +268,8 @@
                 <div class="col-xl-3 cl-lg-3 col-md-6">
                     <div class="counter-wrapper text-center mb-30">
                         <div class="counter-text">
-                            <h1 class="counter">7896</h1>
-                            <span>Vote Peoples</span>
+                            <h1 class="counter" contenteditable="true">7896</h1>
+                            <span contenteditable="true">Vote Peoples</span>
                         </div>
                     </div>
                 </div>
@@ -284,7 +284,7 @@
             <div class="row">
                 <div class="col-xl-12">
                     <div class="section-title text-center mb-60">
-                        <h1>We arrange many other <span>events</span> and program <br> which needs in our human lifeh1</h1>
+                        <h1 contenteditable="true">We arrange many other <span>events</span> and program <br> which needs in our human lifeh1</h1>
                     </div>
                 </div>
             </div>
@@ -294,8 +294,8 @@
                         <div class="event-img">
                             <img src="{{url('theme/netaji/img/event/1.jpg')}}" alt="" />
                             <div class="event-text">
-                                <h2><a href="#">March for our lives</a></h2>
-                                <span>10 december 2018</span>
+                                <h2 contenteditable="true" contenteditable="true"><a href="#">March for our lives</a></h2>
+                                <span contenteditable="true">10 december 2018</span>
                             </div>
                         </div>
                     </div>
@@ -303,8 +303,8 @@
                         <div class="event-img">
                             <img src="{{url('theme/netaji/img/event/2.jpg')}}" alt="" />
                             <div class="event-text">
-                                <h2><a href="#">Annual Conference</a></h2>
-                                <span>15 december 2018</span>
+                                <h2><a href="#" contenteditable="true">Annual Conference</a></h2>
+                                <span contenteditable="true">15 december 2018</span>
                             </div>
                         </div>
                     </div>
@@ -312,8 +312,8 @@
                         <div class="event-img">
                             <img src="{{url('theme/netaji/img/event/3.jpg')}}" alt="" />
                             <div class="event-text">
-                                <h2><a href="#">Complete Anatomy.</a></h2>
-                                <span>16 december 2018</span>
+                                <h2><a href="#" contenteditable="true">Complete Anatomy.</a></h2>
+                                <span contenteditable="true">16 december 2018</span>
                             </div>
                         </div>
                     </div>
@@ -321,8 +321,8 @@
                         <div class="event-img">
                             <img src="{{url('theme/netaji/img/event/4.jpg')}}" alt="" />
                             <div class="event-text">
-                                <h2><a href="#">Our human Activities</a></h2>
-                                <span>16 december 2018</span>
+                                <h2><a href="#" contenteditable="true">Our human Activities</a></h2>
+                                <span contenteditable="true">16 december 2018</span>
                             </div>
                         </div>
                     </div>
@@ -330,8 +330,8 @@
                         <div class="event-img">
                             <img src="{{url('theme/netaji/img/event/5.jpg')}}" alt="" />
                             <div class="event-text">
-                                <h2><a href="#">About Alignment Flex.</a></h2>
-                                <span>12 January 2018</span>
+                                <h2><a href="#" contenteditable="true">About Alignment Flex.</a></h2>
+                                <span contenteditable="true">12 January 2018</span>
                             </div>
                         </div>
                     </div>
@@ -339,8 +339,8 @@
                         <div class="event-img">
                             <img src="{{url('theme/netaji/img/event/6.jpg')}}" alt="" />
                             <div class="event-text">
-                                <h2><a href="#">I Learned Designing.</a></h2>
-                                <span>16 november 2018</span>
+                                <h2><a href="#" contenteditable="true">I Learned Designing.</a></h2>
+                                <span contenteditable="true">16 november 2018</span>
                             </div>
                         </div>
                     </div>
@@ -356,9 +356,9 @@
             <div class="row">
                 <div class="col-xl-6 col-lg-6 d-flex align-items-center">
                     <div class="volunteer-text pt-80 pb-80">
-                        <h1>Become <br> A Volunteer</h1>
-                        <p>But I must explain to you how all this mistaken idea of denople asure and praising pain was born and I willcomplete.</p>
-                        <a class="btn" href="#">join volunteer</a>
+                        <h1 contenteditable="true">Become <br> A Volunteer</h1>
+                        <p contenteditable="true">But I must explain to you how all this mistaken idea of denople asure and praising pain was born and I willcomplete.</p>
+                        <a class="btn" href="#" contenteditable="true">join volunteer</a>
                     </div>
                 </div>
                 <div class="col-xl-6 col-lg-6 d-lg-none d-xl-block">
@@ -377,7 +377,7 @@
             <div class="row">
                 <div class="col-xl-12">
                     <div class="section-title text-center mb-60">
-                        <h1>People love me very much. What <br> people say about me</h1>
+                        <h1 contenteditable="true">People love me very much. What <br> people say about me</h1>
                     </div>
                 </div>
             </div>
@@ -385,42 +385,42 @@
                 <div class="testimonial-active owl-carousel">
                     <div class="testimonial-wrapper">
                         <div class="testimonial-text">
-                            <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system and expound the actual teachings.</p>
+                            <p contenteditable="true">But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system and expound the actual teachings.</p>
                             <div class="testimonial-name">
                                 <div class="testimonial-img">
                                     <img src="{{url('theme/netaji/img/testimonial/01.png')}}" alt="" />
                                 </div>
                                 <div class="testimonial-content">
-                                    <h3>Joseph V. Ramirez</h3>
-                                    <span>CEO & Founder</span>
+                                    <h3 contenteditable="true">Joseph V. Ramirez</h3>
+                                    <span contenteditable="true">CEO & Founder</span>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="testimonial-wrapper">
                         <div class="testimonial-text">
-                            <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system and expound the actual teachings.</p>
+                            <p contenteditable="true">But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system and expound the actual teachings.</p>
                             <div class="testimonial-name">
                                 <div class="testimonial-img">
                                     <img src="{{url('theme/netaji/img/testimonial/01.png')}}" alt="" />
                                 </div>
                                 <div class="testimonial-content">
-                                    <h3>Joseph V. Ramirez</h3>
-                                    <span>CEO & Founder</span>
+                                    <h3 contenteditable="true">Joseph V. Ramirez</h3>
+                                    <span contenteditable="true">CEO & Founder</span>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="testimonial-wrapper">
                         <div class="testimonial-text">
-                            <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system and expound the actual teachings.</p>
+                            <p contenteditable="true">But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system and expound the actual teachings.</p>
                             <div class="testimonial-name">
                                 <div class="testimonial-img">
                                     <img src="{{url('theme/netaji/img/testimonial/01.png')}}" alt="" />
                                 </div>
                                 <div class="testimonial-content">
-                                    <h3>Joseph V. Ramirez</h3>
-                                    <span>CEO & Founder</span>
+                                    <h3 contenteditable="true">Joseph V. Ramirez</h3>
+                                    <span contenteditable="true">CEO & Founder</span>
                                 </div>
                             </div>
                         </div>
@@ -437,7 +437,7 @@
             <div class="row">
                 <div class="col-xl-12">
                     <div class="section-title text-center mb-60">
-                        <h1>You know what our recent post <br> latest <span>Articles & Tips</span></h1>
+                        <h1 contenteditable="true">You know what our recent post <br> latest <span>Articles & Tips</span></h1>
                     </div>
                 </div>
             </div>
@@ -447,8 +447,8 @@
                         <div class="blog-img">
                             <a href="{{url('blog')}}"><img src="{{asset('theme/netaji/img/blog/blog1.jpg')}}" alt="" /></a>
                             <div class="blog-text">
-                                <span>05 december 2018</span>
-                                <h2><a href="{{url('blog')}}">Form Design Patterns Book Excerpt Registration</a></h2>
+                                <span contenteditable="true">05 december 2018</span>
+                                <h2><a href="{{url('blog')}}" contenteditable="true">Form Design Patterns Book Excerpt Registration</a></h2>
                                 <a href="{{url('blog')}}">read more</a>
                             </div>
                         </div>
@@ -459,8 +459,8 @@
                         <div class="blog-img">
                             <a href="{{url('blog-details')}}"><img src="{{asset('theme/netaji/img/blog/blog2.jpg')}}" alt="" /></a>
                             <div class="blog-text">
-                                <span>05 december 2018</span>
-                                <h2><a href="{{url('blog-details')}}">Working Together Designers And Developers Can.</a></h2>
+                                <span contenteditable="true">05 december 2018</span>
+                                <h2><a href="{{url('blog-details')}}" contenteditable="true">Working Together Designers And Developers Can.</a></h2>
                                 <a href="{{url('blog')}}">read more</a>
                             </div>
                         </div>
@@ -478,16 +478,16 @@
                 <div class="col-xl-8 col-lg-8 offset-lg-2 offset-xl-2">
                     <div class="subscribe-wrapper text-center">
                         <div class="subscribe-title mb-60">
-                            <h1>Subscribe our newsletter to <br> join our activity</h1>
+                            <h1 contenteditable="true">Subscribe our newsletter to <br> join our activity</h1>
                         </div>
                         <div class="subscribe-form">
                             <form action="#">
                                 <input type="text" placeholder="Enter your email">
-                                <button type="submit">subscribe</button>
+                                <button type="submit" contenteditable="true">subscribe</button>
                             </form>
                         </div>
                         <div class="subscribe-text">
-                            <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give complete.</p>
+                            <p contenteditable="true">But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give complete.</p>
                         </div>
                     </div>
                 </div>

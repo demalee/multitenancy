@@ -5,10 +5,10 @@
 			<div class="sab_banner overlay">
 				<div class="container">
 					<div class="sab_banner_text">
-						<h2>Team Member</h2>
+						<h2 contenteditable="true">Team Member</h2>
 						<ul class="breadcrumb">
-						  <li class="breadcrumb-item"><a href="#">Home</a></li>
-						  <li class="breadcrumb-item active">Team Member</li>
+						  <li class="breadcrumb-item"><a href="#" contenteditable="true">Home</a></li>
+						  <li class="breadcrumb-item active" contenteditable="true">Team Member</li>
 						</ul>
 					</div>
 				</div>
@@ -33,8 +33,8 @@
 									</div>
 								</figure>
 								<div class="city_team_text">
-									<h4><a href="#">Sebastien Proulx</a></h4>
-									<p>City Mayor</p>
+									<h4><a href="#" contenteditable="true">Sebastien Proulx</a></h4>
+									<p contenteditable="true">City Mayor</p>
 								</div>
 							</div>
 						</div>
@@ -52,8 +52,8 @@
 									</div>
 								</figure>
 								<div class="city_team_text">
-									<h4><a href="#">Jamimy Sam</a></h4>
-									<p>City Mayor</p>
+									<h4><a href="#" contenteditable="true">Jamimy Sam</a></h4>
+									<p contenteditable="true">City Mayor</p>
 								</div>
 							</div>
 						</div>
@@ -71,8 +71,8 @@
 									</div>
 								</figure>
 								<div class="city_team_text">
-									<h4><a href="#">Sebastien Proulx</a></h4>
-									<p>City Mayor</p>
+									<h4><a href="#" contenteditable="true">Sebastien Proulx</a></h4>
+									<p contenteditable="true">City Mayor</p>
 								</div>
 							</div>
 						</div>
@@ -90,8 +90,8 @@
 									</div>
 								</figure>
 								<div class="city_team_text">
-									<h4><a href="#">Sebastien Proulx</a></h4>
-									<p>City Mayor</p>
+									<h4><a href="#" contenteditable="true">Sebastien Proulx</a></h4>
+									<p contenteditable="true">City Mayor</p>
 								</div>
 							</div>
 						</div>
@@ -109,8 +109,8 @@
 									</div>
 								</figure>
 								<div class="city_team_text">
-									<h4><a href="#">David Melon</a></h4>
-									<p>City Mayor</p>
+									<h4><a href="#" contenteditable="true">David Melon</a></h4>
+									<p contenteditable="true">City Mayor</p>
 								</div>
 							</div>
 						</div>
@@ -128,8 +128,8 @@
 									</div>
 								</figure>
 								<div class="city_team_text">
-									<h4><a href="#">Paula Marcus</a></h4>
-									<p>City Mayor</p>
+									<h4><a href="#" contenteditable="true">Paula Marcus</a></h4>
+									<p contenteditable="true">City Mayor</p>
 								</div>
 							</div>
 						</div>
@@ -147,8 +147,8 @@
 									</div>
 								</figure>
 								<div class="city_team_text">
-									<h4><a href="#">Sebastien Proulx</a></h4>
-									<p>City Mayor</p>
+									<h4><a href="#" contenteditable="true">Sebastien Proulx</a></h4>
+									<p contenteditable="true" >City Mayor</p>
 								</div>
 							</div>
 						</div>
@@ -166,8 +166,8 @@
 									</div>
 								</figure>
 								<div class="city_team_text">
-									<h4><a href="#">Sebastien Proulx</a></h4>
-									<p>City Mayor</p>
+									<h4><a href="#" contenteditable="true">Sebastien Proulx</a></h4>
+									<p contenteditable="true">City Mayor</p>
 								</div>
 							</div>
 						</div>
@@ -185,8 +185,8 @@
 									</div>
 								</figure>
 								<div class="city_team_text">
-									<h4><a href="#">Sebastien Proulx</a></h4>
-									<p>City Mayor</p>
+									<h4><a href="#" contenteditable="true">Sebastien Proulx</a></h4>
+									<p contenteditable="true">City Mayor</p>
 								</div>
 							</div>
 						</div>
@@ -204,8 +204,8 @@
 									</div>
 								</figure>
 								<div class="city_team_text">
-									<h4><a href="#">Sebastien Proulx</a></h4>
-									<p>City Mayor</p>
+									<h4><a href="#" contenteditable="true">Sebastien Proulx</a></h4>
+									<p contenteditable="true">City Mayor</p>
 								</div>
 							</div>
 						</div>
@@ -223,8 +223,8 @@
 									</div>
 								</figure>
 								<div class="city_team_text">
-									<h4><a href="#">Sebastien Proulx</a></h4>
-									<p>City Mayor</p>
+									<h4><a href="#" contenteditable="true">Sebastien Proulx</a></h4>
+									<p contenteditable="true">City Mayor</p>
 								</div>
 							</div>
 						</div>
@@ -242,8 +242,8 @@
 									</div>
 								</figure>
 								<div class="city_team_text">
-									<h4><a href="#">Sebastien Proulx</a></h4>
-									<p>City Mayor</p>
+									<h4><a href="#" contenteditable="true">Sebastien Proulx</a></h4>
+									<p contenteditable="true">City Mayor</p>
 								</div>
 							</div>
 						</div>
@@ -252,10 +252,10 @@
 							<div class="pagination">
 								<ul>
 									<li><a href="#"><i class="fa fa-angle-left"></i></a></li>
-									<li><a href="#">01</a></li>
-									<li><a href="#">02</a></li>
-									<li><a href="#">....</a></li>
-									<li><a href="#">08</a></li>
+									<li><a href="#" contenteditable="true">01</a></li>
+									<li><a href="#" contenteditable="true">02</a></li>
+									<li><a href="#" contenteditable="true">....</a></li>
+									<li><a href="#" contenteditable="true">08</a></li>
 									<li><a href="#"><i class="fa fa-angle-right"></i></a></li>
 								</ul>
 							</div>
@@ -265,58 +265,6 @@
 			</div>
 			<!-- CITY EVENT2 WRAP END-->
 
-			<!--CITY REQUEST WRAP START-->
-			<div class="city_requset_wrap requst02">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-6 col-sm-6">
-							<div class="city_request_list">
-								<div class="city_request_row">
-									<span><i class="fa icon-question"></i></span>
-									<div class="city_request_text">
-										<span>Recent</span>
-										<h4>Top Request</h4>
-									</div>
-								</div>
-								<div class="city_request_link">
-									<ul>
-										<li><a href="#">Pay a Parking Ticket</a></li>
-										<li><a href="#">Building Violation</a></li>
-										<li><a href="#">Affordable Housing</a></li>
-										<li><a href="#">Graffiti Removal</a></li>
-										<li><a href="#">Civil Service Exams</a></li>
-										<li><a href="#">Rodent Baiting</a></li>
-										<li class="margin0"><a href="#">Cleaning</a></li>
-										<li class="margin0"><a href="#">Uncleared Sidewalk</a></li>
-									</ul>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 col-sm-6">
-							<div class="city_request_list">
-								<div class="city_request_row">
-									<span><i class="fa icon-shout"></i></span>
-									<div class="city_request_text">
-										<span>Recent</span>
-										<h4>Announcement</h4>
-									</div>
-								</div>
-								<div class="city_request_link">
-									<ul>
-										<li><a href="#">Pay a Parking Ticket</a></li>
-										<li><a href="#">Building Violation</a></li>
-										<li><a href="#">Affordable Housing</a></li>
-										<li><a href="#">Graffiti Removal</a></li>
-										<li><a href="#">Civil Service Exams</a></li>
-										<li><a href="#">Rodent Baiting</a></li>
-										<li class="margin0"><a href="#">Cleaning</a></li>
-										<li class="margin0"><a href="#">Uncleared Sidewalk</a></li>
-									</ul>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
+
 			<!--CITY REQUEST WRAP END-->
 @endsection

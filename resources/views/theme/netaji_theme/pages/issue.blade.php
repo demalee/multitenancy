@@ -8,8 +8,8 @@
 						<div class="breadcrumb-text text-center">
 							<h1>Issue Style 02</h1>
 							<ul class="breadcrumb-menu">
-								<li><a href="index-2.html">home</a></li>
-								<li><span>Issue Style 02</span></li>
+								<li><a href="index-2.html" contenteditable="true">home</a></li>
+								<li><span contenteditable="true">Issue Style 02</span></li>
 							</ul>
 						</div>
 					</div>
@@ -29,7 +29,7 @@
 							</div>
 							<div class="issue-text">
 								<span>Meeting</span>
-								<h3><a href="#">Political Conference</a></h3>
+								<h3><a href="#" contenteditable="true">Political Conference</a></h3>
 								<div class="issue-icon">
 									<a class="popup-image" href="img/project/project2/1.jpg"><i class="fas fa-plus"></i></a>
 								</div>
@@ -42,8 +42,8 @@
 								<a href="#"><img src="img/project/project2/2.jpg" alt="" /></a>
 							</div>
 							<div class="issue-text">
-								<span>Education</span>
-								<h3><a href="#">Importance Of Women</a></h3>
+								<span contenteditable="true">Education</span>
+								<h3><a href="#" contenteditable="true">Importance Of Women</a></h3>
 								<div class="issue-icon">
 									<a class="popup-image" href="img/project/project2/2.jpg"><i class="fas fa-plus"></i></a>
 								</div>
@@ -56,8 +56,8 @@
 								<a href="#"><img src="img/project/project2/3.jpg" alt="" /></a>
 							</div>
 							<div class="issue-text">
-								<span>Meeting</span>
-								<h3><a href="#">Political Campaign</a></h3>
+								<span contenteditable="true">Meeting</span>
+								<h3><a href="#" contenteditable="true">Political Campaign</a></h3>
 								<div class="issue-icon">
 									<a class="popup-image" href="img/project/project2/3.jpg"><i class="fas fa-plus"></i></a>
 								</div>
@@ -71,7 +71,7 @@
 							</div>
 							<div class="issue-text">
 								<span>Meeting</span>
-								<h3><a href="#">Political Conference</a></h3>
+								<h3><a href="#" contenteditable="true">Political Conference</a></h3>
 								<div class="issue-icon">
 									<a class="popup-image" href="img/project/project2/6.jpg"><i class="fas fa-plus"></i></a>
 								</div>
@@ -85,7 +85,7 @@
 							</div>
 							<div class="issue-text">
 								<span>Meeting</span>
-								<h3><a href="#">Political Conference</a></h3>
+								<h3><a href="#" contenteditable="true">Political Conference</a></h3>
 								<div class="issue-icon">
 									<a class="popup-image" href="img/project/project2/5.jpg"><i class="fas fa-plus"></i></a>
 								</div>
@@ -99,7 +99,7 @@
 							</div>
 							<div class="issue-text">
 								<span>Education</span>
-								<h3><a href="#">Importance Of Women</a></h3>
+								<h3><a href="#" contenteditable="true">Importance Of Women</a></h3>
 								<div class="issue-icon">
 									<a class="popup-image" href="img/project/project2/4.jpg"><i class="fas fa-plus"></i></a>
 								</div>
@@ -113,7 +113,7 @@
 							</div>
 							<div class="issue-text">
 								<span>Campaign</span>
-								<h3><a href="#">Political Campaign</a></h3>
+								<h3><a href="#" contenteditable="true">Political Campaign</a></h3>
 								<div class="issue-icon">
 									<a class="popup-image" href="img/project/project2/9.jpg"><i class="fas fa-plus"></i></a>
 								</div>
@@ -127,7 +127,7 @@
 							</div>
 							<div class="issue-text">
 								<span>Education</span>
-								<h3><a href="#">Importance Of Women</a></h3>
+								<h3><a href="#" contenteditable="true">Importance Of Women</a></h3>
 								<div class="issue-icon">
 									<a class="popup-image" href="img/project/project2/7.jpg"><i class="fas fa-plus"></i></a>
 								</div>
@@ -141,7 +141,7 @@
 							</div>
 							<div class="issue-text">
 								<span>Meeting</span>
-								<h3><a href="#">Political Conference</a></h3>
+								<h3><a href="#" contenteditable="true">Political Conference</a></h3>
 								<div class="issue-icon">
 									<a class="popup-image" href="img/project/project2/8.jpg"><i class="fas fa-plus"></i></a>
 								</div>

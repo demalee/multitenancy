@@ -6,10 +6,10 @@
                 <div class="container">
                     <div class="page-top-wrap text-center">
                         <div class="page-top-inner">
-                            <h1 itemprop="headline">OUR PRIORITIES</h1>
+                            <h1 itemprop="headline" contenteditable="true">OUR PRIORITIES</h1>
                             <ol class="breadcrumb">
-                                <li class="breadcrumb-item"><a href="{{url('home')}}" title="" itemprop="url">Home</a></li>
-                                <li class="breadcrumb-item active">Our Priorities</li>
+                                <li class="breadcrumb-item" contenteditable="true"><a href="{{url('home')}}" title="" itemprop="url">Home</a></li>
+                                <li class="breadcrumb-item active" contenteditable="true">Our Priorities</li>
                             </ol>
                         </div>
                     </div>
@@ -27,9 +27,9 @@
                                         <a href="" title="" itemprop="url"><img src="{{asset('theme/country/assets/images/resources/prioritie-img1.jpg')}}" alt="prioritie-img1.jpg" itemprop="image"></a>
                                     </div>
                                     <div class="prioritie-info">
-                                        <span class="priorite-cat">In <a class="theme-clr" href="#" title="" itemprop="url">Citizen Life</a></span>
-                                        <h6 itemprop="headline"><a href="" title="" itemprop="url">Change The Citizen Life</a></h6>
-                                        <p itemprop="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor...</p>
+                                        <span class="priorite-cat" contenteditable="true">In <a class="theme-clr" href="#" title="" itemprop="url">Citizen Life</a></span>
+                                        <h6 itemprop="headline" contenteditable="true"><a href="" title="" itemprop="url">Change The Citizen Life</a></h6>
+                                        <p itemprop="description" contenteditable="true">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor...</p>
                                     </div>
                                 </div>
                             </div>
@@ -39,9 +39,9 @@
                                         <a href="" title="" itemprop="url"><img src="{{asset('theme/country/assets/images/resources/prioritie-img2.jpg')}}" alt="prioritie-img2.jpg" itemprop="image"></a>
                                     </div>
                                     <div class="prioritie-info">
-                                        <span class="priorite-cat">In <a class="theme-clr" href="#" title="" itemprop="url">Economy</a></span>
-                                        <h6 itemprop="headline"><a href="" title="" itemprop="url">The Publicity Campaign</a></h6>
-                                        <p itemprop="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor...</p>
+                                        <span class="priorite-cat" contenteditable="true">In <a class="theme-clr" href="#" title="" itemprop="url">Economy</a></span>
+                                        <h6 itemprop="headline" contenteditable="true"><a href="" title="" itemprop="url">The Publicity Campaign</a></h6>
+                                        <p itemprop="description" contenteditable="true">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor...</p>
                                     </div>
                                 </div>
                             </div>
@@ -51,9 +51,9 @@
                                         <a href="" title="" itemprop="url"><img src="{{asset('theme/country/assets/images/resources/prioritie-img3.jpg')}}" alt="prioritie-img3.jpg" itemprop="image"></a>
                                     </div>
                                     <div class="prioritie-info">
-                                        <span class="priorite-cat">In <a class="theme-clr" href="#" title="" itemprop="url">Campaign</a></span>
-                                        <h6 itemprop="headline"><a href="" title="" itemprop="url">The Clean Power Plan</a></h6>
-                                        <p itemprop="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor...</p>
+                                        <span class="priorite-cat" contenteditable="true">In <a class="theme-clr" href="#" title="" itemprop="url">Campaign</a></span>
+                                        <h6 itemprop="headline" contenteditable="true"><a href="" title="" itemprop="url">The Clean Power Plan</a></h6>
+                                        <p itemprop="description" contenteditable="true">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor...</p>
                                     </div>
                                 </div>
                             </div>
@@ -63,9 +63,9 @@
                                         <a href="" title="" itemprop="url"><img src="{{asset('theme/country/assets/images/resources/prioritie-img4.jpg')}}" alt="prioritie-img4.jpg" itemprop="image"></a>
                                     </div>
                                     <div class="prioritie-info">
-                                        <span class="priorite-cat">In <a class="theme-clr" href="#" title="" itemprop="url">Civil Rights</a></span>
-                                        <h6 itemprop="headline"><a href="" title="" itemprop="url">Security For Middle Class</a></h6>
-                                        <p itemprop="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor...</p>
+                                        <span class="priorite-cat" contenteditable="true">In <a class="theme-clr" href="#" title="" itemprop="url">Civil Rights</a></span>
+                                        <h6 itemprop="headline" contenteditable="true"><a href="" title="" itemprop="url">Security For Middle Class</a></h6>
+                                        <p itemprop="description" contenteditable="true">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor...</p>
                                     </div>
                                 </div>
                             </div>
@@ -75,9 +75,9 @@
                                         <a href="" title="" itemprop="url"><img src="{{asset('theme/country/assets/images/resources/prioritie-img5.jpg')}}" alt="prioritie-img5.jpg" itemprop="image"></a>
                                     </div>
                                     <div class="prioritie-info">
-                                        <span class="priorite-cat">In <a class="theme-clr" href="#" title="" itemprop="url">Citizen Life</a></span>
-                                        <h6 itemprop="headline"><a href="" title="" itemprop="url">Glossary of Humanity</a></h6>
-                                        <p itemprop="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor...</p>
+                                        <span class="priorite-cat" contenteditable="true">In <a class="theme-clr" href="#" title="" itemprop="url">Citizen Life</a></span>
+                                        <h6 itemprop="headline" contenteditable="true"><a href="" title="" itemprop="url">Glossary of Humanity</a></h6>
+                                        <p itemprop="description" contenteditable="true">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor...</p>
                                     </div>
                                 </div>
                             </div>
@@ -87,9 +87,9 @@
                                         <a href="" title="" itemprop="url"><img src="{{asset('theme/country/assets/images/resources/prioritie-img6.jpg')}}" alt="prioritie-img6.jpg" itemprop="image"></a>
                                     </div>
                                     <div class="prioritie-info">
-                                        <span class="priorite-cat">In <a class="theme-clr" href="#" title="" itemprop="url">Economy</a></span>
-                                        <h6 itemprop="headline"><a href="" title="" itemprop="url">Provide Healthy Food</a></h6>
-                                        <p itemprop="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor...</p>
+                                        <span class="priorite-cat" contenteditable="true">In <a class="theme-clr" href="#" title="" itemprop="url">Economy</a></span>
+                                        <h6 itemprop="headline" contenteditable="true"><a href="" title="" itemprop="url">Provide Healthy Food</a></h6>
+                                        <p itemprop="description" contenteditable="true">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor...</p>
                                     </div>
                                 </div>
                             </div>
@@ -99,9 +99,9 @@
                                         <a href="" title="" itemprop="url"><img src="{{asset('theme/country/assets/images/resources/prioritie-img7.jpg')}}" alt="prioritie-img7.jpg" itemprop="image"></a>
                                     </div>
                                     <div class="prioritie-info">
-                                        <span class="priorite-cat">In <a class="theme-clr" href="#" title="" itemprop="url">Campaign</a></span>
-                                        <h6 itemprop="headline"><a href="" title="" itemprop="url">Clothes For Everyone</a></h6>
-                                        <p itemprop="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor...</p>
+                                        <span class="priorite-cat" contenteditable="true">In <a class="theme-clr" href="#" title="" itemprop="url">Campaign</a></span>
+                                        <h6 itemprop="headline" contenteditable="true"><a href="" title="" itemprop="url">Clothes For Everyone</a></h6>
+                                        <p itemprop="description" contenteditable="true">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor...</p>
                                     </div>
                                 </div>
                             </div>
@@ -111,9 +111,9 @@
                                         <a href="" title="" itemprop="url"><img src="{{asset('theme/country/assets/images/resources/prioritie-img8.jpg')}}" alt="prioritie-img8.jpg" itemprop="image"></a>
                                     </div>
                                     <div class="prioritie-info">
-                                        <span class="priorite-cat">In <a class="theme-clr" href="#" title="" itemprop="url">Civil Rights</a></span>
-                                        <h6 itemprop="headline"><a href="" title="" itemprop="url">School for Poor Children</a></h6>
-                                        <p itemprop="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor...</p>
+                                        <span class="priorite-cat" contenteditable="true">In <a class="theme-clr" href="#" title="" itemprop="url">Civil Rights</a></span>
+                                        <h6 itemprop="headline" contenteditable="true"><a href="" title="" itemprop="url">School for Poor Children</a></h6>
+                                        <p itemprop="description" contenteditable="true">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor...</p>
                                     </div>
                                 </div>
                             </div>

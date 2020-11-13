@@ -25,6 +25,22 @@
                                                 <textarea class="form-control" required name="description" id="exampleFormControlTextarea9" rows="3"></textarea>
                                             </div>
                                             <div class="form-group">
+                                                <table>
+                                            <tbody>
+                                            <tr>
+                                                <td>Enable sidebar</td>
+                                                <td class="w-50">
+                                                    <div class="media-body icon-state switch-outline">
+                                                        <label class="switch">
+                                                            <input type="checkbox" checked=""><span class="switch-state bg-primary"></span>
+                                                        </label>
+                                                    </div>
+                                                </td>
+                                                <td><span>This will add sidebar to your website </span></td>
+                                            </tr>
+                                            </tbody>
+                                                </table></div>
+                                            <div class="form-group">
                                                 <label class="col-form-label">Content</label>
                                                 <textarea class="form-control" id="editor1" name="editor1"></textarea>
 {{--                                            <textarea class="form-control" required id="editor1" name="editor1" cols="30" rows="10"></textarea>--}}

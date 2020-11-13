@@ -6,10 +6,10 @@
                 <div class="container">
                     <div class="page-top-wrap text-center">
                         <div class="page-top-inner">
-                            <h1 itemprop="headline">FIND LOCAL UNIT</h1>
+                            <h1 itemprop="headline" contenteditable="true">FIND LOCAL UNIT</h1>
                             <ol class="breadcrumb">
-                                <li class="breadcrumb-item"><a href="{{url('home')}}" title="" itemprop="url">Home</a></li>
-                                <li class="breadcrumb-item active">Find Local Unit</li>
+                                <li class="breadcrumb-item"><a href="{{url('home')}}" title="" itemprop="url" contenteditable="true">Home</a></li>
+                                <li class="breadcrumb-item active" contenteditable="true">Find Local Unit</li>
                             </ol>
                         </div>
                     </div>
@@ -20,7 +20,7 @@
             <div class="spacing">
                 <div class="container">
                     <div class="search-branch-area-wrap">
-                        <h3 itemprop="headline">Search Your Area</h3>
+                        <h3 itemprop="headline" contenteditable="true">Search Your Area</h3>
                         <form class="search-branch-form text-center">
                             <div class="row">
                                 <div class="col-md-6 col-sm-6 col-lg-6">
@@ -29,39 +29,39 @@
                                 <div class="col-md-6 col-sm-6 col-lg-6">
                                     <div class="select-wrap2 style2 brd-rd33">
                                         <select>
-                                            <option>United Kingdom (UK)</option>
-                                            <option>United States (US)</option>
-                                            <option>United Arab Emirates (UAE)</option>
-                                            <option>Pakistan</option>
-                                            <option>India</option>
-                                            <option>Russia</option>
-                                            <option>Chaina</option>
+                                            <option contenteditable="true">United Kingdom (UK)</option>
+                                            <option contenteditable="true">United States (US)</option>
+                                            <option contenteditable="true">United Arab Emirates (UAE)</option>
+                                            <option contenteditable="true">Pakistan</option>
+                                            <option contenteditable="true">India</option>
+                                            <option contenteditable="true">Russia</option>
+                                            <option contenteditable="true">Chaina</option>
                                         </select>
                                     </div>
                                 </div>
                                 <div class="col-md-6 col-sm-6 col-lg-6">
                                     <div class="select-wrap2 style2 brd-rd33">
                                         <select>
-                                            <option>City</option>
-                                            <option>New York</option>
-                                            <option>Chicago</option>
-                                            <option>San Francisco</option>
-                                            <option>Washington D.C.</option>
-                                            <option>Los Angeles</option>
-                                            <option>Las Vegas</option>
+                                            <option contenteditable="true">City</option>
+                                            <option contenteditable="true">New York</option>
+                                            <option contenteditable="true">Chicago</option>
+                                            <option contenteditable="true"> San Francisco</option>
+                                            <option contenteditable="true">Washington D.C.</option>
+                                            <option contenteditable="true">Los Angeles</option>
+                                            <option contenteditable="true">Las Vegas</option>
                                         </select>
                                     </div>
                                 </div>
                                 <div class="col-md-6 col-sm-6 col-lg-6">
                                     <div class="select-wrap2 style2 brd-rd33">
                                         <select>
-                                            <option>Zip Code</option>
-                                            <option>6000</option>
-                                            <option>4500</option>
-                                            <option>6800</option>
-                                            <option>4000</option>
-                                            <option>3500</option>
-                                            <option>7500</option>
+                                            <option contenteditable="true">Zip Code</option>
+                                            <option contenteditable="true">6000</option>
+                                            <option contenteditable="true">4500</option>
+                                            <option contenteditable="true">6800</option>
+                                            <option contenteditable="true">4000</option>
+                                            <option contenteditable="true">3500</option>
+                                            <option contenteditable="true">7500</option>
                                         </select>
                                     </div>
                                 </div>
@@ -83,11 +83,11 @@
                                 <div class="branch-box brd-rd5">
                                     <div class="branch-thumb"><img src="{{asset('theme/country/assets/images/resources/branch-img1-1.jpg')}}" alt="branch-img1-1.jpg" itemprop="image"></div>
                                     <div class="branch-info">
-                                        <h6 itemprop="headline">New York BR</h6>
+                                        <h6 itemprop="headline" contenteditable="true">New York BR</h6>
                                         <ul class="post-meta2">
-                                            <li><i class="fa fa-home theme-clr"></i> The Lawyer, Chamber of Commerce, New York United States.</li>
-                                            <li><i class="fa fa-envelope-open theme-clr"></i> <a href="mailto:someone@example.com" title="" itemprop="url" target="_top">info.sales@Walter Lewis.com</a></li>
-                                            <li><i class="fa fa-phone theme-clr"></i> (+61) 987 654321</li>
+                                            <li contenteditable="true"><i class="fa fa-home theme-clr"></i> The Lawyer, Chamber of Commerce, New York United States.</li>
+                                            <li contenteditable="true"><i class="fa fa-envelope-open theme-clr"></i> <a href="mailto:someone@example.com" title="" itemprop="url" target="_top">info.sales@Walter Lewis.com</a></li>
+                                            <li contenteditable="true"><i class="fa fa-phone theme-clr"></i> (+61) 987 654321</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -96,11 +96,11 @@
                                 <div class="branch-box brd-rd5">
                                     <div class="branch-thumb"><img src="{{asset('theme/country/assets/images/resources/branch-img1-2.jpg')}}" alt="branch-img1-2.jpg" itemprop="image"></div>
                                     <div class="branch-info">
-                                        <h6 itemprop="headline">Los Angeles BR</h6>
+                                        <h6 itemprop="headline" contenteditable="true">Los Angeles BR</h6>
                                         <ul class="post-meta2">
-                                            <li><i class="fa fa-home theme-clr"></i> The Lawyer, Chamber of Commerce, New York United States.</li>
-                                            <li><i class="fa fa-envelope-open theme-clr"></i> <a href="mailto:someone@example.com" title="" itemprop="url" target="_top">info.sales@Walter Lewis.com</a></li>
-                                            <li><i class="fa fa-phone theme-clr"></i> (+61) 987 654321</li>
+                                            <li contenteditable="true"><i class="fa fa-home theme-clr"></i> The Lawyer, Chamber of Commerce, New York United States.</li>
+                                            <li contenteditable="true"><i class="fa fa-envelope-open theme-clr"></i> <a href="mailto:someone@example.com" title="" itemprop="url" target="_top">info.sales@Walter Lewis.com</a></li>
+                                            <li contenteditable="true"><i class="fa fa-phone theme-clr"></i> (+61) 987 654321</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -109,11 +109,11 @@
                                 <div class="branch-box brd-rd5">
                                     <div class="branch-thumb"><img src="{{asset('theme/country/assets/images/resources/branch-img1-3.jpg')}}" alt="branch-img1-3.jpg" itemprop="image"></div>
                                     <div class="branch-info">
-                                        <h6 itemprop="headline">Chicago BR</h6>
+                                        <h6 itemprop="headline" contenteditable="true">Chicago BR</h6>
                                         <ul class="post-meta2">
-                                            <li><i class="fa fa-home theme-clr"></i> The Lawyer, Chamber of Commerce, New York United States.</li>
-                                            <li><i class="fa fa-envelope-open theme-clr"></i> <a href="mailto:someone@example.com" title="" itemprop="url" target="_top">info.sales@Walter Lewis.com</a></li>
-                                            <li><i class="fa fa-phone theme-clr"></i> (+61) 987 654321</li>
+                                            <li contenteditable="true"><i class="fa fa-home theme-clr"></i> The Lawyer, Chamber of Commerce, New York United States.</li>
+                                            <li contenteditable="true"><i class="fa fa-envelope-open theme-clr"></i> <a href="mailto:someone@example.com" title="" itemprop="url" target="_top">info.sales@Walter Lewis.com</a></li>
+                                            <li contenteditable="true"><i class="fa fa-phone theme-clr"></i> (+61) 987 654321</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -122,11 +122,11 @@
                                 <div class="branch-box brd-rd5">
                                     <div class="branch-thumb"><img src="{{asset('theme/country/assets/images/resources/branch-img1-4.jpg')}}" alt="branch-img1-4.jpg" itemprop="image"></div>
                                     <div class="branch-info">
-                                        <h6 itemprop="headline">San Francisco BR</h6>
+                                        <h6 itemprop="headline" contenteditable="true">San Francisco BR</h6>
                                         <ul class="post-meta2">
-                                            <li><i class="fa fa-home theme-clr"></i> The Lawyer, Chamber of Commerce, New York United States.</li>
-                                            <li><i class="fa fa-envelope-open theme-clr"></i> <a href="mailto:someone@example.com" title="" itemprop="url" target="_top">info.sales@Walter Lewis.com</a></li>
-                                            <li><i class="fa fa-phone theme-clr"></i> (+61) 987 654321</li>
+                                            <li contenteditable="true"><i class="fa fa-home theme-clr"></i> The Lawyer, Chamber of Commerce, New York United States.</li>
+                                            <li contenteditable="true"><i class="fa fa-envelope-open theme-clr"></i> <a href="mailto:someone@example.com" title="" itemprop="url" target="_top">info.sales@Walter Lewis.com</a></li>
+                                            <li contenteditable="true"><i class="fa fa-phone theme-clr"></i> (+61) 987 654321</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -135,11 +135,11 @@
                                 <div class="branch-box brd-rd5">
                                     <div class="branch-thumb"><img src="{{asset('theme/country/assets/images/resources/branch-img1-5.jpg')}}" alt="branch-img1-5.jpg" itemprop="image"></div>
                                     <div class="branch-info">
-                                        <h6 itemprop="headline">Boston BR</h6>
+                                        <h6 itemprop="headline" contenteditable="true">Boston BR</h6>
                                         <ul class="post-meta2">
-                                            <li><i class="fa fa-home theme-clr"></i> The Lawyer, Chamber of Commerce, New York United States.</li>
-                                            <li><i class="fa fa-envelope-open theme-clr"></i> <a href="mailto:someone@example.com" title="" itemprop="url" target="_top">info.sales@Walter Lewis.com</a></li>
-                                            <li><i class="fa fa-phone theme-clr"></i> (+61) 987 654321</li>
+                                            <li contenteditable="true"><i class="fa fa-home theme-clr" contenteditable="true"></i> The Lawyer, Chamber of Commerce, New York United States.</li>
+                                            <li contenteditable="true"><i class="fa fa-envelope-open theme-clr" </i> <a href="mailto:someone@example.com" title="" itemprop="url" target="_top">info.sales@Walter Lewis.com</a></li>
+                                            <li contenteditable="true"><i class="fa fa-phone theme-clr" contenteditable="true"></i> (+61) 987 654321</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -148,11 +148,11 @@
                                 <div class="branch-box brd-rd5">
                                     <div class="branch-thumb"><img src="{{asset('theme/country/assets/images/resources/branch-img1-6.jpg')}}" alt="branch-img1-6.jpg" itemprop="image"></div>
                                     <div class="branch-info">
-                                        <h6 itemprop="headline">Phoenix BR</h6>
+                                        <h6 itemprop="headline" contenteditable="true">Phoenix BR</h6>
                                         <ul class="post-meta2">
-                                            <li><i class="fa fa-home theme-clr"></i> The Lawyer, Chamber of Commerce, New York United States.</li>
-                                            <li><i class="fa fa-envelope-open theme-clr"></i> <a href="mailto:someone@example.com" title="" itemprop="url" target="_top">info.sales@Walter Lewis.com</a></li>
-                                            <li><i class="fa fa-phone theme-clr"></i> (+61) 987 654321</li>
+                                            <li contenteditable="true"><i class="fa fa-home theme-clr"></i> The Lawyer, Chamber of Commerce, New York United States.</li>
+                                            <li contenteditable="true"><i class="fa fa-envelope-open theme-clr"></i> <a href="mailto:someone@example.com" title="" itemprop="url" target="_top">info.sales@Walter Lewis.com</a></li>
+                                            <li contenteditable="true"><i class="fa fa-phone theme-clr"></i> (+61) 987 654321</li>
                                         </ul>
                                     </div>
                                 </div>

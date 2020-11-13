@@ -6,10 +6,10 @@
                 <div class="container">
                     <div class="page-top-wrap text-center">
                         <div class="page-top-inner">
-                            <h1 itemprop="headline">CONTACT US</h1>
+                            <h1 itemprop="headline" contenteditable="true">CONTACT US</h1>
                             <ol class="breadcrumb">
-                                <li class="breadcrumb-item"><a href="#" title="" itemprop="url">Home</a></li>
-                                <li class="breadcrumb-item active">Contact Us</li>
+                                <li class="breadcrumb-item"><a href="#" title="" itemprop="url" contenteditable="true">Home</a></li>
+                                <li class="breadcrumb-item active" contenteditable="true">Contact Us</li>
                             </ol>
                         </div>
                     </div>
@@ -22,27 +22,27 @@
                     <div class="contact-wrap">
                         <div class="map-canvas brd-rd5" id="contact-map1"></div>
                         <div class="contact-info-sec bottom-spac80 top-spac90">
-                            <h2 itemprop="headline">Contact Information</h2>
-                            <p itemprop="description">Lorem ipsum dolor sit amet, consectetur adipisici elit, sed euismod tempor incidunt ut labore et dolor magna aliqua invideo miror magis.</p>
+                            <h2 itemprop="headline" contenteditable="true">Contact Information</h2>
+                            <p itemprop="description" contenteditable="true">Lorem ipsum dolor sit amet, consectetur adipisici elit, sed euismod tempor incidunt ut labore et dolor magna aliqua invideo miror magis.</p>
                             <ul class="contact-info-list">
                                 <li>
                                     <i class="fa fa-home theme-clr brd-rd50"></i>
-                                    <span>The Layer, Chamber of Commerce, New York United States.</span>
+                                    <span contenteditable="true">The Layer, Chamber of Commerce, New York United States.</span>
                                 </li>
                                 <li>
                                     <i class="fa fa-phone theme-clr brd-rd50"></i>
-                                    <span>(+61)123 4567 89</span>
-                                    <span>(+61)987 6543 21</span>
+                                    <span contenteditable="true">(+61)123 4567 89</span>
+                                    <span contenteditable="true">(+61)987 6543 21</span>
                                 </li>
                                 <li>
                                     <i class="fa fa-envelope-open theme-clr brd-rd50"></i>
-                                    <a href="mailto:someone@example.com" title="" itemprop="url">info@Walter Lewis.com</a>
-                                    <a href="mailto:someone@example.com" title="" itemprop="url">info.sales@Walter Lewis.com</a>
+                                    <a href="mailto:someone@example.com" title="" itemprop="url" contenteditable="true">info@Walter Lewis.com</a>
+                                    <a href="mailto:someone@example.com" title="" itemprop="url" contenteditable="true">info.sales@Walter Lewis.com</a>
                                 </li>
                             </ul>
                         </div><!-- Contact info Section -->
                         <div class="contact-form-wrap">
-                            <h5 itemprop="headline">Please Fill This Form to contact with us</h5>
+                            <h5 itemprop="headline" contenteditable="true">Please Fill This Form to contact with us</h5>
                             <form>
                                 <div class="row">
                                     <div class="col-md-4 col-sm-6 col-lg-4">
@@ -52,7 +52,7 @@
                                     </div>
                                     <div class="col-md-8 col-sm-6 col-lg-8">
                                         <textarea class="brd-rd33" placeholder="Comments"></textarea>
-                                        <button class="theme-btn2 brd-rd33 big" type="submit">CONTACT NOW</button>
+                                        <button class="theme-btn2 brd-rd33 big" type="submit" contenteditable="true">CONTACT NOW</button>
                                     </div>
                                 </div>
                             </form>

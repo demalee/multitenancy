@@ -8,10 +8,10 @@
 			<div class="sab_banner overlay">
 				<div class="container">
 					<div class="sab_banner_text">
-						<h2>City Mayor</h2>
+						<h2 contenteditable="true">City Mayor</h2>
 						<ul class="breadcrumb">
-						  <li class="breadcrumb-item"><a href="#">Home</a></li>
-						  <li class="breadcrumb-item active">City Mayor</li>
+						  <li class="breadcrumb-item"><a href="#" contenteditable="true">Home</a></li>
+						  <li class="breadcrumb-item active" contenteditable="true">City Mayor</li>
 						</ul>
 					</div>
 				</div>
@@ -27,15 +27,15 @@
 								<img src="{{asset('theme/local/extra-images/mayor-fig.jpg')}}" alt="">
 							</figure>
 							<div class="city_mayor_text">
-								<h2>Bob Westbrook</h2>
-								<p>City Mayor</p>
+								<h2 contenteditable="true">Bob Westbrook</h2>
+								<p contenteditable="true">City Mayor</p>
 								<ul class="city_mayor_list">
-									<li><span>Company</span>IdeasArt</li>
-									<li><span>Phone</span>1234-567-8910</li>
-									<li><span>Email Address</span>yourname@domain.com</li>
-									<li><span>Location</span>California.USA</li>
-									<li><span>Age</span>45 Years</li>
-									<li><span>Adresss</span>Walking Street, 39531, New Yourk, United States</li>
+									<li contenteditable="true"><span>Company</span>IdeasArt</li>
+									<li contenteditable="true"><span>Phone</span>1234-567-8910</li>
+									<li contenteditable="true"><span>Email Address</span>yourname@domain.com</li>
+									<li contenteditable="true"><span>Location</span>California.USA</li>
+									<li contenteditable="true"><span>Age</span>45 Years</li>
+									<li contenteditable="true"><span>Adresss</span>Walking Street, 39531, New Yourk, United States</li>
 								</ul>
 								<div class="city_mayor_contact">
 									<a class="theam_btn" href="#" tabindex="0">CONTACT US</a>
@@ -52,12 +52,12 @@
 							</div>
 						</div>
 						<div class="city_mayor_caption">
-							<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentum feugiat, velit mauris egestas quam, ut aliquam massa nisl quis neque. </p>
-							<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentum feugiat, velit mauris egestas quam, ut aliquam massa nisl quis neque. Suspendisse in orci enim. velit mauris egestas quam, ut aliquam massa nisl quis neque. Suspendisse in orci enim. velit mauris egestas quam, ut aliquam .Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo</p>
+							<p contenteditable="true">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentum feugiat, velit mauris egestas quam, ut aliquam massa nisl quis neque. </p>
+							<p contenteditable="true">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentum feugiat, velit mauris egestas quam, ut aliquam massa nisl quis neque. Suspendisse in orci enim. velit mauris egestas quam, ut aliquam massa nisl quis neque. Suspendisse in orci enim. velit mauris egestas quam, ut aliquam .Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo</p>
 						</div>
 					</div>
 					<div class="city_event_detail question overlay">
-						<h3>DID’T FIND YET? ASK YOUR QUESTION</h3>
+						<h3 contenteditable="true">DID’T FIND YET? ASK YOUR QUESTION</h3>
 						<div class="event_booking_form">
 							<div class="row">
 								<div class="col-md-6 col-sm-6">
@@ -86,8 +86,8 @@
 					</div>
 					<div class="mayor_team">
 						<div class="section_heading center">
-							<span>Goverment</span>
-							<h2>Related Memeber</h2>
+							<span contenteditable="true">Goverment</span>
+							<h2 contenteditable="true">Related Memeber</h2>
 						</div>
 						<div class="col-md-4 col-sm-4">
 							<div class="city_team_fig">
@@ -103,8 +103,8 @@
 									</div>
 								</figure>
 								<div class="city_team_text">
-									<h4><a href="#">Steve Anderson</a></h4>
-									<p>City Mayor</p>
+									<h4 contenteditable="true"><a href="#">Steve Anderson</a></h4>
+									<p contenteditable="true">City Mayor</p>
 								</div>
 							</div>
 						</div>
@@ -122,8 +122,8 @@
 									</div>
 								</figure>
 								<div class="city_team_text">
-									<h4><a href="#">Jen Ford</a></h4>
-									<p>City Mayor</p>
+									<h4 contenteditable="true"> <a href="#">Jen Ford</a></h4>
+									<p contenteditable="true">City Mayor</p>
 								</div>
 							</div>
 						</div>
@@ -141,8 +141,8 @@
 									</div>
 								</figure>
 								<div class="city_team_text">
-									<h4><a href="#">Sebastien Proulx</a></h4>
-									<p>City Mayor</p>
+									<h4><a href="#" contenteditable="true">Sebastien Proulx</a></h4>
+									<p contenteditable="true">City Mayor</p>
 								</div>
 							</div>
 						</div>
@@ -160,20 +160,20 @@
 								<div class="city_request_row">
 									<span><i class="fa icon-question"></i></span>
 									<div class="city_request_text">
-										<span>Recent</span>
-										<h4>Top Request</h4>
+										<span contenteditable="true">Recent</span>
+										<h4 contenteditable="true">Top Request</h4>
 									</div>
 								</div>
 								<div class="city_request_link">
 									<ul>
-										<li><a href="#">Pay a Parking Ticket</a></li>
-										<li><a href="#">Building Violation</a></li>
-										<li><a href="#">Affordable Housing</a></li>
-										<li><a href="#">Graffiti Removal</a></li>
-										<li><a href="#">Civil Service Exams</a></li>
-										<li><a href="#">Rodent Baiting</a></li>
-										<li class="margin0"><a href="#">Cleaning</a></li>
-										<li class="margin0"><a href="#">Uncleared Sidewalk</a></li>
+										<li contenteditable="true"><a href="#">Pay a Parking Ticket</a></li>
+										<li contenteditable="true"><a href="#">Building Violation</a></li>
+										<li contenteditable="true"><a href="#">Affordable Housing</a></li>
+										<li contenteditable="true"><a href="#">Graffiti Removal</a></li>
+										<li contenteditable="true"><a href="#">Civil Service Exams</a></li>
+										<li contenteditable="true"><a href="#">Rodent Baiting</a></li>
+										<li contenteditable="true" class="margin0"><a href="#">Cleaning</a></li>
+										<li contenteditable="true" class="margin0"><a href="#">Uncleared Sidewalk</a></li>
 									</ul>
 								</div>
 							</div>
@@ -183,20 +183,20 @@
 								<div class="city_request_row">
 									<span><i class="fa icon-shout"></i></span>
 									<div class="city_request_text">
-										<span>Recent</span>
-										<h4>Announcement</h4>
+										<span contenteditable="true">Recent</span>
+										<h4 contenteditable="true"> Announcement</h4>
 									</div>
 								</div>
 								<div class="city_request_link">
 									<ul>
-										<li><a href="#">Pay a Parking Ticket</a></li>
-										<li><a href="#">Building Violation</a></li>
-										<li><a href="#">Affordable Housing</a></li>
-										<li><a href="#">Graffiti Removal</a></li>
-										<li><a href="#">Civil Service Exams</a></li>
-										<li><a href="#">Rodent Baiting</a></li>
-										<li class="margin0"><a href="#">Cleaning</a></li>
-										<li class="margin0"><a href="#">Uncleared Sidewalk</a></li>
+										<li><a href="#" contenteditable="true">Pay a Parking Ticket</a></li>
+										<li><a href="#" contenteditable="true">Building Violation</a></li>
+										<li><a href="#" contenteditable="true">Affordable Housing</a></li>
+										<li><a href="#" contenteditable="true">Graffiti Removal</a></li>
+										<li><a href="#" contenteditable="true">Civil Service Exams</a></li>
+										<li><a href="#" contenteditable="true">Rodent Baiting</a></li>
+										<li class="margin0"><a href="#" contenteditable="true">Cleaning</a></li>
+										<li class="margin0"><a href="#" contenteditable="true">Uncleared Sidewalk</a></li>
 									</ul>
 								</div>
 							</div>

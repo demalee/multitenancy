@@ -33,23 +33,21 @@
                                 <li><a href="#">Pages</a>
                                     <ul class="sub-menu text-left">
 
-                                        <li><a href="{{url('issue')}}">issue 02</a></li>
-                                        <li><a href="{{url('issue-details')}}">issue details</a></li>
-                                        <li><a href="{{url('donation-form')}}">donation form</a></li>
-                                        <li><a href="{{url('donation-landing')}}">donation landing</a></li>
-                                        <li><a href="{{url('donation-details')}}">donation details</a></li>
-                                        <li><a href="{{url('our-volunteer')}}">our volunteer</a></li>
-                                        <li><a href="{{url('volunteer-become')}}">volunteer become</a></li>
-                                        <li><a href="{{url('biography')}}">biography</a></li>
-                                        <li><a href="{{url('faq')}}">faq</a></li>
+                                        <li><a href="{{url('issue')}}">issues</a></li>
+
+                                        <li><a href="{{url('donation')}}">donation</a></li>
+
+
+                                        <li><a href="{{url('volunteer')}}" contenteditable="true">our volunteer</a></li>
+                                        <li><a href="{{url('biography')}}" contenteditable="true">biography</a></li>
+                                        <li><a href="{{url('faq')}}" contenteditable="true">faq</a></li>
 
                                     </ul>
                                 </li>
-                                <li><a href="{{url('blog-grid')}}">NEWS</a>
+                                <li><a href="{{url('blog')}}" >NEWS</a>
                                     <ul class="sub-menu text-left">
-                                        <li><a href="{{url('blog-grid')}}">blog grid</a></li>
-                                        <li><a href="{{url('blog-with-sidebar')}}">blog with sidebar</a></li>
-                                        <li><a href="{{url('blog-details')}}">blog details</a></li>
+                                        <li><a href="{{url('blog')}}">blog grid</a></li>
+
                                     </ul>
                                 </li>
                                 <li><a href="{{url('contact')}}">CONTACT US</a></li>

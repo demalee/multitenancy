@@ -11,10 +11,10 @@
 		<div class="overlay">
 			<div class="container">
 				<div class="page-header-content">
-					<h2>Campaign</h2>
+					<h2 contenteditable="true">Campaign</h2>
 					<ul class="breadcrumb">
-						<li><a href="#">Home</a></li>
-						<li>Campaign</li>
+						<li><a href="#" contenteditable="true">Home</a></li>
+						<li contenteditable="true">Campaign</li>
 					</ul>
 				</div>
 			</div>

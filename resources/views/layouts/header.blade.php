@@ -39,6 +39,12 @@
 
                     </li>
                     <li class="dropdown">
+                        <a class="nav-link menu-title" href="{{url('dashboard/block')}}"><i data-feather="shuffle"></i><span>Block</span>
+
+                        </a>
+
+                    </li>
+                    <li class="dropdown">
                         <a class="nav-link menu-title" href="{{url('home')}}"><i data-feather="eye"></i><span>Preview</span>
 
                         </a>

@@ -6,10 +6,10 @@
                 <div class="container">
                     <div class="page-top-wrap text-center">
                         <div class="page-top-inner">
-                            <h1 itemprop="headline">OUR VOLUNTEERS</h1>
+                            <h1 itemprop="headline" contenteditable="true">OUR VOLUNTEERS</h1>
                             <ol class="breadcrumb">
-                                <li class="breadcrumb-item"><a href="{{url('home')}}" title="" itemprop="url">Home</a></li>
-                                <li class="breadcrumb-item active">Our Volunteers</li>
+                                <li class="breadcrumb-item" contenteditable="true"><a href="{{url('home')}}" title="" itemprop="url">Home</a></li>
+                                <li class="breadcrumb-item active" contenteditable="true">Our Volunteers</li>
                             </ol>
                         </div>
                     </div>
@@ -27,8 +27,8 @@
                                         <a href="" title="" itemprop="url"><img src="{{asset('theme/country/assets/images/resources/member-img1.jpg')}}" alt="member-img1.jpg" itemprop="image"></a>
                                     </div>
                                     <div class="team-info">
-                                        <h5 itemprop="headline"><a href="" title="" itemprop="url">Philip Waren</a></h5>
-                                        <span class="theme-clr">CEO WX Interprize</span>
+                                        <h5 itemprop="headline"><a href="" title="" itemprop="url" contenteditable="true">Philip Waren</a></h5>
+                                        <span class="theme-clr" contenteditable="true">CEO WX Interprize</span>
                                         <div class="social-btns-wrap">
                                             <i class="fa fa-share-alt brd-rd50"></i>
                                             <div class="social-btns2">
@@ -47,8 +47,8 @@
                                         <a href="#" title="" itemprop="url"><img src="{{asset('theme/country/assets/images/resources/member-img2.jpg')}}" alt="member-img2.jpg" itemprop="image"></a>
                                     </div>
                                     <div class="team-info">
-                                        <h5 itemprop="headline"><a href="" title="" itemprop="url">Rubén Moya</a></h5>
-                                        <span class="theme-clr">UX Designer</span>
+                                        <h5 itemprop="headline"><a href="" title="" itemprop="url" contenteditable="true">Rubén Moya</a></h5>
+                                        <span class="theme-clr" contenteditable="true">UX Designer</span>
                                         <div class="social-btns-wrap">
                                             <i class="fa fa-share-alt brd-rd50"></i>
                                             <div class="social-btns2">
@@ -67,8 +67,8 @@
                                         <a href="#" title="" itemprop="url"><img src="{{asset('theme/country/assets/images/resources/member-img3.jpg')}}" alt="member-img3.jpg" itemprop="image"></a>
                                     </div>
                                     <div class="team-info">
-                                        <h5 itemprop="headline"><a href="#" title="" itemprop="url">David Bravo</a></h5>
-                                        <span class="theme-clr">Manager Political Affairs</span>
+                                        <h5 itemprop="headline"><a href="#" title="" itemprop="url" contenteditable="true">David Bravo</a></h5>
+                                        <span class="theme-clr" contenteditable="true">Manager Political Affairs</span>
                                         <div class="social-btns-wrap">
                                             <i class="fa fa-share-alt brd-rd50"></i>
                                             <div class="social-btns2">
@@ -87,8 +87,8 @@
                                         <a href="#" title="" itemprop="url"><img src="{{asset('theme/country/assets/images/resources/member-img4.jpg')}}" alt="member-img4.jpg" itemprop="image"></a>
                                     </div>
                                     <div class="team-info">
-                                        <h5 itemprop="headline"><a href="#" title="" itemprop="url">Robert van hex</a></h5>
-                                        <span class="theme-clr">UX Designer</span>
+                                        <h5 itemprop="headline"><a href="#" title="" itemprop="url" contenteditable="true">Robert van hex</a></h5>
+                                        <span class="theme-clr" contenteditable="true">UX Designer</span>
                                         <div class="social-btns-wrap">
                                             <i class="fa fa-share-alt brd-rd50"></i>
                                             <div class="social-btns2">
@@ -107,8 +107,8 @@
                                         <a href="#" title="" itemprop="url"><img src="{{asset('theme/country/assets/images/resources/member-img5.jpg')}}" alt="member-img5.jpg" itemprop="image"></a>
                                     </div>
                                     <div class="team-info">
-                                        <h5 itemprop="headline"><a href="#" title="" itemprop="url">Ashley Fletcher</a></h5>
-                                        <span class="theme-clr">CEO WX Interprize</span>
+                                        <h5 itemprop="headline"><a href="#" title="" itemprop="url" contenteditable="true">Ashley Fletcher</a></h5>
+                                        <span class="theme-clr" contenteditable="true">CEO WX Interprize</span>
                                         <div class="social-btns-wrap">
                                             <i class="fa fa-share-alt brd-rd50"></i>
                                             <div class="social-btns2">
@@ -127,8 +127,8 @@
                                         <a href="#" title="" itemprop="url"><img src="{{asset('theme/country/assets/images/resources/member-img6.jpg')}}" alt="member-img6.jpg" itemprop="image"></a>
                                     </div>
                                     <div class="team-info">
-                                        <h5 itemprop="headline"><a href="#" title="" itemprop="url">Greta Midler</a></h5>
-                                        <span class="theme-clr">Manager Political Affairs</span>
+                                        <h5 itemprop="headline" contenteditable="true"><a href="#" title="" itemprop="url">Greta Midler</a></h5>
+                                        <span class="theme-clr" contenteditable="true">Manager Political Affairs</span>
                                         <div class="social-btns-wrap">
                                             <i class="fa fa-share-alt brd-rd50"></i>
                                             <div class="social-btns2">
