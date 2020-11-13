@@ -30,7 +30,7 @@
                             </tr>
                             </thead>
                             <tbody>
-
+                            @if(@$setting)
                             <tr>
 
                                 <th >{{@$setting->brand_name}}</th>
@@ -50,10 +50,7 @@
 
                                 </td>
                             </tr>
-
-
-
-
+                            @endif
                             </tbody>
                         </table>
                     </div>

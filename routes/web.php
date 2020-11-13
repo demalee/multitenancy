@@ -30,6 +30,7 @@ Route::get('/theme-option', function () {
     Route::get('/dashboard/setting', function () {
         $website = \App\Models\Website::where('admin_id',auth()->id())->first();
         $setting = \App\Models\WebsiteSetting::where('website_id',$website->id)->first();
+//        dd($setting);
         return view('/dashboard/setting',compact('setting'));
     });
     Route::get('/dashboard/settings_edit', function () {
