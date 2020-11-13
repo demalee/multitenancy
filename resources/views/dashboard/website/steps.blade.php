@@ -41,7 +41,7 @@
 
                                         <div class="f1-step">
                                             <div class="f1-step-icon">4</div>
-                                            <p>Widgets</p>
+                                            <p>Settings</p>
                                         </div>
                                     </div>
 
@@ -173,7 +173,7 @@
                                             <div class="row">
 
                                                 <div class="col-md-2"></div>
-                                                <div class="col-md-6">
+                                                <div class="col-md-8">
 
 
 
@@ -181,38 +181,75 @@
                                                     <div class="card">
                                                         <div class="card-body">
 
-                                                                <h4><b>Add custom widgets
+                                                                <h4><b>Add Settings
                                                                     </b></h4>
 
-                                                                <p>Add widgets to make your website more ascetic and more
-                                                                    user friendly</p>
+                                                                <p>Add your company brand ,logo and favicon to make your organization unique</p>
                                                             <div class="form-group row mb-0">
                                                                 <div class="col-sm-12">
                                                                     <div class="form-group m-checkbox-inline mb-0" >
                                                         <!-- Bookmark Start-->
-                                                        <div class="bookmark ">
-                                                            <ul>
-                                                                <li><input type="checkbox" class="float-right"  name="page_id[]" value=""><a href="#" data-container="body" data-toggle="popover" data-placement="top" title="" data-original-title="Tables"><i data-feather="inbox"></i></a></li>
-                                                                <li><input type="checkbox" class="float-right"  name="page_id[]" value=""><a href="#" data-container="body" data-toggle="popover" data-placement="top" title="" data-original-title="Chat"><i data-feather="message-square"></i></a></li>
-                                                                <li><input type="checkbox" class="float-right"  name="page_id[]" value=""><a href="#" data-container="body" data-toggle="popover" data-placement="top" title="" data-original-title="Icons"><i data-feather="command"></i></a></li>
-                                                                <li><input type="checkbox" class="float-right"  name="page_id[]" value=""><a href="#" data-container="body" data-toggle="popover" data-placement="top" title="" data-original-title="Learning"><i data-feather="layers"></i></a></li>
+                                                                        <form class="form theme-form" method="post" action="{{url('dashboard/website/setting')}}" enctype="multipart/form-data">
+                                                                            @csrf
+                                                                            <div class="card-body">
+                                                                                <div class="row">
+                                                                                    <div class="col">
+                                                                                        <div class="form-group row">
+                                                                                            <label class="col-sm-3 col-form-label">Upload favicon</label>
+                                                                                            <div class="col-sm-9">
+                                                                                                <input class="form-control" type="file" name="favicon">
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="row">
+                                                                                    <div class="col">
+                                                                                        <div class="form-group row">
+                                                                                            <label class="col-sm-3 col-form-label">Upload Logo</label>
+                                                                                            <div class="col-sm-9">
+                                                                                                <input class="form-control" type="file" name="logo_name">
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="row">
+                                                                                    <div class="col">
+                                                                                        <div class="form-group row">
+                                                                                            <label class="col-sm-3 col-form-label">Brand Name</label>
+                                                                                            <div class="col-sm-9">
+                                                                                                <input class="form-control" name="brand_name" type="text" placeholder="Brand name">
+                                                                                            </div>
+                                                                                        </div></div></div>
 
-                                                            </ul>
-                                                        </div>
-                                                        <br><br>
+                                                                                <div class="row">
+                                                                                    <div class="col">
+                                                                                        <div class="form-group row">
+                                                                                            <label class="col-sm-3 col-form-label pt-0">Brand Color</label>
+                                                                                            <div class="col-sm-9">
+                                                                                                <input class="form-control" type="color" name="brand_color" value="#563d7c">
+                                                                                            </div>
+                                                                                        </div></div></div>
+                                                                                <br>
+                                                                                <center>  <div class="form-group">
+
+                                                                                        <button class="btn btn-primary" >View your Site</button>
+
+                                                                                    </div></center>
+                                                                            </div>
+
+                                                                        </form>
+
+
 
                                                         <!-- Bookmark Ends-->
                                                     </div>
                                                 </div>
+
                                             </div>
 
                                                             <!-- Container-fluid starts-->
 
-                                                            <div class="form-group">
 
-                                                                <button class="btn btn-primary" >View your Site</button>
-
-                                                            </div>
                                                            </div></div></div></div></div>
                                     </fieldset>
 
