@@ -43,16 +43,15 @@
                             <div class="mainmenu-content">
                                 <nav class="mainmenu__nav">
                                     <ul class="main__menu">
-                                        <li class="active"><a href="{{url('home')}}">Home</a></li>
-                                        <li><a href="{{url('about')}}">About</a></li>
-                                        <li><a href="{{url('services')}}">services</a></li>
+                                        @if(@$main_menu_items_count>0)
+                                            @foreach(@$menu_items as $menu_item)
+                                                <li><a href="{{url(@$menu_item->page->slug)}}">{{@$menu_item->page->title}}</a></li>
+                                            @endforeach
+                                        @endif
 
-                                        <li><a href="{{url('contact')}}">contact</a></li>
                                         <li><a href="#">pages</a>
                                             <ul>
-                                                <li>
-                                                    <a href="{{url('about')}}">about us</a>
-                                                </li>
+
                                                 <li>
                                                     <a href="{{url('gallery')}}">gallery</a>
                                                 </li>
@@ -62,9 +61,7 @@
                                                     <a href="{{url('blog')}}">blog sidebar</a>
                                                 </li>
 
-                                                <li>
-                                                    <a href="{{url('contact')}}">contact</a>
-                                                </li>
+
                                             </ul>
                                         </li>
                                         <li>
@@ -156,16 +153,14 @@
             <div class="mobile-menu clearfix">
                 <nav id="mobile_dropdown">
                     <ul class="">
-                        <li class="active"><a href="{{url('/')}}">Home</a></li>
-                        <li><a href="{{url('about-us')}}">About</a></li>
-                        <li><a href="{{url('service')}}">services</a></li>
-
-                        <li><a href="{{url('contact')}}">contact</a></li>
+                        @if(@$main_menu_items_count>0)
+                            @foreach(@$menu_items as $menu_item)
+                                <li><a href="{{url(@$menu_item->page->slug)}}">{{@$menu_item->page->title}}</a></li>
+                            @endforeach
+                        @endif
                         <li><a href="#">pages</a>
                             <ul>
-                                <li>
-                                    <a href="{{url('about-us')}}">about us</a>
-                                </li>
+
                                 <li>
                                     <a href="{{url('gallery')}}">gallery</a>
                                 </li>
@@ -175,9 +170,7 @@
                                     <a href="{{url('blog')}}">blog</a>
                                 </li>
 
-                                <li>
-                                    <a href="{{url('contact')}}">contact</a>
-                                </li>
+
                             </ul>
                         </li>
                         <li>

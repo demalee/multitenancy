@@ -52,8 +52,11 @@
                 <div class="col-md-9">
                     <div class="navigation">
                         <ul>
-                            <li><a href="{{url('home')}}">Home</a></li>
-                            <li><a href="{{url('services')}}">Services</a>
+                            @if(@$main_menu_items_count>0)
+                                @foreach(@$menu_items as $menu_item)
+                                    <li><a href="{{url(@$menu_item->page->slug)}}">{{@$menu_item->page->title}}</a></li>
+                                    @endforeach
+                                    @endif
 
                             </li>
                             <li><a href="#">Government</a>
@@ -90,7 +93,7 @@
                                     </li>
                                 </ul>
                             </li>
-                            <li><a href="{{url('contact')}}">Contact Us</a></li>
+
                             <li>
                                 <a  href="{{ url('main') }}">Dashboard</a>
                             </li>
@@ -100,7 +103,11 @@
                     <div id="kode-responsive-navigation" class="dl-menuwrapper">
                         <button class="dl-trigger">Open Menu</button>
                         <ul class="dl-menu">
-                            <li><a href="{{url('home')}}">Home</a></li>
+                            @if(@$main_menu_items_count>0)
+                                @foreach(@$menu_items as $menu_item)
+                                    <li><a href="{{url(@$menu_item->page->slug)}}">{{@$menu_item->page->title}}</a></li>
+                                @endforeach
+                            @endif     <li><a href="{{url('home')}}">Home</a></li>
                             <li><a href="{{url('services')}}">Services</a>
 
                             </li>
@@ -138,7 +145,6 @@
                                     </li>
                                 </ul>
                             </li>
-                            <li><a href="{{url('contact')}}">Contact Us</a></li>
                             <li>
                                 <a  href="{{ url('main') }}">Dashboard</a>
                             </li>

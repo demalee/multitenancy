@@ -76,21 +76,21 @@ class PageSeeder extends Seeder
         }
 
         //only in specific theme
-        $blog_themes = [2,3,5];
-        foreach ($blog_themes as $theme)
-        {
-            if ($theme->id == 1)
-            Page::create(
-                [
-                    'title'=>'Blog',
-                    'slug'=>'blog',
-                    'page_description'=>'blog page',
-                    'content'=>'blog page content',
-                    'theme_id'=>$theme,
-                    'parent_page'=>0
-                ]
-            );
-        }
+//        $blog_themes = [2,3,5];
+//        foreach ($blog_themes as $theme)
+//        {
+//            if ($theme->id == 1)
+//            Page::create(
+//                [
+//                    'title'=>'Blog',
+//                    'slug'=>'blog',
+//                    'page_description'=>'blog page',
+//                    'content'=>'blog page content',
+//                    'theme_id'=>$theme,
+//                    'parent_page'=>0
+//                ]
+//            );
+//        }
 
 
     }

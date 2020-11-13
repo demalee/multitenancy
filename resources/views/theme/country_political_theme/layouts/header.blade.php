@@ -37,9 +37,11 @@
             <nav class="brd-rd5 theme-bg">
                 <div>
                     <ul>
-                        <li class="menu-item-has-children"><a href="{{url('home')}}" title="" itemprop="url">HOME</a>
-
-                        </li>
+                        @if(@$main_menu_items_count>0)
+                            @foreach(@$menu_items as $menu_item)
+                                <li><a href="{{url(@$menu_item->page->slug)}}">{{@$menu_item->page->title}}</a></li>
+                            @endforeach
+                        @endif
 
                         <li class="menu-item-has-children"><a href="#" title="" itemprop="url">PAGES</a>
                             <ul>
@@ -63,10 +65,6 @@
                             </ul>
                         </li>
 
-
-
-                        <li><a href="{{url('about')}}" title="" itemprop="url">ABOUT US</a></li>
-                        <li><a href="{{url('contact')}}" title="" itemprop="url">CONTACT</a>
                         <li><a href="{{url('main')}}" title="" itemprop="url">DASHBOARD</a>
 
                         </li>
