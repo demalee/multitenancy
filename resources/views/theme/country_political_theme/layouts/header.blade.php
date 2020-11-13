@@ -9,7 +9,18 @@
     <div class="header-top">
         <div class="container">
             <div class="header-top-inner">
-                <div class="logo"><a href="{{url('home')}}" title="" itemprop="url"><img src="{{asset('theme/country/assets/images/logo.png')}}" alt="logo.png" itemprop="image"></a></div>
+                <div class="logo">
+                    @if(@$website_setting->logo_name)
+                        <a href="{{url('home')}}"><img src="{{asset('images/'.@$website_setting->logo_name) }}" alt=""
+                                                       style="width: 50px;height: 50px; ">
+                            @if(@$website_setting->brand_name)
+                                <span style="color: {{@$website_setting->brand_color ?? ''}}" class="ml-3">{{@$website_setting->brand_name}}</span>
+                            @endif
+                        </a>
+                    @else
+                        <a href="{{url('home')}}" title="" itemprop="url"><img src="{{asset('theme/country/assets/images/logo.png')}}" alt="logo.png" itemprop="image"></a>
+                @endif
+                </div>
                 <div class="top-links">
                     <a href="#" title=""><i class="fa fa-sign-in theme-clr"></i> Login</a>
                     <a href="#" title=""><i class="fa fa-user theme-clr"></i> Sign Up</a>

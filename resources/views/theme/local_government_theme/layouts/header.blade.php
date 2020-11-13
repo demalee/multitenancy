@@ -6,10 +6,10 @@
                 <figure>
                     <h4>
 {{--                        <a href="#"><img src="{{asset('theme/local/images/top-logo.png')}}" alt="kodeforest"></a>--}}
-                        @if($website_setting->logo_name)
+                        @if(@$website_setting->logo_name)
                             <a href="{{url('home')}}"><img src="{{asset('images/'.@$website_setting->logo_name) }}" alt=""
                                                            style="width: 50px;height: 50px; ">
-                                @if($website_setting->brand_name)
+                                @if(@$website_setting->brand_name)
                                     <span style="color: {{@$website_setting->brand_color ?? ''}}" class="ml-3">{{@$website_setting->brand_name}}</span>
                                 @endif
                             </a>

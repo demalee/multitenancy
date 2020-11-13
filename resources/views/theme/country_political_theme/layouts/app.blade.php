@@ -7,12 +7,13 @@
     <meta name="description" content="" />
     <meta name="keywords" content="" />
     <title>
-        @if($website_setting)
-            @if($website_setting->brand_name)
+        @if(@$website_setting)
+            @if(@$website_setting->brand_name)
                 {{@$website_setting->brand_name}}
-            @else
-                Country
+
             @endif
+        @else
+            Country
         @endif
     </title>
 

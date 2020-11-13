@@ -149,6 +149,10 @@ class WebsiteController extends Controller
 
                     DB::table('menu_items')->where('menu_id', @$menu->id)->delete();
                     foreach ($data['page_id'] as $page_id) {
+                        if ($page_id == null)
+                        {
+                            continue;
+                        }
 //                        $pages = Page::where('slug',$page_id)->first();
                         $menu_item = MenuItem::updateorcreate([
                             'menu_id' => @$menu->id,
