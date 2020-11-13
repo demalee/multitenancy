@@ -23,6 +23,7 @@
                                 <th scope="col">Brand name</th>
                                 <th scope="col">Favicon</th>
                                 <th scope="col">Logo</th>
+                                <th scope="col">Color</th>
                                 <th scope="col">Edit</th>
                                 <th scope="col" >Delete</th>
 
@@ -32,9 +33,10 @@
 
                             <tr>
 
-                                <th >Republic</th>
-                                <td>favicon image</td>
-                                <td>Logo image</td>
+                                <th >{{@$setting->brand_name}}</th>
+                                <td><img src="{{asset('images/'.@$setting->favicon)}}" alt="" style="width: 32px;height: 32px"></td>
+                                <td><img src="{{asset('images/'.@$setting->logo_name)}}" alt="" style="width: 32px;height: 32px"></td>
+                                <td style="background: {{@$setting->brand_color}}"><span style="color: white">{{@$setting->brand_color}}</span></td>
                                 <td>
 
                                     <a class="btn btn-pill btn-primary btn-air-secondary btn-sm" href="">Edit</a>

@@ -44,30 +44,29 @@ class WebsiteController extends Controller
         //favicon
         if (isset($data['favicon']))
         {
-            $attach = time() . '.' . request()->favicon->getClientOriginalExtension();
+            $attach = time() . '-favicon.' . request()->favicon->getClientOriginalExtension();
             request()->favicon->move(public_path('images'), $attach);
             $favicon_url = env('APP_URL')."/images/".$attach;
-            $favicon = $attach;
+            $data['favicon'] = $attach;
         }
 
         //brand color
         if (isset($data['logo_name']))
         {
-            $attach1 = time() . '.' . request()->logo_name->getClientOriginalExtension();
+            $attach1 = time(). '-logo.' . request()->logo_name->getClientOriginalExtension();
             request()->logo_name->move(public_path('images'), $attach1);
             $logo_url = env('APP_URL')."/images/".$attach1;
-            $logo_name = $attach1;
+            $data['logo_name'] = $attach1;
         }
-
         $website_settings = WebsiteSetting::updateorcreate(
             [
                 'website_id'=>$website->id
             ],
             [
-                'favicon'=>$favicon,
-                'brand_name'=>$data['brand_name'],
-                'brand_color'=>$data['brand_color'],
-                'logo_name'=>$logo_name,
+                'favicon'=>@$data['favicon'],
+                'brand_name'=>@$data['brand_name'],
+                'brand_color'=>@$data['brand_color'],
+                'logo_name'=>@$data['logo_name'],
             ]);
         if ($website_settings)
         {
@@ -93,12 +92,12 @@ class WebsiteController extends Controller
         $data = $request->all();
 //        dd($data);
         $validate = Validator::make($data, [
-            'f1-first-name' => 'required',
-            'description' => 'required'
+            'f1-first-name' => 'required|unique:website,name',
+            'description' => 'required',
         ]);
 
         if ($validate->fails()) {
-            return back();
+            return back()->with('error','Error occurred, website name must be unique');
         } else {
             $website = Website::where('admin_id', auth()->id())->first();
 //            dd($website);
@@ -163,6 +162,34 @@ class WebsiteController extends Controller
                             'slug' => \Illuminate\Support\Str::slug(@$menu->name)
                         ]);
                     }
+
+                    //favicon
+                    if (isset($data['favicon']))
+                    {
+                        $attach = time() . '-favicon.' . request()->favicon->getClientOriginalExtension();
+                        request()->favicon->move(public_path('images'), $attach);
+                        $favicon_url = env('APP_URL')."/images/".$attach;
+                        $data['favicon'] = $attach;
+                    }
+
+                    //brand color
+                    if (isset($data['logo_name']))
+                    {
+                        $attach1 = time(). '-logo.' . request()->logo_name->getClientOriginalExtension();
+                        request()->logo_name->move(public_path('images'), $attach1);
+                        $logo_url = env('APP_URL')."/images/".$attach1;
+                        $data['logo_name'] = $attach1;
+                    }
+                    $website_settings = WebsiteSetting::updateorcreate(
+                        [
+                            'website_id'=>$website->id
+                        ],
+                        [
+                            'favicon'=>@$data['favicon'],
+                            'brand_name'=>@$data['brand_name'],
+                            'brand_color'=>@$data['brand_color'],
+                            'logo_name'=>@$data['logo_name'],
+                        ]);
 
                     return redirect('/home');
 

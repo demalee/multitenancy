@@ -28,7 +28,9 @@ Route::get('/theme-option', function () {
         return view('/dashboard/block');
     });
     Route::get('/dashboard/setting', function () {
-        return view('/dashboard/setting');
+        $website = \App\Models\Website::where('admin_id',auth()->id())->first();
+        $setting = \App\Models\WebsiteSetting::where('website_id',$website->id)->first();
+        return view('/dashboard/setting',compact('setting'));
     });
     Route::get('/dashboard/settings_edit', function () {
         return view('/dashboard/settings_edit');
