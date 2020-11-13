@@ -92,7 +92,7 @@ class WebsiteController extends Controller
         $data = $request->all();
 //        dd($data);
         $validate = Validator::make($data, [
-            'f1-first-name' => 'required|unique:website,name',
+            'f1-first-name' => 'required|unique:websites,name',
             'description' => 'required',
         ]);
 

@@ -13,7 +13,7 @@
                     <div class="col-lg-12">
                         <div class="card">
                             <div class="card-body">
-                                <form class="f1" method="post" action="{{route('websites.store')}}">
+                                <form class="f1" method="post" action="{{route('websites.store')}}" enctype="multipart/form-data">
                                     @csrf
 
                                     <div class="f1-steps">
@@ -189,8 +189,7 @@
                                                                 <div class="col-sm-12">
                                                                     <div class="form-group m-checkbox-inline mb-0" >
                                                         <!-- Bookmark Start-->
-                                                                        <form class="form theme-form" method="post" action="{{url('dashboard/website/setting')}}" enctype="multipart/form-data">
-                                                                            @csrf
+
                                                                             <div class="card-body">
                                                                                 <div class="row">
                                                                                     <div class="col">
@@ -237,7 +236,6 @@
                                                                                     </div></center>
                                                                             </div>
 
-                                                                        </form>
 
 
 
