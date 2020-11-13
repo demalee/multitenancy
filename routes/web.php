@@ -27,6 +27,12 @@ Route::get('/theme-option', function () {
     Route::get('/dashboard/block', function () {
         return view('/dashboard/block');
     });
+    Route::get('/dashboard/setting', function () {
+        return view('/dashboard/setting');
+    });
+    Route::get('/dashboard/settings_edit', function () {
+        return view('/dashboard/settings_edit');
+    });
 Route::get('/custom-css', function () {
     return view('/custom-css');
 });

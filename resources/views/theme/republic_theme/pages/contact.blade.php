@@ -9,10 +9,10 @@
                     <div class="row">
                         <div class="col-md-12">
                             <div class="bradcamb-content text-center text-white">
-                                <h1>contact us</h1>
+                                <h1 contenteditable="true">contact us</h1>
                                 <ul>
-                                    <li><a href="index.html">home <span>//</span></a></li>
-                                    <li>contact us</li>
+                                    <li contenteditable="true"><a href="index.html">home <span>//</span></a></li>
+                                    <li contenteditable="true">contact us</li>
                                 </ul>
                             </div>
                         </div>
@@ -43,8 +43,8 @@
                                         <i class="zmdi zmdi-home"></i>
                                     </div>
                                     <div class="communication-text">
-                                        <h3>Address:</h3>
-                                        <p>Miata 309 S Main St,Stafford, KS 67578</p>
+                                        <h3 contenteditable="true">Address:</h3>
+                                        <p contenteditable="true">Miata 309 S Main St,Stafford, KS 67578</p>
                                     </div>
                                 </div>
                                 <div class="single-communication">
@@ -53,7 +53,7 @@
                                     </div>
                                     <div class="communication-text">
                                         <h3>Phone:</h3>
-                                        <p>0123 456 789   -   15 2368 4597</p>
+                                        <p contenteditable="true">0123 456 789   -   15 2368 4597</p>
                                     </div>
                                 </div>
                                 <div class="single-communication">
@@ -61,8 +61,8 @@
                                         <i class="zmdi zmdi-email-open"></i>
                                     </div>
                                     <div class="communication-text">
-                                        <h3>Fax:</h3>
-                                        <p>0123 456 789   -   15 2368 4597</p>
+                                        <h3 contenteditable="true">Fax:</h3>
+                                        <p contenteditable="true">0123 456 789   -   15 2368 4597</p>
                                     </div>
                                 </div>
                                 <div class="single-communication">

@@ -10,10 +10,10 @@
 		<div class="overlay">
 			<div class="container">
 				<div class="page-header-content">
-					<h2>Shop Page</h2>
+					<h2 contenteditable="true">Shop Page</h2>
 					<ul class="breadcrumb">
-						<li><a href="#">Home</a></li>
-						<li>Shop Page</li>
+						<li contenteditable="true"><a href="#">Home</a></li>
+						<li contenteditable="true">Shop Page</li>
 					</ul>
 				</div>
 			</div>
@@ -30,8 +30,8 @@
 			<div class="row">
 				<div class="col-lg-8 main-content">
 					<div class="shop-heading">
-						<h3 class="pull-left">Shop</h3>
-						<span class="pull-right">Showing 1-6 of 23 results</span>
+						<h3 class="pull-left" contenteditable="true">Shop</h3>
+						<span class="pull-right" contenteditable="true">Showing 1-6 of 23 results</span>
 					</div>
 					<div class="shop-product-list row justify-content-center">
 						<div class="col-sm-6 col-lg-4">
@@ -39,12 +39,12 @@
 								<div class="product-thumb">
 									<a href="#"><img src="{{asset('theme/political/assets/images/homepage2/products/01.jpg')}}" alt="product"></a>
 									<div class="add-cart">
-										<a href="#" class="custom-btn">Add To Cart</a>
+										<a href="#" class="custom-btn" contenteditable="true">Add To Cart</a>
 									</div>
 								</div>
 								<div class="product-content">
-									<h5 class="name"><a href="#">New Brand T-Shirt</a></h5>
-									<p class="price">$450.00</p>
+									<h5 class="name"><a href="#" contenteditable="true"> New Brand T-Shirt</a></h5>
+									<p class="price" contenteditable="true">$450.00</p>
 								</div>
 							</div>
 						</div>
@@ -53,12 +53,12 @@
 								<div class="product-thumb">
 									<a href="#"><img src="{{asset('theme/political/assets/images/homepage2/products/02.jpg')}}" alt="product"></a>
 									<div class="add-cart">
-										<a href="#" class="custom-btn">Add To Cart</a>
+										<a href="#" class="custom-btn" contenteditable="true">Add To Cart</a>
 									</div>
 								</div>
 								<div class="product-content">
-									<h5 class="name"><a href="#">New Brand T-Shirt</a></h5>
-									<p class="price">$450.00</p>
+									<h5 class="name"><a href="#" contenteditable="true">New Brand T-Shirt</a></h5>
+									<p class="price" contenteditable="true">$450.00</p>
 								</div>
 							</div>
 						</div>
@@ -67,12 +67,12 @@
 								<div class="product-thumb">
 									<a href="#"><img src="{{asset('theme/political/assets/images/homepage2/products/03.jpg')}}" alt="product"></a>
 									<div class="add-cart">
-										<a href="#" class="custom-btn">Add To Cart</a>
+										<a href="#" class="custom-btn" contenteditable="true">Add To Cart</a>
 									</div>
 								</div>
 								<div class="product-content">
-									<h5 class="name"><a href="#">New Brand T-Shirt</a></h5>
-									<p class="price">$450.00</p>
+									<h5 class="name"><a href="#" contenteditable="true">New Brand T-Shirt</a></h5>
+									<p class="price" contenteditable="true">$450.00</p>
 								</div>
 							</div>
 						</div>
@@ -81,12 +81,12 @@
 								<div class="product-thumb">
 									<a href="#"><img src="{{asset('theme/political/assets/images/homepage2/products/04.jpg')}}" alt="product"></a>
 									<div class="add-cart">
-										<a href="#" class="custom-btn">Add To Cart</a>
+										<a href="#" class="custom-btn" contenteditable="true">Add To Cart</a>
 									</div>
 								</div>
 								<div class="product-content">
-									<h5 class="name"><a href="#">New Brand T-Shirt</a></h5>
-									<p class="price">$450.00</p>
+									<h5 class="name"><a href="#" contenteditable="true">New Brand T-Shirt</a></h5>
+									<p class="price" contenteditable="true">$450.00</p>
 								</div>
 							</div>
 						</div>
@@ -95,12 +95,12 @@
 								<div class="product-thumb">
 									<a href="#"><img src="{{asset('theme/political/assets/images/homepage2/products/01.jpg')}}" alt="product"></a>
 									<div class="add-cart">
-										<a href="#" class="custom-btn">Add To Cart</a>
+										<a href="#" class="custom-btn" contenteditable="true">Add To Cart</a>
 									</div>
 								</div>
 								<div class="product-content">
-									<h5 class="name"><a href="#">New Brand T-Shirt</a></h5>
-									<p class="price">$450.00</p>
+									<h5 class="name"><a href="#" contenteditable="true">New Brand T-Shirt</a></h5>
+									<p class="price" contenteditable="true"> $450.00</p>
 								</div>
 							</div>
 						</div>
@@ -109,12 +109,12 @@
 								<div class="product-thumb">
 									<a href="#"><img src="{{asset('theme/political/assets/images/homepage2/products/02.jpg')}}" alt="product"></a>
 									<div class="add-cart">
-										<a href="#" class="custom-btn">Add To Cart</a>
+										<a href="#" class="custom-btn" contenteditable="true">Add To Cart</a>
 									</div>
 								</div>
 								<div class="product-content">
-									<h5 class="name"><a href="#">New Brand T-Shirt</a></h5>
-									<p class="price">$450.00</p>
+									<h5 class="name"><a href="#" contenteditable="true">New Brand T-Shirt</a></h5>
+									<p class="price" contenteditable="true">$450.00</p>
 								</div>
 							</div>
 						</div>
@@ -151,7 +151,7 @@
 											<i class="fa fa-star"></i>
 											<i class="fa fa-star color"></i>
 										</div>
-										<p class="price">$450.00</p>
+										<p class="price" contenteditable="true">$450.00</p>
 									</div>
 								</li>
 								<li class="product-item">
@@ -159,7 +159,7 @@
 										<a href="#"><img src="{{asset('theme/political/assets/images/shop/sidebar/02.jpg')}}" alt="product"></a>
 									</div>
 									<div class="product-content">
-										<h5 class="name"><a href="#">New Brand T-Shirt</a></h5>
+										<h5 class="name"><a href="#" contenteditable="true">New Brand T-Shirt</a></h5>
 										<div class="rating">
 											<i class="fa fa-star"></i>
 											<i class="fa fa-star"></i>
@@ -175,7 +175,7 @@
 										<a href="#"><img src="{{asset('theme/political/assets/images/shop/sidebar/01.jpg')}}" alt="product"></a>
 									</div>
 									<div class="product-content">
-										<h5 class="name"><a href="#">New Brand T-Shirt</a></h5>
+										<h5 class="name"><a href="#" contenteditable="true">New Brand T-Shirt</a></h5>
 										<div class="rating">
 											<i class="fa fa-star"></i>
 											<i class="fa fa-star"></i>
@@ -191,7 +191,7 @@
 										<a href="#"><img src="{{asset('theme/political/assets/images/shop/sidebar/02.jpg')}}" alt="product"></a>
 									</div>
 									<div class="product-content">
-										<h5 class="name"><a href="#">New Brand T-Shirt</a></h5>
+										<h5 class="name"><a href="#" contenteditable="true">New Brand T-Shirt</a></h5>
 										<div class="rating">
 											<i class="fa fa-star"></i>
 											<i class="fa fa-star"></i>
@@ -199,7 +199,7 @@
 											<i class="fa fa-star"></i>
 											<i class="fa fa-star color"></i>
 										</div>
-										<p class="price">$450.00</p>
+										<p class="price" contenteditable="true">$450.00</p>
 									</div>
 								</li>
 							</ul>

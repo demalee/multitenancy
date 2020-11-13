@@ -9,10 +9,10 @@
 		<div class="overlay">
 			<div class="container">
 				<div class="page-header-content">
-					<h2>Contact Us</h2>
+					<h2  contenteditable="true">Contact Us</h2>
 					<ul class="breadcrumb">
-						<li><a href="#">Home</a></li>
-						<li>Contact Us</li>
+						<li><a href="#"  contenteditable="true">Home</a></li>
+						<li  contenteditable="true">Contact Us</li>
 					</ul>
 				</div>
 			</div>
@@ -30,30 +30,30 @@
 					<div class="row justify-content-center">
 						<div class="col-lg-4">
 							<div class="contact-info">
-								<h3>Contact Info</h3>
+								<h3  contenteditable="true">Contact Info</h3>
 								<ul class="contact-info-list">
 									<li>
 										<div class="contact-info-item">
 											<span class="icon"><i class="fa fa-map-marker"></i></span>
-											<span class="text">Wilson, North Koroline, USA</span>
+											<span class="text"  contenteditable="true">Wilson, North Koroline, USA</span>
 										</div>
 									</li>
 									<li>
 										<div class="contact-info-item">
 											<span class="icon"><i class="fa fa-phone"></i></span>
-											<span class="text">0847 87443837 <br> 0847 87478373</span>
+											<span class="text"  contenteditable="true">0847 87443837 <br> 0847 87478373</span>
 										</div>
 									</li>
 									<li>
 										<div class="contact-info-item">
 											<span class="icon"><i class="fa fa-envelope"></i></span>
-											<span class="text">contactinfo@yourmail.com <br> websiteinfo.com</span>
+											<span class="text"  contenteditable="true">contactinfo@yourmail.com <br> websiteinfo.com</span>
 										</div>
 									</li>
 									<li>
 										<div class="contact-info-item">
 											<span class="icon"><i class="fa fa-envelope"></i></span>
-											<span class="text">websiteinfo.com</span>
+											<span class="text"  contenteditable="true">websiteinfo.com</span>
 										</div>
 									</li>
 								</ul>
@@ -61,7 +61,7 @@
 						</div>
 						<div class="col-lg-8">
 							<div class="ccr-section">
-								<h3 class="section-title">Leave a Comment</h3>
+								<h3 class="section-title"  contenteditable="true">Leave a Comment</h3>
 								<div class="comment-response">
 									<form action="#">
 										<input type="text" class="name" name="name" placeholder="Name">
