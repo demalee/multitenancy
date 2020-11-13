@@ -11,10 +11,10 @@
 		<div class="overlay">
 			<div class="container">
                 <div class="page-header-content">
-                    <h2>Product Detail Page</h2>
+                    <h2  contenteditable="true">Product Detail Page</h2>
                     <ul class="breadcrumb">
-                        <li><a href="#">Home</a></li>
-                        <li>Product Detail Page</li>
+                        <li  contenteditable="true"><a href="#">Home</a></li>
+                        <li  contenteditable="true">Product Detail Page</li>
                     </ul>
                 </div>
 			</div>
@@ -36,7 +36,7 @@
                 </div>
                 <div class="col-lg-6">
                     <div class="product-info pl-lg-4">
-                        <h3 class="name">New Brand T-Shirt</h3>
+                        <h3 class="name"  contenteditable="true">New Brand T-Shirt</h3>
                         <div class="review">
                             <div class="rating">
                                 <i class="fa fa-star"></i>
@@ -52,11 +52,11 @@
                                     <i class="fa fa-star-half"></i>
                                 </div>
                             </div>
-                            <span>(12 customer Reviews)</span>
+                            <span  contenteditable="true">(12 customer Reviews)</span>
                             <a href="#" class="ml-2"><i class="fa fa-pencil" aria-hidden="true"></i> Add Review</a>
                         </div>
-                        <div class="price">$225.00</div>
-                        <p>Dramatic actualize economi sound potential through platform empowerment. Proactively go forward web service before strategic web service. Professional fashion reliable markets through state of paradigms. Authoritative enhance 24/7 imperatives with frictionless.</p>
+                        <div class="price"  contenteditable="true">$225.00</div>
+                        <p  contenteditable="true">Dramatic actualize economi sound potential through platform empowerment. Proactively go forward web service before strategic web service. Professional fashion reliable markets through state of paradigms. Authoritative enhance 24/7 imperatives with frictionless.</p>
                         <div class="p-item-counter">
                             <div class="cart-plus-minus">
                                 <div class="dec qtybutton">-</div>
@@ -76,9 +76,9 @@
                 <div class="tab-content">
                     <div role="tabpanel" class="tab-pane" id="description">
                         <div class="product-dr-content">
-                            <p>Dramatic actualize economi sound potential through platform empowerment. Proactively go forward web service before strategic web service. Professional fashion reliable markets through state of paradigms. Authoritative enhance 24/7 imperatives with frictionless. platform empowerment. Proactively go forward web service before strategic web service. Professional fashion reliable markets through state of paradigms</p>
-                            <p>Dramatic actualize economi sound potential through platform empowerment. Proactively go forward web service before strategic web service. Professional fashion reliable markets through state of paradigms. Authoritative enhance 24/7 imperatives with frictionless.</p>
-                            <p>Dramatic actualize economi soundplatform empowerment. Proactively go forward web service before strategic web service. Professional fashion reliable markets through state of paradigms potential through platform empowerment. Proactively go forward web service before strategic web service. Professional fashion reliable markets through state of paradigms. Authoritative enhance 24/7 imperatives with frictionless.</p>
+                            <p  contenteditable="true">Dramatic actualize economi sound potential through platform empowerment. Proactively go forward web service before strategic web service. Professional fashion reliable markets through state of paradigms. Authoritative enhance 24/7 imperatives with frictionless. platform empowerment. Proactively go forward web service before strategic web service. Professional fashion reliable markets through state of paradigms</p>
+                            <p  contenteditable="true">Dramatic actualize economi sound potential through platform empowerment. Proactively go forward web service before strategic web service. Professional fashion reliable markets through state of paradigms. Authoritative enhance 24/7 imperatives with frictionless.</p>
+                            <p  contenteditable="true">Dramatic actualize economi soundplatform empowerment. Proactively go forward web service before strategic web service. Professional fashion reliable markets through state of paradigms potential through platform empowerment. Proactively go forward web service before strategic web service. Professional fashion reliable markets through state of paradigms. Authoritative enhance 24/7 imperatives with frictionless.</p>
                         </div>
                     </div>
                     <div role="tabpanel" class="tab-pane active" id="reviews">
@@ -89,8 +89,8 @@
                                         <img src="{{asset('theme/political/assets/images/product-detail/review/01.jpg')}}" alt="reviewer-image">
                                     </div>
                                     <div class="review-content">
-                                        <div class="name"><a href="#">Hames Alex</a><span>Jan 8, 2016</span></div>
-                                        <p>Dramatic actualize economi soundplatform empowerment. Proactively go forward web service before strategic web service. Professional fashion reliable markets thr</p>
+                                        <div class="name"><a href="#" contenteditable="true">Hames Alex</a><span>Jan 8, 2016</span></div>
+                                        <p contenteditable="true">Dramatic actualize economi soundplatform empowerment. Proactively go forward web service before strategic web service. Professional fashion reliable markets thr</p>
                                     </div>
                                     <div class="review">
                                         <div class="rating">
@@ -113,8 +113,8 @@
                                         <img src="{{asset('theme/political/assets/images/product-detail/review/02.jpg')}}" alt="reviewer-image">
                                     </div>
                                     <div class="review-content">
-                                        <div class="name"><a href="#">Hames Alex</a><span>Jan 8, 2016</span></div>
-                                        <p>Dramatic actualize economi soundplatform empowerment. Proactively go forward web service before strategic web service. Professional fashion reliable markets thr</p>
+                                        <div class="name"><a href="#" contenteditable="true">Hames Alex</a><span>Jan 8, 2016</span></div>
+                                        <p contenteditable="true">Dramatic actualize economi soundplatform empowerment. Proactively go forward web service before strategic web service. Professional fashion reliable markets thr</p>
                                     </div>
                                     <div class="review">
                                         <div class="rating">
@@ -137,8 +137,8 @@
                                         <img src="{{asset('theme/political/assets/images/product-detail/review/03.jpg')}}" alt="reviewer-image">
                                     </div>
                                     <div class="review-content">
-                                        <div class="name"><a href="#">Hames Alex</a><span>Jan 8, 2016</span></div>
-                                        <p>Dramatic actualize economi soundplatform empowerment. Proactively go forward web service before strategic web service. Professional fashion reliable markets thr</p>
+                                        <div class="name"><a href="#" contenteditable="true">Hames Alex</a><span>Jan 8, 2016</span></div>
+                                        <p contenteditable="true">Dramatic actualize economi soundplatform empowerment. Proactively go forward web service before strategic web service. Professional fashion reliable markets thr</p>
                                     </div>
                                     <div class="review">
                                         <div class="rating">
@@ -162,8 +162,8 @@
                                         <img src="{{asset('theme/political/assets/images/product-detail/review/04.jpg')}}" alt="reviewer-image">
                                     </div>
                                     <div class="review-content">
-                                        <div class="name"><a href="#">Hames Alex</a><span>Jan 8, 2016</span></div>
-                                        <p>Dramatic actualize economi soundplatform empowerment. Proactively go forward web service before strategic web service. Professional fashion reliable markets thr</p>
+                                        <div class="name"><a href="#" contenteditable="true">Hames Alex</a><span>Jan 8, 2016</span></div>
+                                        <p contenteditable="true">Dramatic actualize economi soundplatform empowerment. Proactively go forward web service before strategic web service. Professional fashion reliable markets thr</p>
                                     </div>
                                     <div class="review">
                                         <div class="rating">

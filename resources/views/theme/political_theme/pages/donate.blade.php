@@ -10,10 +10,10 @@
 		<div class="overlay">
 			<div class="container">
 				<div class="page-header-content">
-					<h2>Donate</h2>
+					<h2  contenteditable="true">Donate</h2>
 					<ul class="breadcrumb">
-						<li><a href="#">Home</a></li>
-						<li>Contact Us</li>
+						<li  contenteditable="true"><a href="#">Home</a></li>
+						<li  contenteditable="true">Contact Us</li>
 					</ul>
 				</div>
 			</div>
@@ -29,16 +29,16 @@
 		<div class="container">
 			<div class="donate-details-area">
 				<div class="donate-details-header">
-					<p>Please Complete Your Secure Donation for this Cause. If you feel any question please contact with us Call: <span>+880 1234 567890</span> or Email: <span>contact@yourmail.com</span></p>
+					<p  contenteditable="true">Please Complete Your Secure Donation for this Cause. If you feel any question please contact with us Call: <span>+880 1234 567890</span> or Email: <span>contact@yourmail.com</span></p>
 				</div>
 				<div class="ddc-content-wrapper">
 					<div class="section-head">
-						<h2>Donate Here for This Causes</h2>
+						<h2  contenteditable="true">Donate Here for This Causes</h2>
 					</div>
 					<div class="row justify-content-center">
 						<div class="col-lg-6">
 							<div class="donate-amount">
-								<h5>Donate Now</h5>
+								<h5  contenteditable="true">Donate Now</h5>
 								<label class="amount"><strong>30</strong> USD</label>
 								<label class="amount"><strong>50</strong> USD</label>
 								<label class="amount"><strong>70</strong> USD</label>
@@ -47,7 +47,7 @@
 						</div>
 						<div class="col-lg-6">
 							<div class="donate-amount">
-								<h5>Your Donation</h5>
+								<h5  contenteditable="true">Your Donation</h5>
 								<select name="monthly silection">
 									<option value="month">Monthly</option>
 									<option value="month1">January</option>
@@ -70,7 +70,7 @@
 						</div>
 						<div class="col-12">
 							<div class="payment-info">
-								<h5>Payment Info</h5>
+								<h5  contenteditable="true">Payment Info</h5>
 
 								<form action="#">
 									<div class="row">

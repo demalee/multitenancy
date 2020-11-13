@@ -9,10 +9,10 @@
                     <div class="row">
                         <div class="col-md-12">
                             <div class="bradcamb-content text-center text-white">
-                                <h1>blog sidebar</h1>
+                                <h1 contenteditable="true">blog sidebar</h1>
                                 <ul>
-                                    <li><a href="index.html">home <span>//</span></a></li>
-                                    <li>blog sidebar</li>
+                                    <li ><a href="{{url('home')}}" contenteditable="true">home <span>//</span></a></li>
+                                    <li contenteditable="true">blog sidebar</li>
                                 </ul>
                             </div>
                         </div>
@@ -41,8 +41,8 @@
                                                 </div>
                                             </div>
                                             <div class="blog__details">
-                                                <h2><a href="#">Work for rural development</a></h2>
-                                                <p><i class="zmdi zmdi-pin"></i>Ipsam Road, Alaska. USA</p>
+                                                <h2 contenteditable="true"><a href="#">Work for rural development</a></h2>
+                                                <p contenteditable="true"><i class="zmdi zmdi-pin"></i>Ipsam Road, Alaska. USA</p>
                                             </div>
                                         </div>
                                     </div>
@@ -61,8 +61,8 @@
                                                 </div>
                                             </div>
                                             <div class="blog__details">
-                                                <h2><a href="#">Work for rural development</a></h2>
-                                                <p><i class="zmdi zmdi-pin"></i>Ipsam Road, Alaska. USA</p>
+                                                <h2 contenteditable="true"><a href="#" contenteditable="true">Work for rural development</a></h2>
+                                                <p contenteditable="true"><i class="zmdi zmdi-pin"></i>Ipsam Road, Alaska. USA</p>
                                             </div>
                                         </div>
                                     </div>
@@ -81,8 +81,8 @@
                                                 </div>
                                             </div>
                                             <div class="blog__details">
-                                                <h2><a href="#">Work for rural development</a></h2>
-                                                <p><i class="zmdi zmdi-pin"></i>Ipsam Road, Alaska. USA</p>
+                                                <h2 contenteditable="true"><a href="#">Work for rural development</a></h2>
+                                                <p contenteditable="true"><i class="zmdi zmdi-pin"></i>Ipsam Road, Alaska. USA</p>
                                             </div>
                                         </div>
                                     </div>
@@ -101,8 +101,8 @@
                                                 </div>
                                             </div>
                                             <div class="blog__details">
-                                                <h2><a href="#">Work for rural development</a></h2>
-                                                <p><i class="zmdi zmdi-pin"></i>Ipsam Road, Alaska. USA</p>
+                                                <h2 contenteditable="true"><a href="#">Work for rural development</a></h2>
+                                                <p contenteditable="true"><i class="zmdi zmdi-pin"></i>Ipsam Road, Alaska. USA</p>
                                             </div>
                                         </div>
                                     </div>
@@ -121,8 +121,8 @@
                                                 </div>
                                             </div>
                                             <div class="blog__details">
-                                                <h2><a href="#">Work for rural development</a></h2>
-                                                <p><i class="zmdi zmdi-pin"></i>Ipsam Road, Alaska. USA</p>
+                                                <h2 contenteditable="true"><a href="#">Work for rural development</a></h2>
+                                                <p contenteditable="true"><i class="zmdi zmdi-pin"></i>Ipsam Road, Alaska. USA</p>
                                             </div>
                                         </div>
                                     </div>
@@ -141,8 +141,8 @@
                                                 </div>
                                             </div>
                                             <div class="blog__details">
-                                                <h2><a href="#">Work for rural development</a></h2>
-                                                <p><i class="zmdi zmdi-pin"></i>Ipsam Road, Alaska. USA</p>
+                                                <h2 contenteditable="true"><a href="#">Work for rural development</a></h2>
+                                                <p contenteditable="true"><i class="zmdi zmdi-pin"></i>Ipsam Road, Alaska. USA</p>
                                             </div>
                                         </div>
                                     </div>
@@ -153,41 +153,41 @@
                         <div class="col-md-3">
                             <div class="blog-right-sidebar">
                                 <div class="blog-search mb-60">
-                                    <h3 class="leave-comment-text">Search</h3>
+                                    <h3 class="leave-comment-text" contenteditable="true">Search</h3>
                                     <form action="#">
                                         <input value="" placeholder="Search" type="text">
                                         <button class="submit" type="submit"> <i class="zmdi zmdi-search"></i> </button>
                                     </form>
                                 </div>
                                 <div class="blog-right-sidebar-top mb-60">
-                                    <h3 class="leave-comment-text">Recent Posts</h3>
+                                    <h3 class="leave-comment-text" contenteditable="true">Recent Posts</h3>
                                     <ul>
-                                        <li><a href="#">Designer habits</a></li>
-                                        <li><a href="#">Lifestyle: eating healthy</a></li>
-                                        <li><a href="#">New project: Web design</a></li>
-                                        <li><a href="#">Industrial design</a></li>
-                                        <li><a href="#">The retro look</a></li>
+                                        <li contenteditable="true"><a href="#">Designer habits</a></li>
+                                        <li contenteditable="true"><a href="#">Lifestyle: eating healthy</a></li>
+                                        <li contenteditable="true"><a href="#">New project: Web design</a></li>
+                                        <li contenteditable="true"><a href="#">Industrial design</a></li>
+                                        <li contenteditable="true"><a href="#">The retro look</a></li>
                                     </ul>
                                 </div>
                                 <div class="blog-right-sidebar-top mb-60">
                                     <h3 class="leave-comment-text">Categories</h3>
                                     <ul>
-                                        <li><a href="#">Web Design</a></li>
-                                        <li><a href="#">Web Development</a></li>
-                                        <li><a href="#">Clean</a></li>
-                                        <li><a href="#">Fashion</a></li>
-                                        <li><a href="#">Journal</a></li>
-                                        <li><a href="#">Photography</a></li>
+                                        <li contenteditable="true"><a href="#">Web Design</a></li>
+                                        <li contenteditable="true"><a href="#">Web Development</a></li>
+                                        <li contenteditable="true"><a href="#">Clean</a></li>
+                                        <li contenteditable="true"><a href="#">Fashion</a></li>
+                                        <li contenteditable="true"><a href="#">Journal</a></li>
+                                        <li contenteditable="true"><a href="#">Photography</a></li>
                                     </ul>
                                 </div>
                                 <div class="blog-right-sidebar-bottom">
                                     <h3 class="leave-comment-text">Tags</h3>
                                     <ul>
-                                        <li><a href="#">Photography</a></li>
-                                        <li><a href="#">Fashion</a></li>
-                                        <li><a href="#">Journal</a></li>
-                                        <li><a href="#">Web Design</a></li>
-                                        <li class="nn"><a href="#">Web Development</a></li>
+                                        <li contenteditable="true"><a href="#">Photography</a></li>
+                                        <li contenteditable="true"><a href="#">Fashion</a></li>
+                                        <li contenteditable="true"><a href="#">Journal</a></li>
+                                        <li contenteditable="true"><a href="#">Web Design</a></li>
+                                        <li contenteditable="true" class="nn"><a href="#">Web Development</a></li>
                                     </ul>
                                 </div>
                             </div>

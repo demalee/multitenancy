@@ -9,10 +9,10 @@
                     <div class="row">
                         <div class="col-md-12">
                             <div class="bradcamb-content text-center text-white">
-                                <h1>our gallery</h1>
+                                <h1 contenteditable="true">our gallery</h1>
                                 <ul>
-                                    <li><a href="{{url('home')}}">home <span>//</span></a></li>
-                                    <li>gallery page</li>
+                                    <li><a href="{{url('home')}}" contenteditable="true">home <span>//</span></a></li>
+                                    <li contenteditable="true">gallery page</li>
                                 </ul>
                             </div>
                         </div>

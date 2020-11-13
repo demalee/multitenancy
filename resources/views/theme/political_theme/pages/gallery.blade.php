@@ -10,10 +10,10 @@
 		<div class="overlay">
 			<div class="container">
 				<div class="page-header-content">
-					<h2>Gallery 2 Collumn</h2>
+					<h2  contenteditable="true">Gallery 2 Collumn</h2>
 					<ul class="breadcrumb">
-						<li><a href="#">Home</a></li>
-						<li>Gallery 2 Collumn</li>
+						<li  contenteditable="true"><a href="#">Home</a></li>
+						<li  contenteditable="true">Gallery 2 Collumn</li>
 					</ul>
 				</div>
 			</div>

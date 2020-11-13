@@ -11,8 +11,8 @@
                             <div class="bradcamb-content text-center text-white">
                                 <h1>about us</h1>
                                 <ul>
-                                    <li><a href="index.html">home <span>//</span></a></li>
-                                    <li>about us</li>
+                                    <li><a href="{{url('home')}}" contenteditable="true">home <span>//</span></a></li>
+                                    <li contenteditable="true">about us</li>
                                 </ul>
                             </div>
                         </div>
@@ -27,9 +27,9 @@
                         <div class="col-md-6 col-lg-6 col-sm-6 col-xs-12">
                             <div class="about">
                                 <div class="about__inner">
-                                    <h2>About The Government</h2>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                    <h2 contenteditable="true">About The Government</h2>
+                                    <p contenteditable="true">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                    <p contenteditable="true">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                                     <div class="about__btn">
                                         <a class="rp-btn" href="#">Join us</a>
                                         <a class="play-video video-popup" href="https://www.youtube.com/watch?v=rXcp6s0VjZk"><i class="zmdi zmdi-play-circle-outline"></i><span>Play more video about us</span></a>
@@ -52,9 +52,9 @@
                     <div class="row">
                         <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
                             <div class="story">
-                                <h4 class="text-theme">Know about us.. </h4>
-                                <h2>This is our story.</h2>
-                                <p>Sed ut perspiciatis unde omnis iste natus voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                                <h4 class="text-theme" contenteditable="true">Know about us.. </h4>
+                                <h2 contenteditable="true">This is our story.</h2>
+                                <p contenteditable="true">Sed ut perspiciatis unde omnis iste natus voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
                                 <div class="story__btn">
                                     <a class="rp-btn btn--transparent" href="#">Learn More</a>
                                 </div>

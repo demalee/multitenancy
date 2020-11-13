@@ -27,10 +27,10 @@
                                     <div class="col-md-6">
                                     <img src="{{asset('images/'.$active_theme->theme_image)}}" alt="" style="width: 100%; height: 200px;">
                                     </div>    <div class="col-md-9"><div class="media-body">
-                                        <h5>{{str_replace('_',' ',$website->name)}}
+                                        <h5>{{str_replace('_',' ',@$website->name)}}
                                         </h5>
                                         <p class="f-12">
-                                            {{$website->description}}
+                                            {{@$website->description}}
                                         </p>
                                         <ul>
                                             <li>

@@ -10,10 +10,10 @@
                     <div class="row">
                         <div class="col-md-12">
                             <div class="bradcamb-content text-center text-white">
-                                <h1>service page</h1>
+                                <h1 contenteditable="true">service page</h1>
                                 <ul>
-                                    <li><a href="index.html">home <span>//</span></a></li>
-                                    <li>service page</li>
+                                    <li contenteditable="true"><a href="index.html">home <span>//</span></a></li>
+                                    <li contenteditable="true">service page</li>
                                 </ul>
                             </div>
                         </div>
@@ -34,8 +34,8 @@
                                         <i class="zmdi zmdi-city-alt"></i>
                                     </div>
                                     <div class="service__details">
-                                        <h4><a href="#">Ministry</a></h4>
-                                        <p>There are many variations of passages of Lorem Ipsum available, but the majority.</p>
+                                        <h4 contenteditable="true"><a href="#">Ministry</a></h4>
+                                        <p contenteditable="true">There are many variations of passages of Lorem Ipsum available, but the majority.</p>
                                     </div>
                                 </div>
                             </div>
@@ -47,8 +47,8 @@
                                         <i class="zmdi zmdi-home"></i>
                                     </div>
                                     <div class="service__details">
-                                        <h4><a href="#">Housing</a></h4>
-                                        <p>There are many variations of passages of Lorem Ipsum available, but the majority.</p>
+                                        <h4 contenteditable="true"><a href="#">Housing</a></h4>
+                                        <p contenteditable="true">There are many variations of passages of Lorem Ipsum available, but the majority.</p>
                                     </div>
                                 </div>
                             </div>
@@ -60,8 +60,8 @@
                                         <i class="zmdi zmdi-book-image"></i>
                                     </div>
                                     <div class="service__details">
-                                        <h4><a href="#">Education</a></h4>
-                                        <p>There are many variations of passages of Lorem Ipsum available, but the majority.</p>
+                                        <h4 contenteditable="true"><a href="#">Education</a></h4>
+                                        <p contenteditable="true">There are many variations of passages of Lorem Ipsum available, but the majority.</p>
                                     </div>
                                 </div>
                             </div>
@@ -73,8 +73,8 @@
                                         <i class="zmdi zmdi-money"></i>
                                     </div>
                                     <div class="service__details">
-                                        <h4><a href="#">Economy</a></h4>
-                                        <p>There are many variations of passages of Lorem Ipsum available, but the majority.</p>
+                                        <h4 contenteditable="true"><a href="#">Economy</a></h4>
+                                        <p contenteditable="true">There are many variations of passages of Lorem Ipsum available, but the majority.</p>
                                     </div>
                                 </div>
                             </div>
@@ -86,8 +86,8 @@
                                         <i class="zmdi zmdi-money"></i>
                                     </div>
                                     <div class="service__details">
-                                        <h4><a href="#">income tax</a></h4>
-                                        <p>There are many variations of passages of Lorem Ipsum available, but the majority.</p>
+                                        <h4 contenteditable="true"><a href="#">income tax</a></h4>
+                                        <p contenteditable="true">There are many variations of passages of Lorem Ipsum available, but the majority.</p>
                                     </div>
                                 </div>
                             </div>
@@ -99,8 +99,8 @@
                                         <i class="zmdi zmdi-chart"></i>
                                     </div>
                                     <div class="service__details">
-                                        <h4><a href="#">revenue</a></h4>
-                                        <p>There are many variations of passages of Lorem Ipsum available, but the majority.</p>
+                                        <h4 contenteditable="true"><a href="#">revenue</a></h4>
+                                        <p contenteditable="true">There are many variations of passages of Lorem Ipsum available, but the majority.</p>
                                     </div>
                                 </div>
                             </div>
@@ -112,8 +112,8 @@
                                         <i class="zmdi zmdi-info-outline"></i>
                                     </div>
                                     <div class="service__details">
-                                        <h4><a href="#">Information</a></h4>
-                                        <p>There are many variations of passages of Lorem Ipsum available, but the majority.</p>
+                                        <h4 contenteditable="true"><a href="#">Information</a></h4>
+                                        <p contenteditable="true">There are many variations of passages of Lorem Ipsum available, but the majority.</p>
                                     </div>
                                 </div>
                             </div>
@@ -125,8 +125,8 @@
                                         <i class="zmdi zmdi-walk"></i>
                                     </div>
                                     <div class="service__details">
-                                        <h4><a href="#">Health</a></h4>
-                                        <p>There are many variations of passages of Lorem Ipsum available, but the majority.</p>
+                                        <h4 contenteditable="true"><a href="#">Health</a></h4>
+                                        <p contenteditable="true">There are many variations of passages of Lorem Ipsum available, but the majority.</p>
                                     </div>
                                 </div>
                             </div>
