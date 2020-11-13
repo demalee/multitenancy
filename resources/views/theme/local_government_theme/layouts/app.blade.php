@@ -8,10 +8,11 @@
     <title>@if($website_setting)
             @if($website_setting->brand_name)
                 {{@$website_setting->brand_name}}
-            @else
-                Local Government
                 @endif
-        @endif </title>
+        @else
+            Local Government
+        @endif
+    </title>
     <!-- Bootstrap core CSS -->
     <link href="{{asset('theme/local/css/bootstrap.css')}}" rel="stylesheet">
     <!-- Slick Slider CSS -->

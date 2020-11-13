@@ -4,10 +4,17 @@
             <div class="row">
                 <div class="col-xl-3 col-lg-3">
                     <div class="logo">
+                        @if(@$website_setting->logo_name)
                         <a href="{{url('home')}}"><img src="{{asset('images/'.@$website_setting->logo_name)}}"
                                                        alt="" style="width: 50px;height: 50px;" />
-                       <Span class="ml-3" style="color: {{@$website_setting->brand_color }}">{{$website_setting->brand_name}}</Span>
+                       <Span class="ml-3" style="color: {{@$website_setting->brand_color }}">{{@$website_setting->brand_name}}</Span>
                         </a>
+                            @else
+                        <a href="{{url('home')}}"><img src="{{asset('theme/netaji/img/logo/logo.png')}}"
+                                                       alt=""/>
+                            <Span class="ml-3" style="color: {{@$website_setting->brand_color }}">{{@$website_setting->brand_name}}</Span>
+                        </a>
+                        @endif
                     </div>
                 </div>
                 <div class="col-xl-9 col-lg-9">
