@@ -3,10 +3,24 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>political theme</title>
+    <title>
+        @if($website_setting)
+            @if($website_setting->brand_name)
+                {{@$website_setting->brand_name}}
+            @else
+                Political & Election
+            @endif
+        @endif
+        </title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
-    <link rel="shortcut icon" type="image/x-icon" href="{{asset('theme/political/assets/images/favicon.png')}}">
+   @if($website_setting)
+       @if($website_setting->favicon)
+            <link rel="shortcut icon" type="image/{{explode('.',$website_setting->favicon)[1]}}" href="{{asset('images/'.$website_setting->favicon)}}" style="height: 32px;width: 32px">
+           @else
+            <link rel="shortcut icon" type="image/x-icon" href="{{asset('theme/political/assets/images/favicon.png')}}">
+           @endif
+    @endif
     <link rel="stylesheet" href="{{asset('theme/political/assets/css/bootstrap.min.css')}}">
     <link rel="stylesheet" href="{{asset('theme/political/assets/css/animate.css')}}">
     <link rel="stylesheet" href="{{asset('theme/political/assets/css/font-awesome.min.css')}}">

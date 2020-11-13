@@ -4,12 +4,25 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Republic</title>
+    <title> @if($website_setting)
+            @if($website_setting->brand_name)
+                {{@$website_setting->brand_name}}
+            @else
+                Republic
+            @endif
+        @endif</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Place favicon.ico in the root directory -->
-    <link rel="shortcut icon" type="image/x-icon" href="{{asset('theme/republic/images/favicon.ico')}}">
+
+    @if($website_setting)
+        @if($website_setting->favicon)
+            <link rel="shortcut icon" type="image/{{explode('.',$website_setting->favicon)[1]}}" href="{{asset('images/'.$website_setting->favicon)}}" style="height: 32px;width: 32px">
+        @else
+            <link rel="shortcut icon" type="image/x-icon" href="{{asset('theme/republic/images/favicon.ico')}}">
+        @endif
+    @endif
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
 

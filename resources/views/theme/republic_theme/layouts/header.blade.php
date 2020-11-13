@@ -6,7 +6,16 @@
             <div class="row">
                 <div class="col-md-6 col-lg-6 col-sm-6 col-xs-12">
                     <div class="logo">
+                        @if($website_setting->logo_name)
+                            <a href="{{url('home')}}"><img src="{{asset('images/'.@$website_setting->logo_name) }}" alt=""
+                                                           style="width: 50px;height: 50px; ">
+                                @if($website_setting->brand_name)
+                                    <span style="color: {{@$website_setting->brand_color ?? ''}}" class="ml-3">{{@$website_setting->brand_name}}</span>
+                                @endif
+                            </a>
+                        @else
                         <a href="{{url('home')}}"><img src="{{asset('theme/republic/images/logo/republic.png')}}" alt="logo"></a>
+                            @endif
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-6 col-sm-6 col-xs-12">
@@ -57,6 +66,9 @@
                                                     <a href="{{url('contact')}}">contact</a>
                                                 </li>
                                             </ul>
+                                        </li>
+                                        <li>
+                                            <a  href="{{ url('main') }}">Dashboard</a>
                                         </li>
                                     </ul>
                                 </nav>
@@ -167,6 +179,9 @@
                                     <a href="{{url('contact')}}">contact</a>
                                 </li>
                             </ul>
+                        </li>
+                        <li>
+                            <a  href="{{ url('main') }}">Dashboard</a>
                         </li>
                     </ul>
                 </nav>

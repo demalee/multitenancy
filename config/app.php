@@ -176,8 +176,8 @@ return [
         App\Providers\RouteServiceProvider::class,
 
         App\Providers\ThemeServiceProvider::class,
-
         \App\Providers\ViewComposerServiceProvider::class,
+        \App\Providers\FaviconServiceProvider::class,
 
     ],
 

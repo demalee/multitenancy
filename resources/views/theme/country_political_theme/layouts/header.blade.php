@@ -56,6 +56,7 @@
 
                         <li><a href="{{url('about')}}" title="" itemprop="url">ABOUT US</a></li>
                         <li><a href="{{url('contact')}}" title="" itemprop="url">CONTACT</a>
+                        <li><a href="{{url('main')}}" title="" itemprop="url">DASHBOARD</a>
 
                         </li>
                     </ul>

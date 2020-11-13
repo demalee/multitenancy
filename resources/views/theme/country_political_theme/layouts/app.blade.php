@@ -6,7 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="" />
     <meta name="keywords" content="" />
-    <title>Country </title>
+    <title>
+        @if($website_setting)
+            @if($website_setting->brand_name)
+                {{@$website_setting->brand_name}}
+            @else
+                Country
+            @endif
+        @endif
+    </title>
 
     <!-- Styles -->
     <link rel="stylesheet" href="{{asset('theme/country/assets/css/bootstrap.min.css')}}"><!-- Bootstrap -->

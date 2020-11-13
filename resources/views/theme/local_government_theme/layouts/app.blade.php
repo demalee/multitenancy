@@ -5,7 +5,13 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Local Government </title>
+    <title>@if($website_setting)
+            @if($website_setting->brand_name)
+                {{@$website_setting->brand_name}}
+            @else
+                Local Government
+                @endif
+        @endif </title>
     <!-- Bootstrap core CSS -->
     <link href="{{asset('theme/local/css/bootstrap.css')}}" rel="stylesheet">
     <!-- Slick Slider CSS -->
