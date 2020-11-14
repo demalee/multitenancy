@@ -194,8 +194,11 @@
                     <div class="widget_copyright">
                         <div class="col-md-3 col-sm-6">
                             <div class="widget_logo">
-                                <a href="#"><img src="{{asset('theme/local/images/widget-logo.png')}}" alt=""></a>
-                            </div>
+                                @if(@$main_menu_items_count>0)
+                                    @foreach(@$menu_items as $menu_item)
+                                        <li><a href="{{url(@$menu_item->page->slug)}}">{{@$menu_item->page->title}}</a></li>
+                                    @endforeach
+                                @endif                            </div>
                         </div>
                         <div class="col-md-6">
                             <div class="copyright_text">
