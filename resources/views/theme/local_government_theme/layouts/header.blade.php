@@ -78,16 +78,6 @@
                             </li>
 
                                             <li><a href="{{url('event')}}">E-services</a></li>
-
-                                    <li><a href="#">Projects</a>
-                                        <ul class="child">
-                                            <li><a href="{{url('news')}}">Projects</a></li>
-
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <a  href="{{ url('event') }}">Opportunities</a>
-                                    </li>
                                     <li>
                                         <a  href="{{ url('main') }}">Dashboard</a>
                                     </li>
