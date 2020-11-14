@@ -23,9 +23,7 @@
                     <div>
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry <i class="fa fa-star"></i></p>
                     </div>
-                    <div>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry <i class="fa fa-star"></i></p>
-                    </div>
+
 
                 </div>
             </div>
@@ -39,6 +37,14 @@
                 </ul>
             </div>
 
+                <div class="city_top_form">
+                    <div class="city_top_search">
+                        <input type="text" placeholder="Search">
+                        <a href="#"><i class="fa fa-search"></i></a>
+                    </div>
+                    <a class="top_user" href=""><i class="fa fa-user"></i></a>
+                </div>
+
         </div>
     </div>
     <!--CITY TOP WRAP END-->
@@ -47,7 +53,7 @@
     <div class="city_top_navigation">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-9">
+                <div class="col-md-11">
                     <div class="navigation">
                         <ul>
                             @if(@$main_menu_items_count>0)
@@ -82,9 +88,6 @@
                                         <a  href="{{ url('main') }}">Dashboard</a>
                                     </li>
                                 </ul>
-
-
-
 
                     </div>
                     <!--DL Menu Start-->
@@ -142,15 +145,7 @@
                     </div>
                     <!--DL Menu END-->
                 </div>
-                <div class="col-md-3">
-                    <div class="city_top_form">
-                        <div class="city_top_search">
-                            <input type="text" placeholder="Search">
-                            <a href="#"><i class="fa fa-search"></i></a>
-                        </div>
-                        <a class="top_user" href=""><i class="fa fa-user"></i></a>
-                    </div>
-                </div>
+
             </div>
         </div>
     </div>
