@@ -32,33 +32,37 @@
                                     @endforeach
                                 @endif
 
-                                <li><a href="{{url('events')}}">EVENTS</a>
+                                <li><a href="{{url('event')}}">County Sectors</a>
                                     <ul class="sub-menu text-left">
-                                        <li><a href="{{url('events')}}">events grid</a></li>
-                                        <li><a href="{{url('events')}}">events list</a></li>
-                                        <li><a href="{{url('events-details')}}">events details</a></li>
+
+                                        <li><a href="{{url('event')}}">Food Agriculture and Forest</a></li>
+                                        <li><a href="{{url('event')}}">Devolution</a></li>
+                                        <li><a href="{{url('events_details')}}">Education,youth and Social Services</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="#">Pages</a>
+                                <li><a href="#">Resources</a>
                                     <ul class="sub-menu text-left">
 
-                                        <li><a href="{{url('issue')}}">issues</a></li>
+                                        <li><a href="{{url('issue')}}">News and Speeches</a></li>
 
-                                        <li><a href="{{url('donation')}}">donation</a></li>
+                                        <li><a href="{{url('donation')}}">Tenders and Notices</a></li>
 
 
-                                        <li><a href="{{url('volunteer')}}" contenteditable="true">our volunteer</a></li>
-                                        <li><a href="{{url('biography')}}" contenteditable="true">biography</a></li>
+                                        <li><a href="{{url('volunteer')}}" contenteditable="true">Downloads</a></li>
+                                        <li><a href="{{url('biography')}}" contenteditable="true">Media</a></li>
                                         <li><a href="{{url('faq')}}" contenteditable="true">faq</a></li>
 
                                     </ul>
                                 </li>
-                                <li><a href="{{url('blog')}}" >NEWS</a>
+                                <li><a href="{{url('blog')}}" >E-services</a>
                                     <ul class="sub-menu text-left">
-                                        <li><a href="{{url('blog')}}">blog grid</a></li>
+                                        <li><a href="{{url('blog')}}">eCitizen</a></li>
 
                                     </ul>
                                 </li>
+                                    <li>
+                                        <a  href="{{ url('event') }}">Opportunities</a>
+                                    </li>
                                 <li>
                                     <a  href="{{ url('main') }}">Dashboard</a>
                                 </li>

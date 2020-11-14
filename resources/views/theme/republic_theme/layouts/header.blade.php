@@ -49,7 +49,7 @@
                                             @endforeach
                                         @endif
 
-                                        <li><a href="#">pages</a>
+                                        <li><a href="#">county sectors</a>
                                             <ul>
 
                                                 <li>
@@ -58,12 +58,21 @@
 
 
                                                 <li>
-                                                    <a href="{{url('blog')}}">blog sidebar</a>
+                                                    <a href="{{url('blog')}}">Commerce and tourism</a>
                                                 </li>
 
 
                                             </ul>
                                         </li>
+                                            <li>
+                                                <a href="{{url('blog')}}">E-resources</a>
+                                            </li>
+                                            <li>
+                                                <a href="{{url('blog')}}">Departments</a>
+                                            </li>
+                                            <li>
+                                                <a href="{{url('services')}}">Resources</a>
+                                            </li>
                                         <li>
                                             <a  href="{{ url('main') }}">Dashboard</a>
                                         </li>

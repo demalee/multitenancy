@@ -22,33 +22,38 @@
                             <li><a href="{{url(@$menu_item->page->slug)}}">{{@$menu_item->page->title}}</a></li>
                         @endforeach
                     @endif
-                    <li><a href="#0">Pages</a>
+                    <li><a href="#0">County Sectors</a>
                         <ul class="submenu">
-                            <li><a href="#0">Causes</a>
+                            <li><a href="#0">Sectors</a>
                                 <ul class="submenu">
-                                    <li><a href="{{url('cause')}}">Causes List View</a></li>
+                                    <li><a href="{{url('cause')}}">Food and Agriculture</a></li>
                                 </ul>
                             </li>
-                            <li><a href="{{url('volunteer')}}">Volunteer</a></li>
+                            <li><a href="{{url('volunteer')}}">Devolution</a></li>
+                            <li><a href="{{url('volunteer')}}">Energy</a></li>
 
                         </ul>
                     </li>
-                    <li><a href="{{url('biography')}}">Biography</a></li>
-                    <li><a href="#0">Blog</a>
+                    <li><a href="{{url('biography')}}">Resources</a></li>
+                    <li><a href="#0">Our Resources</a>
                         <ul class="submenu">
-                            <li><a href="{{url('blog')}}">Blog</a></li>
+                            <li><a href="{{url('blog')}}">News and Tenders</a></li>
+                            <li><a href="{{url('gallery')}}">Media and Gallery</a></li>
 
                         </ul>
                     </li>
-                    <li><a href="#0">Campaign</a>
+                    <li><a href="#0">E-services</a>
                         <ul class="submenu">
-                            <li><a href="{{url('campaign')}}">Campaign</a></li>
-                            <li><a href="{{url('campaign_detail')}}">Campaign Details</a></li>
+                            <li><a href="{{url('campaign')}}">eJipay</a></li>
+                            <li><a href="{{url('campaign_detail')}}">eCitizen</a></li>
                         </ul>
                     </li>
                     <li><a href="{{url('gallery')}}">Gallery</a>
 
                     </li>
+                        <li>
+                            <a href="{{url('cause')}}">Resources</a>
+                        </li>
                     <li><a href="#0">Shop</a>
                         <ul class="submenu">
                             <li><a href="{{url('shop')}}">Shop</a></li>

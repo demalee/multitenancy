@@ -57,45 +57,45 @@
                                     @endif
 
                             </li>
-                            <li><a href="#">Government</a>
+                            <li><a href="#">County Sectors</a>
                                 <ul class="child">
-                                    <li><a href="{{url('team')}}">team</a></li>
-                                    <li><a href="{{url('mayor')}}">mayor</a></li>
-                                    <li><a href="{{url('government')}}">goverment</a></li>
+                                    <li><a href="{{url('team')}}">Food Agriculture and Forest</a></li>
+                                    <li><a href="{{url('mayor')}}">Devolution</a></li>
+                                    <li><a href="{{url('government')}}">Education,youth and Social Services</a></li>
 
-                                    <li><a href="{{url('health-department')}}">health department</a></li>
+                                    <li><a href="{{url('health')}}">Health Services</a></li>
 
                                 </ul>
                             </li>
 
-                            <li><a href="#">Resident</a>
+                            <li><a href="#">Resources</a>
                                 <ul class="child">
-                                    <li><a href="{{url('resident')}}">Resident</a></li>
-                                    <li><a href="{{url('resident-detail')}}">Resident detail</a></li>
+                                    <li><a href="{{url('resident')}}">News and Speeches</a></li>
+                                    <li><a href="{{url('resident_detail')}}">Tenders and Notices</a></li>
+                                    <li><a href="{{url('resident_detail')}}">Media</a></li>
+                                    <li><a href="{{url('resident_detail')}}">Emergency Services</a></li>
                                 </ul>
                             </li>
 
-                            <li><a href="#">New & Event</a>
-                                <ul class="child">
-                                    <li><a href="#">event</a>
+                                            <li><a href="{{url('event')}}">E-services</a></li>
+
+                                    <li><a href="#">Projects</a>
                                         <ul class="child">
-                                            <li><a href="{{url('event')}}">event</a></li>
+                                            <li><a href="{{url('news')}}">Projects</a></li>
 
                                         </ul>
                                     </li>
-                                    <li><a href="#">news</a>
-                                        <ul class="child">
-                                            <li><a href="{{url('news')}}">news page</a></li>
-
-                                        </ul>
+                                    <li>
+                                        <a  href="{{ url('event') }}">Opportunities</a>
+                                    </li>
+                                    <li>
+                                        <a  href="{{ url('main') }}">Dashboard</a>
                                     </li>
                                 </ul>
-                            </li>
 
-                            <li>
-                                <a  href="{{ url('main') }}">Dashboard</a>
-                            </li>
-                        </ul>
+
+
+
                     </div>
                     <!--DL Menu Start-->
                     <div id="kode-responsive-navigation" class="dl-menuwrapper">
@@ -109,23 +109,25 @@
                             <li><a href="{{url('services')}}">Services</a>
 
                             </li>
-                            <li><a href="#">Government</a>
-                                <ul class="child">
-                                    <li><a href="{{url('team')}}">team</a></li>
-                                    <li><a href="{{url('mayor')}}">mayor</a></li>
-                                    <li><a href="{{url('government')}}">goverment</a></li>
+                                <li><a href="#">County Sectors</a>
+                                    <ul class="child">
+                                        <li><a href="{{url('team')}}">Food Agriculture and Forest</a></li>
+                                        <li><a href="{{url('mayor')}}">Devolution</a></li>
+                                        <li><a href="{{url('government')}}">Education,youth and Social Services</a></li>
 
-                                    <li><a href="{{url('health-department')}}">health department</a></li>
+                                        <li><a href="{{url('health')}}">Health Services</a></li>
 
-                                </ul>
-                            </li>
+                                    </ul>
+                                </li>
 
-                            <li><a href="#">Resident</a>
-                                <ul class="child">
-                                    <li><a href="{{url('resident')}}">Resident</a></li>
-                                    <li><a href="{{url('resident-detail')}}">Resident detail</a></li>
-                                </ul>
-                            </li>
+                                <li><a href="#">Resources</a>
+                                    <ul class="child">
+                                        <li><a href="{{url('resident')}}">News and Speeches</a></li>
+                                        <li><a href="{{url('resident-detail')}}">Tenders and Notices</a></li>
+                                        <li><a href="{{url('resident-detail')}}">Media</a></li>
+                                        <li><a href="{{url('resident-detail')}}">Emergency Services</a></li>
+                                    </ul>
+                                </li>
 
                             <li><a href="#">New & Event</a>
                                 <ul class="child">

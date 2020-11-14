@@ -42,7 +42,7 @@
     <!-- Custom Main StyleSheet CSS -->
     <link href="{{asset('theme/local/css/shotcode.css')}}" rel="stylesheet">
     <!-- Custom Main StyleSheet CSS -->
-    <link href="s{{asset('theme/local/css/svg-icon.css')}}" rel="stylesheet">
+    <link href="{{asset('theme/local/css/svg-icon.css')}}" rel="stylesheet">
     <!-- Color CSS -->
     <link href="{{asset('theme/local/css/color.css')}}" rel="stylesheet">
     <!-- Responsive CSS -->
@@ -246,14 +246,14 @@
 <!--Custom JavaScript-->
 <script src="{{asset('theme/local/js/custom.js')}}"></script>
 <script>document.documentElement.className = 'js';</script>
-<script src="{{ asset('ckeditor/ckeditor.js') }}"></script>
-<script>
-    CKEDITOR.replace( 'editor1',
-        {
-            filebrowserUploadUrl: "{{route('upload', ['_token' => csrf_token() ])}}",
-            filebrowserUploadMethod: 'form'
-        });
-</script>
+{{--<script src="{{ asset('ckeditor/ckeditor.js') }}"></script>--}}
+{{--<script>--}}
+{{--    CKEDITOR.replace( 'editor1',--}}
+{{--        {--}}
+{{--            filebrowserUploadUrl: "{{route('upload', ['_token' => csrf_token() ])}}",--}}
+{{--            filebrowserUploadMethod: 'form'--}}
+{{--        });--}}
+{{--</script>--}}
 </body>
 
 </html>

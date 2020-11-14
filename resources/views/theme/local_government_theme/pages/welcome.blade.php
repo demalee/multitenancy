@@ -79,25 +79,31 @@
                     <li>
                         <div class="city_service_text">
                             <span><i class="fa icon-news"></i></span>
-                            <h5><a href="#" contenteditable="true">News & Public Notices</a></h5>
+                            <h5><a href="{{url('event')}}" contenteditable="true">News & Press Releases</a></h5>
                         </div>
                     </li>
                     <li>
                         <div class="city_service_text">
                             <span><i class="fa icon-law"></i></span>
-                            <h5><a href="#" contenteditable="true">Goverment Tender </a></h5>
+                            <h5><a href="#" contenteditable="true">Epayment </a></h5>
                         </div>
                     </li>
                     <li>
                         <div class="city_service_text">
                             <span><i class="fa icon-cursor"></i></span>
-                            <h5><a href="#" contenteditable="true">Pay Online Tickets</a></h5>
+                            <h5><a href="{{url('health')}}" contenteditable="true">Tenders</a></h5>
                         </div>
                     </li>
                     <li>
                         <div class="city_service_text">
-                            <span><i class="fa icon-trash"></i></span>
-                            <h5><a href="#" contenteditable="true">Garbage and Recycling</a></h5>
+                            <span><i class="fa icon-umbrella"></i></span>
+                            <h5><a href="{{url('services')}}" contenteditable="true">Jobs</a></h5>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="city_service_text">
+                            <span><i class="fa icon-settings"></i></span>
+                            <h5><a href="{{url('services')}}" contenteditable="true">Emergency Services</a></h5>
                         </div>
                     </li>
                 </ul>
