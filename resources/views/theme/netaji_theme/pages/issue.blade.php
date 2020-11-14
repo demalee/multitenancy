@@ -1,4 +1,4 @@
-@extends('theme/netaji/layouts.app')
+@extends('theme.netaji_theme.layouts.apps')
 @section('content')
 		<!-- breadcrumb-area-start -->
 		<div class="breadcrumb-area pt-250 pb-250" style="background-image:url(img/bg/8.jpg)">
