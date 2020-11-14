@@ -194,11 +194,14 @@
                     <div class="widget_copyright">
                         <div class="col-md-3 col-sm-6">
                             <div class="widget_logo">
-                                @if(@$main_menu_items_count>0)
-                                    @foreach(@$menu_items as $menu_item)
-                                        <li><a href="{{url(@$menu_item->page->slug)}}">{{@$menu_item->page->title}}</a></li>
-                                    @endforeach
-                                @endif                            </div>
+                                @if(@$website_setting->logo_name)
+                                    <a href="{{url('home')}}"><img src="{{asset('images/'.@$website_setting->logo_name) }}" alt=""
+                                                                   style="width: auto; height: 50px; ">
+                                        @if(@$website_setting->brand_name)
+                                            <span style="color: {{@$website_setting->brand_color ?? ''}}" class="ml-3">{{@$website_setting->brand_name}}</span>
+                                        @endif
+                                    </a>
+                                @endif                         </div>
                         </div>
                         <div class="col-md-6">
                             <div class="copyright_text">
