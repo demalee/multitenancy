@@ -40,7 +40,26 @@
     <link href="http://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700&amp;display=swap" rel="stylesheet">
     <!-- Font Awesome-->
 
-
+    <link id="color" rel="stylesheet" href="https://laravel.pixelstrap.com/xolo/assets/css/color-1.css" media="screen">
+    <!-- Responsive css-->
+    <link rel="stylesheet" type="text/css" href="https://laravel.pixelstrap.com/xolo/assets/css/responsive.css">  </head>
+<link rel="stylesheet" type="text/css" href="https://laravel.pixelstrap.com/xolo/assets/css/fontawesome.css">
+<!-- ico-font-->
+<link rel="stylesheet" type="text/css" href="https://laravel.pixelstrap.com/xolo/assets/css/icofont.css">
+<!-- Themify icon-->
+<link rel="stylesheet" type="text/css" href="https://laravel.pixelstrap.com/xolo/assets/css/themify.css">
+<!-- Flag icon-->
+<link rel="stylesheet" type="text/css" href="https://laravel.pixelstrap.com/xolo/assets/css/flag-icon.css">
+<!-- Feather icon-->
+<link rel="stylesheet" type="text/css" href="https://laravel.pixelstrap.com/xolo/assets/css/feather-icon.css">
+<!-- Plugins css start-->
+<!-- Plugins css Ends-->
+<!-- Bootstrap css-->
+<link rel="stylesheet" type="text/css" href="https://laravel.pixelstrap.com/xolo/assets/css/bootstrap.css">
+<!-- App css-->
+<link id="color" rel="stylesheet" href="https://laravel.pixelstrap.com/xolo/assets/css/color-1.css" media="screen">
+<!-- Responsive css-->
+<link rel="stylesheet" type="text/css" href="https://laravel.pixelstrap.com/xolo/assets/css/responsive.css">
 
 
 <!-- Feather icon-->
@@ -201,13 +220,14 @@
 
 
 <!-- Plugins JS start-->
-<script src="http://laravel.pixelstrap.com/xolo/assets/js/editor/ckeditor/ckeditor.js"></script>
-<script src="http://laravel.pixelstrap.com/xolo/assets/js/editor/ckeditor/adapters/jquery.js"></script>
-<script src="http://laravel.pixelstrap.com/xolo/assets/js/editor/ckeditor/styles.js"></script>
-{{--<script src="http://laravel.pixelstrap.com/xolo/assets/js/editor/ckeditor/ckeditor.custom.js"></script>--}}
-<script src="http://laravel.pixelstrap.com/xolo/assets/js/tooltip-init.js"></script>
-<script src="http://laravel.pixelstrap.com/xolo/assets/js/theme-customizer/customizer.js"></script>
-<script src="http://laravel.pixelstrap.com/xolo/assets/js/script.js"></script>
+<script src="https://laravel.pixelstrap.com/xolo/assets/js/editor/ckeditor/ckeditor.js"></script>
+<script src="https://laravel.pixelstrap.com/xolo/assets/js/editor/ckeditor/adapters/jquery.js"></script>
+<script src="https://laravel.pixelstrap.com/xolo/assets/js/editor/ckeditor/styles.js"></script>
+<script src="https://laravel.pixelstrap.com/xolo/assets/js/editor/ckeditor/ckeditor.custom.js"></script>
+<script src="https://laravel.pixelstrap.com/xolo/assets/js/tooltip-init.js"></script>
+<script src="https://laravel.pixelstrap.com/xolo/assets/js/theme-customizer/customizer.js"></script>
+<script src="https://laravel.pixelstrap.com/xolo/assets/js/script.js"></script>
+<script src="https://cdn.ckeditor.com/4.14.0/standard/ckeditor.js"></script>
 
 <script src="http://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 <script src="{{ asset('ckeditor/ckeditor.js') }}"></script>

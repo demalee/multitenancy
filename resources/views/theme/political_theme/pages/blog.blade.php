@@ -1,4 +1,4 @@
-@extends('theme.political_theme.layouts.app')
+@extends('theme.political_theme.layouts.apps')
 
 
 @section('content')

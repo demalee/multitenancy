@@ -5,8 +5,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>@if($website_setting)
-            @if($website_setting->brand_name)
+    <title>@if(@$website_setting)
+            @if(@$website_setting->brand_name)
                 {{@$website_setting->brand_name}}
                 @endif
         @else

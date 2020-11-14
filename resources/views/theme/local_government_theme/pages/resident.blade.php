@@ -1,4 +1,4 @@
-@extends('theme.local_government_theme.layouts.app')
+@extends('theme.local_government_theme.layouts.apps')
 @section('content')
 			<!-- SAB BANNER START-->
 			<div class="sab_banner overlay">

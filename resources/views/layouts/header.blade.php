@@ -14,24 +14,25 @@
 
                     </li>
                     <li class="dropdown">
+                        <a class="nav-link menu-title" href="{{route('dashboard.pages')}}"><i data-feather="file-plus"></i><span>Pages</span>
+
+                        </a>
+
+                    </li>
+                    <li class="dropdown">
                         <a class="nav-link menu-title " href="#"><i data-feather="airplay"></i><span>Appearance</span>
                             <div class="according-menu"><i data-feather="chevrons-right"></i></div>
                         </a>
                         <ul class="nav-submenu menu-content" style="display: none">
                             <li><a href="{{url('/themes')}}" class="">Themes</a></li>
                             <li><a href="{{url('dashboard/menus')}}" class="">Menus</a></li>
-                            <li><a href="#" class="">Widgets</a></li>
-                            <li><a href="#" class="">Themes Options</a></li>
-                            <li><a href="{{url('custom-css')}}" class="">Custom-css</a></li>
+{{--                            <li><a href="#" class="">Widgets</a></li>--}}
+{{--                            <li><a href="#" class="">Themes Options</a></li>--}}
+{{--                            <li><a href="{{url('custom-css')}}" class="">Custom-css</a></li>--}}
 
                         </ul>
                     </li>
-                    <li class="dropdown">
-                        <a class="nav-link menu-title" href="{{route('dashboard.pages')}}"><i data-feather="file-plus"></i><span>Pages</span>
 
-                        </a>
-
-                    </li>
                     <li class="dropdown">
                         <a class="nav-link menu-title" href="{{url('dashboard/setting')}}"><i data-feather="settings"></i><span>Settings</span>
 

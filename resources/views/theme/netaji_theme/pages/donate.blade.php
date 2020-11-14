@@ -1,4 +1,4 @@
-@extends('theme/netaji/layouts.app')
+@extends('theme.netaji_theme.layouts.apps')
 @section('content')
 
 		<!-- breadcrumb-area-start -->

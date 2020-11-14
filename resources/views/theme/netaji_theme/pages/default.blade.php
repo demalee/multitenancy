@@ -4,4 +4,4 @@
         {!! html_entity_decode(@$page->content) !!}
     </main>
 
-    @endsection
+@endsection

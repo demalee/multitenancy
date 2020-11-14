@@ -6,7 +6,7 @@
                     <div class="logo">
                         @if(@$website_setting->logo_name)
                         <a href="{{url('home')}}"><img src="{{asset('images/'.@$website_setting->logo_name)}}"
-                                                       alt="" style="width: 50px;height: 50px;" />
+                                                       alt="" style="height: 80px; width:auto;" />
                        <Span class="ml-3" style="color: {{@$website_setting->brand_color }}">{{@$website_setting->brand_name}}</Span>
                         </a>
                             @else
