@@ -60,7 +60,7 @@ class WebsiteController extends Controller
         }
         $website_settings = WebsiteSetting::updateorcreate(
             [
-                'website_id'=>$website->id
+                'website_id'=>@$website->id
             ],
             [
                 'favicon'=>@$data['favicon'],
