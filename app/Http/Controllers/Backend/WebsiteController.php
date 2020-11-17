@@ -90,7 +90,7 @@ class WebsiteController extends Controller
         //
 
         $data = $request->all();
-//        dd($data);
+
         $validate = Validator::make($data, [
             'f1-first-name' => 'required|unique:websites,name',
             'description' => 'required',
@@ -98,9 +98,13 @@ class WebsiteController extends Controller
 
         if ($validate->fails()) {
             return back()->with('error','Error occurred, website name must be unique');
-        } else {
+        }
+        else {
+
+
             $website = Website::where('admin_id', auth()->id())->first();
 //            dd($website);
+
             if ($website) {
                 $website->update([
                     'name' => $data['f1-first-name'],

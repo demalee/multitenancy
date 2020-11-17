@@ -1,3 +1,7 @@
+body{
+    font-family: "Cera Pro";
+    background: white!important;
+}
 .checkbox-custom {
     width: auto;
     height: 30px;
@@ -47,4 +51,393 @@ input[type="checkbox"]:checked + label:after {
 
 input[type="checkbox"]:focus + label::before {
     outline: rgb(59, 153, 252) auto 5px;
+}
+
+#process {
+    width: 1062px;
+    height: 786px;
+    background: transparent;
+
+}
+#steps{
+    width: 1062px;
+    height: 107px;
+    background: transparent;
+
+
+}
+
+#first{
+    font-family: "Cera Pro";
+    font-weight: normal;
+    font-size: 30px;
+    text-align: center;
+    color: #655af3;
+
+}
+
+#circles{
+
+    width: 68px;
+    height: 68px;
+    background: #fff;
+    border: 1px solid #655af3;
+
+}
+#line-circle{
+    width: 250.27px;
+    height: 0px;
+    background: transparent;
+    border: 3px solid #e8e8e8;
+
+}
+
+#circles:default
+{
+
+}
+#count{
+    font-family: "Cera Pro";
+    font-weight: normal;
+    font-size: 30px;
+    text-align: center;
+    color: #655af3;
+    line-height: 68px;
+
+}
+#details{
+    width: 68px;
+    height: 68px;
+    background: #fff;
+    border: 3px solid #655af3;
+
+}
+#webdetails{
+    font-family: "Cera Pro";
+    font-weight: bold;
+    font-size: 33px;
+    text-align: center;
+    color: #262626;
+
+}
+#describe{
+    width: 598px;
+    height: 68px;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 32px;
+    text-align: center;
+    color: #9d9d9d;
+
+
+
+}
+.center-card-custom
+{
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+
+#process1{
+    width: 806px;
+    height: 571px;
+    background: transparent;
+
+
+}
+#field{
+    width: 534px;
+    height: 53px;
+    border-radius: 6px;
+    background: #f1f1eb;
+
+}
+#textarea{
+    width: 535px;
+    height: 120px;
+    border-radius: 6px;
+    background: #f1f1eb;
+
+}
+#placeholder{
+    width: 162px;
+    height: 19px;
+    font-family: "Cera Pro";
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: left;
+    color: #9d9d9d;
+
+}
+
+#stepdescribe{
+    font-family: "Cera Pro";
+    font-weight: bold;
+    font-size: 20px;
+    text-align: left;
+    color: #262626;
+
+}
+#arrow{
+    width: 275px;
+    height: 0px;
+    background: transparent;
+    border: 3px solid #655af3;
+    margin-right: 20%;
+    margin-left: 5%;
+
+}
+#arrow
+{
+    width: 75%;
+    height: 0px;
+    background: transparent;
+    border: 1px solid #e8e8e8;
+
+    margin-right: 20%;
+    margin-left: 5%;
+
+}
+#activestep{
+    width: 68px;
+    height: 68px;
+    background: #655af3;
+    border: 3px solid #655af3;
+
+}
+#activearrow{
+    width: 250.27px;
+    height: 0px;
+    background: transparent;
+    border: 3px solid #655af3;
+
+}
+
+#menu{
+    width: 806px;
+    height: 466px;
+    background: transparent;
+
+}
+#menutitle{
+    font-family: "Cera Pro";
+    font-weight: bold;
+    font-size: 33px;
+    text-align: left;
+    color: #262626;
+
+
+}
+#link{
+    width: 123px;
+    height: 53px;
+    border-radius: 6px;
+    background: #655af3;
+
+}
+#linkname{
+    width: 47px;
+    height: 19px;
+    font-family: "Cera Pro";
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: left;
+    color: #fff;
+
+}
+#incativelink{
+    width: 131px;
+    height: 53px;
+    border-radius: 6px;
+    background: #f1f1eb;
+
+}
+#menubutton{
+    width: 534px;
+    height: 58px;
+    border-radius: 6px;
+    background: #655af3;
+
+}
+
+#stepsbody{
+    width: 1920px;
+    height: 1079px;
+    background: #fff;
+
+
+
+}
+#laststep{
+    width: 534px;
+    height: 58px;
+    border-radius: 6px;
+    background: #655af3;
+
+}
+#lastepstitle{
+    width: 112px;
+    height: 19px;
+    font-family: "Cera Pro";
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: left;
+    color: #fff;
+
+}
+#template{
+    width: 1753px;
+    height: 1060px;
+    background: transparent;
+
+}
+#imagetemplate{
+    width: 422px;
+    height: 238px;
+    border-radius: 0px 0px 2px 2px;
+    /* background: url(...); */
+
+}
+#head{
+    width: 1920px;
+    height: 104px;
+    background: #fff;
+
+}
+#menus{
+    font-family: "Cera Pro";
+    font-weight: bold;
+    font-size: 20px;
+    text-align: left;
+    color: #262626;
+
+}
+#menuarrow{
+    width: 1920px;
+    height: 104px;
+    background: #fff;
+
+}
+#logoid{
+    width: 138.02px;
+    height: 24.95px;
+    background: transparent;
+
+
+}
+#bodysteps{
+    width: 1920px;
+    height: 1079px;
+    background: #fff;
+
+
+}
+#process{
+    width: 1062px;
+    height: 786px;
+    background: transparent;
+}
+#card1{
+    width: 806px;
+    height: 571px;
+    background: transparent;
+
+
+}
+#body1{width: 1920px;
+    height: 1079px;
+    background: #fff;
+
+}
+#settingsbody{width: 806px;
+    height: 466px;
+    background: transparent;
+}
+#settingscontent{
+    width: 598px;
+    height: 68px;
+    font-family: "Cera Pro";
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 32px;
+    text-align: center;
+    color: #9d9d9d;
+
+}
+#progress{
+    width: 1062px;
+    height: 107px;
+    background: transparent;
+}
+
+
+.dashboardmenu{
+    width: 403px;
+    height: 1081px;
+    background: transparent;
+
+}
+#landing{
+    width: 250px;
+    height: 60px;
+    border-radius: 6px;
+    background: #f5f5f5;
+
+}
+#text{font-family: "Cera Pro";
+    font-weight: bold;
+    font-size: 23px;
+    text-align: left;
+    color: #655af3;
+}
+#normaltext{
+    font-family: "Cera Pro";
+    font-weight: bold;
+    font-size: 23px;
+    text-align: left;
+    color: #262626;
+}
+
+#theme{width: 1376px;
+    height: 289px;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0px 3px 60px rgba(177, 177, 177, 0.16);
+}
+#image{width: 365px;
+    height: 219px;
+    background: transparent;
+}
+#con{
+    width: 666px;
+    height: 68px;
+    font-family: "Cera Pro";
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 32px;
+    text-align: left;
+    color: #9d9d9d;
+
+}
+#title{
+    font-family: "Cera Pro";
+    font-weight: bold;
+    font-size: 33px;
+    text-align: left;
+    color: #262626;
+
+}
+#buttonview{width: 212px;
+    height: 58px;
+    background: transparent;
+}
+#buttonedit{
+    width: 212px;
+    height: 58px;
+    background: transparent;
+
 }

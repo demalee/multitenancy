@@ -58,6 +58,8 @@
 <link id="color" rel="stylesheet" href="https://laravel.pixelstrap.com/xolo/assets/css/color-1.css" media="screen">
 <!-- Responsive css-->
 <link rel="stylesheet" type="text/css" href="https://laravel.pixelstrap.com/xolo/assets/css/responsive.css">
+<link rel="stylesheet" href="{{asset('css/custom.css')}}">
+
 <body>
 <!-- Loader starts-->
 {{--<div class="loader-wrapper">--}}

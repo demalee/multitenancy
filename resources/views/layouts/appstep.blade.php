@@ -36,7 +36,7 @@
     <link rel="stylesheet" type="text/css" href="../assets/css/responsive.css">
     <link rel="stylesheet" href="{{asset('css/custom.css')}}">
 </head>
-<body >
+<body>
 {{--<div class="page-wrapper compact-wrapper" id="pageWrapper">--}}
 
 <div class="page-body-wrapper sidebar-icon">
