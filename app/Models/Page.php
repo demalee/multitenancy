@@ -17,7 +17,8 @@ class Page extends Model
         'page_description',
         'content',
         'theme_id',
-        'parent_page'
+        'parent_page',
+        'page_level'
     ];
 
     public static function findBySlug($slug)
