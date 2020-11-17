@@ -35,8 +35,8 @@ class ThemeServiceProvider extends ServiceProvider
             if ($theme->status_active == 1)
             {
                 $theme_name = $theme->name;
-                View::share("THEME_ID",$theme->id);
-                Config::set('THEME_ID',$theme->id);
+                View::share("THEME_ID",@$theme->id);
+                Config::set('THEME_ID',@$theme->id);
                 break;
             }
         }
