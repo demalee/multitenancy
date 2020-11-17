@@ -18,7 +18,7 @@
                                             <div class="f1-steps" id="progress">
                                                 <div class="row">
                                                     <div class="f1-progress" id="arrow">
-                                                        <div class="f1-progress-line"  id="arrow" data-now-value="18.67"
+                                                        <div class="f1-progress-line"   data-now-value="18.67"
                                                              data-number-of-steps="4" ></div>
                                                     </div>
 
