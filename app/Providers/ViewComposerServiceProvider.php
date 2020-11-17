@@ -29,10 +29,7 @@ class ViewComposerServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        //
-        //
         $route = Config::get('THEME_LAYOUTS').'header';
-//        $route = Config::get('THEME_LAYOUTS').'app';
         $this->navigationComposer($route);
     }
 
@@ -52,7 +49,8 @@ class ViewComposerServiceProvider extends ServiceProvider
             $main_menu_items_count = 0;
             if ($menu)
             {
-                $menu_items = MenuItem::where('menu_id',$menu->id)->get();
+                $menu_items = MenuItem::where('menu_id',$menu->id)->orderby('menu_position','asc')->get();
+
                 $main_menu_items_count = MenuItem::where('menu_id',$menu->id)->count();
             }
 

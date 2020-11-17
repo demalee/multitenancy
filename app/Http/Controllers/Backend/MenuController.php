@@ -143,7 +143,7 @@ class MenuController extends Controller
      *
      * @param  \Illuminate\Http\Request  $request
      * @param  \App\Models\Menu  $menu
-     * @return \Illuminate\Http\Response
+     * @return \Illuminate\Http\RedirectResponse
      */
     public function update(Request $request, $id)
     {
@@ -196,6 +196,17 @@ class MenuController extends Controller
             $menu_item = MenuItem::findorfail($id);
             $menu_item->delete();
             return back()->with('success','successfully deleted the page from the menu');
+        }
+        elseif($data['submit'] == "order_menus")
+        {
+            $menu_items = MenuItem::where('menu_id',$id)->get();
+           foreach ($menu_items as $menu_item)
+           {
+               $menu_item->update([
+                   'menu_position'=>$data['menu_item_'.$menu_item->id]
+               ]);
+           }
+           return back()->with('success','Menu reordered successfully');
         }
     }
 

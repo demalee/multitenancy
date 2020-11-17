@@ -24,7 +24,8 @@ class MenuItem extends Model
         'menu',
         'page_id',
         'parent_id',
-        'slug'
+        'slug',
+        'menu_position'
     ];
 
     public function menu()

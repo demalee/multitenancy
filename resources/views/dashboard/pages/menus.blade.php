@@ -78,6 +78,32 @@
                         @endforeach
                     </div>
                 </div>
+
+                <div class="card-body">
+                    <div class="card-header">
+
+                        <h5>Reorder menu items
+                        </h5>
+                        <form action="{{route('menus.update',$menu->id)}}" method="post">
+                            @csrf
+                            @method('PUT')
+                        @foreach($menu_items as $menu_item )
+                                <h6>
+                                    <button disabled class="btn btn-primary" type="button" >{{@$menu_item->page->title}}
+                                    </button>
+                                    <span class="float-right">
+                                        <input type="text" class=" form-inline" name="menu_item_{{$menu_item->id}}" placeholder="Eg 1 or 2" required/>
+                                    </span>
+
+                                </h6>
+                        @endforeach
+                            <br>
+                            <br>
+                        <button class="btn btn-primary" name="submit" value="order_menus">Order menu items</button>
+                        </form>
+                        <br>
+                    </div>
+                </div>
             </div>
             </div>
         </div>
@@ -144,6 +170,9 @@
                 </div>
                     </form>
                 </div></div>
+
+
+
             <div class="card">
 
                 <div class="card-body">
