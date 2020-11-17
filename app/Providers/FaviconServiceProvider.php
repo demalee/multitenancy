@@ -37,7 +37,7 @@ class FaviconServiceProvider extends ServiceProvider
     {
         view()->composer($route, function ($view) {
             $website = Website::where('admin_id',auth()->id())->first();
-            $website_setting = WebsiteSetting::where('website_id',$website->id)->first();
+            $website_setting = WebsiteSetting::where('website_id',@$website->id)->first();
 //            dd($website_setting);
             $view->with(compact('website_setting'));
         });
