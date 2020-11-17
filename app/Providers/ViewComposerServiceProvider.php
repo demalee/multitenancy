@@ -46,7 +46,8 @@ class ViewComposerServiceProvider extends ServiceProvider
             $menu = Menu::where('name','Main Menu')->where('theme_id',$theme_id)->first();
             $menu_items = [];
             $website = Website::where('admin_id',auth()->id())->first();
-            $website_setting = WebsiteSetting::where('website_id',$website->id)->first();
+            $website_setting = WebsiteSetting::where('website_id',@$website->id)->first();
+//            dd($website_setting);
 //            dd($website_setting);
             $main_menu_items_count = 0;
             if ($menu)
