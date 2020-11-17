@@ -13,6 +13,11 @@ Route::get('/dashboard/dashboard_themed', function () {
 
     return view('/dashboard/dashboard_themed');
 });
+
+    Route::get('/dashboard/pages/submenu/{id}', function () {
+
+        return view('/dashboard/pages/submenu');
+    });
 Route::get('/themes', function () {
     $themes = Theme::all();
     return view('/themes', compact('themes'));
