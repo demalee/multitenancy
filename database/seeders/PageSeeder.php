@@ -75,23 +75,361 @@ class PageSeeder extends Seeder
             );
         }
 
-        //only in specific theme
-//        $blog_themes = [2,3,5];
-//        foreach ($blog_themes as $theme)
-//        {
-//            if ($theme->id == 1)
-//            Page::create(
-//                [
-//                    'title'=>'Blog',
-//                    'slug'=>'blog',
-//                    'page_description'=>'blog page',
-//                    'content'=>'blog page content',
-//                    'theme_id'=>$theme,
-//                    'parent_page'=>0
-//                ]
-//            );
-//        }
+        foreach ($themes as $theme)
+        {
+            Page::create(
+                [
+                    'title'=>'Events',
+                    'slug'=>'events',
+                    'page_description'=>'Events',
+                    'content'=>'Events for the county',
+                    'theme_id'=>$theme->id,
+                    'parent_page'=>0
+                ]
+            );
+        }
+        foreach ($themes as $theme)
+
+        {
+            Page::create(
+                [
+                    'title'=>'Blog',
+                    'slug'=>'blog',
+                    'page_description'=>'Blog',
+                    'content'=>'Blog about the county',
+                    'theme_id'=>$theme->id,
+                    'parent_page'=>0
+                ]
+            );
+        }
+        foreach ($themes as $theme)
+
+        {
+            Page::create(
+                [
+                    'title'=>'Events detail',
+                    'slug'=>'events_details',
+                    'page_description'=>'Details of an event',
+                    'content'=>'Details of an event',
+                    'theme_id'=>$theme->id,
+                    'parent_page'=>0
+                ]
+            );
+        }
+
+        foreach ($themes as $theme)
+
+        {
+            Page::create(
+                [
+                    'title'=>'gallery',
+                    'slug'=>'gallery',
+                    'page_description'=>'Our media',
+                    'content'=>'Media gallery',
+                    'theme_id'=>$theme->id,
+                    'parent_page'=>0
+                ]
+            );
+        }
+        foreach ($themes as $theme)
+
+        {
+            Page::create(
+                [
+                    'title'=>'Volunteer',
+                    'slug'=>'volunteer',
+                    'page_description'=>'Volunteers of the county',
+                    'content'=>'Volunteers of the county',
+                    'theme_id'=>$theme->id,
+                    'parent_page'=>0
+                ]
+            );
+        }
+
+        foreach ($themes as $theme)
+
+        {
+            Page::create(
+                [
+                    'title'=>'Branches',
+                    'slug'=>'branches',
+                    'page_description'=>'Branches of the county',
+                    'content'=>'Branches of the county',
+                    'theme_id'=>$theme->id,
+                    'parent_page'=>0
+                ]
+            );
+        }
+        foreach ($themes as $theme)
+
+        {
+            Page::create(
+                [
+                    'title'=>'cause',
+                    'slug'=>'cause',
+                    'page_description'=>'Causes',
+                    'content'=>'causes',
+                    'theme_id'=>$theme->id,
+                    'parent_page'=>0
+                ]
+            );
+        }
+        foreach ($themes as $theme)
+
+        {
+            Page::create(
+                [
+                    'title'=>'Shop',
+                    'slug'=>'shop',
+                    'page_description'=>'shop for the county',
+                    'content'=>'shop for  the county',
+                    'theme_id'=>$theme->id,
+                    'parent_page'=>0
+                ]
+            );
+        }
+
+        foreach ($themes as $theme)
+
+        {
+            Page::create(
+                [
+                    'title'=>'product details',
+                    'slug'=>'product_detail',
+                    'page_description'=>'Product information',
+                    'content'=>'product information',
+                    'theme_id'=>$theme->id,
+                    'parent_page'=>0
+                ]
+            );
+        }
+        foreach ($themes as $theme)
+
+        {
+            Page::create(
+                [
+                    'title'=>'Campaign',
+                    'slug'=>'campaign',
+                    'page_description'=>'Campaigns of the county',
+                    'content'=>'Campaign of the county',
+                    'theme_id'=>$theme->id,
+                    'parent_page'=>0
+                ]
+            );
+        }
+
+        foreach ($themes as $theme)
+
+        {
+            Page::create(
+                [
+                    'title'=>'County donation',
+                    'slug'=>'donate',
+                    'page_description'=>'donations for  the county',
+                    'content'=>'donations of the county',
+                    'theme_id'=>$theme->id,
+                    'parent_page'=>0
+                ]
+            );
+        }
 
 
+        foreach ($themes as $theme)
+
+        {
+            Page::create(
+                [
+                    'title'=>'Biography',
+                    'slug'=>'biography',
+                    'page_description'=>' Biography ',
+                    'content'=>'Biography',
+                    'theme_id'=>$theme->id,
+                    'parent_page'=>0
+                ]
+            );
+        }
+
+
+
+
+        foreach ($themes as $theme)
+
+        {
+            Page::create(
+                [
+                    'title'=>'Campaign Details',
+                    'slug'=>'campaign_detail',
+                    'page_description'=>'Details of the campaign',
+                    'content'=>'Campaigns',
+                    'theme_id'=>$theme->id,
+                    'parent_page'=>0
+                ]
+            );
+        }
+
+        foreach ($themes as $theme)
+
+        {
+            Page::create(
+                [
+                    'title'=>'Team',
+                    'slug'=>'team',
+                    'page_description'=>'team of the county',
+                    'content'=>'team  of the county',
+                    'theme_id'=>$theme->id,
+                    'parent_page'=>0
+                ]
+            );
+        }
+
+        foreach ($themes as $theme)
+
+        {
+            Page::create(
+                [
+                    'title'=>'event',
+                    'slug'=>'event',
+                    'page_description'=>'Events of the county',
+                    'content'=>'Events of the county',
+                    'theme_id'=>$theme->id,
+                    'parent_page'=>0
+                ]
+            );
+        }
+        foreach ($themes as $theme)
+
+        {
+            Page::create(
+                [
+                    'title'=>'Residential',
+                    'slug'=>'resident',
+                    'page_description'=>'residents of the county',
+                    'content'=>'Residents of the county',
+                    'theme_id'=>$theme->id,
+                    'parent_page'=>0
+                ]
+            );
+        }
+
+
+
+        foreach ($themes as $theme)
+
+        {
+            Page::create(
+                [
+                    'title'=>'Government',
+                    'slug'=>'government',
+                    'page_description'=>'County government',
+                    'content'=>'County government',
+                    'theme_id'=>$theme->id,
+                    'parent_page'=>0
+                ]
+            );
+        }
+
+        foreach ($themes as $theme)
+
+        {
+            Page::create(
+                [
+                    'title'=>'Health',
+                    'slug'=>'health',
+                    'page_description'=>'Couty Health information',
+                    'content'=>'Health',
+                    'theme_id'=>$theme->id,
+                    'parent_page'=>0
+                ]
+            );
+        }
+
+        foreach ($themes as $theme)
+
+        {
+            Page::create(
+                [
+                    'title'=>'Mayor',
+                    'slug'=>'mayor',
+                    'page_description'=>'County Governor',
+                    'content'=>'Governor of the county',
+                    'theme_id'=>$theme->id,
+                    'parent_page'=>0
+                ]
+            );
+        }
+
+        foreach ($themes as $theme)
+
+        {
+            Page::create(
+                [
+                    'title'=>'Resident detail',
+                    'slug'=>'resident_detail',
+                    'page_description'=>'Resident details  of the county',
+                    'content'=>'Volunteers of the county',
+                    'theme_id'=>$theme->id,
+                    'parent_page'=>0
+                ]
+            );
+        }
+        foreach ($themes as $theme)
+
+        {
+            Page::create(
+                [
+                    'title'=>'Priorities',
+                    'slug'=>'priorities',
+                    'page_description'=>'Priorities',
+                    'content'=>'Priorities',
+                    'theme_id'=>$theme->id,
+                    'parent_page'=>0
+                ]
+            );
+        }
+
+        foreach ($themes as $theme)
+
+        {
+            Page::create(
+                [
+                    'title'=>'Faqs',
+                    'slug'=>'faq',
+                    'page_description'=>'Faqs for the county',
+                    'content'=>'Faqs',
+                    'theme_id'=>$theme->id,
+                    'parent_page'=>0
+                ]
+            );
+        }
+
+        foreach ($themes as $theme)
+
+        {
+            Page::create(
+                [
+                    'title'=>'Issue',
+                    'slug'=>'issue',
+                    'page_description'=>'Issues of the county',
+                    'content'=>'Issues of the county',
+                    'theme_id'=>$theme->id,
+                    'parent_page'=>0
+                ]
+            );
+        }
+
+        foreach ($themes as $theme)
+
+        {
+            Page::create(
+                [
+                    'title'=>'events details',
+                    'slug'=>'events_details',
+                    'page_description'=>'Details of events',
+                    'content'=>'Details of the county events',
+                    'theme_id'=>$theme->id,
+                    'parent_page'=>0
+                ]
+            );
+        }
     }
 }

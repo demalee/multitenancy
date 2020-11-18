@@ -83,8 +83,8 @@
                                 </ul>
                             </li>
 
-                                            <li><a href="{{url('event')}}">E-services</a></li>
-                                    <li>
+{{--                                            <li><a href="{{url('event')}}">E-services</a></li>--}}
+{{--                                    <li>--}}
                                         <a  href="{{ url('main') }}">Dashboard</a>
                                     </li>
                                 </ul>
