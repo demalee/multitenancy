@@ -352,7 +352,7 @@
 													<div class="box-layer layer-1"></div>
 													<div class="box-layer layer-2"></div>
 													<div class="box-layer layer-3"></div>
-													<img src="{{asset('theme/local/extra-images/senir-team-fig2.jpg'}}" alt="">
+													<img src="{{asset('theme/local/extra-images/senir-team-fig2.jpg')}}" alt="">
 												</figure>
 												<div class="city_senior_team_text">
 													<span contenteditable="true">Managing Director</span>
