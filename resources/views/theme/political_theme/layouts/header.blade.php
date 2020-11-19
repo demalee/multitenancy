@@ -19,48 +19,23 @@
                 <ul class="nav navbar-nav ml-auto">
                     @if(@$main_menu_items_count>0)
                         @foreach(@$menu_items as $menu_item)
-                            <li><a href="{{url(@$menu_item->page->slug)}}">{{@$menu_item->page->title}}</a></li>
+                            @if(@$menu_item->menu_level == 1)
+                                <li><a href="{{url(@$menu_item->page->slug)}}">{{@$menu_item->page->title}}</a></li>
+                            @else
+                                @if(@$menu_item->menu_level == 2)
+                                    <li><a href="#">{{@$menu_item->page->title}}</a>
+                                        <ul class="child">
+
+                                            @foreach(@$menu_item->sub_menus(@$menu_item->page->id) as $sub_menu)
+                                                <li><a href="{{url(@$sub_menu->page->slug)}}">{{@$sub_menu->page->title}}</a></li>
+                                            @endforeach
+
+                                        </ul>
+                                    </li>
+                                @endif
+                            @endif
                         @endforeach
                     @endif
-                    <li><a href="#0">County Sectors</a>
-                        <ul class="submenu">
-                            <li><a href="#0">Sectors</a>
-                                <ul class="submenu">
-                                    <li><a href="{{url('cause')}}">Food and Agriculture</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="{{url('volunteer')}}">Devolution</a></li>
-                            <li><a href="{{url('volunteer')}}">Energy</a></li>
-
-                        </ul>
-                    </li>
-                    <li><a href="{{url('biography')}}">Resources</a></li>
-                    <li><a href="#0">Our Resources</a>
-                        <ul class="submenu">
-                            <li><a href="{{url('blog')}}">News and Tenders</a></li>
-                            <li><a href="{{url('gallery')}}">Media and Gallery</a></li>
-
-                        </ul>
-                    </li>
-                    <li><a href="#0">E-services</a>
-                        <ul class="submenu">
-                            <li><a href="{{url('campaign')}}">eJipay</a></li>
-                            <li><a href="{{url('campaign_detail')}}">eCitizen</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="{{url('gallery')}}">Gallery</a>
-
-                    </li>
-                        <li>
-                            <a href="{{url('cause')}}">Resources</a>
-                        </li>
-                    <li><a href="#0">Shop</a>
-                        <ul class="submenu">
-                            <li><a href="{{url('shop')}}">Shop</a></li>
-                            <li><a href="{{url('product_detail')}}">Product Detail</a></li>
-
-                        </ul>
-                    </li>
                     <li>
                         <a  href="{{ url('main') }}">Dashboard</a>
                     </li>

@@ -45,34 +45,23 @@
                                     <ul class="main__menu">
                                         @if(@$main_menu_items_count>0)
                                             @foreach(@$menu_items as $menu_item)
-                                                <li><a href="{{url(@$menu_item->page->slug)}}">{{@$menu_item->page->title}}</a></li>
+                                                @if(@$menu_item->menu_level == 1)
+                                                    <li><a href="{{url(@$menu_item->page->slug)}}">{{@$menu_item->page->title}}</a></li>
+                                                @else
+                                                    @if(@$menu_item->menu_level == 2)
+                                                        <li><a href="#">{{@$menu_item->page->title}}</a>
+                                                            <ul class="child">
+
+                                                                @foreach(@$menu_item->sub_menus(@$menu_item->page->id) as $sub_menu)
+                                                                    <li><a href="{{url(@$sub_menu->page->slug)}}">{{@$sub_menu->page->title}}</a></li>
+                                                                @endforeach
+
+                                                            </ul>
+                                                        </li>
+                                                    @endif
+                                                @endif
                                             @endforeach
                                         @endif
-
-                                        <li><a href="#">county sectors</a>
-                                            <ul>
-
-                                                <li>
-                                                    <a href="{{url('gallery')}}">gallery</a>
-                                                </li>
-
-
-                                                <li>
-                                                    <a href="{{url('blog')}}">Commerce and tourism</a>
-                                                </li>
-
-
-                                            </ul>
-                                        </li>
-                                            <li>
-                                                <a href="{{url('blog')}}">E-resources</a>
-                                            </li>
-                                            <li>
-                                                <a href="{{url('blog')}}">Departments</a>
-                                            </li>
-                                            <li>
-                                                <a href="{{url('services')}}">Resources</a>
-                                            </li>
                                         <li>
                                             <a  href="{{ url('main') }}">Dashboard</a>
                                         </li>

@@ -39,31 +39,23 @@
                     <ul>
                         @if(@$main_menu_items_count>0)
                             @foreach(@$menu_items as $menu_item)
-                                <li><a href="{{url(@$menu_item->page->slug)}}">{{@$menu_item->page->title}}</a></li>
+                                @if(@$menu_item->menu_level == 1)
+                                    <li><a href="{{url(@$menu_item->page->slug)}}">{{@$menu_item->page->title}}</a></li>
+                                @else
+                                    @if(@$menu_item->menu_level == 2)
+                                        <li><a href="#">{{@$menu_item->page->title}}</a>
+                                            <ul class="child">
+
+                                                @foreach(@$menu_item->sub_menus(@$menu_item->page->id) as $sub_menu)
+                                                    <li><a href="{{url(@$sub_menu->page->slug)}}">{{@$sub_menu->page->title}}</a></li>
+                                                @endforeach
+
+                                            </ul>
+                                        </li>
+                                    @endif
+                                @endif
                             @endforeach
                         @endif
-
-                        <li class="menu-item-has-children"><a href="#" title="" itemprop="url">PAGES</a>
-                            <ul>
-                                <li class="menu-item-has-children"><a href="{{url('priorities')}}" title="" itemprop="url">Priorities</a>
-                                    <ul>
-                                        <li><a href="{{url('priorities')}}" title="" itemprop="url">Our Priorities</a></li>
-                                    </ul>
-                                </li>
-                                <li class="menu-item-has-children"><a href="#" title="" itemprop="url">Our Volunteers</a>
-                                    <ul>
-                                        <li><a href="{{url('volunteer')}}" title="" itemprop="url">Our Volunteers</a></li>
-                                        <li><a href="{{url('volunteer_detail')}}" title="" itemprop="url">Volunteers Detail</a></li>
-                                    </ul>
-                                </li>
-
-                                <li><a href="{{url('volunteer')}}" title="" itemprop="url">Become A Volunteer</a></li>
-                                <li><a href="{{url('donate')}}" title="" itemprop="url">Donate Now</a></li>
-                                <li><a href="{{url('mission_vission')}}" title="" itemprop="url">Mission & Vission</a></li>
-                                <li><a href="{{url('branches')}}" title="" itemprop="url">Find Your Local Unit</a></li>
-
-                            </ul>
-                        </li>
 
                         <li><a href="{{url('main')}}" title="" itemprop="url">DASHBOARD</a>
 
