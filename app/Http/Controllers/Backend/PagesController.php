@@ -110,7 +110,8 @@ class PagesController extends Controller
             'page_description'=>@$data['description'],
             'content'=>$data['content'],
             'theme_id'=>$themeid,
-            'parent_page'=>1
+            'parent_page'=>1,
+            'page_level'=>3
         ]);
 
 

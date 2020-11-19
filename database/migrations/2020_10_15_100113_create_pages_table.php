@@ -21,6 +21,7 @@ class CreatePagesTable extends Migration
             $table->text('page_description');
             $table->foreignId('theme_id');
             $table->integer('parent_page')->default(1);
+            $table->integer('page_level')->default(1);
             $table->timestamps();
         });
     }

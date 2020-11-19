@@ -73,18 +73,18 @@
                             <label class="col-sm-3 col-form-label pb-0">Add Submenu</label>
                             <div class="col-sm-9">
                                 <div class="form-group">
-                                    <label class="col-form-label">Submenu *</label>
-                                    <input class="form-control" name="name" type="text" value="" placeholder="Submenu name" required>
+                                    <label class="col-form-label">Menu title*</label>
+                                    <input class="form-control" name="sub_menu" type="text" value="" placeholder="Menu name" required>
                                 </div>
                                 <div class="form-group m-checkbox-inline mb-0">
                                     <p><b>Choose the menus that you woul like the submenu to be</b></p>
-                                    @foreach($pages as $page)
+                                    @foreach($pages_sub as $page)
 
                                         <input type="checkbox"  name="page_id[]" value="{{$page->id}}"> {{$page->title}}
                                     @endforeach
 <br>
                                     <div class="card-footer">
-                                        <button class="btn btn-primary" name="submit" value="edit_menu_items"> Add Submenu
+                                        <button class="btn btn-primary" name="submit" value="edit_sub_menu"> Add Submenu
                                         </button>
 
                                     </div>

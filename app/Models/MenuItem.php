@@ -25,7 +25,9 @@ class MenuItem extends Model
         'page_id',
         'parent_id',
         'slug',
-        'menu_position'
+        'menu_position',
+        'parent_page_id',
+        'menu_level'
     ];
 
     public function menu()
@@ -36,5 +38,10 @@ class MenuItem extends Model
     public function page()
     {
         return $this->hasOne(Page::class,'id','page_id');
+    }
+
+    public function sub_menus($id)
+    {
+        return $this->where('parent_page_id',$id)->get();
     }
 }

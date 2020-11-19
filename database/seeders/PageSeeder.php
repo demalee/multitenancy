@@ -28,7 +28,8 @@ class PageSeeder extends Seeder
                     'page_description'=>'home page',
                     'content'=>'home page content',
                     'theme_id'=>$theme->id,
-                    'parent_page'=>0
+                    'parent_page'=>0,
+                    'page_level'=>1
                 ]
             );
         }
@@ -42,7 +43,8 @@ class PageSeeder extends Seeder
                     'page_description'=>'services page',
                     'content'=>'services page content',
                     'theme_id'=>$theme->id,
-                    'parent_page'=>0
+                    'parent_page'=>0,
+                    'page_level'=>1
                 ]
             );
         }
@@ -56,7 +58,8 @@ class PageSeeder extends Seeder
                     'page_description'=>'about us page',
                     'content'=>'about us page content',
                     'theme_id'=>$theme->id,
-                    'parent_page'=>0
+                    'parent_page'=>0,
+                    'page_level'=>1
                 ]
             );
         }
@@ -70,7 +73,8 @@ class PageSeeder extends Seeder
                     'page_description'=>'contact page',
                     'content'=>'contact page content',
                     'theme_id'=>$theme->id,
-                    'parent_page'=>0
+                    'parent_page'=>0,
+                    'page_level'=>1
                 ]
             );
         }
@@ -84,7 +88,8 @@ class PageSeeder extends Seeder
                     'page_description'=>'Events',
                     'content'=>'Events for the county',
                     'theme_id'=>$theme->id,
-                    'parent_page'=>0
+                    'parent_page'=>0,
+                    'page_level'=>3
                 ]
             );
         }
@@ -98,7 +103,8 @@ class PageSeeder extends Seeder
                     'page_description'=>'Blog',
                     'content'=>'Blog about the county',
                     'theme_id'=>$theme->id,
-                    'parent_page'=>0
+                    'parent_page'=>0,
+                    'page_level'=>3
                 ]
             );
         }
@@ -112,7 +118,8 @@ class PageSeeder extends Seeder
                     'page_description'=>'Details of an event',
                     'content'=>'Details of an event',
                     'theme_id'=>$theme->id,
-                    'parent_page'=>0
+                    'parent_page'=>0,
+                    'page_level'=>3
                 ]
             );
         }
@@ -127,7 +134,8 @@ class PageSeeder extends Seeder
                     'page_description'=>'Our media',
                     'content'=>'Media gallery',
                     'theme_id'=>$theme->id,
-                    'parent_page'=>0
+                    'parent_page'=>0,
+                    'page_level'=>3
                 ]
             );
         }
@@ -141,7 +149,8 @@ class PageSeeder extends Seeder
                     'page_description'=>'Volunteers of the county',
                     'content'=>'Volunteers of the county',
                     'theme_id'=>$theme->id,
-                    'parent_page'=>0
+                    'parent_page'=>0,
+                    'page_level'=>3
                 ]
             );
         }
@@ -156,7 +165,8 @@ class PageSeeder extends Seeder
                     'page_description'=>'Branches of the county',
                     'content'=>'Branches of the county',
                     'theme_id'=>$theme->id,
-                    'parent_page'=>0
+                    'parent_page'=>0,
+                    'page_level'=>3
                 ]
             );
         }
@@ -170,7 +180,8 @@ class PageSeeder extends Seeder
                     'page_description'=>'Causes',
                     'content'=>'causes',
                     'theme_id'=>$theme->id,
-                    'parent_page'=>0
+                    'parent_page'=>0,
+                    'page_level'=>3
                 ]
             );
         }
@@ -184,7 +195,8 @@ class PageSeeder extends Seeder
                     'page_description'=>'shop for the county',
                     'content'=>'shop for  the county',
                     'theme_id'=>$theme->id,
-                    'parent_page'=>0
+                    'parent_page'=>0,
+                    'page_level'=>3
                 ]
             );
         }
@@ -199,7 +211,8 @@ class PageSeeder extends Seeder
                     'page_description'=>'Product information',
                     'content'=>'product information',
                     'theme_id'=>$theme->id,
-                    'parent_page'=>0
+                    'parent_page'=>0,
+                    'page_level'=>3
                 ]
             );
         }
@@ -213,7 +226,8 @@ class PageSeeder extends Seeder
                     'page_description'=>'Campaigns of the county',
                     'content'=>'Campaign of the county',
                     'theme_id'=>$theme->id,
-                    'parent_page'=>0
+                    'parent_page'=>0,
+                    'page_level'=>3
                 ]
             );
         }
@@ -228,7 +242,8 @@ class PageSeeder extends Seeder
                     'page_description'=>'donations for  the county',
                     'content'=>'donations of the county',
                     'theme_id'=>$theme->id,
-                    'parent_page'=>0
+                    'parent_page'=>0,
+                    'page_level'=>3
                 ]
             );
         }
@@ -244,7 +259,9 @@ class PageSeeder extends Seeder
                     'page_description'=>' Biography ',
                     'content'=>'Biography',
                     'theme_id'=>$theme->id,
-                    'parent_page'=>0
+                    'parent_page'=>0,
+                    'page_level'=>3
+
                 ]
             );
         }
@@ -262,7 +279,8 @@ class PageSeeder extends Seeder
                     'page_description'=>'Details of the campaign',
                     'content'=>'Campaigns',
                     'theme_id'=>$theme->id,
-                    'parent_page'=>0
+                    'parent_page'=>0,
+                    'page_level'=>3
                 ]
             );
         }
@@ -277,7 +295,8 @@ class PageSeeder extends Seeder
                     'page_description'=>'team of the county',
                     'content'=>'team  of the county',
                     'theme_id'=>$theme->id,
-                    'parent_page'=>0
+                    'parent_page'=>0,
+                    'page_level'=>3
                 ]
             );
         }
@@ -292,7 +311,8 @@ class PageSeeder extends Seeder
                     'page_description'=>'Events of the county',
                     'content'=>'Events of the county',
                     'theme_id'=>$theme->id,
-                    'parent_page'=>0
+                    'parent_page'=>0,
+                    'page_level'=>3
                 ]
             );
         }
@@ -306,7 +326,8 @@ class PageSeeder extends Seeder
                     'page_description'=>'residents of the county',
                     'content'=>'Residents of the county',
                     'theme_id'=>$theme->id,
-                    'parent_page'=>0
+                    'parent_page'=>0,
+                    'page_level'=>3
                 ]
             );
         }
@@ -323,7 +344,8 @@ class PageSeeder extends Seeder
                     'page_description'=>'County government',
                     'content'=>'County government',
                     'theme_id'=>$theme->id,
-                    'parent_page'=>0
+                    'parent_page'=>0,
+                    'page_level'=>3
                 ]
             );
         }
@@ -338,7 +360,8 @@ class PageSeeder extends Seeder
                     'page_description'=>'Couty Health information',
                     'content'=>'Health',
                     'theme_id'=>$theme->id,
-                    'parent_page'=>0
+                    'parent_page'=>0,
+                    'page_level'=>3
                 ]
             );
         }
@@ -353,7 +376,8 @@ class PageSeeder extends Seeder
                     'page_description'=>'County Governor',
                     'content'=>'Governor of the county',
                     'theme_id'=>$theme->id,
-                    'parent_page'=>0
+                    'parent_page'=>0,
+                    'page_level'=>3
                 ]
             );
         }
@@ -368,7 +392,8 @@ class PageSeeder extends Seeder
                     'page_description'=>'Resident details  of the county',
                     'content'=>'Volunteers of the county',
                     'theme_id'=>$theme->id,
-                    'parent_page'=>0
+                    'parent_page'=>0,
+                    'page_level'=>3
                 ]
             );
         }
@@ -382,7 +407,8 @@ class PageSeeder extends Seeder
                     'page_description'=>'Priorities',
                     'content'=>'Priorities',
                     'theme_id'=>$theme->id,
-                    'parent_page'=>0
+                    'parent_page'=>0,
+                    'page_level'=>3
                 ]
             );
         }
@@ -397,7 +423,8 @@ class PageSeeder extends Seeder
                     'page_description'=>'Faqs for the county',
                     'content'=>'Faqs',
                     'theme_id'=>$theme->id,
-                    'parent_page'=>0
+                    'parent_page'=>0,
+                    'page_level'=>3
                 ]
             );
         }
@@ -412,7 +439,8 @@ class PageSeeder extends Seeder
                     'page_description'=>'Issues of the county',
                     'content'=>'Issues of the county',
                     'theme_id'=>$theme->id,
-                    'parent_page'=>0
+                    'parent_page'=>0,
+                    'page_level'=>3
                 ]
             );
         }
@@ -427,7 +455,8 @@ class PageSeeder extends Seeder
                     'page_description'=>'Details of events',
                     'content'=>'Details of the county events',
                     'theme_id'=>$theme->id,
-                    'parent_page'=>0
+                    'parent_page'=>0,
+                    'page_level'=>3
                 ]
             );
         }

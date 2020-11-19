@@ -58,30 +58,42 @@
                         <ul>
                             @if(@$main_menu_items_count>0)
                                 @foreach(@$menu_items as $menu_item)
+                                    @if(@$menu_item->menu_level == 1)
                                     <li><a href="{{url(@$menu_item->page->slug)}}">{{@$menu_item->page->title}}</a></li>
+                                    @else
+                                        @if(@$menu_item->menu_level == 2)
+                                        <li><a href="#">{{@$menu_item->page->title}}</a>
+                                            <ul class="child">
+
+                                                @foreach(@$menu_item->sub_menus(@$menu_item->page->id) as $sub_menu)
+                                                <li><a href="{{url(@$sub_menu->page->slug)}}">{{@$sub_menu->page->title}}</a></li>
+                                                    @endforeach
+                                            </ul>
+                                        </li>
+                                            @endif
+                                        @endif
                                     @endforeach
                                     @endif
 
-                            </li>
-                            <li><a href="#">County Sectors</a>
-                                <ul class="child">
-                                    <li><a href="{{url('team')}}">Food Agriculture and Forest</a></li>
-                                    <li><a href="{{url('mayor')}}">Devolution</a></li>
-                                    <li><a href="{{url('government')}}">Education,youth and Social Services</a></li>
+{{--                            <li><a href="#">County Sectors</a>--}}
+{{--                                <ul class="child">--}}
+{{--                                    <li><a href="{{url('team')}}">Food Agriculture and Forest</a></li>--}}
+{{--                                    <li><a href="{{url('mayor')}}">Devolution</a></li>--}}
+{{--                                    <li><a href="{{url('government')}}">Education,youth and Social Services</a></li>--}}
 
-                                    <li><a href="{{url('health')}}">Health Services</a></li>
+{{--                                    <li><a href="{{url('health')}}">Health Services</a></li>--}}
 
-                                </ul>
-                            </li>
+{{--                                </ul>--}}
+{{--                            </li>--}}
 
-                            <li><a href="#">Resources</a>
-                                <ul class="child">
-                                    <li><a href="{{url('resident')}}">News and Speeches</a></li>
-                                    <li><a href="{{url('resident_detail')}}">Tenders and Notices</a></li>
-                                    <li><a href="{{url('resident_detail')}}">Media</a></li>
-                                    <li><a href="{{url('resident_detail')}}">Emergency Services</a></li>
-                                </ul>
-                            </li>
+{{--                            <li><a href="#">Resources</a>--}}
+{{--                                <ul class="child">--}}
+{{--                                    <li><a href="{{url('resident')}}">News and Speeches</a></li>--}}
+{{--                                    <li><a href="{{url('resident_detail')}}">Tenders and Notices</a></li>--}}
+{{--                                    <li><a href="{{url('resident_detail')}}">Media</a></li>--}}
+{{--                                    <li><a href="{{url('resident_detail')}}">Emergency Services</a></li>--}}
+{{--                                </ul>--}}
+{{--                            </li>--}}
 
 {{--                                            <li><a href="{{url('event')}}">E-services</a></li>--}}
 {{--                                    <li>--}}

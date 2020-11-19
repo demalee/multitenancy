@@ -57,7 +57,7 @@ class HomeController extends Controller
             $theme_id = 1;
         }
 
-        $pages = Page::where('theme_id',$theme_id)->where('parent_page',0)->get();
+        $pages = Page::where('theme_id',$theme_id)->whereIn('page_level',[1,2])->get();
         $menu = Menu::where('name','Main menu')->where('theme_id',$theme_id)->get();
         return view('dashboard/website/steps',compact('pages','themes'));
     }

@@ -225,7 +225,7 @@
                                                                                         <div class="form-group row">
                                                                                             <label class="col-sm-3 col-form-label">Brand Name</label>
                                                                                             <div class="col-sm-9">
-                                                                                                <input class="form-control"   id="field" name="brand_name" type="text" placeholder="Brand name">
+                                                                                                <input class="form-control"   id="field" name="brand_name" type="text" placeholder="Brand name" value=" ">
                                                                                             </div>
                                                                                         </div></div></div>
 

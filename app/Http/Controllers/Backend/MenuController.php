@@ -121,10 +121,11 @@ class MenuController extends Controller
         {
             $theme_id = 1;
         }
-        $pages = Page::where('theme_id',$theme_id)->get();
+        $pages = Page::where('theme_id',$theme_id)->whereIn('page_level',[1,2])->get();
+        $pages_sub = Page::where('theme_id',$theme_id)->where('page_level',3)->get();
         $menu_items = MenuItem::where('menu_id',$menu->id)->get();
 
-        return view('/dashboard/pages/menus',compact('menu','pages','menu_items'));
+        return view('/dashboard/pages/menus',compact('menu','pages','menu_items','pages_sub'));
     }
 
     /**
@@ -149,64 +150,96 @@ class MenuController extends Controller
     {
         //
         $data = $request->all();
-        if ($data['submit'] == 'menu_edit')
-        {
+        if ($data['submit'] == 'menu_edit') {
             $menu = Menu::findorfail($id);
-            if (isset($data['name']))
-            {
+            if (isset($data['name'])) {
                 $menu->update([
-                    'name'=>$data['name']
+                    'name' => $data['name']
                 ]);
-                return back()->with('success','successfully updated the menu');
-            }
-            else
-            {
-                return back()->with('info','nothing to edit');
+                return back()->with('success', 'successfully updated the menu');
+            } else {
+                return back()->with('info', 'nothing to edit');
             }
 
-        }
-        elseif($data['submit'] == "edit_menu_items")
-        {
+        } elseif ($data['submit'] == "edit_menu_items") {
             $menu = Menu::findorfail($id);
-            if (isset($data['page_id']))
-            {
+            if (isset($data['page_id'])) {
                 $count = 0;
-                foreach ($data['page_id'] as $page_id)
-                {
+                foreach ($data['page_id'] as $page_id) {
                     $menu_item = MenuItem::updateorcreate([
-                        'menu_id'=>$menu->id,
-                        'page_id'=>$page_id,
-                    ],[
-                        'menu'=>$menu->name,
-                        'parent_id'=>0,
-                        'slug'=>\Illuminate\Support\Str::slug($menu->name)
+                        'menu_id' => $menu->id,
+
+                    ], [
+                        'menu' => $menu->name,
+                        'parent_id' => 0,
+                        'slug' => \Illuminate\Support\Str::slug($menu->name),
+                        'page_id' => $page_id,
+                        'menu_level' => 1,
                     ]);
                 }
 
-                return back()->with('success','Successfully added menu item to the item');
-            }
-            else
-            {
-                return back()->with('info','no items to add to the menu');
+                return back()->with('success', 'Successfully added menu item to the item');
+            } else {
+                return back()->with('info', 'no items to add to the menu');
             }
 
-        }
-        elseif($data['submit'] == 'remove_menu_item')
-        {
+        } elseif ($data['submit'] == 'remove_menu_item') {
             $menu_item = MenuItem::findorfail($id);
             $menu_item->delete();
-            return back()->with('success','successfully deleted the page from the menu');
-        }
-        elseif($data['submit'] == "order_menus")
-        {
-            $menu_items = MenuItem::where('menu_id',$id)->get();
-           foreach ($menu_items as $menu_item)
-           {
-               $menu_item->update([
-                   'menu_position'=>$data['menu_item_'.$menu_item->id]
-               ]);
-           }
-           return back()->with('success','Menu reordered successfully');
+            return back()->with('success', 'successfully deleted the page from the menu');
+        } elseif ($data['submit'] == "order_menus") {
+            $menu_items = MenuItem::where('menu_id', $id)->get();
+            foreach ($menu_items as $menu_item) {
+                $menu_item->update([
+                    'menu_position' => $data['menu_item_' . $menu_item->id]
+                ]);
+            }
+            return back()->with('success', 'Menu reordered successfully');
+        } elseif ($data['submit'] == 'edit_sub_menu') {
+
+            if (!isset($data['page_id'])) {
+                return  back()->with('error','Error occurred, add pages to the menu');
+            }
+            $menu = Menu::findorfail($id);
+            $page = Page::create([
+                'title' => $data['sub_menu'],
+                'slug' => \Illuminate\Support\Str::slug($data['sub_menu']),
+                'page_description' => $data['sub_menu'],
+                'content' => $data['sub_menu'],
+                'theme_id' => $menu->theme_id,
+                'parent_page' => 0,
+                'page_level' => 2
+            ]);
+
+            $menu_item = MenuItem::updateorcreate([
+                'menu_id' => $menu->id,
+                'page_id' => $page->id,
+            ], [
+                'menu' => $menu->name,
+                'parent_id' => 0,
+                'slug' => \Illuminate\Support\Str::slug($menu->name),
+                'parent_page_id' => 0,
+                'menu_level' => 2
+            ]);
+
+            if (isset($data['page_id'])) {
+
+                $count = 0;
+                foreach ($data['page_id'] as $page_id) {
+                    $menu_item = MenuItem::updateorcreate([
+                        'menu_id' => $menu->id,
+                        'page_id' => $page_id,
+                    ], [
+                        'menu' => $menu->name,
+                        'parent_id' => 0,
+                        'slug' => \Illuminate\Support\Str::slug($menu->name),
+                        'parent_page_id' => $page->id,
+                        'menu_level' => 3
+                    ]);
+                }
+
+                return back()->with('success', 'Successfully added menu item to the item');
+            }
         }
     }
 

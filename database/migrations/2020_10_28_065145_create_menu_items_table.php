@@ -21,6 +21,8 @@ class CreateMenuItemsTable extends Migration
             $table->integer('parent_id')->default(0);
             $table->string('slug');
             $table->integer('menu_position');
+            $table->integer('menu_level')->default(1);
+            $table->integer('parent_page_id')->nullable();
             $table->timestamps();
         });
     }
