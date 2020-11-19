@@ -85,7 +85,7 @@
                     <li>
                         <div class="city_service_text">
                             <span><i class="fa icon-law"></i></span>
-                            <h5><a href="#" contenteditable="true">Epayment </a></h5>
+                            <h5><a href="https://berrysms.edgetech.co.ke/login" contenteditable="true">Epayment </a></h5>
                         </div>
                     </li>
                     <li>

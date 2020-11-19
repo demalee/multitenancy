@@ -68,6 +68,7 @@
                                                 @foreach(@$menu_item->sub_menus(@$menu_item->page->id) as $sub_menu)
                                                 <li><a href="{{url(@$sub_menu->page->slug)}}">{{@$sub_menu->page->title}}</a></li>
                                                     @endforeach
+
                                             </ul>
                                         </li>
                                             @endif

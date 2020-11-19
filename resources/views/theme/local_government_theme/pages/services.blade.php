@@ -26,13 +26,13 @@
 									<div class="city_service2_list">
 										<span><i class="fa icon-law-2"></i></span>
 										<div class="city_service2_caption">
-											<h4><span contenteditable="true">Law Enforcement</span>Services</h4>
+											<h4><span contenteditable="true">SMS</span>Services</h4>
 										</div>
 									</div>
 								</figure>
 								<div class="city_service2_text">
 									<p contenteditable="true" > Version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin lore uisbibendum auctor..</p>
-									<a class="see_more_btn" href="#">See More <i class="fa icon-next-1"></i></a>
+									<a class="see_more_btn" href="https://berrysms.edgetech.co.ke/login">See More <i class="fa icon-next-1"></i></a>
 								</div>
 							</div>
 						</div>
