@@ -201,12 +201,14 @@ class MenuController extends Controller
                 return  back()->with('error','Error occurred, add pages to the menu');
             }
             $menu = Menu::findorfail($id);
-            $page = Page::create([
-                'title' => $data['sub_menu'],
+            $page = Page::updateorcreate([
+                'title'=>$data['sub_menu'],
+                'theme_id'=>$menu->theme_id
+            ],
+                [
                 'slug' => \Illuminate\Support\Str::slug($data['sub_menu']),
                 'page_description' => $data['sub_menu'],
                 'content' => $data['sub_menu'],
-                'theme_id' => $menu->theme_id,
                 'parent_page' => 0,
                 'page_level' => 2
             ]);

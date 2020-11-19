@@ -100,6 +100,9 @@
                         <h5>{{$menu->name}} pages
                         </h5>
                         @foreach($menu_items as $menu_item )
+                            @if($menu_item->menu_level == 3)
+                                @continue
+                                @endif
                         <form action="{{route('menus.update',$menu_item->id)}}" method="post">
                             @csrf
                             @method('PUT')
@@ -143,6 +146,9 @@
                             @csrf
                             @method('PUT')
                         @foreach($menu_items as $menu_item )
+                                @if($menu_item->menu_level == 3)
+                                    @continue
+                                @endif
                                 <h6>
                                     <button disabled class="btn btn-sm btn-primary" type="button" >{{@$menu_item->page->title}}
                                     </button>
