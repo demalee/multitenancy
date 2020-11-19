@@ -5,7 +5,7 @@
     <div class="container-fluid">
         <div class="row">
 
-            <div class="col-sm-8">
+            <div class="col-sm-7">
 
                 <div class="card">
 
@@ -37,8 +37,63 @@
                                 </form>
                             </div>
                     </div>
-            </div>
-            <div class="col-sm-4">
+
+            <div class="card">
+
+
+                <div class="card-body">
+                    <form action="{{route('menus.update',$menu->id)}}" method="post">
+                        @csrf
+                        @method('PUT')
+                        <div class="form-group row mb-0">
+                            <label class="col-sm-3 col-form-label pb-0">Pages</label>
+                            <div class="col-sm-9">
+                                <div class="form-group m-checkbox-inline mb-0">
+                                    @foreach($pages as $page)
+
+                                        <input type="checkbox"  name="page_id[]" value="{{$page->id}}"> {{$page->title}} <br/>
+                                    @endforeach
+
+                                    <div class="card-footer">
+                                        <button class="btn btn-primary" name="submit" value="edit_menu_items"> Add to Menu
+                                        </button>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div></div>
+
+                <div class="card-body">
+                    <form action="{{route('menus.update',$menu->id)}}" method="post">
+                        @csrf
+                        @method('PUT')
+                        <div class="form-group row mb-0">
+                            <label class="col-sm-3 col-form-label pb-0">Add Submenu</label>
+                            <div class="col-sm-9">
+                                <div class="form-group">
+                                    <label class="col-form-label">Submenu *</label>
+                                    <input class="form-control" name="name" type="text" value="" placeholder="Submenu name" required>
+                                </div>
+                                <div class="form-group m-checkbox-inline mb-0">
+                                    <p><b>Choose the menus that you woul like the submenu to be</b></p>
+                                    @foreach($pages as $page)
+
+                                        <input type="checkbox"  name="page_id[]" value="{{$page->id}}"> {{$page->title}}
+                                    @endforeach
+<br>
+                                    <div class="card-footer">
+                                        <button class="btn btn-primary" name="submit" value="edit_menu_items"> Add Submenu
+                                        </button>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div></div>
+            <div class="col-sm-5">
                 <div class="card-body">
                     <div class="card-header">
 
@@ -89,16 +144,15 @@
                             @method('PUT')
                         @foreach($menu_items as $menu_item )
                                 <h6>
-                                    <button disabled class="btn btn-primary" type="button" >{{@$menu_item->page->title}}
+                                    <button disabled class="btn btn-sm btn-primary" type="button" >{{@$menu_item->page->title}}
                                     </button>
                                     <span class="float-right">
-                                        <input type="text" class=" form-inline" name="menu_item_{{$menu_item->id}}" placeholder="Eg 1 or 2" required/>
-                                    </span>
+                                        <input type="text" class="form-inline form-control-sm" name="menu_item_{{$menu_item->id}}" placeholder="Eg 1 or 2" required/>
 
+                                    </span>
                                 </h6>
                         @endforeach
-                            <br>
-                            <br>
+
                         <button class="btn btn-primary" name="submit" value="order_menus">Order menu items</button>
                         </form>
                         <br>
@@ -112,7 +166,7 @@
 
 
 
-        <div class="col-sm-8">
+        <div class="col-sm-7">
 {{--        <div class="card">--}}
 
 {{--            <div class="card-body">--}}
@@ -145,90 +199,65 @@
 {{--                </div>--}}
 {{--            </div>--}}
 {{--        </div>--}}
-            <div class="card">
-
-                <div class="card-body">
-                    <form action="{{route('menus.update',$menu->id)}}" method="post">
-                        @csrf
-                        @method('PUT')
-                <div class="form-group row mb-0">
-                    <label class="col-sm-3 col-form-label pb-0">Pages</label>
-                    <div class="col-sm-9">
-                        <div class="form-group m-checkbox-inline mb-0">
-                            @foreach($pages as $page)
-
-                                <input type="checkbox"  name="page_id[]" value="{{$page->id}}"> {{$page->title}} <br/>
-                            @endforeach
-
-                            <div class="card-footer">
-                                <button class="btn btn-primary" name="submit" value="edit_menu_items"> Add to Menu
-                                </button>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                    </form>
-                </div></div>
 
 
 
-            <div class="card">
+{{--            <div class="card">--}}
 
-                <div class="card-body">
-<center>Add Link</center>
-                <div class="form-group row">
-                    <label class="col-sm-3 col-form-label" for="inputEmail3">Title</label>
-                    <div class="col-sm-9">
-                        <input class="form-control" id="inputEmail3" type="text" name="title" placeholder="Email">
-                    </div>
-                </div>
-                <div class="form-group row">
-                    <label class="col-sm-3 col-form-label" for="inputPassword3">Url</label>
-                    <div class="col-sm-9">
-                        <input class="form-control" id="inputPassword3" type="text" name="url" placeholder="https://">
-                    </div>
-                </div>
-                <div class="form-group row">
-                    <label class="col-sm-3 col-form-label" for="inputPassword3">Icon</label>
-                    <div class="col-sm-9">
-                        <input class="form-control" id="inputnumber" type="text" name="icon" placeholder="fa fa-user">
-                    </div>
-                </div>
-                <div class="form-group row">
-                    <label class="col-sm-3 col-form-label" for="inputPassword3">CSS Class</label>
-                    <div class="col-sm-9">
-                        <input class="form-control" id="inputnumber" type="text" name="css" placeholder="css">
-                    </div>
-                </div>
-
-
-                    <div class="form-group row">
-                            <label class="col-sm-3 col-form-label" for="inputPassword3">Target</label>
-
-                            <select class="form-control" id="exampleFormControlSelect3" name="target" multiple="">
-                                <option value="link">open link directly</option>
-                                <option value="tab">open link in new tab</option>
-
-                            </select>
-                        </div>
+{{--                <div class="card-body">--}}
+{{--<center>Add Link</center>--}}
+{{--                <div class="form-group row">--}}
+{{--                    <label class="col-sm-3 col-form-label" for="inputEmail3">Title</label>--}}
+{{--                    <div class="col-sm-9">--}}
+{{--                        <input class="form-control" id="inputEmail3" type="text" name="title" placeholder="Email">--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--                <div class="form-group row">--}}
+{{--                    <label class="col-sm-3 col-form-label" for="inputPassword3">Url</label>--}}
+{{--                    <div class="col-sm-9">--}}
+{{--                        <input class="form-control" id="inputPassword3" type="text" name="url" placeholder="https://">--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--                <div class="form-group row">--}}
+{{--                    <label class="col-sm-3 col-form-label" for="inputPassword3">Icon</label>--}}
+{{--                    <div class="col-sm-9">--}}
+{{--                        <input class="form-control" id="inputnumber" type="text" name="icon" placeholder="fa fa-user">--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--                <div class="form-group row">--}}
+{{--                    <label class="col-sm-3 col-form-label" for="inputPassword3">CSS Class</label>--}}
+{{--                    <div class="col-sm-9">--}}
+{{--                        <input class="form-control" id="inputnumber" type="text" name="css" placeholder="css">--}}
+{{--                    </div>--}}
+{{--                </div>--}}
 
 
-                    <div class="card-footer">
-                        <button class="btn btn-primary" > Add to Menu
-                        </button>
+{{--                    <div class="form-group row">--}}
+{{--                            <label class="col-sm-3 col-form-label" for="inputPassword3">Target</label>--}}
 
-                    </div>
-                </div></div>
-            <div class="card-footer">
-                <button class="btn btn-primary" > Save
-                </button>
-                <button class="btn btn-primary pull-right">Save and edit
-                </button>
-            </div>
-            </form>
-        </div>
-    </div>
+{{--                            <select class="form-control" id="exampleFormControlSelect3" name="target" multiple="">--}}
+{{--                                <option value="link">open link directly</option>--}}
+{{--                                <option value="tab">open link in new tab</option>--}}
+
+{{--                            </select>--}}
+{{--                        </div>--}}
+
+
+{{--                    <div class="card-footer">--}}
+{{--                        <button class="btn btn-primary" > Add to Menu--}}
+{{--                        </button>--}}
+
+{{--                    </div>--}}
+{{--                </div></div>--}}
+{{--            <div class="card-footer">--}}
+{{--                <button class="btn btn-primary" > Save--}}
+{{--                </button>--}}
+{{--                <button class="btn btn-primary pull-right">Save and edit--}}
+{{--                </button>--}}
+{{--            </div>--}}
+{{--            </form>--}}
+{{--        </div>--}}
+{{--    </div>--}}
     </div>
 
 

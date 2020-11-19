@@ -34,7 +34,7 @@ Route::get('/theme-option', function () {
     });
     Route::get('/dashboard/setting', function () {
         $website = \App\Models\Website::where('admin_id',auth()->id())->first();
-        $setting = \App\Models\WebsiteSetting::where('website_id',$website->id)->first();
+        $setting = \App\Models\WebsiteSetting::where('website_id',@$website->id)->first();
 //        dd($setting);
         return view('/dashboard/setting',compact('setting'));
     });
@@ -80,8 +80,7 @@ Route::get('services',[App\Http\Controllers\PageController::class, 'services']);
 Route::get('contact',[App\Http\Controllers\PageController::class, 'contact']);
 Route::get('events',[App\Http\Controllers\PageController::class, 'event']);
 Route::get('blog',[App\Http\Controllers\PageController::class, 'blog']);
-Route::get('event-detail',[App\Http\Controllers\PageController::class, 'eventDetail']);
-Route::get('blog',[App\Http\Controllers\PageController::class, 'blog']);
+Route::get('events_details',[App\Http\Controllers\PageController::class, 'eventDetail']);
 Route::get('gallery',[App\Http\Controllers\PageController::class, 'gallery']);
 Route::get('volunteer',[App\Http\Controllers\PageController::class, 'volunteer']);
 Route::get('branches',[App\Http\Controllers\PageController::class, 'branches']);
