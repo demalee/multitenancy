@@ -39,7 +39,7 @@
                                 <td style="background: {{@$setting->brand_color}}"><span style="color: white">{{@$setting->brand_color}}</span></td>
                                 <td>
 
-                                    <a class="btn btn-pill btn-primary btn-air-secondary btn-sm" href="{{}}">Edit</a>
+                                    <a class="btn btn-pill btn-primary btn-air-secondary btn-sm" href="{{url('/dashboard/settings_edit/'.$setting->id)}}">Edit</a>
                                 </td>
                                 <td>
                                     <form action="" method="POST">

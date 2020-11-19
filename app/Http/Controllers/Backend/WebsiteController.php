@@ -35,6 +35,44 @@ class WebsiteController extends Controller
         //
     }
 
+    public function websiteSettingsUpdate(Request $request, $id)
+    {
+        $data = $request->all();
+        $setting = WebsiteSetting::findorfail($id);
+        //favicon
+        if (isset($data['favicon']))
+        {
+            $attach = time() . '-favicon.' . request()->favicon->getClientOriginalExtension();
+            request()->favicon->move(public_path('images'), $attach);
+            $favicon_url = env('APP_URL')."/images/".$attach;
+            $data['favicon'] = $attach;
+        }
+
+        //brand color
+        if (isset($data['logo_name']))
+        {
+            $attach1 = time(). '-logo.' . request()->logo_name->getClientOriginalExtension();
+            request()->logo_name->move(public_path('images'), $attach1);
+            $logo_url = env('APP_URL')."/images/".$attach1;
+            $data['logo_name'] = $attach1;
+        }
+        $website_settings = $setting->update(
+            [
+                'favicon'=>@$data['favicon'],
+                'brand_name'=>@$data['brand_name'],
+                'brand_color'=>@$data['brand_color'],
+                'logo_name'=>@$data['logo_name'],
+            ]);
+        if ($website_settings)
+        {
+            return back()->with('success','website settings successfully set');
+        }
+        else
+        {
+            return back()->with('error','Error occurred, something went wrong');
+        }
+    }
+
     public function websiteSettings(Request $request)
     {
         $data = $request->all();

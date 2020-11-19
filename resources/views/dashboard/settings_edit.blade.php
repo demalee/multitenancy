@@ -26,7 +26,7 @@
                     <div class="card-header">
                         <h5></h5>
                     </div>
-                    <form class="form theme-form" method="post" action="" enctype="multipart/form-data">
+                    <form class="form theme-form" method="post" action="{{url('dashboard/website/setting/update/'.$id)}}" enctype="multipart/form-data">
                         @csrf
                         <div class="card-body">
                             <div class="row">
@@ -34,7 +34,7 @@
                                     <div class="form-group row">
                                         <label class="col-sm-3 col-form-label">Upload favicon</label>
                                         <div class="col-sm-9">
-                                            <input class="form-control" type="file" name="favicon">
+                                            <input class="form-control" type="file" name="favicon" value="{{$setting->favicon}}">
                                         </div>
                                     </div>
                                 </div>
@@ -44,7 +44,7 @@
                                     <div class="form-group row">
                                         <label class="col-sm-3 col-form-label">Upload Logo</label>
                                         <div class="col-sm-9">
-                                            <input class="form-control" type="file" name="logo_name">
+                                            <input class="form-control" type="file" name="logo_name"  value="{{$setting->logo_name}}">
                                         </div>
                                     </div>
                                 </div>
@@ -54,7 +54,7 @@
                                     <div class="form-group row">
                                         <label class="col-sm-3 col-form-label">Brand Name</label>
                                         <div class="col-sm-9">
-                                            <input class="form-control" name="brand_name" type="text" placeholder="Brand name">
+                                            <input class="form-control" name="brand_name" type="text" placeholder="Brand name"  value="{{$setting->brand_mame}}">
                                         </div>
                                     </div></div></div>
 
@@ -63,7 +63,7 @@
                                     <div class="form-group row">
                                         <label class="col-sm-3 col-form-label pt-0">Brand Color</label>
                                         <div class="col-sm-9">
-                                            <input class="form-control" type="color" name="brand_color" value="#563d7c">
+                                            <input class="form-control" type="color" name="brand_color" value="{{$setting->brand_color}}">
                                         </div>
                                     </div></div></div>
 

@@ -38,8 +38,9 @@ Route::get('/theme-option', function () {
 //        dd($setting);
         return view('/dashboard/setting',compact('setting'));
     });
-    Route::get('/dashboard/settings_edit', function () {
-        return view('/dashboard/settings_edit');
+    Route::get('/dashboard/settings_edit/{id}', function ($id) {
+        $setting = \App\Models\WebsiteSetting::find($id);
+        return view('/dashboard/settings_edit',compact('setting','id'));
     });
 Route::get('/custom-css', function () {
     return view('/custom-css');
@@ -73,6 +74,7 @@ Route::get('/dashboard/website', [App\Http\Controllers\HomeController::class, 's
 //website routes
 Route::resource('websites',App\Http\Controllers\Backend\WebsiteController::class);
 Route::post('dashboard/website/setting',[\App\Http\Controllers\Backend\WebsiteController::class,'websiteSettings'])->name('dashboard.setting');
+Route::post('dashboard/website/setting/update/{id}',[\App\Http\Controllers\Backend\WebsiteController::class,'websiteSettingsUpdate'])->name('dashboard.setting');
 
 Route::get('home',[App\Http\Controllers\PageController::class, 'index'])->name('home');
 Route::get('about',[App\Http\Controllers\PageController::class, 'about']);
