@@ -168,7 +168,7 @@ class MenuController extends Controller
                 foreach ($data['page_id'] as $page_id) {
                     $menu_item = MenuItem::updateorcreate([
                         'menu_id' => $menu->id,
-
+                        'theme_id' => $this->getActiveTheme()
                     ], [
                         'menu' => $menu->name,
                         'parent_id' => 0,
