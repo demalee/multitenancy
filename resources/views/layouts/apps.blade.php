@@ -30,9 +30,10 @@
     <link rel="stylesheet" type="text/css" href="../assets/css/prism.css">
     <!-- Plugins css Ends-->
     <!-- Bootstrap css-->
-    <link rel="stylesheet" type="text/css" href="../assets/css/bootstrap.css">
+{{--    <link rel="stylesheet" type="text/css" href="../assets/css/bootstrap.css">--}}
     <!-- App css-->
     <link rel="stylesheet" type="text/css" href="../assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/custom.css">
     <link id="color" rel="stylesheet" href="../assets/css/color-1.css" media="screen">
     <!-- Responsive css-->
 
@@ -52,14 +53,13 @@
 <link rel="stylesheet" type="text/css" href="https://laravel.pixelstrap.com/xolo/assets/css/feather-icon.css">
 <!-- Plugins css start-->
 <!-- Plugins css Ends-->
+<link rel="stylesheet" type="text/css" href="http://laravel.pixelstrap.com/xolo/assets/css/select2.css">
 <!-- Bootstrap css-->
 <link rel="stylesheet" type="text/css" href="https://laravel.pixelstrap.com/xolo/assets/css/bootstrap.css">
 <!-- App css-->
 <link id="color" rel="stylesheet" href="https://laravel.pixelstrap.com/xolo/assets/css/color-1.css" media="screen">
-<!-- Responsive css-->
-<link rel="stylesheet" type="text/css" href="https://laravel.pixelstrap.com/xolo/assets/css/responsive.css">
 <link rel="stylesheet" href="{{asset('css/steps.css')}}">
-
+<link rel="stylesheet" href="{{asset('css/select2.min.css')}}">
 <body>
 <!-- Loader starts-->
 {{--<div class="loader-wrapper">--}}
@@ -83,7 +83,6 @@
             </div>
             <div class="nav-right col pull-right right-menu">
                 <ul style="color: black">
-
                     <li class="px-0"  style="color: black"><a href="{{url('/')}}#services-section"><span  style="color: black">Services</span></a>
                     </li>
                     <li class="px-0"  style="color: black">
@@ -174,6 +173,14 @@
 <script src="../assets/js/dashboard/dashboard_4.js"></script>
 <script src="../assets/js/tooltip-init.js"></script>
 <script src="https://cdn.ckeditor.com/4.14.0/standard/ckeditor.js"></script>
+<script src="{{asset('js/select2.min.js')}}" />
+<script src="{{asset('js/select-custom.js')}}" />
+<script !src="">
+    $(document).ready(function() {
+        $('.js-example-basic-multiple').select2();
+        $('.js-example-basic-single').select2();
+    });
+</script>
 <!-- Plugins JS Ends-->
 <!-- Theme js-->
 

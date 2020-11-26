@@ -47,7 +47,7 @@
 <nav>
     <ul class="cd-primary-nav">
         @include('layouts.headerstep')
-        @include('layouts.alerts')
+
     </ul>
 </nav>
 <!-- /menu -->
@@ -85,6 +85,7 @@
             <div id="wizard_container">
                 <div id="top-wizard">
                     <span id="location"></span>
+                    @include('layouts.alerts')
                     <div id="progressbar"></div>
                 </div>
                 <!-- /top-wizard -->
@@ -139,12 +140,13 @@
 
                                     @foreach($themes as $theme)
 
-                                        <div class="col-md-4" >
+                                        <div class="col-md-6" >
                                             <div class=""  >
-                                                <input id="{{$theme->id}}" type="radio" name="radio1" value="{{$theme->id}}" required>
-                                                <label for="radio" >
+                                                <label class="container_check">
+                                                    <input id="{{$theme->id}}" type="radio" name="radio1" value="{{$theme->id}}" required>
                                                     <img src="{{asset('images/'.$theme->theme_image)}}" style="width: 100%;height:100px"/>
                                                     <br>  {{@$theme->name}}
+                                                    <span class="checkmark"></span>
                                                 </label>
                                             </div>
                                         </div>

@@ -196,6 +196,7 @@ class WebsiteController extends Controller
                         $menu_item = MenuItem::updateorcreate([
                             'menu_id' => @$menu->id,
                             'page_id' => @$page_id,
+                            'theme_id'=>$this->getActiveTheme()
                         ], [
                             'menu' => @$menu->name,
                             'parent_id' => 0,

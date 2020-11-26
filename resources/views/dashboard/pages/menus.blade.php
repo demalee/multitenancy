@@ -83,26 +83,31 @@
 {{--                                                @endforeach--}}
 {{--                                            </select>--}}
 {{--                                        </div></div></div></div></div></div></div>--}}
+                <div class="card">
                 <div class="card-body">
                     <form action="{{route('menus.update',$menu->id)}}" method="post">
 
                         @csrf
                         @method('PUT')
                         <div class="form-group row mb-0">
-                            <label class="col-sm-3 col-form-label pb-0">Add Submenu</label>
-                            <div class="col-sm-9">
+                            <label class="col-sm-12 col-form-label pb-0">Add Submenu</label>
+                            <div class="col-sm-12">
                                 <div class="form-group">
                                     <label class="col-form-label">Menu title*</label>
                                     <input class="form-control" name="sub_menu" type="text" value="" placeholder="Menu name" required>
                                 </div>
                                 <div class="form-group m-checkbox-inline mb-0">
-                                    <p><b>Choose the menus that you woul like the submenu to be</b></p>
-
-                                    @foreach($pages_sub as $page)
-
-                                        <input type="checkbox"  name="page_id[]" value="{{$page->id}}"> {{$page->title}}
-                                    @endforeach
-<br>
+                                    <p><b>Choose the menus that you would like the submenu to have</b></p>
+                                    <div class="row">
+                                        @foreach($pages_sub as $page)
+                                        <div class="col-md-4">
+                                            <label>
+                                                <input type="checkbox"  name="page_id[]" value="{{$page->id}}"  class="option-custom">
+                                                <small>{{$page->title}}</small>
+                                            </label>
+                                        </div>
+                                        @endforeach
+                                    </div>
                                     <div class="card-footer">
                                         <button class="btn btn-primary" name="submit" value="edit_sub_menu"> Add Submenu
                                         </button>
@@ -113,6 +118,7 @@
                         </div>
                     </form>
                 </div></div>
+            </div>
             <div class="col-sm-5">
                 <div class="card-body">
                     <div class="card-header">

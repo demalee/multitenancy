@@ -150,6 +150,7 @@ class MenuController extends Controller
     {
         //
         $data = $request->all();
+//        dd($data);
         if ($data['submit'] == 'menu_edit') {
             $menu = Menu::findorfail($id);
             if (isset($data['name'])) {
@@ -162,19 +163,21 @@ class MenuController extends Controller
             }
 
         } elseif ($data['submit'] == "edit_menu_items") {
+//            dd($data['page_id']);
+//            dd($this->getActiveTheme());
             $menu = Menu::findorfail($id);
             if (isset($data['page_id'])) {
                 $count = 0;
                 foreach ($data['page_id'] as $page_id) {
                     $menu_item = MenuItem::updateorcreate([
-                        'menu_id' => $menu->id,
+                        'page_id' => $page_id,
                         'theme_id' => $this->getActiveTheme()
                     ], [
                         'menu' => $menu->name,
                         'parent_id' => 0,
                         'slug' => \Illuminate\Support\Str::slug($menu->name),
-                        'page_id' => $page_id,
                         'menu_level' => 1,
+                        'menu_id' => $menu->id,
                     ]);
                 }
 
@@ -209,13 +212,14 @@ class MenuController extends Controller
                 'slug' => \Illuminate\Support\Str::slug($data['sub_menu']),
                 'page_description' => $data['sub_menu'],
                 'content' => $data['sub_menu'],
-                'parent_page' => 0,
+                'parent_page' => 1,
                 'page_level' => 2
             ]);
 
             $menu_item = MenuItem::updateorcreate([
                 'menu_id' => $menu->id,
                 'page_id' => $page->id,
+                'theme_id' => $this->getActiveTheme()
             ], [
                 'menu' => $menu->name,
                 'parent_id' => 0,
@@ -231,6 +235,7 @@ class MenuController extends Controller
                     $menu_item = MenuItem::updateorcreate([
                         'menu_id' => $menu->id,
                         'page_id' => $page_id,
+                        'theme_id' => $this->getActiveTheme()
                     ], [
                         'menu' => $menu->name,
                         'parent_id' => 0,
