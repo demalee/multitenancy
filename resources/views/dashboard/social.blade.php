@@ -18,133 +18,112 @@
                     <div class="card-body">
                         <div class="row icon-lists feather-icons">
                             <div class="col-12 col-sm-6 col-xl-4">
-                                <div class="media">
-                                    <div class="form-group m-checkbox-inline mb-0">
-
-                                        <div class="media-body align-self-center">
-                                            <input type="checkbox"  name="" value="">   <i class="fa fa-facebook"></i><h6 class="mt-0">Facebook</h6>
-                                        </div>
-                                    </div>
+                                <label>  <i class="fa fa-facebook"></i><h6 class="mt-0"></h6></label>
+                                <div class="form-group">
+                                    <input class="form-control" type="text" placeholder="Facebook" name="Facebook">
                                 </div>
-                            </div>
-                            <div class="col-12 col-sm-6 col-xl-4">
-                                <div class="media">
-                                    <div class="form-group m-checkbox-inline mb-0">
 
-
-                                        <div class="media-body align-self-center">
-                                            <input type="checkbox"  name="" value="">   <i class="fa fa-youtube"></i><h6 class="mt-0">Youtube</h6>
-                                        </div>
-                                    </div></div>
-                            </div>
-                            <div class="col-12 col-sm-6 col-xl-4">
-                                <div class="media">
-                                    <div class="form-group m-checkbox-inline mb-0">
-
-                                        <div class="media-body align-self-center">
-                                            <input type="checkbox"  name="" value=""> <i class="fa fa-google"></i>
-                                            <h6 class="mt-0">Google</h6>
-                                        </div>
-                                    </div></div>
-                            </div><div class="col-12 col-sm-6 col-xl-4">
-                                <div class="media">
-                                    <div class="form-group m-checkbox-inline mb-0">
-
-
-                                        <div class="media-body align-self-center">
-                                            <input type="checkbox"  name="" value=""> <i class="fa fa-twitter"></i> <h6 class="mt-0">Twitter</h6>
-                                        </div>
-                                    </div></div>
-                            </div>
-                            <div class="col-12 col-sm-6 col-xl-4">
-                                <div class="media">
-                                    <div class="form-group m-checkbox-inline mb-0">
-
-
-                                        <div class="media-body align-self-center">
-                                            <input type="checkbox"  name="" value="">     <i class="fa fa-instagram"></i><h6 class="mt-0">Instagram</h6>
-                                        </div>
                                     </div>
-                                </div>
-                            </div>
+
 
                             <div class="col-12 col-sm-6 col-xl-4">
-                                <div class="media">
-                                    <div class="form-group m-checkbox-inline mb-0">
 
-
-                                        <div class="media-body align-self-center">
-                                            <input type="checkbox"  name="" value="">     <i class="fa fa-pinterest"></i><h6 class="mt-0">Pinterest</h6>
-                                        </div>
-                                    </div>
+                                <label><i class="fa fa-youtube"></i><h6 class="mt-0"></h6></label>
+                                <div class="form-group">
+                                    <input class="form-control" type="text" placeholder="Youtube" name="youtube">
                                 </div>
+
+
                             </div>
                             <div class="col-12 col-sm-6 col-xl-4">
-                                <div class="media">
-                                    <div class="form-group m-checkbox-inline mb-0">
+                                            <label><i class="fa fa-google"></i>
+                                                <h6 class="mt-0"></h6></label>
+                                            <div class="form-group">
+                                                <input class="form-control" type="text" placeholder="google" name="google">
+                                            </div>
 
 
-                                        <div class="media-body align-self-center">
-                                            <input type="checkbox"  name="" value="">     <i class="fa fa-skype"></i><h6 class="mt-0">Skype</h6>
-                                        </div>
-                                    </div>
-                                </div>
+
                             </div>
                             <div class="col-12 col-sm-6 col-xl-4">
-                                <div class="media">
-                                    <div class="form-group m-checkbox-inline mb-0">
 
 
-                                        <div class="media-body align-self-center">
-                                            <input type="checkbox"  name="" value="">     <i class="fa fa-instagram"></i><h6 class="mt-0">Instagram</h6>
+<label><i class="fa fa-twitter"></i> <h6 class="mt-0"></h6></label>
+                                <div class="form-group">
+                                            <input type="text"  class="form-control" name="twitter" placeholder="twitter" value="">
                                         </div>
-                                    </div>
-                                </div>
-                            </div>
 
-                            <div class="col-12 col-sm-6 col-xl-4">
-                                <div class="media">
-                                    <div class="form-group m-checkbox-inline mb-0">
-
-
-                                        <div class="media-body align-self-center">
-                                            <input type="checkbox"  name="" value="">    <i class="fa fa-flickr"></i><h6 class="mt-0">Flickr</h6>
-                                        </div>
-                                    </div>
-                                </div>
                             </div>
                             <div class="col-12 col-sm-6 col-xl-4">
-                                <div class="media">
-                                    <div class="form-group m-checkbox-inline mb-0">
 
+                                        <label> <i class="fa fa-instagram"></i><h6 class="mt-0"></h6></label>
 
-                                        <div class="media-body align-self-center">
-                                            <input type="checkbox"  name="" value="">     <i class="fa fa-dropbox"></i><h6 class="mt-0">DropBox</h6>
+                                        <div class="form-group">
+                                            <input type="text"  class="form-control" name="pinterest" placeholder="Instagram" value="">
                                         </div>
-                                    </div>
+
+
                                 </div>
+
+
+                            <div class="col-12 col-sm-6 col-xl-4">
+
+<label>  <i class="fa fa-pinterest"></i><h6 class="mt-0"></h6></label>
+                                <div class="form-group">
+                                    <input type="text"  class="form-control" name="pinterest" placeholder="pinterest" value="">
+                                </div>
+                                        </div>
+
+
+                            <div class="col-12 col-sm-6 col-xl-4">
+                                <label><i class="fa fa-skype"></i><h6 class="mt-0"></h6></label>
+
+                                <div class="form-group">
+                                    <input type="text"  class="form-control" name="Skype" placeholder="Skype" value="">
+                                </div>
+
+
+                                    </div>
+
+
+                            <div class="col-12 col-sm-6 col-xl-4">
+
+
+                                <label> <i class="fa fa-flickr"></i></label>
+
+                                <div class="form-group">
+                                    <input type="text"  class="form-control" name="flcikr" placeholder="Flickr" value="">
+                                </div>
+
+
                             </div>
                             <div class="col-12 col-sm-6 col-xl-4">
-                                <div class="media">
-                                    <div class="form-group m-checkbox-inline mb-0">
+                                <label>   <i class="fa fa-dropbox"></i></label>
 
-
-                                        <div class="media-body align-self-center">
-                                            <input type="checkbox"  name="" value="">     <i class="fa fa-dribbble"></i><h6 class="mt-0">Dribble</h6>
-                                        </div>
-                                    </div>
+                                <div class="form-group">
+                                    <input type="text"  class="form-control" name="dropbox" placeholder="Dropbox" value="">
                                 </div>
+
+                                    </div>
+
+                            <div class="col-12 col-sm-6 col-xl-4">
+                                <label>   <i class="fa fa-dribbble"></i></label>
+
+                                <div class="form-group">
+                                    <input type="text"  class="form-control" name="dribbble" placeholder="dribbble" value="">
+                                </div>
+
+
+
+
                             </div>
                             <div class="col-12 col-sm-6 col-xl-4">
-                                <div class="media">
-                                    <div class="form-group m-checkbox-inline mb-0">
+                                <label>   <i class="fa fa-github"></i></label>
 
-
-                                        <div class="media-body align-self-center">
-                                            <input type="checkbox"  name="" value="">     <i class="fa fa-github"></i><h6 class="mt-0">Github</h6>
-                                        </div>
-                                    </div>
+                                <div class="form-group">
+                                    <input type="text"  class="form-control" name="github" placeholder="github" value="">
                                 </div>
+
                             </div>
 
 
