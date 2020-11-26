@@ -64,6 +64,10 @@ Route::get('/dashboard/pages/create', function () {
         return view('/dashboard/settings');
 
     });
+          Route::get('/dashboard/widgets', function () {
+              return view('/dashboard/widgets');
+
+          });
 });
 Auth::routes();
 

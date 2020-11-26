@@ -46,6 +46,13 @@
 
                     </li>
                     <li class="dropdown">
+                        <a class="nav-link menu-title" href="{{url('dashboard/widgets')}}"><i data-feather="package"></i><span>Widgets</span>
+
+                        </a>
+
+                    </li>
+
+                    <li class="dropdown">
                         <a class="nav-link menu-title" href="{{url('dashboard/block')}}"><i data-feather="shuffle"></i><span>Block</span>
 
                         </a>
