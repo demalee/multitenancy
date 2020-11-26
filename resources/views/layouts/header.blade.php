@@ -20,6 +20,12 @@
 
                     </li>
                     <li class="dropdown">
+                        <a class="nav-link menu-title" href="{{url('home')}}"><i data-feather="home"></i><span>Preview</span>
+
+                        </a>
+
+                    </li>
+                    <li class="dropdown">
                         <a class="nav-link menu-title" href="{{route('dashboard.pages')}}"><i data-feather="file-plus"></i><span>Pages</span>
 
                         </a>
@@ -82,12 +88,7 @@
                         </a>
 
                     </li>
-                    <li class="dropdown">
-                        <a class="nav-link menu-title" href="{{url('home')}}"><i data-feather="home"></i><span>Preview</span>
 
-                        </a>
-
-                    </li>
                 </ul>
             </div>
             <div class="right-arrow" id="right-arrow"><i data-feather="arrow-right"></i></div>
