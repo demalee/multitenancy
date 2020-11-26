@@ -39,6 +39,11 @@ class WidgetsController extends Controller
         return view('dashboard.widgets.create');
     }
 
+    public function widgetContent(Request $request, Widget $widget)
+    {
+
+    }
+
     /**
      * Store a newly created resource in storage.
      *
