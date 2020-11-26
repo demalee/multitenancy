@@ -125,4 +125,5 @@ Route::get('{page}',function ($slug)
 
 //menu controller
 Route::resource('dashboard/menus',\App\Http\Controllers\Backend\MenuController::class);
+Route::resource('dashboard/widgets',\App\Http\Controllers\Backend\WidgetsController::class);
 
