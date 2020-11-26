@@ -12,7 +12,7 @@
                                 <h6>Add widgets to make your website more ascetic and more
                                     user friendly</h6>
                             </div>
-                            <form class="form theme-form" method="post" action="{{}}" enctype="multipart/form-data">
+                            <form class="form theme-form" method="post" action="#" enctype="multipart/form-data">
                            @csrf
                             <div class="card-body">
                                 <div class="row icon-lists feather-icons">
