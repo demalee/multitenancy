@@ -34,7 +34,7 @@
                                         </p>
                                         <ul>
                                             <li>
-                                                <a class="btn btn-light" {{url('home')}}>View your website</a>
+                                                <a class="btn btn-light" href="{{url('home')}}">View your website</a>
                                             </li>
                                             <li>
                                                 <a class="btn btn-primary" href="{{url('home')}}">Edit template

@@ -64,9 +64,28 @@
                         </div>
                     </form>
                 </div></div>
+{{--                <div class="container-fluid">--}}
+{{--                    <div class="select2-drpdwn">--}}
+{{--                        <div class="row">--}}
+{{--                            <!-- Default Textbox start-->--}}
+{{--                            <div class="col-md-12">--}}
+{{--                                <div class="card">--}}
+{{--                                    <div class="card-header">--}}
+{{--                                        <h5 class="card-title">Select-2</h5>--}}
+{{--                                    </div>--}}
+{{--                                    <div class="card-body">--}}
+{{--                                        <div class="mb-2">--}}
+{{--                                            <div class="col-form-label">Default Placeholder</div>--}}
+{{--                                            @foreach($pages_sub as $page)--}}
 
+{{--                                            <select class="js-example-placeholder-multiple col-sm-12" multiple="multiple">--}}
+{{--                                                <option value="{{$page->id}}">{{$page->title}}</option>--}}
+{{--                                                @endforeach--}}
+{{--                                            </select>--}}
+{{--                                        </div></div></div></div></div></div></div>--}}
                 <div class="card-body">
                     <form action="{{route('menus.update',$menu->id)}}" method="post">
+
                         @csrf
                         @method('PUT')
                         <div class="form-group row mb-0">
@@ -78,6 +97,7 @@
                                 </div>
                                 <div class="form-group m-checkbox-inline mb-0">
                                     <p><b>Choose the menus that you woul like the submenu to be</b></p>
+
                                     @foreach($pages_sub as $page)
 
                                         <input type="checkbox"  name="page_id[]" value="{{$page->id}}"> {{$page->title}}

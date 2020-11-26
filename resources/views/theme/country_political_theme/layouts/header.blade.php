@@ -43,9 +43,10 @@
                                     <li><a href="{{url(@$menu_item->page->slug)}}">{{@$menu_item->page->title}}</a></li>
                                 @else
                                     @if(@$menu_item->menu_level == 2)
-                                        <li><a href="#">{{@$menu_item->page->title}}</a>
-                                            <ul class="child">
-
+                                        <li class="menu-item-has-children">
+                                            <a href="#" title="" itemprop="url">
+                                                {{@$menu_item->page->title}}</a>
+                                            <ul>
                                                 @foreach(@$menu_item->sub_menus(@$menu_item->page->id) as $sub_menu)
                                                     <li><a href="{{url(@$sub_menu->page->slug)}}">{{@$sub_menu->page->title}}</a></li>
                                                 @endforeach
