@@ -46,10 +46,17 @@
 
                     </li>
                     <li class="dropdown">
-                        <a class="nav-link menu-title" href="{{url('dashboard/widgets')}}"><i data-feather="package"></i><span>Widgets</span>
-
+                        <a class="nav-link menu-title " href="#"><i data-feather="package"></i><span>Widgets</span>
+                            <div class="according-menu"><i data-feather="chevrons-right"></i></div>
                         </a>
+                        <ul class="nav-submenu menu-content" style="display: none">
+                            <li><a href="{{url('dashboard/createwidgets')}}" class="">Add Widgets</a></li>
+                            <li><a href="{{url('dashboard/widgets')}}" class="">View Widgets</a></li>
+                            {{--                            <li><a href="#" class="">Widgets</a></li>--}}
+                            {{--                            <li><a href="#" class="">Themes Options</a></li>--}}
+                            {{--                            <li><a href="{{url('custom-css')}}" class="">Custom-css</a></li>--}}
 
+                        </ul>
                     </li>
 
                     <li class="dropdown">
@@ -58,7 +65,23 @@
                         </a>
 
                     </li>
+                    <li class="dropdown">
+                        <a class="nav-link menu-title" href="{{url('dashboard/social')}}"><i data-feather="share-2"></i><span>Social links</span>
 
+                        </a>
+
+                    </li>
+                    <li class="dropdown">
+                        <a class="nav-link menu-title" href="{{url('dashboard/dns')}}"><i data-feather="sunrise"></i><span>DNS Management</span>
+
+                        </a>
+
+                    </li>  <li class="dropdown">
+                        <a class="nav-link menu-title" href="{{url('dashboard/users')}}"><i data-feather="users"></i><span>User Management</span>
+
+                        </a>
+
+                    </li>
                     <li class="dropdown">
                         <a class="nav-link menu-title" href="{{url('home')}}"><i data-feather="home"></i><span>Preview</span>
 
