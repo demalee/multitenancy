@@ -39,7 +39,7 @@
     <!-- Responsive css -->
     <link rel="stylesheet" href="{{asset('theme/republic/css/responsive.css')}}">
     <!-- User style -->
-    <link rel="stylesheet" href="{{asset('theme/republic/css/custom.css')}}">
+    <link rel="stylesheet" href="{{asset('theme/republic/css/steps.css')}}">
 
 
     <!-- Modernizr JS -->

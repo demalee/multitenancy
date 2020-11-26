@@ -1,0 +1,1071 @@
+
+.mediaViewInfo {
+                                                     --web-view-name: Website Details;
+                                                     --web-view-id: Website_Details;
+                                                     --web-scale-on-resize: true;
+                                                     --web-enable-deep-linking: true;
+                                                 }
+:root {
+    --web-view-ids: Website_Details;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+#Website_Details {
+    position: absolute;
+    width: 1920px;
+    height: 1080px;
+    background-color: rgba(255,255,255,1);
+    overflow: hidden;
+    --web-view-name: Website Details;
+    --web-view-id: Website_Details;
+    --web-scale-on-resize: true;
+    --web-enable-deep-linking: true;
+}
+#Group_21 {
+    position: absolute;
+    width: 1064px;
+    height: 786px;
+    left: 428px;
+    top: 204px;
+    overflow: visible;
+}
+#Group_3 {
+    position: absolute;
+    width: 1064px;
+    height: 106px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Ellipse_1 {
+    fill: rgba(255,255,255,1);
+    stroke: rgba(101,90,243,1);
+    stroke-width: 3px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Ellipse_1 {
+    position: absolute;
+    overflow: visible;
+    width: 68px;
+    height: 68px;
+    left: 37px;
+    top: 0px;
+}
+#Line_1 {
+    fill: transparent;
+    stroke: rgba(232,232,232,1);
+    stroke-width: 3px;
+    stroke-linejoin: miter;
+    stroke-linecap: round;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Line_1 {
+    overflow: visible;
+    position: absolute;
+    width: 253.272px;
+    height: 3px;
+    left: 105.064px;
+    top: 34.243px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Line_2 {
+    fill: transparent;
+    stroke: rgba(232,232,232,1);
+    stroke-width: 3px;
+    stroke-linejoin: miter;
+    stroke-linecap: round;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Line_2 {
+    overflow: visible;
+    position: absolute;
+    width: 253.272px;
+    height: 3px;
+    left: 423.669px;
+    top: 34.243px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Ellipse_4 {
+    fill: rgba(255,255,255,1);
+}
+.Ellipse_4 {
+    filter: drop-shadow(0px 0px 60px rgba(177, 177, 177, 0.18));
+    position: absolute;
+    overflow: visible;
+    width: 247px;
+    height: 248px;
+    left: 356px;
+    top: 0px;
+}
+#Choose_Template {
+    left: 329px;
+    top: 86px;
+    position: absolute;
+    overflow: visible;
+    width: 164px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Cera Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(112,112,112,1);
+}
+#Website_Details_x {
+    left: 0px;
+    top: 86px;
+    position: absolute;
+    overflow: visible;
+    width: 148px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Cera Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(38,38,38,1);
+}
+#ID1 {
+    left: 65px;
+    top: 21px;
+    position: absolute;
+    overflow: visible;
+    width: 13px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Cera Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    color: rgba(101,90,243,1);
+}
+#ID2 {
+    left: 382px;
+    top: 19px;
+    position: absolute;
+    overflow: visible;
+    width: 17px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Cera Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    color: rgba(112,112,112,1);
+}
+#Create_Menu {
+    left: 648px;
+    top: 86px;
+    position: absolute;
+    overflow: visible;
+    width: 121px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Cera Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(112,112,112,1);
+}
+#Widgets {
+    left: 984px;
+    top: 85px;
+    position: absolute;
+    overflow: visible;
+    width: 81px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Cera Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(112,112,112,1);
+}
+#Line_6 {
+    fill: transparent;
+    stroke: rgba(232,232,232,1);
+    stroke-width: 3px;
+    stroke-linejoin: miter;
+    stroke-linecap: round;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Line_6 {
+    overflow: visible;
+    position: absolute;
+    width: 253.272px;
+    height: 3px;
+    left: 741.668px;
+    top: 34.5px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Ellipse_12 {
+    fill: rgba(255,255,255,1);
+}
+.Ellipse_12 {
+    filter: drop-shadow(0px 0px 60px rgba(177, 177, 177, 0.18));
+    position: absolute;
+    overflow: visible;
+    width: 247px;
+    height: 248px;
+    left: 991px;
+    top: 0px;
+}
+#ID4 {
+    left: 1016px;
+    top: 19px;
+    position: absolute;
+    overflow: visible;
+    width: 17px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Cera Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    color: rgba(112,112,112,1);
+}
+#Ellipse_13 {
+    fill: rgba(255,255,255,1);
+}
+.Ellipse_13 {
+    filter: drop-shadow(0px 0px 60px rgba(177, 177, 177, 0.18));
+    position: absolute;
+    overflow: visible;
+    width: 247px;
+    height: 248px;
+    left: 675px;
+    top: 0px;
+}
+#ID3 {
+    left: 701px;
+    top: 19px;
+    position: absolute;
+    overflow: visible;
+    width: 17px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Cera Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    color: rgba(112,112,112,1);
+}
+#Group_2 {
+    position: absolute;
+    width: 806px;
+    height: 571px;
+    left: 129px;
+    top: 215px;
+    overflow: visible;
+}
+#Rectangle_1 {
+    fill: rgba(255,255,255,1);
+}
+.Rectangle_1 {
+    filter: drop-shadow(0px 3px 60px rgba(177, 177, 177, 0.161));
+    position: absolute;
+    overflow: visible;
+    width: 986px;
+    height: 751px;
+    left: 0px;
+    top: 0px;
+}
+#Add_your_website_details {
+    left: 205px;
+    top: 48px;
+    position: absolute;
+    overflow: visible;
+    width: 387px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Cera Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 33px;
+    color: rgba(38,38,38,1);
+}
+#You_are_just_a_step_away_from_ {
+    left: 90px;
+    top: 102px;
+    position: absolute;
+    overflow: visible;
+    width: 599px;
+    height: 68px;
+    line-height: 32px;
+    margin-top: -5.5px;
+    text-align: center;
+    font-family: Cera Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    color: rgba(157,157,157,1);
+}
+#Rectangle_2 {
+    fill: rgba(241,241,235,1);
+}
+.Rectangle_2 {
+    position: absolute;
+    overflow: visible;
+    width: 534px;
+    height: 53px;
+    left: 133px;
+    top: 220px;
+}
+#Rectangle_4 {
+    fill: rgba(101,90,243,1);
+}
+.Rectangle_4 {
+    position: absolute;
+    overflow: visible;
+    width: 534px;
+    height: 58px;
+    left: 131px;
+    top: 444px;
+}
+#Rectangle_3 {
+    fill: rgba(241,241,235,1);
+}
+.Rectangle_3 {
+    position: absolute;
+    overflow: visible;
+    width: 535px;
+    height: 120px;
+    left: 132px;
+    top: 299px;
+}
+#Website_domain {
+    left: 158px;
+    top: 237px;
+    position: absolute;
+    overflow: visible;
+    width: 163px;
+    height: 19px;
+    line-height: 32px;
+    margin-top: -8px;
+    text-align: left;
+    font-family: Cera Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: rgba(157,157,157,1);
+}
+#How_do_you_describe_your_websi {
+    left: 155px;
+    top: 319px;
+    position: absolute;
+    overflow: visible;
+    width: 309px;
+    height: 19px;
+    line-height: 32px;
+    margin-top: -8px;
+    text-align: left;
+    font-family: Cera Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: rgba(157,157,157,1);
+}
+#Continue {
+    left: 10px;
+    top: 464px;
+    position: absolute;
+    overflow: visible;
+    width: 72px;
+    height: 19px;
+    line-height: 32px;
+    margin-top: -8px;
+    text-align: center;
+    font-family: Cera Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    color: rgba(255,255,255,1);
+}
+#Component_1__1 {
+    position: absolute;
+    width: 1920px;
+    height: 104px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Rectangle_16 {
+    fill: rgba(255,255,255,1);
+}
+.Rectangle_16 {
+    position: absolute;
+    overflow: visible;
+    width: 1920px;
+    height: 104px;
+    left: 0px;
+    top: 0px;
+}
+#Group_18 {
+    position: absolute;
+    width: 138.024px;
+    height: 24.952px;
+    left: 79.432px;
+    top: 40px;
+    overflow: visible;
+}
+#Path_7 {
+    fill: rgba(38,38,38,1);
+}
+.Path_7 {
+    overflow: visible;
+    position: absolute;
+    width: 128.512px;
+    height: 24.674px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Path_8 {
+    fill: rgba(101,90,243,1);
+}
+.Path_8 {
+    overflow: visible;
+    position: absolute;
+    width: 5.952px;
+    height: 5.952px;
+    left: 132.072px;
+    top: 19px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Dashboard {
+    left: 1209px;
+    top: 42px;
+    position: absolute;
+    overflow: visible;
+    width: 102px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Cera Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(38,38,38,1);
+}
+#Services {
+    left: 1371px;
+    top: 42px;
+    position: absolute;
+    overflow: visible;
+    width: 79px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Cera Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(38,38,38,1);
+}
+#Create_Website {
+    left: 1000px;
+    top: 42px;
+    position: absolute;
+    overflow: visible;
+    width: 147px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Cera Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(38,38,38,1);
+}
+#About_us {
+    left: 1498px;
+    top: 42px;
+    position: absolute;
+    overflow: visible;
+    width: 85px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Cera Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(38,38,38,1);
+}
+#Contact_us {
+    left: 1643px;
+    top: 42px;
+    position: absolute;
+    overflow: visible;
+    width: 104px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Cera Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(38,38,38,1);
+}
+#Ellipse_15 {
+    fill: rgba(101,90,243,1);
+    stroke: rgba(101,90,243,1);
+    stroke-width: 3px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Ellipse_15 {
+    position: absolute;
+    overflow: visible;
+    width: 67px;
+    height: 68px;
+    left: 1784px;
+    top: 18px;
+}
+#Line_7 {
+    fill: transparent;
+    stroke: rgba(38,38,38,1);
+    stroke-width: 4px;
+    stroke-linejoin: miter;
+    stroke-linecap: round;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Line_7 {
+    overflow: visible;
+    position: absolute;
+    width: 202px;
+    height: 4px;
+    left: 973.5px;
+    top: 103.5px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#BM {
+    left: 1802px;
+    top: 43px;
+    position: absolute;
+    overflow: visible;
+    width: 32px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Cera Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    color: rgba(255,255,255,1);
+}
+#Group_25 {
+    position: absolute;
+    width: 303px;
+    height: 149px;
+    left: 1557px;
+    top: 112px;
+    overflow: visible;
+}
+#Rectangle_17 {
+    fill: rgba(255,255,255,1);
+    stroke: rgba(229,229,229,1);
+    stroke-width: 1px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Rectangle_17 {
+    filter: drop-shadow(0px 8px 17px rgba(129, 129, 129, 0.11));
+    position: absolute;
+    overflow: visible;
+    width: 354px;
+    height: 200px;
+    left: 0px;
+    top: 0px;
+}
+#Rectangle_22 {
+    fill: rgba(232,232,232,1);
+}
+.Rectangle_22 {
+    position: absolute;
+    overflow: visible;
+    width: 270px;
+    height: 47px;
+    left: 17px;
+    top: 85px;
+}
+#Log_out {
+    left: 41px;
+    top: 98px;
+    position: absolute;
+    overflow: visible;
+    width: 78px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Cera Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    color: rgba(101,90,243,1);
+}
+#Account_Setting {
+    left: 41px;
+    top: 36px;
+    position: absolute;
+    overflow: visible;
+    width: 161px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Cera Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    color: rgba(38,38,38,1);
+}
+body{
+    font-family: "Cera Pro";
+    background: white!important;
+}
+.checkbox-custom {
+    width: auto;
+    height: 30px;
+    padding: .375rem .75rem;
+    background-color: #655af3 ;
+    margin: 4px;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    font-weight: 400;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    font-size: .875rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+}
+
+.checkbox-custom:active
+{
+
+}
+
+input[type="checkbox"] + label:before {
+    border: 1px solid #333;
+    content: "\00a0";
+    display: inline-block;
+    font: 16px/1em sans-serif;
+    height: 16px;
+    margin: 0 .25em 0 0;
+    padding: 0;
+    vertical-align: top;
+    width: 16px;
+}
+.checkbox-custom input[type="checkbox"]:checked + label:before {
+    background: #fff;
+    color: #333;
+    content: "\2713";
+    text-align: center;
+}
+input[type="checkbox"]:checked + label:after {
+    font-weight: bold;
+}
+
+input[type="checkbox"]:focus + label::before {
+    outline: rgb(59, 153, 252) auto 5px;
+}
+
+#process {
+    width: 1062px;
+    height: 786px;
+    background: transparent;
+
+}
+#steps{
+    width: 1062px;
+    height: 107px;
+    background: transparent;
+
+
+}
+
+#first{
+    font-family: "Cera Pro";
+    font-weight: normal;
+    font-size: 30px;
+    text-align: center;
+    color: #655af3;
+
+}
+
+#circles{
+
+    width: 68px;
+    height: 68px;
+    background: #fff;
+    border: 1px solid #655af3;
+
+}
+#line-circle{
+    width: 250.27px;
+    height: 0px;
+    background: transparent;
+    border: 3px solid #e8e8e8;
+
+}
+
+#circles:default
+{
+
+}
+#count{
+    font-family: "Cera Pro";
+    font-weight: normal;
+    font-size: 30px;
+    text-align: center;
+    color: #655af3;
+    line-height: 68px;
+
+}
+#details{
+    width: 68px;
+    height: 68px;
+    background: #fff;
+    border: 3px solid #655af3;
+
+}
+#webdetails{
+    font-family: "Cera Pro";
+    font-weight: bold;
+    font-size: 33px;
+    text-align: center;
+    color: #262626;
+
+}
+#describe{
+    width: 598px;
+    height: 68px;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 32px;
+    text-align: center;
+    color: #9d9d9d;
+
+
+
+}
+.center-card-custom
+{
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+
+#process1{
+    width: 806px;
+    height: 571px;
+    background: transparent;
+
+
+}
+#field{
+    width: 534px;
+    height: 53px;
+    border-radius: 6px;
+    background: #f1f1eb;
+
+}
+#textarea{
+    width: 535px;
+    height: 120px;
+    border-radius: 6px;
+    background: #f1f1eb;
+
+}
+#placeholder{
+    width: 162px;
+    height: 19px;
+    font-family: "Cera Pro";
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: left;
+    color: #9d9d9d;
+
+}
+
+#stepdescribe{
+    font-family: "Cera Pro";
+    font-weight: bold;
+    font-size: 20px;
+    text-align: left;
+    color: #262626;
+
+}
+#arrow{
+    width: 275px;
+    height: 0px;
+    background: transparent;
+    border: 3px solid #655af3;
+    margin-right: 20%;
+    margin-left: 5%;
+
+}
+#arrow
+{
+    width: 75%;
+    height: 0px;
+    background: transparent;
+    border: 1px solid #e8e8e8;
+
+    margin-right: 20%;
+    margin-left: 5%;
+
+}
+#activestep{
+    width: 68px;
+    height: 68px;
+    background: #655af3;
+    border: 3px solid #655af3;
+
+}
+#activearrow{
+    width: 250.27px;
+    height: 0px;
+    background: transparent;
+    border: 3px solid #655af3;
+
+}
+
+#menu{
+    width: 806px;
+    height: 466px;
+    background: transparent;
+
+}
+#menutitle{
+    font-family: "Cera Pro";
+    font-weight: bold;
+    font-size: 33px;
+    text-align: left;
+    color: #262626;
+
+
+}
+#link{
+    width: 123px;
+    height: 53px;
+    border-radius: 6px;
+    background: #655af3;
+
+}
+#linkname{
+    width: 47px;
+    height: 19px;
+    font-family: "Cera Pro";
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: left;
+    color: #fff;
+
+}
+#incativelink{
+    width: 131px;
+    height: 53px;
+    border-radius: 6px;
+    background: #f1f1eb;
+
+}
+#menubutton{
+    width: 534px;
+    height: 58px;
+    border-radius: 6px;
+    background: #655af3;
+    position: center;
+}
+
+#stepsbody{
+    width: 1920px;
+    height: 1079px;
+    background: #fff;
+
+
+
+}
+#laststep{
+    width: 534px;
+    height: 58px;
+    border-radius: 6px;
+    background: #655af3;
+
+}
+#lastepstitle{
+    width: 112px;
+    height: 19px;
+    font-family: "Cera Pro";
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: left;
+    color: #fff;
+
+}
+#template{
+    width: 1753px;
+    height: 1060px;
+    background: transparent;
+
+}
+#imagetemplate{
+    width: 422px;
+    height: 238px;
+    border-radius: 0px 0px 2px 2px;
+    /* background: url(...); */
+
+}
+#head{
+    width: 1920px;
+    height: 104px;
+    background: #fff;
+
+}
+#menus{
+    font-family: "Cera Pro";
+    font-weight: bold;
+    font-size: 20px;
+    text-align: left;
+    color: #262626;
+
+}
+#menuarrow{
+    width: 1920px;
+    height: 104px;
+    background: #fff;
+
+}
+#logoid{
+    width: 138.02px;
+    height: 24.95px;
+    background: transparent;
+
+
+}
+#bodysteps{
+    width: 1920px;
+    height: 1079px;
+    background: #fff;
+
+
+}
+#process{
+    width: 1062px;
+    height: 786px;
+    background: transparent;
+}
+#card1{
+    width: 806px;
+    height: 571px;
+    background: transparent;
+
+
+}
+#body1{width: 1920px;
+    height: 1079px;
+    background: #fff;
+
+}
+#settingsbody{width: 806px;
+    height: 466px;
+    background: transparent;
+}
+#settingscontent{
+    width: 598px;
+    height: 68px;
+    font-family: "Cera Pro";
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 32px;
+    text-align: center;
+    color: #9d9d9d;
+
+}
+#progress{
+    width: 1062px;
+    height: 107px;
+    background: transparent;
+}
+
+
+.dashboardmenu{
+    width: 403px;
+    height: 1081px;
+    background: transparent;
+
+}
+#landing{
+    width: 250px;
+    height: 60px;
+    border-radius: 6px;
+    background: #f5f5f5;
+
+}
+#text{font-family: "Cera Pro";
+    font-weight: bold;
+    font-size: 23px;
+    text-align: left;
+    color: #655af3;
+}
+#normaltext{
+    font-family: "Cera Pro";
+    font-weight: bold;
+    font-size: 23px;
+    text-align: left;
+    color: #262626;
+}
+
+#theme{width: 1376px;
+    height: 289px;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0px 3px 60px rgba(177, 177, 177, 0.16);
+}
+#image{width: 365px;
+    height: 219px;
+    background: transparent;
+}
+#con{
+    width: 666px;
+    height: 68px;
+    font-family: "Cera Pro";
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 32px;
+    text-align: left;
+    color: #9d9d9d;
+
+}
+#title{
+    font-family: "Cera Pro";
+    font-weight: bold;
+    font-size: 33px;
+    text-align: left;
+    color: #262626;
+
+}
+#buttonview{width: 212px;
+    height: 58px;
+    background: transparent;
+}
+#buttonedit{
+    width: 212px;
+    height: 58px;
+    background: transparent;
+
+}

@@ -1,93 +1,93 @@
-
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Xolo admin is super flexible, powerful, clean &amp; modern responsive bootstrap 4 admin template with unlimited possibilities.">
-    <meta name="keywords" content="admin template, Xolo admin template, dashboard template, flat admin template, responsive admin template, web app">
-    <meta name="author" content="pixelstrap">
-    <link rel="icon" href="http://laravel.pixelstrap.com/xolo/assets/images/favicon.png" type="image/x-icon">
-    <link rel="shortcut icon" href="http://laravel.pixelstrap.com/xolo/assets/images/favicon.png" type="image/x-icon">
-    <title>Multisite</title>
-    <!-- Google font-->
-    <link href="http://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i&amp;display=swap" rel="stylesheet">
-    <link href="http://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700&amp;display=swap" rel="stylesheet">
-    <!-- Font Awesome-->
-    <link rel="stylesheet" type="text/css" href="../assets/css/fontawesome.css">
-    <!-- ico-font-->
-    <link rel="stylesheet" type="text/css" href="../assets/css/icofont.css">
-    <!-- Themify icon-->
-    <link rel="stylesheet" type="text/css" href="../assets/css/themify.css">
-    <!-- Flag icon-->
-    <link rel="stylesheet" type="text/css" href="../assets/css/flag-icon.css">
-    <!-- Feather icon-->
-    <link rel="stylesheet" type="text/css" href="../assets/css/feather-icon.css">
-    <!-- Plugins css start-->
-    <link rel="stylesheet" type="text/css" href="../assets/css/prism.css">
-    <!-- Plugins css Ends-->
-    <!-- Bootstrap css-->
-    <link rel="stylesheet" type="text/css" href="../assets/css/bootstrap.css">
-    <!-- App css-->
-    <link rel="stylesheet" type="text/css" href="../assets/css/style.css">
-    <link id="color" rel="stylesheet" href="../assets/css/color-1.css" media="screen">
-    <!-- Responsive css-->
-    <link rel="stylesheet" type="text/css" href="../assets/css/responsive.css">
-    <link rel="stylesheet" href="{{asset('css/custom.css')}}">
-</head>
-<body>
-{{--<div class="page-wrapper compact-wrapper" id="pageWrapper">--}}
 
-<div class="page-body-wrapper sidebar-icon">
-    @include('layouts.headerstep')
-    <main class="py-4">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Potenza - Job Application Form Wizard with Resume upload and Branch feature">
+    <meta name="author" content="Ansonika">
+    <title>Multisite</title>
+
+    <!-- Favicons-->
+    <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" type="image/x-icon" href="../img/apple-touch-icon-57x57-precomposed.png">
+    <link rel="apple-touch-icon" type="image/x-icon" sizes="72x72" href="../img/apple-touch-icon-72x72-precomposed.png">
+    <link rel="apple-touch-icon" type="image/x-icon" sizes="114x114" href="../img/apple-touch-icon-114x114-precomposed.png">
+    <link rel="apple-touch-icon" type="image/x-icon" sizes="144x144" href="../img/apple-touch-icon-144x144-precomposed.png">
+
+    <!-- GOOGLE WEB FONT -->
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,500,600" rel="stylesheet">
+
+    <!-- BASE CSS -->
+    <link href="{{asset('css/bootstrap.css')}}" rel="stylesheet">
+    <link href="{{asset('css/menu.css')}}" rel="stylesheet">
+    <link href="{{asset('css/style.css')}}" rel="stylesheet">
+    <link href="{{asset('css/vendor.css')}}" rel="stylesheet">
+
+    <!-- YOUR CUSTOM CSS -->
+    <link href="{{asset('css/custom.css')}}" rel="stylesheet">
+
+    <!-- MODERNIZR MENU -->
+    <script src="{{asset('js/modernizr.js')}}"></script>
+
+</head>
+
+<body>
+
+<div id="preloader">
+    <div data-loader="circle-side"></div>
+</div><!-- /Preload -->
+
+<div id="loader_form">
+    <div data-loader="circle-side-2"></div>
+</div><!-- /loader_form -->
+
+<nav>
+    <ul class="cd-primary-nav">
+        @include('layouts.headerstep')
+
+
+    </ul>
+</nav>
+<main class="py-4">
 
         <!--end menu-->
         @yield('content')
     </main>
 
+<div class="modal fade" id="terms-txt" tabindex="-1" role="dialog" aria-labelledby="termsLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="termsLabel">Terms and conditions</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            </div>
+            <div class="modal-body">
+                <p>Lorem ipsum dolor sit amet, in porro albucius qui, in <strong>nec quod novum accumsan</strong>, mei ludus tamquam dolores id. No sit debitis meliore postulant, per ex prompta alterum sanctus, pro ne quod dicunt sensibus.</p>
+                <p>Lorem ipsum dolor sit amet, in porro albucius qui, in nec quod novum accumsan, mei ludus tamquam dolores id. No sit debitis meliore postulant, per ex prompta alterum sanctus, pro ne quod dicunt sensibus. Lorem ipsum dolor sit amet, <strong>in porro albucius qui</strong>, in nec quod novum accumsan, mei ludus tamquam dolores id. No sit debitis meliore postulant, per ex prompta alterum sanctus, pro ne quod dicunt sensibus.</p>
+                <p>Lorem ipsum dolor sit amet, in porro albucius qui, in nec quod novum accumsan, mei ludus tamquam dolores id. No sit debitis meliore postulant, per ex prompta alterum sanctus, pro ne quod dicunt sensibus.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn_1" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
 </div>
+<!-- /.modal -->
 
-<script src="../assets/js/bootstrap/popper.min.js"></script>
-<script src="../assets/js/bootstrap/bootstrap.js"></script>
-<!-- feather icon js-->
-<script src="../assets/js/icons/feather-icon/feather.min.js"></script>
-<script src="../assets/js/icons/feather-icon/feather-icon.js"></script>
-<!-- Sidebar jquery-->
-<script src="../assets/js/sidebar-menu.js"></script>
-<script src="../assets/js/config.js"></script>
-<!-- Plugins JS start-->
-<script src="../assets/js/chart/apex-chart/apex-chart.js"></script>
-<script src="../assets/js/chart/apex-chart/stock-prices.js"></script>
-<script src="../assets/js/prism/prism.min.js"></script>
-<script src="../assets/js/clipboard/clipboard.min.js"></script>
-<script src="../assets/js/counter/jquery.waypoints.min.js"></script>
-<script src="../assets/js/counter/jquery.counterup.min.js"></script>
-<script src="../assets/js/counter/counter-custom.js"></script>
-<script src="../assets/js/custom-card/custom-card.js"></script>
-<script src="../assets/js/dashboard/dashboard_4.js"></script>
-<script src="../assets/js/tooltip-init.js"></script>
-<!-- Plugins JS Ends-->
-<!-- Theme js-->
-<script src="../assets/js/script.js"></script>
-<!-- latest jquery-->
-<script src="https://laravel.pixelstrap.com/xolo/assets/js/jquery-3.2.1.min.js"></script>
-<!-- Bootstrap js-->
-<script src="https://laravel.pixelstrap.com/xolo/assets/js/bootstrap/popper.min.js"></script>
-<script src="https://laravel.pixelstrap.com/xolo/assets/js/bootstrap/bootstrap.js"></script>
-<!-- feather icon js-->
-<script src="https://laravel.pixelstrap.com/xolo/assets/js/icons/feather-icon/feather.min.js"></script>
-<script src="https://laravel.pixelstrap.com/xolo/assets/js/icons/feather-icon/feather-icon.js"></script>
-<!-- Sidebar jquery-->
-<script src="https://laravel.pixelstrap.com/xolo/assets/js/sidebar-menu.js"></script>
-<script src="http://laravel.pixelstrap.com/xolo/assets/js/config.js"></script>
-<!-- Plugins JS start-->
-<script src="https://laravel.pixelstrap.com/xolo/assets/js/form-wizard/form-wizard-three.js"></script>
-<script src="https://laravel.pixelstrap.com/xolo/assets/js/form-wizard/jquery.backstretch.min.js"></script>
-<script src="https://laravel.pixelstrap.com/xolo/assets/js/tooltip-init.js"></script>
-<!-- Plugins JS Ends-->
+<!-- COMMON SCRIPTS -->
+<script src="{{asset('js/jquery.js')}}"></script>
+<script src="{{asset('js/common_script.js')}}"></script>
+<script src="{{asset('js/velocity.js')}}"></script>
+<script src="{{asset('js/common.js')}}"></script>
+<script src="{{asset('js/validator.js')}}"></script>
 
-<!-- login js-->
-<!-- Plugin used -->   </body>
+<!-- Wizard script-->
+<script src="{{asset('js/func.js')}}"></script>
+
+
+</body>
 </html>
