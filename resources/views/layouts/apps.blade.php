@@ -36,6 +36,7 @@
     <link rel="stylesheet" type="text/css" href="../assets/css/custom.css">
     <link id="color" rel="stylesheet" href="../assets/css/color-1.css" media="screen">
     <!-- Responsive css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- Bootstrap css-->
     <!-- App css-->
@@ -141,9 +142,7 @@
                 <div class="col-md-6 footer-copyright">
                     <p class="mb-0">Copyright 2020 © Multisite All rights reserved.</p>
                 </div>
-                <div class="col-md-6">
-                    <p class="pull-right mb-0">Made with &nbsp;<i class="fa fa-heart"></i></p>
-                </div>
+
             </div>
         </div>
     </footer>         </div>

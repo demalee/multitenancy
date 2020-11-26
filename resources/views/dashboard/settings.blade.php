@@ -7,7 +7,7 @@
             <div class="row">
                 <div class="col-lg-6">
                     <ol class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="https://laravel.pixelstrap.com/xolo"><i class="f-16 fa fa-home"></i></a></li>
+                        <li class="breadcrumb-item"><a href=""><i class="f-16 fa fa-home"></i></a></li>
                         <li class="breadcrumb-item">Add settings</li>
                         <li class="breadcrumb-item">Settings</li>
                     </ol>

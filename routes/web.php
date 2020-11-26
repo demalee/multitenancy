@@ -72,6 +72,25 @@ Route::get('/dashboard/pages/create', function () {
         return view('/dashboard/createwidgets');
 
     });
+    Route::get('/dashboard/content', function () {
+        return view('/dashboard/content');
+
+    });
+    Route::get('/dashboard/submenu', function () {
+        return view('/dashboard/submenu');
+
+    });
+    Route::get('/dashboard/social', function () {
+        return view('/dashboard/social');
+
+    });
+    Route::get('/dashboard/dns', function () {
+        return view('/dashboard/dns');
+
+    });Route::get('/dashboard/users', function () {
+        return view('/dashboard/users');
+
+    });
 });
 Auth::routes();
 

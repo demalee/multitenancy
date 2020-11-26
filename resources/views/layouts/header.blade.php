@@ -65,7 +65,23 @@
                         </a>
 
                     </li>
+                    <li class="dropdown">
+                        <a class="nav-link menu-title" href="{{url('dashboard/social')}}"><i data-feather="share-2"></i><span>Social links</span>
 
+                        </a>
+
+                    </li>
+                    <li class="dropdown">
+                        <a class="nav-link menu-title" href="{{url('dashboard/dns')}}"><i data-feather="sunrise"></i><span>DNS Management</span>
+
+                        </a>
+
+                    </li>  <li class="dropdown">
+                        <a class="nav-link menu-title" href="{{url('dashboard/users')}}"><i data-feather="users"></i><span>User Management</span>
+
+                        </a>
+
+                    </li>
                     <li class="dropdown">
                         <a class="nav-link menu-title" href="{{url('home')}}"><i data-feather="home"></i><span>Preview</span>
 
