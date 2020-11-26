@@ -50,7 +50,7 @@
                                                 @else
                                                     @if(@$menu_item->menu_level == 2)
                                                         <li><a href="#">{{@$menu_item->page->title}}</a>
-                                                            <ul class="child">
+                                                            <ul>
 
                                                                 @foreach(@$menu_item->sub_menus(@$menu_item->page->id) as $sub_menu)
                                                                     <li><a href="{{url(@$sub_menu->page->slug)}}">{{@$sub_menu->page->title}}</a></li>
