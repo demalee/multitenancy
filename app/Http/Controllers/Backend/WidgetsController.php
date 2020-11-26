@@ -3,6 +3,8 @@
 namespace App\Http\Controllers\Backend;
 
 use App\Http\Controllers\Controller;
+use App\Models\Theme;
+use App\Models\Widget;
 use Illuminate\Http\Request;
 
 class WidgetsController extends Controller
@@ -12,9 +14,18 @@ class WidgetsController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
+    private $theme_id;
+    public function __construct()
+    {
+        $theme = new Theme;
+        $this->theme_id = $theme->getActiveTheme();
+    }
+
     public function index()
     {
         //
+        $widgets = Widget::where('theme_id',$this->theme_id)->where()->get();
+        return view('dashboard.widgets.index',compact('widgets'));
     }
 
     /**
@@ -25,6 +36,7 @@ class WidgetsController extends Controller
     public function create()
     {
         //
+        return view('dashboard.widgets.create');
     }
 
     /**
@@ -36,6 +48,23 @@ class WidgetsController extends Controller
     public function store(Request $request)
     {
         //
+        $data = $request->all();
+        if ($data['submit'] == 'store_widget')
+        {
+            $widget = Widget::create([
+                'name'=>$data['name'],
+                'theme_id'=>$this->theme_id,
+                'widget_parent'=>1,
+                'status_active'=>0,
+                'position'=>0,
+                'widget_level'=>2,
+            ]);
+
+            if ($widget)
+            {
+                return back()->with('success','successfully created widget');
+            }
+        }
     }
 
     /**
@@ -44,9 +73,11 @@ class WidgetsController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show($id)
+    public function show(Widget $widget)
     {
         //
+        return view('dashboard.widgets.show',compact('widget'));
+
     }
 
     /**
@@ -55,9 +86,10 @@ class WidgetsController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function edit($id)
+    public function edit(Widget $widget)
     {
         //
+        return view('dashboard.widgets.edit',compact('widget'));
     }
 
     /**
@@ -67,9 +99,19 @@ class WidgetsController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
+    public function update(Request $request, Widget $widget)
     {
         //
+        $data = $request->all();
+        $widget->update([
+            'name'=>$data['name'],
+            'theme_id'=>$this->theme_id,
+            'widget_parent'=>1,
+            'status_active'=>0,
+            'position'=>0,
+            'widget_level'=>2,
+        ]);
+        return back()->with('success','successfully updated widget');
     }
 
     /**
@@ -78,8 +120,12 @@ class WidgetsController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function destroy($id)
+    public function destroy(Widget $widget)
     {
         //
+        $widget->delete();
+        return back()->with('success', 'successfully deleted widget');
     }
+
+
 }
