@@ -90,7 +90,7 @@
                 </div>
                 <!-- /top-wizard -->
                 <form method="POST" action="{{route('websites.store')}}" enctype="multipart/form-data">
-{{--                    <input id="website" name="website" type="text" value="">--}}
+                    <input id="website" name="website" type="text" value="">
 
                     <!-- Leave for security protection, read docs for details -->
                     <div id="middle-wizard">
@@ -179,23 +179,7 @@
                             </div>
                         </div>
 
-{{--                        <div class="submit step">--}}
-{{--                            <div class="summary">--}}
-{{--                                <div class="wrapper">--}}
-{{--                                    <h3>Thank your for your time<br><span id="name_field"></span>!</h3>--}}
-{{--                                    <p>We will contat you shorly at the following email address <strong id="email_field"></strong></p>--}}
-{{--                                </div>--}}
-{{--                                <div class="text-center">--}}
-{{--                                    <div class="form-group terms">--}}
-{{--                                        <label class="container_check">Please accept our <a href="#" data-toggle="modal" data-target="#terms-txt">Terms and conditions</a> before Submit--}}
-{{--                                            <input type="checkbox" name="terms" value="Yes" class="required">--}}
-{{--                                            <span class="checkmark"></span>--}}
-{{--                                        </label>--}}
-{{--                                    </div>--}}
-{{--                                </div>--}}
-{{--                            </div>--}}
-{{--                        </div>--}}
-                        <!-- /step last-->
+
 
                     </div>
                         <div class="submit step">
