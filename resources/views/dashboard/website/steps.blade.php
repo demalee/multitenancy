@@ -47,8 +47,7 @@
 <nav>
     <ul class="cd-primary-nav">
         @include('layouts.headerstep')
-
-
+        @include('layouts.alerts')
     </ul>
 </nav>
 <!-- /menu -->
@@ -90,6 +89,7 @@
                 </div>
                 <!-- /top-wizard -->
                 <form method="POST" action="{{route('websites.store')}}" enctype="multipart/form-data">
+                    @csrf
                     <input id="website" name="website" type="text" value="">
 
                     <!-- Leave for security protection, read docs for details -->
@@ -102,12 +102,11 @@
                             </h3>
                             <div class="form-group add_top_30">
                                 <label for="name">Website domain</label>
-                                <input type="text" name="fi-first-name" id="fi-first-name" class="form-control required" onchange="getVals(this, 'fi-first-name');">
+                                <input type="text" name="f1-first-name" id="fi-first-name" class="form-control required" onchange="getVals(this, 'f1-first-name');">
                             </div>
                             <div class="form-group">
                                 <label for="email">How do you describe your website</label>
-                                <textarea  name="description" id="description" class="form-control required" onchange="getVals(this, 'description');">
-                                </textarea>
+                                <textarea  name="description" id="description" class="form-control required" onchange="getVals(this, 'description');"></textarea>
                             </div>
                         </div>
 
@@ -125,7 +124,7 @@
                                         <div class="col-md-4" >
 
                                             <label class="container_check">{{$page->title}}
-                                                <input type="checkbox" name="ui_designer_experience_2[]" id="page_id[]" value="{{$page->id}}" class="required">
+                                                <input type="checkbox" name="page_id[]" id="page_id[]" value="{{$page->id}}" class="required">
                                                 <span class="checkmark"></span>
                                             </label></div>
                                     @endforeach</div>

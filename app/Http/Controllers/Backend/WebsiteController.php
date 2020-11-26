@@ -128,7 +128,7 @@ class WebsiteController extends Controller
         //
 
         $data = $request->all();
-
+//dd($data);
         $validate = Validator::make($data, [
             'f1-first-name' => 'required|unique:websites,name',
             'description' => 'required',
@@ -152,14 +152,12 @@ class WebsiteController extends Controller
                 ]);
             } else {
                 $website = Website::updateorcreate([
-                        'theme_id' => $data['radio1'],
                         'name' => $data['f1-first-name'],
-
+                        'admin_id' => auth()->id()
                     ],[
-                    'description' => $data['description'],
-
-                    'menu_id' => 0,
-                    'admin_id' => auth()->id()
+                        'theme_id' => $data['radio1'],
+                        'description' => $data['description'],
+                        'menu_id' => 0,
                 ]);
             }
 
