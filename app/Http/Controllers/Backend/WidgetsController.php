@@ -28,6 +28,7 @@ class WidgetsController extends Controller
         $this->theme_id = $theme->getActiveTheme();
     }
 
+
     public function index()
     {
         //
@@ -94,6 +95,21 @@ class WidgetsController extends Controller
 
             return back()->with('success','successfully added widgets to page');
         }
+        elseif ($data['submit'] == 'activate_edit_widgets') {
+
+            $page_id = $data['page_id'];
+
+            foreach ($data['widget_item'] as $item) {
+                $pageWidgets = PageWidgets::create([
+                    'page_id'=>$data['page_id'],
+                    'widget_id'=>$item,
+                ]);
+
+                $widget_update = Widget::findorfail($item)->update(['status_active'=>1]);
+            }
+
+            return back()->with('success','successfully added widgets to page');
+        }
     }
 
     /**
@@ -133,7 +149,6 @@ class WidgetsController extends Controller
         //
 
         $data = $request->all();
-//        dd($data);
         if ($data['submit'] == 'update_widget') {
             $widget = Widget::findorfail($id);
             $widget->update([

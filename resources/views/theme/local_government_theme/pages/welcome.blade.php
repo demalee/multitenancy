@@ -3,7 +3,7 @@
 @section('content')
     <!--CITY MAIN BANNER START-->
     @foreach($widgets as $widget)
-        @if($widget->name == "Slider")
+        @if($widget->name == "Slider" and $widget->active_status(@$page_id->id,@$widget->id))
     <div class="city_main_banner">
         <div class="main-banner-slider">
             @include('theme.local_government_theme.widgets.slider')
@@ -14,7 +14,7 @@
 
     <!--CITY BANNER SERVICES START-->
 
-        @if($widget->name == "Banner")
+        @if($widget->name == "Banner" and $widget->active_status(@$page_id->id,@$widget->id))
     <div class="city_banner_services">
         <div class="container-fluid">
             <div class="city_service_list">
@@ -26,11 +26,11 @@
     </div>
         @endif
 
-        @if($widget->name == "Bread Crumbs" and $widget->status_active == 1)
+        @if($widget->name == "Bread Crumbs" and $widget->active_status(@$page_id->id,@$widget->id))
             @include('theme.local_government_theme.widgets.breadcrumbs')
             @endif
 
-        @if($widget->name == "Info")
+        @if($widget->name == "Info" and $widget->active_status(@$page_id->id,@$widget->id))
             <div class="city_about_wrap">
                 <div class="container">
                     @include('theme.local_government_theme.widgets.info')
@@ -38,7 +38,7 @@
             </div>
         @endif
 
-        @if($widget->name == "Department")
+        @if($widget->name == "Department" and $widget->active_status(@$page_id->id,@$widget->id))
             <div class="city_department_wrap overlay">
                 <div class="bg_white">
                     <div class="container-fluid">
@@ -56,7 +56,7 @@
             </div>
         @endif
 
-        @if($widget->name == "Authority")
+        @if($widget->name == "Authority" and $widget->active_status(@$page_id->id,@$widget->id))
             <div class="city_office_wrap">
                 <div class="bg_white bg_none">
                     <div class="container-fluid">
@@ -90,7 +90,7 @@
             </div>
         @endif
 
-        @if($widget->name == "Gallery")
+        @if($widget->name == "Gallery" and $widget->active_status(@$page_id->id,@$widget->id))
 {{--            <div class="city_blog_wrap">--}}
 {{--                <div class="container">--}}
 {{--                    <!--SECTION HEADING START-->--}}
@@ -110,7 +110,7 @@
         @endif
 
 
-        @if($widget->name == "Post")
+        @if($widget->name == "Post" and $widget->active_status(@$page_id->id,@$widget->id))
             <div class="city_blog_wrap">
                 <div class="container">
                     <!--SECTION HEADING START-->
@@ -129,7 +129,7 @@
             </div>
         @endif
 
-        @if($widget->name == "Projects")
+        @if($widget->name == "Projects" and $widget->active_status(@$page_id->id,@$widget->id))
         <div class="city_project_wrap">
             <div class="container-fluid">
                 <!--SECTION HEADING START-->
@@ -156,7 +156,7 @@
         </div>
         @endif
 
-        @if($widget->name == "Events")
+        @if($widget->name == "Events" and $widget->active_status(@$page_id->id,@$widget->id))
             <div class="city_event_wrap">
                 <div class="bg_white width">
                     <div class="container-fluid">
@@ -176,7 +176,7 @@
             </div>
             @endif
 
-        @if($widget->name == "Testimonials")
+        @if($widget->name == "Testimonials" and $widget->active_status(@$page_id->id,@$widget->id))
             <div class="city_client_wrap">
             <div class="container">
                 <div class="city_client_row">
@@ -211,7 +211,7 @@
             @endif
 
 
-        @if($widget->name == "News")
+        @if($widget->name == "News" and $widget->active_status(@$page_id->id,@$widget->id))
             <div class="city_news_wrap">
                 <div class="container">
                     <div class="row">

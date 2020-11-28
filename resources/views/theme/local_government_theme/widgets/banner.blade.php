@@ -9,7 +9,6 @@
         </li>
     @endforeach
 
-
     @else
     <li>
         <div class="city_service_text">

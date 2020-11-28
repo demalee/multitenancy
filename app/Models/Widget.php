@@ -35,4 +35,17 @@ class Widget extends Model
         return [$data,$count];
     }
 
+    public function active_status($page, $widget)
+    {
+        $data = PageWidgets::where('page_id',$page)->where('widget_id',$widget)->first();
+        if ($data)
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+    }
+
 }
