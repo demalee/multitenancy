@@ -33,140 +33,278 @@ class PageController extends Controller
     public function about()
     {
         $route = Config::get('THEME_PAGES').'about';
-
-        return view($route);
+        $url_name = Route::current()->getName();
+        $page_name = Route::current()->getName();
+        $page_id = Page::where('slug',$url_name)->first();
+        $web = Website::where('admin_id',auth()->id())->first();
+        $widgets = Widget::where('website_id',$web->id)->get();
+        return view($route,compact('widgets','page_id','page_name'));
     }
 
     public function services()
     {
         $route = Config::get('THEME_PAGES').'services';
-        return view($route);
+        $url_name = Route::current()->getName();
+        $page_name = Route::current()->getName();
+        $page_id = Page::where('slug',$url_name)->first();
+        $web = Website::where('admin_id',auth()->id())->first();
+        $widgets = Widget::where('website_id',$web->id)->get();
+        return view($route,compact('widgets','page_id','page_name'));
     }
 
     public function contact()
     {
     $route = Config::get('THEME_PAGES').'contact';
-    return view($route);
+        $url_name = Route::current()->getName();
+        $page_name = Route::current()->getName();
+        $page_id = Page::where('slug',$url_name)->first();
+        $web = Website::where('admin_id',auth()->id())->first();
+        $widgets = Widget::where('website_id',$web->id)->get();
+        return view($route,compact('widgets','page_id','page_name'));
     }
 
     public function blog()
     {
         $route = Config::get('THEME_PAGES').'blog';
-        return view($route);
-    }
+        $url_name = Route::current()->getName();
+        $page_name = Route::current()->getName();
+        $page_id = Page::where('slug',$url_name)->first();
+        $web = Website::where('admin_id',auth()->id())->first();
+        $widgets = Widget::where('website_id',$web->id)->get();
+        return view($route,compact('widgets','page_id','page_name'));    }
+
     public function gallery()
     {
         $route = Config::get('THEME_PAGES').'gallery';
-        return view($route);
+        $url_name = Route::current()->getName();
+        $page_name = Route::current()->getName();
+        $page_id = Page::where('slug',$url_name)->first();
+        $web = Website::where('admin_id',auth()->id())->first();
+        $widgets = Widget::where('website_id',$web->id)->get();
+        return view($route,compact('widgets','page_id','page_name'));
     }
+
     public function volunteer()
     {
         $route = Config::get('THEME_PAGES').'volunteer';
+        $url_name = Route::current()->getName();
+        $page_name = Route::current()->getName();
+        $page_id = Page::where('slug',$url_name)->first();
+        $web = Website::where('admin_id',auth()->id())->first();
+        $widgets = Widget::where('website_id',$web->id)->get();
         return view($route);
     }
     public function shop()
     {
         $route = Config::get('THEME_PAGES').'shop';
-        return view($route);
+        $route = Config::get('THEME_PAGES').'product_detail';
+        $url_name = Route::current()->getName();
+        $page_name = Route::current()->getName();
+        $page_id = Page::where('slug',$url_name)->first();
+        $web = Website::where('admin_id',auth()->id())->first();
+        $widgets = Widget::where('website_id',$web->id)->get();
+        return view($route,compact('widgets','page_id','page_name'));
+
+return view($route);
     }
     public function product_detail()
     {
         $route = Config::get('THEME_PAGES').'product_detail';
-        return view($route);
+        $url_name = Route::current()->getName();
+        $page_name = Route::current()->getName();
+        $page_id = Page::where('slug',$url_name)->first();
+        $web = Website::where('admin_id',auth()->id())->first();
+        $widgets = Widget::where('website_id',$web->id)->get();
+        return view($route,compact('widgets','page_id','page_name'));
     }
     public function donate()
     {
         $route = Config::get('THEME_PAGES').'donate';
-        return view($route);
+        $url_name = Route::current()->getName();
+        $page_name = Route::current()->getName();
+        $page_id = Page::where('slug',$url_name)->first();
+        $web = Website::where('admin_id',auth()->id())->first();
+        $widgets = Widget::where('website_id',$web->id)->get();
+        return view($route,compact('widgets','page_id','page_name'));
     }
     public function cause()
     {
         $route = Config::get('THEME_PAGES').'cause';
-        return view($route);
+        $url_name = Route::current()->getName();
+        $page_name = Route::current()->getName();
+        $page_id = Page::where('slug',$url_name)->first();
+        $web = Website::where('admin_id',auth()->id())->first();
+        $widgets = Widget::where('website_id',$web->id)->get();
+        return view($route,compact('widgets','page_id','page_name'));
     }
     public function campaign_detail()
     {
         $route = Config::get('THEME_PAGES').'campaign_detail';
-        return view($route);
+        $url_name = Route::current()->getName();
+        $page_name = Route::current()->getName();
+        $page_id = Page::where('slug',$url_name)->first();
+        $web = Website::where('admin_id',auth()->id())->first();
+        $widgets = Widget::where('website_id',$web->id)->get();
+        return view($route,compact('widgets','page_id','page_name'));
     }
     public function campaign()
     {
         $route = Config::get('THEME_PAGES').'campaign';
-        return view($route);
+        $url_name = Route::current()->getName();
+        $page_name = Route::current()->getName();
+        $page_id = Page::where('slug',$url_name)->first();
+        $web = Website::where('admin_id',auth()->id())->first();
+        $widgets = Widget::where('website_id',$web->id)->get();
+        return view($route,compact('widgets','page_id','page_name'));
     }
     public function biography()
     {
         $route = Config::get('THEME_PAGES').'biography';
-        return view($route);
+        $url_name = Route::current()->getName();
+        $page_name = Route::current()->getName();
+        $page_id = Page::where('slug',$url_name)->first();
+        $web = Website::where('admin_id',auth()->id())->first();
+        $widgets = Widget::where('website_id',$web->id)->get();
+        return view($route,compact('widgets','page_id','page_name'));
     }
     public function team()
     {
         $route = Config::get('THEME_PAGES').'team';
+        $url_name = Route::current()->getName();
+        $page_name = Route::current()->getName();
+        $page_id = Page::where('slug',$url_name)->first();
+        $web = Website::where('admin_id',auth()->id())->first();
+        $widgets = Widget::where('website_id',$web->id)->get();
         return view($route);
     }
     public function event()
     {
         $route = Config::get('THEME_PAGES').'event';
-        return view($route);
+        $url_name = Route::current()->getName();
+        $page_name = Route::current()->getName();
+        $page_id = Page::where('slug',$url_name)->first();
+        $web = Website::where('admin_id',auth()->id())->first();
+        $widgets = Widget::where('website_id',$web->id)->get();
+        return view($route,compact('widgets','page_id','page_name'));
     }
     public function government()
     {
         $route = Config::get('THEME_PAGES').'government';
-        return view($route);
+        $url_name = Route::current()->getName();
+        $page_name = Route::current()->getName();
+        $page_id = Page::where('slug',$url_name)->first();
+        $web = Website::where('admin_id',auth()->id())->first();
+        $widgets = Widget::where('website_id',$web->id)->get();
+        return view($route,compact('widgets','page_id','page_name'));
     }
     public function health()
     {
         $route = Config::get('THEME_PAGES').'health';
-        return view($route);
+        $url_name = Route::current()->getName();
+        $page_name = Route::current()->getName();
+        $page_id = Page::where('slug',$url_name)->first();
+        $web = Website::where('admin_id',auth()->id())->first();
+        $widgets = Widget::where('website_id',$web->id)->get();
+        return view($route,compact('widgets','page_id','page_name'));
     }
     public function mayor()
     {
         $route = Config::get('THEME_PAGES').'mayor';
-        return view($route);
+        $url_name = Route::current()->getName();
+        $page_name = Route::current()->getName();
+        $page_id = Page::where('slug',$url_name)->first();
+        $web = Website::where('admin_id',auth()->id())->first();
+        $widgets = Widget::where('website_id',$web->id)->get();
+        return view($route,compact('widgets','page_id','page_name'));
     }
     public function resident()
     {
         $route = Config::get('THEME_PAGES').'resident';
-        return view($route);
+        $url_name = Route::current()->getName();
+        $page_name = Route::current()->getName();
+        $page_id = Page::where('slug',$url_name)->first();
+        $web = Website::where('admin_id',auth()->id())->first();
+        $widgets = Widget::where('website_id',$web->id)->get();
+        return view($route,compact('widgets','page_id','page_name'));
     }
     public function resident_detail()
     {
         $route = Config::get('THEME_PAGES').'resident_detail';
-        return view($route);
+        $url_name = Route::current()->getName();
+        $page_name = Route::current()->getName();
+        $page_id = Page::where('slug',$url_name)->first();
+        $web = Website::where('admin_id',auth()->id())->first();
+        $widgets = Widget::where('website_id',$web->id)->get();
+        return view($route,compact('widgets','page_id','page_name'));
     }
     public function branches()
     {
         $route = Config::get('THEME_PAGES').'branches';
-        return view($route);
+        $url_name = Route::current()->getName();
+        $page_name = Route::current()->getName();
+        $page_id = Page::where('slug',$url_name)->first();
+        $web = Website::where('admin_id',auth()->id())->first();
+        $widgets = Widget::where('website_id',$web->id)->get();
+        return view($route,compact('widgets','page_id','page_name'));
     }
     public function volunteer_detail()
     {
         $route = Config::get('THEME_PAGES').'volunteer_detail';
-        return view($route);
+        $url_name = Route::current()->getName();
+        $page_name = Route::current()->getName();
+        $page_id = Page::where('slug',$url_name)->first();
+        $web = Website::where('admin_id',auth()->id())->first();
+        $widgets = Widget::where('website_id',$web->id)->get();
+        return view($route,compact('widgets','page_id','page_name'));
     }
     public function mission_vision()
     {
         $route = Config::get('THEME_PAGES').'mission_vision';
-        return view($route);
+        $url_name = Route::current()->getName();
+        $page_name = Route::current()->getName();
+        $page_id = Page::where('slug',$url_name)->first();
+        $web = Website::where('admin_id',auth()->id())->first();
+        $widgets = Widget::where('website_id',$web->id)->get();
+        return view($route,compact('widgets','page_id','page_name'));
     }
     public function priorities()
     {
         $route = Config::get('THEME_PAGES').'priorities';
-        return view($route);
+        $url_name = Route::current()->getName();
+        $page_name = Route::current()->getName();
+        $page_id = Page::where('slug',$url_name)->first();
+        $web = Website::where('admin_id',auth()->id())->first();
+        $widgets = Widget::where('website_id',$web->id)->get();
+        return view($route,compact('widgets','page_id','page_name'));
     }
     public function faq()
     {
         $route = Config::get('THEME_PAGES').'faq';
-        return view($route);
+        $url_name = Route::current()->getName();
+        $page_name = Route::current()->getName();
+        $page_id = Page::where('slug',$url_name)->first();
+        $web = Website::where('admin_id',auth()->id())->first();
+        $widgets = Widget::where('website_id',$web->id)->get();
+        return view($route,compact('widgets','page_id','page_name'));
     } public function events_details()
 {
     $route = Config::get('THEME_PAGES').'events_details';
-    return view($route);
+    $url_name = Route::current()->getName();
+    $page_name = Route::current()->getName();
+    $page_id = Page::where('slug',$url_name)->first();
+    $web = Website::where('admin_id',auth()->id())->first();
+    $widgets = Widget::where('website_id',$web->id)->get();
+    return view($route,compact('widgets','page_id','page_name'));
 }
     public function issue()
     {
         $route = Config::get('THEME_PAGES').'issue';
-        return view($route);
+        $url_name = Route::current()->getName();
+        $page_name = Route::current()->getName();
+        $page_id = Page::where('slug',$url_name)->first();
+        $web = Website::where('admin_id',auth()->id())->first();
+        $widgets = Widget::where('website_id',$web->id)->get();
+        return view($route,compact('widgets','page_id','page_name'));
     }
     //theme
     public function themeChange(Request $request,$id)

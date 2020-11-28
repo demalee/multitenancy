@@ -20,7 +20,7 @@
 
                     </li>
                     <li class="dropdown">
-                        <a class="nav-link menu-title" href="{{url('home')}}"><i data-feather="home"></i><span>Preview</span>
+                        <a class="nav-link menu-title" href="{{url('home')}}"><i data-feather="eye"></i><span>Preview</span>
 
                         </a>
 

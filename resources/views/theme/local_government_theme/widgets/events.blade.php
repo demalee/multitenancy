@@ -1,8 +1,11 @@
 @if($widget->get_content($widget->id)[1] > 0)
 
     @foreach($widget->get_content($widget->id)[0] as $content)
+<div class="container">
+    <div class="row">
 
-        <div class="col-md-6 col-sm-6">
+
+        <div class="col-md-4 col-sm-6">
             <div class="city_event_fig">
                 <figure class="box">
                     <div class="box-layer layer-1"></div>
@@ -27,6 +30,8 @@
                 </div>
             </div>
         </div>
+    </div>
+</div>
     @endforeach
 
 
