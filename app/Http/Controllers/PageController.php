@@ -33,8 +33,12 @@ class PageController extends Controller
     public function about()
     {
         $route = Config::get('THEME_PAGES').'about';
-
-        return view($route);
+        $url_name = Route::current()->getName();
+        $page_name = Route::current()->getName();
+        $page_id = Page::where('slug',$url_name)->first();
+        $web = Website::where('admin_id',auth()->id())->first();
+        $widgets = Widget::where('website_id',$web->id)->get();
+        return view($route,compact('widgets','page_id','page_name'));
     }
 
     public function services()
