@@ -47,6 +47,7 @@ class WidgetSeeder extends Seeder
                 'widget_level'=>0,
                 'website_id'=>0
             ]);
+
         }
 
     }

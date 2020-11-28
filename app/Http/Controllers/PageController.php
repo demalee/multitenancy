@@ -18,13 +18,25 @@ class PageController extends Controller
     {
         return $this->middleware('auth');
     }
-
+    public function getActiveTheme()
+    {
+        $theme = Theme::where('status_active',1)->first();
+        if ($theme)
+        {
+            $theme_id = $theme->id;
+        }
+        else
+        {
+            $theme_id = 1;
+        }
+        return $theme_id;
+    }
     public function index()
     {
         $route = Config::get('THEME_PAGES').'welcome';
         $url_name = Route::current()->getName();
         $page_name = Route::current()->getName();
-        $page_id = Page::where('slug',$url_name)->first();
+        $page_id = Page::where('slug',$url_name)->where('theme_id',$this->getActiveTheme())->first();
         $web = Website::where('admin_id',auth()->id())->first();
         $widgets = Widget::where('website_id',$web->id)->get();
         return view($route,compact('widgets','page_id','page_name'));

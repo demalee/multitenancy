@@ -6,9 +6,11 @@ use App\Http\Controllers\Controller;
 use App\Models\Menu;
 use App\Models\MenuItem;
 use App\Models\Page;
+use App\Models\PageWidgets;
 use App\Models\Theme;
 use App\Models\Website;
 use App\Models\WebsiteSetting;
+use App\Models\Widget;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Validator;
@@ -187,6 +189,21 @@ class WebsiteController extends Controller
                     $menu = Menu::where('name', 'Main Menu')->where('theme_id', self::getActiveTheme())->first();
 
                     DB::table('menu_items')->where('menu_id', @$menu->id)->delete();
+                    //widgets
+                    $widgets = Widget::where('website_id',0)->get();
+                    foreach ($widgets as $widget)
+                    {
+                        Widget::create([
+                            'name'=>$widget->name,
+                            'widget_parent'=>0,
+                            'status_active'=>0,
+                            'position'=>0,
+                            'widget_level'=>0,
+                            'website_id'=>$website->id
+                        ]);
+                    }
+
+
                     foreach ($data['page_id'] as $page_id) {
                         if ($page_id == null)
                         {
@@ -202,6 +219,17 @@ class WebsiteController extends Controller
                             'parent_id' => 0,
                             'slug' => \Illuminate\Support\Str::slug(@$menu->name)
                         ]);
+
+                        foreach ($data['widget_item'] as $item) {
+                            $selected_widget = Widget::where('name',$item)->where('website_id',$website->id)->first();
+                            $pageWidgets = PageWidgets::create([
+                                'page_id' => $page_id,
+                                'widget_id' => $selected_widget->id,
+                            ]);
+
+                            $widget_update = Widget::findorfail( $selected_widget->id)->update(['status_active'=>1]);
+
+                        }
                     }
 
                     //favicon
@@ -232,7 +260,10 @@ class WebsiteController extends Controller
                             'logo_name'=>@$data['logo_name'],
                         ]);
 
-                    return redirect('/home');
+
+
+
+                        return redirect('/home');
 
                 }
             }

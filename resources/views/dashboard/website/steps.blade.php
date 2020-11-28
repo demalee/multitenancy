@@ -192,47 +192,24 @@
                                     Add widgets to make your website more ascetic and more
                                     user friendly
                                 </h3>
-<div class="row">
-    <div class="col-md-6">
+                            <div class="row">
 
 
-<div class="text center">
+                                @foreach($widgets as $widget)
+                                    <div class="col-md-6">
 
 
-                                <div class="form-group add_top_30">
+                                        <div class="text center">
+                                    <div class="form-group add_top_30">
 
-                                   <p> <label class="container_check">Events<i class="icon-download"></i>
-                                        <input type="checkbox" name="news" id="events" value="events">
+                                   <p> <label class="container_check">{{@$widget->name}}<i class="icon-download"></i>
+                                        <input type="checkbox" name="widget_item[]" id="events" value="{{@$widget->name}}">
                                         <span class="checkmark"></span>
                                        </label></p></div>
-                                <div class="form-group add_top_30">
+                                        </div>
+                                    </div>
+                                    @endforeach
 
-                                    <label class="container_check"><p>Notifications      <i class="icon-user"></i></p>
-                                        <input type="checkbox" name="notifications" id="notifications" value="notifications">
-                                        <span class="checkmark"></span>
-                                </label></div>
-                                <div class="form-group add_top_30">
-
-                                <label class="container_check"> Content     <i class="icon-pencil icon-4x"></i>
-                                        <input type="checkbox" name="content"  id="content" value="content" >
-                                        <span class="checkmark"></span>
-                                </label></div>
-                                <div class="form-group add_top_30">
-
-                                <label class="container_check">   Publication     <i class="icon-book icon-4x"></i>
-                                        <input type="checkbox" name="publication" value="publication" id="publication" >
-                                        <span class="checkmark"></span>
-                                </label></div>
-                                <div class="form-group add_top_30">
-
-                                <label class="container_check">   Sidebar     <i class="icon-flag icon-4x"></i>
-                                        <input type="checkbox" name="news" value="sidebar" id="sidebar">
-                                        <span class="checkmark"></span>
-                                </label></div>
-
-
-                            </div>
-                        </div>
 </div>
                         </div>
                         <!-- /middle-wizard -->

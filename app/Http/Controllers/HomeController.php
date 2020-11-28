@@ -5,7 +5,10 @@ namespace App\Http\Controllers;
 use App\Models\Menu;
 use App\Models\MenuItem;
 use App\Models\Page;
+use App\Models\PageWidgets;
 use App\Models\Theme;
+use App\Models\Website;
+use App\Models\Widget;
 use Illuminate\Http\Request;
 
 class HomeController extends Controller
@@ -43,6 +46,15 @@ class HomeController extends Controller
         $pages = Page::where('theme_id',$themeid)->get();
         return view('dashboard/pages/index',compact('pages'));
     }
+
+    public function editWidgets($id)
+    {
+        $page_wid = PageWidgets::where('page_id',$id)->get();
+        $web = Website::where('admin_id',auth()->id())->first();
+        $widgets = Widget::where('website_id',$web->id)->get();
+//        $pages = Page::where('theme_id',$this->theme_id)->get();
+        return view('dashboard.editpagewidgets', compact('widgets','page_wid','id'));
+    }
     public function steps()
     {
         $themes = Theme::all();
@@ -59,6 +71,7 @@ class HomeController extends Controller
 
         $pages = Page::where('theme_id',$theme_id)->whereIn('page_level',[1,2])->get();
         $menu = Menu::where('name','Main menu')->where('theme_id',$theme_id)->get();
-        return view('dashboard/website/steps',compact('pages','themes'));
+        $widgets = Widget::where('website_id',0)->get();
+        return view('dashboard/website/steps',compact('pages','themes','widgets'));
     }
 }
