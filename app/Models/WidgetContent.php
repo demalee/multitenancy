@@ -23,6 +23,12 @@ class WidgetContent extends Model
         'description',
         'source_link',
         'content_image',
-        'widget_id'
+        'widget_id',
+        'website_id'
         ];
+
+    public function widget()
+    {
+        return $this->hasOne(Widget::class,'id','widget_id');
+    }
 }

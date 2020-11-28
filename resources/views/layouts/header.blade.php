@@ -56,7 +56,7 @@
                             <div class="according-menu"><i data-feather="chevrons-right"></i></div>
                         </a>
                         <ul class="nav-submenu menu-content" style="display: none">
-                            <li><a href="{{url('dashboard/createwidgets')}}" class="">Add Widgets</a></li>
+                            <li><a href="{{route('widgets.create')}}" class="">Add Widgets</a></li>
                             <li><a href="{{url('dashboard/widgets')}}" class="">View Widgets</a></li>
                             {{--                            <li><a href="#" class="">Widgets</a></li>--}}
                             {{--                            <li><a href="#" class="">Themes Options</a></li>--}}

@@ -32,4 +32,6 @@ class Website extends Model
         return $this->hasOne(User::class,'id','admin_id');
     }
 
+
+
 }

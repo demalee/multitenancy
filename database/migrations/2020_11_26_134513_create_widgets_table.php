@@ -16,11 +16,11 @@ class CreateWidgetsTable extends Migration
         Schema::create('widgets', function (Blueprint $table) {
             $table->id();
             $table->string('name');
-            $table->integer('theme_id');
             $table->integer('widget_parent')->default(0);
             $table->integer('status_active')->default(0);
             $table->integer('position')->default(0);
             $table->integer('widget_level')->default(0);
+            $table->integer('website_id');
             $table->timestamps();
         });
     }

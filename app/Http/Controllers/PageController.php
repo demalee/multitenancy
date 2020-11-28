@@ -2,9 +2,14 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Page;
 use App\Models\Theme;
+use App\Models\Website;
+use App\Models\Widget;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Config;
+use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\URL;
 
 class PageController extends Controller
 {
@@ -17,24 +22,33 @@ class PageController extends Controller
     public function index()
     {
         $route = Config::get('THEME_PAGES').'welcome';
-        return view($route);
+        $url_name = Route::current()->getName();
+        $page_name = Route::current()->getName();
+        $page_id = Page::where('slug',$url_name)->first();
+        $web = Website::where('admin_id',auth()->id())->first();
+        $widgets = Widget::where('website_id',$web->id)->get();
+        return view($route,compact('widgets','page_id','page_name'));
     }
+
     public function about()
     {
         $route = Config::get('THEME_PAGES').'about';
 
         return view($route);
     }
+
     public function services()
     {
         $route = Config::get('THEME_PAGES').'services';
         return view($route);
     }
+
     public function contact()
-{
+    {
     $route = Config::get('THEME_PAGES').'contact';
     return view($route);
-}
+    }
+
     public function blog()
     {
         $route = Config::get('THEME_PAGES').'blog';

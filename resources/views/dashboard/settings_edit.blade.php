@@ -56,7 +56,8 @@
                                         <div class="col-sm-9">
                                             <input class="form-control" name="brand_name" type="text" placeholder="Brand name"  value="{{$setting->brand_mame}}">
                                         </div>
-                                    </div></div></div>
+                                    </div>
+                                </div></div>
 
                             <div class="row">
                                 <div class="col">

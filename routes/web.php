@@ -68,14 +68,8 @@ Route::get('/dashboard/pages/create', function () {
               return view('/dashboard/widgets');
 
           });
-    Route::get('/dashboard/createwidgets', function () {
-        return view('/dashboard/createwidgets');
 
-    });
-    Route::get('/dashboard/content', function () {
-        return view('/dashboard/content');
 
-    });
     Route::get('/dashboard/submenu', function () {
         return view('/dashboard/submenu');
 
@@ -147,6 +141,7 @@ Route::get('{page}',function ($slug)
 });
 
 //menu controller
-Route::resource('dashboard/menus',\App\Http\Controllers\Backend\MenuController::class);
-Route::resource('dashboard/widgets',\App\Http\Controllers\Backend\WidgetsController::class);
+Route::resource('dashboard/menus',App\Http\Controllers\Backend\MenuController::class);
+Route::resource('dashboard/widgets',App\Http\Controllers\Backend\WidgetsController::class);
+Route::get('/dashboard/content/{widget}', [App\Http\Controllers\Backend\WidgetsController::class, 'content'])->name('content');
 

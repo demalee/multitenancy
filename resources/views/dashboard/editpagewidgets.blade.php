@@ -15,21 +15,10 @@
                 <form class="form theme-form" method="post" action="{{route('widgets.store')}}" enctype="multipart/form-data">
                     @csrf
                     <div class="card-body">
-                        <div class="form-group form-row">
-                            <label class="col-sm-12 col-form-label">Page Name</label>
-                            <div class="col-sm-9">
-                                <select name="page_id" id="page_id" class="form-control" required="">
-                                    <option value="">Select page...</option>
-                                    @foreach(@$pages as $page)
-                                    <option value="{{@$page->id}}">{{@$page->title}}</option>
-                                        @endforeach
-                                </select>
-                            </div>
-                        </div>
-                        <br>
+
                         <div class="row icon-lists feather-icons">
 
-                            <label for="" class="col-sm-12"> <h6>Add widgets to the page</h6></label>
+                            <label for="" class="col-sm-12"> <h6>Edit widgets to the page</h6></label>
                             @foreach($widgets as $widget)
                             <div class="col-12 col-sm-6 col-xl-4">
                                 <div class="media">
@@ -37,7 +26,10 @@
 
                                         <div class="media-body align-self-center">
                                             <label for="">
-                                                <input type="checkbox"  name="widget_item[]" value="{{$widget->id}}"><i data-feather="activity"></i>{{$widget->name}}
+                                                <input type="checkbox"  name="widget_item[]" value="{{$widget->id}}"
+
+                                                >
+                                                <i data-feather="activity"></i>{{$widget->name}}
                                             </label>
                                         </div>
                                     </div>

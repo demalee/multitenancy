@@ -18,13 +18,21 @@ $table->integer('widget_level')->default(0);
 class Widget extends Model
 {
     use HasFactory;
-    protected $table = ['widgets'];
+    protected $table = 'widgets';
     protected $fillable = [
         'name',
-        'theme_id',
         'widget_parent',
         'status_active',
         'position',
         'widget_level',
+        'website_id'
     ];
+
+    public function get_content($id)
+    {
+        $data = WidgetContent::where('widget_id',$id)->get();
+        $count = WidgetContent::where('widget_id',$id)->count();
+        return [$data,$count];
+    }
+
 }

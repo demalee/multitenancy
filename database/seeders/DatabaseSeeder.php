@@ -18,7 +18,8 @@ class DatabaseSeeder extends Seeder
             [
                 ThemeSeeder::class,
                 PageSeeder::class,
-                MenuSeeder::class
+                MenuSeeder::class,
+                WidgetSeeder::class
             ]);
 
         $this->command->info('Seeder ran successfully');

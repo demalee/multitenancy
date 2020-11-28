@@ -23,6 +23,7 @@
                                 <th scope="col">Name</th>
                                 <th scope="col">Created At</th>
                                 <th scope="col">Link</th>
+                                <th scope="col">Widgets</th>
                                 <th scope="col">View</th>
                                 <th scope="col" >Delete</th>
 
@@ -38,7 +39,9 @@
                                 <td>
                                     <a href="{{url($page->slug)}}">{{url($page->slug)}}</a>
                                 </td>
-
+                                <td>
+                                    <a class="btn btn-pill btn-primary btn-air-secondary btn-sm" href="{{route('pages.edit',$page->id)}}">Edit Page Widgets</a>
+                                </td>
                                 <td>
                                     <a class="btn btn-pill btn-primary btn-air-secondary btn-sm" href="{{route('pages.edit',$page->id)}}">Edit</a>
                                 </td>
