@@ -104,7 +104,7 @@ class PageController extends Controller
         $page_id = Page::where('slug',$url_name)->first();
         $web = Website::where('admin_id',auth()->id())->first();
         $widgets = Widget::where('website_id',$web->id)->get();
-        return view($route);
+        return view($route,compact('widgets','page_id','page_name'));
     }
     public function shop()
     {
@@ -117,7 +117,6 @@ class PageController extends Controller
         $widgets = Widget::where('website_id',$web->id)->get();
         return view($route,compact('widgets','page_id','page_name'));
 
-return view($route);
     }
     public function product_detail()
     {
@@ -129,6 +128,7 @@ return view($route);
         $widgets = Widget::where('website_id',$web->id)->get();
         return view($route,compact('widgets','page_id','page_name'));
     }
+
     public function donate()
     {
         $route = Config::get('THEME_PAGES').'donate';
@@ -187,7 +187,7 @@ return view($route);
         $page_id = Page::where('slug',$url_name)->first();
         $web = Website::where('admin_id',auth()->id())->first();
         $widgets = Widget::where('website_id',$web->id)->get();
-        return view($route);
+        return view($route,compact('widgets','page_id','page_name'));
     }
     public function event()
     {
@@ -298,7 +298,8 @@ return view($route);
         $web = Website::where('admin_id',auth()->id())->first();
         $widgets = Widget::where('website_id',$web->id)->get();
         return view($route,compact('widgets','page_id','page_name'));
-    } public function events_details()
+    }
+    public function events_details()
 {
     $route = Config::get('THEME_PAGES').'events_details';
     $url_name = Route::current()->getName();
