@@ -7,10 +7,7 @@
 
         @if($widget->name == "Bread Crumbs" and $widget->status_active == 1)
 
-
-                @foreach($widget->get_content($widget->id)[0] as $content)
                     @include('theme.local_government_theme.widgets.breadcrumbs')
-                @endforeach
 
         @endif
 

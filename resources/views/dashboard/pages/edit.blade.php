@@ -50,5 +50,4 @@
     <!-- Plugins JS Ends-->
     <!-- Theme js-->
 
-
 @endsection

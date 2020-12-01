@@ -15,10 +15,7 @@
         <!-- SAB BANNER END-->
         @if($widget->get_content($widget->id)[1] > 0)
 
-            @foreach($widget->get_content($widget->id)[0] as $content)
                 @include('theme.local_government_theme.widgets.post')
-
-            @endforeach
         @endif
         <!--CITY NEWS2 WRAP END-->
 
