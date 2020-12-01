@@ -21,27 +21,27 @@
                             <label for="" class="col-sm-12"> <h6>Edit widgets to the page</h6></label>
                             <input type="text" name="page_id" value="{{@$id}}">
                             @foreach($widgets as $widget)
-                            <div class="col-12 col-sm-6 col-xl-4">
-                                <div class="media">
-                                    <div class="form-group m-checkbox-inline mb-0">
+                                <div class="col-12 col-sm-6 col-xl-4">
+                                    <div class="media">
+                                        <div class="form-group m-checkbox-inline mb-0">
 
-                                        <div class="media-body align-self-center">
-                                            <label for="">
-                                                <input type="checkbox"  name="widget_item[]"
-                                                       @if($widget->active_status(@$id,@$widget->id)) checked @endif
-                                                       value="{{$widget->id}}"
-                                                >
-                                                <i data-feather="activity"></i>{{$widget->name}}
-                                            </label>
+                                            <div class="media-body align-self-center">
+                                                <label for="">
+                                                    <input type="checkbox"  name="widget_item[]"
+                                                           @if($widget->active_status(@$id,@$widget->id)) checked @endif
+                                                           value="{{$widget->id}}"
+                                                    >
+                                                    <i data-feather="activity"></i>{{$widget->name}}
+                                                </label>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                                @endforeach
+                            @endforeach
                         </div>
 
 
-                        </div>
+                    </div>
                     <div class="card-footer text-center">
                         <button class="btn btn-primary" name="submit" value="activate_edit_widgets">Activate Widgets</button>
                     </div>

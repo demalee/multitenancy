@@ -53,7 +53,7 @@ class HomeController extends Controller
         $web = Website::where('admin_id',auth()->id())->first();
         $widgets = Widget::where('website_id',$web->id)->get();
 //        $pages = Page::where('theme_id',$this->theme_id)->get();
-        return view('dashboard.editpagewidgets', compact('widgets','page_wid','id'));
+        return view('dashboard/widgets_edit', compact('widgets','page_wid','id'));
     }
     public function steps()
     {

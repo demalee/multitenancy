@@ -40,7 +40,7 @@
                                     <a href="{{url($page->slug)}}">{{url($page->slug)}}</a>
                                 </td>
                                 <td>
-                                    <a class="btn btn-pill btn-primary btn-air-secondary btn-sm" href="{{route('dashboard.widget_pages',$page->id)}}">Edit Page Widgets</a>
+                                    <a class="btn btn-pill btn-primary btn-air-secondary btn-sm" href="{{route('dashboard.widgets_edit',$page->id)}}">Edit Page Widgets</a>
                                 </td>
                                 <td>
                                     <a class="btn btn-pill btn-primary btn-air-secondary btn-sm" href="{{route('pages.edit',$page->id)}}">Edit</a>

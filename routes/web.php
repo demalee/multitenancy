@@ -90,7 +90,7 @@ Auth::routes();
 
 Route::get('/dashboard', [App\Http\Controllers\HomeController::class, 'index'])->name('dashboard');
 Route::get('/dashboard/pages', [App\Http\Controllers\HomeController::class, 'pages'])->name('dashboard.pages');
-Route::get('/dashboard/pages/{id}/edit-widgets', [App\Http\Controllers\HomeController::class, 'editWidgets'])->name('dashboard.widget_pages');
+Route::get('/dashboard/widgets_edit/{id}', [App\Http\Controllers\HomeController::class, 'editWidgets'])->name('dashboard.widgets_edit');
 Route::get('/dashboard/website', [App\Http\Controllers\HomeController::class, 'steps'])->name('dashboard.website');
 
 //website routes
