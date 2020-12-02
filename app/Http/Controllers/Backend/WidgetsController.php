@@ -137,13 +137,27 @@ class WidgetsController extends Controller
         return view('dashboard.widgets.edit', compact('widget'));
     }
 
-    /**
-     * Update the specified resource in storage.
-     *
-     * @param \Illuminate\Http\Request $request
-     * @param int $id
-     * @return \Illuminate\Http\RedirectResponse
-     */
+    public function addWidget(Request $request)
+    {
+        $data = $request->all();
+        if (isset($data['content_file'])) {
+            $attach1 = time() . '-content_file.' . request()->content_file->getClientOriginalExtension();
+            request()->content_file->move(public_path('images'), $attach1);
+            $logo_url = env('APP_URL') . "/images/" . $attach1;
+            $data['content_file'] = $attach1;
+        }
+        $content = WidgetContent::create([
+            'title' => @$data['title'],
+            'description' => @$data['description'],
+            'source_link' => @$data['source_url'],
+            'content_image' => @$data['content_file'],
+            'widget_id' => $data['widget_id'],
+        ]);
+
+        return back()->with('success', 'successfully added content');
+    }
+
+
     public function update(Request $request, $id)
     {
         //

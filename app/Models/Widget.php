@@ -30,7 +30,7 @@ class Widget extends Model
 
     public function get_content($id)
     {
-        $data = WidgetContent::where('widget_id',$id)->get();
+        $data = WidgetContent::where('widget_id',$id)->orderby('created_at','desc')->get();
         $count = WidgetContent::where('widget_id',$id)->count();
         return [$data,$count];
     }

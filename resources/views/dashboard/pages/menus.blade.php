@@ -187,6 +187,7 @@
                                     <button disabled class="btn btn-sm btn-primary" type="button" >{{@$menu_item->page->title}}
                                     </button>
                                     <span class="float-right">
+                                        <input type="text" name="menu_id[]" value="{{$menu_item->id}}" hidden>
                                         <input type="text" class="form-inline form-control-sm" name="menu_item_{{$menu_item->id}}" placeholder="Eg 1 or 2" required/>
 
                                     </span>

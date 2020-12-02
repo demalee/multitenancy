@@ -1,7 +1,9 @@
 @if($widget->get_content($widget->id)[1] > 0)
-
+@php $counter=0 @endphp
     @foreach($widget->get_content($widget->id)[0] as $content)
-
+        @if($counter > 0)
+            @break
+            @endif
         <div class="row">
             <div class="col-md-6">
                 <div class="city_about_fig">
@@ -41,7 +43,7 @@
                 </div>
             </div>
         </div>
-
+        @php $counter++ @endphp
     @endforeach
 
 

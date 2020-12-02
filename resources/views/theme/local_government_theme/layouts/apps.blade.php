@@ -225,6 +225,7 @@
         </div>
     </footer>
 </div>
+@include('layouts.partials.add_content_any')
 <!--WRAPPER END-->
 <!--Jquery Library-->
 <script src="{{asset('theme/local/js/jquery.js')}}"></script>

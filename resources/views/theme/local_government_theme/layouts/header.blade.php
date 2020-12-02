@@ -97,8 +97,15 @@
 {{--                            </li>--}}
 
 {{--                                            <li><a href="{{url('event')}}">E-services</a></li>--}}
-{{--                                    <li>--}}
+                                    <li>
                                         <a  href="{{ url('main') }}">Dashboard</a>
+                                    </li>
+                                <li>
+                                    @auth
+                                        <a data-toggle="modal" href="#exampleModalmdo">
+                                            Add content to Widgets
+                                        </a>
+                                    @endauth
                                     </li>
                                 </ul>
 

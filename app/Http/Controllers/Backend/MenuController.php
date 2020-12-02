@@ -191,11 +191,14 @@ class MenuController extends Controller
             $menu_item->delete();
             return back()->with('success', 'successfully deleted the page from the menu');
         } elseif ($data['submit'] == "order_menus") {
-            $menu_items = MenuItem::where('menu_id', $id)->get();
-            foreach ($menu_items as $menu_item) {
-                $menu_item->update([
-                    'menu_position' => $data['menu_item_' . $menu_item->id]
+
+//            dd($data);
+            foreach ($data['menu_id'] as $menu_id)
+            {
+                $menu_items = MenuItem::where('id', $menu_id)->first()->update([
+                    'menu_position' => $data['menu_item_' . $menu_id]
                 ]);
+
             }
             return back()->with('success', 'Menu reordered successfully');
         } elseif ($data['submit'] == 'edit_sub_menu') {
