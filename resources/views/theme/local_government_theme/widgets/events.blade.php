@@ -11,7 +11,7 @@
                     <div class="box-layer layer-1"></div>
                     <div class="box-layer layer-2"></div>
                     <div class="box-layer layer-3"></div>
-                    <img src="{{asset('theme/local/extra-images/'.@$content->content_image)}}" alt="">
+                    <img src="{{asset('images/'.$content->content_image)}}" alt="" style="height: 200px">
                     <a class="paly_btn" data-rel="prettyPhoto" href="{{asset('theme/local/extra-images/event-fig.jpg')}}" tabindex="-1"><i class="fa fa-plus"></i></a>
                 </figure>
                 <div class="city_event_text">

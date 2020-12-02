@@ -48,9 +48,9 @@
                             <h2 contenteditable="true">Govt Departments</h2>
                         </div>
                         <!--SECTION HEADING END-->
-                        <div class="city-department-slider">
+{{--                        <div class="city-department-slider">--}}
                             @include('theme.local_government_theme.widgets.departments')
-                        </div>
+{{--                        </div>--}}
                     </div>
                 </div>
             </div>
