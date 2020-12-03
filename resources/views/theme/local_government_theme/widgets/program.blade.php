@@ -5,7 +5,7 @@
         <div>
             <div class="city_project_fig">
                 <figure class="overlay">
-                    <img src="{{asset('images/'.$content->content_image)}}" alt="">
+                    <img src="{{asset('images/'.$content->content_image)}}" alt="" style="height: 300px">
                     <div class="city_project_text">
                         <span><i class="fa icon-plastic"></i></span>
                         <a href="#" contenteditable="true">{{@$content->title}}</a>

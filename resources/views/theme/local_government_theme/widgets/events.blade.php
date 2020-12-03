@@ -1,11 +1,11 @@
 @if($widget->get_content($widget->id)[1] > 0)
-
+    <div class="container">
+        <div class="row">
     @foreach($widget->get_content($widget->id)[0] as $content)
-<div class="container">
-    <div class="row">
 
 
-        <div class="col-md-4 col-sm-6">
+
+        <div class="col-md-4 col-sm-6 flex">
             <div class="city_event_fig">
                 <figure class="box">
                     <div class="box-layer layer-1"></div>
@@ -25,15 +25,15 @@
                             <a href="#"><i class="fa fa-clock-o" contenteditable="true"></i>05:23 AM - 09:23 AM </a>
                         </div>
                     </div>
-                    <p contenteditable="true">{{$content->description}}</p>
+                    <p contenteditable="true">{{\Illuminate\Support\Str::limit(@$content->description,150,'...')}}</p>
                     <a href="#" contenteditable="true">  : <span>author</span></a>
                 </div>
             </div>
         </div>
-    </div>
-</div>
-    @endforeach
 
+    @endforeach
+        </div>
+    </div>
 
 @else
 

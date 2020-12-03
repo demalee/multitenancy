@@ -10,7 +10,7 @@
                         <li class="breadcrumb-item"><a href="{{url('/')}}"><i data-feather="home"></i></a></li>
                         <li class="breadcrumb-item">Dashboard</li>
                     </ol>
-                    <h5 class="social">Welcome back, {{Auth::user()->name}}!</h5>
+                    <h5 class="social">Welcome back, {{Auth::user()->name}}</h5>
 
                 </div>
 
@@ -39,7 +39,7 @@
                                                 <a class="btn btn-light" href="{{url('home')}}">View your website</a>
                                             </li>
                                             <li>
-                                                <a class="btn btn-primary" href="{{url('home')}}">Edit template
+                                                <a class="btn btn-primary" href="{{url('themes')}}">Change template
                                                 </a>
                                             </li>
                                         </ul>

@@ -1,28 +1,29 @@
 @if($widget->get_content($widget->id)[1] > 0)
 
     @foreach($widget->get_content($widget->id)[0] as $content)
-        <div class="col-md-6 col-sm-6">
+        <div class="col-md-4 col-sm-4">
             <div class="city_news_fig">
                 <figure class="box">
                     <div class="box-layer layer-1"></div>
                     <div class="box-layer layer-2"></div>
                     <div class="box-layer layer-3"></div>
-                    <img src="{{asset('images/'.$content->content_image)}}" alt="">
+                    <img src="{{asset('images/'.$content->content_image)}}" alt="" style="height: 200px;">
                 </figure>
                 <div class="city_news_text">
-                    <h2 contenteditable="true">{{@$content->title}}</h2>
+                    <h2 contenteditable="true">{{\Illuminate\Support\Str::limit(@$content->title,10,'...')}}</h2>
                     <ul class="city_news_meta">
                         <li><a href="#" contenteditable="true">May 22, 2018</a></li>
                         <li><a href="#" contenteditable="true">Public Notices</a></li>
                     </ul>
-                    <p contenteditable="true">{{@$content->description}}</p>
+                    <p contenteditable="true">{{\Illuminate\Support\Str::limit(@$content->description,100,'...')}}</p>
                     <a class="theam_btn border-color color" href="#" tabindex="0">Read More</a>
+                    <br><br>
                 </div>
             </div>
         </div>
     @endforeach
 
-    <img src="{{asset('images/'.$content->content_image)}}" alt="">
+{{--    <img src="{{asset('images/'.$content->content_image)}}" alt="">--}}
 @else
 
     <div class="col-md-6 col-sm-6">

@@ -215,48 +215,47 @@
             <div class="city_news_wrap">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-8">
-                            <!--SECTION HEADING START-->
-                            <div class="section_heading margin-bottom">
-                                <span contenteditable="true">Welcome to Local City</span>
-                                <h2 contenteditable="true">News Releases</h2>
-                            </div>
-                            <!--SECTION HEADING START-->
-                            <div class="row">
-                                @include('theme.local_government_theme.widgets.news')
-                            </div>
+                        <!--SECTION HEADING START-->
+                        <div class="section_heading margin-bottom">
+                            <span contenteditable="true">Government</span>
+                            <h2 contenteditable="true">News Releases</h2>
                         </div>
-                        <div class="col-md-4">
-                            <div class="city_news_form">
-                                <div class="city_news_feild">
-                                    <span contenteditable="true">Signup</span>
-                                    <h4 contenteditable="true">Newsletter</h4>
-                                    <p contenteditable="true">This is Photoshop's version  of Lorem Ipsum. Proin gravida </p>
-                                    <div class="city_news_search">
-                                        <input type="text" name="text" placeholder="Enter Your Email Adress Here" required>
-                                        <button class="theam_btn border-color color">Subcribe Now</button>
-                                    </div>
-                                </div>
-                                <div class="city_news_feild feild2">
-                                    <span contenteditable="true">Recent</span>
-                                    <h4 contenteditable="true">Documents</h4>
-                                    <p contenteditable="true">This is Photoshop's version  of Lorem Ipsum. Proin gravida </p>
-                                    <div class="city_document_list">
-                                        <ul>
-                                            <li contenteditable="true"><a href="#"><i class="fa icon-document"></i>Council Agenda April 24, 2015 (27 kB)</a></li>
-                                            <li contenteditable="true"><a href="#"><i class="fa icon-document"></i>Council Agenda April 24, 2015 (27 kB)</a></li>
-                                            <li contenteditable="true"><a href="#"><i class="fa icon-document"></i>Council Agenda April 24, 2015 (27 kB)</a></li>
-                                            <li contenteditable="true"><a href="#"><i class="fa icon-document"></i>Council Agenda April 24, 2015 (27 kB)</a></li>
-                                            <li contenteditable="true"><a href="#"><i class="fa icon-document"></i>Council Agenda April 24, 2015 (27 kB)</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
+                        <!--SECTION HEADING START-->
+                        <div class="row">
+                            @include('theme.local_government_theme.widgets.news')
                         </div>
+                        {{--                        <div class="col-md-4">--}}
+                        {{--                            <div class="city_news_form">--}}
+                        {{--                                <div class="city_news_feild">--}}
+                        {{--                                    <span contenteditable="true">Signup</span>--}}
+                        {{--                                    <h4 contenteditable="true">Newsletter</h4>--}}
+                        {{--                                    <p contenteditable="true">This is Photoshop's version  of Lorem Ipsum. Proin gravida </p>--}}
+                        {{--                                    <div class="city_news_search">--}}
+                        {{--                                        <input type="text" name="text" placeholder="Enter Your Email Adress Here" required>--}}
+                        {{--                                        <button class="theam_btn border-color color">Subcribe Now</button>--}}
+                        {{--                                    </div>--}}
+                        {{--                                </div>--}}
+                        {{--                                <div class="city_news_feild feild2">--}}
+                        {{--                                    <span contenteditable="true">Recent</span>--}}
+                        {{--                                    <h4 contenteditable="true">Documents</h4>--}}
+                        {{--                                    <p contenteditable="true">This is Photoshop's version  of Lorem Ipsum. Proin gravida </p>--}}
+                        {{--                                    <div class="city_document_list">--}}
+                        {{--                                        <ul>--}}
+                        {{--                                            <li contenteditable="true"><a href="#"><i class="fa icon-document"></i>Council Agenda April 24, 2015 (27 kB)</a></li>--}}
+                        {{--                                            <li contenteditable="true"><a href="#"><i class="fa icon-document"></i>Council Agenda April 24, 2015 (27 kB)</a></li>--}}
+                        {{--                                            <li contenteditable="true"><a href="#"><i class="fa icon-document"></i>Council Agenda April 24, 2015 (27 kB)</a></li>--}}
+                        {{--                                            <li contenteditable="true"><a href="#"><i class="fa icon-document"></i>Council Agenda April 24, 2015 (27 kB)</a></li>--}}
+                        {{--                                            <li contenteditable="true"><a href="#"><i class="fa icon-document"></i>Council Agenda April 24, 2015 (27 kB)</a></li>--}}
+                        {{--                                        </ul>--}}
+                        {{--                                    </div>--}}
+                        {{--                                </div>--}}
+                        {{--                            </div>--}}
+                        {{--                        </div>--}}
                     </div>
                 </div>
             </div>
-            @endif
+        @endif
+
 
 
     @endforeach

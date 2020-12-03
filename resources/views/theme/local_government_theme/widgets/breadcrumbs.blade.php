@@ -17,7 +17,7 @@
     <div class="sab_banner overlay">
         <div class="container">
             <div class="sab_banner_text">
-                <h2 contenteditable="true">Upcoming Event</h2>
+                <h2 contenteditable="true">{{@$page_name}}</h2>
                 <ul class="breadcrumb">
                     <li class="breadcrumb-item" contenteditable="true"><a href="#">Home</a></li>
                     <li class="breadcrumb-item active" contenteditable="true">Upcoming Event</li>

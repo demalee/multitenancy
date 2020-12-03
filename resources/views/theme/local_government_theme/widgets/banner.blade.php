@@ -4,7 +4,7 @@
         <li>
             <div class="city_service_text">
                 <span><i class="fa icon-list"></i></span>
-                <h5><a href="{{@$content->source_url}}" contenteditable="true">{{@$content->title}}</a></h5>
+                <h5><a href="{{@$content->source_link}}" >{{@$content->title}}</a></h5>
             </div>
         </li>
     @endforeach

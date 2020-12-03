@@ -11,7 +11,7 @@
 
     <div>
         <figure class="overlay">
-            <img src="{{asset('images/'.$content->content_image)}}" alt="">
+            <img src="{{asset('images/'.$content->content_image)}}" alt="" style="height: 700px">
             <div class="banner_text">
                 <div class="small_text animated" contenteditable="true">Welcome to</div>
                 <div class="medium_text animated" contenteditable="true">{{$content->title}}</div>

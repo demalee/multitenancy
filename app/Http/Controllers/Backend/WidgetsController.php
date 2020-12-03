@@ -99,6 +99,7 @@ class WidgetsController extends Controller
 
             $page_id = $data['page_id'];
 
+            PageWidgets::where('page_id',$data['page_id'])->delete();
             foreach ($data['widget_item'] as $item) {
                 $pageWidgets = PageWidgets::create([
                     'page_id'=>$data['page_id'],

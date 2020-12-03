@@ -21,7 +21,7 @@ class WidgetSeeder extends Seeder
         DB::table('widgets')->truncate();
         $websites = DB::table('websites')->get();
         $names = ["Slider", "Banner",
-            "Bread Crumbs","Info","Department","Authority", "Gallery","Post","Projects","Events","Testimonials","Publications", "News",];
+            "Bread Crumbs","Info","Department","Authority", "Gallery","Post","Projects","Events", "News",];
        foreach ($websites as $website)
        {
            foreach ($names as $name)
