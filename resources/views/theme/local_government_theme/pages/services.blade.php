@@ -12,7 +12,7 @@
         <!-- SAB BANNER END-->
         @if($widget->get_content($widget->id)[1] > 0)
 
-                @include('theme.local_government_theme.widgets.departments')
+                @include('theme.local_government_theme.widgets.news')
 
         @endif
         <!--CITY NEWS2 WRAP END-->

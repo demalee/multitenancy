@@ -38,8 +38,8 @@ class PageSeeder extends Seeder
         {
             Page::create(
                 [
-                    'title'=>'Services',
-                    'slug'=>'services',
+                    'title'=>'E-Services',
+                    'slug'=>'E-services',
                     'page_description'=>'services page',
                     'content'=>'services page content',
                     'theme_id'=>$theme->id,
@@ -456,9 +456,67 @@ class PageSeeder extends Seeder
                     'content'=>'Details of the county events',
                     'theme_id'=>$theme->id,
                     'parent_page'=>0,
-                    'page_level'=>3
+                    'page_level'=>2
                 ]
             );
         }
+
+        foreach ($themes as $theme)
+        {
+            Page::create(
+                [
+                    'title'=>'Government Structures',
+                    'slug'=>'Government',
+                    'page_description'=>'Government Structures',
+                    'content'=>'Government Structures',
+                    'theme_id'=>$theme->id,
+                    'parent_page'=>0,
+                    'page_level'=>1
+                ]
+            );
+        }
+        foreach ($themes as $theme)
+        {
+            Page::create(
+                [
+                    'title'=>'Resources',
+                    'slug'=>'Resources',
+                    'page_description'=>'Resources ',
+                    'content'=>'Resources',
+                    'theme_id'=>$theme->id,
+                    'parent_page'=>0,
+                    'page_level'=>2
+                ]
+            );
+        }
+        foreach ($themes as $theme)
+        {
+            Page::create(
+                [
+                    'title'=>'Newsroom ',
+                    'slug'=>'Newsroom ',
+                    'page_description'=>'Newsroom  ',
+                    'content'=>'Newsroom ',
+                    'theme_id'=>$theme->id,
+                    'parent_page'=>0,
+                    'page_level'=>2
+                ]
+            );
+        }
+        foreach ($themes as $theme)
+        {
+            Page::create(
+                [
+                    'title'=>'Business  ',
+                    'slug'=>'Business  ',
+                    'page_description'=>'Business   ',
+                    'content'=>'Business  ',
+                    'theme_id'=>$theme->id,
+                    'parent_page'=>0,
+                    'page_level'=>2
+                ]
+            );
+        }
+
     }
 }

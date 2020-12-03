@@ -119,7 +119,7 @@
                                     <li><a href="{{url(@$menu_item->page->slug)}}">{{@$menu_item->page->title}}</a></li>
                                 @endforeach
                             @endif     <li><a href="{{url('home')}}">Home</a></li>
-                            <li><a href="{{url('services')}}">Services</a>
+                            <li><a href="{{url('services')}}">E-Services</a>
 
                             </li>
                                 <li><a href="#">County Sectors</a>
