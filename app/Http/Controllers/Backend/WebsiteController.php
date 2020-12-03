@@ -209,7 +209,12 @@ class WebsiteController extends Controller
                         {
                             continue;
                         }
-//                        $pages = Page::where('slug',$page_id)->first();
+                        $pages_one = Page::where('id',$page_id)->first();
+                        $page_level = 0;
+                        if ($pages_one)
+                        {
+                            $page_level = $pages_one->page_level;
+                        }
                         $menu_item = MenuItem::updateorcreate([
                             'menu_id' => @$menu->id,
                             'page_id' => @$page_id,
@@ -217,7 +222,8 @@ class WebsiteController extends Controller
                         ], [
                             'menu' => @$menu->name,
                             'parent_id' => 0,
-                            'slug' => \Illuminate\Support\Str::slug(@$menu->name)
+                            'slug' => \Illuminate\Support\Str::slug(@$menu->name),
+                            'menu_level' => $page_level
                         ]);
 
                         foreach ($data['widget_item'] as $item) {
