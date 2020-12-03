@@ -39,7 +39,7 @@ class PageSeeder extends Seeder
             Page::create(
                 [
                     'title'=>'E-Services',
-                    'slug'=>'E-services',
+                    'slug'=>'services',
                     'page_description'=>'services page',
                     'content'=>'services page content',
                     'theme_id'=>$theme->id,
@@ -465,13 +465,13 @@ class PageSeeder extends Seeder
         {
             Page::create(
                 [
-                    'title'=>'Government Structures',
+                    'title'=>'Govt Structures',
                     'slug'=>'Government',
                     'page_description'=>'Government Structures',
                     'content'=>'Government Structures',
                     'theme_id'=>$theme->id,
                     'parent_page'=>0,
-                    'page_level'=>1
+                    'page_level'=>2
                 ]
             );
         }
