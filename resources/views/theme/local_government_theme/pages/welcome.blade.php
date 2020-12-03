@@ -26,9 +26,6 @@
     </div>
         @endif
 
-        @if($widget->name == "Bread Crumbs" and $widget->active_status(@$page_id->id,@$widget->id))
-            @include('theme.local_government_theme.widgets.breadcrumbs')
-            @endif
 
         @if($widget->name == "Info" and $widget->active_status(@$page_id->id,@$widget->id))
             <div class="city_about_wrap">

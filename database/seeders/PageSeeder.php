@@ -509,7 +509,7 @@ class PageSeeder extends Seeder
                 [
                     'title'=>'Business  ',
                     'slug'=>'Business  ',
-                    'page_description'=>'Business   ',
+                    'page_description'=>'Business',
                     'content'=>'Business  ',
                     'theme_id'=>$theme->id,
                     'parent_page'=>0,

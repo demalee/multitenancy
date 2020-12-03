@@ -61,10 +61,10 @@ class ThemeSeeder extends Seeder
             'status_active'=>0
             ]
         );
-        foreach ($data as $da)
+        foreach ($data as $datum)
         {
             Theme::create(
-                $da
+                $datum
             );
         }
 
