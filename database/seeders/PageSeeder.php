@@ -445,21 +445,7 @@ class PageSeeder extends Seeder
             );
         }
 
-        foreach ($themes as $theme)
 
-        {
-            Page::create(
-                [
-                    'title'=>'events details',
-                    'slug'=>'events_details',
-                    'page_description'=>'Details of events',
-                    'content'=>'Details of the county events',
-                    'theme_id'=>$theme->id,
-                    'parent_page'=>0,
-                    'page_level'=>2
-                ]
-            );
-        }
 
         foreach ($themes as $theme)
         {
