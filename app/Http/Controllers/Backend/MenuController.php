@@ -39,6 +39,44 @@ class MenuController extends Controller
         return view('/menu',compact('menus'));
     }
 
+    public function subMenus()
+    {
+        $menus = Page::where('theme_id',self::getActiveTheme())->where('page_level',2)->get();
+        return view('dashboard/submenus',compact('menus'));
+    }
+
+    public function subMenu($id)
+    {
+        $page = Page::findorfail($id);
+        $menus = Page::where('theme_id',self::getActiveTheme())->where('page_level',3)->get();
+        return view('dashboard/submenu',compact('id','menus','page'));
+    }
+
+    public function editSubmenu(Request $request,$id)
+    {
+        $page = Page::findorfail($id);
+        $menu = Menu::where('name','Main Menu')->where('theme_id', $page->theme_id)->first();
+        $data = $request->all();
+//        dd($data);
+        if (isset($data['page_id'])) {
+
+            $count = 0;
+            foreach ($data['page_id'] as $page_id) {
+                $menu_item = MenuItem::updateorcreate([
+                    'menu_id' => $menu->id,
+                    'page_id' => $page_id,
+                    'theme_id' => $this->getActiveTheme()
+                ], [
+                    'menu' => $menu->name,
+                    'parent_id' => 0,
+                    'slug' => \Illuminate\Support\Str::slug($menu->name),
+                    'parent_page_id' => $page->id,
+                    'menu_level' => 3
+                ]);
+            }
+        }
+            return back()->with('success', 'Successfully added menu item to the item');
+    }
     /**
      * Show the form for creating a new resource.
      *

@@ -113,10 +113,10 @@
                     <!--SECTION HEADING START-->
                     <div class="heding_full">
                         <div class="section_heading">
-                            <span contenteditable="true">Welcome to Local City</span>
-                            <h2 contenteditable="true">City Spotlights</h2>
+                            <span contenteditable="true">Government</span>
+                            <h2 contenteditable="true">Posts</h2>
                         </div>
-                        <p contenteditable="true">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean sollicitudin, lorem quis bibendum auctor Proin gravida nibh vel velit auctor aliquet Aenean sollicitudin, lorem quis bibendum auctor</p>
+{{--                        <p contenteditable="true">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean sollicitudin, lorem quis bibendum auctor Proin gravida nibh vel velit auctor aliquet Aenean sollicitudin, lorem quis bibendum auctor</p>--}}
                     </div>
                     <!--SECTION HEADING END-->
                     <div class="row">
@@ -160,10 +160,10 @@
                         <!--SECTION HEADING START-->
                         <div class="heding_full">
                             <div class="section_heading">
-                                <span contenteditable="true">Upcoming</span>
+                                <span contenteditable="true">Government</span>
                                 <h2 contenteditable="true">Feature Events & Meeting</h2>
                             </div>
-                            <p contenteditable="true">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean sollicitudin, lorem quis bibendum auctor Proin gravida nibh vel velit auctor aliquet Aenean sollicitudin, lorem quis bibendum auctor</p>
+{{--                            <p contenteditable="true">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean sollicitudin, lorem quis bibendum auctor Proin gravida nibh vel velit auctor aliquet Aenean sollicitudin, lorem quis bibendum auctor</p>--}}
                         </div>
                         <div class="row">
                             @include('theme.local_government_theme.widgets.events')

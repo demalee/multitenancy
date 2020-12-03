@@ -143,6 +143,9 @@ Route::get('{page}',function ($slug)
 
 //menu controller
 Route::resource('dashboard/menus',App\Http\Controllers\Backend\MenuController::class);
+Route::get('dashboard/submenus',[App\Http\Controllers\Backend\MenuController::class, 'subMenus']);
+Route::get('dashboard/submenus/{id}',[App\Http\Controllers\Backend\MenuController::class, 'subMenu']);
+Route::post('dashboard/submenus/{id}',[App\Http\Controllers\Backend\MenuController::class, 'editSubmenu']);
 Route::resource('dashboard/widgets',App\Http\Controllers\Backend\WidgetsController::class);
 Route::get('/dashboard/content/{widget}', [App\Http\Controllers\Backend\WidgetsController::class, 'content'])->name('content');
 Route::post('/dashboard/content/add', [App\Http\Controllers\Backend\WidgetsController::class, 'addWidget'])->name('widgets.add_content');

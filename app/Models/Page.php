@@ -26,4 +26,17 @@ class Page extends Model
         $theme_id = Config::get('THEME_ID');
         return Page::where('slug',$slug)->where('theme_id',$theme_id)->first();
     }
+
+    public static function submenu_active($parent, $child)
+    {
+        $menu_item = MenuItem::where('parent_page_id',$parent)->where('page_id',$child)->first();
+        if ($menu_item)
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+    }
 }

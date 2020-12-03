@@ -38,6 +38,7 @@
                         <ul class="nav-submenu menu-content" style="display: none">
                             <li><a href="{{url('/themes')}}" class="">Themes</a></li>
                             <li><a href="{{url('dashboard/menus')}}" class="">Menus</a></li>
+                            <li><a href="{{url('dashboard/submenus')}}" class="">Submenu</a></li>
 {{--                            <li><a href="#" class="">Widgets</a></li>--}}
 {{--                            <li><a href="#" class="">Themes Options</a></li>--}}
 {{--                            <li><a href="{{url('custom-css')}}" class="">Custom-css</a></li>--}}
