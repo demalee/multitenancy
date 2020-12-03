@@ -99,7 +99,7 @@ Route::post('dashboard/website/setting',[\App\Http\Controllers\Backend\WebsiteCo
 Route::post('dashboard/website/setting/update/{id}',[\App\Http\Controllers\Backend\WebsiteController::class,'websiteSettingsUpdate'])->name('dashboard.setting');
 
 Route::get('home',[App\Http\Controllers\PageController::class, 'index'])->name('home');
-Route::get('about',[App\Http\Controllers\PageController::class, 'about']);
+Route::get('about',[App\Http\Controllers\PageController::class, 'about'])->name('about');
 Route::get('services',[App\Http\Controllers\PageController::class, 'services']);
 Route::get('contact',[App\Http\Controllers\PageController::class, 'contact']);
 Route::get('events',[App\Http\Controllers\PageController::class, 'event']);

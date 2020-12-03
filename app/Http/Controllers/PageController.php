@@ -14,6 +14,7 @@ use Illuminate\Support\Facades\URL;
 class PageController extends Controller
 {
 
+    private $url_name;
     public function __construct()
     {
         return $this->middleware('auth');
@@ -44,9 +45,10 @@ class PageController extends Controller
 
     public function about()
     {
-        $route = Config::get('THEME_PAGES').'about';
-        $url_name = Route::current()->getName();
-        $page_name = Route::current()->getName();
+        $page = 'about';
+        $route = Config::get('THEME_PAGES').$page;
+        $url_name = $page;
+        $page_name = $page;
         $page_id = Page::where('slug',$url_name)->first();
         $web = Website::where('admin_id',auth()->id())->first();
         $widgets = Widget::where('website_id',$web->id)->get();
@@ -55,10 +57,12 @@ class PageController extends Controller
 
     public function services()
     {
-        $route = Config::get('THEME_PAGES').'services';
-        $url_name = Route::current()->getName();
-        $page_name = Route::current()->getName();
-        $page_id = Page::where('slug',$url_name)->first();
+        $page ='services';
+        $route = Config::get('THEME_PAGES').$page;
+        $url_name = $page;
+        $page_name = $page;
+        $page_id = Page::where('slug',$url_name)->where('theme_id',$this->getActiveTheme())->first();
+
         $web = Website::where('admin_id',auth()->id())->first();
         $widgets = Widget::where('website_id',$web->id)->get();
         return view($route,compact('widgets','page_id','page_name'));
@@ -66,9 +70,10 @@ class PageController extends Controller
 
     public function contact()
     {
-    $route = Config::get('THEME_PAGES').'contact';
-        $url_name = Route::current()->getName();
-        $page_name = Route::current()->getName();
+        $page ='contact';
+        $route = Config::get('THEME_PAGES').$page;
+        $url_name = $page;
+        $page_name = $page;
         $page_id = Page::where('slug',$url_name)->first();
         $web = Website::where('admin_id',auth()->id())->first();
         $widgets = Widget::where('website_id',$web->id)->get();
@@ -77,9 +82,10 @@ class PageController extends Controller
 
     public function blog()
     {
-        $route = Config::get('THEME_PAGES').'blog';
-        $url_name = Route::current()->getName();
-        $page_name = Route::current()->getName();
+        $page ='blog';
+        $route = Config::get('THEME_PAGES').$page;
+        $url_name = $page;
+        $page_name = $page;
         $page_id = Page::where('slug',$url_name)->first();
         $web = Website::where('admin_id',auth()->id())->first();
         $widgets = Widget::where('website_id',$web->id)->get();
@@ -87,9 +93,10 @@ class PageController extends Controller
 
     public function gallery()
     {
-        $route = Config::get('THEME_PAGES').'gallery';
-        $url_name = Route::current()->getName();
-        $page_name = Route::current()->getName();
+        $page ='gallery';
+        $route = Config::get('THEME_PAGES').$page;
+        $url_name = $page;
+        $page_name = $page;
         $page_id = Page::where('slug',$url_name)->first();
         $web = Website::where('admin_id',auth()->id())->first();
         $widgets = Widget::where('website_id',$web->id)->get();
@@ -98,9 +105,10 @@ class PageController extends Controller
 
     public function volunteer()
     {
-        $route = Config::get('THEME_PAGES').'volunteer';
-        $url_name = Route::current()->getName();
-        $page_name = Route::current()->getName();
+        $page ='volunteer';
+        $route = Config::get('THEME_PAGES').$page;
+        $url_name = $page;
+        $page_name = $page;
         $page_id = Page::where('slug',$url_name)->first();
         $web = Website::where('admin_id',auth()->id())->first();
         $widgets = Widget::where('website_id',$web->id)->get();
@@ -108,10 +116,10 @@ class PageController extends Controller
     }
     public function shop()
     {
-        $route = Config::get('THEME_PAGES').'shop';
-        $route = Config::get('THEME_PAGES').'product_detail';
-        $url_name = Route::current()->getName();
-        $page_name = Route::current()->getName();
+        $page ='shop';
+        $route = Config::get('THEME_PAGES').$page;
+        $url_name = $page;
+        $page_name = $page;
         $page_id = Page::where('slug',$url_name)->first();
         $web = Website::where('admin_id',auth()->id())->first();
         $widgets = Widget::where('website_id',$web->id)->get();
@@ -120,9 +128,10 @@ class PageController extends Controller
     }
     public function product_detail()
     {
-        $route = Config::get('THEME_PAGES').'product_detail';
-        $url_name = Route::current()->getName();
-        $page_name = Route::current()->getName();
+        $page ='product_details';
+        $route = Config::get('THEME_PAGES').$page;
+        $url_name = $page;
+        $page_name = $page;
         $page_id = Page::where('slug',$url_name)->first();
         $web = Website::where('admin_id',auth()->id())->first();
         $widgets = Widget::where('website_id',$web->id)->get();
@@ -131,9 +140,10 @@ class PageController extends Controller
 
     public function donate()
     {
-        $route = Config::get('THEME_PAGES').'donate';
-        $url_name = Route::current()->getName();
-        $page_name = Route::current()->getName();
+        $page ='donate';
+        $route = Config::get('THEME_PAGES').$page;
+        $url_name = $page;
+        $page_name = $page;
         $page_id = Page::where('slug',$url_name)->first();
         $web = Website::where('admin_id',auth()->id())->first();
         $widgets = Widget::where('website_id',$web->id)->get();
@@ -141,9 +151,10 @@ class PageController extends Controller
     }
     public function cause()
     {
-        $route = Config::get('THEME_PAGES').'cause';
-        $url_name = Route::current()->getName();
-        $page_name = Route::current()->getName();
+        $page ='cause';
+        $route = Config::get('THEME_PAGES').$page;
+        $url_name = $page;
+        $page_name = $page;
         $page_id = Page::where('slug',$url_name)->first();
         $web = Website::where('admin_id',auth()->id())->first();
         $widgets = Widget::where('website_id',$web->id)->get();
