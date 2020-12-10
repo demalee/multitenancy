@@ -13,14 +13,16 @@
 
 
                 </div>
-                <form class="form theme-form" method="#" action="#" enctype="multipart/form-data">
-                    {{--                    @csrf--}}
+                <form class="form theme-form" method="post" action="{{route('widgets.add_social_links')}}"
+                      enctype="multipart/form-data">
+                     @csrf
                     <div class="card-body">
                         <div class="row icon-lists feather-icons">
                             <div class="col-12 col-sm-6 col-xl-4">
                                 <label>  <i class="fa fa-facebook"></i><h6 class="mt-0"></h6></label>
                                 <div class="form-group">
-                                    <input class="form-control" type="text" placeholder="Facebook" name="Facebook">
+                                    <input class="form-control" type="text" placeholder="Facebook" name="facebook"
+                                           value="{{@$social_link->facebook}}">
                                 </div>
 
                                     </div>
@@ -30,27 +32,20 @@
 
                                 <label><i class="fa fa-youtube"></i><h6 class="mt-0"></h6></label>
                                 <div class="form-group">
-                                    <input class="form-control" type="text" placeholder="Youtube" name="youtube">
+                                    <input class="form-control" type="text" placeholder="Youtube" name="youtube"
+                                           value="{{@$social_link->youtube}}">
                                 </div>
 
 
                             </div>
-                            <div class="col-12 col-sm-6 col-xl-4">
-                                            <label><i class="fa fa-google"></i>
-                                                <h6 class="mt-0"></h6></label>
-                                            <div class="form-group">
-                                                <input class="form-control" type="text" placeholder="google" name="google">
-                                            </div>
 
-
-
-                            </div>
                             <div class="col-12 col-sm-6 col-xl-4">
 
 
 <label><i class="fa fa-twitter"></i> <h6 class="mt-0"></h6></label>
                                 <div class="form-group">
-                                            <input type="text"  class="form-control" name="twitter" placeholder="twitter" value="">
+                                            <input type="text"  class="form-control" name="twitter" placeholder="twitter"
+                                                   value="{{@$social_link->twitter}}">
                                         </div>
 
                             </div>
@@ -59,72 +54,39 @@
                                         <label> <i class="fa fa-instagram"></i><h6 class="mt-0"></h6></label>
 
                                         <div class="form-group">
-                                            <input type="text"  class="form-control" name="pinterest" placeholder="Instagram" value="">
+                                            <input type="text"  class="form-control" name="instagram" placeholder="Instagram"
+                                                   value="{{@$social_link->instagram}}">
                                         </div>
 
 
                                 </div>
 
-
-                            <div class="col-12 col-sm-6 col-xl-4">
-
-<label>  <i class="fa fa-pinterest"></i><h6 class="mt-0"></h6></label>
-                                <div class="form-group">
-                                    <input type="text"  class="form-control" name="pinterest" placeholder="pinterest" value="">
-                                </div>
-                                        </div>
 
 
                             <div class="col-12 col-sm-6 col-xl-4">
                                 <label><i class="fa fa-skype"></i><h6 class="mt-0"></h6></label>
 
                                 <div class="form-group">
-                                    <input type="text"  class="form-control" name="Skype" placeholder="Skype" value="">
+                                    <input type="text"  class="form-control" name="skype" placeholder="Skype"
+                                           value="{{@$social_link->skype}}">
                                 </div>
 
 
                                     </div>
 
-
                             <div class="col-12 col-sm-6 col-xl-4">
-
-
-                                <label> <i class="fa fa-flickr"></i></label>
+                                <label><i class="fa fa-linkedin"></i><h6 class="mt-0"></h6></label>
 
                                 <div class="form-group">
-                                    <input type="text"  class="form-control" name="flcikr" placeholder="Flickr" value="">
+                                    <input type="text"  class="form-control" name="linkedin" placeholder="linkedin"
+                                           value="{{@$social_link->linkedin}}">
                                 </div>
 
 
                             </div>
-                            <div class="col-12 col-sm-6 col-xl-4">
-                                <label>   <i class="fa fa-dropbox"></i></label>
-
-                                <div class="form-group">
-                                    <input type="text"  class="form-control" name="dropbox" placeholder="Dropbox" value="">
-                                </div>
-
-                                    </div>
-
-                            <div class="col-12 col-sm-6 col-xl-4">
-                                <label>   <i class="fa fa-dribbble"></i></label>
-
-                                <div class="form-group">
-                                    <input type="text"  class="form-control" name="dribbble" placeholder="dribbble" value="">
-                                </div>
 
 
 
-
-                            </div>
-                            <div class="col-12 col-sm-6 col-xl-4">
-                                <label>   <i class="fa fa-github"></i></label>
-
-                                <div class="form-group">
-                                    <input type="text"  class="form-control" name="github" placeholder="github" value="">
-                                </div>
-
-                            </div>
 
 
                         </div>

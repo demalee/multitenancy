@@ -21,7 +21,7 @@
                 <span>City News</span>
                 <div class="city-news-slider">
                     <div>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry <i class="fa fa-star"></i></p>
+                        <p>Welcome to {{@$website->name}}<i class="fa fa-star"></i></p>
                     </div>
 
 
@@ -29,11 +29,11 @@
             </div>
             <div class="city_top_social">
                 <ul>
-                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                    <li><a href="#"><i class="fa fa-youtube"></i></a></li>
-                    <li><a href="#"><i class="fa fa-google"></i></a></li>
+                    <li><a href="{{@$social_link->facebook}}" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="{{@$social_link->twitter}}" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="{{@$social_link->linkedin}}" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a href="{{@$social_link->youtube}}" target="_blank"><i class="fa fa-youtube"></i></a></li>
+                    <li><a href="{{@$social_link->skype}}" target="_blank"><i class="fa fa-skype"></i></a></li>
                 </ul>
             </div>
 

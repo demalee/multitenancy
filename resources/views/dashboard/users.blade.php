@@ -74,36 +74,32 @@
                 <form>
                     <div class="form-group">
                         <label class="col-form-label" for="recipient-name">User Name</label>
-                        <input class="form-control"  name="Name" type="text" value="Submenu title">
+                        <input class="form-control"  name="Name" type="text" >
                     </div>
                     <div class="form-group">
                         <label class="col-form-label" for="recipient-name">Email</label>
-                        <input class="form-control"  name="email" type="email" value="Submenu title">
+                        <input class="form-control"  name="email" type="email">
                     </div>
+
+                    <div class="form-group">
+                        <label class="col-form-label" for="recipient-name">Password</label>
+                        <input class="form-control"  name="password" type="password" >
+                    </div>
+
                     <div class="form-group">
                         <label class="col-form-label" for="file"> Upload User image</label>
                         <input class="form-control" type="file" name="widget_file">
                     </div>
-                            <div class="form-group m-checkbox-inline mb-0">
-
-                                <div class="media-body align-self-center">
-                                    <input type="checkbox"  name="" value="">
-                                    <h6 class="mt-0">Administrator role</h6>
-                                </div>
-                            </div>
-                    <div class="form-group m-checkbox-inline mb-0">
-
-                        <div class="media-body align-self-center">
-                            <input type="checkbox"  name="" value="">
-                            <h6 class="mt-0">Account Management</h6>
-                        </div>
-                    </div><div class="form-group m-checkbox-inline mb-0">
-
-                        <div class="media-body align-self-center">
-                            <input type="checkbox"  name="" value="">
-                            <h6 class="mt-0">Normal Member</h6>
-                        </div>
+                    <div class="form-group">
+                        <label class="col-form-label" for="file"> Select Role</label>
+                        <select name="role" id="" required="" class="form-control">
+                            <option value="">Select Role</option>
+                            <option value="1">Administrator</option>
+                            <option value="2">Member</option>
+                        </select>
                     </div>
+
+
                 </form>
             </div>
             <div class="modal-footer">

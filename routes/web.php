@@ -75,7 +75,10 @@ Route::get('/dashboard/pages/create', function () {
 
     });
     Route::get('/dashboard/social', function () {
-        return view('/dashboard/social');
+        $website = \App\Models\Website::where('admin_id',auth()->id())->first();
+        $social_link = \App\Models\SocialLink::where('website_id',$website->id)->first();
+//        dd($social_links);
+        return view('/dashboard/social',compact('social_link'));
 
     });
     Route::get('/dashboard/dns', function () {

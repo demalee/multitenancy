@@ -4,6 +4,7 @@ namespace App\Providers;
 
 use App\Models\Menu;
 use App\Models\MenuItem;
+use App\Models\SocialLink;
 use App\Models\Theme;
 use App\Models\Website;
 use App\Models\WebsiteSetting;
@@ -46,6 +47,7 @@ class ViewComposerServiceProvider extends ServiceProvider
             $website_setting = WebsiteSetting::where('website_id',@$website->id)->first();
 //            dd($website_setting);
 //            dd($website_setting);
+            $social_link = SocialLink::where('website_id', @$website->id)->first();
             $main_menu_items_count = 0;
             if ($menu)
             {
@@ -54,7 +56,7 @@ class ViewComposerServiceProvider extends ServiceProvider
                 $main_menu_items_count = MenuItem::where('menu_id',$menu->id)->count();
             }
 
-            $view->with(compact('menu_items','main_menu_items_count','website_setting'));
+            $view->with(compact('menu_items','main_menu_items_count','website_setting','social_link'));
         });
     }
 

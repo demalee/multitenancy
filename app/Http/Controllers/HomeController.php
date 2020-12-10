@@ -10,6 +10,7 @@ use App\Models\Theme;
 use App\Models\Website;
 use App\Models\Widget;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Validator;
 
 class HomeController extends Controller
 {
@@ -32,6 +33,28 @@ class HomeController extends Controller
     {
         return view('home');
     }
+
+
+    public function createUser(Request $request)
+    {
+        $data = $request->all();
+        $validate = Validator::make($data,[
+            'name'=>'required',
+            'email'=>'required|email',
+            'role'=>'required'
+        ]);
+
+        if ($validate->fails())
+        {
+            return back()->with('error','Error occurred, '+$validate->errors());
+        }
+        else
+        {
+
+        }
+    }
+
+
     public function pages()
     {
         $theme = Theme::where('status_active',1)->first();

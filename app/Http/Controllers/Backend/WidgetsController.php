@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Backend;
 use App\Http\Controllers\Controller;
 use App\Models\Page;
 use App\Models\PageWidgets;
+use App\Models\SocialLink;
 use App\Models\Theme;
 use App\Models\ThemeWidget;
 use App\Models\Website;
@@ -59,7 +60,18 @@ class WidgetsController extends Controller
     public function addSocialLinks(Request $request)
     {
         $data = $request->all();
-        if ()
+        $social = SocialLink::updateorcreate([
+            'website_id'=>$this->getWebsite()
+        ],[
+            'facebook'=>$data['facebook'],
+            'instagram'=>$data['instagram'],
+            'skype'=>$data['skype'],
+            'twitter'=>$data['twitter'],
+            'youtube'=>$data['youtube'],
+            'linkedin'=>$data['linkedin'],
+        ]);
+
+        return back()->with('success','Successfully added social links');
     }
 
     /**
