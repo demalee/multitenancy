@@ -7,7 +7,7 @@
 
         @endif
 
-        @if($widget->name == "Banner" and $widget->active_status(@$page_id->id,@$widget->id))
+        @if($widget->name == "Info" and $widget->active_status(@$page_id->id,@$widget->id))
 
                             @include('theme.netaji_theme.widgets.info')
 

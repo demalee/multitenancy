@@ -49,7 +49,7 @@
                                     <li>
                                         @auth
                                             <a data-toggle="modal" href="#exampleModalmdo">
-                                                Add content to Widgets
+                                                Widget
                                             </a>
                                         @endauth
                                     </li>
