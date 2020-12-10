@@ -1,386 +1,49 @@
 @extends('theme.netaji_theme.layouts.apps')
 @section('content')
-		<div class="breadcrumb-area pt-250 pb-250" style="background-image:url(theme/netaji/img/bg/8.jpg)">
-			<div class="container">
-				<div class="row">
-					<div class="col-xl-12">
-						<div class="breadcrumb-text text-center">
-							<h1>About Us</h1>
-							<ul class="breadcrumb-menu">
-								<li><a href="{{url('home')}}" contenteditable="true">home</a></li>
-								<li><span contenteditable="true">About Us</span></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- breadcrumb-area-end -->
+    <!-- header-end -->
+    @foreach($widgets as $widget)
+        @if($widget->name == "Bread Crumbs" and $widget->active_status(@$page_id->id,@$widget->id))
+            @include('theme.netaji_theme.widgets.breadcrumbs')
 
-		<!-- about-me-area-start -->
-		<div class="about-me-area pt-120 pb-120">
-			<div class="container">
-				<div class="row">
-					<div class="col-xl-5 col-lg-5">
-						<div class="about2-me-wrapper mb-30">
-							<div class="about-me-content">
-								<h1 contenteditable="true">The job of a leader is love country & people of the country</h1>
-								<p contenteditable="true">But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great. </p>
-							</div>
-						</div>
-					</div>
-					<div class="col-xl-7 col-lg-7">
-						<div class="about2-me-img">
-							<img src="{{asset('theme/netaji/img/about/1.jpg')}}" alt="">
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- about-me-area-end -->
+        @endif
 
-		<!-- we-do-area-start -->
-		<div class="we-do-area we-do-circle pt-110 pb-200 gray-bg">
-			<div class="container">
-				<div class="row">
-					<div class="col-xl-12">
-						<div class="section-title section2-title text-center mb-60">
-							<span contenteditable="true">What we do</span>
-							<h1 contenteditable="true">The job of a leader is to love his country <br> and people of the country</h1>
-						</div>
-					</div>
-				</div>
-				<div class="row">
-					<div class="we-do-active owl-carousel">
-						<div class="col-xl-12">
-							<div class="we-do-wrapper">
-								<div class="we-do-img">
-									<img src="{{asset('theme/netaji/img/we-do/1.jpg')}}" alt="" />
-								</div>
-								<div class="we-do-text">
-									<h3 contenteditable="true">Ecomic Progress</h3>
-									<p contenteditable="true">But I must explain to you how all this mista en idea of denouncing pleasure.</p>
-									<a href="#">read more <i class="fas fa-long-arrow-alt-right"></i></a>
-								</div>
-							</div>
-						</div>
-						<div class="col-xl-12">
-							<div class="we-do-wrapper">
-								<div class="we-do-img">
-									<img src="{{asset('theme/netaji/img/we-do/2.jpg')}}" alt="" />
-								</div>
-								<div class="we-do-text">
-									<h3 contenteditable="true">Charity For Children</h3>
-									<p contenteditable="true"> But I must explain to you how all this mista en idea of denouncing pleasure.</p>
-									<a href="#">read more <i class="fas fa-long-arrow-alt-right"></i></a>
-								</div>
-							</div>
-						</div>
-						<div class="col-xl-12">
-							<div class="we-do-wrapper">
-								<div class="we-do-img">
-									<img src="{{asset('theme/netaji/img/we-do/2.jpg')}}" alt="" />
-								</div>
-								<div class="we-do-text">
-									<h3 contenteditable="true">Government Policy</h3>
-									<p contenteditable="true">But I must explain to you how all this mista en idea of denouncing pleasure.</p>
-									<a href="#">read more <i class="fas fa-long-arrow-alt-right"></i></a>
-								</div>
-							</div>
-						</div>
-						<div class="col-xl-12">
-							<div class="we-do-wrapper">
-								<div class="we-do-img">
-									<img src="{{asset('theme/netaji/img/we-do/1.jpg')}}" alt="" />
-								</div>
-								<div class="we-do-text">
-									<h3 contenteditable="true">Ecomic Progress</h3>
-									<p contenteditable="true">But I must explain to you how all this mista en idea of denouncing pleasure.</p>
-									<a href="#">read more <i class="fas fa-long-arrow-alt-right"></i></a>
-								</div>
-							</div>
-						</div>
-						<div class="col-xl-12">
-							<div class="we-do-wrapper">
-								<div class="we-do-img">
-									<img src="{{asset('theme/netaji/img/we-do/2.jpg')}}" alt="" />
-								</div>
-								<div class="we-do-text">
-									<h3 contenteditable="true">Charity For Children</h3>
-									<p contenteditable="true">But I must explain to you how all this mista en idea of denouncing pleasure.</p>
-									<a href="#">read more <i class="fas fa-long-arrow-alt-right"></i></a>
-								</div>
-							</div>
-						</div>
-						<div class="col-xl-12">
-							<div class="we-do-wrapper">
-								<div class="we-do-img">
-									<img src="{{asset('theme/netaji/img/we-do/3.jpg')}}" alt="" />
-								</div>
-								<div class="we-do-text">
-									<h3 contenteditable="true">Government Policy</h3>
-									<p contenteditable="true">But I must explain to you how all this mista en idea of denouncing pleasure.</p>
-									<a href="#">read more <i class="fas fa-long-arrow-alt-right"></i></a>
-								</div>
-							</div>
-						</div>
-						<div class="col-xl-12">
-							<div class="we-do-wrapper">
-								<div class="we-do-img">
-									<img src="{{asset('theme/netaji/img/we-do/1.jpg')}}" alt="" />
-								</div>
-								<div class="we-do-text">
-									<h3 contenteditable="true">Ecomic Progress</h3>
-									<p contenteditable="true">But I must explain to you how all this mista en idea of denouncing pleasure.</p>
-									<a href="#">read more <i class="fas fa-long-arrow-alt-right"></i></a>
-								</div>
-							</div>
-						</div>
-						<div class="col-xl-12">
-							<div class="we-do-wrapper">
-								<div class="we-do-img">
-									<img src="{{asset('theme/netaji/img/we-do/2.jpg')}}img/we-do/2.jpg" alt="" />
-								</div>
-								<div class="we-do-text">
-									<h3 contenteditable="true">Charity For Children</h3>
-									<p contenteditable="true">But I must explain to you how all this mista en idea of denouncing pleasure.</p>
-									<a href="#">read more <i class="fas fa-long-arrow-alt-right"></i></a>
-								</div>
-							</div>
-						</div>
-						<div class="col-xl-12">
-							<div class="we-do-wrapper">
-								<div class="we-do-img">
-									<img src="{{asset('theme/netaji/img/we-do/3.jpg')}}" alt="" />
-								</div>
-								<div class="we-do-text">
-									<h3 contenteditable="true">Government Policy</h3>
-									<p contenteditable="true">But I must explain to you how all this mista en idea of denouncing pleasure.</p>
-									<a href="#">read more <i class="fas fa-long-arrow-alt-right"></i></a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- we-do-area-end -->
+        @if($widget->name == "Banner" and $widget->active_status(@$page_id->id,@$widget->id))
 
-		<!-- team-area-start -->
-		<div class="team-area pt-110 pb-90">
-			<div class="container">
-				<div class="row">
-					<div class="col-xl-12">
-						<div class="section-title section2-title text-center mb-60">
-							<span contenteditable="true">Meet our volunteer</span>
-							<h1 contenteditable="true">We have expert, friendly,hard <br> workers volunteer</h1>
-						</div>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-xl-4 col-lg-4 col-md-6">
-						<div class="team-wrapper mb-30">
-							<div class="team-img">
-								<img src="{{asset('theme/netaji/img/team/3.jpg')}}" alt="">
-								<div class="team-text">
-									<h3 contenteditable="true">Jonathon mark bon</h3>
-									<span contenteditable="true">Web designer</span>
-									<div class="team-icon">
-									   <a href="#"><i class="fab fa-facebook-f"></i></a>
-									   <a href="#"><i class="fab fa-twitter"></i></a>
-									   <a href="#"><i class="fab fa-dribbble"></i></a>
-									   <a href="#"><i class="fab fa-google-plus-g"></i></a>
-									   <a href="#"><i class="fab fa-instagram"></i></a>
-								   </div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-xl-4 col-lg-4 col-md-6">
-						<div class="team-wrapper mb-30">
-							<div class="team-img">
-								<img src="{{asset('theme/netaji/img/team/2.jpg')}}" alt="">
-								<div class="team-text">
-									<h3 contenteditable="true">Mukul Kumer Dev</h3>
-									<span contenteditable="true">Web designer</span>
-									<div class="team-icon">
-									   <a href="#"><i class="fab fa-facebook-f"></i></a>
-									   <a href="#"><i class="fab fa-twitter"></i></a>
-									   <a href="#"><i class="fab fa-dribbble"></i></a>
-									   <a href="#"><i class="fab fa-google-plus-g"></i></a>
-									   <a href="#"><i class="fab fa-instagram"></i></a>
-								   </div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-xl-4 col-lg-4 col-md-6">
-						<div class="team-wrapper mb-30">
-							<div class="team-img">
-								<img src="{{asset('theme/netaji/img/team/3.jpg')}}" alt="">
-								<div class="team-text">
-									<h3 contenteditable="true">Nicholas M. Justus</h3>
-									<span contenteditable="true">Web designer</span>
-									<div class="team-icon">
-									   <a href="#"><i class="fab fa-facebook-f"></i></a>
-									   <a href="#"><i class="fab fa-twitter"></i></a>
-									   <a href="#"><i class="fab fa-dribbble"></i></a>
-									   <a href="#"><i class="fab fa-google-plus-g"></i></a>
-									   <a href="#"><i class="fab fa-instagram"></i></a>
-								   </div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- team-area-end -->
+            @include('theme.netaji_theme.widgets.info')
 
-		<!-- counter-area-start -->
-		<div class="counter-area pt-140 pb-110" style="background-image:url(theme/netaji/img/bg/1.jpg)">
-			<div class="container">
-				<div class="row">
-					<div class="col-xl-3 cl-lg-3 col-md-6">
-						<div class="counter-wrapper text-center mb-30">
-							<div class="counter-text">
-								<h1 class="counter" contenteditable="true">3564</h1>
-								<span contenteditable="true">Our Volunteer</span>
-							</div>
-						</div>
-					</div>
-					<div class="col-xl-3 cl-lg-3 col-md-6">
-						<div class="counter-wrapper text-center mb-30">
-							<div class="counter-text">
-								<h1 class="counter">896</h1>
-								<span>Campaign</span>
-							</div>
-						</div>
-					</div>
-					<div class="col-xl-3 cl-lg-3 col-md-6">
-						<div class="counter-wrapper text-center mb-30">
-							<div class="counter-text">
-								<h1 class="counter" contenteditable="true">5624</h1>
-								<span contenteditable="true">Coverage Area</span>
-							</div>
-						</div>
-					</div>
-					<div class="col-xl-3 cl-lg-3 col-md-6">
-						<div class="counter-wrapper text-center mb-30">
-							<div class="counter-text">
-								<h1 class="counter" contenteditable="true">7896</h1>
-								<span contenteditable="true">Vote Peoples</span>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- counter-area-end -->
+        @endif
 
-		<!-- testimonial-area-start -->
-		<div class="testimonial-area pt-110 pb-120">
-			<div class="container">
-				<div class="container">
-					<div class="row">
-						<div class="col-xl-12">
-							<div class="section-title section2-title text-center mb-65">
-								<span contenteditable="true">Testimonials</span>
-								<h1 contenteditable="true">People love me very much. What <br> people say about me</h1>
-							</div>
-						</div>
-					</div>
-					<div class="row">
-						<div class="testimonial-active owl-carousel">
-							<div class="testimonial-wrapper">
-								<div class="testimonial-text">
-									<p contenteditable="true">But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system and expound the actual teachings.</p>
-									<div class="testimonial-name">
-										<div class="testimonial-img">
-											<img src="{{asset('theme/netaji/img/testimonial/01.png')}}" alt="" />
-										</div>
-										<div class="testimonial-content">
-											<h3 contenteditable="true">Joseph V. Ramirez</h3>
-											<span contenteditable="true">CEO & Founder</span>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="testimonial-wrapper">
-								<div class="testimonial-text">
-									<p contenteditable="true">But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system and expound the actual teachings.</p>
-									<div class="testimonial-name">
-										<div class="testimonial-img">
-											<img src="{{asset('theme/netaji/img/testimonial/01.png')}}" alt="" />
-										</div>
-										<div class="testimonial-content">
-											<h3 contenteditable="true">Joseph V. Ramirez</h3>
-											<span contenteditable="true">CEO & Founder</span>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="testimonial-wrapper">
-								<div class="testimonial-text">
-									<p contenteditable="true">But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system and expound the actual teachings.</p>
-									<div class="testimonial-name">
-										<div class="testimonial-img">
-											<img src="{{asset('theme/netaji/img/testimonial/01.png')}}" alt="" />
-										</div>
-										<div class="testimonial-content">
-											<h3 contenteditable="true">Joseph V. Ramirez</h3>
-											<span contenteditable="true">CEO & Founder</span>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- testimonial-area-end -->
 
-		<!-- brand-area-start -->
-		<div class="brand-area pt-95 pb-95 gray-bg">
-			<div class="container">
-				<div class="row">
-					<div class="brand-active owl-carousel">
-						<div class="col-xl-12">
-							<div class="brans-img text-center">
-								<img src="{{asset('theme/netaji/img/brand/1.png')}}" alt="" />
-							</div>
-						</div>
-						<div class="col-xl-12">
-							<div class="brans-img text-center">
-								<img src="{{asset('theme/netaji/img/brand/2.png')}}" alt="" />
-							</div>
-						</div>
-						<div class="col-xl-12">
-							<div class="brans-img text-center">
-								<img src="{{asset('theme/netaji/img/brand/3.png')}}" alt="" />
-							</div>
-						</div>
-						<div class="col-xl-12">
-							<div class="brans-img text-center">
-								<img src="{{asset('theme/netaji/img/brand/4.png')}}" alt="" />
-							</div>
-						</div>
-						<div class="col-xl-12">
-							<div class="brans-img text-center">
-								<img src="{{asset('theme/netaji/img/brand/5.png')}}" alt="" />
-							</div>
-						</div>
-						<div class="col-xl-12 text-center">
-							<div class="brans-img">
-								<img src="{{asset('theme/netaji/img/brand/6.png')}}" alt="" />
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- brand-area-end -->
+        @if($widget->name == "Department" and $widget->active_status(@$page_id->id,@$widget->id))
 
-		<!-- footer-area-start -->
+            @include('theme.netaji_theme.widgets.departments')
+
+        @endif
+
+        @if($widget->name == "Authority" and $widget->active_status(@$page_id->id,@$widget->id))
+            @include('theme.netaji_theme.widgets.authority')
+
+        @endif
+
+
+        @if($widget->name == "Events" and $widget->active_status(@$page_id->id,@$widget->id))
+            @include('theme.netaji_theme.widgets.events')
+        @endif
+        @if($widget->name == "Post" and $widget->active_status(@$page_id->id,@$widget->id))
+            @include('theme.netaji_theme.widgets.post')
+        @endif
+
+        @if($widget->name == "News" and $widget->active_status(@$page_id->id,@$widget->id))
+            @include('theme.netaji_theme.widgets.news')
+        @endif
+        @if($widget->name == "Gallery" and $widget->active_status(@$page_id->id,@$widget->id))
+            @include('theme.netaji_theme.widgets.gallery')
+        @endif
+    @endforeach
+
+
+
+    <!-- subscribe-area-end -->
+
+    <!-- footer-area-start -->
 @endsection

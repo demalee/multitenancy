@@ -126,7 +126,7 @@
             </div>
         @endif
 
-        @if($widget->name == "Projects" and $widget->active_status(@$page_id->id,@$widget->id))
+        @if($widget->name == "program" and $widget->active_status(@$page_id->id,@$widget->id))
         <div class="city_project_wrap">
             <div class="container-fluid">
                 <!--SECTION HEADING START-->

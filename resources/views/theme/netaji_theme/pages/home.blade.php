@@ -1,23 +1,49 @@
 @extends('theme.netaji_theme.layouts.apps')
-
 @section('content')
-<div class="container">
-    <div class="row justify-content-center">
-        <div class="col-md-8">
-            <div class="card">
-                <div class="card-header">{{ __('Dashboard') }}</div>
+    <!-- header-end -->
+    @foreach($widgets as $widget)
+        @if($widget->name == "Bread Crumbs" and $widget->active_status(@$page_id->id,@$widget->id))
+            @include('theme.netaji_theme.widgets.breadcrumbs')
 
-                <div class="card-body">
-                    @if (session('status'))
-                        <div class="alert alert-success" role="alert">
-                            {{ session('status') }}
-                        </div>
-                    @endif
+        @endif
 
-                    {{ __('You are logged in!') }}
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+        @if($widget->name == "Banner" and $widget->active_status(@$page_id->id,@$widget->id))
+
+            @include('theme.netaji_theme.widgets.info')
+
+        @endif
+
+
+        @if($widget->name == "Department" and $widget->active_status(@$page_id->id,@$widget->id))
+
+            @include('theme.netaji_theme.widgets.departments')
+
+        @endif
+
+        @if($widget->name == "Authority" and $widget->active_status(@$page_id->id,@$widget->id))
+            @include('theme.netaji_theme.widgets.authority')
+
+        @endif
+
+
+        @if($widget->name == "Events" and $widget->active_status(@$page_id->id,@$widget->id))
+            @include('theme.netaji_theme.widgets.events')
+        @endif
+        @if($widget->name == "Post" and $widget->active_status(@$page_id->id,@$widget->id))
+            @include('theme.netaji_theme.widgets.post')
+        @endif
+
+        @if($widget->name == "News" and $widget->active_status(@$page_id->id,@$widget->id))
+            @include('theme.netaji_theme.widgets.news')
+        @endif
+        @if($widget->name == "Gallery" and $widget->active_status(@$page_id->id,@$widget->id))
+            @include('theme.netaji_theme.widgets.gallery')
+        @endif
+    @endforeach
+
+
+
+    <!-- subscribe-area-end -->
+
+    <!-- footer-area-start -->
 @endsection

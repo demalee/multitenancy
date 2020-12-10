@@ -5,7 +5,7 @@
 
 
         @foreach($themes as $theme)
-        <div class="col-sm-12 col-lg-3 col-xl-3 xl-50 col-md-12 box-col-3">
+        <div class="col-sm-12 col-lg-6 col-xl-6 xl-50 col-md-12 box-col-6">
             <div class="card height-equal">
                 <div class="calender-widget">
                     <img src="{{asset('images/'.$theme->theme_image)}}" style="width: 100%;height:200px" />
@@ -25,16 +25,23 @@
                                     <button class="btn btn-pill btn-primary btn-air-secondary btn-group-sm" name="submit" value="activate">Activate</button>
                                 </form>
 
-{{--                                <button class="btn btn-pill btn-danger btn-air-success btn-group-sm" type="button">Preview</button>--}}
+{{--
+            <button class="btn btn-pill btn-danger btn-air-success btn-group-sm" type="button">Preview</button>--}}
+                     <div class="row">
+                         <div class="col-md-3">
+
+                         </div>
+                     </div>
                             @elseif($theme->status_active == 1)
                                 <form action="{{url('dashboard/theme/change/'.$theme->id)}}" method="post">
                                     @csrf
-                                    <button class="btn btn-pill btn-primary btn-air-secondary btn-group-sm "  name="submit" value="deactivate">Deactivate</button>
-                                </form>
+                                   <span class="pull-right"> <button class="btn btn-pill btn-primary btn-air-secondary btn-group-sm "  name="submit" value="deactivate">Deactivate</button>
+                              </span>  </form>
 
-                            <a class="btn btn-pill btn-danger btn-air-success btn-group-sm" href="{{url('home')}}">Preview</a>
+                                <span class="pull-left"> <a class="btn btn-pill btn-danger btn-air-success btn-group-sm" href="{{url('home')}}">Preview</a>
+                                </span> @endif
                             @endif
-                            @endif
+                        <hr>
                     </div>
                 </div>
             </div>
