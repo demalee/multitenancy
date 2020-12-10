@@ -97,16 +97,19 @@
 {{--                            </li>--}}
 
 {{--                                            <li><a href="{{url('event')}}">E-services</a></li>--}}
+                                   @auth
+                                       @if(@auth()->user()->role_id == 1)
                                     <li>
                                         <a  href="{{ url('main') }}">Dashboard</a>
                                     </li>
                                 <li>
-                                    @auth
                                         <a data-toggle="modal" href="#exampleModalmdo">
-                                            Add content to Widgets
+                                           Widget
                                         </a>
+                                </li>
+                                           @endif
                                     @endauth
-                                    </li>
+
                                 </ul>
 
                     </div>

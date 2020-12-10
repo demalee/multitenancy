@@ -43,16 +43,19 @@
                                         @endif
                                     @endforeach
                                 @endif
+
+                                    @auth
+                                        @if(@auth()->user()->role_id == 1)
                                 <li>
                                     <a  href="{{ url('main') }}">Dashboard</a>
                                 </li>
                                     <li>
-                                        @auth
                                             <a data-toggle="modal" href="#exampleModalmdo">
                                                 Widget
                                             </a>
-                                        @endauth
                                     </li>
+                                        @endif
+                                    @endauth
                             </ul>
                         </nav>
                     </div>
