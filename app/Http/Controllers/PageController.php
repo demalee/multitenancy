@@ -38,7 +38,7 @@ class PageController extends Controller
     {
         $user = auth()->id();
         $website = WebsiteUser::where('user_id',$user)->first();
-        return $website->website_id;
+        return @$website->website_id;
     }
 
     public function index()

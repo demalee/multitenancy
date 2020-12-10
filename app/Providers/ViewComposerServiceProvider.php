@@ -65,7 +65,7 @@ class ViewComposerServiceProvider extends ServiceProvider
     {
         $user = auth()->id();
         $website = WebsiteUser::where('user_id',$user)->first();
-        return $website->website_id;
+        return @$website->website_id;
     }
 
 
