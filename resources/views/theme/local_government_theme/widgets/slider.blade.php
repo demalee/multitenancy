@@ -10,6 +10,8 @@
     @foreach($widget->get_content($widget->id)[0] as $content)
 
     <div>
+
+
         <figure class="overlay">
             <img src="{{asset('images/'.$content->content_image)}}" alt="" style="height: 700px">
             <div class="banner_text">
