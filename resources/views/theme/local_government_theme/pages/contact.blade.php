@@ -1,201 +1,139 @@
 @extends('theme.local_government_theme.layouts.apps')
 
 @section('content')
+    <div class="sab_banner overlay">
+        <div class="container">
+            <div class="sab_banner_text">
+                <h2>Contact Us</h2>
+                <ul class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="#">Home</a></li>
+                    <li class="breadcrumb-item active">Contact Us</li>
+                </ul>
+            </div>
+        </div>
+    </div>
     <!--CITY MAIN BANNER START-->
-    @foreach($widgets as $widget)
+
+    <!-- CITY EVENT2 WRAP END-->
+
+    <!--CITY REQUEST WRAP START-->
+    <div class="city_blog2_wrap team">
+        <div class="container">
+            <div class="row">
+            <div class="col-md-4">
+                <div class="city_requset_wrap requst02">
 
 
-        @if($widget->name == "Bread Crumbs" and  $widget->active_status(@$page_id->id,@$widget->id))
-            {{--            @php dd($page_id->id,@$widget->id,  @endphp--}}
-            @include('theme.local_government_theme.widgets.breadcrumbs')
-        @endif
 
-        @if($widget->name == "Info" and $widget->active_status(@$page_id->id,@$widget->id))
-            <div class="city_about_wrap">
-                <div class="container">
-                    @include('theme.local_government_theme.widgets.info')
-                </div>
-            </div>
-        @endif
+                                <div class="city_blog2_fig fig2 responsive">
+                                    <figure class="box">
+                                        <div class="box-layer layer-1"></div>
+                                        <div class="box-layer layer-2"></div>
+                                        <div class="box-layer layer-3"></div>
+                                        <img src="extra-images/blog-list.jpg" alt="">
+                                        <span class="city_blog2_met">Meeting</span>
+                                    </figure>
+                                    <div class="city_blog2_list">
+                                        <div class="city_blog2_text">
+                                            <h4><a href="#">General Inquiries
 
-        @if($widget->name == "Department" and $widget->active_status(@$page_id->id,@$widget->id))
-            <div class="city_department_wrap overlay">
-                <div class="bg_white">
-                    <div class="container-fluid">
-                        <!--SECTION HEADING START-->
-                        <div class="section_heading margin-bottom">
-                            <span contenteditable="true">Explore</span>
-                            <h2 contenteditable="true">Govt Departments</h2>
-                        </div>
-                        <!--SECTION HEADING END-->
+                                                  </a></h4>
+                                            <p>  For any inquiry about Nairobi City County, please click the button below and fill in form</p>
+                                        </div>
 
-                        @include('theme.local_government_theme.widgets.departments')
-                    </div>
-                </div>
-            </div>
-        @endif
-
-        @if($widget->name == "Authority" and $widget->active_status(@$page_id->id,@$widget->id))
-            <div class="city_office_wrap">
-                <div class="bg_white bg_none">
-                    <div class="container-fluid">
-                        <div class="city_office_row">
-                            <div class="city_triagle">
-                                <span></span>
-                            </div>
-                            <div class="center_text">
-                                <div class="city_office_list">
-                                    <div class="city_office_text">
-                                        <h6 contenteditable="true">City</h6>
-                                        <h3 contenteditable="true">Governor’s Office</h3>
-                                        <a href="#">See More<i class="fa fa-angle-double-right"></i></a>
-                                    </div>
-                                    <div class="city_office_logo">
-                                        <a href="#"><img src="{{asset('theme/local/images/office-logo.png')}}" alt=""></a>
-                                    </div>
-                                    <div class="city_office_text pull_right">
-                                        <h6 contenteditable="true">City</h6>
-                                        <h3 contenteditable="true">Senate Office</h3>
-                                        <a href="#">See More<i class="fa fa-angle-double-right"></i></a>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="city_triagle text-right">
-                                <span></span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        @endif
 
-        @if($widget->name == "Gallery" and $widget->active_status(@$page_id->id,@$widget->id))
-            {{--            <div class="city_blog_wrap">--}}
-            {{--                <div class="container">--}}
-            {{--                    <!--SECTION HEADING START-->--}}
-            {{--                    <div class="heding_full">--}}
-            {{--                        <div class="section_heading">--}}
-            {{--                            <span contenteditable="true">Welcome to Local City</span>--}}
-            {{--                            <h2 contenteditable="true">City Spotlights</h2>--}}
-            {{--                        </div>--}}
-            {{--                        <p contenteditable="true">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean sollicitudin, lorem quis bibendum auctor Proin gravida nibh vel velit auctor aliquet Aenean sollicitudin, lorem quis bibendum auctor</p>--}}
-            {{--                    </div>--}}
-            {{--                    <!--SECTION HEADING END-->--}}
-            {{--                    <div class="row">--}}
-            {{--                        @include('theme.local_government_theme.widgets.gallery')--}}
-            {{--                    </div>--}}
-            {{--                </div>--}}
-            {{--            </div>--}}
-        @endif
+                                <div class="city_blog2_fig fig2 responsive">
+
+                                    <div class="city_blog2_list">
+                                        <div class="city_blog2_text">
+                                            <h4><a href="#">Quick Links
+                                                </a></h4>
+                                            <ul>
+                                                <li>
+                                                  <i class="fa fa-arrow-right"></i>  <a href="">E-Payment</a>
+                                                </li>
+                                                <li>
+                                                    <i class="fa fa-arrow-right"></i>  <a href="">County Sectors</a>
+                                                </li> <li>
+                                                    <i class="fa fa-arrow-right"></i>  <a href="">County Laws</a>
+                                                </li> <li>
+                                                    <i class="fa fa-arrow-right"></i>  <a href="">News and Speeches</a>
+                                                </li> <li>
+                                                    <i class="fa fa-arrow-right"></i>  <a href="">Tenders</a>
+                                                </li> <li>
+                                                    <i class="fa fa-arrow-right"></i>  <a href="">Downloads</a>
+                                                </li> <li>
+                                                    <i class="fa fa-arrow-right"></i>  <a href="">Emergency Services</a>
+                                                </li> <li>
+                                                    <i class="fa fa-arrow-right"></i>  <a href="">Jobs and Careers</a>
+                                                </li> <li>
+                                                    <i class="fa fa-arrow-right"></i>  <a href="">E-Payment</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                          </div></div>
+
+            <div class="col-md-8">
+            <div class="city_contact_row">
+                <div class="city_contact_list">
 
 
-        @if($widget->name == "Post" and $widget->active_status(@$page_id->id,@$widget->id))
-            <div class="city_blog_wrap">
-                <div class="container">
-                    <!--SECTION HEADING START-->
-                    <div class="heding_full">
-                        <div class="section_heading">
-                            <span contenteditable="true">Government</span>
-                            <h2 contenteditable="true">Posts</h2>
-                        </div>
-                        <p contenteditable="true"></p>
-                    </div>
-                    <!--SECTION HEADING END-->
-                    <div class="row">
-                        @include('theme.local_government_theme.widgets.post')
-                    </div>
-                </div>
-            </div>
-        @endif
 
-        @if($widget->name == "Projects" and $widget->active_status(@$page_id->id,@$widget->id))
-            <div class="city_project_wrap">
-                <div class="container-fluid">
-                    <!--SECTION HEADING START-->
+
+
+                <div class="city_event_detail contact">
                     <div class="section_heading center">
-                        <span contenteditable="true">Government</span>
-                        <h2 contenteditable="true">Programs & Projects</h2>
+                        <span>Goverment</span>
+                        <h2>Contact With Us</h2>
                     </div>
-                    <div class="city-project-slider">
-                        @include('theme.local_government_theme.widgets.program')
-                    </div>
-                </div>
-            </div>
-        @endif
-
-        @if($widget->name == "Events" and $widget->active_status(@$page_id->id,@$widget->id))
-            <div class="city_event_wrap">
-                <div class="bg_white width">
-                    <div class="container-fluid">
-                        <!--SECTION HEADING START-->
-                        <div class="heding_full">
-                            <div class="section_heading">
-                                <span contenteditable="true">Government</span>
-                                <h2 contenteditable="true">Feature Events & Meeting</h2>
+                    <div class="event_booking_form">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="event_booking_field">
+                                    <input type="text" placeholder="Name">
+                                </div>
                             </div>
-                            {{--                            <p contenteditable="true">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean sollicitudin, lorem quis bibendum auctor Proin gravida nibh vel velit auctor aliquet Aenean sollicitudin, lorem quis bibendum auctor</p>--}}
-                        </div>
-                        <div class="row">
-                            @include('theme.local_government_theme.widgets.events')
+                            <div class="col-md-6">
+                                <div class="event_booking_field">
+                                    <input type="text" placeholder="Email">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="event_booking_field">
+                                    <select class="small">
+                                        <option data-display="Please select the service you require ">Please select the service you require </option>
+                                        <option value="1">All Event 1</option>
+                                        <option value="2">All Event 2</option>
+                                        <option value="4">All Event 3</option>
+                                        <option value="4">All Event 4</option>
+                                        <option value="4">All Event 5</option>
+                                        <option value="4">All Event 6</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="event_booking_field">
+                                    <input type="text" placeholder="Subject">
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="event_booking_area">
+                                    <textarea>Enter Your Message Here</textarea>
+                                </div>
+                                <a class="theam_btn btn2" href="#">Submit</a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        @endif
-
-        {{--        @if($widget->name == "Testimonials" and $widget->active_status(@$page_id->id,@$widget->id))--}}
-        {{--            <div class="city_client_wrap">--}}
-        {{--                @include('theme.local_government_theme.widgets.testimonials')--}}
-        {{--            </div>--}}
-        {{--        @endif--}}
-
-
-        @if($widget->name == "News" and $widget->active_status(@$page_id->id,@$widget->id))
-            <div class="city_news_wrap">
-                <div class="container">
-                    <div class="row">
-                        <!--SECTION HEADING START-->
-                        <div class="section_heading margin-bottom">
-                            <span contenteditable="true">Government</span>
-                            <h2 contenteditable="true">News Releases</h2>
-                        </div>
-                        <!--SECTION HEADING START-->
-                        <div class="row">
-                            @include('theme.local_government_theme.widgets.news')
-                        </div>
-                        {{--                        <div class="col-md-4">--}}
-                        {{--                            <div class="city_news_form">--}}
-                        {{--                                <div class="city_news_feild">--}}
-                        {{--                                    <span contenteditable="true">Signup</span>--}}
-                        {{--                                    <h4 contenteditable="true">Newsletter</h4>--}}
-                        {{--                                    <p contenteditable="true">This is Photoshop's version  of Lorem Ipsum. Proin gravida </p>--}}
-                        {{--                                    <div class="city_news_search">--}}
-                        {{--                                        <input type="text" name="text" placeholder="Enter Your Email Adress Here" required>--}}
-                        {{--                                        <button class="theam_btn border-color color">Subcribe Now</button>--}}
-                        {{--                                    </div>--}}
-                        {{--                                </div>--}}
-                        {{--                                <div class="city_news_feild feild2">--}}
-                        {{--                                    <span contenteditable="true">Recent</span>--}}
-                        {{--                                    <h4 contenteditable="true">Documents</h4>--}}
-                        {{--                                    <p contenteditable="true">This is Photoshop's version  of Lorem Ipsum. Proin gravida </p>--}}
-                        {{--                                    <div class="city_document_list">--}}
-                        {{--                                        <ul>--}}
-                        {{--                                            <li contenteditable="true"><a href="#"><i class="fa icon-document"></i>Council Agenda April 24, 2015 (27 kB)</a></li>--}}
-                        {{--                                            <li contenteditable="true"><a href="#"><i class="fa icon-document"></i>Council Agenda April 24, 2015 (27 kB)</a></li>--}}
-                        {{--                                            <li contenteditable="true"><a href="#"><i class="fa icon-document"></i>Council Agenda April 24, 2015 (27 kB)</a></li>--}}
-                        {{--                                            <li contenteditable="true"><a href="#"><i class="fa icon-document"></i>Council Agenda April 24, 2015 (27 kB)</a></li>--}}
-                        {{--                                            <li contenteditable="true"><a href="#"><i class="fa icon-document"></i>Council Agenda April 24, 2015 (27 kB)</a></li>--}}
-                        {{--                                        </ul>--}}
-                        {{--                                    </div>--}}
-                        {{--                                </div>--}}
-                        {{--                            </div>--}}
-                        {{--                        </div>--}}
-                    </div>
-                </div>
-            </div>
-        @endif
-
-
-    @endforeach
-
+        </div>
+    </div>
+    </div>
+        </div></div>
 @endsection

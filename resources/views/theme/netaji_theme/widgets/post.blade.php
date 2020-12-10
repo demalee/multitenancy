@@ -1,107 +1,224 @@
 @if($widget->get_content($widget->id)[1] > 0)
 
-        <div class="event-area gray-bg pt-110 pb-120">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xl-12">
-                        <div class="section-title text-center mb-60">
-                            <h1 contenteditable="true">County Posts</h1>
-                        </div>
-                    </div>
-                </div>
-                <div class="event-bg">
-                    <div class="event-box-active">
+
+    <div class="donation-forms-area pt-120 pb-120 gray-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-6 col-lg-6  mb-60">
+                    <div class="row">
                         @foreach($widget->get_content($widget->id)[0] as $content)
-                            <div class="col-md-4">
-                        <div class="event-wrapper">
-                            <div class="event-img">
-                                <img src="{{asset('images/'.$content->content_image)}}" alt="" />
-                                <div class="event-text">
-                                    <h2 contenteditable="true" contenteditable="true"><a href="#">{{@$content->title}}</a></h2>
-                                    <span contenteditable="true">10 december 2018</span>
+                        <div class="col-xl-6 col-lg-6 col-md-6">
+                            <div class="donation-forms-img">
+                                <a href=""><img src="{{asset('images/'.$content->content_image)}}" alt="" /></a>
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-6 col-md-6">
+                            <div class="donation-forms-wrapper">
+                                <div class="donation-forms-text">
+                                    <h2><a href="">{{@$content->title}}</a></h2>
+                                    <div class="donation-forms-meta">
+                                        <span><i class="fas fa-user"></i> Michel</span>
+                                        <span><i class="far fa-calendar-alt"></i> 20 Nov 2018</span>
+                                    </div>
+                                    <span>$500 <span>of $350,000 raised</span></span>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 30%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                                        </div>
+                                    </div>
+                                    <p>{{@$content->description}}</p>
+                                    <a class="btn" href="">donate now</a>
                                 </div>
                             </div>
                         </div>
-                            </div>@endforeach
+                        @endforeach
                     </div>
                 </div>
-            </div>
+
         </div>
+    </div>
+
 
 
 
 
 
 @else
-    <div class="event-area gray-bg pt-110 pb-120">
+    <div class="donation-forms-area pt-120 pb-120 gray-bg">
         <div class="container">
             <div class="row">
-                <div class="col-xl-12">
-                    <div class="section-title text-center mb-60">
-                        <h1 contenteditable="true">County Posts</h1>
+                <div class="col-xl-6 col-lg-6  mb-60">
+                    <div class="row">
+                        <div class="col-xl-6 col-lg-6 col-md-6">
+                            <div class="donation-forms-img">
+                                <a href="donation-details.html"><img src="img/donation/1.jpg" alt="" /></a>
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-6 col-md-6">
+                            <div class="donation-forms-wrapper">
+                                <div class="donation-forms-text">
+                                    <h2><a href="donation-details.html">County Posts</a></h2>
+                                    <div class="donation-forms-meta">
+                                        <span><i class="fas fa-user"></i> Michel</span>
+                                        <span><i class="far fa-calendar-alt"></i> 20 Nov 2018</span>
+                                    </div>
+                                    <span>$500 <span>of $350,000 raised</span></span>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 30%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                                        </div>
+                                    </div>
+                                    <p>But I must explain to you how all this mistaken idea of denouncing.</p>
+                                    <a class="btn" href="donation-details.html">donate now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 mb-60">
+                    <div class="row">
+                        <div class="col-xl-6 col-lg-6 col-md-6">
+                            <div class="donation-forms-img">
+                                <a href="donation-details.html"><img src="img/donation/2.jpg" alt="" /></a>
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-6 col-md-6">
+                            <div class="donation-forms-wrapper">
+                                <div class="donation-forms-text">
+                                    <h2><a href="donation-details.html">Donate For Army</a></h2>
+                                    <div class="donation-forms-meta">
+                                        <span><i class="fas fa-user"></i> Michel</span>
+                                        <span><i class="far fa-calendar-alt"></i> 20 Nov 2018</span>
+                                    </div>
+                                    <span>$500 <span>of $350,000 raised</span></span>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 30%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                                        </div>
+                                    </div>
+                                    <p>But I must explain to you how all this mistaken idea of denouncing.</p>
+                                    <a class="btn" href="donation-details.html">donate now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 mb-60">
+                    <div class="row">
+                        <div class="col-xl-6 col-lg-6 col-md-6">
+                            <div class="donation-forms-img">
+                                <a href="donation-details.html"><img src="img/donation/3.jpg" alt="" /></a>
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-6 col-md-6">
+                            <div class="donation-forms-wrapper">
+                                <div class="donation-forms-text">
+                                    <h2><a href="donation-details.html">Save the Forest</a></h2>
+                                    <div class="donation-forms-meta">
+                                        <span><i class="fas fa-user"></i> Michel</span>
+                                        <span><i class="far fa-calendar-alt"></i> 20 Nov 2018</span>
+                                    </div>
+                                    <span>$500 <span>of $350,000 raised</span></span>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 30%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                                        </div>
+                                    </div>
+                                    <p>But I must explain to you how all this mistaken idea of denouncing.</p>
+                                    <a class="btn" href="donation-details.html">donate now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 mb-60">
+                    <div class="row">
+                        <div class="col-xl-6 col-lg-6 col-md-6">
+                            <div class="donation-forms-img">
+                                <a href="donation-details.html"><img src="img/donation/4.jpg" alt="" /></a>
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-6 col-md-6">
+                            <div class="donation-forms-wrapper">
+                                <div class="donation-forms-text">
+                                    <h2><a href="donation-details.html">Donate For Study</a></h2>
+                                    <div class="donation-forms-meta">
+                                        <span><i class="fas fa-user"></i> Michel</span>
+                                        <span><i class="far fa-calendar-alt"></i> 20 Nov 2018</span>
+                                    </div>
+                                    <span>$500 <span>of $350,000 raised</span></span>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 30%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                                        </div>
+                                    </div>
+                                    <p>But I must explain to you how all this mistaken idea of denouncing.</p>
+                                    <a class="btn" href="donation-details.html">donate now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 mb-60">
+                    <div class="row">
+                        <div class="col-xl-6 col-lg-6 col-md-6">
+                            <div class="donation-forms-img">
+                                <a href="donation-details.html"><img src="img/donation/5.jpg" alt="" /></a>
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-6 col-md-6">
+                            <div class="donation-forms-wrapper">
+                                <div class="donation-forms-text">
+                                    <h2><a href="donation-details.html">Donate For Health</a></h2>
+                                    <div class="donation-forms-meta">
+                                        <span><i class="fas fa-user"></i> Michel</span>
+                                        <span><i class="far fa-calendar-alt"></i> 20 Nov 2018</span>
+                                    </div>
+                                    <span>$500 <span>of $350,000 raised</span></span>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 30%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                                        </div>
+                                    </div>
+                                    <p>But I must explain to you how all this mistaken idea of denouncing.</p>
+                                    <a class="btn" href="donation-details.html">donate now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 mb-60">
+                    <div class="row">
+                        <div class="col-xl-6 col-lg-6 col-md-6">
+                            <div class="donation-forms-img">
+                                <a href="donation-details.html"><img src="img/donation/6.jpg" alt="" /></a>
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-6 col-md-6">
+                            <div class="donation-forms-wrapper">
+                                <div class="donation-forms-text">
+                                    <h2><a href="donation-details.html">Donate For Sports</a></h2>
+                                    <div class="donation-forms-meta">
+                                        <span><i class="fas fa-user"></i> Michel</span>
+                                        <span><i class="far fa-calendar-alt"></i> 20 Nov 2018</span>
+                                    </div>
+                                    <span>$500 <span>of $350,000 raised</span></span>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 30%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                                        </div>
+                                    </div>
+                                    <p>But I must explain to you how all this mistaken idea of denouncing.</p>
+                                    <a class="btn" href="donation-details.html">donate now</a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="event-bg">
-                <div class="event-box-active">
-                    <div class="event-wrapper">
-                        <div class="event-img">
-                            <img src="{{url('theme/netaji/img/event/1.jpg')}}" alt="" />
-                            <div class="event-text">
-                                <h2 contenteditable="true" contenteditable="true"><a href="#">March for our lives</a></h2>
-                                <span contenteditable="true">10 december 2018</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="event-wrapper">
-                        <div class="event-img">
-                            <img src="{{url('theme/netaji/img/event/2.jpg')}}" alt="" />
-                            <div class="event-text">
-                                <h2><a href="#" contenteditable="true">Annual Conference</a></h2>
-                                <span contenteditable="true">15 december 2018</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="event-wrapper">
-                        <div class="event-img">
-                            <img src="{{url('theme/netaji/img/event/3.jpg')}}" alt="" />
-                            <div class="event-text">
-                                <h2><a href="#" contenteditable="true">Complete Anatomy.</a></h2>
-                                <span contenteditable="true">16 december 2018</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="event-wrapper">
-                        <div class="event-img">
-                            <img src="{{url('theme/netaji/img/event/4.jpg')}}" alt="" />
-                            <div class="event-text">
-                                <h2><a href="#" contenteditable="true">Our human Activities</a></h2>
-                                <span contenteditable="true">16 december 2018</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="event-wrapper">
-                        <div class="event-img">
-                            <img src="{{url('theme/netaji/img/event/5.jpg')}}" alt="" />
-                            <div class="event-text">
-                                <h2><a href="#" contenteditable="true">About Alignment Flex.</a></h2>
-                                <span contenteditable="true">12 January 2018</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="event-wrapper">
-                        <div class="event-img">
-                            <img src="{{url('theme/netaji/img/event/6.jpg')}}" alt="" />
-                            <div class="event-text">
-                                <h2><a href="#" contenteditable="true">I Learned Designing.</a></h2>
-                                <span contenteditable="true">16 november 2018</span>
-                            </div>
-                        </div>
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="donation-forms-button text-center">
+                        <a class="btn" href="#">view all fund</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
 
 @endif
 
