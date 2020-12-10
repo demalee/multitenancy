@@ -149,4 +149,5 @@ Route::post('dashboard/submenus/{id}',[App\Http\Controllers\Backend\MenuControll
 Route::resource('dashboard/widgets',App\Http\Controllers\Backend\WidgetsController::class);
 Route::get('/dashboard/content/{widget}', [App\Http\Controllers\Backend\WidgetsController::class, 'content'])->name('content');
 Route::post('/dashboard/content/add', [App\Http\Controllers\Backend\WidgetsController::class, 'addWidget'])->name('widgets.add_content');
+Route::post('/dashboard/content/social-add', [App\Http\Controllers\Backend\WidgetsController::class, 'addSocialLinks'])->name('widgets.add_social_links');
 
