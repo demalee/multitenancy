@@ -30,12 +30,18 @@ class WidgetsController extends Controller
         $this->theme_id = $theme->getActiveTheme();
     }
 
+    public function getWebsite()
+    {
+        $user = auth()->id();
+        $website = WebsiteUser::where('user_id',$user)->first();
+        return $website->website_id;
+    }
 
     public function index()
     {
         //
         $web = Website::where('admin_id',auth()->id())->first();
-        $widgets = Widget::where('website_id',$web->id)->get();
+        $widgets = Widget::where('website_id',$this->getWebsite())->get();
         return view('dashboard.widgets', compact('widgets'));
     }
 
@@ -49,6 +55,7 @@ class WidgetsController extends Controller
         $website = WebsiteUser::where('user_id',auth()->id())->first();
         $web = \App\Models\Website::where('id',$website->website_id)->first();
         $widgets = Widget::where('website_id',$web->id)->get();
+//        dd($widgets);
         $pages = Page::where('theme_id',$this->theme_id)->get();
         return view('/dashboard/createwidgets', compact('widgets','pages'));
     }
@@ -252,12 +259,7 @@ class WidgetsController extends Controller
         return back()->with('success', 'successfully deleted');
     }
 
-    public function getWebsite()
-    {
-        $user = auth()->id();
-        $website = WebsiteUser::where('user_id',$user)->first();
-        return $website->website_id;
-    }
+
 
 
 
