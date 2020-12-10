@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Auth;
 
 use App\Http\Controllers\Controller;
 use App\Models\Website;
+use App\Models\WebsiteUser;
 use App\Providers\RouteServiceProvider;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
 
@@ -33,12 +34,18 @@ class LoginController extends Controller
     {
         $user = auth()->user();
         $website = Website::where('admin_id',$user->id)->first();
-        if (!$website)
+        $website_user = WebsiteUser::where('user_id',$user->id)->first();
+
+        if ($user->role_id == 1)
         {
-            return '/dashboard/website';
+            return '/main';
+        }
+        else if ($user->role_id == 2)
+        {
+            return RouteServiceProvider::HOME;
         }
         else {
-            return RouteServiceProvider::HOME;
+            return 'dashboard/website';
         }
     }
 

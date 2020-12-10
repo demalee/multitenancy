@@ -9,6 +9,7 @@ use App\Models\SocialLink;
 use App\Models\Theme;
 use App\Models\ThemeWidget;
 use App\Models\Website;
+use App\Models\WebsiteUser;
 use App\Models\WebsiteWidget;
 use App\Models\Widget;
 use App\Models\WidgetContent;
@@ -45,7 +46,8 @@ class WidgetsController extends Controller
      */
     public function create()
     {
-        $web = Website::where('admin_id',auth()->id())->first();
+        $website = WebsiteUser::where('user_id',auth()->id())->first();
+        $web = \App\Models\Website::where('id',$website->website_id)->first();
         $widgets = Widget::where('website_id',$web->id)->get();
         $pages = Page::where('theme_id',$this->theme_id)->get();
         return view('/dashboard/createwidgets', compact('widgets','pages'));
@@ -252,9 +254,11 @@ class WidgetsController extends Controller
 
     public function getWebsite()
     {
-        $user_id = auth()->id();
-        return Website::where('admin_id', $user_id)->first()->id;
+        $user = auth()->id();
+        $website = WebsiteUser::where('user_id',$user)->first();
+        return $website->website_id;
     }
+
 
 
 }

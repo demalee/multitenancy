@@ -1,6 +1,7 @@
 <?php
 
 use App\Models\Theme;
+use App\Models\WebsiteUser;
 use Illuminate\Support\Facades\Config;
 use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
@@ -48,7 +49,8 @@ Route::get('/custom-css', function () {
 
 Route::get('/main', function () {
     $active_theme = Theme::where('status_active',1)->first();
-    $website = \App\Models\Website::where('admin_id',auth()->id())->first();
+    $web = WebsiteUser::where('user_id',auth()->id())->first();
+    $website = \App\Models\Website::where('id',$web->website_id)->first();
     if (!$active_theme)
     {
         $active_theme = Theme::findorfail(1);
@@ -85,7 +87,15 @@ Route::get('/dashboard/pages/create', function () {
         return view('/dashboard/dns');
 
     });Route::get('/dashboard/users', function () {
-        return view('/dashboard/users');
+        $roles = \App\Models\Role::get();
+        $web = WebsiteUser::where('user_id',auth()->id())->first();
+        $website = \App\Models\Website::where('id',$web->website_id)->first();
+        $users = \App\Models\User::join('website_users','website_users.user_id','=','users.id')
+            ->join('role_users', 'role_users.user_id','=','users.id')
+            ->where('website_users.website_id',$website->id)
+            ->get();
+
+        return view('/dashboard/users',compact('roles','users'));
 
     });
 });
@@ -95,6 +105,7 @@ Route::get('/dashboard', [App\Http\Controllers\HomeController::class, 'index'])-
 Route::get('/dashboard/pages', [App\Http\Controllers\HomeController::class, 'pages'])->name('dashboard.pages');
 Route::get('/dashboard/widgets_edit/{id}', [App\Http\Controllers\HomeController::class, 'editWidgets'])->name('dashboard.widgets_edit');
 Route::get('/dashboard/website', [App\Http\Controllers\HomeController::class, 'steps'])->name('dashboard.website');
+Route::post('/dashboard/create-user', [App\Http\Controllers\HomeController::class, 'createUser'])->name('dashboard.create_user');
 
 //website routes
 Route::resource('websites',App\Http\Controllers\Backend\WebsiteController::class);

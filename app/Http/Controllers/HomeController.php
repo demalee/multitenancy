@@ -6,10 +6,14 @@ use App\Models\Menu;
 use App\Models\MenuItem;
 use App\Models\Page;
 use App\Models\PageWidgets;
+use App\Models\RoleUser;
 use App\Models\Theme;
+use App\Models\User;
 use App\Models\Website;
+use App\Models\WebsiteUser;
 use App\Models\Widget;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Validator;
 
 class HomeController extends Controller
@@ -34,23 +38,69 @@ class HomeController extends Controller
         return view('home');
     }
 
+    public function getWebsite()
+    {
+        $user = auth()->id();
+        $website = WebsiteUser::where('user_id',$user)->first();
+        return $website->website_id;
+    }
 
     public function createUser(Request $request)
     {
         $data = $request->all();
+//        dd($data);
         $validate = Validator::make($data,[
-            'name'=>'required',
-            'email'=>'required|email',
+            'name' => ['required', 'string', 'max:255'],
+            'email' => ['required', 'string', 'email', 'max:255', 'unique:users'],
+            'password' => ['required', 'string', 'min:8'],
             'role'=>'required'
         ]);
 
         if ($validate->fails())
         {
-            return back()->with('error','Error occurred, '+$validate->errors());
+            return back()->with('error','Error occurred, some required fields are missing');
         }
         else
         {
 
+            if (isset($data['profile_image'])) {
+                $attach1 = time() . '-profile_image.' . request()->profile_image->getClientOriginalExtension();
+                request()->profile_image->move(public_path('images'), $attach1);
+                $logo_url = env('APP_URL') . "/images/" . $attach1;
+                $data['profile_image'] = $attach1;
+            }
+
+            $user = User::create([
+                'name'=>$data['name'],
+                'email'=>$data['email'],
+                'password'=>Hash::make($data['password']),
+                'role_id'=>$data['role'],
+                'profile_image'=>@$data['profile_image']
+            ]);
+
+            if ($user)
+            {
+                $role_user = RoleUser::updateorcreate(
+                    [
+                        'user_id'=>$user->id
+                    ],
+                    [
+                        'role_id'=>$user->role_id
+                    ]);
+
+                $website_user = WebsiteUser::updateorcreate([
+                    'user_id'=>$user->id
+                ],
+                    [
+                        'website_id'=>$this->getWebsite()
+                    ]);
+
+                return back()->with('success', 'successfully added new user');
+            }
+            else
+            {
+                return back()->with('error', 'Something unexpected occurred');
+            }
         }
     }
 

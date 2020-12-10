@@ -7,13 +7,16 @@ use App\Models\Menu;
 use App\Models\MenuItem;
 use App\Models\Page;
 use App\Models\PageWidgets;
+use App\Models\RoleUser;
 use App\Models\Theme;
 use App\Models\Website;
 use App\Models\WebsiteSetting;
+use App\Models\WebsiteUser;
 use App\Models\Widget;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Validator;
+
 
 class WebsiteController extends Controller
 {
@@ -75,12 +78,20 @@ class WebsiteController extends Controller
         }
     }
 
+    public function getWebsite()
+    {
+        $user = auth()->id();
+        $website = WebsiteUser::where('user_id',$user)->first();
+        return $website->website_id;
+    }
     public function websiteSettings(Request $request)
     {
         $data = $request->all();
         $admin = auth()->id();
-        $website = Website::where('admin_id',$admin)->first();
 
+//        $website = Website::where('admin_id',$admin)->first();
+        $web = WebsiteUser::where('user_id',auth()->id())->first();
+        $website = \App\Models\Website::where('id',$web->website_id)->first();
         //favicon
         if (isset($data['favicon']))
         {
@@ -164,6 +175,21 @@ class WebsiteController extends Controller
             }
 
             if ($website) {
+                $role_user = RoleUser::updateorcreate(
+                    [
+                        'user_id'=>auth()->id()
+                    ],
+                    [
+                    'role_id'=>1
+                    ]);
+
+                $website_user = WebsiteUser::updateorcreate([
+                    'user_id'=>auth()->id()
+                ],
+                [
+                    'website_id'=>$website->id
+                ]);
+
                 if (isset($data['radio1'])) {
                     $themes = Theme::all();
                     foreach ($themes as $th) {
