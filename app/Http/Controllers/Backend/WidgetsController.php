@@ -56,6 +56,11 @@ class WidgetsController extends Controller
         return view('/dashboard/content', compact('contents', 'widget'));
     }
 
+    public function addSocialLinks(Request $request)
+    {
+        $data = $request->all();
+        if ()
+    }
 
     /**
      * Store a newly created resource in storage.
