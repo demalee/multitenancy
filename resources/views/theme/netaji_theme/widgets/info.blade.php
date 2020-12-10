@@ -44,7 +44,7 @@
                 </div>
                 <div class="col-xl-7 col-lg-7">
                     <div class="about2-me-img">
-                        <img src="img/about/1.jpg" alt="">
+                        <img src="images/gov.jpg" alt="">
                     </div>
                 </div>
             </div>

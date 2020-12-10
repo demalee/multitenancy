@@ -36,7 +36,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="single-slider slider-height d-flex align-items-center" style="background-image:url(theme/netaji/img/slider/image.png)" contenteditable="true">
+                <div class="single-slider slider-height d-flex align-items-center" style="background-image:url({{asset('/img/slider/slider1.jpg')}})" contenteditable="true">
                     <div class="container">
                         <div class="row ">
                             <div class="col-xl-12">
@@ -57,7 +57,7 @@
     @else
     <div class="slider-area">
         <div class="slider-active">
-            <div class="single-slider slider-height d-flex align-items-center" style="background-image:url(theme/netaji/img/slider/image.png)">
+            <div class="single-slider slider-height d-flex align-items-center" style="background-image:url({{asset('img/slider/slide1.jpg')}}">
                 <div class="container">
                     <div class="row ">
                         <div class="col-xl-12">
@@ -70,7 +70,7 @@
                     </div>
                 </div>
             </div>
-            <div class="single-slider slider-height d-flex align-items-center" style="background-image:url(theme/netaji/img/slider/image.png)">
+            <div class="single-slider slider-height d-flex align-items-center" style="background-image:url({{asset('img/slider/slide2.jpg')}})">
                 <div class="container">
                     <div class="row ">
                         <div class="col-xl-12">
@@ -83,7 +83,7 @@
                     </div>
                 </div>
             </div>
-            <div class="single-slider slider-height d-flex align-items-center" style="background-image:url(theme/netaji/img/slider/image.png)" contenteditable="true">
+            <div class="single-slider slider-height d-flex align-items-center" style="background-image:url({{asset('img/slider/slider3.jpg')}}" contenteditable="true">
                 <div class="container">
                     <div class="row ">
                         <div class="col-xl-12">
