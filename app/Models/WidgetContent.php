@@ -24,7 +24,10 @@ class WidgetContent extends Model
         'source_link',
         'content_image',
         'widget_id',
-        'website_id'
+        'website_id',
+        'source_date',
+        'start_time',
+        'end_time'
         ];
 
     public function widget()

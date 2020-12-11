@@ -96,11 +96,7 @@
                                 <div class="form-group">
                                     <label class="col-form-label">Menu title*</label>
                                     <span class="pull-right" >
-                                        <button class="btn btn-pill btn-primary btn-air-secondary btn-sm" type="button">
-                                            <a href="{{url('dashboard/submenu')}}" ><span style="color: white">Edit Submenu
-                                                </span>
-                                            </a>
-                                        </button>
+
                                     </span>
                                     <input class="form-control" name="sub_menu" type="text" value="" placeholder="Menu name" required>
                                 </div>

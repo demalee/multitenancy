@@ -17,12 +17,12 @@
                 <div class="city_event_text">
                     <div class="city_event_history">
                         <div class="event_date">
-                            <span contenteditable="true">25</span>
-                            <strong contenteditable="true">SEP, 2018</strong>
+                            <span contenteditable="true">{{\Carbon\Carbon::parse(@$content->source_date)->format('d')}}</span>
+                            <strong contenteditable="true">{{\Carbon\Carbon::parse(@$content->source_date)->format('F Y')}}</strong>
                         </div>
                         <div class="city_date_text">
                             <h5 class="custom_size" contenteditable="true">{{@$content->title}}</h5>
-                            <a href="#"><i class="fa fa-clock-o" contenteditable="true"></i>05:23 AM - 09:23 AM </a>
+                            <a href="#"><i class="fa fa-clock-o" contenteditable="true"></i>{{@$content->start_time}} - {{@$content->end_time}}</a>
                         </div>
                     </div>
                     <p contenteditable="true">{{\Illuminate\Support\Str::limit(@$content->description,150,'...')}}</p>

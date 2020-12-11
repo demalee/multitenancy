@@ -17,7 +17,7 @@
                             <div class="blog-img">
                                 <a href="{{url('blog')}}"><img src="{{asset('images/'.$content->content_image)}}" alt="" /></a>
                                 <div class="blog-text">
-                                    <span contenteditable="true">05 december 2018</span>
+                                    <span contenteditable="true">{{\Carbon\Carbon::parse(@$content->source_date)->format('d F Y')}}</span>
                                     <h2><a href="{{url('blog')}}" contenteditable="true">{{\Illuminate\Support\Str::limit(@$content->description,100,'...')}}</a></h2>
                                     <a href="{{url('blog')}}">read more</a>
                                 </div>

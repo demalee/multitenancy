@@ -19,7 +19,7 @@
                                 <a href="#"><img src="{{asset('images/'.$content->content_image)}}" alt="" /></a>
                             </div>
                             <div class="events-meta">
-                                <span contenteditable="true">10 feb 2018</span>
+                                <span contenteditable="true">{{\Carbon\Carbon::parse(@$content->source_date)->format('d F Y')}}</span>
                             </div>
                             <div class="events-text">
                                 <h3><a href="#" contenteditable="true">{{@$content->title}}</a></h3>

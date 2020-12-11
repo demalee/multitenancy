@@ -124,7 +124,7 @@ class HomeController extends Controller
     {
         $page_wid = PageWidgets::where('page_id',$id)->get();
         $web = Website::where('admin_id',auth()->id())->first();
-        $widgets = Widget::where('website_id',$web->id)->get();
+        $widgets = Widget::where('website_id',$this->getWebsite())->get();
 //        $pages = Page::where('theme_id',$this->theme_id)->get();
         return view('dashboard/widgets_edit', compact('widgets','page_wid','id'));
     }

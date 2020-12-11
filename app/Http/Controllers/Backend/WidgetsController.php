@@ -13,7 +13,9 @@ use App\Models\WebsiteUser;
 use App\Models\WebsiteWidget;
 use App\Models\Widget;
 use App\Models\WidgetContent;
+use Carbon\Carbon;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Validator;
 
 class WidgetsController extends Controller
 {
@@ -173,12 +175,20 @@ class WidgetsController extends Controller
             $logo_url = env('APP_URL') . "/images/" . $attach1;
             $data['content_file'] = $attach1;
         }
+
+        if ($this->validateTime($data)->fails())
+        {
+            return back()->with('error','Start time needs to be less than end time');
+        }
         $content = WidgetContent::create([
             'title' => @$data['title'],
             'description' => @$data['description'],
             'source_link' => @$data['source_url'],
             'content_image' => @$data['content_file'],
             'widget_id' => $data['widget_id'],
+            'source_date'=>Carbon::parse(@$data['source_date']),
+            'start_time'=>@$data['start_time'],
+            'end_time'=>@$data['end_time']
         ]);
 
         return back()->with('success', 'successfully added content');
@@ -205,18 +215,29 @@ class WidgetsController extends Controller
             $auth_id = auth()->id();
             $website_id = Website::where('admin_id', $auth_id)->first();
             $widget = Widget::findorfail($id);
+
+
             if (isset($data['content_file'])) {
                 $attach1 = time() . '-content_file.' . request()->content_file->getClientOriginalExtension();
                 request()->content_file->move(public_path('images'), $attach1);
                 $logo_url = env('APP_URL') . "/images/" . $attach1;
                 $data['content_file'] = $attach1;
             }
+
+            if ($this->validateTime($data)->fails())
+            {
+                return back()->with('error','Start time needs to be less than end time');
+            }
+
             $content = WidgetContent::create([
                 'title' => @$data['title'],
                 'description' => @$data['description'],
                 'source_link' => @$data['source_url'],
                 'content_image' => @$data['content_file'],
                 'widget_id' => $id,
+                'source_date'=>Carbon::parse(@$data['source_date']),
+                'start_time'=>@$data['start_time'],
+                'end_time'=>@$data['end_time']
             ]);
 
             return back()->with('success', 'successfully added content');
@@ -228,11 +249,20 @@ class WidgetsController extends Controller
                 $logo_url = env('APP_URL') . "/images/" . $attach1;
                 $data['content_file'] = $attach1;
             }
+
+            if ($this->validateTime($data)->fails())
+            {
+                return back()->with('error','Start time needs to be less than end time');
+            }
+
             $content->update([
                 'title' => @$data['title'],
                 'description' => @$data['description'],
                 'source_link' => @$data['source_url'],
-                'content_image' => @$data['content_file']
+                'content_image' => @$data['content_file'],
+                'source_date'=>Carbon::parse(@$data['source_date']),
+                'start_time'=>@$data['start_time'],
+                'end_time'=>@$data['end_time']
             ]);
 
             return back()->with('success', 'successfully added content');
@@ -259,8 +289,18 @@ class WidgetsController extends Controller
         return back()->with('success', 'successfully deleted');
     }
 
+    public function validateTime(array $data)
+    {
+        if (isset($data['start_time']) and isset($data['end_time']) and isset($data['source_date']))
+        {
+            $data['s_time'] = Carbon::createFromDate($data['source_date'].' '. $data['start_time']);
+            $data['e_time'] = Carbon::createFromDate($data['source_date'].' '. $data['end_time']);
+            return Validator::make($data,[
+                's_time'=>'date',
+                'e_time'=>'date|after:s_time'
+            ]);
 
-
-
+        }
+    }
 
 }

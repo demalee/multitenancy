@@ -55,24 +55,38 @@ class MenuController extends Controller
     public function editSubmenu(Request $request,$id)
     {
         $page = Page::findorfail($id);
-        $menu = Menu::where('name','Main Menu')->where('theme_id', $page->theme_id)->first();
+
+        $menu = Menu::where('name','Main Menu')->where('theme_id', $this->getActiveTheme())->first();
         $data = $request->all();
-//        dd($data);
         if (isset($data['page_id'])) {
+
+            $menu_item = MenuItem::updateorcreate([
+                'menu_id' => $menu->id,
+                'page_id' => $page->id,
+                'theme_id' => $this->getActiveTheme()
+            ], [
+                'menu' => $menu->name,
+                'parent_id' => 0,
+                'slug' => \Illuminate\Support\Str::slug($menu->name),
+                'parent_page_id' => 0,
+                'menu_level' => 2
+            ]);
 
             $count = 0;
             foreach ($data['page_id'] as $page_id) {
-                $menu_item = MenuItem::updateorcreate([
-                    'menu_id' => $menu->id,
-                    'page_id' => $page_id,
-                    'theme_id' => $this->getActiveTheme()
-                ], [
-                    'menu' => $menu->name,
-                    'parent_id' => 0,
-                    'slug' => \Illuminate\Support\Str::slug($menu->name),
-                    'parent_page_id' => $page->id,
-                    'menu_level' => 3
-                ]);
+                foreach ($data['page_id'] as $page_id) {
+                    $menu_item = MenuItem::updateorcreate([
+                        'menu_id' => $menu->id,
+                        'page_id' => $page_id,
+                        'theme_id' => $this->getActiveTheme()
+                    ], [
+                        'menu' => $menu->name,
+                        'parent_id' => 0,
+                        'slug' => \Illuminate\Support\Str::slug($menu->name),
+                        'parent_page_id' => $page->id,
+                        'menu_level' => 3
+                    ]);
+                }
             }
         }
             return back()->with('success', 'Successfully added menu item to the item');
@@ -135,8 +149,6 @@ class MenuController extends Controller
                    ]);
                return redirect()->route('menus.index')->with('success');
            }
-
-
         }
     }
 
