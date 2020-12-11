@@ -9,6 +9,7 @@ use App\Models\Page;
 use App\Models\PageWidgets;
 use App\Models\RoleUser;
 use App\Models\Theme;
+use App\Models\User;
 use App\Models\Website;
 use App\Models\WebsiteSetting;
 use App\Models\WebsiteUser;
@@ -175,6 +176,9 @@ class WebsiteController extends Controller
             }
 
             if ($website) {
+                User::findorfail(auth()->id())->update([
+                    'role_id'=>1
+                ]);
                 $role_user = RoleUser::updateorcreate(
                     [
                         'user_id'=>auth()->id()
