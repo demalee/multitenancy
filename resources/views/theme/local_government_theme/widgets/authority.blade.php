@@ -1,11 +1,9 @@
 @if($widget->get_content($widget->id)[1] > 0)
     <div class="city_jobs_wrap">
         <div class="city_jobs_fig">
-            <div class="city_job_text">
-                <span>County</span>
-                <h2>Meet Dorien Daniels</h2>
-                <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis </p>
-                <a class="theam_btn" href="#" tabindex="0">Get In Touch</a>
+            <div class="city_jo_text">
+                <img src="{{asset('theme/local/extra-images/blog-fig.jpg')}}" alt="" style="height: 500px; width: 1000px;">
+
             </div>
         </div>
         <div class="city_jobs_list">
@@ -29,11 +27,9 @@
 @else
     <div class="city_jobs_wrap">
         <div class="city_jobs_fig">
-            <div class="city_job_text">
-                <span>Mayor of the city</span>
-                <h2>Meet Dorien Daniels</h2>
-                <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis </p>
-                <a class="theam_btn" href="#" tabindex="0">Get In Touch</a>
+            <div class="city_jo_text">
+                <img src="{{asset('theme/local/extra-images/blog-fig.jpg')}}" alt="" style="height: 500px; width: 1000px;">
+
             </div>
         </div>
         <div class="city_jobs_list">
@@ -42,7 +38,7 @@
                     <div class="city_jobs_item overlay">
                         <span><i class="fa icon-team"></i></span>
                         <div class="ciy_jobs_caption">
-                            <h2>Living Here</h2>
+                            <h2>Mission</h2>
                             <p>This is Photoshop's ersion  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin</p>
                             <a href="#">Find Out More</a>
                         </div>
@@ -51,7 +47,7 @@
                 <li>
                     <div class="city_jobs_item pull-right overlay">
                         <div class="ciy_jobs_caption">
-                            <h2>Visit Here</h2>
+                            <h2>Vision</h2>
                             <p>This is Photoshop's ersion  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin</p>
                             <a href="#">Find Out More</a>
                         </div>

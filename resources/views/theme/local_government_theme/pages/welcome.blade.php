@@ -34,61 +34,59 @@
                 </div>
             </div>
         @endif
-        @if($widget->name == "Authority" and $widget->active_status(@$page_id->id,@$widget->id))
-            @include('theme.local_government_theme.widgets.authority')
-        @endif
 
-        @if($widget->name == "Department" and $widget->active_status(@$page_id->id,@$widget->id))
-            <div class="city_department_wrap overlay">
-                <div class="bg_white">
-                    <div class="container-fluid">
-                        <!--SECTION HEADING START-->
-                        <div class="section_heading margin-bottom">
-                            <span contenteditable="true">Explore</span>
-                            <h2 contenteditable="true">Govt Departments</h2>
-                        </div>
-                        <!--SECTION HEADING END-->
-                        <div class="city-department-slider row">
-                            @include('theme.local_government_theme.widgets.departments')
-                        </div>
-                    </div>
-                </div>
-            </div>
-        @endif
 
-        @if($widget->name == "Authority" and $widget->active_status(@$page_id->id,@$widget->id))
-            <div class="city_office_wrap">
-                <div class="bg_white bg_none">
-                    <div class="container-fluid">
-                        <div class="city_office_row">
-                            <div class="city_triagle">
-                                <span></span>
-                            </div>
-                            <div class="center_text">
-                                <div class="city_office_list">
-                                    <div class="city_office_text">
-                                        <h6 contenteditable="true">City</h6>
-                                        <h3 contenteditable="true">Governor’s Office</h3>
-                                        <a href="#">See More<i class="fa fa-angle-double-right"></i></a>
-                                    </div>
-                                    <div class="city_office_logo">
-                                        <a href="#"><img src="{{asset('theme/local/images/office-logo.png')}}" alt=""></a>
-                                    </div>
-                                    <div class="city_office_text pull_right">
-                                        <h6 contenteditable="true">City</h6>
-                                        <h3 contenteditable="true">Senate Office</h3>
-                                        <a href="#">See More<i class="fa fa-angle-double-right"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="city_triagle text-right">
-                                <span></span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        @endif
+{{--        @if($widget->name == "Department" and $widget->active_status(@$page_id->id,@$widget->id))--}}
+{{--            <div class="city_department_wrap overlay">--}}
+{{--                <div class="bg_white">--}}
+{{--                    <div class="container-fluid">--}}
+{{--                        <!--SECTION HEADING START-->--}}
+{{--                        <div class="section_heading margin-bottom">--}}
+{{--                            <span contenteditable="true">Explore</span>--}}
+{{--                            <h2 contenteditable="true">Govt Departments</h2>--}}
+{{--                        </div>--}}
+{{--                        <!--SECTION HEADING END-->--}}
+{{--                        <div class="city-department-slider row">--}}
+{{--                            @include('theme.local_government_theme.widgets.departments')--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--        @endif--}}
+
+{{--        @if($widget->name == "Authority" and $widget->active_status(@$page_id->id,@$widget->id))--}}
+{{--            <div class="city_office_wrap">--}}
+{{--                <div class="bg_white bg_none">--}}
+{{--                    <div class="container-fluid">--}}
+{{--                        <div class="city_office_row">--}}
+{{--                            <div class="city_triagle">--}}
+{{--                                <span></span>--}}
+{{--                            </div>--}}
+{{--                            <div class="center_text">--}}
+{{--                                <div class="city_office_list">--}}
+{{--                                    <div class="city_office_text">--}}
+{{--                                        <h6 contenteditable="true">City</h6>--}}
+{{--                                        <h3 contenteditable="true">Governor’s Office</h3>--}}
+{{--                                        <a href="#">See More<i class="fa fa-angle-double-right"></i></a>--}}
+{{--                                    </div>--}}
+{{--                                    <div class="city_office_logo">--}}
+{{--                                        <a href="#"><img src="{{asset('theme/local/images/office-logo.png')}}" alt=""></a>--}}
+{{--                                    </div>--}}
+{{--                                    <div class="city_office_text pull_right">--}}
+{{--                                        <h6 contenteditable="true">City</h6>--}}
+{{--                                        <h3 contenteditable="true">Senate Office</h3>--}}
+{{--                                        <a href="#">See More<i class="fa fa-angle-double-right"></i></a>--}}
+{{--                                    </div>--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+{{--                            <div class="city_triagle text-right">--}}
+{{--                                <span></span>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--        @endif--}}
 
         @if($widget->name == "Gallery" and $widget->active_status(@$page_id->id,@$widget->id))
 {{--            <div class="city_blog_wrap">--}}
@@ -128,7 +126,9 @@
                 </div>
             </div>
         @endif
-
+        @if($widget->name == "Authority" and $widget->active_status(@$page_id->id,@$widget->id))
+            @include('theme.local_government_theme.widgets.authority')
+        @endif
         @if($widget->name == "program" and $widget->active_status(@$page_id->id,@$widget->id))
         <div class="city_project_wrap">
             <div class="container-fluid">
