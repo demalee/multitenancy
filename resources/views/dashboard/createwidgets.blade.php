@@ -54,6 +54,130 @@
                 </form>
             </div>
         </div>
+        <div class="col-sm-12 col-xl-12 xl-100">
+            <div class="card">
+                <div class="card-header">
+                    <h5>Guideline on the type of widgets to appear on each page</h5>
+                </div>
+                <div class="card-body">
+                    <ul class="nav nav-tabs border-tab" id="top-tab" role="tablist">
+                        <li class="nav-item"><a class="nav-link active" id="top-home-tab" data-toggle="tab" href="#top-home" role="tab" aria-controls="top-home" aria-selected="true">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" id="profile-top-tab" data-toggle="tab" href="#top-profile" role="tab" aria-controls="top-profile" aria-selected="false">About</a></li>
+                        <li class="nav-item"><a class="nav-link" id="profile-top-tab" data-toggle="tab" href="#top-service" role="tab" aria-controls="top-service" aria-selected="false">services</a></li>
+                        <li class="nav-item"><a class="nav-link" id="profile-top-tab" data-toggle="tab" href="#top-events" role="tab" aria-controls="top-events" aria-selected="false">Events</a></li>
+                        <li class="nav-item"><a class="nav-link" id="profile-top-tab" data-toggle="tab" href="#top-blog" role="tab" aria-controls="top-blog" aria-selected="false">Blog</a></li>
+                        <li class="nav-item"><a class="nav-link" id="profile-top-tab" data-toggle="tab" href="#top-gallery" role="tab" aria-controls="top-gallery" aria-selected="false">Gallery</a></li>
+                        <li class="nav-item"><a class="nav-link" id="profile-top-tab" data-toggle="tab" href="#top-volunteer" role="tab" aria-controls="top-volunteer" aria-selected="false">Volunteer</a></li>
+                        <li class="nav-item"><a class="nav-link" id="profile-top-tab" data-toggle="tab" href="#top-campaign" role="tab" aria-controls="top-campaign" aria-selected="false">Campaign</a></li>
+
+                        <li class="nav-item"><a class="nav-link" id="contact-top-tab" data-toggle="tab" href="#top-contact" role="tab" aria-controls="top-contact" aria-selected="false">Contact</a></li>
+                    </ul>
+                    <div class="tab-content" id="top-tabContent">
+                        <div class="tab-pane fade show active" id="top-home" role="tabpanel" aria-labelledby="top-home-tab">
+<ol start="1">
+    <li>Slider</li>
+    <li>Banner</li>
+    <li>Info</li>
+    <li>Department</li>
+    <li>Events</li>
+    <li>Info</li>
+    <li>News</li>
+    <li>Post</li>
+    <li>Authority</li>
+    <li>Projects</li>
+
+
+</ol>
+                        </div>
+                        <div class="tab-pane fade" id="top-profile" role="tabpanel" aria-labelledby="profile-top-tab">
+                            <ol start="1">
+                                <li>Bread Crumbs</li>
+                                <li>Info</li>
+                                <li>Department</li>
+                                <li>Info</li>
+                                <li>News</li>
+                                <li>Post</li>
+                                <li>Projects</li>
+
+                            </ol>
+                        </div>
+                        <div class="tab-pane fade" id="top-service" role="tabpanel" aria-labelledby="service-top-tab">
+                            <ol start="1">
+                                <li>Bread Crumbs</li>
+                                <li>Info</li>
+                                <li>Department</li>
+                                <li>Info</li>
+                                <li>News</li>
+                                <li>Post</li>
+                                <li>Projects</li>
+
+                            </ol>
+                        </div>
+                        <div class="tab-pane fade" id="top-events" role="tabpanel" aria-labelledby="events-top-tab">
+                            <ol start="1">
+                                <li>Bread Crumbs</li>
+                                <li>Info</li>
+                                <li>Department</li>
+                                <li>Events</li>
+                                <li>News</li>
+                                <li>Projects</li>
+
+                            </ol>
+                        </div>
+                        <div class="tab-pane fade" id="top-blog" role="tabpanel" aria-labelledby="blog-top-tab">
+                            <ol start="1">
+                                <li>Bread Crumbs</li>
+                                <li>Info</li>
+                                <li>Department</li>
+                                <li>Events</li>
+                                <li>News</li>
+                                <li>Projects</li>
+
+                            </ol>
+                        </div>
+                        <div class="tab-pane fade" id="top-volunteer" role="tabpanel" aria-labelledby="volunteer-top-tab">
+                            <ol start="1">
+                                <li>Bread Crumbs</li>
+
+                                <li>Events</li>
+                                <li>News</li>
+                                <li>post</li>
+
+                            </ol>
+                        </div>
+                        <div class="tab-pane fade" id="top-gallery" role="tabpanel" aria-labelledby="gallery-top-tab">
+                            <ol start="1">
+                                <li>Bread Crumbs</li>
+                                <li>Gallery</li>
+
+
+                            </ol>
+                        </div>
+                        <div class="tab-pane fade" id="top-contact" role="tabpanel" aria-labelledby="contact-top-tab">
+                            <ol start="1">
+                                <li>Leave it blank,just activate the page</li>
+
+
+                            </ol>
+                        </div>
+
+                        <div class="tab-pane fade" id="top-campaign" role="tabpanel" aria-labelledby="campaign-top-tab">
+                            <ol start="1">
+                                <li>Bread Crumbs</li>
+                                <li>Info</li>
+                                <li>Department</li>
+                                <li>Events</li>
+                                <li>News</li>
+                                <li>Projects</li>
+
+                            </ol>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </div>
 </div>
 
@@ -79,6 +203,7 @@
         </div>
     </div>
 </div>
+
 <!-- Container-fluid Ends-->
 
 <!-- footer start-->

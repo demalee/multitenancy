@@ -34,6 +34,9 @@
                 </div>
             </div>
         @endif
+        @if($widget->name == "Authority" and $widget->active_status(@$page_id->id,@$widget->id))
+            @include('theme.local_government_theme.widgets.authority')
+        @endif
 
         @if($widget->name == "Department" and $widget->active_status(@$page_id->id,@$widget->id))
             <div class="city_department_wrap overlay">
