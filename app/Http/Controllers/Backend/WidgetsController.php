@@ -175,10 +175,7 @@ class WidgetsController extends Controller
             $logo_url = env('APP_URL') . "/images/" . $attach1;
             $data['content_file'] = $attach1;
         }
-        if ($this->validateTime($data)->fails())
-        {
-            return back()->with('error','Start time needs to be less than end time');
-        }
+        $this->validateTime($data);
         $content = WidgetContent::create([
             'title' => @$data['title'],
             'description' => @$data['description'],
