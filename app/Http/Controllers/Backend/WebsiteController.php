@@ -295,15 +295,23 @@ class WebsiteController extends Controller
                             'brand_color'=>@$data['brand_color'],
                             'logo_name'=>@$data['logo_name'],
                         ]);
-
-
-
-
-                        return redirect('/home');
+                    $this->generateFiles($website);
+                    return redirect('/home');
 
                 }
             }
         }
+    }
+
+
+    public function generateFiles($website)
+    {
+        $web_arr = explode('.',$website->name);
+        $folder_name = $web_arr[0];
+        //running a bash script
+        $output = shell_exec('./website_script.sh '.$folder_name);
+        //create and write file
+
     }
 
     public function getActiveTheme()
