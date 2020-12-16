@@ -38,7 +38,7 @@
     @else
     <div class="slider-area">
         <div class="slider-active">
-            <div class="single-slider slider-height d-flex align-items-center" style="background-image:url(img/slider/slider1.jpg)">
+            <div class="single-slider slider-height d-flex align-items-center" style="background-image:url(img/slider/mandera.jpg)">
                 <div class="container">
                     <div class="row ">
                         <div class="col-xl-12">

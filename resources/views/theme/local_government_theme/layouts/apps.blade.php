@@ -58,58 +58,58 @@
         @yield('content')
 
     </main>
-    <div class="city_requset_wrap">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 col-sm-6">
-                    <div class="city_request_list">
-                        <div class="city_request_row">
-                            <span><i class="fa icon-question"></i></span>
-                            <div class="city_request_text">
-                                <span contenteditable="true">Recent</span>
-                                <h4 contenteditable="true">Top Request</h4>
-                            </div>
-                        </div>
-                        <div class="city_request_link">
-                            <ul>
-                                <li><a href="#" contenteditable="true">Pay a Parking Ticket</a></li>
-                                <li><a href="#" contenteditable="true">Building Violation</a></li>
-                                <li><a href="#">Affordable Housing</a></li>
-                                <li><a href="#">Graffiti Removal</a></li>
-                                <li><a href="#">Civil Service Exams</a></li>
-                                <li><a href="#">Rodent Baiting</a></li>
-                                <li class="margin0"><a href="#">Cleaning</a></li>
-                                <li class="margin0"><a href="#">Uncleared Sidewalk</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-sm-6">
-                    <div class="city_request_list">
-                        <div class="city_request_row">
-                            <span><i class="fa icon-shout"></i></span>
-                            <div class="city_request_text">
-                                <span>Recent</span>
-                                <h4>Announcement</h4>
-                            </div>
-                        </div>
-                        <div class="city_request_link">
-                            <ul>
-                                <li><a href="#">Pay a Parking Ticket</a></li>
-                                <li><a href="#">Building Violation</a></li>
-                                <li><a href="#">Affordable Housing</a></li>
-                                <li><a href="#">Graffiti Removal</a></li>
-                                <li><a href="#">Civil Service Exams</a></li>
-                                <li><a href="#">Rodent Baiting</a></li>
-                                <li class="margin0"><a href="#">Cleaning</a></li>
-                                <li class="margin0"><a href="#">Uncleared Sidewalk</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+{{--    <div class="city_requset_wrap">--}}
+{{--        <div class="container">--}}
+{{--            <div class="row">--}}
+{{--                <div class="col-md-6 col-sm-6">--}}
+{{--                    <div class="city_request_list">--}}
+{{--                        <div class="city_request_row">--}}
+{{--                            <span><i class="fa icon-question"></i></span>--}}
+{{--                            <div class="city_request_text">--}}
+{{--                                <span contenteditable="true">Recent</span>--}}
+{{--                                <h4 contenteditable="true">Top Request</h4>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                        <div class="city_request_link">--}}
+{{--                            <ul>--}}
+{{--                                <li><a href="#" contenteditable="true">Pay a Parking Ticket</a></li>--}}
+{{--                                <li><a href="#" contenteditable="true">Building Violation</a></li>--}}
+{{--                                <li><a href="#">Affordable Housing</a></li>--}}
+{{--                                <li><a href="#">Graffiti Removal</a></li>--}}
+{{--                                <li><a href="#">Civil Service Exams</a></li>--}}
+{{--                                <li><a href="#">Rodent Baiting</a></li>--}}
+{{--                                <li class="margin0"><a href="#">Cleaning</a></li>--}}
+{{--                                <li class="margin0"><a href="#">Uncleared Sidewalk</a></li>--}}
+{{--                            </ul>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--                <div class="col-md-6 col-sm-6">--}}
+{{--                    <div class="city_request_list">--}}
+{{--                        <div class="city_request_row">--}}
+{{--                            <span><i class="fa icon-shout"></i></span>--}}
+{{--                            <div class="city_request_text">--}}
+{{--                                <span>Recent</span>--}}
+{{--                                <h4>Announcement</h4>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                        <div class="city_request_link">--}}
+{{--                            <ul>--}}
+{{--                                <li><a href="#">Pay a Parking Ticket</a></li>--}}
+{{--                                <li><a href="#">Building Violation</a></li>--}}
+{{--                                <li><a href="#">Affordable Housing</a></li>--}}
+{{--                                <li><a href="#">Graffiti Removal</a></li>--}}
+{{--                                <li><a href="#">Civil Service Exams</a></li>--}}
+{{--                                <li><a href="#">Rodent Baiting</a></li>--}}
+{{--                                <li class="margin0"><a href="#">Cleaning</a></li>--}}
+{{--                                <li class="margin0"><a href="#">Uncleared Sidewalk</a></li>--}}
+{{--                            </ul>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--        </div>--}}
+{{--    </div>--}}
     <footer>
         <div class="widget_wrap overlay">
             <div class="container">
@@ -205,17 +205,17 @@
                         </div>
                         <div class="col-md-6">
                             <div class="copyright_text">
-                                <p><span>Copyright © 2018 - 19 The Local City Municipal.</span> Designed and Developed by kodeforest</p>
+                                <p><span>Copyright © Multisite.</span> Designed and Developed by kodeforest</p>
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-6">
                             <div class="city_top_social">
                                 <ul>
-                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-youtube"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-google"></i></a></li>
+                                    <li><a href="{{@$social_link->facebook}}" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="{{@$social_link->twitter}}" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href="{{@$social_link->linkedin}}" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                                    <li><a href="{{@$social_link->youtube}}" target="_blank"><i class="fa fa-youtube"></i></a></li>
+                                    <li><a href="{{@$social_link->skype}}" target="_blank"><i class="fa fa-skype"></i></a></li>
                                 </ul>
                             </div>
                         </div>

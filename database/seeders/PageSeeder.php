@@ -34,20 +34,20 @@ class PageSeeder extends Seeder
             );
         }
 
-        foreach ($themes as $theme)
-        {
-            Page::create(
-                [
-                    'title'=>'E-Services',
-                    'slug'=>'services',
-                    'page_description'=>'services page',
-                    'content'=>'services page content',
-                    'theme_id'=>$theme->id,
-                    'parent_page'=>0,
-                    'page_level'=>1
-                ]
-            );
-        }
+//        foreach ($themes as $theme)
+//        {
+//            Page::create(
+//                [
+//                    'title'=>'E-Services',
+//                    'slug'=>'services',
+//                    'page_description'=>'services page',
+//                    'content'=>'services page content',
+//                    'theme_id'=>$theme->id,
+//                    'parent_page'=>0,
+//                    'page_level'=>1
+//                ]
+//            );
+//        }
 
         foreach ($themes as $theme)
         {
