@@ -19,7 +19,7 @@
                 <div class="large_text animated">{{$content->title}}<div class="medium_text animated" contenteditable="true">{{$content->title}}</div>
                     <div class='console-underscore' id='console'>&#95;</div></div>
                 <div class="banner_btn">
-                    <center><a class="theam_btn animated" href="#" contenteditable="true">Read More</a></center>
+                    <center><a class="theam_btn animated" href="{{@$content->source_link}}">Read More</a></center>
                 </div>
                 <div class="banner_search_form">
                     <label>Search Here</label>
