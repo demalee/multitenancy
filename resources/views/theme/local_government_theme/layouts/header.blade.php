@@ -96,9 +96,19 @@
 {{--                                </ul>--}}
 {{--                            </li>--}}
 
-{{--                                            <li><a href="{{url('event')}}">E-services</a></li>--}}
+
+
                                    @auth
                                        @if(@auth()->user()->role_id == 1)
+
+                                        <li><a href="#">E-services</a>
+                                            <ul class="child">
+                                                <li><a href="https://sms.berrycom.co.ke/login">SMS </a></li>
+                                                <li><a href="https://sms.berrycom.co.ke/login">Payment Service</a></li>
+
+                                            </ul>
+                                        </li>
+
                                     <li>
                                         <a  href="{{ url('main') }}">Dashboard</a>
                                     </li>
