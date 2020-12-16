@@ -29,7 +29,7 @@ class ThemeSeeder extends Seeder
                 'id'=>2,
                 'name'=> 'netaji_theme',
                 'slug'=>'netaji_theme',
-                'theme_image'=>'mandera.JPG',
+                'theme_image'=>'mandera.jpg',
                 'status_active'=>0
             ],
             [
