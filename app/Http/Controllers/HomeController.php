@@ -45,6 +45,18 @@ class HomeController extends Controller
         return $website->website_id;
     }
 
+    public function configTest(Request $request)
+    {
+
+    }
+
+    private function website_details()
+    {
+        $user = auth()->id();
+        $web_id  = WebsiteUser::where('user_id',$user)->first();
+        return Website::findorfail($web_id->website_id);
+    }
+
     public function createUser(Request $request)
     {
         $data = $request->all();

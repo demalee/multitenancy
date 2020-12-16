@@ -18,43 +18,79 @@
     <!-- Container-fluid starts-->
     <div class="container-fluid">
         <div class="row">
-            <div class="col-sm-6">
+            @if($website->status_active == 0)
+                <div class="col-sm-8">
 
-                <div class="card">
-                    <div class="card-header">
-                        <h5>DNS Management
-                        </h5>
-                        <h6></h6>
+                    <div class="card">
+                        <div class="card-header">
+                            <h5>DNS Management
+                            </h5>
+                            <h6></h6>
+                        </div>
+                        <form class="form theme-form" method="post" action="#" enctype="multipart/form-data">
+                            @csrf
+                            <div class="card-body">
+
+                                <div class="row">
+                                    <div class="col text-center">
+                                        {{--                                    <div class="form-group row">--}}
+                                        {{--                                        <div class="col-sm-9">--}}
+
+                                        {{--                                        <label>Initial Name Server</label>--}}
+                                        {{--                                            <input class="form-control" name="brand_name" type="text" placeholder="www.test.com">--}}
+                                        {{--                                        </div>--}}
+                                        {{--                                    </div>--}}
+                                        {{--                                    <div class="form-group row">--}}
+                                        {{--                                        <div class="col-sm-9">--}}
+
+                                        {{--                                        <label>New Name Server</label>--}}
+                                        {{--                                            <input class="form-control" name="brand_name" type="text" placeholder=" www.test2.com">--}}
+                                        {{--                                        </div>--}}
+                                        {{--                                    </div>--}}
+                                        <div>
+                                            <br>
+                                            <br>
+                                            <span class="fa fa-5x fa-times" style="color: red"></span>
+                                            <br>
+                                            <br>
+                                            <h3>Website is inactive,Would you like to activate it? </h3>
+                                            <br>
+                                            <br>
+                                        </div>
+                                        <button class="btn btn-primary" >Activate</button>
+                                    </div></div>
+
+                            </div>
+                            {{--                        <div class="card-footer">--}}
+                            {{--                            --}}
+                            {{--                        </div>--}}
+                        </form>
                     </div>
-                    <form class="form theme-form" method="post" action="#" enctype="multipart/form-data">
-                        @csrf
+                </div>
+
+            @else
+
+                <div class="col-sm-8">
+                    <div class="card text-center">
+                        <div class="card-header">
+                            <h5>DNS Management
+                            </h5>
+                            <h6></h6>
+                        </div>
                         <div class="card-body">
 
-                            <div class="row">
-                                <div class="col">
-                                    <div class="form-group row">
-                                        <div class="col-sm-9">
-
-                                        <label>Initial Name Server</label>
-                                            <input class="form-control" name="brand_name" type="text" placeholder="www.test.com">
-                                        </div>
-                                    </div>
-                                    <div class="form-group row">
-                                        <div class="col-sm-9">
-
-                                        <label>New Name Server</label>
-                                            <input class="form-control" name="brand_name" type="text" placeholder=" www.test2.com">
-                                        </div>
-                                    </div>
-                                </div></div>
-
+                            <br>
+                            <br>
+                            <span class="fa fa-5x fa-check" style="color: green"></span>
+                            <br>
+                            <br>
+                            <h3>Website is Active!!! </h3>
+                            <br>
+                            <br>
                         </div>
-                        <div class="card-footer">
-                            <button class="btn btn-primary" >Change DNS</button>
-                        </div>
-                    </form>
+                    </div>
                 </div>
-            </div>
+            @endif
         </div>
     </div>
 
