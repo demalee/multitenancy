@@ -24,12 +24,10 @@
                 <div class="city_about_list">
                     <!--SECTION HEADING START-->
                     <div class="section_heading border">
-                        <span contenteditable="true">Welcome to </span>
-                        <h2 contenteditable="true">Municipal</h2>
+                        <h2 contenteditable="true">{{@$content->title}}</h2>
                     </div>
                     <!--SECTION HEADING END-->
                     <div class="city_about_text">
-                        <h6 contenteditable="true">{{@$content->title}}</h6>
                         <p contenteditable="true">{{@$content->description}}</p>
                     </div>
 {{--                    <ul class="city_about_link">--}}
