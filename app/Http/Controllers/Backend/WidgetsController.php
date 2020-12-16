@@ -175,10 +175,7 @@ class WidgetsController extends Controller
             $logo_url = env('APP_URL') . "/images/" . $attach1;
             $data['content_file'] = $attach1;
         }
-        if ($this->validateTime($data)->fails())
-        {
-            return back()->with('error','Start time needs to be less than end time');
-        }
+        $this->validateTime($data);
         $content = WidgetContent::create([
             'title' => @$data['title'],
             'description' => @$data['description'],
@@ -249,10 +246,7 @@ class WidgetsController extends Controller
                 $data['content_file'] = $attach1;
             }
 
-            if ($this->validateTime($data)->fails())
-            {
-                return back()->with('error','Start time needs to be less than end time');
-            }
+            $this->validateTime($data);
 
             $content->update([
                 'title' => @$data['title'],
@@ -294,10 +288,14 @@ class WidgetsController extends Controller
         {
             $data['s_time'] = Carbon::createFromDate($data['source_date'].' '. $data['start_time']);
             $data['e_time'] = Carbon::createFromDate($data['source_date'].' '. $data['end_time']);
-            return Validator::make($data,[
+            $validate = Validator::make($data,[
                 's_time'=>'date',
                 'e_time'=>'date|after:s_time'
             ]);
+
+            if($validate->fails()){
+                return back()->with('error','Start time needs to be less than end time');
+            }
 
         }
     }
