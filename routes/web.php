@@ -83,10 +83,8 @@ Route::get('/dashboard/pages/create', function () {
         return view('/dashboard/social',compact('social_link'));
 
     });
-    Route::get('/dashboard/dns', function () {
-        return view('/dashboard/dns');
 
-    });Route::get('/dashboard/users', function () {
+    Route::get('/dashboard/users', function () {
         $roles = \App\Models\Role::get();
         $web = WebsiteUser::where('user_id',auth()->id())->first();
         $website = \App\Models\Website::where('id',$web->website_id)->first();
@@ -106,7 +104,7 @@ Route::get('/dashboard/pages', [App\Http\Controllers\HomeController::class, 'pag
 Route::get('/dashboard/widgets_edit/{id}', [App\Http\Controllers\HomeController::class, 'editWidgets'])->name('dashboard.widgets_edit');
 Route::get('/dashboard/website', [App\Http\Controllers\HomeController::class, 'steps'])->name('dashboard.website');
 Route::post('/dashboard/create-user', [App\Http\Controllers\HomeController::class, 'createUser'])->name('dashboard.create_user');
-
+Route::post('/main/config', [App\Http\Controllers\HomeController::class, 'configTest'])->name('config.test');
 //website routes
 Route::resource('websites',App\Http\Controllers\Backend\WebsiteController::class);
 Route::post('dashboard/website/setting',[\App\Http\Controllers\Backend\WebsiteController::class,'websiteSettings'])->name('dashboard.setting');
@@ -157,6 +155,7 @@ Route::get('{page}',function ($slug)
 
 //menu controller
 Route::resource('dashboard/menus',App\Http\Controllers\Backend\MenuController::class);
+Route::resource('dashboard/dns',App\Http\Controllers\DNSController::class);
 Route::get('dashboard/submenus',[App\Http\Controllers\Backend\MenuController::class, 'subMenus']);
 Route::get('dashboard/submenus/{id}',[App\Http\Controllers\Backend\MenuController::class, 'subMenu']);
 Route::post('dashboard/submenus/{id}',[App\Http\Controllers\Backend\MenuController::class, 'editSubmenu']);
