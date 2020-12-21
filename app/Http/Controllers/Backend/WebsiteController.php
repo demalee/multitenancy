@@ -300,10 +300,25 @@ class WebsiteController extends Controller
                     $folder_name = $web_arr[0];
                     $output = shell_exec('./website_script.sh '.$folder_name);
 
+                    $this->activateWebsite($website, $folder_name);
+
                     return redirect('/home');
 
                 }
             }
+        }
+    }
+
+    private function activateWebsite($website,$folder_name)
+    {
+        $ip_address = "51.158.77.95";
+        $output = exec('./ping_net.sh '.$website->name);
+        if ($output == $ip_address)
+        {
+            $output1 = shell_exec('./generate.sh '.$website->name. ' '. $folder_name);
+            $website->update([
+                'status_active'=>1
+            ]);
         }
     }
 

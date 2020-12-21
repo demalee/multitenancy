@@ -43,18 +43,23 @@ class DNSController extends Controller
         $website = $this->website_details();
         $web_arr = explode('.',$website->name);
         $folder_name = $web_arr[0];
-        $output = shell_exec('./ping_net.sh '.$website->name. ' '. $folder_name);
+        $ip_address = "51.158.77.95";
 
-        if ($output = "fail\n")
+        //generate website folders if they dont exist
+        $out = shell_exec('./website_script.sh '.$folder_name);
+
+        $output = exec('./ping_net.sh '.$website->name. ' '. $folder_name);
+//        dd($output);
+        if ($output != $ip_address)
         {
             return back()->with('error', 'Error occurred, pinging the website failed');
         }
         else
         {
             $output1 = shell_exec('./generate.sh '.$website->name. ' '. $folder_name);
-//            $this->website_details()->update([
-//                'status_active'=>1
-//            ]);
+            $this->website_details()->update([
+                'status_active'=>1
+            ]);
 
             return back()->with('success', "successfully pinged");
         }
