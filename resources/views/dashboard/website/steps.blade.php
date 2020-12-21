@@ -89,7 +89,7 @@
                     <div id="progressbar"></div>
                 </div>
                 <!-- /top-wizard -->
-                <form method="POST" action="{{route('websites.store')}}" enctype="multipart/form-data">
+                <form method="POST" action="{{route('webs.store')}}" enctype="multipart/form-data">
                     @csrf
                     <input id="website" name="website" type="text" value="">
 
