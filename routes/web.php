@@ -106,7 +106,7 @@ Route::get('/dashboard/website', [App\Http\Controllers\HomeController::class, 's
 Route::post('/dashboard/create-user', [App\Http\Controllers\HomeController::class, 'createUser'])->name('dashboard.create_user');
 Route::post('/main/config', [App\Http\Controllers\HomeController::class, 'configTest'])->name('config.test');
 //website routes
-Route::resource('websites',App\Http\Controllers\Backend\WebsiteController::class);
+Route::resource('webs',App\Http\Controllers\Backend\WebsiteController::class);
 Route::post('dashboard/website/setting',[\App\Http\Controllers\Backend\WebsiteController::class,'websiteSettings'])->name('dashboard.setting');
 Route::post('dashboard/website/setting/update/{id}',[\App\Http\Controllers\Backend\WebsiteController::class,'websiteSettingsUpdate'])->name('dashboard.setting');
 

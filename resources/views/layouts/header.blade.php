@@ -84,12 +84,12 @@
 
                     </li>
 
-                    <li class="dropdown">
-                        <a class="nav-link menu-title" href="{{url('dashboard/block')}}"><i data-feather="shuffle"></i><span>Block</span>
+{{--                    <li class="dropdown">--}}
+{{--                        <a class="nav-link menu-title" href="{{url('dashboard/block')}}"><i data-feather="shuffle"></i><span>Block</span>--}}
 
-                        </a>
+{{--                        </a>--}}
 
-                    </li>
+{{--                    </li>--}}
                 </ul>
             </div>
             <div class="right-arrow" id="right-arrow"><i data-feather="arrow-right"></i></div>
