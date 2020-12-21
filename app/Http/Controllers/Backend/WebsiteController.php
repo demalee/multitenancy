@@ -302,7 +302,7 @@ class WebsiteController extends Controller
 
                     $this->activateWebsite($website, $folder_name);
 
-                    return redirect('/home');
+                    return redirect()->route('home');
 
                 }
             }
