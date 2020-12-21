@@ -296,14 +296,29 @@ class WebsiteController extends Controller
                             'logo_name'=>@$data['logo_name'],
                         ]);
 
-//                    $web_arr = explode('.',$website->name);
-//                    $folder_name = $web_arr[0];
-//                    $output = shell_exec('./website_script.sh '.$folder_name);
+                    $web_arr = explode('.',$website->name);
+                    $folder_name = $web_arr[0];
+                    $output = shell_exec('./website_script.sh '.$folder_name);
+
+                    $this->activateWebsite($website, $folder_name);
 
                     return redirect()->route('home');
 
                 }
             }
+        }
+    }
+
+    private function activateWebsite($website,$folder_name)
+    {
+        $ip_address = "51.158.77.95";
+        $output = exec('./ping_net.sh '.$website->name);
+        if ($output == $ip_address)
+        {
+            $output1 = shell_exec('./generate.sh '.$website->name. ' '. $folder_name);
+            $website->update([
+                'status_active'=>1
+            ]);
         }
     }
 
