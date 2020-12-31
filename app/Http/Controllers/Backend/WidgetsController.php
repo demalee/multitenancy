@@ -16,6 +16,7 @@ use App\Models\WidgetContent;
 use Carbon\Carbon;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Validator;
+use Illuminate\Support\Str;
 
 class WidgetsController extends Controller
 {
@@ -34,9 +35,29 @@ class WidgetsController extends Controller
 
     public function getWebsite()
     {
-        $user = auth()->id();
-        $website = WebsiteUser::where('user_id',$user)->first();
-        return $website->website_id;
+        if (auth()->user())
+        {
+            $user = auth()->id();
+            $web = WebsiteUser::where('user_id',$user)->first();
+            $website = Website::where('id', $web->website_id)->first();
+        }
+        else
+        {
+            $app_url = env('APP_URL');
+//        $app_url = request()->root();
+            if (Str::startsWith($app_url, 'http://'))
+            {
+                $domain = substr ($app_url, 7); // $domain is now 'www.example.com'
+            }
+            elseif (Str::startsWith($app_url,'https://'))
+            {
+                $domain = substr ($app_url, 8); // $domain is now 'www.example.com'
+            }
+
+            $website = Website::where('name',$domain)->first();
+        }
+
+        return @$website->id;
     }
 
     public function index()

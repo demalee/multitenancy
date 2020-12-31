@@ -5,5 +5,6 @@
     <mapping directory="$PROJECT_DIR$/public/websites/example" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/public/websites/example.com" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/public/websites/folder1/multitenancy" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/public/websites/scsdsd" vcs="Git" />
   </component>
 </project>
