@@ -16,21 +16,8 @@ class DNSController extends Controller
      */
     public function index()
     {
-        //
-        $app_url = env('APP_URL');
-//        $app_url = request()->root();
-        if (Str::startsWith($app_url, 'http://'))
-        {
-            $domain = substr ($app_url, 7); // $domain is now 'www.example.com'
-        }
-        elseif (Str::startsWith($app_url,'https://'))
-        {
-            $domain = substr ($app_url, 8); // $domain is now 'www.example.com'
-        }
+        $website = \App\Models\Website::where('id',$this->website_details())->first();
 
-        $web = WebsiteUser::where('user_id',auth()->id())->first();
-        $website = \App\Models\Website::where('name',$domain)->first();
-//        dd($website);
         return view('/dashboard/dns',compact('website'));
     }
 
@@ -53,13 +40,11 @@ class DNSController extends Controller
     public function store(Request $request)
     {
         //
-        $website = $this->website_details();
+
+        $website = Website::findorfail($this->website_details());
         $web_arr = explode('.',$website->name);
         $folder_name = $web_arr[0];
         $ip_address = "51.158.77.95";
-
-        //generate website folders if they dont exist
-        $out = shell_exec('./website_script.sh '.$folder_name);
 
         $output = exec('./ping_net.sh '.$website->name. ' '. $folder_name);
 
@@ -69,15 +54,19 @@ class DNSController extends Controller
         }
         else
         {
+            //generate website folders if they dont exist
+            $out = shell_exec('./website_script.sh '.$folder_name);
+
             $output1 = shell_exec('./generate.sh '.$website->name. ' '. $folder_name);
-            $this->website_details()->update([
+            $website->update([
                 'status_active'=>1
             ]);
 
-            $env_update = $this->changeEnv('/public/websites/'.$folder_name,[
+            $env_update = $this->changeEnv('/public/websites/'.$folder_name.'/.env',[
                 'APP_URL'   => 'http://'.$website->name,
             ]);
 
+//            shell_exec('mv  '.$website->name.' /etc/nginx/sites-enabled/');
             return back()->with('success', "successfully pinged");
         }
     }
@@ -114,9 +103,8 @@ class DNSController extends Controller
 
             // Turn the array back to an String
             $env = implode("\n", $env);
-
             // And overwrite the .env with the new data
-            file_put_contents(base_path() . '/.env', $env);
+            file_put_contents(base_path() . $path, $env);
 
             return true;
         } else {
@@ -135,11 +123,31 @@ class DNSController extends Controller
     }
 
 
-    protected function website_details()
+    public function website_details()
     {
-        $user = auth()->id();
-        $web_id  = WebsiteUser::where('user_id',$user)->first();
-        return Website::findorfail($web_id->website_id);
+        if (auth()->user())
+        {
+            $user = auth()->id();
+            $web = WebsiteUser::where('user_id',$user)->first();
+            $website = Website::where('id', $web->website_id)->first();
+        }
+        else
+        {
+            $app_url = env('APP_URL');
+//        $app_url = request()->root();
+            if (Str::startsWith($app_url, 'http://'))
+            {
+                $domain = substr ($app_url, 7); // $domain is now 'www.example.com'
+            }
+            elseif (Str::startsWith($app_url,'https://'))
+            {
+                $domain = substr ($app_url, 8); // $domain is now 'www.example.com'
+            }
+
+            $website = Website::where('name',$domain)->first();
+        }
+
+        return @$website->id;
     }
 
 
