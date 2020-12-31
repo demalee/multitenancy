@@ -296,11 +296,11 @@ class WebsiteController extends Controller
                             'logo_name'=>@$data['logo_name'],
                         ]);
 
-                    $web_arr = explode('.',$website->name);
-                    $folder_name = $web_arr[0];
-                    $output = shell_exec('./website_script.sh '.$folder_name);
-
-                    $this->activateWebsite($website, $folder_name);
+//                    $web_arr = explode('.',$website->name);
+//                    $folder_name = $web_arr[0];
+//                    $output = shell_exec('./website_script.sh '.$folder_name);
+//
+//                    $this->activateWebsite($website, $folder_name);
 
                     return redirect()->route('home');
 

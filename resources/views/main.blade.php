@@ -43,16 +43,16 @@
                                                 </a>
                                             </li>
                                         </ul>
-                                            <ul>
-                                                <li>
+{{--                                            <ul>--}}
+{{--                                                <li>--}}
 
-                                                    <form action="{{route('config.test')}}" method="post">
-                                                        @csrf
-                                                        <button class="btn btn-primary">Submit</button>
-                                                    </form>
-                                                </li>
+{{--                                                    <form action="{{route('config.test')}}" method="post">--}}
+{{--                                                        @csrf--}}
+{{--                                                        <button class="btn btn-primary">Submit</button>--}}
+{{--                                                    </form>--}}
+{{--                                                </li>--}}
 
-                                            </ul>
+{{--                                            </ul>--}}
                                         </div></div>
                                 </div>
                             </div>
