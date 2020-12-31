@@ -18,7 +18,7 @@ class EnsureWebsiteIsFound
      */
     public function handle(Request $request, Closure $next)
     {
-        if ($request->root() != 'http://127.0.0.1:8002')
+        if ($request->root() != 'https://multisite.berrycom.co.ke')
         {
             $actionName =Route::currentRouteName();
             if ($actionName == 'welcome')
