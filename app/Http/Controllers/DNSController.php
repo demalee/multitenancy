@@ -17,6 +17,7 @@ class DNSController extends Controller
     public function index()
     {
         $website = \App\Models\Website::where('id',$this->website_details())->first();
+
         return view('/dashboard/dns',compact('website'));
     }
 
