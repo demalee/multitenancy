@@ -14,7 +14,7 @@
                     <h4 contenteditable="true">{{@$content->title}}</h4>
                     <p contenteditable="true">{{@$content->description}}</p>
                     <div class="city_blog_social">
-                        <a class="theam_btn border-color color" href="#" tabindex="0">Read More</a>
+                        <a class="theam_btn border-color color" href="{{@$content->source_link}}" tabindex="0">Read More</a>
                         <div class="city_blog_icon_list">
                             <ul class="social_icon">
                                 <li><a href="#"><i class="fa fa-facebook"></i></a></li>
@@ -39,7 +39,7 @@
                     <h4 contenteditable="true">{{@$content->title}}</h4>
                     <p contenteditable="true">{{@$content->description}}</p>
                     <div class="city_blog_social">
-                        <a class="theam_btn border-color color" href="#" tabindex="0">Read More</a>
+                        <a class="theam_btn border-color color" href="{{@$content->source_link}}" tabindex="0">Read More</a>
                         <div class="city_blog_icon_list">
                             <ul class="social_icon">
                                 <li><a href="#"><i class="fa fa-facebook"></i></a></li>

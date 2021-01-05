@@ -4,7 +4,7 @@
             <div class="row">
                 <div class="col-xl-12">
                     <div class="section-title text-center mb-60">
-                        <h1 contenteditable="true">Gallery</h1>
+                        <h1 contenteditable="true">County Gallery</h1>
                     </div>
                 </div>
             </div>
@@ -18,13 +18,8 @@
                         @foreach($widget->get_content($widget->id)[0] as $content)
                             <div class="col-md-4">
                         <div class="event-wrapper">
-
                             <div class="event-img">
-
                                 <img src="{{asset('images/'.$content->content_image)}}" alt="" style="height: 250px; width: 250px;"/>
-
-                                <div class="event-text">
-                                </div>
                             </div>
                         </div></div>
                         @endforeach

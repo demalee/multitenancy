@@ -24,7 +24,7 @@
                             <div class="events-text">
                                 <h3><a href="#" contenteditable="true">{{@$content->title}}</a></h3>
                                 <p contenteditable="true">{{\Illuminate\Support\Str::limit(@$content->description,150,'...')}}</p>
-                                <a class="btn" href="#">view details</a>
+                                <a class="btn" href="{{@$content->source_link}}">Read More</a>
                             </div>
                         </div>
                     </div>

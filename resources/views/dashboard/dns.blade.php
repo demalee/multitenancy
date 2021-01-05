@@ -91,7 +91,23 @@
                     </div>
                 </div>
             @endif
+                <div class="col-sm-4">
+                    <div class="browse-articles browse-bottom">
+                        <h6><span><i data-feather=""></i> <span class="badge badge-primary "><u>How to Map an External domain</u></span></span></h6>
+                        <ol start="1">
+                            <li><span><i data-feather=""></i></span><span>Login to your domain control panel  </span></li>
+                            <li><span><i data-feather=""></i></span><span>Find the domain you want to map and got to DNS settings page</span></li>
+                            <li><span><i data-feather=""></i></span><span>If you want to point the www subdomain to your website (eg www.mydomain.com),add CNAME record,setting the host to www amd pointing it to eg https://multisite.berrycom.co.ke/</span></li>
+                            <li><span><i data-feather=""></i></span><span>If you want to point the naked domain to your website (for example mydomain.com),add A record,setting the host to '@' amd pointing to </span></li>
+                            <li><span><i data-feather=""></i></span><span>Click the 'Test Mapping' button to check if the DNS is setup correctly.DNS changes can take anything from 2 minutes to a few hours </span></li>
+                            <li><span><i data-feather=""></i></span><span>If the test is ok,click the 'map Domain' button to complete the process </span></li>
+<br>
+                            <p><a href="https://www.name.com/support/articles/360051188773-Mapping-a-domain-name-to-your-site-v-v-" target="_blank" ><span><i data-feather="arrow-right"></i></span><span>Link to the instructions</span></a></p>
+                        </ol>
+                    </div>
+                </div>
         </div>
+
     </div>
 
 @endsection

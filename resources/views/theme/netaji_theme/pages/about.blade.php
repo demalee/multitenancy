@@ -7,11 +7,11 @@
 
         @endif
 
-        @if($widget->name == "Banner" and $widget->active_status(@$page_id->id,@$widget->id))
+{{--        @if($widget->name == "Banner" and $widget->active_status(@$page_id->id,@$widget->id))--}}
 
-            @include('theme.netaji_theme.widgets.info')
+{{--            @include('theme.netaji_theme.widgets.info')--}}
 
-        @endif
+{{--        @endif--}}
 
 
         @if($widget->name == "Department" and $widget->active_status(@$page_id->id,@$widget->id))
