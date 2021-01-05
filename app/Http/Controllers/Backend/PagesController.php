@@ -140,7 +140,7 @@ class PagesController extends Controller
     {
         //
         $page = Page::findorfail($id);
-        return view('dashboard.pages.edit',compact('page'));
+        return view('dashboard.pages.edit_title',compact('page'));
     }
 
     /**
