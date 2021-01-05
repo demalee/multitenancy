@@ -10,6 +10,9 @@
 
         <div class="slider-area">
             @foreach($widget->get_content($widget->id)[0] as $content)
+                @if($counter > 0)
+                    @break
+                @endif
             <div class="slider-active">
                 <div class="single-slider slider-height d-flex align-items-center" style="background-image:url({{asset('images/'.$content->content_image)}})">
                     <div class="container">
@@ -18,7 +21,7 @@
                                 <div class="slider-content">
                                     <h1 data-animation="fadeInUp" data-delay=".4s" contenteditable="true">{{$content->title}}</h1>
                                     <p data-animation="fadeInUp" data-delay=".6s"  contenteditable="true">{{$content->description}}</p>
-                                    <a data-animation="fadeInUp" data-delay=".8s" class="btn" href="#" contenteditable="true">join with us</a>
+                                    <a data-animation="fadeInUp" data-delay=".8s" class="btn" href="{{@$content->source_link}}">Read More</a>
                                 </div>
                             </div>
                         </div>

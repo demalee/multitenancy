@@ -5,7 +5,7 @@
                 <div class="row">
                     <div class="col-xl-12">
                         <div class="section-title text-center mb-60">
-                            <h1 contenteditable="true">News, <br> latest <span>Articles & Tips</span></h1>
+                            <h1 contenteditable="true">News, latest <span>Articles & Tips</span></h1>
                         </div>
                     </div>
                 </div>
@@ -15,11 +15,11 @@
                     <div class="col-xl-6 col-lg-6 col-md-6">
                         <div class="blog-wrapper mb-30">
                             <div class="blog-img">
-                                <a href="{{url('blog')}}"><img src="{{asset('images/'.$content->content_image)}}" alt="" /></a>
+                                <a href="{{@$content->source_link}}"><img src="{{asset('images/'.$content->content_image)}}" alt="" /></a>
                                 <div class="blog-text">
                                     <span contenteditable="true">{{\Carbon\Carbon::parse(@$content->source_date)->format('d F Y')}}</span>
-                                    <h2><a href="{{url('blog')}}" contenteditable="true">{{\Illuminate\Support\Str::limit(@$content->description,100,'...')}}</a></h2>
-                                    <a href="{{url('blog')}}">read more</a>
+                                    <h2><a href="{{@$content->source_link}}" contenteditable="true">{{\Illuminate\Support\Str::limit(@$content->description,100,'...')}}</a></h2>
+                                    <a href="{{@$content->source_link}}">read more</a>
                                 </div>
                             </div>
                         </div>

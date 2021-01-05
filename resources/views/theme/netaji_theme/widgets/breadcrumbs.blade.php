@@ -1,5 +1,9 @@
 @if($widget->get_content($widget->id)[1] > 0)
-
+    @php $counter=0 @endphp
+    @foreach($widget->get_content($widget->id)[0] as $content)
+        @if($counter > 0)
+            @break
+        @endif
     <div class="breadcrumb-area pt-250 pb-250" style="background-image:url({{asset('images/'.$content->content_image)}})">
         <div class="container">
             <div class="row">
@@ -15,7 +19,8 @@
             </div>
         </div>
     </div>
-
+        @php $counter++ @endphp
+    @endforeach
 @else
        <div class="breadcrumb-area pt-250 pb-250" style="background-image:url(theme/netaji/img/bg/8.jpg)">
 

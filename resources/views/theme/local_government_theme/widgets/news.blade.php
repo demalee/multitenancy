@@ -12,11 +12,11 @@
                 <div class="city_news_text">
                     <h2 contenteditable="true">{{\Illuminate\Support\Str::limit(@$content->title,10,'...')}}</h2>
                     <ul class="city_news_meta">
-                        <li><a href="#" contenteditable="true">May 22, 2018</a></li>
-                        <li><a href="#" contenteditable="true">Public Notices</a></li>
+                        <li><a href="#" contenteditable="true">{{\Carbon\Carbon::parse(@$content->source_date)->format('d F Y')}}</a></li>
+                        <li><a href="#" contenteditable="true">{{@$content->title}}</a></li>
                     </ul>
                     <p contenteditable="true">{{\Illuminate\Support\Str::limit(@$content->description,100,'...')}}</p>
-                    <a class="theam_btn border-color color" href="#" tabindex="0">Read More</a>
+                    <a class="theam_btn border-color color" href="{{@$content->source_link}}" tabindex="0">Read More</a>
                     <br><br>
                 </div>
             </div>
