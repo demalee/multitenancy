@@ -1,1 +1,1 @@
-certbot --nginx -d example.com -d www.example.com
+certbot certonly --standalone --preferred-challenges tls-sni -d $1
