@@ -7,6 +7,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 })->name('welcome');
+Route::get('/steps', function () {
+    return view('steps');
+})->name('steps');
 //Route::get('/',[App\Http\Controllers\PageController::class, 'index']);
 Route::middleware(['auth'])->group(function () {
 

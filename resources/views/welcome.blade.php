@@ -19,7 +19,43 @@
 </div>
 
 
+<!-- Grid row -->
+<style>
+    ul.timeline {
+        list-style-type: none;
+        position: relative;
+    }
+    ul.timeline:before {
+        content: ' ';
+        background: #d4d9df;
+        display: inline-block;
+        position: absolute;
+        left: 29px;
+        width: 2px;
+        height: 100%;
+        z-index: 400;
+    }
+    ul.timeline > li {
+        margin: 20px 0;
+        padding-left: 20px;
+    }
+    ul.timeline > li:before {
+        content: ' ';
+        background: white;
+        display: inline-block;
+        position: absolute;
+        border-radius: 50%;
+        border: 3px solid #22c0e8;
+        left: 20px;
+        width: 20px;
+        height: 20px;
+        z-index: 400;
+    }
+</style>
 
+<!------ Include the above in your HEAD tag ---------->
+
+<!------ Include the above in your HEAD tag ---------->
 
 <section class="site-section" id="home">
     <div class="container">
@@ -34,13 +70,13 @@
                     <div class="number-behind">01.</div>
                     <h2 class="text-primary">Create Account</h2>
                     <p class="mb-4">First create account if you dont have one,or login if you already have an account with us.</p>
-                    <p class="mb-4">Fill in the following details in registration page.</p>
+{{--                    <p class="mb-4">Fill in the following details in registration page.</p>--}}
 
-                    <ul class="list-unstyled ul-check primary">
-                        <li>Your name</li>
-                        <li>Your username/Email</li>
-                        <li>Your Password</li>
-                    </ul>
+{{--                    <ul class="list-unstyled ul-check primary">--}}
+{{--                        <li>Your name</li>--}}
+{{--                        <li>Your username/Email</li>--}}
+{{--                        <li>Your Password</li>--}}
+{{--                    </ul>--}}
                 </div>
             </div>
 
@@ -49,13 +85,13 @@
                     <div class="number-behind">02.</div>
                     <h2 class="text-primary">Website creation process</h2>
                     <p class="mb-4">After successully creating an account with us for the first time,you will be redirected to a page that will allow you to create your website.</p>
-                    <p class="mb-4">The first process is filling in the webiste information.</p>
+{{--                    <p class="mb-4">The first process is filling in the webiste information.</p>--}}
 
-                    <ul class="list-unstyled ul-check primary">
-                        <li>Website title-This is the url or domain of the website you want to create.</li>
-                        <li>Website description-Describe the website you want to create,the use and its goals</li>
+{{--                    <ul class="list-unstyled ul-check primary">--}}
+{{--                        <li>Website title-This is the url or domain of the website you want to create.</li>--}}
+{{--                        <li>Website description-Describe the website you want to create,the use and its goals</li>--}}
 
-                    </ul>
+{{--                    </ul>--}}
                 </div>
             </div>
 
@@ -66,11 +102,11 @@
                     <p class="mb-4">We have provided you with sample themes where you will choose to create the website</p>
                     <p class="mb-4">The themes are for the looks and feels of the website.</p>
 
-                    <ul class="list-unstyled ul-check primary">
-                        <li>You will be able to manipulate the theme you have choosen based on your interest.This is done in the dashboard</li>
-                        <li>You will be able to create your own content,add images and edit the website as per your preference</li>
+{{--                    <ul class="list-unstyled ul-check primary">--}}
+{{--                        <li>You will be able to manipulate the theme you have choosen based on your interest.This is done in the dashboard</li>--}}
+{{--                        <li>You will be able to create your own content,add images and edit the website as per your preference</li>--}}
 
-                    </ul>
+{{--                    </ul>--}}
                 </div>
             </div>
             <div class="col-md-6 col-lg-3">
@@ -80,19 +116,26 @@
                     <p class="mb-4">Menus are basically the links and urls of the website.</p>
                     <p class="mb-4">You will choose which menus you would like to appear on your websites.</p>
 
-                    <ul class="list-unstyled ul-check primary">
-                        <li>Header-Are the urlsof the webiste located at the top</li>
-                        <li>Subheader-Header can have a subheader.An example is in this landing page where we have phone number at the top then below it is header.</li>
-                        <li>Menu-Headers holds menus</li>
-                        <li>Submenu-Menus can consist of submenus(the dropdowns)</li>
-                        <li>Footer-Located at the bottom of the webiste</li>
-                        <li>Sidebar-Located either at the right or left of the website body.Holds urls or extra information</li>
+{{--                    <ul class="list-unstyled ul-check primary">--}}
+{{--                        <li>Header-Are the urlsof the webiste located at the top</li>--}}
+{{--                        <li>Subheader-Header can have a subheader.An example is in this landing page where we have phone number at the top then below it is header.</li>--}}
+{{--                        <li>Menu-Headers holds menus</li>--}}
+{{--                        <li>Submenu-Menus can consist of submenus(the dropdowns)</li>--}}
+{{--                        <li>Footer-Located at the bottom of the webiste</li>--}}
+{{--                        <li>Sidebar-Located either at the right or left of the website body.Holds urls or extra information</li>--}}
 
-                    </ul>
+{{--                    </ul>--}}
                 </div>
             </div>
         </div>
     </div>
+    <a href="{{url('steps')}}" class="bg-primary py-5 d-block">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md10"><h2 class="text-white">See More steps  </h2></div>
+            </div>
+        </div>
+    </a>
 </section>
 
 
