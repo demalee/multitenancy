@@ -53,7 +53,7 @@ class PageController extends Controller
                 $domain = substr ($app_url, 8); // $domain is now 'www.example.com'
             }
 
-            $website = Website::where('name',$domain)->first();
+            $website = Website::where('name',@$domain)->first();
         }
 
         return @$website->id;

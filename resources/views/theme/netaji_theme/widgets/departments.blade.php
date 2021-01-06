@@ -7,7 +7,7 @@
             <div class="row">
                 <div class="col-xl-12">
                     <div class="section-title text-center mb-60">
-                        <h1 contenteditable="true">The job of a leader is to love his country <br> and people of the country.Departments</h1>
+                        <h1 contenteditable="true">The job of a leader is to love his country</h1>
                     </div>
                 </div>
             </div>
@@ -22,7 +22,7 @@
                             </div>
                             <div class="feature-text">
                                 <h2 contenteditable="true">{{@$content->title}}</h2>
-                                <a class="btn" href="#" contenteditable="true">read more</a>
+                                <a class="btn" href="{{@$content->source_link}}">read more</a>
                             </div>
                         </div>
                         <div class="feature-content">
@@ -48,7 +48,7 @@
             <div class="row">
                 <div class="col-xl-12">
                     <div class="section-title text-center mb-60">
-                        <h1 contenteditable="true">The job of a leader is to love his country <br> and people of the country</h1>
+                        <h1 contenteditable="true">Departments</h1>
                     </div>
                 </div>
             </div>

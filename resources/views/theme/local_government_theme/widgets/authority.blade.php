@@ -2,7 +2,7 @@
     <div class="city_jobs_wrap">
         <div class="city_jobs_fig">
             <div class="city_jo_text">
-                <img src="{{asset('theme/local/extra-images/blog-fig.jpg')}}" alt="" style="height: 500px; width: 1000px;">
+                <img src="{{asset('images/'.$content->content_image)}}" alt="" style="height: 500px; width: 1000px;">
 
             </div>
         </div>

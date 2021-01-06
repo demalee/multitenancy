@@ -1,5 +1,4 @@
 <?php header('Access-Control-Allow-Origin: *'); ?>
-
     <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -145,10 +144,9 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-6 footer-copyright">
-                        <p class="mb-0">Copyright 2020 © Xolo All rights reserved.</p>
+                        <p class="mb-0">Copyright 2020 © Multisite.</p>
                     </div>
                     <div class="col-md-6">
-                        <p class="pull-right mb-0">Hand crafted & made with &nbsp;<i class="fa fa-heart"></i></p>
                     </div>
                 </div>
             </div>

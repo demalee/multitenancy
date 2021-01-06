@@ -26,7 +26,7 @@
                         </div>
                     </div>
                     <p contenteditable="true">{{\Illuminate\Support\Str::limit(@$content->description,150,'...')}}</p>
-                    <a href="#" contenteditable="true">  : <span>author</span></a>
+                    <a href="{{@$content->source_link}}" contenteditable="true">  <span>Read More</span></a>
                 </div>
             </div>
         </div>

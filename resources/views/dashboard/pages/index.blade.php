@@ -40,10 +40,10 @@
                                     <a href="{{url($page->slug)}}">{{url($page->slug)}}</a>
                                 </td>
                                 <td>
-                                    <a class="btn btn-pill btn-primary btn-air-secondary btn-sm" href="{{route('dashboard.widgets_edit',$page->id)}}">Edit Page Widgets</a>
+                                    <a class="btn btn-pill btn-primary btn-air-secondary btn-sm" href="{{route('dashboard.widgets_edit',$page->id)}}">Edit  Widget</a>
                                 </td>
                                 <td>
-                                    <a class="btn btn-pill btn-primary btn-air-secondary btn-sm" href="{{route('pages.edit',$page->id)}}">Edit</a>
+                                    <a class="btn btn-pill btn-primary btn-air-secondary btn-sm" href="{{route('dashboard.pages.edit_title',$page->id)}}">Edit</a>
                                 </td>
                                 <td>
                                     <form action="{{ route('pages.destroy', $page->id) }}" method="POST">

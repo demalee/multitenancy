@@ -101,6 +101,9 @@ Auth::routes();
 
 Route::get('/dashboard', [App\Http\Controllers\HomeController::class, 'index'])->name('dashboard');
 Route::get('/dashboard/pages', [App\Http\Controllers\HomeController::class, 'pages'])->name('dashboard.pages');
+Route::get('/dashboard/pages/edit_title/{id}', [App\Http\Controllers\Backend\PagesController::class, 'edit'])->name('dashboard.pages.edit_title');
+
+
 Route::get('/dashboard/widgets_edit/{id}', [App\Http\Controllers\HomeController::class, 'editWidgets'])->name('dashboard.widgets_edit');
 Route::get('/dashboard/website', [App\Http\Controllers\HomeController::class, 'steps'])->name('dashboard.website');
 Route::post('/dashboard/create-user', [App\Http\Controllers\HomeController::class, 'createUser'])->name('dashboard.create_user');

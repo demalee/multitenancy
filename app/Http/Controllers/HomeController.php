@@ -44,7 +44,10 @@ class HomeController extends Controller
         $website = WebsiteUser::where('user_id',$user)->first();
         return $website->website_id;
     }
-
+// public function edit_title(){
+//     return view('dashboard/pages/edit_title');
+//
+// }
     public function configTest(Request $request)
     {
 
