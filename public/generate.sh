@@ -20,5 +20,4 @@ $SED -i "s/{{DOMAIN}}/$1/g" $CONFIG
 $SED -i "s/{{PUBLIC_FOLDER}}/$2/g" $CONFIG
 
 mv  $CONFIG /etc/nginx/sites-enabled/
-service nginx reload
 echo "done"
