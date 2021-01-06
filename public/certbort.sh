@@ -1,3 +1,4 @@
-service nginx stop
-certbot certonly --standalone --preferred-challenges tls-sni -d $1
-service nginx start
+#service nginx stop
+#find / -type f -name ".certbot.lock" exec rm {} \
+certbot certonly --nginx  --preferred-challenges http  -d $1
+#service nginx start
