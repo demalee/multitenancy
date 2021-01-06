@@ -13,7 +13,7 @@
                         <li><a href="#home-section" class="nav-link">Home</a></li>
 
                         <li>
-                        <li><a href="#home" class="nav-link">How it Works</a></li>
+{{--                        <li><a href="#home" class="nav-link">How it Works</a></li>--}}
 
                         <li>
                         <li><a href="{{url('steps')}}" class="nav-link">Steps</a></li>
