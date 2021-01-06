@@ -59,7 +59,7 @@
             </div>
         </div>
     </div>
-    @include('our_layouts/layouts.header')
+    @include('our_layouts/layouts.header2')
     <main class="py-4">
 
         @yield('content')

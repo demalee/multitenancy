@@ -10,18 +10,18 @@
                 <nav class="site-navigation position-relative text-right" role="navigation">
 
                     <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
-                        <li><a href="#home-section" class="nav-link">Home</a></li>
+                        <li><a href="{{url('/')}}" class="nav-link">Home</a></li>
 
                         <li>
-                        <li><a href="#home" class="nav-link">How it Works</a></li>
+                        <li><a href="{{url('/')}}" class="nav-link">How it Works</a></li>
 
                         <li>
                         <li><a href="{{url('steps')}}" class="nav-link">Steps</a></li>
 
-                       <li> <a href="#services-section" class="nav-link">Services</a>
+                        <li> <a href="{{url('/')}}" class="nav-link">Services</a>
                         </li>
                         <li>
-                            <a href="#why-us" class="nav-link">Why Us</a>
+                            <a href="{{url('/')}}" class="nav-link">Why Us</a>
                         </li>
 
                         <li>@include('theme.default.layouts.authenticate')</li>

@@ -2,7 +2,7 @@
 	  ============================================================
 		   Font Color
 	  ============================================================
-*/ 
+*/
 .city_forget:hover,
 .city_checkout_list li a:hover,
 .dl-menuwrapper li a:hover,
@@ -18,7 +18,7 @@
 .forum_detail_deta .city_meta_list li a:hover,
 .forum_quote h5,
 .forum_detail_deta a i,
-.forum_author_text h6:hover a, 
+.forum_author_text h6:hover a,
 .forum_month a,
 .city_news2_detail .city_meta_list li a:hover,
 .city_news2_detail:hover h2,
@@ -44,7 +44,7 @@
 .event_categories_text a:hover,
 .categories_list ul li a:hover,
 .section_heading h3,
-.city_senior_team:hover .city_senior_team_text h5, 
+.city_senior_team:hover .city_senior_team_text h5,
 .city_senior_team_text a:hover,
 .city_local_link li a:hover,
 .city_health2_service:hover span,
@@ -87,7 +87,7 @@
 .city_service_text h5 a:hover,
 .banner_search_field a
 {
-	color:#df193a;
+	color:#1E371A;
 }
 
 
@@ -100,7 +100,7 @@
 .forum_fig.forum2 .forum_text span,
 .side_news_text:hover p,
 .side_news_text:hover span,
-.tabs li.active a, 
+.tabs li.active a,
 .tabs li.active a:hover,
 .city_health_text h2,
 .city_service2_fig:hover .city_service2_text a,
@@ -124,7 +124,7 @@
 .side_news_deatil:hover .theam_btn,
 .city_news2_post.post2:hover .theam_btn,
 .navigation ul li ul li a:hover,
-.blog_post_slide .slick-prev:hover, 
+.blog_post_slide .slick-prev:hover,
 .blog_post_slide .slick-next:hover,
 .blog_next_post ul li a:hover,
 .city_blog2_fig.fig2.detail .city_blog2_met:after,
@@ -170,7 +170,7 @@
 .city_department_wrap .slick-prev:hover,
 .city_department_wrap .slick-next:hover,
 .side_submit_form,
-.city_event2_fig:hover .theam_btn.btn2, 
+.city_event2_fig:hover .theam_btn.btn2,
 .city_event2_date,
 .city_visit_text .theam_btn:hover,
 .city_business_fig .city_service2_list span,
@@ -183,7 +183,7 @@
 .city_news_feild,
 .city_client_wrap,
 .city_event_fig:hover .event_date,
-.city_project_wrap .slick-prev:hover, 
+.city_project_wrap .slick-prev:hover,
 .city_project_wrap .slick-next:hover,
 .city_project_fig .overlay:before,
 .city_jobs_item.overlay:before,
@@ -194,13 +194,13 @@
 .city_department_fig:hover,
 .city_about_video .overlay:before,
 .city_top_social ul li a,
-.city_main_banner .slick-prev:hover, 
+.city_main_banner .slick-prev:hover,
 .city_main_banner .slick-next:hover,
 .banner_text,
 .city_top_navigation,
 .city_top_news span
 {
-	background-color:#df193a;
+	background-color:#1E371A;
 }
 
 
@@ -208,7 +208,7 @@
 
 /*background blue color*/
 .dl-menuwrapper .dl-menu,
-.dl-menuwrapper button:hover, 
+.dl-menuwrapper button:hover,
 .dl-menuwrapper button.dl-active,
 .dl-menuwrapper button,
 /**/
@@ -232,7 +232,7 @@
 .city_award_wrap,
 .special_service_text.overlay:before,
 .sab_banner.overlay:before,
-[class^="imghvr-"] .hover-theme, 
+[class^="imghvr-"] .hover-theme,
 [class*=" imghvr-"] .hover-theme,
 .city_project_fig:hover .overlay:before,
 [class^="imghvr-shutter-out-"]::before,
@@ -261,7 +261,7 @@
 .city_login h4:before,
 .side_news_deatil:hover .theam_btn,
 .navigation ul > li > ul,
-.blog_post_slide .slick-prev:hover, 
+.blog_post_slide .slick-prev:hover,
 .blog_post_slide .slick-next:hover,
 .forum_quote,
 .forum_card,
@@ -299,7 +299,7 @@
 .city_news2_text .theam_btn,
 .special_service_text .theam_btn:hover,
 .city_request_list,
-.city_project_wrap .slick-prev:hover, 
+.city_project_wrap .slick-prev:hover,
 .city_project_wrap .slick-next:hover,
 .section_heading.center:before,
 .city_blog_fig.position:hover .theam_btn,
@@ -311,7 +311,7 @@
 .city_top_social ul li a,
 .city_top_social ul li a:hover
 {
-	border-color:#df193a;
+	border-color:#1E371A;
 }
 
 
@@ -320,7 +320,7 @@
 .blog_post_author_text .city_top_social li a,
 .blog_detail_row .city_event_meta li a,
 .city_service2_btn.btn2 .theam_btn:hover,
-.tabs li.active a, 
+.tabs li.active a,
 .tabs li.active a:hover,
 .city_service2_fig:hover,
 .city_top_social ul li a:hover,
@@ -353,7 +353,7 @@
 .city_meta_list li a,
 .forum_detail_deta > a,
 .city_meta_list li a,
-.forum_author_text h6 a, 
+.forum_author_text h6 a,
 .forum_fig figure:before,
 .overlay:before,
 .city_news2_detail .city_meta_list li a,
@@ -411,7 +411,7 @@
 .theam_btn.btn2,
 .city_about_list.list2 .theam_btn,
 .accordion-section-title,
-.city_senior_team_text h5, 
+.city_senior_team_text h5,
 .city_senior_team_text a,
 .city_local_link li a,
 .city_health2_text .slick-prev,
@@ -436,7 +436,7 @@ textarea,
 .city_health_list,
 .city_health_list > span.overlay:before,
 .city_event2_fig,
-.theam_btn.btn2, 
+.theam_btn.btn2,
 .city_event2_text h4 a,
 .city_event2_text ul li a,
 .city_visit_text .theam_btn,
@@ -473,9 +473,9 @@ textarea,
 .city_date_text a i,
 .custom_size,
 .event_date,
-.city_project_wrap .slick-prev:before, 
+.city_project_wrap .slick-prev:before,
 .city_project_wrap .slick-next:before,
-.city_project_wrap .slick-prev, 
+.city_project_wrap .slick-prev,
 .city_project_wrap .slick-next,
 .theam_btn,
 .share_icon,
@@ -494,7 +494,7 @@ textarea,
 .city_top_social ul li a,
 .paly_btn,
 .city_service_text h5 a,
-.city_main_banner .slick-prev:before, 
+.city_main_banner .slick-prev:before,
 .city_main_banner .slick-next:before,
 .banner_search_field input,
 .banner_search_field a,
@@ -506,7 +506,7 @@ textarea,
 			-ms-transition:all 0.3s ease-in-out;
 				-o-transition:all 0.3s ease-in-out;
 					transition:all 0.3s ease-in-out;
-} 
+}
 .city_blog_fig figure img,
 .city_news2_post.post2 figure img,
 .blog_post_author figure img,
@@ -542,7 +542,7 @@ textarea,
 .city_news2_text,
 [class^="imghvr-shutter-out-"]::before,
 [class*=" imghvr-shutter-out-"]::before,
-[class^="imghvr-"] .hover-theme, 
+[class^="imghvr-"] .hover-theme,
 [class*=" imghvr-"] .hover-theme,
 .slick-slide.slick-current.slick-active.slick-center .city_project_fig .overlay:before,
 .slick-slide.slick-current.slick-active.slick-center .city_project_fig,
