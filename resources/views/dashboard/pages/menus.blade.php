@@ -1,17 +1,11 @@
-
 @extends('layouts.apps')
 @section('content')
-
     <div class="container-fluid">
         <div class="row">
-
             <div class="col-sm-7">
-
                 <div class="card">
-
                     <div class="card-body">
                             <div class="card-header">
-
                                 <h5>Edit Menu
                                     <span class="pull-right" >
                                         <button class="btn btn-pill btn-primary btn-air-secondary btn-sm" type="button">

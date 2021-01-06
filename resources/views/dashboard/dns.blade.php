@@ -18,7 +18,7 @@
     <!-- Container-fluid starts-->
     <div class="container-fluid">
         <div class="row">
-            @if($website->status_active == 0)
+            @if(@$website->status_active == 0)
                 <div class="col-sm-8">
 
                     <div class="card">

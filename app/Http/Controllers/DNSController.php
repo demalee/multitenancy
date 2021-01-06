@@ -44,7 +44,7 @@ class DNSController extends Controller
         $website = Website::findorfail($this->website_details());
         $web_arr = explode('.',$website->name);
         $folder_name = $web_arr[0];
-        $ip_address = "51.158.77.95";
+        $ip_address = '51.158.77.95';
 
         $output = exec('./ping_net.sh '.$website->name. ' '. $folder_name);
 
@@ -144,7 +144,7 @@ class DNSController extends Controller
                 $domain = substr ($app_url, 8); // $domain is now 'www.example.com'
             }
 
-            $website = Website::where('name',$domain)->first();
+            $website = Website::where('name',@$domain)->first();
         }
 
         return @$website->id;
