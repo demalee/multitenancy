@@ -14,7 +14,8 @@ class Website extends Model
         'description',
         'theme_id',
         'menu_id',
-        'admin_id'
+        'admin_id',
+        'status_active'
     ];
 
     public function theme()
