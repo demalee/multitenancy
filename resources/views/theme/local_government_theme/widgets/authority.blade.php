@@ -1,14 +1,22 @@
 @if($widget->get_content($widget->id)[1] > 0)
+    @php $counter=0 @endphp
+    @foreach($widget->get_content($widget->id)[0] as $content)
+{{--        @if($counter > 0)--}}
+{{--            @break--}}
+{{--        @endif--}}
     <div class="city_jobs_wrap">
+
         <div class="city_jobs_fig">
             <div class="city_jo_text">
-                <img src="{{asset('images/'.$content->content_image)}}" alt="" style="height: 500px; width: 1000px;">
+                <img src="{{asset('theme/local/extra-images/service-fig5.jpg')}}" alt="" style="height: 500px; width: 1000px;">
+
+{{--                <img src="{{asset('images/'.$content->content_image)}}" alt="" style="height: 500px; width: 1000px;">--}}
 
             </div>
         </div>
+
         <div class="city_jobs_list">
             <ul>
-                @foreach($widget->get_content($widget->id)[0] as $content)
                 <li>
                     <div class="city_jobs_item overlay">
                         <span><i class="fa icon-team"></i></span>
@@ -18,17 +26,19 @@
                         </div>
                     </div>
                 </li>
-                @endforeach
+
 
             </ul>
         </div>
     </div>
+    @php $counter++ @endphp
+    @endforeach
 
 @else
     <div class="city_jobs_wrap">
         <div class="city_jobs_fig">
             <div class="city_jo_text">
-                <img src="{{asset('theme/local/extra-images/blog-fig.jpg')}}" alt="" style="height: 500px; width: 1000px;">
+                <img src="{{asset('theme/local/extra-images/service-fig5.jpg')}}" alt="" style="height: 500px; width: 1000px;">
 
             </div>
         </div>

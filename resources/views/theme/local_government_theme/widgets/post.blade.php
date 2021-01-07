@@ -32,7 +32,7 @@
                     <div class="box-layer layer-1"></div>
                     <div class="box-layer layer-2"></div>
                     <div class="box-layer layer-3"></div>
-                    <img src="{{asset('images/'.$content->content_image)}}" alt="" style="height: 300px">
+                    <img src="{{asset('images/'.$content->content_image)}}" alt="" style="height: 200px; width: auto">
                 </figure>
                 <div class="city_blog_text">
                     <h4 contenteditable="true">{{@$content->title}}</h4>
