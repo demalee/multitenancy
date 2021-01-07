@@ -1,3 +1,4 @@
+#!/bin/sh
 SED=`which sed`
 CURRENT_DIR=`dirname $0`
 
