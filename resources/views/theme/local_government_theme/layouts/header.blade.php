@@ -18,11 +18,17 @@
                 </figure>
             </div>
             <div class="city_top_news">
-                <span>City News</span>
-                <div class="city-news-slider">
-                    <div>
-                        <p>Welcome to {{@$website->name}}<i class="fa fa-star"></i></p>
-                    </div>
+                @if(@$website->name)
+                <span>Welcome to {{@$website->name}}</span>
+                @endif
+                    @if(!@$website->name)
+
+                        <span>Welcome to county website</span>
+@endif
+                        <div class="city-news-slider">
+{{--                    <div>--}}
+{{--                        <p>Welcome to {{@$website->name}}<i class="fa fa-star"></i></p>--}}
+{{--                    </div>--}}
 
 
                 </div>

@@ -7,7 +7,7 @@
                     <div class="box-layer layer-1"></div>
                     <div class="box-layer layer-2"></div>
                     <div class="box-layer layer-3"></div>
-                    <img src="{{asset('images/'.$content->content_image)}}" alt="" style="height: 150px">
+                    <img src="{{asset('images/'.$content->content_image)}}" alt="" style="height: 150px; width: 300px;">
                 </figure>
                 <div class="city_blog_text">
                     <span contenteditable="true">Community</span>
