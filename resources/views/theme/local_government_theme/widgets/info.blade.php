@@ -24,11 +24,11 @@
                 <div class="city_about_list">
                     <!--SECTION HEADING START-->
                     <div class="section_heading border">
-                        <h2 contenteditable="true">{{@$content->title}}</h2>
+                        <h2 @auth contenteditable="true" @endauth>{{@$content->title}}</h2>
                     </div>
                     <!--SECTION HEADING END-->
                     <div class="city_about_text">
-                        <p contenteditable="true">{{@$content->description}}</p>
+                        <p @auth contenteditable="true" @endauth>{{@$content->description}}</p>
                     </div>
 {{--                    <ul class="city_about_link">--}}
 {{--                        <li contenteditable="true"><a href="#"><i class="fa fa-star"></i>24-Hours Emergency Services</a></li>--}}
@@ -67,20 +67,20 @@
             <div class="city_about_list">
                 <!--SECTION HEADING START-->
                 <div class="section_heading border">
-                    <span contenteditable="true">Welcome to Smart City</span>
-                    <h2 contenteditable="true">Municipal</h2>
+                    <span @auth contenteditable="true" @endauth>Welcome to Smart City</span>
+                    <h2 @auth contenteditable="true" @endauth>Municipal</h2>
                 </div>
                 <!--SECTION HEADING END-->
                 <div class="city_about_text">
-                    <h6 contenteditable="true">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin</h6>
-                    <p contenteditable="true">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. </p>
+                    <h6 @auth contenteditable="true" @endauth>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin</h6>
+                    <p @auth contenteditable="true" @endauth>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. </p>
                 </div>
                 <ul class="city_about_link">
-                    <li contenteditable="true"><a href="#"><i class="fa fa-star"></i>24-Hours Emergency Services</a></li>
-                    <li contenteditable="true"><a href="#"><i class="fa fa-star"></i>Citizen Safety Information</a></li>
-                    <li contenteditable="true"><a href="#"><i class="fa fa-star"></i>Marriage Procedures</a></li>
-                    <li contenteditable="true"><a href="#"><i class="fa fa-star"></i>Constitution and Government Law</a></li>
-                    <li contenteditable="true"><a href="#"><i class="fa fa-star"></i>Ongoing Projects</a></li>
+                    <li @auth contenteditable="true" @endauth><a href="#"><i class="fa fa-star"></i>24-Hours Emergency Services</a></li>
+                    <li @auth contenteditable="true" @endauth><a href="#"><i class="fa fa-star"></i>Citizen Safety Information</a></li>
+                    <li @auth contenteditable="true" @endauth><a href="#"><i class="fa fa-star"></i>Marriage Procedures</a></li>
+                    <li @auth contenteditable="true" @endauth><a href="#"><i class="fa fa-star"></i>Constitution and Government Law</a></li>
+                    <li @auth contenteditable="true" @endauth><a href="#"><i class="fa fa-star"></i>Ongoing Projects</a></li>
                 </ul>
             </div>
         </div>

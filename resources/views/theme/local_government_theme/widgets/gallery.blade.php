@@ -10,8 +10,8 @@
                     <img src="{{asset('images/'.$content->content_image)}}" alt="" style="height: 150px; width: 300px;">
                 </figure>
                 <div class="city_blog_text">
-                    <span contenteditable="true">Community</span>
-                    <h4 contenteditable="true">{{@$content->title}}</h4>
+                    <span @auth contenteditable="true" @endauth>Community</span>
+                    <h4 @auth contenteditable="true" @endauth>{{@$content->title}}</h4>
                     <p contenteditable="true">{{@$content->description}}</p>
                     <div class="city_blog_social">
                         <a class="theam_btn border-color color" href="{{@$content->source_link}}" tabindex="0">Read More</a>
@@ -35,9 +35,9 @@
                     <img src="{{asset('images/'.$content->content_image)}}" alt="" style="height: 150px">
                 </figure>
                 <div class="city_blog_text">
-                    <span contenteditable="true">Community</span>
-                    <h4 contenteditable="true">{{@$content->title}}</h4>
-                    <p contenteditable="true">{{@$content->description}}</p>
+                    <span @auth contenteditable="true" @endauth >Community</span>
+                    <h4 @auth contenteditable="true" @endauth >{{@$content->title}}</h4>
+                    <p @auth contenteditable="true" @endauth >{{@$content->description}}</p>
                     <div class="city_blog_social">
                         <a class="theam_btn border-color color" href="{{@$content->source_link}}" tabindex="0">Read More</a>
                         <div class="city_blog_icon_list">
@@ -66,9 +66,9 @@
                 <img src="{{asset('theme/local/extra-images/blog-fig.jpg')}}" alt="">
             </figure>
             <div class="city_blog_text">
-                <span contenteditable="true">Community</span>
-                <h4 contenteditable="true">Animal Control</h4>
-                <p contenteditable="true">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctornisi elit.</p>
+                <span @auth contenteditable="true" @endauth >Community</span>
+                <h4 @auth contenteditable="true" @endauth >Animal Control</h4>
+                <p @auth contenteditable="true" @endauth >This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctornisi elit.</p>
                 <div class="city_blog_social">
                     <a class="theam_btn border-color color" href="#" tabindex="0">Read More</a>
                     <div class="city_blog_icon_list">
@@ -91,8 +91,8 @@
                 <img src="{{asset('theme/local/extra-images/blog-hover.jpg')}}" alt="">
             </figure>
             <div class="city_blog_text">
-                <span contenteditable="true">Community</span>
-                <h4 contenteditable="true">Animal Control</h4>
+                <span @auth contenteditable="true" @endauth>Community</span>
+                <h4 @auth contenteditable="true" @endauth>Animal Control</h4>
                 <p contenteditable="true">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctornisi elit.</p>
                 <div class="city_blog_social">
                     <a class="theam_btn border-color color" href="#" tabindex="0">Read More</a>

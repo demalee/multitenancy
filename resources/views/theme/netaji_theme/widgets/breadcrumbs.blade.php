@@ -11,8 +11,8 @@
                     <div class="breadcrumb-text text-center">
                         <h1>{{@$page_name}}</h1>
                         <ul class="breadcrumb-menu">
-                            <li><a href="{{url('home')}}" contenteditable="true">home</a></li>
-                            <li><span contenteditable="true">{{@$page_name}}</span></li>
+                            <li><a href="{{url('home')}}" @auth contenteditable="true" @endauth>home</a></li>
+                            <li><span @auth contenteditable="true" @endauth>{{@$page_name}}</span></li>
                         </ul>
                     </div>
                 </div>
@@ -30,8 +30,8 @@
                 <div class="breadcrumb-text text-center">
                     <h1>Services</h1>
                     <ul class="breadcrumb-menu">
-                        <li><a href="{{url('home')}}" contenteditable="true">home</a></li>
-                        <li><span contenteditable="true">Events</span></li>
+                        <li><a href="{{url('home')}}" @auth contenteditable="true" @endauth>home</a></li>
+                        <li><span @auth contenteditable="true" @endauth>Events</span></li>
                     </ul>
                 </div>
             </div>

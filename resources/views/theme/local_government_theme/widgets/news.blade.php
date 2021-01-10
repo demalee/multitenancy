@@ -10,12 +10,12 @@
                     <img src="{{asset('images/'.$content->content_image)}}" alt="" style="height: 200px;">
                 </figure>
                 <div class="city_news_text">
-                    <h2 contenteditable="true">{{\Illuminate\Support\Str::limit(@$content->title,10,'...')}}</h2>
+                    <h2 @auth contenteditable="true" @endauth>{{\Illuminate\Support\Str::limit(@$content->title,10,'...')}}</h2>
                     <ul class="city_news_meta">
-                        <li><a href="#" contenteditable="true">{{\Carbon\Carbon::parse(@$content->source_date)->format('d F Y')}}</a></li>
-                        <li><a href="#" contenteditable="true">{{@$content->title}}</a></li>
+                        <li><a href="#"@auth contenteditable="true" @endauth>{{\Carbon\Carbon::parse(@$content->source_date)->format('d F Y')}}</a></li>
+                        <li><a href="#" @auth contenteditable="true" @endauth>{{@$content->title}}</a></li>
                     </ul>
-                    <p contenteditable="true">{{\Illuminate\Support\Str::limit(@$content->description,100,'...')}}</p>
+                    <p @auth contenteditable="true" @endauth>{{\Illuminate\Support\Str::limit(@$content->description,100,'...')}}</p>
                     <a class="theam_btn border-color color" href="{{@$content->source_link}}" tabindex="0">Read More</a>
                     <br><br>
                 </div>
@@ -35,12 +35,12 @@
                 <img src="{{asset('theme/local/extra-images/news-fig.jpg')}}" alt="">
             </figure>
             <div class="city_news_text">
-                <h2 contenteditable="true">A Fundraiser for the City Club</h2>
+                <h2 @auth contenteditable="true" @endauth>A Fundraiser for the City Club</h2>
                 <ul class="city_news_meta">
-                    <li><a href="#" contenteditable="true">May 22, 2018</a></li>
-                    <li><a href="#" contenteditable="true">Public Notices</a></li>
+                    <li><a href="#" @auth contenteditable="true" @endauth>May 22, 2018</a></li>
+                    <li><a href="#" @auth contenteditable="true" @endauth>Public Notices</a></li>
                 </ul>
-                <p contenteditable="true">Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sollicitudin</p>
+                <p @auth contenteditable="true" @endauth>Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sollicitudin</p>
                 <a class="theam_btn border-color color" href="#" tabindex="0">Read More</a>
             </div>
         </div>

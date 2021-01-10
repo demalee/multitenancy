@@ -19,8 +19,8 @@
                         <div class="row ">
                             <div class="col-xl-12">
                                 <div class="slider-content">
-                                    <h1 data-animation="fadeInUp" data-delay=".4s" contenteditable="true">{{$content->title}}</h1>
-                                    <p data-animation="fadeInUp" data-delay=".6s"  contenteditable="true">{{$content->description}}</p>
+                                    <h1 data-animation="fadeInUp" data-delay=".4s" @auth contenteditable="true" @endauth>{{$content->title}}</h1>
+                                    <p data-animation="fadeInUp" data-delay=".6s"  @auth contenteditable="true" @endauth>{{$content->description}}</p>
                                     <a data-animation="fadeInUp" data-delay=".8s" class="btn" href="{{@$content->source_link}}">Read More</a>
                                 </div>
                             </div>

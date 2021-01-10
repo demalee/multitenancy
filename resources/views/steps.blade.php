@@ -1,6 +1,23 @@
 
 @extends('our_layouts.layouts.appss')
 @section('content')
+{{--    <div class="site-blocks-cover " style="background-image: url(our_theme/images/hero_1.jpg); height: 30px" data-aos="fade" data-stellar-background-ratio="0.5" >--}}
+{{--        <div class="container">--}}
+{{--            <div class="row align-items-center justify-content-center text-center">--}}
+
+{{--                <div class="col-md-12" data-aos="fade-up" data-aos-delay="100">--}}
+
+{{--                    <div class="row justify-content-center mb-4">--}}
+{{--                        <div class="col-md-8 text-center">--}}
+{{--                            <h1>Welcome to multisite <span class="typed-wods"></span></h1>--}}
+{{--                            <p class="lead mb-5">Create your own  <a href="#" target="_blank">website in few minutes</a></p>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+
+{{--                </div>--}}
+{{--            </div>--}}
+{{--        </div>--}}
+{{--    </div>--}}
 
     <!-- Grid row -->
     <style>

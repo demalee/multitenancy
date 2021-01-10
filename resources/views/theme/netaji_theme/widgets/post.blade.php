@@ -4,7 +4,7 @@
             <div class="row">
                 <div class="col-xl-12">
                     <div class="section-title text-center mb-60">
-                        <h1 contenteditable="true">Posts</h1>
+                        <h1 @auth contenteditable="true" @endauth>Posts</h1>
                     </div>
                 </div>
             </div>
@@ -21,7 +21,7 @@
                         <div class="col-xl-6 col-lg-6 col-md-4">
                             <div class="donation-forms-wrapper">
                                 <div class="donation-forms-text">
-                                    <h2><a href="">{{@$content->title}}</a></h2>
+                                    <h2 @auth contenteditable="true" @endauth><a href="">{{@$content->title}}</a></h2>
                                     <div class="donation-forms-meta">
                                         <span><i class="far fa-calendar-alt"></i> {{\Carbon\Carbon::parse(@$content->source_date)->format('d F Y')}}</span>
                                     </div>
@@ -30,7 +30,7 @@
                                         <div class="progress-bar" role="progressbar" style="width: 30%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
                                         </div>
                                     </div>
-                                    <p>{{@$content->description}}</p>
+                                    <p @auth contenteditable="true" @endauth>{{@$content->description}}</p>
                                     <a class="btn" href="{{@$content->source_link}}">Read More</a>
                                 </div>
                             </div>
@@ -179,8 +179,8 @@
                                         <div class="progress-bar" role="progressbar" style="width: 30%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
                                         </div>
                                     </div>
-                                    <p>But I must explain to you how all this mistaken idea of denouncing.</p>
-                                    <a class="btn" href="donation-details.html">donate now</a>
+                                    <p @auth contenteditable="true" @endauth>But I must explain to you how all this mistaken idea of denouncing.</p>
+                                    <a class="btn" href="">donate now</a>
                                 </div>
                             </div>
                         </div>

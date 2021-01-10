@@ -11,8 +11,8 @@
                     </figure>
                     <div class="city_client_text">
                         <p contenteditable="true">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis. </p>
-                        <h4><a href="#" contenteditable="true">Likor Stom</a> </h4>
-                        <span><a href="#" contenteditable="true">Directio-Baseline</a></span>
+                        <h4><a href="#" @auth contenteditable="true" @endauth>Likor Stom</a> </h4>
+                        <span><a href="#" @auth contenteditable="true" @endauth>Directio-Baseline</a></span>
                     </div>
                 </div>
             </li>
@@ -26,8 +26,8 @@
                     </figure>
                     <div class="city_client_text">
                         <p contenteditable="true">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis. </p>
-                        <h4><a href="#" contenteditable="true">Likor Stom</a> </h4>
-                        <span><a href="#" contenteditable="true">Directio-Baseline</a></span>
+                        <h4><a href="#" @auth contenteditable="true" @endauth>Likor Stom</a> </h4>
+                        <span><a href="#" @auth contenteditable="true" @endauth>Directio-Baseline</a></span>
                     </div>
                 </div>
             </li>

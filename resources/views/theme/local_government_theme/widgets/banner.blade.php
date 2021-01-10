@@ -13,7 +13,7 @@
     <li>
         <div class="city_service_text">
             <span><i class="fa icon-news"></i></span>
-            <h5><a href="{{url('event')}}" contenteditable="true">News & Press Releases</a></h5>
+            <h5><a href="{{url('event')}}" @auth contenteditable="true" @endauth>News & Press Releases</a></h5>
         </div>
     </li>
 

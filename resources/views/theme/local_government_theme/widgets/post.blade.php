@@ -11,8 +11,8 @@
                     <img src="{{asset('images/'.$content->content_image)}}" alt="" style="height: 300px">
                 </figure>
                 <div class="city_blog_text">
-                    <h4 contenteditable="true">{{@$content->title}}</h4>
-                    <p contenteditable="true">{{@$content->description}}</p>
+                    <h4 @auth contenteditable="true" @endauth>{{@$content->title}}</h4>
+                    <p @auth contenteditable="true" @endauth>{{@$content->description}}</p>
                     <div class="city_blog_social">
                         <a class="theam_btn border-color color" href="{{@$content->source_link}}" tabindex="0">Read More</a>
                         <div class="city_blog_icon_list">
@@ -35,8 +35,8 @@
                     <img src="{{asset('images/'.$content->content_image)}}" alt="" style="height: 200px; width: auto">
                 </figure>
                 <div class="city_blog_text">
-                    <h4 contenteditable="true">{{@$content->title}}</h4>
-                    <p contenteditable="true">{{@$content->description}}</p>
+                    <h4 @auth contenteditable="true" @endauth>{{@$content->title}}</h4>
+                    <p @auth contenteditable="true" @endauth>{{@$content->description}}</p>
                     <div class="city_blog_social">
                         <a class="theam_btn border-color color" href="{{@$content->source_link}}" tabindex="0">Read More</a>
                         <div class="city_blog_icon_list">
@@ -67,9 +67,9 @@
                 <img src="{{asset('theme/local/extra-images/blog-fig1.jpg')}}" alt="">
             </figure>
             <div class="city_blog_text">
-                <span contenteditable="true">Community</span>
-                <h4 contenteditable="true" >Job Seeker</h4>
-                <p contenteditable="true">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctornisi elit.</p>
+                <span @auth contenteditable="true" @endauth>Community</span>
+                <h4 @auth contenteditable="true" @endauth >Job Seeker</h4>
+                <p @auth contenteditable="true" @endauth>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctornisi elit.</p>
                 <div class="city_blog_social">
                     <a class="theam_btn border-color color" href="#" tabindex="0">Read More</a>
                     <div class="city_blog_icon_list">
@@ -92,9 +92,9 @@
                 <img src="{{asset('theme/local/extra-images/blog-hover.jpg')}}" alt="">
             </figure>
             <div class="city_blog_text">
-                <span contenteditable="true">Community</span>
-                <h4 contenteditable="true">Job Seeker</h4>
-                <p contenteditable="true">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctornisi elit.</p>
+                <span @auth contenteditable="true" @endauth>Community</span>
+                <h4 @auth contenteditable="true" @endauth>Job Seeker</h4>
+                <p @auth contenteditable="true" @endauth>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctornisi elit.</p>
                 <div class="city_blog_social">
                     <a class="theam_btn border-color color" href="#" tabindex="0">Read More</a>
                     <div class="city_blog_icon_list">

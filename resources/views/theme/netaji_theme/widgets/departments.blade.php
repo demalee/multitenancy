@@ -7,7 +7,7 @@
             <div class="row">
                 <div class="col-xl-12">
                     <div class="section-title text-center mb-60">
-                        <h1 contenteditable="true">The job of a leader is to love his country</h1>
+                        <h1 @auth contenteditable="true" @endauth>The job of a leader is to love his country</h1>
                     </div>
                 </div>
             </div>
@@ -17,18 +17,18 @@
                 <div class="col-xl-4 col-lg-4 col-md-6">
                     <div class="feature-wrapper text-center mb-30">
                         <div class="feature-item">
-                            <div class="feature-img" contenteditable="true">
+                            <div class="feature-img" @auth contenteditable="true" @endauth>
                                 <img src="{{asset('images/'.$content->content_image)}}" alt="" style="height: 400px;width: 370px;" />
                             </div>
                             <div class="feature-text">
-                                <h2 contenteditable="true">{{@$content->title}}</h2>
+                                <h2 @auth contenteditable="true" @endauth>{{@$content->title}}</h2>
                                 <a class="btn" href="{{@$content->source_link}}">read more</a>
                             </div>
                         </div>
                         <div class="feature-content">
-                            <h2 contenteditable="true">{{@$content->title}}</h2>
-                            <p contenteditable="true">{{\Illuminate\Support\Str::limit(@$content->description,150,'...')}}</p>
-                            <a class="btn" href="#" contenteditable="true">read more</a>
+                            <h2 @auth contenteditable="true" @endauth>{{@$content->title}}</h2>
+                            <p @auth contenteditable="true" @endauth>{{\Illuminate\Support\Str::limit(@$content->description,150,'...')}}</p>
+                            <a class="btn" href="#" @auth contenteditable="true" @endauth>read more</a>
                         </div>
                     </div>
                 </div>

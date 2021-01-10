@@ -8,8 +8,8 @@
                     <img src="{{asset('images/'.$content->content_image)}}" alt="" style="height: 300px">
                     <div class="city_project_text">
                         <span><i class="fa icon-plastic"></i></span>
-                        <a href="#" contenteditable="true">{{@$content->title}}</a>
-                        <h3><a href="#" contenteditable="true">{{@$content->description}}</a></h3>
+                        <a href="#" @auth contenteditable="true" @endauth>{{@$content->title}}</a>
+                        <h3><a href="#" @auth contenteditable="true" @endauth>{{@$content->description}}</a></h3>
                     </div>
                 </figure>
             </div>
@@ -24,8 +24,8 @@
                 <img src="{{asset('theme/local/extra-images/project-fig.jpg')}}" alt="">
                 <div class="city_project_text">
                     <span><i class="fa icon-plastic"></i></span>
-                    <a href="#" contenteditable="true">Constructions</a>
-                    <h3><a href="#" contenteditable="true">Government vows to prioritize local contractors in infrastructure program</a></h3>
+                    <a href="#" @auth contenteditable="true" @endauth>Constructions</a>
+                    <h3><a href="#" @auth contenteditable="true" @endauth>Government vows to prioritize local contractors in infrastructure program</a></h3>
                 </div>
             </figure>
         </div>

@@ -17,11 +17,11 @@
                 <div class="city_event_text">
                     <div class="city_event_history">
                         <div class="event_date">
-                            <span contenteditable="true">{{\Carbon\Carbon::parse(@$content->source_date)->format('d')}}</span>
-                            <strong contenteditable="true">{{\Carbon\Carbon::parse(@$content->source_date)->format('F Y')}}</strong>
+                            <span @auth contenteditable="true" @endauth>{{\Carbon\Carbon::parse(@$content->source_date)->format('d')}}</span>
+                            <strong @auth contenteditable="true" @endauth>{{\Carbon\Carbon::parse(@$content->source_date)->format('F Y')}}</strong>
                         </div>
                         <div class="city_date_text">
-                            <h5 class="custom_size" contenteditable="true">{{@$content->title}}</h5>
+                            <h5 class="custom_size" @auth contenteditable="true" @endauth>{{@$content->title}}</h5>
                             <a href="#"><i class="fa fa-clock-o" contenteditable="true"></i>{{@$content->start_time}} - {{@$content->end_time}}</a>
                         </div>
                     </div>
@@ -49,16 +49,16 @@
             <div class="city_event_text">
                 <div class="city_event_history">
                     <div class="event_date">
-                        <span contenteditable="true">25</span>
-                        <strong contenteditable="true">SEP, 2018</strong>
+                        <span @auth contenteditable="true" @endauth>25</span>
+                        <strong @auth contenteditable="true" @endauth>SEP, 2018</strong>
                     </div>
                     <div class="city_date_text">
-                        <h5 class="custom_size" contenteditable="true">Mayor Conferences</h5>
+                        <h5 class="custom_size" @auth contenteditable="true" @endauth>Mayor Conferences</h5>
                         <a href="#"><i class="fa fa-clock-o" contenteditable="true"></i>05:23 AM - 09:23 AM </a>
                     </div>
                 </div>
-                <p contenteditable="true">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean..</p>
-                <a href="#" contenteditable="true">  : <span>Alexzender</span></a>
+                <p @auth contenteditable="true" @endauth>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean..</p>
+                <a href="#" @auth contenteditable="true" @endauth>  : <span>Alexzender</span></a>
             </div>
         </div>
     </div>

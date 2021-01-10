@@ -8,8 +8,8 @@
                     <div class="col-xl-6 offset-xl-6 col-lg-6 offset-lg-6">
                         <div class="donation-wrapper">
                             <div class="donation-text">
-                                <h1 contenteditable="true">{{@$content->title}}</h1>
-                                <p contenteditable="true">{{\Illuminate\Support\Str::limit(@$content->description,150,'...')}}</p>
+                                <h1 @auth contenteditable="true" @endauth>{{@$content->title}}</h1>
+                                <p @auth contenteditable="true" @endauth>{{\Illuminate\Support\Str::limit(@$content->description,150,'...')}}</p>
                                 <a class="btn" href="{{@$content->source_link}}">Read more</a>
                             </div>
                         </div>

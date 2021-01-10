@@ -8,7 +8,7 @@
                 <div class="row">
                     <div class="col-xl-12">
                         <div class="section-title text-center mb-60">
-                            <h1 contenteditable="true">Programs</h1>
+                            <h1 @auth contenteditable="true" @endauth>Programs</h1>
                         </div>
                     </div>
                 </div>
@@ -19,8 +19,8 @@
                                 <img src="{{asset('images/'.$content->content_image)}}" alt="" />
                             </div>
                             <div class="services-text">
-                                <h2 contenteditable="true">{{@$content->title}}</h2>
-                                <p contenteditable="true">{{\Illuminate\Support\Str::limit(@$content->description,150,'...')}}</p>
+                                <h2 @auth contenteditable="true" @endauth>{{@$content->title}}</h2>
+                                <p @auth contenteditable="true" @endauth>{{\Illuminate\Support\Str::limit(@$content->description,150,'...')}}</p>
                                 <a href="#">read more<i class="fas fa-long-arrow-alt-right"></i></a>
                             </div>
                         </div>
@@ -40,7 +40,7 @@
             <div class="row">
                 <div class="col-xl-12">
                     <div class="section-title text-center mb-60">
-                        <h1 contenteditable="true">County Programs </h1>
+                        <h1 @auth contenteditable="true" @endauth>County Programs </h1>
                     </div>
                 </div>
             </div>
@@ -51,8 +51,8 @@
                             <img src="{{url('theme/netaji/img/service/1.png')}}" alt="" />
                         </div>
                         <div class="services-text">
-                            <h2 contenteditable="true">Economic Progress</h2>
-                            <p contenteditable="true">But I must explain to you how all this mista en idea of denouncing pleasure and praising pain was born and I will give</p>
+                            <h2 @auth contenteditable="true" @endauth>Economic Progress</h2>
+                            <p @auth contenteditable="true" @endauth>But I must explain to you how all this mista en idea of denouncing pleasure and praising pain was born and I will give</p>
                             <a href="#">read more<i class="fas fa-long-arrow-alt-right"></i></a>
                         </div>
                     </div>
@@ -63,8 +63,8 @@
                             <img src="{{url('theme/netaji/img/service/2.png')}}" alt="" />
                         </div>
                         <div class="services-text">
-                            <h2 contenteditable="true">Education Progress</h2>
-                            <p contenteditable="true">But I must explain to you how all this mista en idea of denouncing pleasure and praising pain was born and I will give</p>
+                            <h2 @auth contenteditable="true" @endauth>Education Progress</h2>
+                            <p @auth contenteditable="true" @endauth >But I must explain to you how all this mista en idea of denouncing pleasure and praising pain was born and I will give</p>
                             <a href="#">read more<i class="fas fa-long-arrow-alt-right"></i></a>
                         </div>
                     </div>
@@ -75,8 +75,8 @@
                             <img src="{{url('theme/netaji/img/service/3.png')}}" alt="" />
                         </div>
                         <div class="services-text">
-                            <h2 contenteditable="true">Accomodation</h2>
-                            <p contenteditable="true">But I must explain to you how all this mista en idea of denouncing pleasure and praising pain was born and I will give</p>
+                            <h2 @auth contenteditable="true" @endauth>Accomodation</h2>
+                            <p @auth contenteditable="true" @endauth>But I must explain to you how all this mista en idea of denouncing pleasure and praising pain was born and I will give</p>
                             <a href="#">read more<i class="fas fa-long-arrow-alt-right"></i></a>
                         </div>
                     </div>
@@ -87,8 +87,8 @@
                             <img src="{{url('theme/netaji/img/service/4.png')}}" alt="" />
                         </div>
                         <div class="services-text">
-                            <h2 contenteditable="true">Medical Care</h2>
-                            <p contenteditable="true">But I must explain to you how all this mista en idea of denouncing pleasure and praising pain was born and I will give</p>
+                            <h2 @auth contenteditable="true" @endauth>Medical Care</h2>
+                            <p @auth contenteditable="true" @endauth>But I must explain to you how all this mista en idea of denouncing pleasure and praising pain was born and I will give</p>
                             <a href="#">read more<i class="fas fa-long-arrow-alt-right"></i></a>
                         </div>
                     </div>
@@ -99,8 +99,8 @@
                             <img src="{{url('theme/netaji/img/service/5.png')}}" alt="" />
                         </div>
                         <div class="services-text">
-                            <h2 contenteditable="true">Clothes For Human</h2>
-                            <p contenteditable="true">But I must explain to you how all this mista en idea of denouncing pleasure and praising pain was born and I will give</p>
+                            <h2 @auth contenteditable="true" @endauth>Clothes For Human</h2>
+                            <p @auth contenteditable="true" @endauth>But I must explain to you how all this mista en idea of denouncing pleasure and praising pain was born and I will give</p>
                             <a href="#">read more<i class="fas fa-long-arrow-alt-right"></i></a>
                         </div>
                     </div>
@@ -111,8 +111,8 @@
                             <img src="{{url('theme/netaji/img/service/6.png')}}" alt="" />
                         </div>
                         <div class="services-text">
-                            <h2 contenteditable="true">Healthy Foods</h2>
-                            <p contenteditable="true">But I must explain to you how all this mista en idea of denouncing pleasure and praising pain was born and I will give</p>
+                            <h2 @auth contenteditable="true" @endauth>Healthy Foods</h2>
+                            <p @auth contenteditable="true" @endauth>But I must explain to you how all this mista en idea of denouncing pleasure and praising pain was born and I will give</p>
                             <a href="#">read more<i class="fas fa-long-arrow-alt-right"></i></a>
                         </div>
                     </div>

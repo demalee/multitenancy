@@ -4,7 +4,7 @@
             <div class="row">
                 <div class="col-xl-12">
                     <div class="section-title text-center mb-60">
-                        <h1 contenteditable="true">County Gallery</h1>
+                        <h1 @auth contenteditable="true" @endauth>County Gallery</h1>
                     </div>
                 </div>
             </div>
@@ -40,7 +40,7 @@
             <div class="row">
                 <div class="col-xl-12">
                     <div class="section-title text-center mb-60">
-                        <h1 contenteditable="true">Gallery</h1>
+                        <h1 @auth contenteditable="true" @endauth>Gallery</h1>
                     </div>
                 </div>
             </div>

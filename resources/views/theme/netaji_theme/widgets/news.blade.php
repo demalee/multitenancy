@@ -5,7 +5,7 @@
                 <div class="row">
                     <div class="col-xl-12">
                         <div class="section-title text-center mb-60">
-                            <h1 contenteditable="true">News, latest <span>Articles & Tips</span></h1>
+                            <h1 @auth contenteditable="true" @endauth>News, latest <span>Articles & Tips</span></h1>
                         </div>
                     </div>
                 </div>
@@ -18,7 +18,7 @@
                                 <a href="{{@$content->source_link}}"><img src="{{asset('images/'.$content->content_image)}}" alt="" /></a>
                                 <div class="blog-text">
                                     <span contenteditable="true">{{\Carbon\Carbon::parse(@$content->source_date)->format('d F Y')}}</span>
-                                    <h2><a href="{{@$content->source_link}}" contenteditable="true">{{\Illuminate\Support\Str::limit(@$content->description,100,'...')}}</a></h2>
+                                    <h2><a href="{{@$content->source_link}}" @auth contenteditable="true" @endauth>{{\Illuminate\Support\Str::limit(@$content->description,100,'...')}}</a></h2>
                                     <a href="{{@$content->source_link}}">read more</a>
                                 </div>
                             </div>
@@ -39,7 +39,7 @@
             <div class="row">
                 <div class="col-xl-12">
                     <div class="section-title text-center mb-60">
-                        <h1 contenteditable="true">News <br> and latest <span>Articles & Tips</span></h1>
+                        <h1 @auth contenteditable="true" @endauth>News <br> and latest <span>Articles & Tips</span></h1>
                     </div>
                 </div>
             </div>
@@ -49,7 +49,7 @@
                         <div class="blog-img">
                             <a href="{{url('blog')}}"><img src="{{asset('theme/netaji/img/blog/blog1.jpg')}}" alt="" /></a>
                             <div class="blog-text">
-                                <span contenteditable="true">05 december 2018</span>
+                                <span @auth contenteditable="true" @endauth>05 december 2018</span>
                                 <h2><a href="{{url('blog')}}" contenteditable="true">Form Design Patterns Book Excerpt Registration</a></h2>
                                 <a href="{{url('blog')}}">read more</a>
                             </div>
@@ -61,8 +61,8 @@
                         <div class="blog-img">
                             <a href="{{url('blog-details')}}"><img src="{{asset('theme/netaji/img/blog/blog2.jpg')}}" alt="" /></a>
                             <div class="blog-text">
-                                <span contenteditable="true">05 december 2018</span>
-                                <h2><a href="{{url('blog-details')}}" contenteditable="true">Working Together Designers And Developers Can.</a></h2>
+                                <span @auth contenteditable="true" @endauth>05 december 2018</span>
+                                <h2><a href="{{url('blog-details')}}" @auth contenteditable="true" @endauth>Working Together Designers And Developers Can.</a></h2>
                                 <a href="{{url('blog')}}">read more</a>
                             </div>
                         </div>

@@ -12,8 +12,8 @@
                         <a class="paly_btn" data-rel="prettyPhoto" href="{{asset('images/'.$content->content_image)}}"><i class="fa fa-plus"></i></a>
                     </figure>
                     <div class="city_department_text">
-                        <h5 contenteditable="true">{{@$content->title}}</h5>
-                        <p contenteditable="true">{{\Illuminate\Support\Str::limit(@$content->description,150,'...')}}</p>
+                        <h5 @auth contenteditable="true" @endauth>{{@$content->title}}</h5>
+                        <p @auth contenteditable="true" @endauth>{{\Illuminate\Support\Str::limit(@$content->description,150,'...')}}</p>
                         <a href="#">See More<i class="fa fa-angle-double-right"></i></a>
                     </div>
                 </div>
@@ -35,8 +35,8 @@
                     <a class="paly_btn" data-rel="prettyPhoto" href="{{asset('theme/local/extra-images/department-fig.jpg')}}"><i class="fa fa-plus"></i></a>
                 </figure>
                 <div class="city_department_text">
-                    <h5 contenteditable="true">Administration</h5>
-                    <p contenteditable="true">This is Photoshop's version  of Ipsum. </p>
+                    <h5 @auth contenteditable="true" @endauth>Administration</h5>
+                    <p @auth contenteditable="true" @endauth>This is Photoshop's version  of Ipsum. </p>
                     <a href="#">See More<i class="fa fa-angle-double-right"></i></a>
                 </div>
             </div>

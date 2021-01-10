@@ -15,7 +15,7 @@
         <figure class="overlay">
             <img src="{{asset('images/'.$content->content_image)}}" alt="" style="height: 700px">
             <div class="banner_text">
-                <div class="small_text animated" contenteditable="true">Welcome to</div>
+                <div class="small_text animated"@auth contenteditable="true" @endauth>Welcome to</div>
                 <div class="large_text animated">{{$content->title}}<div class="medium_text animated" contenteditable="true">{{$content->title}}</div>
                     <div class='console-underscore' id='console'>&#95;</div></div>
                 <div class="banner_btn">
@@ -37,7 +37,7 @@
         <figure class="overlay">
             <img src="{{asset('theme/local/extra-images/main-banner.jpg')}}" alt="">
             <div class="banner_text">
-                <div class="small_text animated" contenteditable="true">Welcome to</div>
+                <div class="small_text animated" @auth contenteditable="true" @endauth>Welcome to</div>
                 <div class="large_text animated">Nairobi <div class='console-underscore' id='console'>&#95;</div></div>
                 <div class="banner_btn">
                     <center><a class="theam_btn animated" href="{{url('contact')}}" >Read More</a></center>
