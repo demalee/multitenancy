@@ -28,7 +28,7 @@
                                 <div class="media">
                                     <div class="col-md-6">
                                     <img src="{{asset('images/'.@$active_theme->theme_image)}}" alt="" style="width: 100%; height: 200px;">
-                                    </div>    <div class="col-md-9"><div class="media-body">
+                                    </div>    <div class="col-md-8"><div class="media-body">
                                         <h5>{{str_replace('_',' ',@$website->name)}}
                                         </h5>
                                         <p class="f-12">
@@ -39,7 +39,11 @@
                                                 <a class="btn btn-light" href="{{url('home')}}">View your website</a>
                                             </li>
                                             <li>
-                                                <a class="btn btn-primary" href="{{url('themes')}}">Change template
+                                                <a class="btn btn-primary" href="{{url('themes')}}">Change theme
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a class="btn btn-secondary" href="{{url('dashboard/dns')}}">Publish
                                                 </a>
                                             </li>
                                         </ul>

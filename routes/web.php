@@ -53,7 +53,7 @@ Route::get('/custom-css', function () {
 Route::get('/main', function () {
     $active_theme = Theme::where('status_active',1)->first();
     $web = WebsiteUser::where('user_id',auth()->id())->first();
-    $website = \App\Models\Website::where('id',$web->website_id)->first();
+    $website = \App\Models\Website::where('id',@$web->website_id)->first();
     if (!$active_theme)
     {
         $active_theme = Theme::findorfail(1);
