@@ -95,6 +95,24 @@
                         <p>Widgets are used to display the content of your website.You can activate or deactivate .</p>
                         <img src="/images/step5.PNG" alt="Image" class="img-fluid mb-4 mb-lg-0">
                     </li>
+
+                    <li>
+                        <a href="#">Website Activation</a>
+                        <a href="#" class="float-right">  step 5</a>
+                        <p>DNS activation means making the created website live .</p>
+                        <p>For the website to be active ,the domain name should merge the one added to your DNS records in the cpanel .</p>
+                        <p>If successfully mapped and activated ,you will see a sucess message .</p>
+                        <p>Navigate to the url that was activated .</p>
+
+                        <img src="/images/dnsucess.PNG" alt="Image" class="img-fluid mb-4 mb-lg-0">
+                    </li>
+                    <li>
+                        <a href="#">Incase DNS mapping fails</a>
+                        <a href="#" class="float-right">  step 6</a>
+                        <p>If the DNS is not correctly mapped ,the website activation will fail.</p>
+                        <img src="/images/dnserror.PNG" alt="Image" class="img-fluid mb-4 mb-lg-0">
+                    </li>
+
                 </ul>
             </div>
         </div>

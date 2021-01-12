@@ -28,8 +28,8 @@
                 <div class="col-xl-6 offset-xl-6 col-lg-6 offset-lg-6">
                     <div class="donation-wrapper">
                         <div class="donation-text">
-                            <h1 contenteditable="true">Authourity</h1>
-                            <p contenteditable="true">But I must explain to you how all this mistaken idea of denople asure and praising pain was born and I will give you a complete.</p>
+                            <h1 @auth contenteditable="true" @endauth>Authourity</h1>
+                            <p @auth contenteditable="true" @endauth>But I must explain to you how all this mistaken idea of denople asure and praising pain was born and I will give you a complete.</p>
 
                             <a class="btn" href="#">Read More</a>
                         </div>

@@ -18,22 +18,22 @@ class EnsureWebsiteIsFound
      */
     public function handle(Request $request, Closure $next)
     {
-        if ($request->root() != 'https://multisite.berrycom.co.ke')
-        {
-            $actionName =Route::currentRouteName();
-            if ($actionName == 'welcome')
-            {
-                return redirect()->route('home');
-            }
-            else
-            {
-                return $next($request);
-            }
-        }
-        else
-        {
-            return $next($request);
-        }
-//        return $next($request);
+//        if ($request->root() != 'https://multisite.berrycom.co.ke')
+//        {
+//            $actionName =Route::currentRouteName();
+//            if ($actionName == 'welcome')
+//            {
+//                return redirect()->route('home');
+//            }
+//            else
+//            {
+//                return $next($request);
+//            }
+//        }
+//        else
+//        {
+//            return $next($request);
+//        }
+        return $next($request);
     }
 }

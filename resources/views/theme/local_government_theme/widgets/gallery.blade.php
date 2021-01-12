@@ -12,7 +12,7 @@
                 <div class="city_blog_text">
                     <span @auth contenteditable="true" @endauth>Community</span>
                     <h4 @auth contenteditable="true" @endauth>{{@$content->title}}</h4>
-                    <p contenteditable="true">{{@$content->description}}</p>
+                    <p @auth contenteditable="true" @endauth >{{@$content->description}}</p>
                     <div class="city_blog_social">
                         <a class="theam_btn border-color color" href="{{@$content->source_link}}" tabindex="0">Read More</a>
                         <div class="city_blog_icon_list">
@@ -93,7 +93,7 @@
             <div class="city_blog_text">
                 <span @auth contenteditable="true" @endauth>Community</span>
                 <h4 @auth contenteditable="true" @endauth>Animal Control</h4>
-                <p contenteditable="true">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctornisi elit.</p>
+                <p @auth contenteditable="true" @endauth>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctornisi elit.</p>
                 <div class="city_blog_social">
                     <a class="theam_btn border-color color" href="#" tabindex="0">Read More</a>
                     <div class="city_blog_icon_list">
