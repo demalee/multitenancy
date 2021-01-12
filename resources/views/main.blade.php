@@ -58,6 +58,50 @@
                             </div>
                         </div>
                     </div></div></div>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-lg-12 xl-100 box-col-12">
+            <div class="row total-sale-col">
+                <div class="col-xl-12 box-col-12 xl-100">
+                    <div class="row">
+                        <div class="col-12 xl-100">
+                            <div class="card card-with-border welcome-card o-hidden">
+                                <img class="main" src="https://laravel.pixelstrap.com/xolo/assets/images/dashboard/welcome.png" alt="" style="height: 500px">
+                                <div class="card-header card-no-border o-hidden total-sale-widget">
+                                    <div class="media">
+                                        <div class="media-body">
+                                            <h3 class="f-w-600">Theme editing</h3>
+                                            <ol>
+                                            <li>You have successfully choosen and activated your preffered template</li>
+                                            <p>NB: You can still choose to change your theme by activating the other theme <a href="{{url('/themes')}}">Here</a> </p>
+                                            <li>Click on preview link to edit your website content</li>
+                                            <li>Preview will take you to your activated template page,use widget at the top <br>of the navigation bar to add content.</li>
+                                             <li>Each widget represents the type of content that will be displayed on each page.</li>
+                                            <li>Make sure you activate the widget for each page before using theme <a href="{{route('widgets.create')}}">Here.</a> </li>
+                                            </ol>
+                                        </div>
+                                    </div>
+                                    <div class="media mt-5">
+                                        <div class="media-body">
+
+                                            <h5 class="f-w-400">Website publishing</h5>
+
+                                            <p class="mb-0">If you wish to publish your active website:</p>
+                                            <ol start="1">
+                                                <li>Make sure you have created a subdomain or domain in your server/cpanel </li>
+                                                <li>The created subdomain/domain should merge the domain name given <br>during initial website creation process/steps</li>
+                                                   <li>Click <a href="{{url('dashboard/dns')}}"> here </a>to navigate to activation page</li>
+                                                <li>If successfully activated ,you will see a success message </li>
+                                                <li>Navigate to the domain name in the browser,the published website should be functional</li>
+                                                <li>To update the changes, login as admin to the dashboard using the credentials you used to login to multisite dashboard</li>
+
+                                            </ol>
+                                        </div>
+                                    </div>
+                                </div><a class="btn btn-primary" href="{{url('dashboard/dns')}}">Publish your website
+                                </a>
+                            </div>
+                        </div>
     <!-- Container-fluid starts-->
 {{--    <div class="container-fluid">--}}
 {{--        <div class="row">--}}

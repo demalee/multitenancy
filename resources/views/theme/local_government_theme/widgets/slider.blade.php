@@ -16,7 +16,7 @@
             <img src="{{asset('images/'.$content->content_image)}}" alt="" style="height: 700px">
             <div class="banner_text">
                 <div class="small_text animated"@auth contenteditable="true" @endauth>Welcome to</div>
-                <div class="large_text animated">{{$content->title}}<div class="medium_text animated" contenteditable="true">{{$content->title}}</div>
+                <div class="large_text animated">{{$content->title}}<div class="medium_text animated" @auth contenteditable="true" @endauth>{{$content->title}}</div>
                     <div class='console-underscore' id='console'>&#95;</div></div>
                 <div class="banner_btn">
                     <center><a class="theam_btn animated" href="{{@$content->source_link}}">Read More</a></center>

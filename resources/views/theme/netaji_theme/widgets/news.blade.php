@@ -17,7 +17,7 @@
                             <div class="blog-img">
                                 <a href="{{@$content->source_link}}"><img src="{{asset('images/'.$content->content_image)}}" alt="" /></a>
                                 <div class="blog-text">
-                                    <span contenteditable="true">{{\Carbon\Carbon::parse(@$content->source_date)->format('d F Y')}}</span>
+                                    <span @auth contenteditable="true" @endauth>{{\Carbon\Carbon::parse(@$content->source_date)->format('d F Y')}}</span>
                                     <h2><a href="{{@$content->source_link}}" @auth contenteditable="true" @endauth>{{\Illuminate\Support\Str::limit(@$content->description,100,'...')}}</a></h2>
                                     <a href="{{@$content->source_link}}">read more</a>
                                 </div>
@@ -50,7 +50,7 @@
                             <a href="{{url('blog')}}"><img src="{{asset('theme/netaji/img/blog/blog1.jpg')}}" alt="" /></a>
                             <div class="blog-text">
                                 <span @auth contenteditable="true" @endauth>05 december 2018</span>
-                                <h2><a href="{{url('blog')}}" contenteditable="true">Form Design Patterns Book Excerpt Registration</a></h2>
+                                <h2><a href="{{url('blog')}}" @auth contenteditable="true" @endauth>Form Design Patterns Book Excerpt Registration</a></h2>
                                 <a href="{{url('blog')}}">read more</a>
                             </div>
                         </div>

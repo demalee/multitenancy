@@ -1,8 +1,11 @@
 
 @guest
-    <div class="header-right-btn d-none d-lg-block ml-40">
-        <a href="{{url('login')}}" class="btn"><i class="fas fa-user"></i>Login</a>
-    </div>
+
+    <li>  <a href="{{url('login')}}" class="btn">Login</a></li>
+
+
+    <li>   <a href="{{url('login')}}" class="btn">sign up</a></li>
+
 @endguest
 @auth
 

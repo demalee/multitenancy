@@ -22,11 +22,11 @@
                         </div>
                         <div class="city_date_text">
                             <h5 class="custom_size" @auth contenteditable="true" @endauth>{{@$content->title}}</h5>
-                            <a href="#"><i class="fa fa-clock-o" contenteditable="true"></i>{{@$content->start_time}} - {{@$content->end_time}}</a>
+                            <a href="#"><i class="fa fa-clock-o" @auth contenteditable="true" @endauth></i>{{@$content->start_time}} - {{@$content->end_time}}</a>
                         </div>
                     </div>
-                    <p contenteditable="true">{{\Illuminate\Support\Str::limit(@$content->description,150,'...')}}</p>
-                    <a href="{{@$content->source_link}}" contenteditable="true">  <span>Read More</span></a>
+                    <p @auth contenteditable="true" @endauth>{{\Illuminate\Support\Str::limit(@$content->description,150,'...')}}</p>
+                    <a href="{{@$content->source_link}}" @auth contenteditable="true" @endauth>  <span>Read More</span></a>
                 </div>
             </div>
         </div>
@@ -54,7 +54,7 @@
                     </div>
                     <div class="city_date_text">
                         <h5 class="custom_size" @auth contenteditable="true" @endauth>Mayor Conferences</h5>
-                        <a href="#"><i class="fa fa-clock-o" contenteditable="true"></i>05:23 AM - 09:23 AM </a>
+                        <a href="#"><i class="fa fa-clock-o" @auth contenteditable="true" @endauth></i>05:23 AM - 09:23 AM </a>
                     </div>
                 </div>
                 <p @auth contenteditable="true" @endauth>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean..</p>
