@@ -130,7 +130,7 @@ $env_update = $this->changeEnv('/public/websites/'.$folder_name.'/.env',[
         {
             $user = auth()->id();
             $web = WebsiteUser::where('user_id',$user)->first();
-            $website = Website::where('id', $web->website_id)->first();
+            $website = Website::where('id', @$web->website_id)->first();
         }
         else
         {

@@ -38,7 +38,7 @@ class PageController extends Controller
         {
             $user = auth()->id();
             $web = WebsiteUser::where('user_id',$user)->first();
-            $website = Website::where('id', $web->website_id)->first();
+            $website = Website::where('id', @$web->website_id)->first();
         }
         else
         {
