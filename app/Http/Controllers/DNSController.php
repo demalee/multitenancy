@@ -56,17 +56,18 @@ class DNSController extends Controller
         {
             //generate website folders if they dont exist
             $out = shell_exec('./website_script.sh '.$folder_name);
-
+//	 $output2 = exec('./certbort.sh '.$website->name);
+//	 $output2 = exec("certbot certonly --webroot -w /var/www/html -d ".$website->name." --config-dir /var/www/html/ssl --work-dir /var/www/html/ssl --logs-dir /var/www/html/ssl"); 
             $output1 = shell_exec('./generate.sh '.$website->name. ' '. $folder_name);
             $website->update([
-                'status_active'=>1
+                'status_active'=>0
             ]);
 
-            $env_update = $this->changeEnv('/public/websites/'.$folder_name.'/.env',[
+$env_update = $this->changeEnv('/public/websites/'.$folder_name.'/.env',[
                 'APP_URL'   => 'http://'.$website->name,
             ]);
+//		$this->set_env('AP_URL','http://'.$website->name,'/var/www/html/multitenancy/public/websites/'.$folder_name.'/.env');
 
-//            shell_exec('mv  '.$website->name.' /etc/nginx/sites-enabled/');
             return back()->with('success', "successfully pinged");
         }
     }
