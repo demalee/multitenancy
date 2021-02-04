@@ -18,7 +18,7 @@ class EnsureWebsiteIsFound
      */
     public function handle(Request $request, Closure $next)
     {
-        if ($request->root() != 'https://webcreate.co.ke')
+        if ($request->root() != 'https://webcreate.co.ke' or https://multisite.berrycom.co.ke/)
         {
             $actionName =Route::currentRouteName();
             if ($actionName == 'welcome')

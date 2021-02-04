@@ -60,7 +60,7 @@ class DNSController extends Controller
 //	 $output2 = exec("certbot certonly --webroot -w /var/www/html -d ".$website->name." --config-dir /var/www/html/ssl --work-dir /var/www/html/ssl --logs-dir /var/www/html/ssl"); 
             $output1 = shell_exec('./generate.sh '.$website->name. ' '. $folder_name);
             $website->update([
-                'status_active'=>0
+                'status_active'=>1
             ]);
 
 $env_update = $this->changeEnv('/public/websites/'.$folder_name.'/.env',[
