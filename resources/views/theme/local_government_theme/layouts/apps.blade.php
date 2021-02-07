@@ -137,6 +137,7 @@
         .city_top_news span,
         .city_top_navigation:before
         {
+            color: {{@$website_setting->font_color}} !important;
             background-color: {{@$website_setting->brand_color}} !important;
         }
 
@@ -224,9 +225,7 @@
         .city_service_text h5 a:hover,
         .banner_search_field a
         {
-            {{--color:{{$website_setting->font_color}} !important;--}}
-             --switch: calc((var(--light) - var(--threshold)) * -100%);
-            color: hsl(0, 0%, var(--switch)) !important;
+            color:{{@$website_setting->font_color}} !important;
         }
 
 

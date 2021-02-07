@@ -66,7 +66,20 @@
                                         <div class="col-sm-9">
                                             <input class="form-control" type="color" name="brand_color" value="{{$setting->brand_color}}">
                                         </div>
-                                    </div></div></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col">
+                                    <div class="form-group row">
+                                        <label class="col-sm-3 col-form-label pt-0">Text Color</label>
+                                        <div class="col-sm-9">
+                                            <input class="form-control" type="color" name="font_color" value="{{$setting->font_color}}">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
 
                         </div>
                         <div class="card-footer">
