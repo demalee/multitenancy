@@ -11,3 +11,5 @@ Homestead.yaml
 npm-debug.log
 yarn-error.log
 /public/.certbort.sh
+/public/websites
+/public/website_script.sh

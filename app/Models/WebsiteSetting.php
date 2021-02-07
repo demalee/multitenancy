@@ -14,5 +14,6 @@ class WebsiteSetting extends Model
         'brand_name',
         'brand_color',
         'logo_name',
+        'font_color'
     ];
 }

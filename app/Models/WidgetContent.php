@@ -27,7 +27,9 @@ class WidgetContent extends Model
         'website_id',
         'source_date',
         'start_time',
-        'end_time'
+        'end_time',
+        'bg_color',
+        'font_color'
         ];
 
     public function widget()

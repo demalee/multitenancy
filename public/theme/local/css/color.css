@@ -3,6 +3,13 @@
 		   Font Color
 	  ============================================================
 */
+:root {
+    --light: 80;
+    /* the threshold at which colors are considered "light." Range: integers from 0 to 100,
+  recommended 50 - 70 */
+    --threshold: 60;
+}
+
 .city_forget:hover,
 .city_checkout_list li a:hover,
 .dl-menuwrapper li a:hover,

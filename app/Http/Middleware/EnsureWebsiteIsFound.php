@@ -19,6 +19,7 @@ class EnsureWebsiteIsFound
     public function handle(Request $request, Closure $next)
     {
         if ($request->root() != 'https://webcreate.co.ke')
+//        if ($request->root() != 'http://127.0.0.1:8001')
         {
             $actionName =Route::currentRouteName();
             if ($actionName == 'welcome')

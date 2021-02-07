@@ -31,7 +31,7 @@ class FaviconServiceProvider extends ServiceProvider
     public function boot()
     {
         //
-        $route = Config::get('THEME_LAYOUTS').'app';
+        $route = Config::get('THEME_LAYOUTS').'apps';
         $this->navigationComposer($route);
     }
 
