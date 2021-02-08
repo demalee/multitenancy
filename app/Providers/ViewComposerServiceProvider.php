@@ -11,6 +11,7 @@ use App\Models\WebsiteSetting;
 use App\Models\WebsiteUser;
 use Illuminate\Support\Facades\Config;
 use Illuminate\Support\ServiceProvider;
+use Illuminate\Support\Str;
 
 class ViewComposerServiceProvider extends ServiceProvider
 {
@@ -63,9 +64,29 @@ class ViewComposerServiceProvider extends ServiceProvider
 
     public function getWebsite()
     {
-        $user = auth()->id();
-        $website = WebsiteUser::where('user_id',$user)->first();
-        return @$website->website_id;
+        if (auth()->user())
+        {
+            $user = auth()->id();
+            $web = WebsiteUser::where('user_id',$user)->first();
+            $website = Website::where('id', $web->website_id)->first();
+        }
+        else
+        {
+            $app_url = env('APP_URL');
+//        $app_url = request()->root();
+            if (Str::startsWith($app_url, 'http://'))
+            {
+                $domain = substr ($app_url, 7); // $domain is now 'www.example.com'
+            }
+            elseif (Str::startsWith($app_url,'https://'))
+            {
+                $domain = substr ($app_url, 8); // $domain is now 'www.example.com'
+            }
+
+            $website = Website::where('name',$domain)->first();
+        }
+
+        return @$website->id;
     }
 
 
