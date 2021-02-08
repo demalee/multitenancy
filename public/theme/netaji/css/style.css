@@ -1,4 +1,4 @@
-/*
+    /*
   Theme Name: Netaji - Political & Election HTML5 Template
   Description: Political & Election HTML5 Template
   Version: 1.0
@@ -112,7 +112,7 @@ h6 {
 	margin-top: 0px;
 	font-style: normal;
 	font-weight: 400;
-	text-transform: normal;
+	text-transform: none;
 }
 h1 a,
 h2 a,
@@ -3467,7 +3467,7 @@ input.cart-plus-minus-box {
 	background: none;
 	text-transform: capitalize;
 }
-}
+
 #contact1-form input::-moz-placeholder {
   color: #666666;
   font-size: 16px;

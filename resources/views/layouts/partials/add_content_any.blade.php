@@ -68,6 +68,20 @@
                             </div>
 
                         </div>
+
+{{--                        <div class="col-md-6">--}}
+{{--                            <div class="form-group">--}}
+{{--                                <label class="col-form-label" for="title">Background color</label>--}}
+{{--                                <input class="form-control"  name="bg_color" type="color" value="#fffff">--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+
+{{--                        <div class="col-md-6">--}}
+{{--                            <div class="form-group">--}}
+{{--                                <label class="col-form-label" for="title">Text color</label>--}}
+{{--                                <input class="form-control"  name="font_color" type="color" value="#111">--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
                     </div>
                     <br>
 

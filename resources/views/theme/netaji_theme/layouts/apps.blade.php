@@ -40,6 +40,76 @@
     <link rel="stylesheet" href="theme/netaji/css/default.css">
     <link rel="stylesheet" href="theme/netaji/css/style.css">
     <link rel="stylesheet" href="theme/netaji/css/responsive.css">
+
+    <style>
+        #scrollUp,
+        .black2-menu .bar1,
+        .black2-menu .bar2,
+        .black2-menu .menu-bar .bar3,
+        .sticky,
+        .black-menu .main-menu > nav > ul > li > a::before,
+        .black2-menu .main-menu > nav > ul > li > a::before,
+        .section-title h1::before,
+        .feature-content,
+        .volunteer4-text h1::before,
+        .black-subscribe .subscribe-title h1::before,
+        .subscribe-form form button,
+        .footer-info h3::before,
+        .footer-title::before,
+        .footer-img a::before,
+        .donation11-text h1::before,
+        about-me-text h2::before,
+        .about2-me-text h2::before,
+        .about-me-content h1::before,
+        .features-info-text h1:before,
+        .video2-text h1::before,
+        .latest-news-text h4::before,
+        .events-meta span,
+        .become-volunteer-text h1::before,
+        .issue-details-text h2::before,
+        .issue-title h1::before,
+        .faq-text h1::before,
+        .blog-menu li::before,
+        .contact-title::before,
+        .donation-details-info h1::before,
+        .donation-details-content a.btn
+        {
+            background-color:{{@$website_setting->brand_color}}!important; ;
+        }
+
+    /*    text color */
+
+        .close-icon > button,
+        .social-icon-right > a:hover,
+        .side-menu ul li:hover a,
+        .header-text span i,
+        .feature-info p a,
+        .footer-text p,
+        .footer-text span,
+        .about-me-text span,
+        .about-me-text a.btn,
+        .about2-me-text span,
+        .features-info-text span,
+        .video-text span,
+        .portfolio-menu button:hover,
+        .portfolio-menu button.active,
+        .events-count .time-count,
+        .events-text h3 a:hover,
+        .event-list-text h2 a:hover,
+        .events-deatils-meta span i,
+        .blog-post-tag > a:hover,
+        .sidebar-form form button:hover,
+        .sidebar-rc-post .rc-post-content h4 a:hover,
+        #contact-form .btn,
+        #contact1-form .btn,
+        .donation-forms-meta span i
+        {
+            color: {{@$website_setting->font_color}}!important;
+        }
+
+    /*    border colors */
+
+    </style>
 </head>
 <body>
 <!--[if lte IE 9]>

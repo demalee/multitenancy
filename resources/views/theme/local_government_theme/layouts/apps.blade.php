@@ -135,7 +135,8 @@
         .banner_text,
         .city_top_navigation,
         .city_top_news span,
-        .city_top_navigation:before
+        .city_top_navigation:before,
+        .sab_banner.overlay:before
         {
             color: {{@$website_setting->font_color}} !important;
             background-color: {{@$website_setting->brand_color}} !important;

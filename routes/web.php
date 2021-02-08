@@ -1,7 +1,9 @@
 <?php
 
+use App\Models\Page;
 use App\Models\Theme;
 use App\Models\WebsiteUser;
+use App\Models\Widget;
 use Illuminate\Support\Facades\Config;
 use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
@@ -154,9 +156,12 @@ Route::post('pages/image_upload', [App\Http\Controllers\Backend\PagesController:
 //custom pages views
 Route::get('{page}',function ($slug)
 {
-    $page = \App\Models\Page::findBySlug($slug);
+    $page_id = \App\Models\Page::findBySlug($slug);
     $route = Config::get('THEME_PAGES').'default';
-    return view($route,compact('page'));
+    $page_name = $slug;
+    $web = $this->getWebsite();
+    $widgets = Widget::where('website_id',$web)->get();
+    return view($route,compact('page_id','page_name','widgets'));
 });
 
 //menu controller
