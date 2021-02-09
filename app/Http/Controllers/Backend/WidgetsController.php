@@ -117,6 +117,7 @@ class WidgetsController extends Controller
         //
         $data = $request->all();
         if ($data['submit'] == 'store_widget') {
+
             $widget = Widget::create([
                 'name' => $data['name'],
                 'theme_id' => $this->theme_id,
@@ -205,7 +206,9 @@ class WidgetsController extends Controller
             'widget_id' => $data['widget_id'],
             'source_date'=>Carbon::parse(@$data['source_date']),
             'start_time'=>@$data['start_time'],
-            'end_time'=>@$data['end_time']
+            'end_time'=>@$data['end_time'],
+            'font_color'=>@$data['font_color'],
+            'bg_color'=>@$data['bg_color']
         ]);
 
         return back()->with('success', 'successfully added content');
@@ -254,7 +257,9 @@ class WidgetsController extends Controller
                 'widget_id' => $id,
                 'source_date'=>Carbon::parse(@$data['source_date']),
                 'start_time'=>@$data['start_time'],
-                'end_time'=>@$data['end_time']
+                'end_time'=>@$data['end_time'],
+                'font_color'=>@$data['font_color'],
+                'bg_color'=>@$data['bg_color']
             ]);
 
             return back()->with('success', 'successfully added content');
@@ -276,7 +281,9 @@ class WidgetsController extends Controller
                 'content_image' => @$data['content_file'],
                 'source_date'=>Carbon::parse(@$data['source_date']),
                 'start_time'=>@$data['start_time'],
-                'end_time'=>@$data['end_time']
+                'end_time'=>@$data['end_time'],
+                'font_color'=>@$data['font_color'],
+                'bg_color'=>@$data['bg_color']
             ]);
 
             return back()->with('success', 'successfully added content');

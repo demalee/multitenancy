@@ -120,6 +120,7 @@ class WebsiteController extends Controller
                 'brand_name'=>@$data['brand_name'],
                 'brand_color'=>@$data['brand_color'],
                 'logo_name'=>@$data['logo_name'],
+                'font_color'=>@$data['font_color']
             ]);
         if ($website_settings)
         {
@@ -295,6 +296,7 @@ class WebsiteController extends Controller
                             'brand_name'=>@$data['brand_name'],
                             'brand_color'=>@$data['brand_color'],
                             'logo_name'=>@$data['logo_name'],
+                            'font_color'=>@$data['font_color']
                         ]);
 
 //                    $web_arr = explode('.',$website->name);

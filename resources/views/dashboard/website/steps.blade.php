@@ -177,6 +177,11 @@
                                                 <label for="email">Brand Color</label>
                                             <input class="form-control"  id="brand_color" type="color" name="brand_color" value="#563d7c">
                                             </div>
+
+                                        <div class="form-group">
+                                            <label for="email">Font Color</label>
+                                            <input class="form-control"  id="font_color" type="color" name="font_color" value="#fffff">
+                                        </div>
                             </div>
                         </div>
 
